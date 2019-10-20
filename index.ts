@@ -77,13 +77,14 @@ async function boot() {
           angle + rotation * STARSHIP_ROTATION * (UPDATE_INTERVAL / 1000);
       }
     }
-    starship.x = starship.x + starship.velocity.x * (UPDATE_INTERVAL / 1000);
-    starship.y = starship.y + starship.velocity.y * (UPDATE_INTERVAL / 1000);
+    starship.position.x =
+      starship.position.x + starship.velocity.x * (UPDATE_INTERVAL / 1000);
+    starship.position.y =
+      starship.position.y + starship.velocity.y * (UPDATE_INTERVAL / 1000);
     pubsub.publish(
       "spaceshipCoordinateUpdate",
       new CoordinateNotification(
-        starship.x,
-        starship.y,
+        starship.position,
         starship.angle,
         starship.velocity,
         starship.thrusting

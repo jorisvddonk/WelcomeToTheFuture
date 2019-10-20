@@ -1,31 +1,26 @@
 import { Field, ObjectType } from "type-graphql";
 import { IPosRot } from "../universe/IPosRot";
-import { Velocity } from "./Velocity";
+import { Vector } from "./Vector";
 
 @ObjectType()
 export class CoordinateNotification implements IPosRot {
   constructor(
-    x: number,
-    y: number,
+    position: Vector,
     angle: number,
-    velocity: Velocity,
+    velocity: Vector,
     thrusting: boolean
   ) {
-    this.x = x;
-    this.y = y;
+    this.position = position;
     this.angle = angle;
     this.velocity = velocity;
     this.thrusting = thrusting;
   }
 
-  @Field()
-  x: number;
+  @Field(type => Vector)
+  position: Vector;
 
-  @Field()
-  y: number;
-
-  @Field(type => Velocity)
-  velocity: Velocity;
+  @Field(type => Vector)
+  velocity: Vector;
 
   @Field()
   angle: number;

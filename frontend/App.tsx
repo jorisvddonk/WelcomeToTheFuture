@@ -36,8 +36,10 @@ export default class App extends React.Component<any, any> {
         query: gql`
           subscription {
             newNotification {
-              x
-              y
+              position {
+                x
+                y
+              }
               angle
               thrusting
               velocity {
@@ -53,8 +55,8 @@ export default class App extends React.Component<any, any> {
           spaceship: {
             ...this.state.spaceship,
             position: {
-              x: x.data.newNotification.x,
-              y: x.data.newNotification.y
+              x: x.data.newNotification.position.x,
+              y: x.data.newNotification.position.y
             },
             velocity: {
               x: x.data.newNotification.velocity.x,

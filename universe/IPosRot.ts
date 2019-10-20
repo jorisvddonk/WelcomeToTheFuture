@@ -1,6 +1,7 @@
+import { Vector } from "../starship/Vector";
+
 export interface IPos {
-  x: number;
-  y: number;
+  position: Vector;
 }
 
 export interface IRot {

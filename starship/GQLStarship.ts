@@ -1,14 +1,13 @@
 import { ObjectType, Field } from "type-graphql";
 import { IPosRot } from "../universe/IPosRot";
-import { Velocity } from "./Velocity";
+import { Vector } from "./Vector";
 
 @ObjectType()
 export class GQLStarship implements IPosRot {
   constructor(name?: string) {
-    this.x = 0;
-    this.y = 0;
+    this.position = new Vector(0, 0);
     this.angle = 0;
-    this.velocity = new Velocity(0, 0);
+    this.velocity = new Vector(0, 0);
     this.thrusting = false;
     this.desiredAngle = this.angle;
 
@@ -22,14 +21,11 @@ export class GQLStarship implements IPosRot {
   @Field()
   name!: string;
 
-  @Field()
-  x: number;
+  @Field(type => Vector)
+  position: Vector;
 
-  @Field()
-  y: number;
-
-  @Field(type => Velocity)
-  velocity: Velocity;
+  @Field(type => Vector)
+  velocity: Vector;
 
   @Field()
   angle: number;

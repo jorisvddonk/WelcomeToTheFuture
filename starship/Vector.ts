@@ -1,7 +1,7 @@
 import { ObjectType, Field } from "type-graphql";
 
 @ObjectType()
-export class Velocity {
+export class Vector {
   constructor(x: number, y: number) {
     this.x = x;
     this.y = y;

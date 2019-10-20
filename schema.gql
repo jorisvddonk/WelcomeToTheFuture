@@ -4,9 +4,8 @@
 # -----------------------------------------------
 
 type CoordinateNotification {
-  x: Float!
-  y: Float!
-  velocity: Velocity!
+  position: Vector!
+  velocity: Vector!
   angle: Float!
   thrusting: Boolean!
 }
@@ -41,9 +40,8 @@ type GQLStar {
 
 type GQLStarship {
   name: String!
-  x: Float!
-  y: Float!
-  velocity: Velocity!
+  position: Vector!
+  velocity: Vector!
   angle: Float!
   thrusting: Boolean!
   desiredAngle: Float!
@@ -68,7 +66,7 @@ type Subscription {
   newNotification: CoordinateNotification!
 }
 
-type Velocity {
+type Vector {
   x: Float!
   y: Float!
 }
