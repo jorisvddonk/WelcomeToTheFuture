@@ -8,6 +8,7 @@ type CoordinateNotification {
   y: Float!
   velocity: Velocity!
   angle: Float!
+  thrusting: Boolean!
 }
 
 type GQLMoon {

@@ -19,7 +19,8 @@ export default class App extends React.Component<any, any> {
           x: 0.0,
           y: 0.0
         },
-        angle: 0
+        angle: 0,
+        thrusting: false
       },
       planets: [
         {
@@ -37,6 +38,7 @@ export default class App extends React.Component<any, any> {
               x
               y
               angle
+              thrusting
               velocity {
                 x
                 y
@@ -57,7 +59,8 @@ export default class App extends React.Component<any, any> {
               x: x.data.newNotification.velocity.x,
               y: x.data.newNotification.velocity.y
             },
-            angle: x.data.newNotification.angle
+            angle: x.data.newNotification.angle,
+            thrusting: x.data.newNotification.thrusting
           }
         });
       });
@@ -111,7 +114,10 @@ export default class App extends React.Component<any, any> {
             })}
           </div>
         </div>
-        <Starship angle={this.state.spaceship.angle} />
+        <Starship
+          angle={this.state.spaceship.angle}
+          thrusting={this.state.spaceship.thrusting}
+        />
       </div>
     );
   }

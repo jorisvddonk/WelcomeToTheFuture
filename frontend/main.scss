@@ -30,6 +30,16 @@ body {
   background-size: 100%;
   z-index: 10;
   position: absolute;
+
+  .thrust {
+    background: url("./assets/kenney/spaceEffects_003.png");
+    background-size: 100%;
+    width: 14px;
+    height: 25px;
+    position: relative;
+    left: calc(50% - 7px);
+    top: calc(100% - 5px);
+  }
 }
 
 .planet {

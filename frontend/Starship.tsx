@@ -2,6 +2,7 @@ import React from "react";
 
 export interface IStarshipProps {
   angle: number;
+  thrusting: boolean;
 }
 
 export default class Starship extends React.Component<IStarshipProps, any> {
@@ -19,7 +20,9 @@ export default class Starship extends React.Component<IStarshipProps, any> {
           height: `${this.spriteHeight}px`,
           transform: `rotate(${this.props.angle}rad)`
         }}
-      ></div>
+      >
+        {this.props.thrusting && <div className="thrust"></div>}
+      </div>
     );
   }
 }

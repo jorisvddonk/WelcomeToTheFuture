@@ -85,7 +85,8 @@ async function boot() {
         starship.x,
         starship.y,
         starship.angle,
-        starship.velocity
+        starship.velocity,
+        starship.thrusting
       )
     );
   }, UPDATE_INTERVAL);

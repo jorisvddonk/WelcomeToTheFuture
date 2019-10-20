@@ -4,11 +4,18 @@ import { Velocity } from "./Velocity";
 
 @ObjectType()
 export class CoordinateNotification implements IPosRot {
-  constructor(x: number, y: number, angle: number, velocity: Velocity) {
+  constructor(
+    x: number,
+    y: number,
+    angle: number,
+    velocity: Velocity,
+    thrusting: boolean
+  ) {
     this.x = x;
     this.y = y;
     this.angle = angle;
     this.velocity = velocity;
+    this.thrusting = thrusting;
   }
 
   @Field()
@@ -22,4 +29,7 @@ export class CoordinateNotification implements IPosRot {
 
   @Field()
   angle: number;
+
+  @Field()
+  thrusting: boolean;
 }
