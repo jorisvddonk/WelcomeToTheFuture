@@ -1,0 +1,32 @@
+.spaceCanvasParent {
+  position: relative;
+}
+
+.spaceCanvas {
+  width: 500px;
+  height: 500px;
+  background: url("./assets//kenney/purple.png");
+  background-repeat: repeat;
+  overflow: hidden;
+  position: relative;
+  z-index: 0;
+}
+
+.spaceObjects {
+  position: absolute;
+  * {
+    position: absolute;
+  }
+}
+
+.starship {
+  background: url("./assets/kenney/spaceRockets_002.png");
+  background-size: 100%;
+  z-index: 10;
+  position: absolute;
+}
+
+.planet {
+  background: url("./assets/kingcreator11/planet1.png");
+  background-size: 100%;
+}
