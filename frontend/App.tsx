@@ -44,7 +44,10 @@ export default class App extends React.Component<any, any> {
       <div className="spaceCanvasParent">
         <div
           className="spaceCanvas"
-          style={{ backgroundPositionX: 10, backgroundPositionY: 10 }}
+          style={{
+            backgroundPositionX: -this.state.spaceship.position.x,
+            backgroundPositionY: -this.state.spaceship.position.y
+          }}
         >
           <div
             className="spaceObjects"
