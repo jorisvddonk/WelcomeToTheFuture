@@ -15,7 +15,6 @@ export class UniverseDAO {
     this.stars.push(solData);
 
     this.starship = new GQLStarship();
-    this.starship.name = "Starship McStarshipface";
   }
 
   getStars() {}
