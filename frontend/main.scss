@@ -43,4 +43,9 @@ body {
 .planet {
   background: url("./assets/kingcreator11/planet1.png");
   background-size: 100%;
+  &.planet-mars {
+    background: url("./assets/kingcreator11/planet2.png");
+    filter: hue-rotate(270deg);
+    background-size: 100%;
+  }
 }
