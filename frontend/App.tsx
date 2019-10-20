@@ -1,6 +1,8 @@
 import React from "react";
 import Starship from "./Starship";
 import Planet from "./Planet";
+import { client } from "./graphqlClient";
+import gql from "graphql-tag";
 
 export default class App extends React.Component<any, any> {
   constructor(props) {
@@ -24,6 +26,31 @@ export default class App extends React.Component<any, any> {
         }
       ]
     };
+
+    client
+      .subscribe({
+        query: gql`
+          subscription {
+            newNotification {
+              x
+              y
+              angle
+            }
+          }
+        `
+      })
+      .forEach(x => {
+        this.setState({
+          spaceship: {
+            ...this.state.spaceship,
+            position: {
+              x: x.data.newNotification.x,
+              y: x.data.newNotification.y
+            },
+            angle: x.data.newNotification.angle
+          }
+        });
+      });
 
     setInterval(() => {
       this.setState({

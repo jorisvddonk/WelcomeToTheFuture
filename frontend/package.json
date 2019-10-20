@@ -27,7 +27,15 @@
   },
   "dependencies": {
     "@types/react": "^16.9.9",
+    "apollo-cache-inmemory": "^1.6.3",
+    "apollo-client": "^2.6.4",
+    "apollo-link": "^1.2.13",
+    "apollo-link-error": "^1.1.12",
+    "apollo-link-http": "^1.5.16",
+    "apollo-link-ws": "^1.0.19",
+    "graphql-tag": "^2.10.1",
     "react": "^16.10.2",
-    "react-dom": "^16.10.2"
+    "react-dom": "^16.10.2",
+    "subscriptions-transport-ws": "^0.9.16"
   }
 }
