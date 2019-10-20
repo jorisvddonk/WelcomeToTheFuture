@@ -13,6 +13,7 @@ async function boot() {
   const pubsub = new PubSub();
   const schema = await buildSchema({
     resolvers: [GQLStarshipResolver, GQLStarResolver, GQLPlanetResolver],
+    emitSchemaFile: true,
     pubSub: pubsub
   });
 
