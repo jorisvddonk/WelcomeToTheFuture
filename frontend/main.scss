@@ -54,6 +54,10 @@ body {
   background: url("./assets/kingcreator11/planet2.png");
   background-size: 100%;
   filter: grayscale(1);
-  filter: grayscale(1);
   transform: scaleX(-1) scaleY(-1);
+}
+
+.star {
+  background: url("./assets/salemf/sun_shiny.png");
+  background-size: 100%;
 }

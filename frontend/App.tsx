@@ -6,6 +6,7 @@ import gql from "graphql-tag";
 import { CANVAS_WIDTH_PX, CANVAS_HEIGHT_PX } from "./consts";
 import Moon from "./Moon";
 import { flatten } from "lodash";
+import Star from "./Star";
 
 export default class App extends React.Component<any, any> {
   private lastTimestamp: number;
@@ -61,6 +62,12 @@ export default class App extends React.Component<any, any> {
         `
       })
       .then(result => {
+        const stars = [result.data.star].map(star => {
+          return {
+            name: star.name,
+            position: star.position
+          };
+        });
         const planets = result.data.star.planets.map(planet => {
           return {
             name: planet.name,
@@ -81,7 +88,8 @@ export default class App extends React.Component<any, any> {
         });
         this.setState({
           planets,
-          moons
+          moons,
+          stars
         });
       });
 
@@ -188,6 +196,16 @@ export default class App extends React.Component<any, any> {
                   y={moon.position.y}
                   diameter={moon.diameter}
                 ></Moon>
+              );
+            })}
+            {this.state.stars.map((star, i) => {
+              return (
+                <Star
+                  key={`star${i}`}
+                  name={star.name}
+                  x={star.position.x}
+                  y={star.position.y}
+                ></Star>
               );
             })}
           </div>
