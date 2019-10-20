@@ -2,15 +2,20 @@ import { readFileSync, statSync } from "fs";
 import { GQLStar } from "./GQLStar";
 import { IStar } from "./IStar";
 import { IBody } from "./IBody";
+import { GQLStarship } from "../starship/GQLStarship";
 
 export class UniverseDAO {
   private stars: IStar[] = [];
+  public starship;
 
   constructor() {
     const solData: IStar = JSON.parse(
       readFileSync(__dirname + "/data/sol.json").toString()
     );
     this.stars.push(solData);
+
+    this.starship = new GQLStarship();
+    this.starship.name = "Starship McStarshipface";
   }
 
   getStars() {}

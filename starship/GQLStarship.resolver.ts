@@ -1,5 +1,6 @@
 import { Query, Arg, Resolver, FieldResolver, Root } from "type-graphql";
 import { GQLStarship } from "./GQLStarship";
+import { Universe } from "../universe/UniverseDAO";
 
 @Resolver(GQLStarship)
 export class GQLStarshipResolver {
@@ -7,6 +8,6 @@ export class GQLStarshipResolver {
 
   @Query(returns => GQLStarship)
   async starship() {
-    return null; // todo
+    return Universe.starship;
   }
 }
