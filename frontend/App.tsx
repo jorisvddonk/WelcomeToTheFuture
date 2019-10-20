@@ -3,6 +3,7 @@ import Starship from "./Starship";
 import Planet from "./Planet";
 import { client } from "./graphqlClient";
 import gql from "graphql-tag";
+import { CANVAS_WIDTH_PX, CANVAS_HEIGHT_PX } from "./consts";
 
 export default class App extends React.Component<any, any> {
   private lastTimestamp: number;
@@ -97,14 +98,18 @@ export default class App extends React.Component<any, any> {
           className="spaceCanvas"
           style={{
             backgroundPositionX: -this.state.spaceship.position.x,
-            backgroundPositionY: -this.state.spaceship.position.y
+            backgroundPositionY: -this.state.spaceship.position.y,
+            width: `${CANVAS_WIDTH_PX}px`,
+            height: `${CANVAS_HEIGHT_PX}px`
           }}
         >
           <div
             className="spaceObjects"
             style={{
-              left: `${250 - this.state.spaceship.position.x}px`,
-              top: `${250 - this.state.spaceship.position.y}px`
+              left: `${CANVAS_WIDTH_PX * 0.5 -
+                this.state.spaceship.position.x}px`,
+              top: `${CANVAS_HEIGHT_PX * 0.5 -
+                this.state.spaceship.position.y}px`
             }}
           >
             {this.state.planets.map((planet, i) => {
