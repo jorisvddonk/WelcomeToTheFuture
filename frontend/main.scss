@@ -16,6 +16,8 @@ body {
   overflow: hidden;
   position: relative;
   z-index: 0;
+  width: 100%;
+  height: 100%;
 }
 
 .spaceObjects {
@@ -74,6 +76,8 @@ body {
 
   > * {
     overflow: hidden;
+    justify-self: stretch;
+    align-self: stretch;
   }
 
   .gql-playground {

@@ -164,9 +164,7 @@ export default class App extends React.Component<any, any> {
             className="spaceCanvas"
             style={{
               backgroundPositionX: -this.state.spaceship.position.x,
-              backgroundPositionY: -this.state.spaceship.position.y,
-              width: `${CANVAS_WIDTH_PX}px`,
-              height: `${CANVAS_HEIGHT_PX}px`
+              backgroundPositionY: -this.state.spaceship.position.y
             }}
           >
             <div
