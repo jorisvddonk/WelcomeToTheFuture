@@ -43,6 +43,7 @@ export default class App extends React.Component<any, any> {
                   x
                   y
                 }
+                diameter
                 moons {
                   name
                   position {
@@ -59,7 +60,8 @@ export default class App extends React.Component<any, any> {
         const planets = result.data.star.planets.map(planet => {
           return {
             name: planet.name,
-            position: planet.position
+            position: planet.position,
+            diameter: planet.diameter / 12756 // earth: 1 diameter
           };
         });
         this.setState({
@@ -157,6 +159,7 @@ export default class App extends React.Component<any, any> {
                   name={planet.name}
                   x={planet.position.x}
                   y={planet.position.y}
+                  diameter={planet.diameter}
                 ></Planet>
               );
             })}

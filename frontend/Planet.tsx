@@ -1,30 +1,23 @@
-import React from "react";
+import Sprite from "./Sprite";
 
 export interface IPlanetProps {
-  x: number;
-  y: number;
-  name: string;
+  diameter: number;
 }
 
-export default class Planet extends React.Component<IPlanetProps, any> {
-  private spriteWidth = 200 * 0.5;
-  private spriteHeight = 200 * 0.5;
-
+export default class Planet extends Sprite<IPlanetProps> {
   constructor(props) {
     super(props);
   }
 
-  render() {
-    return (
-      <div
-        className={["planet", `planet-${this.props.name}`].join(" ")}
-        style={{
-          left: `${this.props.x - this.spriteWidth * 0.5}px`,
-          top: `${this.props.y - this.spriteHeight * 0.5}px`,
-          width: `${this.spriteWidth}px`,
-          height: `${this.spriteHeight}px`
-        }}
-      ></div>
-    );
+  getClassName() {
+    return ["planet", `planet-${this.props.name}`].join(" ");
+  }
+
+  getSpriteWidth() {
+    return 100 * this.props.diameter;
+  }
+
+  getSpriteHeight() {
+    return 100 * this.props.diameter;
   }
 }
