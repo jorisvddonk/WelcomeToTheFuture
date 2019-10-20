@@ -1,6 +1,10 @@
 {
   "name": "Sol",
   "mass": 1.989e30,
+  "position": {
+    "x": 0,
+    "y": 0
+  },
   "bodies": [
     {
       "name": "Earth",
@@ -8,7 +12,11 @@
       "diameter": 12756,
       "gravity": 9.8,
       "length_of_day": 24,
-      "orbital_period": 365.2
+      "orbital_period": 365.2,
+      "position": {
+        "x": -100,
+        "y": 0
+      }
     },
     {
       "name": "Luna",
@@ -17,7 +25,11 @@
       "diameter": 3475,
       "gravity": 1.6,
       "length_of_day": 708.7,
-      "orbital_period": 27.3
+      "orbital_period": 27.3,
+      "position": {
+        "x": 0,
+        "y": 100
+      }
     },
     {
       "name": "Mars",
@@ -25,7 +37,11 @@
       "diameter": 6792,
       "gravity": 3.7,
       "length_of_day": 24.7,
-      "orbital_period": 687
+      "orbital_period": 687,
+      "position": {
+        "x": 100,
+        "y": 0
+      }
     }
   ]
 }

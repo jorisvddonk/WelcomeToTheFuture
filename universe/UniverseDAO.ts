@@ -26,7 +26,8 @@ export class UniverseDAO {
     }
     return {
       name: foundStar.name,
-      mass: foundStar.mass
+      mass: foundStar.mass,
+      position: foundStar.position
     };
   }
 

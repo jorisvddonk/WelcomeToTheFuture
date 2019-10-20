@@ -2,6 +2,7 @@ import { ObjectType, Field } from "type-graphql";
 import { IBody } from "./IBody";
 import { GQLMoon } from "./GQLMoon";
 import { GQLStar } from "./GQLStar";
+import { Vector } from "../starship/Vector";
 
 @ObjectType()
 export class GQLPlanet {
@@ -27,4 +28,7 @@ export class GQLPlanet {
 
   @Field()
   orbital_period!: number;
+
+  @Field(type => Vector)
+  position!: Vector;
 }

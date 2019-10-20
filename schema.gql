@@ -18,6 +18,7 @@ type GQLMoon {
   gravity: Float!
   length_of_day: Float!
   orbital_period: Float!
+  position: Vector!
 }
 
 type GQLPlanet {
@@ -28,6 +29,7 @@ type GQLPlanet {
   gravity: Float!
   length_of_day: Float!
   orbital_period: Float!
+  position: Vector!
   star: GQLStar
   moons: [GQLMoon!]
 }
@@ -35,6 +37,7 @@ type GQLPlanet {
 type GQLStar {
   name: String!
   mass: Float!
+  position: Vector!
   planets: [GQLPlanet!]!
 }
 

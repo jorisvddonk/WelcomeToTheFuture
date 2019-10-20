@@ -23,13 +23,49 @@ export default class App extends React.Component<any, any> {
         angle: 0,
         thrusting: false
       },
-      planets: [
-        {
-          x: 0,
-          y: 0
-        }
-      ]
+      planets: [],
+      stars: []
     };
+
+    client
+      .query({
+        query: gql`
+          query {
+            star(name: "Sol") {
+              name
+              position {
+                x
+                y
+              }
+              planets {
+                name
+                position {
+                  x
+                  y
+                }
+                moons {
+                  name
+                  position {
+                    x
+                    y
+                  }
+                }
+              }
+            }
+          }
+        `
+      })
+      .then(result => {
+        const planets = result.data.star.planets.map(planet => {
+          return {
+            name: planet.name,
+            position: planet.position
+          };
+        });
+        this.setState({
+          planets
+        });
+      });
 
     client
       .subscribe({
@@ -116,7 +152,12 @@ export default class App extends React.Component<any, any> {
           >
             {this.state.planets.map((planet, i) => {
               return (
-                <Planet key={`planet_${i}`} x={planet.x} y={planet.y}></Planet>
+                <Planet
+                  key={`planet_${i}`}
+                  name={planet.name}
+                  x={planet.position.x}
+                  y={planet.position.y}
+                ></Planet>
               );
             })}
           </div>
