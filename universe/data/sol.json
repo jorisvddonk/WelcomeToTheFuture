@@ -1,0 +1,31 @@
+{
+  "name": "Sol",
+  "mass": 1.989e30,
+  "bodies": [
+    {
+      "name": "Earth",
+      "mass": 5.97e24,
+      "diameter": 12756,
+      "gravity": 9.8,
+      "length_of_day": 24,
+      "orbital_period": 365.2
+    },
+    {
+      "name": "Luna",
+      "parent": "Earth",
+      "mass": 0.073e24,
+      "diameter": 3475,
+      "gravity": 1.6,
+      "length_of_day": 708.7,
+      "orbital_period": 27.3
+    },
+    {
+      "name": "Mars",
+      "mass": 0.642e24,
+      "diameter": 6792,
+      "gravity": 3.7,
+      "length_of_day": 24.7,
+      "orbital_period": 687
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "name": "welcometothefuture",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "ts-node-dev index.ts"
+  },
+  "author": "Joris van de Donk <jorisvddonk@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@types/graphql": "^14.5.0",
+    "apollo-server": "^2.9.6",
+    "graphql": "^14.5.8",
+    "reflect-metadata": "^0.1.13",
+    "type-graphql": "^0.17.5"
+  },
+  "devDependencies": {
+    "@types/node": "^12.11.1",
+    "ts-node": "^8.4.1",
+    "ts-node-dev": "^1.0.0-pre.43",
+    "typescript": "^3.6.4"
+  }
+}
