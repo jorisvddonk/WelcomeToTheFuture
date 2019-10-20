@@ -3,6 +3,7 @@ import { GQLStar } from "./GQLStar";
 import { IStar } from "./IStar";
 import { IBody } from "./IBody";
 import { GQLStarship } from "../starship/GQLStarship";
+import { Vector } from "../starship/Vector";
 
 export class UniverseDAO {
   private stars: IStar[] = [];
@@ -17,7 +18,7 @@ export class UniverseDAO {
     this.starship = new GQLStarship();
     const earth = solData.bodies.find(body => body.name === "Earth");
     if (earth !== undefined) {
-      this.starship.position = earth.position;
+      this.starship.position = new Vector(earth.position.x, earth.position.y);
     }
   }
 
