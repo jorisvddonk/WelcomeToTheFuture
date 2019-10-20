@@ -14,7 +14,7 @@
       "length_of_day": 24,
       "orbital_period": 365.2,
       "position": {
-        "x": -100,
+        "x": -400,
         "y": 0
       }
     },
@@ -27,8 +27,8 @@
       "length_of_day": 708.7,
       "orbital_period": 27.3,
       "position": {
-        "x": 0,
-        "y": 100
+        "x": -450,
+        "y": 60
       }
     },
     {
@@ -39,7 +39,7 @@
       "length_of_day": 24.7,
       "orbital_period": 687,
       "position": {
-        "x": 100,
+        "x": 400,
         "y": 0
       }
     }

@@ -15,6 +15,10 @@ export class UniverseDAO {
     this.stars.push(solData);
 
     this.starship = new GQLStarship();
+    const earth = solData.bodies.find(body => body.name === "Earth");
+    if (earth !== undefined) {
+      this.starship.position = earth.position;
+    }
   }
 
   getStars() {}

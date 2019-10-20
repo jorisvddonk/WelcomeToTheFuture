@@ -1,4 +1,5 @@
 import { IStar } from "./IStar";
+import { Vector } from "../starship/Vector";
 
 export interface IBody {
   name: string;
@@ -8,4 +9,5 @@ export interface IBody {
   gravity: number;
   length_of_day: number;
   orbital_period: number;
+  position: Vector;
 }
