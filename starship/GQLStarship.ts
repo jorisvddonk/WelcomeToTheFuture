@@ -8,7 +8,9 @@ export class GQLStarship implements IPosRot {
     this.x = 0;
     this.y = 0;
     this.angle = 0;
-    this.velocity = new Velocity(0, 10);
+    this.velocity = new Velocity(0, 0);
+    this.thrusting = false;
+    this.desiredAngle = this.angle;
 
     if (name !== undefined) {
       this.name = name;
@@ -31,4 +33,10 @@ export class GQLStarship implements IPosRot {
 
   @Field()
   angle: number;
+
+  @Field()
+  thrusting: boolean;
+
+  @Field()
+  desiredAngle: number;
 }

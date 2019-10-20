@@ -1,14 +1,15 @@
 import {
   Query,
-  Arg,
   Resolver,
-  FieldResolver,
   Root,
-  Subscription
+  Subscription,
+  Mutation,
+  Arg
 } from "type-graphql";
 import { GQLStarship } from "./GQLStarship";
 import { Universe } from "../universe/UniverseDAO";
 import { CoordinateNotification } from "./CoordinateNotification";
+import { ManualControl } from "./ManualControl";
 
 @Resolver(GQLStarship)
 export class GQLStarshipResolver {
@@ -26,5 +27,16 @@ export class GQLStarshipResolver {
     @Root() payload: CoordinateNotification
   ): CoordinateNotification {
     return payload;
+  }
+
+  @Mutation()
+  manualControl(@Arg("data") controlDirective: ManualControl): GQLStarship {
+    if (controlDirective.thrusting !== undefined) {
+      Universe.starship.thrusting = controlDirective.thrusting;
+    }
+    if (controlDirective.desiredAngle !== undefined) {
+      Universe.starship.desiredAngle = controlDirective.desiredAngle;
+    }
+    return Universe.starship;
   }
 }

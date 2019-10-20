@@ -44,6 +44,18 @@ type GQLStarship {
   y: Float!
   velocity: Velocity!
   angle: Float!
+  thrusting: Boolean!
+  desiredAngle: Float!
+}
+
+"""Manual control input"""
+input ManualControl {
+  thrusting: Boolean
+  desiredAngle: Float
+}
+
+type Mutation {
+  manualControl(data: ManualControl!): GQLStarship!
 }
 
 type Query {

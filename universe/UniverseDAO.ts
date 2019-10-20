@@ -6,7 +6,7 @@ import { GQLStarship } from "../starship/GQLStarship";
 
 export class UniverseDAO {
   private stars: IStar[] = [];
-  public starship;
+  public starship: GQLStarship;
 
   constructor() {
     const solData: IStar = JSON.parse(
