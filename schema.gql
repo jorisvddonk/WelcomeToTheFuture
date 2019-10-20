@@ -6,6 +6,7 @@
 type CoordinateNotification {
   x: Float!
   y: Float!
+  velocity: Velocity!
   angle: Float!
 }
 
@@ -41,6 +42,7 @@ type GQLStarship {
   name: String!
   x: Float!
   y: Float!
+  velocity: Velocity!
   angle: Float!
 }
 
@@ -51,4 +53,9 @@ type Query {
 
 type Subscription {
   newNotification: CoordinateNotification!
+}
+
+type Velocity {
+  x: Float!
+  y: Float!
 }

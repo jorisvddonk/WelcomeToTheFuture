@@ -5,6 +5,8 @@ import { client } from "./graphqlClient";
 import gql from "graphql-tag";
 
 export default class App extends React.Component<any, any> {
+  private lastTimestamp: number;
+
   constructor(props) {
     super(props);
     this.state = {
@@ -14,10 +16,10 @@ export default class App extends React.Component<any, any> {
           y: 0
         },
         velocity: {
-          x: 0.1,
-          y: 0.01
+          x: 0.0,
+          y: 0.0
         },
-        angle: -1
+        angle: 0
       },
       planets: [
         {
@@ -35,6 +37,10 @@ export default class App extends React.Component<any, any> {
               x
               y
               angle
+              velocity {
+                x
+                y
+              }
             }
           }
         `
@@ -47,24 +53,39 @@ export default class App extends React.Component<any, any> {
               x: x.data.newNotification.x,
               y: x.data.newNotification.y
             },
+            velocity: {
+              x: x.data.newNotification.velocity.x,
+              y: x.data.newNotification.velocity.y
+            },
             angle: x.data.newNotification.angle
           }
         });
       });
 
-    setInterval(() => {
-      this.setState({
-        spaceship: {
-          ...this.state.spaceship,
-          position: {
-            x:
-              this.state.spaceship.position.x + this.state.spaceship.velocity.x,
-            y: this.state.spaceship.position.y + this.state.spaceship.velocity.y
-          }
-        }
-      });
-    }, 0);
+    window.requestAnimationFrame(this.step);
   }
+
+  step = timestamp => {
+    if (!this.lastTimestamp) {
+      this.lastTimestamp = timestamp;
+    }
+    let stepTime = timestamp - this.lastTimestamp;
+    this.setState({
+      spaceship: {
+        ...this.state.spaceship,
+        position: {
+          x:
+            this.state.spaceship.position.x +
+            this.state.spaceship.velocity.x * (stepTime / 1000),
+          y:
+            this.state.spaceship.position.y +
+            this.state.spaceship.velocity.y * (stepTime / 1000)
+        }
+      }
+    });
+    this.lastTimestamp = timestamp;
+    window.requestAnimationFrame(this.step);
+  };
 
   render() {
     return (

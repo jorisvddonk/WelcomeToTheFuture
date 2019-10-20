@@ -9,6 +9,8 @@ import { PubSub } from "graphql-subscriptions";
 import { CoordinateNotification } from "./starship/CoordinateNotification";
 import { Universe } from "./universe/UniverseDAO";
 
+const UPDATE_INTERVAL = 1000;
+
 async function boot() {
   const pubsub = new PubSub();
   const schema = await buildSchema({
@@ -29,15 +31,22 @@ async function boot() {
   });
 
   setInterval(() => {
+    Universe.starship.x =
+      Universe.starship.x +
+      Universe.starship.velocity.x * (UPDATE_INTERVAL / 1000);
+    Universe.starship.y =
+      Universe.starship.y +
+      Universe.starship.velocity.y * (UPDATE_INTERVAL / 1000);
     pubsub.publish(
       "spaceshipCoordinateUpdate",
       new CoordinateNotification(
         Universe.starship.x,
         Universe.starship.y,
-        Universe.starship.angle
+        Universe.starship.angle,
+        Universe.starship.velocity
       )
     );
-  }, 1000);
+  }, UPDATE_INTERVAL);
 }
 
 boot();
