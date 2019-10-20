@@ -7,6 +7,7 @@ import { CANVAS_WIDTH_PX, CANVAS_HEIGHT_PX } from "./consts";
 import Moon from "./Moon";
 import { flatten } from "lodash";
 import Star from "./Star";
+import GQLPlayground from "./GQLPlayground";
 
 export default class App extends React.Component<any, any> {
   private lastTimestamp: number;
@@ -157,63 +158,69 @@ export default class App extends React.Component<any, any> {
 
   render() {
     return (
-      <div className="spaceCanvasParent">
-        <div
-          className="spaceCanvas"
-          style={{
-            backgroundPositionX: -this.state.spaceship.position.x,
-            backgroundPositionY: -this.state.spaceship.position.y,
-            width: `${CANVAS_WIDTH_PX}px`,
-            height: `${CANVAS_HEIGHT_PX}px`
-          }}
-        >
+      <div className="main">
+        <div className="spaceCanvasParent">
           <div
-            className="spaceObjects"
+            className="spaceCanvas"
             style={{
-              left: `${CANVAS_WIDTH_PX * 0.5 -
-                this.state.spaceship.position.x}px`,
-              top: `${CANVAS_HEIGHT_PX * 0.5 -
-                this.state.spaceship.position.y}px`
+              backgroundPositionX: -this.state.spaceship.position.x,
+              backgroundPositionY: -this.state.spaceship.position.y,
+              width: `${CANVAS_WIDTH_PX}px`,
+              height: `${CANVAS_HEIGHT_PX}px`
             }}
           >
-            {this.state.planets.map((planet, i) => {
-              return (
-                <Planet
-                  key={`planet_${i}`}
-                  name={planet.name}
-                  x={planet.position.x}
-                  y={planet.position.y}
-                  diameter={planet.diameter}
-                ></Planet>
-              );
-            })}
-            {this.state.moons.map((moon, i) => {
-              return (
-                <Moon
-                  key={`moon_${i}`}
-                  name={moon.name}
-                  x={moon.position.x}
-                  y={moon.position.y}
-                  diameter={moon.diameter}
-                ></Moon>
-              );
-            })}
-            {this.state.stars.map((star, i) => {
-              return (
-                <Star
-                  key={`star${i}`}
-                  name={star.name}
-                  x={star.position.x}
-                  y={star.position.y}
-                ></Star>
-              );
-            })}
+            <div
+              className="spaceObjects"
+              style={{
+                left: `${CANVAS_WIDTH_PX * 0.5 -
+                  this.state.spaceship.position.x}px`,
+                top: `${CANVAS_HEIGHT_PX * 0.5 -
+                  this.state.spaceship.position.y}px`
+              }}
+            >
+              {this.state.planets.map((planet, i) => {
+                return (
+                  <Planet
+                    key={`planet_${i}`}
+                    name={planet.name}
+                    x={planet.position.x}
+                    y={planet.position.y}
+                    diameter={planet.diameter}
+                  ></Planet>
+                );
+              })}
+              {this.state.moons.map((moon, i) => {
+                return (
+                  <Moon
+                    key={`moon_${i}`}
+                    name={moon.name}
+                    x={moon.position.x}
+                    y={moon.position.y}
+                    diameter={moon.diameter}
+                  ></Moon>
+                );
+              })}
+              {this.state.stars.map((star, i) => {
+                return (
+                  <Star
+                    key={`star${i}`}
+                    name={star.name}
+                    x={star.position.x}
+                    y={star.position.y}
+                  ></Star>
+                );
+              })}
+            </div>
           </div>
+          <Starship
+            angle={this.state.spaceship.angle}
+            thrusting={this.state.spaceship.thrusting}
+          />
         </div>
-        <Starship
-          angle={this.state.spaceship.angle}
-          thrusting={this.state.spaceship.thrusting}
-        />
+        <GQLPlayground />
+        <div className="info">
+          <p>Info goes here</p>
+        </div>
       </div>
     );
   }

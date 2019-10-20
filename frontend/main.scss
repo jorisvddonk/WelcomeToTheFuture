@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700|Source+Code+Pro:400,700");
+
 body {
   background: #434;
   padding: 0px;
@@ -60,4 +62,30 @@ body {
 .star {
   background: url("./assets/salemf/sun_shiny.png");
   background-size: 100%;
+}
+
+.main {
+  display: grid;
+  grid-template-areas:
+    "map playground"
+    "info playground";
+  grid-template-columns: 500px auto;
+  grid-template-rows: 500px auto;
+
+  > * {
+    overflow: hidden;
+  }
+
+  .gql-playground {
+    grid-area: playground;
+  }
+
+  .spaceCanvasParent {
+    grid-area: map;
+  }
+
+  .info {
+    grid-area: info;
+    background-color: #000;
+  }
 }
