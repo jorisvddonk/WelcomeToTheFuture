@@ -34,6 +34,7 @@
     "apollo-link-http": "^1.5.16",
     "apollo-link-ws": "^1.0.19",
     "graphql-tag": "^2.10.1",
+    "lodash": "^4.17.15",
     "react": "^16.10.2",
     "react-dom": "^16.10.2",
     "subscriptions-transport-ws": "^0.9.16"

@@ -49,3 +49,11 @@ body {
     background-size: 100%;
   }
 }
+
+.moon {
+  background: url("./assets/kingcreator11/planet2.png");
+  background-size: 100%;
+  filter: grayscale(1);
+  filter: grayscale(1);
+  transform: scaleX(-1) scaleY(-1);
+}
