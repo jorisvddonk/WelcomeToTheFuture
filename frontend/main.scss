@@ -13,9 +13,13 @@ body {
 .spaceCanvas {
   background: url("./assets/kenney/purple.png");
   background-repeat: repeat;
-  overflow: hidden;
   position: relative;
   z-index: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.spaceUniverse {
   width: 100%;
   height: 100%;
 }
