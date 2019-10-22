@@ -10,4 +10,5 @@ export interface IBody {
   length_of_day: number;
   orbital_period: number;
   position: Vector;
+  distance_from_parent: number;
 }

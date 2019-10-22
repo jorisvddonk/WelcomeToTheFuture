@@ -1,6 +1,6 @@
 {
   "name": "Sol",
-  "mass": 1.989e30,
+  "mass": 1.989e+30,
   "position": {
     "x": 0,
     "y": 0
@@ -8,121 +8,121 @@
   "bodies": [
     {
       "name": "Earth",
-      "mass": 5.97e24,
+      "mass": 5.97e+24,
       "diameter": 12756,
       "gravity": 9.8,
       "length_of_day": 24,
       "orbital_period": 365.2,
       "position": {
-        "x": -400,
-        "y": 0
+        "x": 229.28798542642247,
+        "y": 970.6187704330009
       },
-      "distance_from_parent": 149.6e6
-    },
-    {
-      "name": "Luna",
-      "parent": "Earth",
-      "mass": 0.073e24,
-      "diameter": 3475,
-      "gravity": 1.6,
-      "length_of_day": 708.7,
-      "orbital_period": 27.3,
-      "position": {
-        "x": -450,
-        "y": 60
-      },
-      "distance_from_parent": 0.384e6
+      "distance_from_parent": 149600000
     },
     {
       "name": "Mars",
-      "mass": 0.642e24,
+      "mass": 6.42e+23,
       "diameter": 6792,
       "gravity": 3.7,
       "length_of_day": 24.7,
       "orbital_period": 687,
       "position": {
-        "x": 400,
-        "y": 0
+        "x": -1229.9941552466348,
+        "y": 891.9014271974761
       },
-      "distance_from_parent": 227.9e6
+      "distance_from_parent": 227900000
     },
     {
       "name": "Mercury",
-      "mass": 0.33e24,
+      "mass": 3.3e+23,
       "diameter": 4879,
       "gravity": 3.7,
       "length_of_day": 4222,
       "orbital_period": 88,
       "position": {
-        "x": 2,
-        "y": 0
+        "x": 183.14481383349357,
+        "y": 339.78519268192804
       },
-      "distance_from_parent": 57.9e6
+      "distance_from_parent": 57900000
     },
     {
       "name": "Venus",
-      "mass": 4.87e24,
+      "mass": 4.87e+24,
       "diameter": 12104,
       "gravity": 8.9,
       "length_of_day": 2802,
       "orbital_period": 224.7,
       "position": {
-        "x": 0,
-        "y": 0
+        "x": 76.18715458068596,
+        "y": 717.2986095446417
       },
-      "distance_from_parent": 108.2e6
+      "distance_from_parent": 108200000
     },
     {
       "name": "Jupiter",
-      "mass": 1898e24,
+      "mass": 1.898e+27,
       "diameter": 142984,
       "gravity": 23.1,
       "length_of_day": 9.9,
       "orbital_period": 4331,
       "position": {
-        "x": 0,
-        "y": 0
+        "x": 4282.035399881856,
+        "y": -2933.8018471947066
       },
-      "distance_from_parent": 778.6e6
+      "distance_from_parent": 778600000
     },
     {
       "name": "Saturn",
-      "mass": 568e24,
+      "mass": 5.68e+26,
       "diameter": 120536,
       "gravity": 9,
       "length_of_day": 10.7,
       "orbital_period": 10747,
       "position": {
-        "x": 0,
-        "y": 0
+        "x": -8530.020836166388,
+        "y": -4309.1324315162365
       },
-      "distance_from_parent": 1433.5e6
+      "distance_from_parent": 1433500000
     },
     {
       "name": "Uranus",
-      "mass": 102e24,
+      "mass": 1.02e+26,
       "diameter": 51118,
       "gravity": 8.7,
       "length_of_day": 17.2,
       "orbital_period": 30589,
       "position": {
-        "x": 0,
-        "y": 0
+        "x": 19149.164269817757,
+        "y": 178.90714780286388
       },
-      "distance_from_parent": 2872.5e6
+      "distance_from_parent": 2872500000
     },
     {
       "name": "Neptune",
-      "mass": 0.0e24,
+      "mass": 0,
       "diameter": 49528,
       "gravity": 11,
       "length_of_day": 16.1,
       "orbital_period": 59800,
       "position": {
-        "x": 0,
-        "y": 0
+        "x": 5592.567031926485,
+        "y": -29440.860400207737
       },
-      "distance_from_parent": 4495.1e6
+      "distance_from_parent": 4495100000
+    },
+    {
+      "name": "Luna",
+      "parent": "Earth",
+      "mass": 7.3e+22,
+      "diameter": 3475,
+      "gravity": 1.6,
+      "length_of_day": 708.7,
+      "orbital_period": 27.3,
+      "position": {
+        "x": 252.7532831412558,
+        "y": 1101.8710373884026
+      },
+      "distance_from_parent": 384000
     }
   ]
 }

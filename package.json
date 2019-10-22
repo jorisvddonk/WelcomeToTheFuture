@@ -6,6 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc",
+    "update-universe": "ts-node ./universe/util/update_universe.ts",
     "start": "node dist/index.js",
     "dev": "ts-node-dev index.ts"
   },
@@ -16,6 +17,9 @@
     "apollo-server": "^2.9.6",
     "graphql": "^14.5.8",
     "graphql-subscriptions": "^1.1.0",
+    "lodash": "^4.17.15",
+    "mersenne-twister": "^1.1.0",
+    "murmurhash3js": "^3.0.1",
     "reflect-metadata": "^0.1.13",
     "type-graphql": "^0.17.5"
   },
