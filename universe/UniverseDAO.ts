@@ -10,16 +10,30 @@ export class UniverseDAO {
   public starship: GQLStarship;
 
   constructor() {
-    const solData: IStar = JSON.parse(
-      readFileSync(__dirname + "/data/sol.json").toString()
-    );
-    this.stars.push(solData);
-
+    this.reloadStars();
     this.starship = new GQLStarship();
-    const earth = solData.bodies.find(body => body.name === "Earth");
-    if (earth !== undefined) {
-      this.starship.position = new Vector(earth.position.x, earth.position.y);
+
+    const sol = this.stars.find(star => star.name === "Sol");
+    if (sol !== undefined) {
+      const earth = this.stars[0].bodies.find(body => body.name === "Earth");
+      if (earth !== undefined) {
+        this.starship.position = new Vector(earth.position.x, earth.position.y);
+      }
     }
+  }
+
+  reloadStars() {
+    const stars = [];
+    const loadStar = (starname: string) => {
+      const starData: IStar = JSON.parse(
+        readFileSync(`${__dirname}/data/${starname}.json`).toString()
+      );
+      stars.push(starData);
+    };
+
+    loadStar("sol");
+
+    this.stars = stars;
   }
 
   getStars() {}
