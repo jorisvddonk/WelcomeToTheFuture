@@ -16,7 +16,8 @@
       "position": {
         "x": -400,
         "y": 0
-      }
+      },
+      "distance_from_parent": 149.6e6
     },
     {
       "name": "Luna",
@@ -29,7 +30,8 @@
       "position": {
         "x": -450,
         "y": 60
-      }
+      },
+      "distance_from_parent": 0.384e6
     },
     {
       "name": "Mars",
@@ -41,7 +43,86 @@
       "position": {
         "x": 400,
         "y": 0
-      }
+      },
+      "distance_from_parent": 227.9e6
+    },
+    {
+      "name": "Mercury",
+      "mass": 0.33e24,
+      "diameter": 4879,
+      "gravity": 3.7,
+      "length_of_day": 4222,
+      "orbital_period": 88,
+      "position": {
+        "x": 2,
+        "y": 0
+      },
+      "distance_from_parent": 57.9e6
+    },
+    {
+      "name": "Venus",
+      "mass": 4.87e24,
+      "diameter": 12104,
+      "gravity": 8.9,
+      "length_of_day": 2802,
+      "orbital_period": 224.7,
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "distance_from_parent": 108.2e6
+    },
+    {
+      "name": "Jupiter",
+      "mass": 1898e24,
+      "diameter": 142984,
+      "gravity": 23.1,
+      "length_of_day": 9.9,
+      "orbital_period": 4331,
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "distance_from_parent": 778.6e6
+    },
+    {
+      "name": "Saturn",
+      "mass": 568e24,
+      "diameter": 120536,
+      "gravity": 9,
+      "length_of_day": 10.7,
+      "orbital_period": 10747,
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "distance_from_parent": 1433.5e6
+    },
+    {
+      "name": "Uranus",
+      "mass": 102e24,
+      "diameter": 51118,
+      "gravity": 8.7,
+      "length_of_day": 17.2,
+      "orbital_period": 30589,
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "distance_from_parent": 2872.5e6
+    },
+    {
+      "name": "Neptune",
+      "mass": 0.0e24,
+      "diameter": 49528,
+      "gravity": 11,
+      "length_of_day": 16.1,
+      "orbital_period": 59800,
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "distance_from_parent": 4495.1e6
     }
   ]
 }
