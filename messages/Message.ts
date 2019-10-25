@@ -3,7 +3,7 @@ import { Field, ObjectType } from "type-graphql";
 let lastMessageNum = 0;
 function generateMessageID() {
     lastMessageNum += 1;
-    return new Buffer(`${Message}_${lastMessageNum}`).toString('base64');
+    return new Buffer(`Message_${lastMessageNum}`).toString('base64');
 }
 
 @ObjectType()
