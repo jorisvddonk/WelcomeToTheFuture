@@ -39,7 +39,9 @@ export class UniverseDAO {
     this.stars = stars;
   }
 
-  getStars() {}
+  getStars() {
+    return this.stars;
+  }
 
   findStar(name: string): GQLStar | undefined {
     const foundStar = this.stars.find(star => star.name === name);
