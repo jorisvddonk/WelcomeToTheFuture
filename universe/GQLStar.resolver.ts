@@ -20,6 +20,11 @@ export class GQLStarResolver /* implements ResolverInterface<GQLStar>*/ {
     return Universe.findStar(name);
   }
 
+  @Query(returns => GQLStar, { nullable: true })
+  async currentStar(): Promise<GQLStar | undefined> {
+    return Universe.getCurrentStar();
+  }
+
   @Query(returns => [GQLStar], { nullable: true })
   async stars(): Promise<GQLStar[] | undefined> {
     return Universe.getStars();
