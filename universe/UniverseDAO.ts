@@ -10,6 +10,7 @@ export class UniverseDAO {
   private stars: IStar[] = [];
   public starship: GQLStarship;
   private currentStarname: string;
+  private starUpdateListeners = [];
 
   constructor() {
     this.reloadStars();
@@ -96,6 +97,11 @@ export class UniverseDAO {
       throw new Error("star not found");
     }
     this.currentStarname = starname;
+    this.starUpdateListeners.forEach(x => x());
+  }
+
+  addStarUpdateListener(listener) {
+    this.starUpdateListeners.push(listener);
   }
 }
 
