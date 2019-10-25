@@ -5,7 +5,8 @@ import {
   FieldResolver,
   Root,
   ResolverInterface,
-  Subscription
+  Subscription,
+  Mutation
 } from "type-graphql";
 import { GQLStar } from "./GQLStar";
 import { Universe } from "./UniverseDAO";
@@ -42,5 +43,11 @@ export class GQLStarResolver /* implements ResolverInterface<GQLStar>*/ {
     @Root() payload: GQLStar
   ): GQLStar {
     return payload;
+  }
+
+  @Mutation()
+  hyperspaceJump(@Arg("star") starname: string): GQLStar {
+    Universe.hyperspaceJump(starname);
+    return Universe.getCurrentStar();
   }
 }

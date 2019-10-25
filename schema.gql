@@ -51,6 +51,7 @@ input ManualControl {
 
 type Mutation {
   manualControl(data: ManualControl!): GQLStarship!
+  hyperspaceJump(star: String!): GQLStar!
 }
 
 type Query {

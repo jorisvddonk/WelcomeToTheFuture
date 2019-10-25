@@ -89,6 +89,14 @@ export class UniverseDAO {
         };
       });
   }
+
+  hyperspaceJump(starname) {
+    const foundStar = this.stars.find(s => s.name === starname);
+    if (foundStar === undefined) {
+      throw new Error("star not found");
+    }
+    this.currentStarname = starname;
+  }
 }
 
 export const Universe = new UniverseDAO();
