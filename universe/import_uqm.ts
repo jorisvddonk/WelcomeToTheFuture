@@ -2,7 +2,7 @@ import { MapData, UQMPlanet } from "./data/uqm/map_sc2";
 import { IStar } from "./IStar"
 import { writeFileSync } from "fs";
 import { entries } from 'lodash'
-import { IBody } from "./IBody";
+import { IBodyJSON } from "./IBody";
 
 function getStarPrefix(prefixShort) {
     switch (prefixShort) {
@@ -52,7 +52,7 @@ MapData.forEach(constellation => {
             },
             bodies: entries(star.planets).map((entry: [string, UQMPlanet]) => {
                 const planet = entry[1];
-                const retPlanet: IBody = {
+                const retPlanet: IBodyJSON = {
                     position: {
                         x: 0, y: 0
                     },

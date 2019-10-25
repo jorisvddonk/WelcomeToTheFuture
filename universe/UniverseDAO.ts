@@ -1,6 +1,6 @@
-import { readFileSync, statSync } from "fs";
+import { readFileSync } from "fs";
 import { GQLStar } from "./GQLStar";
-import { IStar } from "./IStar";
+import { IStar, IStarJSON } from "./IStar";
 import { IBody } from "./IBody";
 import { GQLStarship } from "../starship/GQLStarship";
 import { Vector } from "../starship/Vector";
@@ -24,12 +24,12 @@ export class UniverseDAO {
   }
 
   reloadStars() {
-    const stars = [];
+    const stars: IStar[] = [];
     const loadStar = (path: string) => {
-      const starData: IStar = JSON.parse(
+      const starData: IStarJSON = JSON.parse(
         readFileSync(path).toString()
       );
-      stars.push(starData);
+      stars.push({ ...starData, bodies: starData.bodies.map(body => { return { ...body, star: starData.name } }) });
     };
 
     glob.sync(__dirname + "/data/*.json").forEach(path => {
@@ -64,8 +64,8 @@ export class UniverseDAO {
     );
   }
 
-  getPlanetMoons(planetname: string) {
-    return this.bodies.filter(body => body.parent === planetname);
+  getPlanetMoons(planetname: string, starname: string) {
+    return this.bodies.filter(body => body.parent === planetname && body.star === starname);
   }
 
   getStarPlanets(starname) {
@@ -74,7 +74,7 @@ export class UniverseDAO {
       throw new Error("star not found");
     }
     return foundStar.bodies
-      .filter(body => body.parent === undefined)
+      .filter(body => body.parent === undefined && body.star === starname)
       .map(body => {
         return {
           star: starname,

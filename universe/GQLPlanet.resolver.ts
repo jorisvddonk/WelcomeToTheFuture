@@ -13,7 +13,7 @@ import { GQLMoon } from "./GQLMoon";
 
 @Resolver(of => GQLPlanet)
 export class GQLPlanetResolver /* implements ResolverInterface<GQLPlanet>*/ {
-  constructor() {}
+  constructor() { }
 
   @FieldResolver(of => GQLStar, { nullable: true })
   star(@Root() planet: GQLPlanet) {
@@ -22,6 +22,6 @@ export class GQLPlanetResolver /* implements ResolverInterface<GQLPlanet>*/ {
 
   @FieldResolver(of => [GQLMoon], { nullable: true })
   moons(@Root() planet: GQLPlanet) {
-    return Universe.getPlanetMoons(planet.name);
+    return Universe.getPlanetMoons(planet.name, planet.star);
   }
 }

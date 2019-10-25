@@ -1,18 +1,18 @@
 import "reflect-metadata";
 
 import { readFileSync, writeFileSync } from "fs";
-import { IStar } from "../IStar";
+import { IStarJSON } from "../IStar";
 import { sortBy } from "lodash";
-import { IBody } from "../IBody";
+import { IBodyJSON } from "../IBody";
 import { Vector } from "../../starship/Vector";
 import murmurhash3 from "murmurhash3js";
 import MersenneTwister from "mersenne-twister";
 import glob from "glob";
 
 const fixStarJson = (filename: string) => {
-  const star: IStar = JSON.parse(readFileSync(filename).toString());
+  const star: IStarJSON = JSON.parse(readFileSync(filename).toString());
 
-  const bodyUpdateOrder: IBody[] = sortBy(star.bodies, (body: IBody) => {
+  const bodyUpdateOrder: IBodyJSON[] = sortBy(star.bodies, (body: IBodyJSON) => {
     return body.parent === undefined ? 0 : 1; // assuming that bodies with a parent don't have child bodies; otherwise we have to return the _number of parents in the chain_ here.
   });
 
@@ -24,7 +24,7 @@ const fixStarJson = (filename: string) => {
     return foundParent.position;
   };
 
-  star.bodies = bodyUpdateOrder.map((body: IBody) => {
+  star.bodies = bodyUpdateOrder.map((body: IBodyJSON) => {
     let parentpos = star.position;
     if (body.parent !== undefined) {
       parentpos = getParentPosition(body.parent);

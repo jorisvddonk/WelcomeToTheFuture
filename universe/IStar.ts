@@ -1,9 +1,13 @@
-import { IBody } from "./IBody";
+import { IBody, IBodyJSON } from "./IBody";
 import { Vector } from "../starship/Vector";
 
-export interface IStar {
+export interface IStarJSON {
   name: string;
   mass: number;
-  bodies: IBody[];
+  bodies: IBodyJSON[];
   position: Vector;
+}
+
+export interface IStar extends IStarJSON {
+  bodies: IBody[];
 }
