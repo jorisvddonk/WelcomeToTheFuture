@@ -34,67 +34,42 @@ export default class App extends React.Component<any, any> {
       zoom: 1
     };
 
+    const starPropsQuery = `
+    name
+    position {
+      x
+      y
+    }
+    planets {
+      name
+      position {
+        x
+        y
+      }
+      diameter
+      moons {
+        name
+        position {
+          x
+          y
+        }
+        diameter
+      }
+    }`;
+
     client
       .query({
         query: gql`
           query {
             currentStar {
-              name
-              position {
-                x
-                y
-              }
-              planets {
-                name
-                position {
-                  x
-                  y
-                }
-                diameter
-                moons {
-                  name
-                  position {
-                    x
-                    y
-                  }
-                  diameter
-                }
-              }
+              ${starPropsQuery}
             }
           }
         `
       })
       .then(result => {
         const star = result.data.currentStar;
-        const stars = [star].map(star => {
-          return {
-            name: star.name,
-            position: new Vector(0, 0) // stars are always at [0,0]
-          };
-        });
-        const planets = star.planets.map(planet => {
-          return {
-            name: planet.name,
-            position: planet.position,
-            diameter: planet.diameter / 12756 // earth: 1 diameter
-          };
-        });
-        const moons = flatten(
-          star.planets.map(planet => {
-            return planet.moons;
-          })
-        ).map(moon => {
-          return {
-            name: moon.name,
-            position: moon.position,
-            diameter: moon.diameter / 12756 // earth: 1 diameter
-          };
-        });
-        this.setState({
-          planets,
-          moons,
-          stars
-        });
+        this.setStarData(star);
       });
 
     client
@@ -136,6 +111,38 @@ export default class App extends React.Component<any, any> {
 
     window.requestAnimationFrame(this.step);
   }
+
+  setStarData = star => {
+    const stars = [star].map(star => {
+      return {
+        name: star.name,
+        position: new Vector(0, 0) // stars are always at [0,0]
+      };
+    });
+    const planets = star.planets.map(planet => {
+      return {
+        name: planet.name,
+        position: planet.position,
+        diameter: planet.diameter / 12756 // earth: 1 diameter
+      };
+    });
+    const moons = flatten(
+      star.planets.map(planet => {
+        return planet.moons;
+      })
+    ).map(moon => {
+      return {
+        name: moon.name,
+        position: moon.position,
+        diameter: moon.diameter / 12756 // earth: 1 diameter
+      };
+    });
+    this.setState({
+      planets,
+      moons,
+      stars
+    });
+  };
 
   step = timestamp => {
     if (!this.lastTimestamp) {
