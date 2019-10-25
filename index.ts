@@ -85,6 +85,13 @@ async function boot() {
       starship
     );
   }, UPDATE_INTERVAL);
+
+  Universe.addStarUpdateListener(() => {
+    pubsub.publish(
+      "starUpdate",
+      Universe.getCurrentStar()
+    );
+  })
 }
 
 boot();
