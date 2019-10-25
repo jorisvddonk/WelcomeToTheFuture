@@ -63,6 +63,7 @@ type Mutation {
 type Query {
   starship: GQLStarship!
   star(name: String!): GQLStar
+  stars: [GQLStar!]
 }
 
 type Subscription {
