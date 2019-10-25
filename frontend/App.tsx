@@ -37,7 +37,7 @@ export default class App extends React.Component<any, any> {
       .query({
         query: gql`
           query {
-            star(name: "Sol") {
+            currentStar {
               name
               position {
                 x
@@ -64,13 +64,14 @@ export default class App extends React.Component<any, any> {
         `
       })
       .then(result => {
-        const stars = [result.data.star].map(star => {
+        const star = result.data.currentStar;
+        const stars = [star].map(star => {
           return {
             name: star.name,
             position: star.position
           };
         });
-        const planets = result.data.star.planets.map(planet => {
+        const planets = star.planets.map(planet => {
           return {
             name: planet.name,
             position: planet.position,
@@ -78,7 +79,7 @@ export default class App extends React.Component<any, any> {
           };
         });
         const moons = flatten(
-          result.data.star.planets.map(planet => {
+          star.planets.map(planet => {
             return planet.moons;
           })
         ).map(moon => {
