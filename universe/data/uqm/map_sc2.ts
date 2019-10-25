@@ -87341,7 +87341,7 @@ export const MapData: UQMConstellation[] = [{
                 "DistFromStar": "512",
                 "Homeworlds": ["Earthling"]
             },
-            "Luna": {
+            "Earth-a": {
                 "Type": "Selenic",
                 "Hazard": "1",
                 "Tectonics": "1",
