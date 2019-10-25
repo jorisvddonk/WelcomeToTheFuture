@@ -7,6 +7,7 @@ import { IBody } from "../IBody";
 import { Vector } from "../../starship/Vector";
 import murmurhash3 from "murmurhash3js";
 import MersenneTwister from "mersenne-twister";
+import glob from "glob";
 
 const fixStarJson = (filename: string) => {
   const star: IStar = JSON.parse(readFileSync(filename).toString());
@@ -46,4 +47,6 @@ const fixStarJson = (filename: string) => {
   writeFileSync(filename, JSON.stringify(star, null, 2));
 };
 
-fixStarJson(__dirname + "/../data/sol.json");
+glob.sync(__dirname + '/../data/*.json').forEach(path => {
+  fixStarJson(path);
+})
