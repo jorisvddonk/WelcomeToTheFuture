@@ -16,25 +16,27 @@ const fixStarJson = (filename: string) => {
     return body.parent === undefined ? 0 : 1; // assuming that bodies with a parent don't have child bodies; otherwise we have to return the _number of parents in the chain_ here.
   });
 
-  const getParentPosition = (parentName: string) => {
+  const getParent = (parentName: string) => {
     const foundParent = bodyUpdateOrder.find(body => body.name === parentName);
     if (foundParent === undefined) {
       throw new Error(`Parent ${parentName} not found in ${filename}`);
     }
-    return foundParent.position;
+    return foundParent;
   };
 
   star.bodies = bodyUpdateOrder.map((body: IBodyJSON) => {
     let parentpos = star.position;
+    let parent;
     if (body.parent !== undefined) {
-      parentpos = getParentPosition(body.parent);
+      parent = getParent(body.parent);
+      parentpos = parent.position;
     }
 
     const seed = murmurhash3.x86.hash32(`${star.name}_${body.name}`);
     const arc = new MersenneTwister(seed).random_long() * Math.PI * 2;
     let dist = body.distance_from_parent;
-    if (dist < 20000000 && body.parent !== undefined) {
-      dist = 20000000;
+    if (body.parent !== undefined && dist < parent.diameter * 900) {
+      dist = parent.diameter * 900;
     }
     body.position = new Vector(
       parentpos.x + (Math.sin(arc) * dist) / 1.5e5,
