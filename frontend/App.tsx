@@ -116,7 +116,10 @@ export default class App extends React.Component<any, any> {
     const stars = [star].map(star => {
       return {
         name: star.name,
-        position: new Vector(0, 0) // stars are always at [0,0]
+        position: {
+          x: 0,
+          y: 0
+        } // stars are always at [0,0]
       };
     });
     const planets = star.planets.map(planet => {
