@@ -4,7 +4,8 @@ import {
   Resolver,
   FieldResolver,
   Root,
-  ResolverInterface
+  ResolverInterface,
+  Subscription
 } from "type-graphql";
 import { GQLStar } from "./GQLStar";
 import { Universe } from "./UniverseDAO";
@@ -27,5 +28,14 @@ export class GQLStarResolver /* implements ResolverInterface<GQLStar>*/ {
   @FieldResolver(of => [GQLPlanet])
   planets(@Root() star: GQLStar) {
     return Universe.getStarPlanets(star.name);
+  }
+
+  @Subscription({
+    topics: ["starUpdate"]
+  })
+  starUpdate(
+    @Root() payload: GQLStar
+  ): GQLStar {
+    return payload;
   }
 }

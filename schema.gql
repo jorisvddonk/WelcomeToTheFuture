@@ -61,6 +61,7 @@ type Query {
 
 type Subscription {
   starshipUpdate: GQLStarship!
+  starUpdate: GQLStar!
 }
 
 type Vector {
