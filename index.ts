@@ -7,6 +7,7 @@ import { GQLStarResolver } from "./universe/GQLStar.resolver";
 import { GQLPlanetResolver } from "./universe/GQLPlanet.resolver";
 import { PubSub } from "graphql-subscriptions";
 import { Universe } from "./universe/UniverseDAO";
+import { MessageResolver } from "./messages/Message.resolver";
 
 const UPDATE_INTERVAL = (1000 / 60) * 3; // 3 frames @ 60fps
 const STARSHIP_THRUST = 10;
@@ -16,7 +17,7 @@ const STARSHIP_MAX_SPEED_SQUARED = 3000;
 async function boot() {
   const pubsub = new PubSub();
   const schema = await buildSchema({
-    resolvers: [GQLStarshipResolver, GQLStarResolver, GQLPlanetResolver],
+    resolvers: [GQLStarshipResolver, GQLStarResolver, GQLPlanetResolver, MessageResolver],
     emitSchemaFile: true,
     pubSub: pubsub
   });
@@ -91,7 +92,7 @@ async function boot() {
       "starUpdate",
       Universe.getCurrentStar()
     );
-  })
+  });
 }
 
 boot();

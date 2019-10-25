@@ -49,9 +49,17 @@ input ManualControl {
   desiredAngle: Float
 }
 
+type Message {
+  title: String!
+  body: String!
+  id: String!
+  isRead: Boolean!
+}
+
 type Mutation {
   manualControl(data: ManualControl!): GQLStarship!
   hyperspaceJump(star: String!): GQLStar!
+  markAsRead(id: String!): Message!
 }
 
 type Query {
@@ -59,11 +67,13 @@ type Query {
   star(name: String!): GQLStar
   currentStar: GQLStar
   stars: [GQLStar!]
+  inbox: [Message!]
 }
 
 type Subscription {
   starshipUpdate: GQLStarship!
   starUpdate: GQLStar!
+  inboxSub: Message!
 }
 
 type Vector {
