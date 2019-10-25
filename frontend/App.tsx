@@ -8,6 +8,7 @@ import Moon from "./Moon";
 import { flatten } from "lodash";
 import Star from "./Star";
 import GQLPlayground from "./GQLPlayground";
+import { Vector } from "../starship/Vector";
 
 export default class App extends React.Component<any, any> {
   private lastTimestamp: number;
@@ -68,7 +69,7 @@ export default class App extends React.Component<any, any> {
         const stars = [star].map(star => {
           return {
             name: star.name,
-            position: star.position
+            position: new Vector(0, 0) // stars are always at [0,0]
           };
         });
         const planets = star.planets.map(planet => {
