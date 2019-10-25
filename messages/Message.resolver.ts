@@ -10,14 +10,21 @@ import {
 } from "type-graphql";
 import { Message } from "./Message";
 import { Messages } from "./MessagesDAO";
+import { InboxFilter } from "./InboxFilter";
+import { filter as _filter } from 'lodash'
 
 @Resolver(of => Message)
 export class MessageResolver /* implements ResolverInterface<Message>*/ {
     constructor() { }
 
     @Query(returns => [Message], { nullable: true })
-    async inbox(): Promise<Message[] | undefined> {
-        return Messages.messages;
+    async inbox(@Arg("filter", { nullable: true }) filter?: InboxFilter): Promise<Message[] | undefined> {
+        if (filter === undefined) {
+            return Messages.messages;
+        }
+        else {
+            return _filter(Messages.messages, filter);
+        }
     }
 
 
@@ -35,4 +42,5 @@ export class MessageResolver /* implements ResolverInterface<Message>*/ {
         Messages.markAsRead(id);
         return Messages.get(id);
     }
+
 }
