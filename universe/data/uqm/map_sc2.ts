@@ -2647,7 +2647,7 @@ export const MapData: UQMConstellation[] = [{
                 "DistFromStar": "890",
                 "Homeworlds": ["Utwig"]
             },
-            "I-a": {
+            "Fahz-a": {
                 "Type": "Carbide",
                 "Hazard": "5",
                 "Tectonics": "5",
@@ -22670,7 +22670,7 @@ export const MapData: UQMConstellation[] = [{
                 "Devices": ["Deep Child Egg Case Fragments"],
                 "Homeworlds": ["Syreen (old)"]
             },
-            "I-a": {
+            "Syra-a": {
                 "Type": "Infrared",
                 "Hazard": "6",
                 "Tectonics": "3",
@@ -22691,7 +22691,7 @@ export const MapData: UQMConstellation[] = [{
                 "LifeChance": "560",
                 "DistFromStar": "409"
             },
-            "I-b": {
+            "Syra-b": {
                 "Type": "Crimson",
                 "Hazard": "8",
                 "Tectonics": "2",
@@ -23380,7 +23380,7 @@ export const MapData: UQMConstellation[] = [{
                 "Devices": ["Slylandro Probe Self-Destruct Code"],
                 "Homeworlds": ["Slylandro"]
             },
-            "IV-a": {
+            "Source-a": {
                 "Type": "Urea",
                 "Hazard": "7",
                 "Tectonics": "7",
@@ -36686,7 +36686,7 @@ export const MapData: UQMConstellation[] = [{
                 "DistFromStar": "5888",
                 "Homeworlds": ["Spathi"]
             },
-            "I-a": {
+            "Spathiwa-a": {
                 "Type": "Pellucid",
                 "Hazard": "3",
                 "Tectonics": "3",
@@ -50198,7 +50198,7 @@ export const MapData: UQMConstellation[] = [{
                 "DistFromStar": "778",
                 "Homeworlds": ["Supox"]
             },
-            "I-a": {
+            "Vlik-a": {
                 "Type": "Super-Dense",
                 "Hazard": "9",
                 "Tectonics": "7",
@@ -50219,7 +50219,7 @@ export const MapData: UQMConstellation[] = [{
                 "LifeChance": "310",
                 "DistFromStar": "778"
             },
-            "I-b": {
+            "Vlik-b": {
                 "Type": "Lanthanide",
                 "Hazard": "6",
                 "Tectonics": "6",

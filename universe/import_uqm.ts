@@ -52,15 +52,24 @@ MapData.forEach(constellation => {
             },
             bodies: entries(star.planets).map((entry: [string, UQMPlanet]) => {
                 const planet = entry[1];
+                let parent = undefined;
+                if (entry[0].indexOf('-') > -1) {
+                    parent = entry[0].substr(0, entry[0].indexOf('-'));
+                }
+                let distance_from_parent = (parseInt(planet.DistFromStar) / 512) * 149600000;
+                if (parent !== undefined) {
+                    distance_from_parent = distance_from_parent * 0.01; // todo?
+                }
                 const retPlanet: IBodyJSON = {
                     position: {
                         x: 0, y: 0
                     },
                     name: entry[0],
-                    distance_from_parent: (parseInt(planet.DistFromStar) / 512) * 149600000,
+                    distance_from_parent: distance_from_parent,
                     diameter: (parseInt(planet.Radius) / 100) * 12756,
                     gravity: (parseInt(planet.Gravity) / 100) * 9.8,
                     length_of_day: parseInt(planet.Day) / 10,
+                    parent: parent,
                     mass: 0, // todo?,
                     orbital_period: 0 // todo?
                 }

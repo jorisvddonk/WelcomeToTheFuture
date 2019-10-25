@@ -19,7 +19,7 @@ const fixStarJson = (filename: string) => {
   const getParentPosition = (parentName: string) => {
     const foundParent = bodyUpdateOrder.find(body => body.name === parentName);
     if (foundParent === undefined) {
-      throw new Error(`Parent ${parentName} not found!`);
+      throw new Error(`Parent ${parentName} not found in ${filename}`);
     }
     return foundParent.position;
   };
