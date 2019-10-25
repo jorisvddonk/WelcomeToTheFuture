@@ -4,6 +4,7 @@ body {
   background: #434;
   padding: 0px;
   margin: 0px;
+  font-family: "Open Sans";
 }
 
 .spaceCanvasParent {
@@ -94,7 +95,6 @@ body {
 
   .info {
     grid-area: info;
-    background-color: #000;
   }
 }
 
@@ -103,11 +103,29 @@ body {
   border-radius: 5px;
   padding: 5px;
   &.message-unread {
-    border: 1px solid #ff9;
-    background-color: #662;
+    background-color: #979;
   }
   &.message-read {
-    border: 1px solid #633;
-    background-color: #331;
+    background-color: #868;
+  }
+
+  .title {
+    font-size: 1.2em;
+  }
+  .body {
+    font-size: 1em;
+  }
+}
+
+.info {
+  background-color: #434;
+  button {
+    color: white;
+    background-color: #646;
+    margin: 5px;
+    border: 0px;
+    border-radius: 10px;
+    width: 20px;
+    height: 20px;
   }
 }

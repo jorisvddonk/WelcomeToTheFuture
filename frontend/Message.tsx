@@ -21,8 +21,8 @@ export default class Message extends React.Component<IMessageProps, any> {
             : " message-read"
         }`}
       >
-        <h3>{this.props.message.title}</h3>
-        <pre>{this.props.message.body}</pre>
+        <div className="title">{this.props.message.title}</div>
+        <div className="body">{this.props.message.body}</div>
       </div>
     );
   }
