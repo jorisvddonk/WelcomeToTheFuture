@@ -73,14 +73,15 @@
     },
     {
       "position": {
-        "x": 13137.721498863308,
-        "y": 6843.347424923359
+        "x": 12024.50024320331,
+        "y": 9025.449740241927
       },
       "name": "V-a",
-      "distance_from_parent": 2075700000,
+      "distance_from_parent": 20757000,
       "diameter": 4719.72,
       "gravity": 1.078,
       "length_of_day": 23.2,
+      "parent": "V",
       "mass": 0,
       "orbital_period": 0
     }

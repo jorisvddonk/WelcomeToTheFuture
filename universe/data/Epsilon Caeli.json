@@ -21,58 +21,6 @@
     },
     {
       "position": {
-        "x": 1094.0779857249847,
-        "y": -2163.067099039662
-      },
-      "name": "I-a",
-      "distance_from_parent": 355300000,
-      "diameter": 4719.72,
-      "gravity": 1.078,
-      "length_of_day": 23.3,
-      "mass": 0,
-      "orbital_period": 0
-    },
-    {
-      "position": {
-        "x": 2315.218456574003,
-        "y": -1217.0434035098433
-      },
-      "name": "I-b",
-      "distance_from_parent": 355300000,
-      "diameter": 3826.7999999999997,
-      "gravity": 4.508000000000001,
-      "length_of_day": 25,
-      "mass": 0,
-      "orbital_period": 0
-    },
-    {
-      "position": {
-        "x": 257.0401095495055,
-        "y": -2287.3387440620836
-      },
-      "name": "I-c",
-      "distance_from_parent": 355300000,
-      "diameter": 3189,
-      "gravity": 0.784,
-      "length_of_day": 26,
-      "mass": 0,
-      "orbital_period": 0
-    },
-    {
-      "position": {
-        "x": 1702.0208415232148,
-        "y": 2013.280031905399
-      },
-      "name": "I-d",
-      "distance_from_parent": 355300000,
-      "diameter": 3444.1200000000003,
-      "gravity": 2.7440000000000007,
-      "length_of_day": 24.9,
-      "mass": 0,
-      "orbital_period": 0
-    },
-    {
-      "position": {
         "x": 2675.3541018606866,
         "y": 3956.409379454457
       },
@@ -86,40 +34,99 @@
     },
     {
       "position": {
-        "x": 3873.8831186281727,
-        "y": 2904.150814233743
+        "x": 1776.0833715797714,
+        "y": 1864.510830704737
+      },
+      "name": "I-a",
+      "distance_from_parent": 3553000,
+      "diameter": 4719.72,
+      "gravity": 1.078,
+      "length_of_day": 23.3,
+      "parent": "I",
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 1844.821928903105,
+        "y": 1917.7629385307891
+      },
+      "name": "I-b",
+      "distance_from_parent": 3553000,
+      "diameter": 3826.7999999999997,
+      "gravity": 4.508000000000001,
+      "length_of_day": 25,
+      "parent": "I",
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 1728.9661255242984,
+        "y": 1857.5155227946652
+      },
+      "name": "I-c",
+      "distance_from_parent": 3553000,
+      "diameter": 3189,
+      "gravity": 0.784,
+      "length_of_day": 26,
+      "parent": "I",
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 1810.3047538369192,
+        "y": 2099.5993266768764
+      },
+      "name": "I-d",
+      "distance_from_parent": 3553000,
+      "diameter": 3444.1200000000003,
+      "gravity": 2.7440000000000007,
+      "length_of_day": 24.9,
+      "parent": "I",
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 2779.590693013445,
+        "y": 4039.55089040194
       },
       "name": "II-a",
-      "distance_from_parent": 679335937.5,
+      "distance_from_parent": 6793359.375,
       "diameter": 3826.7999999999997,
       "gravity": 1.764,
       "length_of_day": 23.7,
+      "parent": "II",
       "mass": 0,
       "orbital_period": 0
     },
     {
       "position": {
-        "x": 4073.1664598546586,
-        "y": -2474.188684495793
+        "x": 2785.457697251727,
+        "y": 3881.209804590341
       },
       "name": "II-b",
-      "distance_from_parent": 679335937.5,
+      "distance_from_parent": 6793359.375,
       "diameter": 3444.1200000000003,
       "gravity": 2.6460000000000004,
       "length_of_day": 21.6,
+      "parent": "II",
       "mass": 0,
       "orbital_period": 0
     },
     {
       "position": {
-        "x": -1215.1102926301205,
-        "y": -4175.88606517528
+        "x": 2629.768105090712,
+        "y": 3831.1109569733035
       },
       "name": "II-c",
-      "distance_from_parent": 679335937.5,
+      "distance_from_parent": 6793359.375,
       "diameter": 3954.36,
       "gravity": 2.94,
       "length_of_day": 1457.9,
+      "parent": "II",
       "mass": 0,
       "orbital_period": 0
     }

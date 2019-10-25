@@ -60,19 +60,6 @@
     },
     {
       "position": {
-        "x": 8036.1952793587925,
-        "y": 277.86149995230807
-      },
-      "name": "IV-a",
-      "distance_from_parent": 1108559375,
-      "diameter": 3571.6800000000003,
-      "gravity": 1.568,
-      "length_of_day": 23.2,
-      "mass": 0,
-      "orbital_period": 0
-    },
-    {
-      "position": {
         "x": -5189.871976014198,
         "y": 6509.648295304261
       },
@@ -125,58 +112,6 @@
     },
     {
       "position": {
-        "x": 5570.378588101339,
-        "y": -12069.614838396868
-      },
-      "name": "VIII-a",
-      "distance_from_parent": 1993595312.5,
-      "diameter": 3826.7999999999997,
-      "gravity": 1.764,
-      "length_of_day": 17.6,
-      "mass": 0,
-      "orbital_period": 0
-    },
-    {
-      "position": {
-        "x": 123.97529721278988,
-        "y": 13555.387372298874
-      },
-      "name": "VIII-b",
-      "distance_from_parent": 1993595312.5,
-      "diameter": 3316.56,
-      "gravity": 0.784,
-      "length_of_day": 4435.6,
-      "mass": 0,
-      "orbital_period": 0
-    },
-    {
-      "position": {
-        "x": 9602.630815439064,
-        "y": -9544.173668000556
-      },
-      "name": "VIII-c",
-      "distance_from_parent": 1993595312.5,
-      "diameter": 3189,
-      "gravity": 3.528,
-      "length_of_day": 26,
-      "mass": 0,
-      "orbital_period": 0
-    },
-    {
-      "position": {
-        "x": 9852.198563259844,
-        "y": -9310.573288706388
-      },
-      "name": "VIII-d",
-      "distance_from_parent": 1993595312.5,
-      "diameter": 3954.36,
-      "gravity": 0.882,
-      "length_of_day": 21.6,
-      "mass": 0,
-      "orbital_period": 0
-    },
-    {
-      "position": {
         "x": 15468.655398664667,
         "y": -3268.416159623037
       },
@@ -190,40 +125,113 @@
     },
     {
       "position": {
-        "x": 12668.168489808066,
-        "y": 9641.722807111893
+        "x": 3655.066596323929,
+        "y": 7082.911669853973
+      },
+      "name": "IV-a",
+      "distance_from_parent": 11085593.75,
+      "diameter": 3571.6800000000003,
+      "gravity": 1.568,
+      "length_of_day": 23.2,
+      "parent": "IV",
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 13759.045315324405,
+        "y": -2293.6412387206756
+      },
+      "name": "VIII-a",
+      "distance_from_parent": 19935953.125,
+      "diameter": 3826.7999999999997,
+      "gravity": 1.764,
+      "length_of_day": 17.6,
+      "parent": "VIII",
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 13704.40630953683,
+        "y": -2036.5679796693028
+      },
+      "name": "VIII-b",
+      "distance_from_parent": 19935953.125,
+      "diameter": 3316.56,
+      "gravity": 0.784,
+      "length_of_day": 4435.6,
+      "parent": "VIII",
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 13799.497379011103,
+        "y": -2268.305693893081
+      },
+      "name": "VIII-c",
+      "distance_from_parent": 19935953.125,
+      "diameter": 3189,
+      "gravity": 3.528,
+      "length_of_day": 26,
+      "parent": "VIII",
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 13802.001074181893,
+        "y": -2265.9621853803
+      },
+      "name": "VIII-d",
+      "distance_from_parent": 19935953.125,
+      "diameter": 3954.36,
+      "gravity": 0.882,
+      "length_of_day": 21.6,
+      "parent": "VIII",
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 15588.879083562748,
+        "y": -3174.748931551918
       },
       "name": "IX-a",
-      "distance_from_parent": 2286075000,
+      "distance_from_parent": 22860750,
       "diameter": 3189,
       "gravity": 4.998,
       "length_of_day": 26.4,
+      "parent": "IX",
       "mass": 0,
       "orbital_period": 0
     },
     {
       "position": {
-        "x": -1883.3481765603717,
-        "y": 15304.17994273145
+        "x": 15443.363916899063,
+        "y": -3118.1243601957226
       },
       "name": "IX-b",
-      "distance_from_parent": 2286075000,
+      "distance_from_parent": 22860750,
       "diameter": 4209.4800000000005,
       "gravity": 4.606,
       "length_of_day": 5502.5,
+      "parent": "IX",
       "mass": 0,
       "orbital_period": 0
     },
     {
       "position": {
-        "x": 1256.5685870072762,
-        "y": -14953.256695469941
+        "x": 15474.76308453474,
+        "y": -3420.6987265777366
       },
       "name": "IX-c",
-      "distance_from_parent": 2286075000,
+      "distance_from_parent": 22860750,
       "diameter": 4337.04,
       "gravity": 4.998,
       "length_of_day": 24.3,
+      "parent": "IX",
       "mass": 0,
       "orbital_period": 0
     }

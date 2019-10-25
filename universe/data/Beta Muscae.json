@@ -21,19 +21,6 @@
     },
     {
       "position": {
-        "x": 1761.0687301179198,
-        "y": -531.7458096277339
-      },
-      "name": "I-a",
-      "distance_from_parent": 316146875,
-      "diameter": 4464.599999999999,
-      "gravity": 5.096000000000001,
-      "length_of_day": 27.7,
-      "mass": 0,
-      "orbital_period": 0
-    },
-    {
-      "position": {
         "x": -375.16626565260185,
         "y": -5248.6924459356915
       },
@@ -86,32 +73,6 @@
     },
     {
       "position": {
-        "x": 11172.803894549486,
-        "y": 2207.557298986606
-      },
-      "name": "V-a",
-      "distance_from_parent": 1674234375,
-      "diameter": 3699.24,
-      "gravity": 1.6660000000000001,
-      "length_of_day": 24.8,
-      "mass": 0,
-      "orbital_period": 0
-    },
-    {
-      "position": {
-        "x": -3768.924862308381,
-        "y": -9697.25406259193
-      },
-      "name": "V-b",
-      "distance_from_parent": 1674234375,
-      "diameter": 3316.56,
-      "gravity": 2.6460000000000004,
-      "length_of_day": 3082.5,
-      "mass": 0,
-      "orbital_period": 0
-    },
-    {
-      "position": {
         "x": 9725.718960178625,
         "y": 8099.111572559573
       },
@@ -133,6 +94,48 @@
       "diameter": 4464.599999999999,
       "gravity": 2.0580000000000003,
       "length_of_day": 2041.4,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": -151.75598422158288,
+        "y": 2764.953971915506
+      },
+      "name": "I-a",
+      "distance_from_parent": 3161468.75,
+      "diameter": 4464.599999999999,
+      "gravity": 5.096000000000001,
+      "length_of_day": 27.7,
+      "parent": "I",
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": -673.7416222883378,
+        "y": 11912.36237060171
+      },
+      "name": "V-a",
+      "distance_from_parent": 16742343.75,
+      "diameter": 3699.24,
+      "gravity": 1.6660000000000001,
+      "length_of_day": 24.8,
+      "parent": "V",
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": -852.2319099084073,
+        "y": 11770.150365647762
+      },
+      "name": "V-b",
+      "distance_from_parent": 16742343.75,
+      "diameter": 3316.56,
+      "gravity": 2.6460000000000004,
+      "length_of_day": 3082.5,
+      "parent": "V",
       "mass": 0,
       "orbital_period": 0
     }

@@ -21,27 +21,29 @@
     },
     {
       "position": {
-        "x": 2056.4262331803398,
-        "y": 159.15162751704452
+        "x": 55.91420084925011,
+        "y": -382.8603065535917
       },
-      "name": "I-a",
-      "distance_from_parent": 227321875,
+      "name": "Vlik-a",
+      "distance_from_parent": 2273218.75,
       "diameter": 4464.599999999999,
       "gravity": 7.056,
       "length_of_day": 17.8,
+      "parent": "Vlik",
       "mass": 0,
       "orbital_period": 0
     },
     {
       "position": {
-        "x": 128.11699975123815,
-        "y": -473.4430885950154
+        "x": 17.397765512116507,
+        "y": -458.83520678716195
       },
-      "name": "I-b",
-      "distance_from_parent": 227321875,
+      "name": "Vlik-b",
+      "distance_from_parent": 2273218.75,
       "diameter": 4337.04,
       "gravity": 5.096000000000001,
       "length_of_day": 22.7,
+      "parent": "Vlik",
       "mass": 0,
       "orbital_period": 0
     }

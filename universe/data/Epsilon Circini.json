@@ -112,14 +112,15 @@
     },
     {
       "position": {
-        "x": -6688.375313966442,
-        "y": -12242.592273891727
+        "x": -12282.581101728416,
+        "y": -7262.375533609901
       },
       "name": "VIII-a",
-      "distance_from_parent": 2175628125,
+      "distance_from_parent": 21756281.25,
       "diameter": 3954.36,
       "gravity": 3.0380000000000003,
       "length_of_day": 27,
+      "parent": "VIII",
       "mass": 0,
       "orbital_period": 0
     }

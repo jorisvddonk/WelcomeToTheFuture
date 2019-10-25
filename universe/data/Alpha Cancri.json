@@ -47,14 +47,15 @@
     },
     {
       "position": {
-        "x": 1424.4196150097562,
-        "y": -5303.9794791135455
+        "x": 6386.1571278803685,
+        "y": 880.4750184256915
       },
       "name": "III-a",
-      "distance_from_parent": 883867187.5,
+      "distance_from_parent": 8838671.875,
       "diameter": 3826.7999999999997,
       "gravity": 2.94,
       "length_of_day": 2934,
+      "parent": "III",
       "mass": 0,
       "orbital_period": 0
     }

@@ -86,14 +86,15 @@
     },
     {
       "position": {
-        "x": 3451.7656313978428,
-        "y": 14427.994126926229
+        "x": 3281.9401207729934,
+        "y": -13782.97977606348
       },
       "name": "VI-a",
-      "distance_from_parent": 2158389062.5,
+      "distance_from_parent": 21583890.625,
       "diameter": 4081.92,
       "gravity": 0.9800000000000001,
       "length_of_day": 25.6,
+      "parent": "VI",
       "mass": 0,
       "orbital_period": 0
     }

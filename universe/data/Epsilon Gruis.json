@@ -21,14 +21,15 @@
     },
     {
       "position": {
-        "x": -6830.049475332277,
-        "y": -8661.105136831238
+        "x": -8762.5904381401,
+        "y": 7446.320640212793
       },
-      "name": "I-a",
-      "distance_from_parent": 1720400000,
+      "name": "Spathiwa-a",
+      "distance_from_parent": 17204000,
       "diameter": 3826.7999999999997,
       "gravity": 1.6660000000000001,
       "length_of_day": 28.3,
+      "parent": "Spathiwa",
       "mass": 0,
       "orbital_period": 0
     }

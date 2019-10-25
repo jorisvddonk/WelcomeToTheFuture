@@ -34,19 +34,6 @@
     },
     {
       "position": {
-        "x": -4032.0727199319153,
-        "y": -310.3103518378779
-      },
-      "name": "II-a",
-      "distance_from_parent": 627910937.5,
-      "diameter": 4719.72,
-      "gravity": 7.448,
-      "length_of_day": 15.1,
-      "mass": 0,
-      "orbital_period": 0
-    },
-    {
-      "position": {
         "x": 3618.1789956133875,
         "y": 4488.29247176981
       },
@@ -112,32 +99,6 @@
     },
     {
       "position": {
-        "x": 3019.547801793725,
-        "y": 10671.249450299287
-      },
-      "name": "VII-a",
-      "distance_from_parent": 1640048437.5,
-      "diameter": 3444.1200000000003,
-      "gravity": 1.47,
-      "length_of_day": 27.9,
-      "mass": 0,
-      "orbital_period": 0
-    },
-    {
-      "position": {
-        "x": -8486.61740790105,
-        "y": 6854.89754099746
-      },
-      "name": "VII-b",
-      "distance_from_parent": 1640048437.5,
-      "diameter": 4464.599999999999,
-      "gravity": 3.43,
-      "length_of_day": 17.2,
-      "mass": 0,
-      "orbital_period": 0
-    },
-    {
-      "position": {
         "x": -5626.708202021858,
         "y": 13393.742749001844
       },
@@ -146,6 +107,48 @@
       "diameter": 4719.72,
       "gravity": 7.056,
       "length_of_day": 27.4,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 3835.265466499774,
+        "y": 1786.3638286215112
+      },
+      "name": "II-a",
+      "distance_from_parent": 6279109.375,
+      "diameter": 4719.72,
+      "gravity": 7.448,
+      "length_of_day": 15.1,
+      "parent": "II",
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": -9398.235225872806,
+        "y": -5042.775892762278
+      },
+      "name": "VII-a",
+      "distance_from_parent": 16400484.375,
+      "diameter": 3444.1200000000003,
+      "gravity": 1.47,
+      "length_of_day": 27.9,
+      "parent": "VII",
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": -9538.550169585495,
+        "y": -5089.3153951579425
+      },
+      "name": "VII-b",
+      "distance_from_parent": 16400484.375,
+      "diameter": 4464.599999999999,
+      "gravity": 3.43,
+      "length_of_day": 17.2,
+      "parent": "VII",
       "mass": 0,
       "orbital_period": 0
     }

@@ -47,27 +47,29 @@
     },
     {
       "position": {
-        "x": -6189.1741680881,
-        "y": 14415.395735819635
+        "x": -11549.078445650073,
+        "y": 10436.111078725782
       },
       "name": "III-a",
-      "distance_from_parent": 2251596875,
+      "distance_from_parent": 22515968.75,
       "diameter": 4337.04,
       "gravity": 1.078,
       "length_of_day": 23.6,
+      "parent": "III",
       "mass": 0,
       "orbital_period": 0
     },
     {
       "position": {
-        "x": -13183.085017797732,
-        "y": -6111.69473215615
+        "x": -11619.01755414717,
+        "y": 10230.840174046025
       },
       "name": "III-b",
-      "distance_from_parent": 2251596875,
+      "distance_from_parent": 22515968.75,
       "diameter": 4464.599999999999,
       "gravity": 1.9600000000000002,
       "length_of_day": 22.1,
+      "parent": "III",
       "mass": 0,
       "orbital_period": 0
     }

@@ -60,14 +60,15 @@
     },
     {
       "position": {
-        "x": -10778.281660238052,
-        "y": -2336.2580657452345
+        "x": -5342.618602760042,
+        "y": -10046.779236771556
       },
       "name": "IV-a",
-      "distance_from_parent": 1779129687.5,
+      "distance_from_parent": 17791296.875,
       "diameter": 3444.1200000000003,
       "gravity": 0.784,
       "length_of_day": 27.9,
+      "parent": "IV",
       "mass": 0,
       "orbital_period": 0
     }

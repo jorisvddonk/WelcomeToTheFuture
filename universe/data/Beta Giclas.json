@@ -60,19 +60,6 @@
     },
     {
       "position": {
-        "x": -3788.5801709519774,
-        "y": -5451.404917727391
-      },
-      "name": "IV-a",
-      "distance_from_parent": 1008339062.5,
-      "diameter": 4209.4800000000005,
-      "gravity": 4.998,
-      "length_of_day": 19.1,
-      "mass": 0,
-      "orbital_period": 0
-    },
-    {
-      "position": {
         "x": 8543.777264673394,
         "y": 650.1359017317659
       },
@@ -94,6 +81,20 @@
       "diameter": 3699.24,
       "gravity": 1.6660000000000001,
       "length_of_day": 18.5,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": -5975.828032588011,
+        "y": -3129.9920082496674
+      },
+      "name": "IV-a",
+      "distance_from_parent": 10083390.625,
+      "diameter": 4209.4800000000005,
+      "gravity": 4.998,
+      "length_of_day": 19.1,
+      "parent": "IV",
       "mass": 0,
       "orbital_period": 0
     }

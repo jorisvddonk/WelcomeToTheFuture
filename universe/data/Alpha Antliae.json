@@ -60,58 +60,6 @@
     },
     {
       "position": {
-        "x": 1847.1210363987877,
-        "y": 5040.878120022244
-      },
-      "name": "IV-a",
-      "distance_from_parent": 664726562.5,
-      "diameter": 4081.92,
-      "gravity": 1.862,
-      "length_of_day": 22.1,
-      "mass": 0,
-      "orbital_period": 0
-    },
-    {
-      "position": {
-        "x": 3951.823086618781,
-        "y": 3364.3232137527984
-      },
-      "name": "IV-b",
-      "distance_from_parent": 664726562.5,
-      "diameter": 3826.7999999999997,
-      "gravity": 0.882,
-      "length_of_day": 22.7,
-      "mass": 0,
-      "orbital_period": 0
-    },
-    {
-      "position": {
-        "x": -23.791572464100398,
-        "y": -3521.8472670437914
-      },
-      "name": "IV-c",
-      "distance_from_parent": 664726562.5,
-      "diameter": 4337.04,
-      "gravity": 6.958,
-      "length_of_day": 28.9,
-      "mass": 0,
-      "orbital_period": 0
-    },
-    {
-      "position": {
-        "x": -2450.808286065867,
-        "y": -2598.9368749727773
-      },
-      "name": "IV-d",
-      "distance_from_parent": 664726562.5,
-      "diameter": 3954.36,
-      "gravity": 2.94,
-      "length_of_day": 29.8,
-      "mass": 0,
-      "orbital_period": 0
-    },
-    {
-      "position": {
         "x": 5873.737962389994,
         "y": 1618.5338450317286
       },
@@ -164,40 +112,99 @@
     },
     {
       "position": {
-        "x": 11004.383641470893,
-        "y": 6220.214658091843
+        "x": -899.9873602430839,
+        "y": -3236.771800836237
+      },
+      "name": "IV-a",
+      "distance_from_parent": 6647265.625,
+      "diameter": 4081.92,
+      "gravity": 1.862,
+      "length_of_day": 22.1,
+      "parent": "IV",
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": -836.6620120787403,
+        "y": -3287.2152463325033
+      },
+      "name": "IV-b",
+      "distance_from_parent": 6647265.625,
+      "diameter": 3826.7999999999997,
+      "gravity": 0.882,
+      "length_of_day": 22.7,
+      "parent": "IV",
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": -956.278554680282,
+        "y": -3494.4033103959605
+      },
+      "name": "IV-c",
+      "distance_from_parent": 6647265.625,
+      "diameter": 4337.04,
+      "gravity": 6.958,
+      "length_of_day": 28.9,
+      "parent": "IV",
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": -1029.3015644566294,
+        "y": -3466.635189061979
+      },
+      "name": "IV-d",
+      "distance_from_parent": 6647265.625,
+      "diameter": 3954.36,
+      "gravity": 2.94,
+      "length_of_day": 29.8,
+      "parent": "IV",
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": -10870.998208805255,
+        "y": 5056.856954444154
       },
       "name": "VIII-a",
-      "distance_from_parent": 1797245312.5,
+      "distance_from_parent": 17972453.125,
       "diameter": 4719.72,
       "gravity": 5.390000000000001,
       "length_of_day": 19.9,
+      "parent": "VIII",
       "mass": 0,
       "orbital_period": 0
     },
     {
       "position": {
-        "x": -1285.77493154173,
-        "y": 12780.370151856774
+        "x": -11007.764831453076,
+        "y": 5129.859292501608
       },
       "name": "VIII-b",
-      "distance_from_parent": 1797245312.5,
+      "distance_from_parent": 17972453.125,
       "diameter": 4209.4800000000005,
       "gravity": 1.9600000000000002,
       "length_of_day": 15.1,
+      "parent": "VIII",
       "mass": 0,
       "orbital_period": 0
     },
     {
       "position": {
-        "x": -11476.326304542476,
-        "y": 3269.3763659508245
+        "x": -11121.166728257309,
+        "y": 5024.019608628114
       },
       "name": "VIII-c",
-      "distance_from_parent": 1797245312.5,
+      "distance_from_parent": 17972453.125,
       "diameter": 4081.92,
       "gravity": 6.272,
       "length_of_day": 17,
+      "parent": "VIII",
       "mass": 0,
       "orbital_period": 0
     }

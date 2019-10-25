@@ -34,14 +34,15 @@
     },
     {
       "position": {
-        "x": 12764.003312302299,
-        "y": 9509.312390944515
+        "x": 3068.368936579139,
+        "y": 15589.877665405424
       },
       "name": "II-a",
-      "distance_from_parent": 2211859375,
+      "distance_from_parent": 22118593.75,
       "diameter": 4464.599999999999,
       "gravity": 1.9600000000000002,
       "length_of_day": 28.3,
+      "parent": "II",
       "mass": 0,
       "orbital_period": 0
     }
