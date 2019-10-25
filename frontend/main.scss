@@ -97,3 +97,17 @@ body {
     background-color: #000;
   }
 }
+
+.message {
+  color: white;
+  border-radius: 5px;
+  padding: 5px;
+  &.message-unread {
+    border: 1px solid #ff9;
+    background-color: #662;
+  }
+  &.message-read {
+    border: 1px solid #633;
+    background-color: #331;
+  }
+}

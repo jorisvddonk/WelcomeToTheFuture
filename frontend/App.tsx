@@ -9,6 +9,7 @@ import { flatten } from "lodash";
 import Star from "./Star";
 import GQLPlayground from "./GQLPlayground";
 import { Vector } from "../starship/Vector";
+import Messages from "./Messages";
 
 export default class App extends React.Component<any, any> {
   private lastTimestamp: number;
@@ -277,6 +278,7 @@ export default class App extends React.Component<any, any> {
           >
             +
           </button>
+          <Messages />
         </div>
       </div>
     );
