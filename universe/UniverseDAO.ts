@@ -4,6 +4,7 @@ import { IStar } from "./IStar";
 import { IBody } from "./IBody";
 import { GQLStarship } from "../starship/GQLStarship";
 import { Vector } from "../starship/Vector";
+import glob from "glob";
 
 export class UniverseDAO {
   private stars: IStar[] = [];
@@ -24,14 +25,16 @@ export class UniverseDAO {
 
   reloadStars() {
     const stars = [];
-    const loadStar = (starname: string) => {
+    const loadStar = (path: string) => {
       const starData: IStar = JSON.parse(
-        readFileSync(`${__dirname}/data/${starname}.json`).toString()
+        readFileSync(path).toString()
       );
       stars.push(starData);
     };
 
-    loadStar("sol");
+    glob.sync(__dirname + "/data/*.json").forEach(path => {
+      loadStar(path);
+    })
 
     this.stars = stars;
   }
