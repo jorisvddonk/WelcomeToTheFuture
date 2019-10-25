@@ -8,12 +8,11 @@ import {
 } from "type-graphql";
 import { GQLStarship } from "./GQLStarship";
 import { Universe } from "../universe/UniverseDAO";
-import { CoordinateNotification } from "./CoordinateNotification";
 import { ManualControl } from "./ManualControl";
 
 @Resolver(GQLStarship)
 export class GQLStarshipResolver {
-  constructor() {}
+  constructor() { }
 
   @Query(returns => GQLStarship)
   async starship() {
@@ -21,11 +20,11 @@ export class GQLStarshipResolver {
   }
 
   @Subscription({
-    topics: ["spaceshipCoordinateUpdate"]
+    topics: ["starshipUpdate"]
   })
-  newNotification(
-    @Root() payload: CoordinateNotification
-  ): CoordinateNotification {
+  starshipUpdate(
+    @Root() payload: GQLStarship
+  ): GQLStarship {
     return payload;
   }
 

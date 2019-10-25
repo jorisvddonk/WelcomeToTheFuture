@@ -6,7 +6,6 @@ import { GQLStarshipResolver } from "./starship/GQLStarship.resolver";
 import { GQLStarResolver } from "./universe/GQLStar.resolver";
 import { GQLPlanetResolver } from "./universe/GQLPlanet.resolver";
 import { PubSub } from "graphql-subscriptions";
-import { CoordinateNotification } from "./starship/CoordinateNotification";
 import { Universe } from "./universe/UniverseDAO";
 
 const UPDATE_INTERVAL = (1000 / 60) * 3; // 3 frames @ 60fps
@@ -82,13 +81,8 @@ async function boot() {
     starship.position.y =
       starship.position.y + starship.velocity.y * (UPDATE_INTERVAL / 1000);
     pubsub.publish(
-      "spaceshipCoordinateUpdate",
-      new CoordinateNotification(
-        starship.position,
-        starship.angle,
-        starship.velocity,
-        starship.thrusting
-      )
+      "starshipUpdate",
+      starship
     );
   }, UPDATE_INTERVAL);
 }

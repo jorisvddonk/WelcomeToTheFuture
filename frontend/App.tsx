@@ -99,7 +99,7 @@ export default class App extends React.Component<any, any> {
       .subscribe({
         query: gql`
           subscription {
-            newNotification {
+            starshipUpdate {
               position {
                 x
                 y
@@ -119,15 +119,15 @@ export default class App extends React.Component<any, any> {
           spaceship: {
             ...this.state.spaceship,
             position: {
-              x: x.data.newNotification.position.x,
-              y: x.data.newNotification.position.y
+              x: x.data.starshipUpdate.position.x,
+              y: x.data.starshipUpdate.position.y
             },
             velocity: {
-              x: x.data.newNotification.velocity.x,
-              y: x.data.newNotification.velocity.y
+              x: x.data.starshipUpdate.velocity.x,
+              y: x.data.starshipUpdate.velocity.y
             },
-            angle: x.data.newNotification.angle,
-            thrusting: x.data.newNotification.thrusting
+            angle: x.data.starshipUpdate.angle,
+            thrusting: x.data.starshipUpdate.thrusting
           }
         });
       });

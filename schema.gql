@@ -3,13 +3,6 @@
 # !!!   DO NOT MODIFY THIS FILE BY YOURSELF   !!!
 # -----------------------------------------------
 
-type CoordinateNotification {
-  position: Vector!
-  velocity: Vector!
-  angle: Float!
-  thrusting: Boolean!
-}
-
 type GQLMoon {
   name: String!
   planet: GQLPlanet!
@@ -67,7 +60,7 @@ type Query {
 }
 
 type Subscription {
-  newNotification: CoordinateNotification!
+  starshipUpdate: GQLStarship!
 }
 
 type Vector {
