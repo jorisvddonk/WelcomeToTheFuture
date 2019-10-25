@@ -16,7 +16,7 @@ export class UniverseDAO {
 
     const sol = this.stars.find(star => star.name === "Sol");
     if (sol !== undefined) {
-      const earth = this.stars[0].bodies.find(body => body.name === "Earth");
+      const earth = sol.bodies.find(body => body.name === "Earth");
       if (earth !== undefined) {
         this.starship.position = new Vector(earth.position.x, earth.position.y);
       }
