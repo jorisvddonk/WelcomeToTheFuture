@@ -76,6 +76,21 @@ export default class App extends React.Component<any, any> {
       .subscribe({
         query: gql`
           subscription {
+            starUpdate {
+              ${starPropsQuery}
+            }
+          }
+        `
+      })
+      .forEach(x => {
+        const star = x.data.starUpdate;
+        this.setStarData(star);
+      });
+
+    client
+      .subscribe({
+        query: gql`
+          subscription {
             starshipUpdate {
               position {
                 x
