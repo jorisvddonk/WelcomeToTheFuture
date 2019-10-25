@@ -9,13 +9,16 @@ import glob from "glob";
 export class UniverseDAO {
   private stars: IStar[] = [];
   public starship: GQLStarship;
+  private currentStarname: string;
 
   constructor() {
     this.reloadStars();
     this.starship = new GQLStarship();
+    this.currentStarname = this.stars[0].name;
 
     const sol = this.stars.find(star => star.name === "Sol");
     if (sol !== undefined) {
+      this.currentStarname = sol.name;
       const earth = sol.bodies.find(body => body.name === "Earth");
       if (earth !== undefined) {
         this.starship.position = new Vector(earth.position.x, earth.position.y);
@@ -53,6 +56,10 @@ export class UniverseDAO {
       mass: foundStar.mass,
       position: foundStar.position
     };
+  }
+
+  getCurrentStar() {
+    return this.findStar(this.currentStarname);
   }
 
   private get bodies() {
