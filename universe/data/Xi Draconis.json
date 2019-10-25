@@ -1,0 +1,62 @@
+{
+  "name": "Xi Draconis",
+  "mass": 3e+24,
+  "position": {
+    "x": 258.8,
+    "y": 865.3
+  },
+  "bodies": [
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "I",
+      "distance_from_parent": 510743750,
+      "diameter": 14286.720000000001,
+      "gravity": 10.780000000000001,
+      "length_of_day": 26.3,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "II",
+      "distance_from_parent": 847051562.5,
+      "diameter": 69009.96,
+      "gravity": 10.584000000000001,
+      "length_of_day": 8.3,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "II-a",
+      "distance_from_parent": 847051562.5,
+      "diameter": 3699.24,
+      "gravity": 0.882,
+      "length_of_day": 20.1,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "II-b",
+      "distance_from_parent": 847051562.5,
+      "diameter": 4081.92,
+      "gravity": 3.136,
+      "length_of_day": 24.9,
+      "mass": 0,
+      "orbital_period": 0
+    }
+  ]
+}

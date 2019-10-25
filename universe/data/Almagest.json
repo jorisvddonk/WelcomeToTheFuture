@@ -1,0 +1,62 @@
+{
+  "name": "Almagest",
+  "mass": 3e+24,
+  "position": {
+    "x": 990.9,
+    "y": 235.9
+  },
+  "bodies": [
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "I",
+      "distance_from_parent": 152229687.5,
+      "diameter": 3316.56,
+      "gravity": 1.47,
+      "length_of_day": 18.4,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "II",
+      "distance_from_parent": 829812500,
+      "diameter": 4337.04,
+      "gravity": 4.8020000000000005,
+      "length_of_day": 17.3,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "III",
+      "distance_from_parent": 1569339062.5,
+      "diameter": 3316.56,
+      "gravity": 3.724,
+      "length_of_day": 5132.9,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "IV",
+      "distance_from_parent": 2046481250,
+      "diameter": 4081.92,
+      "gravity": 0.9800000000000001,
+      "length_of_day": 18.7,
+      "mass": 0,
+      "orbital_period": 0
+    }
+  ]
+}

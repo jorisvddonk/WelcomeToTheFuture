@@ -1,0 +1,88 @@
+{
+  "name": "Alpha Lyncis",
+  "mass": 3e+24,
+  "position": {
+    "x": 560,
+    "y": 955.2
+  },
+  "bodies": [
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "I",
+      "distance_from_parent": 781893750,
+      "diameter": 13648.92,
+      "gravity": 15.778000000000002,
+      "length_of_day": 18.5,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "II",
+      "distance_from_parent": 987885937.5,
+      "diameter": 3444.1200000000003,
+      "gravity": 2.7440000000000007,
+      "length_of_day": 27,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "III",
+      "distance_from_parent": 1352828125,
+      "diameter": 14286.720000000001,
+      "gravity": 10.584000000000001,
+      "length_of_day": 16.6,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "IV",
+      "distance_from_parent": 1581026562.5,
+      "diameter": 4464.599999999999,
+      "gravity": 1.9600000000000002,
+      "length_of_day": 20.4,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "V",
+      "distance_from_parent": 2136182812.5,
+      "diameter": 13648.92,
+      "gravity": 15.876000000000003,
+      "length_of_day": 15.3,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "V-a",
+      "distance_from_parent": 2136182812.5,
+      "diameter": 4081.92,
+      "gravity": 3.136,
+      "length_of_day": 21.3,
+      "mass": 0,
+      "orbital_period": 0
+    }
+  ]
+}

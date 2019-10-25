@@ -1,0 +1,75 @@
+{
+  "name": "Beta Monocerotis",
+  "mass": 3e+24,
+  "position": {
+    "x": 385.4,
+    "y": 729.1
+  },
+  "bodies": [
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "I",
+      "distance_from_parent": 527106250,
+      "diameter": 9694.56,
+      "gravity": 7.448,
+      "length_of_day": 20.8,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "II",
+      "distance_from_parent": 983503125,
+      "diameter": 142101.84,
+      "gravity": 22.834000000000003,
+      "length_of_day": 10.4,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "II-a",
+      "distance_from_parent": 983503125,
+      "diameter": 4592.16,
+      "gravity": 2.156,
+      "length_of_day": 17.1,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "III",
+      "distance_from_parent": 1450126562.5,
+      "diameter": 3826.7999999999997,
+      "gravity": 4.41,
+      "length_of_day": 20.1,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "IV",
+      "distance_from_parent": 1798706250,
+      "diameter": 13138.68,
+      "gravity": 10.388000000000002,
+      "length_of_day": 4656.2,
+      "mass": 0,
+      "orbital_period": 0
+    }
+  ]
+}

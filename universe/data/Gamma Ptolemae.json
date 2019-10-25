@@ -1,0 +1,88 @@
+{
+  "name": "Gamma Ptolemae",
+  "mass": 3e+24,
+  "position": {
+    "x": 210,
+    "y": 55.4
+  },
+  "bodies": [
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "I",
+      "distance_from_parent": 332217187.5,
+      "diameter": 100262.16,
+      "gravity": 16.17,
+      "length_of_day": 12.6,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "II",
+      "distance_from_parent": 765239062.5,
+      "diameter": 113273.28000000001,
+      "gravity": 18.228,
+      "length_of_day": 9.4,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "III",
+      "distance_from_parent": 1412726562.5,
+      "diameter": 3699.24,
+      "gravity": 2.842,
+      "length_of_day": 29,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "IV",
+      "distance_from_parent": 1605862500,
+      "diameter": 12883.56,
+      "gravity": 9.898000000000001,
+      "length_of_day": 3644.1,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "V",
+      "distance_from_parent": 1942170312.5,
+      "diameter": 14286.720000000001,
+      "gravity": 15.778000000000002,
+      "length_of_day": 16.5,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "V-a",
+      "distance_from_parent": 1942170312.5,
+      "diameter": 4081.92,
+      "gravity": 3.136,
+      "length_of_day": 24.9,
+      "mass": 0,
+      "orbital_period": 0
+    }
+  ]
+}

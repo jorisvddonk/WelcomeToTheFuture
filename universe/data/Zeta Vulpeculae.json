@@ -1,0 +1,179 @@
+{
+  "name": "Zeta Vulpeculae",
+  "mass": 3e+24,
+  "position": {
+    "x": 360.8,
+    "y": 263.7
+  },
+  "bodies": [
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "I",
+      "distance_from_parent": 168884375,
+      "diameter": 4337.04,
+      "gravity": 4.704,
+      "length_of_day": 16.6,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "II",
+      "distance_from_parent": 327542187.5,
+      "diameter": 3699.24,
+      "gravity": 2.842,
+      "length_of_day": 15.6,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "III",
+      "distance_from_parent": 535579687.5,
+      "diameter": 137382.12,
+      "gravity": 22.148,
+      "length_of_day": 9,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "III-a",
+      "distance_from_parent": 535579687.5,
+      "diameter": 3826.7999999999997,
+      "gravity": 5.978000000000001,
+      "length_of_day": 26.6,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "IV",
+      "distance_from_parent": 751798437.5,
+      "diameter": 3571.6800000000003,
+      "gravity": 5.292000000000001,
+      "length_of_day": 18.8,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "V",
+      "distance_from_parent": 1293221875,
+      "diameter": 76791.12,
+      "gravity": 12.348,
+      "length_of_day": 14,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "V-a",
+      "distance_from_parent": 1293221875,
+      "diameter": 3316.56,
+      "gravity": 3.724,
+      "length_of_day": 22.7,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "V-b",
+      "distance_from_parent": 1293221875,
+      "diameter": 3826.7999999999997,
+      "gravity": 5.782,
+      "length_of_day": 23.3,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "V-c",
+      "distance_from_parent": 1293221875,
+      "diameter": 3316.56,
+      "gravity": 5.292000000000001,
+      "length_of_day": 3082.5,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "V-d",
+      "distance_from_parent": 1293221875,
+      "diameter": 4592.16,
+      "gravity": 5.096000000000001,
+      "length_of_day": 28.4,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "VI",
+      "distance_from_parent": 1708128125,
+      "diameter": 3826.7999999999997,
+      "gravity": 5.586,
+      "length_of_day": 23.3,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "VII",
+      "distance_from_parent": 1909737500,
+      "diameter": 4592.16,
+      "gravity": 6.958,
+      "length_of_day": 27.9,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "VIII",
+      "distance_from_parent": 2189653125,
+      "diameter": 3954.36,
+      "gravity": 4.606,
+      "length_of_day": 22.1,
+      "mass": 0,
+      "orbital_period": 0
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "name": "Gamma Kepler",
+  "mass": 3e+24,
+  "position": {
+    "x": 602,
+    "y": 297.9
+  },
+  "bodies": [
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "I",
+      "distance_from_parent": 74800000,
+      "diameter": 11735.52,
+      "gravity": 5.488000000000001,
+      "length_of_day": 17.2,
+      "mass": 0,
+      "orbital_period": 0
+    }
+  ]
+}

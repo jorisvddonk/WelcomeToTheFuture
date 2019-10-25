@@ -1,0 +1,49 @@
+{
+  "name": "Alpha Saurus",
+  "mass": 3e+24,
+  "position": {
+    "x": 230.6,
+    "y": 228.5
+  },
+  "bodies": [
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "I",
+      "distance_from_parent": 406725000,
+      "diameter": 3189,
+      "gravity": 2.45,
+      "length_of_day": 26.6,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "II",
+      "distance_from_parent": 674368750,
+      "diameter": 3571.6800000000003,
+      "gravity": 5.292000000000001,
+      "length_of_day": 17.5,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "III",
+      "distance_from_parent": 1819743750,
+      "diameter": 4081.92,
+      "gravity": 0.9800000000000001,
+      "length_of_day": 20.5,
+      "mass": 0,
+      "orbital_period": 0
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "name": "Alpha Persei",
+  "mass": 3e+24,
+  "position": {
+    "x": 929.1,
+    "y": 258.3
+  },
+  "bodies": [
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "I",
+      "distance_from_parent": 373123437.5,
+      "diameter": 4592.16,
+      "gravity": 5.390000000000001,
+      "length_of_day": 17.4,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "II",
+      "distance_from_parent": 2201340625,
+      "diameter": 3826.7999999999997,
+      "gravity": 0.882,
+      "length_of_day": 29,
+      "mass": 0,
+      "orbital_period": 0
+    }
+  ]
+}

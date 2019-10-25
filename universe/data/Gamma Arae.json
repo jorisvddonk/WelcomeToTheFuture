@@ -1,0 +1,23 @@
+{
+  "name": "Gamma Arae",
+  "mass": 3e+24,
+  "position": {
+    "x": 941.9,
+    "y": 94.2
+  },
+  "bodies": [
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "I",
+      "distance_from_parent": 1613751562.5,
+      "diameter": 3316.56,
+      "gravity": 3.6260000000000003,
+      "length_of_day": 28.9,
+      "mass": 0,
+      "orbital_period": 0
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "name": "Beta Arietis",
+  "mass": 3e+24,
+  "position": {
+    "x": 946.9,
+    "y": 154.8
+  },
+  "bodies": [
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "I",
+      "distance_from_parent": 973568750,
+      "diameter": 10970.16,
+      "gravity": 12.740000000000002,
+      "length_of_day": 1522.7,
+      "mass": 0,
+      "orbital_period": 0
+    }
+  ]
+}

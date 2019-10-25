@@ -1,0 +1,36 @@
+{
+  "name": "Delta Lyncis",
+  "mass": 3e+24,
+  "position": {
+    "x": 570.4,
+    "y": 979.5
+  },
+  "bodies": [
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "I",
+      "distance_from_parent": 164501562.5,
+      "diameter": 12628.44,
+      "gravity": 9.31,
+      "length_of_day": 20.6,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "II",
+      "distance_from_parent": 1042232812.5,
+      "diameter": 3444.1200000000003,
+      "gravity": 1.47,
+      "length_of_day": 16.7,
+      "mass": 0,
+      "orbital_period": 0
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "name": "Theta Serpentis",
+  "mass": 3e+24,
+  "position": {
+    "x": 452.9,
+    "y": 16.9
+  },
+  "bodies": [
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "I",
+      "distance_from_parent": 1195923437.5,
+      "diameter": 11480.4,
+      "gravity": 12.838000000000001,
+      "length_of_day": 24.7,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "II",
+      "distance_from_parent": 1647645312.5,
+      "diameter": 3189,
+      "gravity": 2.5480000000000005,
+      "length_of_day": 23,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "III",
+      "distance_from_parent": 2315001562.5,
+      "diameter": 3699.24,
+      "gravity": 2.842,
+      "length_of_day": 16.3,
+      "mass": 0,
+      "orbital_period": 0
+    }
+  ]
+}

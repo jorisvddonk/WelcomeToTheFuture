@@ -1,0 +1,88 @@
+{
+  "name": "Delta Gorno",
+  "mass": 3e+24,
+  "position": {
+    "x": 290.8,
+    "y": 26.9
+  },
+  "bodies": [
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "Kyabetsu",
+      "distance_from_parent": 281668750,
+      "diameter": 3826.7999999999997,
+      "gravity": 1.764,
+      "length_of_day": 16.2,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "II",
+      "distance_from_parent": 641059375,
+      "diameter": 4209.4800000000005,
+      "gravity": 1.862,
+      "length_of_day": 27.2,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "III",
+      "distance_from_parent": 812281250,
+      "diameter": 3571.6800000000003,
+      "gravity": 1.6660000000000001,
+      "length_of_day": 1969.2,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "IV",
+      "distance_from_parent": 936168750,
+      "diameter": 3826.7999999999997,
+      "gravity": 4.41,
+      "length_of_day": 19,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "V",
+      "distance_from_parent": 1370651562.5,
+      "diameter": 3826.7999999999997,
+      "gravity": 4.508000000000001,
+      "length_of_day": 29.7,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "VI",
+      "distance_from_parent": 1610829687.5,
+      "diameter": 4719.72,
+      "gravity": 5.684,
+      "length_of_day": 15.5,
+      "mass": 0,
+      "orbital_period": 0
+    }
+  ]
+}

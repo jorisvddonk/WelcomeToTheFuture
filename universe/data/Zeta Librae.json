@@ -1,0 +1,23 @@
+{
+  "name": "Zeta Librae",
+  "mass": 3e+24,
+  "position": {
+    "x": 783.3,
+    "y": 908.3
+  },
+  "bodies": [
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "I",
+      "distance_from_parent": 1191540625,
+      "diameter": 3316.56,
+      "gravity": 3.9200000000000004,
+      "length_of_day": 24.2,
+      "mass": 0,
+      "orbital_period": 0
+    }
+  ]
+}

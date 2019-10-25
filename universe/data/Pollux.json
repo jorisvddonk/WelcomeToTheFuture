@@ -1,0 +1,36 @@
+{
+  "name": "Pollux",
+  "mass": 3e+24,
+  "position": {
+    "x": 565.2,
+    "y": 9.8
+  },
+  "bodies": [
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "I",
+      "distance_from_parent": 989346875,
+      "diameter": 4592.16,
+      "gravity": 2.0580000000000003,
+      "length_of_day": 19.5,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "II",
+      "distance_from_parent": 1572260937.5,
+      "diameter": 3316.56,
+      "gravity": 0.784,
+      "length_of_day": 24.2,
+      "mass": 0,
+      "orbital_period": 0
+    }
+  ]
+}

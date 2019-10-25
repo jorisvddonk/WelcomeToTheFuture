@@ -1,0 +1,62 @@
+{
+  "name": "Iota Camelopardalis",
+  "mass": 3e+24,
+  "position": {
+    "x": 629.1,
+    "y": 393.7
+  },
+  "bodies": [
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "I",
+      "distance_from_parent": 1281826562.5,
+      "diameter": 130493.88,
+      "gravity": 19.992,
+      "length_of_day": 12.1,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "I-a",
+      "distance_from_parent": 1281826562.5,
+      "diameter": 3444.1200000000003,
+      "gravity": 1.47,
+      "length_of_day": 23.3,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "II",
+      "distance_from_parent": 1569339062.5,
+      "diameter": 11735.52,
+      "gravity": 9.31,
+      "length_of_day": 5817.5,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "III",
+      "distance_from_parent": 1721276562.5,
+      "diameter": 3954.36,
+      "gravity": 4.508000000000001,
+      "length_of_day": 28.5,
+      "mass": 0,
+      "orbital_period": 0
+    }
+  ]
+}

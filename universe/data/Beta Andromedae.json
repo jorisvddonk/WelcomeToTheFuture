@@ -1,0 +1,23 @@
+{
+  "name": "Beta Andromedae",
+  "mass": 3e+24,
+  "position": {
+    "x": 866.6,
+    "y": 710.4
+  },
+  "bodies": [
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "I",
+      "distance_from_parent": 1677448437.5,
+      "diameter": 3444.1200000000003,
+      "gravity": 5.390000000000001,
+      "length_of_day": 17.8,
+      "mass": 0,
+      "orbital_period": 0
+    }
+  ]
+}

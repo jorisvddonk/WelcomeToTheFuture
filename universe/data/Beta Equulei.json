@@ -1,0 +1,62 @@
+{
+  "name": "Beta Equulei",
+  "mass": 3e+24,
+  "position": {
+    "x": 602,
+    "y": 672.9
+  },
+  "bodies": [
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "I",
+      "distance_from_parent": 235503125,
+      "diameter": 3826.7999999999997,
+      "gravity": 0.882,
+      "length_of_day": 15.8,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "II",
+      "distance_from_parent": 996943750,
+      "diameter": 4592.16,
+      "gravity": 3.528,
+      "length_of_day": 20.3,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "III",
+      "distance_from_parent": 1706375000,
+      "diameter": 9567,
+      "gravity": 7.3500000000000005,
+      "length_of_day": 24.2,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "IV",
+      "distance_from_parent": 2181471875,
+      "diameter": 11607.960000000001,
+      "gravity": 8.624,
+      "length_of_day": 16.1,
+      "mass": 0,
+      "orbital_period": 0
+    }
+  ]
+}

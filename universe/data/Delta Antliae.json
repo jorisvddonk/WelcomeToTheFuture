@@ -1,0 +1,101 @@
+{
+  "name": "Delta Antliae",
+  "mass": 3e+24,
+  "position": {
+    "x": 305,
+    "y": 883.3
+  },
+  "bodies": [
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "I",
+      "distance_from_parent": 232873437.5,
+      "diameter": 4464.599999999999,
+      "gravity": 3.528,
+      "length_of_day": 29.5,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "II",
+      "distance_from_parent": 504315625,
+      "diameter": 10459.92,
+      "gravity": 8.232000000000001,
+      "length_of_day": 29.5,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "III",
+      "distance_from_parent": 1422953125,
+      "diameter": 83551.8,
+      "gravity": 13.426000000000002,
+      "length_of_day": 9.6,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "III-a",
+      "distance_from_parent": 1422953125,
+      "diameter": 3826.7999999999997,
+      "gravity": 1.764,
+      "length_of_day": 25,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "III-b",
+      "distance_from_parent": 1422953125,
+      "diameter": 3189,
+      "gravity": 1.3720000000000003,
+      "length_of_day": 21.7,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "III-c",
+      "distance_from_parent": 1422953125,
+      "diameter": 3571.6800000000003,
+      "gravity": 0.784,
+      "length_of_day": 5692.1,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "IV",
+      "distance_from_parent": 1848378125,
+      "diameter": 3571.6800000000003,
+      "gravity": 4.018,
+      "length_of_day": 22,
+      "mass": 0,
+      "orbital_period": 0
+    }
+  ]
+}

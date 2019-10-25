@@ -1,0 +1,101 @@
+{
+  "name": "Eta Gruis",
+  "mass": 3e+24,
+  "position": {
+    "x": 247.9,
+    "y": 395.8
+  },
+  "bodies": [
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "I",
+      "distance_from_parent": 634339062.5,
+      "diameter": 4081.92,
+      "gravity": 3.2340000000000004,
+      "length_of_day": 24.3,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "II",
+      "distance_from_parent": 1684460937.5,
+      "diameter": 149883,
+      "gravity": 24.108,
+      "length_of_day": 14.6,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "II-a",
+      "distance_from_parent": 1684460937.5,
+      "diameter": 4081.92,
+      "gravity": 1.764,
+      "length_of_day": 21.6,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "III",
+      "distance_from_parent": 2149331250,
+      "diameter": 43242.840000000004,
+      "gravity": 6.566000000000001,
+      "length_of_day": 14,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "III-a",
+      "distance_from_parent": 2149331250,
+      "diameter": 3699.24,
+      "gravity": 1.6660000000000001,
+      "length_of_day": 23.4,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "III-b",
+      "distance_from_parent": 2149331250,
+      "diameter": 3189,
+      "gravity": 2.5480000000000005,
+      "length_of_day": 19.9,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "III-c",
+      "distance_from_parent": 2149331250,
+      "diameter": 4209.4800000000005,
+      "gravity": 6.174,
+      "length_of_day": 28.1,
+      "mass": 0,
+      "orbital_period": 0
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "name": "Epsilon Arietis",
+  "mass": 3e+24,
+  "position": {
+    "x": 955.9,
+    "y": 173.5
+  },
+  "bodies": [
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "I",
+      "distance_from_parent": 631417187.5,
+      "diameter": 14286.720000000001,
+      "gravity": 16.072,
+      "length_of_day": 22.1,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "II",
+      "distance_from_parent": 764362500,
+      "diameter": 10077.24,
+      "gravity": 11.76,
+      "length_of_day": 15.3,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "III",
+      "distance_from_parent": 1066192187.5,
+      "diameter": 13904.04,
+      "gravity": 15.190000000000001,
+      "length_of_day": 1897.6,
+      "mass": 0,
+      "orbital_period": 0
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "name": "Beta Herculis",
+  "mass": 3e+24,
+  "position": {
+    "x": 175.8,
+    "y": 341.8
+  },
+  "bodies": [
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "I",
+      "distance_from_parent": 211543750,
+      "diameter": 3954.36,
+      "gravity": 1.764,
+      "length_of_day": 17.8,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "II",
+      "distance_from_parent": 1195631250,
+      "diameter": 3316.56,
+      "gravity": 2.6460000000000004,
+      "length_of_day": 25.5,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "III",
+      "distance_from_parent": 2177089062.5,
+      "diameter": 185854.92,
+      "gravity": 29.89,
+      "length_of_day": 12.7,
+      "mass": 0,
+      "orbital_period": 0
+    }
+  ]
+}

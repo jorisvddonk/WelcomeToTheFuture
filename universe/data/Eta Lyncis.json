@@ -1,0 +1,49 @@
+{
+  "name": "Eta Lyncis",
+  "mass": 3e+24,
+  "position": {
+    "x": 598.9,
+    "y": 949.6
+  },
+  "bodies": [
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "I",
+      "distance_from_parent": 430976562.5,
+      "diameter": 3316.56,
+      "gravity": 0.784,
+      "length_of_day": 21.9,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "II",
+      "distance_from_parent": 721703125,
+      "diameter": 3444.1200000000003,
+      "gravity": 1.568,
+      "length_of_day": 23.2,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "III",
+      "distance_from_parent": 1514115625,
+      "diameter": 4337.04,
+      "gravity": 3.2340000000000004,
+      "length_of_day": 21.4,
+      "mass": 0,
+      "orbital_period": 0
+    }
+  ]
+}

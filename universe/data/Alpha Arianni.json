@@ -1,0 +1,23 @@
+{
+  "name": "Alpha Arianni",
+  "mass": 3e+24,
+  "position": {
+    "x": 739.5,
+    "y": 175
+  },
+  "bodies": [
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "I",
+      "distance_from_parent": 1402500000,
+      "diameter": 11097.72,
+      "gravity": 8.624,
+      "length_of_day": 18,
+      "mass": 0,
+      "orbital_period": 0
+    }
+  ]
+}

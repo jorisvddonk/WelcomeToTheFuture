@@ -1,0 +1,62 @@
+{
+  "name": "Gamma Reticuli",
+  "mass": 3e+24,
+  "position": {
+    "x": 741.6,
+    "y": 508.3
+  },
+  "bodies": [
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "I",
+      "distance_from_parent": 74800000,
+      "diameter": 12245.76,
+      "gravity": 5.684,
+      "length_of_day": 29.8,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "II",
+      "distance_from_parent": 742740625,
+      "diameter": 3444.1200000000003,
+      "gravity": 2.6460000000000004,
+      "length_of_day": 26.8,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "III",
+      "distance_from_parent": 937921875,
+      "diameter": 3316.56,
+      "gravity": 3.724,
+      "length_of_day": 5972.2,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "IV",
+      "distance_from_parent": 2231143750,
+      "diameter": 4209.4800000000005,
+      "gravity": 1.862,
+      "length_of_day": 19.4,
+      "mass": 0,
+      "orbital_period": 0
+    }
+  ]
+}

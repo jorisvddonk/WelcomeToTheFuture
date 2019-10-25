@@ -1,0 +1,88 @@
+{
+  "name": "Delta Virginis",
+  "mass": 3e+24,
+  "position": {
+    "x": 110.4,
+    "y": 333.3
+  },
+  "bodies": [
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "I",
+      "distance_from_parent": 176189062.5,
+      "diameter": 13904.04,
+      "gravity": 10.682000000000002,
+      "length_of_day": 21.6,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "I-a",
+      "distance_from_parent": 176189062.5,
+      "diameter": 3189,
+      "gravity": 1.47,
+      "length_of_day": 21.1,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "II",
+      "distance_from_parent": 1141576562.5,
+      "diameter": 11735.52,
+      "gravity": 12.838000000000001,
+      "length_of_day": 18.1,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "III",
+      "distance_from_parent": 1386137500,
+      "diameter": 124881.23999999999,
+      "gravity": 20.09,
+      "length_of_day": 9.4,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "III-a",
+      "distance_from_parent": 1386137500,
+      "diameter": 3444.1200000000003,
+      "gravity": 2.7440000000000007,
+      "length_of_day": 19.9,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "IV",
+      "distance_from_parent": 1982200000,
+      "diameter": 11607.960000000001,
+      "gravity": 8.82,
+      "length_of_day": 26.7,
+      "mass": 0,
+      "orbital_period": 0
+    }
+  ]
+}

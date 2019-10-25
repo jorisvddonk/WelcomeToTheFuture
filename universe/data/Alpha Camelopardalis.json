@@ -1,0 +1,101 @@
+{
+  "name": "Alpha Camelopardalis",
+  "mass": 6e+24,
+  "position": {
+    "x": 606.2,
+    "y": 404.1
+  },
+  "bodies": [
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "I",
+      "distance_from_parent": 384226562.5,
+      "diameter": 10842.6,
+      "gravity": 5.096000000000001,
+      "length_of_day": 25.5,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "II",
+      "distance_from_parent": 655084375,
+      "diameter": 3189,
+      "gravity": 1.47,
+      "length_of_day": 29.5,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "III",
+      "distance_from_parent": 926818750,
+      "diameter": 3571.6800000000003,
+      "gravity": 2.7440000000000007,
+      "length_of_day": 17.7,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "IV",
+      "distance_from_parent": 1300234375,
+      "diameter": 109446.48,
+      "gravity": 16.758,
+      "length_of_day": 15.1,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "IV-a",
+      "distance_from_parent": 1300234375,
+      "diameter": 3316.56,
+      "gravity": 1.47,
+      "length_of_day": 22.7,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "IV-b",
+      "distance_from_parent": 1300234375,
+      "diameter": 4592.16,
+      "gravity": 1.9600000000000002,
+      "length_of_day": 20.9,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "IV-c",
+      "distance_from_parent": 1300234375,
+      "diameter": 4464.599999999999,
+      "gravity": 1.078,
+      "length_of_day": 22.5,
+      "mass": 0,
+      "orbital_period": 0
+    }
+  ]
+}

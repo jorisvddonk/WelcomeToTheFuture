@@ -1,0 +1,36 @@
+{
+  "name": "Alpha Luyten",
+  "mass": 3e+24,
+  "position": {
+    "x": 425,
+    "y": 164.5
+  },
+  "bodies": [
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "I",
+      "distance_from_parent": 85610937.5,
+      "diameter": 4209.4800000000005,
+      "gravity": 6.272,
+      "length_of_day": 2948.1,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "II",
+      "distance_from_parent": 1991257812.5,
+      "diameter": 3189,
+      "gravity": 3.724,
+      "length_of_day": 19.4,
+      "mass": 0,
+      "orbital_period": 0
+    }
+  ]
+}

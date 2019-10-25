@@ -1,0 +1,114 @@
+{
+  "name": "Alpha Leporis",
+  "mass": 3e+24,
+  "position": {
+    "x": 807.3,
+    "y": 858.8
+  },
+  "bodies": [
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "I",
+      "distance_from_parent": 387732812.5,
+      "diameter": 11607.960000000001,
+      "gravity": 5.096000000000001,
+      "length_of_day": 20.5,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "II",
+      "distance_from_parent": 717320312.5,
+      "diameter": 81000.59999999999,
+      "gravity": 13.034000000000002,
+      "length_of_day": 8.9,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "II-a",
+      "distance_from_parent": 717320312.5,
+      "diameter": 3826.7999999999997,
+      "gravity": 2.842,
+      "length_of_day": 25,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "II-b",
+      "distance_from_parent": 717320312.5,
+      "diameter": 4464.599999999999,
+      "gravity": 6.86,
+      "length_of_day": 18.3,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "II-c",
+      "distance_from_parent": 717320312.5,
+      "diameter": 4592.16,
+      "gravity": 2.156,
+      "length_of_day": 17.7,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "III",
+      "distance_from_parent": 929448437.5,
+      "diameter": 12883.56,
+      "gravity": 15.484000000000002,
+      "length_of_day": 18.7,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "IV",
+      "distance_from_parent": 1350782812.5,
+      "diameter": 3571.6800000000003,
+      "gravity": 1.6660000000000001,
+      "length_of_day": 29.3,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "V",
+      "distance_from_parent": 1548593750,
+      "diameter": 12883.56,
+      "gravity": 5.978000000000001,
+      "length_of_day": 18.3,
+      "mass": 0,
+      "orbital_period": 0
+    }
+  ]
+}

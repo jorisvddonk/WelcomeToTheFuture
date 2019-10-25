@@ -1,0 +1,75 @@
+{
+  "name": "Epsilon Ceti",
+  "mass": 3e+24,
+  "position": {
+    "x": 270.8,
+    "y": 470.8
+  },
+  "bodies": [
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "I",
+      "distance_from_parent": 395329687.5,
+      "diameter": 11480.4,
+      "gravity": 5.096000000000001,
+      "length_of_day": 29.9,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "II",
+      "distance_from_parent": 807898437.5,
+      "diameter": 14031.6,
+      "gravity": 10.290000000000001,
+      "length_of_day": 18.1,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "II-a",
+      "distance_from_parent": 807898437.5,
+      "diameter": 3826.7999999999997,
+      "gravity": 5.586,
+      "length_of_day": 23.1,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "III",
+      "distance_from_parent": 1464443750,
+      "diameter": 4337.04,
+      "gravity": 2.0580000000000003,
+      "length_of_day": 21.7,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "IV",
+      "distance_from_parent": 2247214062.5,
+      "diameter": 3189,
+      "gravity": 0.784,
+      "length_of_day": 1379.4,
+      "mass": 0,
+      "orbital_period": 0
+    }
+  ]
+}

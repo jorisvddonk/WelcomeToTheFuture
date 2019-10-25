@@ -1,0 +1,23 @@
+{
+  "name": "Canopus",
+  "mass": 3e+24,
+  "position": {
+    "x": 218.7,
+    "y": 150
+  },
+  "bodies": [
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "I",
+      "distance_from_parent": 1748157812.5,
+      "diameter": 4209.4800000000005,
+      "gravity": 0.9800000000000001,
+      "length_of_day": 19.1,
+      "mass": 0,
+      "orbital_period": 0
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "name": "Alpha Eridani",
+  "mass": 8.999999999999999e+24,
+  "position": {
+    "x": 587.5,
+    "y": 772.9
+  },
+  "bodies": [
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "I",
+      "distance_from_parent": 1642970312.5,
+      "diameter": 135213.6,
+      "gravity": 20.776000000000003,
+      "length_of_day": 11.5,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "I-a",
+      "distance_from_parent": 1642970312.5,
+      "diameter": 3699.24,
+      "gravity": 0.882,
+      "length_of_day": 15.2,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "I-b",
+      "distance_from_parent": 1642970312.5,
+      "diameter": 4719.72,
+      "gravity": 1.078,
+      "length_of_day": 19.9,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "I-c",
+      "distance_from_parent": 1642970312.5,
+      "diameter": 4464.599999999999,
+      "gravity": 1.9600000000000002,
+      "length_of_day": 17.2,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "II",
+      "distance_from_parent": 2285198437.5,
+      "diameter": 9567,
+      "gravity": 7.3500000000000005,
+      "length_of_day": 25.2,
+      "mass": 0,
+      "orbital_period": 0
+    }
+  ]
+}

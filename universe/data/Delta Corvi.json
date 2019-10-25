@@ -1,0 +1,23 @@
+{
+  "name": "Delta Corvi",
+  "mass": 3e+24,
+  "position": {
+    "x": 100,
+    "y": 939.5
+  },
+  "bodies": [
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "I",
+      "distance_from_parent": 1348737500,
+      "diameter": 4081.92,
+      "gravity": 1.862,
+      "length_of_day": 29.6,
+      "mass": 0,
+      "orbital_period": 0
+    }
+  ]
+}

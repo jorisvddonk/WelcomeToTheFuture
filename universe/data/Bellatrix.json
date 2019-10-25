@@ -1,0 +1,88 @@
+{
+  "name": "Bellatrix",
+  "mass": 3e+24,
+  "position": {
+    "x": 545.8,
+    "y": 191.6
+  },
+  "bodies": [
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "I",
+      "distance_from_parent": 627034375,
+      "diameter": 3954.36,
+      "gravity": 6.272,
+      "length_of_day": 5105.1,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "II",
+      "distance_from_parent": 769329687.5,
+      "diameter": 4209.4800000000005,
+      "gravity": 1.862,
+      "length_of_day": 15.3,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "III",
+      "distance_from_parent": 1915581250,
+      "diameter": 4081.92,
+      "gravity": 1.764,
+      "length_of_day": 27,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "IV",
+      "distance_from_parent": 2073070312.5,
+      "diameter": 46559.4,
+      "gravity": 7.154,
+      "length_of_day": 15.3,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "IV-a",
+      "distance_from_parent": 2073070312.5,
+      "diameter": 3699.24,
+      "gravity": 1.6660000000000001,
+      "length_of_day": 29.1,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "IV-b",
+      "distance_from_parent": 2073070312.5,
+      "diameter": 3316.56,
+      "gravity": 1.47,
+      "length_of_day": 16.3,
+      "mass": 0,
+      "orbital_period": 0
+    }
+  ]
+}

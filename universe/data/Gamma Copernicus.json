@@ -1,0 +1,192 @@
+{
+  "name": "Gamma Copernicus",
+  "mass": 3e+24,
+  "position": {
+    "x": 562.5,
+    "y": 252
+  },
+  "bodies": [
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "I",
+      "distance_from_parent": 96421875,
+      "diameter": 4464.599999999999,
+      "gravity": 1.9600000000000002,
+      "length_of_day": 5723.4,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "II",
+      "distance_from_parent": 290434375,
+      "diameter": 4592.16,
+      "gravity": 1.078,
+      "length_of_day": 19.6,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "III",
+      "distance_from_parent": 611548437.5,
+      "diameter": 12500.88,
+      "gravity": 5.488000000000001,
+      "length_of_day": 16,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "IV",
+      "distance_from_parent": 882114062.5,
+      "diameter": 13776.480000000001,
+      "gravity": 10.878000000000002,
+      "length_of_day": 28.7,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "V",
+      "distance_from_parent": 1058303125,
+      "diameter": 4592.16,
+      "gravity": 2.0580000000000003,
+      "length_of_day": 21.8,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "VI",
+      "distance_from_parent": 1248225000,
+      "diameter": 187768.32,
+      "gravity": 28.812,
+      "length_of_day": 11.2,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "VI-a",
+      "distance_from_parent": 1248225000,
+      "diameter": 4592.16,
+      "gravity": 7.252000000000001,
+      "length_of_day": 15.8,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "VI-b",
+      "distance_from_parent": 1248225000,
+      "diameter": 3826.7999999999997,
+      "gravity": 2.94,
+      "length_of_day": 24.5,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "VII",
+      "distance_from_parent": 1528432812.5,
+      "diameter": 3699.24,
+      "gravity": 1.6660000000000001,
+      "length_of_day": 26,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "VIII",
+      "distance_from_parent": 1940417187.5,
+      "diameter": 60080.76,
+      "gravity": 9.604000000000001,
+      "length_of_day": 15.9,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "VIII-a",
+      "distance_from_parent": 1940417187.5,
+      "diameter": 4209.4800000000005,
+      "gravity": 1.078,
+      "length_of_day": 26.9,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "VIII-b",
+      "distance_from_parent": 1940417187.5,
+      "diameter": 3316.56,
+      "gravity": 1.47,
+      "length_of_day": 26.6,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "VIII-c",
+      "distance_from_parent": 1940417187.5,
+      "diameter": 3954.36,
+      "gravity": 0.9800000000000001,
+      "length_of_day": 5147,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "IX",
+      "distance_from_parent": 2165985937.5,
+      "diameter": 12883.56,
+      "gravity": 9.702,
+      "length_of_day": 29.5,
+      "mass": 0,
+      "orbital_period": 0
+    }
+  ]
+}

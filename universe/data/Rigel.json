@@ -1,0 +1,101 @@
+{
+  "name": "Rigel",
+  "mass": 3e+24,
+  "position": {
+    "x": 210.4,
+    "y": 208.3
+  },
+  "bodies": [
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "I",
+      "distance_from_parent": 165962500,
+      "diameter": 3571.6800000000003,
+      "gravity": 1.6660000000000001,
+      "length_of_day": 19.1,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "II",
+      "distance_from_parent": 380135937.5,
+      "diameter": 102303.12,
+      "gravity": 15.680000000000001,
+      "length_of_day": 8,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "II-a",
+      "distance_from_parent": 380135937.5,
+      "diameter": 4081.92,
+      "gravity": 3.2340000000000004,
+      "length_of_day": 19.1,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "II-b",
+      "distance_from_parent": 380135937.5,
+      "diameter": 3826.7999999999997,
+      "gravity": 1.764,
+      "length_of_day": 15.9,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "II-c",
+      "distance_from_parent": 380135937.5,
+      "diameter": 3699.24,
+      "gravity": 1.568,
+      "length_of_day": 17.4,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "II-d",
+      "distance_from_parent": 380135937.5,
+      "diameter": 4719.72,
+      "gravity": 1.176,
+      "length_of_day": 16.5,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "III",
+      "distance_from_parent": 2177965625,
+      "diameter": 69392.64,
+      "gravity": 10.584000000000001,
+      "length_of_day": 12.4,
+      "mass": 0,
+      "orbital_period": 0
+    }
+  ]
+}

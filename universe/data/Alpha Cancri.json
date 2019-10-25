@@ -1,0 +1,62 @@
+{
+  "name": "Alpha Cancri",
+  "mass": 3e+24,
+  "position": {
+    "x": 493.7,
+    "y": 514.5
+  },
+  "bodies": [
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "I",
+      "distance_from_parent": 295109375,
+      "diameter": 4464.599999999999,
+      "gravity": 6.86,
+      "length_of_day": 23.3,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "II",
+      "distance_from_parent": 529735937.5,
+      "diameter": 4337.04,
+      "gravity": 3.136,
+      "length_of_day": 23.7,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "III",
+      "distance_from_parent": 883867187.5,
+      "diameter": 13393.800000000001,
+      "gravity": 15.190000000000001,
+      "length_of_day": 29.6,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "III-a",
+      "distance_from_parent": 883867187.5,
+      "diameter": 3826.7999999999997,
+      "gravity": 2.94,
+      "length_of_day": 2934,
+      "mass": 0,
+      "orbital_period": 0
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "name": "Beta Lalande",
+  "mass": 3e+24,
+  "position": {
+    "x": 340,
+    "y": 280.4
+  },
+  "bodies": [
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "I",
+      "distance_from_parent": 233750000,
+      "diameter": 3571.6800000000003,
+      "gravity": 1.568,
+      "length_of_day": 24.8,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "II",
+      "distance_from_parent": 1519667187.5,
+      "diameter": 10842.6,
+      "gravity": 12.348,
+      "length_of_day": 22,
+      "mass": 0,
+      "orbital_period": 0
+    }
+  ]
+}

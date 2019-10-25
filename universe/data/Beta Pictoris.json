@@ -1,0 +1,49 @@
+{
+  "name": "Beta Pictoris",
+  "mass": 3e+24,
+  "position": {
+    "x": 931.2,
+    "y": 356.2
+  },
+  "bodies": [
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "I",
+      "distance_from_parent": 721410937.5,
+      "diameter": 146438.88,
+      "gravity": 22.442000000000004,
+      "length_of_day": 13,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "I-a",
+      "distance_from_parent": 721410937.5,
+      "diameter": 3444.1200000000003,
+      "gravity": 0.784,
+      "length_of_day": 25,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "I-b",
+      "distance_from_parent": 721410937.5,
+      "diameter": 3699.24,
+      "gravity": 4.214,
+      "length_of_day": 24.1,
+      "mass": 0,
+      "orbital_period": 0
+    }
+  ]
+}

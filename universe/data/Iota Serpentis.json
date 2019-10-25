@@ -1,0 +1,62 @@
+{
+  "name": "Iota Serpentis",
+  "mass": 3e+24,
+  "position": {
+    "x": 459.6,
+    "y": 42.9
+  },
+  "bodies": [
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "I",
+      "distance_from_parent": 1086645312.5,
+      "diameter": 13266.24,
+      "gravity": 6.0760000000000005,
+      "length_of_day": 21.3,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "II",
+      "distance_from_parent": 1877596875,
+      "diameter": 67861.92,
+      "gravity": 10.388000000000002,
+      "length_of_day": 14.5,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "II-a",
+      "distance_from_parent": 1877596875,
+      "diameter": 3189,
+      "gravity": 3.724,
+      "length_of_day": 27.6,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "II-b",
+      "distance_from_parent": 1877596875,
+      "diameter": 4592.16,
+      "gravity": 5.096000000000001,
+      "length_of_day": 17.7,
+      "mass": 0,
+      "orbital_period": 0
+    }
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "name": "Beta Brahe",
+  "mass": 3e+24,
+  "position": {
+    "x": 639.5,
+    "y": 231.2
+  },
+  "bodies": [
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "I",
+      "distance_from_parent": 119504687.5,
+      "diameter": 11990.64,
+      "gravity": 9.506,
+      "length_of_day": 22.9,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "II",
+      "distance_from_parent": 952239062.5,
+      "diameter": 3699.24,
+      "gravity": 1.6660000000000001,
+      "length_of_day": 1559.1,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "III",
+      "distance_from_parent": 1481390625,
+      "diameter": 10204.800000000001,
+      "gravity": 8.232000000000001,
+      "length_of_day": 23.5,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "III-a",
+      "distance_from_parent": 1481390625,
+      "diameter": 4592.16,
+      "gravity": 5.390000000000001,
+      "length_of_day": 15,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "III-b",
+      "distance_from_parent": 1481390625,
+      "diameter": 3316.56,
+      "gravity": 3.6260000000000003,
+      "length_of_day": 20.9,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "IV",
+      "distance_from_parent": 2231435937.5,
+      "diameter": 3571.6800000000003,
+      "gravity": 1.6660000000000001,
+      "length_of_day": 18.6,
+      "mass": 0,
+      "orbital_period": 0
+    }
+  ]
+}

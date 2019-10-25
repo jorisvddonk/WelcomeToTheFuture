@@ -1,0 +1,23 @@
+{
+  "name": "Alpha Copernicus",
+  "mass": 3e+24,
+  "position": {
+    "x": 579.1,
+    "y": 262.5
+  },
+  "bodies": [
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "I",
+      "distance_from_parent": 923604687.5,
+      "diameter": 3826.7999999999997,
+      "gravity": 1.764,
+      "length_of_day": 26.1,
+      "mass": 0,
+      "orbital_period": 0
+    }
+  ]
+}

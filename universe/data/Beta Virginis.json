@@ -1,0 +1,23 @@
+{
+  "name": "Beta Virginis",
+  "mass": 3e+24,
+  "position": {
+    "x": 50.1,
+    "y": 325.9
+  },
+  "bodies": [
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "I",
+      "distance_from_parent": 1443114062.5,
+      "diameter": 4719.72,
+      "gravity": 2.2540000000000004,
+      "length_of_day": 21,
+      "mass": 0,
+      "orbital_period": 0
+    }
+  ]
+}

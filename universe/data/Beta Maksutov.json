@@ -1,0 +1,62 @@
+{
+  "name": "Beta Maksutov",
+  "mass": 3e+24,
+  "position": {
+    "x": 627,
+    "y": 547.9
+  },
+  "bodies": [
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "I",
+      "distance_from_parent": 355300000,
+      "diameter": 13393.800000000001,
+      "gravity": 5.88,
+      "length_of_day": 23.6,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "I-a",
+      "distance_from_parent": 355300000,
+      "diameter": 3571.6800000000003,
+      "gravity": 1.568,
+      "length_of_day": 24.4,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "II",
+      "distance_from_parent": 941428125,
+      "diameter": 186110.04,
+      "gravity": 28.518000000000004,
+      "length_of_day": 14.7,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "III",
+      "distance_from_parent": 1240628125,
+      "diameter": 3826.7999999999997,
+      "gravity": 1.764,
+      "length_of_day": 29,
+      "mass": 0,
+      "orbital_period": 0
+    }
+  ]
+}

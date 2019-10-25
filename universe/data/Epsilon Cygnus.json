@@ -1,0 +1,49 @@
+{
+  "name": "Epsilon Cygnus",
+  "mass": 3e+24,
+  "position": {
+    "x": 25,
+    "y": 458.3
+  },
+  "bodies": [
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "I",
+      "distance_from_parent": 466915625,
+      "diameter": 4464.599999999999,
+      "gravity": 5.292000000000001,
+      "length_of_day": 1879.4,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "II",
+      "distance_from_parent": 1239167187.5,
+      "diameter": 14031.6,
+      "gravity": 10.584000000000001,
+      "length_of_day": 2756.5,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "III",
+      "distance_from_parent": 1567585937.5,
+      "diameter": 11607.960000000001,
+      "gravity": 8.918000000000001,
+      "length_of_day": 23.4,
+      "mass": 0,
+      "orbital_period": 0
+    }
+  ]
+}

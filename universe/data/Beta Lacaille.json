@@ -1,0 +1,23 @@
+{
+  "name": "Beta Lacaille",
+  "mass": 3e+24,
+  "position": {
+    "x": 23,
+    "y": 95.2
+  },
+  "bodies": [
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "I",
+      "distance_from_parent": 1349614062.5,
+      "diameter": 3826.7999999999997,
+      "gravity": 2.842,
+      "length_of_day": 2023.1,
+      "mass": 0,
+      "orbital_period": 0
+    }
+  ]
+}

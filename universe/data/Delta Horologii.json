@@ -1,0 +1,36 @@
+{
+  "name": "Delta Horologii",
+  "mass": 3e+24,
+  "position": {
+    "x": 736,
+    "y": 718.4
+  },
+  "bodies": [
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "I",
+      "distance_from_parent": 1047784375,
+      "diameter": 3189,
+      "gravity": 1.47,
+      "length_of_day": 16.7,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "II",
+      "distance_from_parent": 1908568750,
+      "diameter": 4081.92,
+      "gravity": 5.978000000000001,
+      "length_of_day": 22.4,
+      "mass": 0,
+      "orbital_period": 0
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "name": "Alpha Muscae",
+  "mass": 6e+24,
+  "position": {
+    "x": 112.5,
+    "y": 779.1
+  },
+  "bodies": [
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "I",
+      "distance_from_parent": 406725000,
+      "diameter": 4719.72,
+      "gravity": 5.390000000000001,
+      "length_of_day": 28.6,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "II",
+      "distance_from_parent": 1133687500,
+      "diameter": 3571.6800000000003,
+      "gravity": 4.1160000000000005,
+      "length_of_day": 1643.1,
+      "mass": 0,
+      "orbital_period": 0
+    }
+  ]
+}

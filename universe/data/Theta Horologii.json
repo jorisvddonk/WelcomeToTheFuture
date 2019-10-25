@@ -1,0 +1,23 @@
+{
+  "name": "Theta Horologii",
+  "mass": 3e+24,
+  "position": {
+    "x": 720,
+    "y": 784.9
+  },
+  "bodies": [
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "I",
+      "distance_from_parent": 2172121875,
+      "diameter": 12756,
+      "gravity": 9.604000000000001,
+      "length_of_day": 15.7,
+      "mass": 0,
+      "orbital_period": 0
+    }
+  ]
+}

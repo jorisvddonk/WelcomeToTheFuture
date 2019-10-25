@@ -1,0 +1,23 @@
+{
+  "name": "Beta Olber",
+  "mass": 3e+24,
+  "position": {
+    "x": 12.5,
+    "y": 222.9
+  },
+  "bodies": [
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "I",
+      "distance_from_parent": 561584375,
+      "diameter": 4081.92,
+      "gravity": 3.0380000000000003,
+      "length_of_day": 24.3,
+      "mass": 0,
+      "orbital_period": 0
+    }
+  ]
+}

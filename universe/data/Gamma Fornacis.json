@@ -1,0 +1,75 @@
+{
+  "name": "Gamma Fornacis",
+  "mass": 3e+24,
+  "position": {
+    "x": 587.5,
+    "y": 806.2
+  },
+  "bodies": [
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "I",
+      "distance_from_parent": 340690625,
+      "diameter": 3954.36,
+      "gravity": 4.508000000000001,
+      "length_of_day": 23.3,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "II",
+      "distance_from_parent": 1238582812.5,
+      "diameter": 135341.16,
+      "gravity": 21.756000000000004,
+      "length_of_day": 8.8,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "II-a",
+      "distance_from_parent": 1238582812.5,
+      "diameter": 4464.599999999999,
+      "gravity": 5.096000000000001,
+      "length_of_day": 27.8,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "II-b",
+      "distance_from_parent": 1238582812.5,
+      "diameter": 4592.16,
+      "gravity": 2.156,
+      "length_of_day": 27.8,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "II-c",
+      "distance_from_parent": 1238582812.5,
+      "diameter": 3571.6800000000003,
+      "gravity": 3.9200000000000004,
+      "length_of_day": 24.4,
+      "mass": 0,
+      "orbital_period": 0
+    }
+  ]
+}

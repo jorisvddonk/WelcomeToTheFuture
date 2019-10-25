@@ -1,0 +1,101 @@
+{
+  "name": "Procyon",
+  "mass": 3e+24,
+  "position": {
+    "x": 74.2,
+    "y": 226.8
+  },
+  "bodies": [
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "I",
+      "distance_from_parent": 812865625,
+      "diameter": 4081.92,
+      "gravity": 1.862,
+      "length_of_day": 26.3,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "II",
+      "distance_from_parent": 1053920312.5,
+      "diameter": 13904.04,
+      "gravity": 6.174,
+      "length_of_day": 26.7,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "III",
+      "distance_from_parent": 1554145312.5,
+      "diameter": 147969.6,
+      "gravity": 22.736,
+      "length_of_day": 10.6,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "III-a",
+      "distance_from_parent": 1554145312.5,
+      "diameter": 4337.04,
+      "gravity": 3.43,
+      "length_of_day": 26.8,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "III-b",
+      "distance_from_parent": 1554145312.5,
+      "diameter": 3571.6800000000003,
+      "gravity": 1.568,
+      "length_of_day": 24.4,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "IV",
+      "distance_from_parent": 1808056250,
+      "diameter": 3826.7999999999997,
+      "gravity": 1.764,
+      "length_of_day": 27.5,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "V",
+      "distance_from_parent": 2280815625,
+      "diameter": 3189,
+      "gravity": 3.8220000000000005,
+      "length_of_day": 16,
+      "mass": 0,
+      "orbital_period": 0
+    }
+  ]
+}

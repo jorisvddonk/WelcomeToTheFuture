@@ -1,0 +1,36 @@
+{
+  "name": "Zeta Aquarii",
+  "mass": 3e+24,
+  "position": {
+    "x": 862.5,
+    "y": 856.2
+  },
+  "bodies": [
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "I",
+      "distance_from_parent": 1419739062.5,
+      "diameter": 10715.039999999999,
+      "gravity": 8.134,
+      "length_of_day": 23.7,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "II",
+      "distance_from_parent": 2031871875,
+      "diameter": 4209.4800000000005,
+      "gravity": 6.468000000000001,
+      "length_of_day": 17.2,
+      "mass": 0,
+      "orbital_period": 0
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "name": "Epsilon Librae",
+  "mass": 3e+24,
+  "position": {
+    "x": 779.1,
+    "y": 922.9
+  },
+  "bodies": [
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "I",
+      "distance_from_parent": 372246875,
+      "diameter": 3444.1200000000003,
+      "gravity": 4.1160000000000005,
+      "length_of_day": 17.3,
+      "mass": 0,
+      "orbital_period": 0
+    }
+  ]
+}

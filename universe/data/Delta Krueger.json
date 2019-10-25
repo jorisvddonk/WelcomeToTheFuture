@@ -1,0 +1,101 @@
+{
+  "name": "Delta Krueger",
+  "mass": 3e+24,
+  "position": {
+    "x": 57,
+    "y": 28.9
+  },
+  "bodies": [
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "I",
+      "distance_from_parent": 355592187.5,
+      "diameter": 159577.56,
+      "gravity": 24.5,
+      "length_of_day": 15.6,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "I-a",
+      "distance_from_parent": 355592187.5,
+      "diameter": 3444.1200000000003,
+      "gravity": 1.568,
+      "length_of_day": 2184.8,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "I-b",
+      "distance_from_parent": 355592187.5,
+      "diameter": 4464.599999999999,
+      "gravity": 1.078,
+      "length_of_day": 20.1,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "I-c",
+      "distance_from_parent": 355592187.5,
+      "diameter": 4081.92,
+      "gravity": 6.0760000000000005,
+      "length_of_day": 23.4,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "II",
+      "distance_from_parent": 501685937.5,
+      "diameter": 64545.35999999999,
+      "gravity": 10.388000000000002,
+      "length_of_day": 14.9,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "III",
+      "distance_from_parent": 1017396875,
+      "diameter": 4464.599999999999,
+      "gravity": 1.078,
+      "length_of_day": 20.6,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "IV",
+      "distance_from_parent": 1936618750,
+      "diameter": 12245.76,
+      "gravity": 5.488000000000001,
+      "length_of_day": 16.5,
+      "mass": 0,
+      "orbital_period": 0
+    }
+  ]
+}

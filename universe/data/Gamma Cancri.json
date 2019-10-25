@@ -1,0 +1,62 @@
+{
+  "name": "Gamma Cancri",
+  "mass": 3e+24,
+  "position": {
+    "x": 500.6,
+    "y": 501.1
+  },
+  "bodies": [
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "I",
+      "distance_from_parent": 1186573437.5,
+      "diameter": 12628.44,
+      "gravity": 5.782,
+      "length_of_day": 19,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "II",
+      "distance_from_parent": 1318057812.5,
+      "diameter": 4337.04,
+      "gravity": 3.43,
+      "length_of_day": 15.1,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "III",
+      "distance_from_parent": 1943923437.5,
+      "diameter": 12373.32,
+      "gravity": 5.586,
+      "length_of_day": 26.9,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "III-a",
+      "distance_from_parent": 1943923437.5,
+      "diameter": 4464.599999999999,
+      "gravity": 2.0580000000000003,
+      "length_of_day": 17.8,
+      "mass": 0,
+      "orbital_period": 0
+    }
+  ]
+}

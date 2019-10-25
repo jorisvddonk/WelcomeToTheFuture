@@ -1,0 +1,114 @@
+{
+  "name": "Kappa Draconis",
+  "mass": 3e+24,
+  "position": {
+    "x": 245.8,
+    "y": 866.6
+  },
+  "bodies": [
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "I",
+      "distance_from_parent": 160995312.5,
+      "diameter": 3571.6800000000003,
+      "gravity": 1.568,
+      "length_of_day": 27.6,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "II",
+      "distance_from_parent": 579115625,
+      "diameter": 9567,
+      "gravity": 4.508000000000001,
+      "length_of_day": 26.9,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "III",
+      "distance_from_parent": 1062393750,
+      "diameter": 154602.72,
+      "gravity": 24.892000000000003,
+      "length_of_day": 13.7,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "III-a",
+      "distance_from_parent": 1062393750,
+      "diameter": 4592.16,
+      "gravity": 5.390000000000001,
+      "length_of_day": 1667.6,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "III-b",
+      "distance_from_parent": 1062393750,
+      "diameter": 4209.4800000000005,
+      "gravity": 1.862,
+      "length_of_day": 20.3,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "III-c",
+      "distance_from_parent": 1062393750,
+      "diameter": 3826.7999999999997,
+      "gravity": 1.764,
+      "length_of_day": 24.1,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "IV",
+      "distance_from_parent": 1541873437.5,
+      "diameter": 4719.72,
+      "gravity": 5.390000000000001,
+      "length_of_day": 18.5,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "V",
+      "distance_from_parent": 1920840625,
+      "diameter": 13266.24,
+      "gravity": 10.290000000000001,
+      "length_of_day": 18.4,
+      "mass": 0,
+      "orbital_period": 0
+    }
+  ]
+}

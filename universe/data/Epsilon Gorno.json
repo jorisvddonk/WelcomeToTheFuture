@@ -1,0 +1,23 @@
+{
+  "name": "Epsilon Gorno",
+  "mass": 3e+24,
+  "position": {
+    "x": 282,
+    "y": 30.1
+  },
+  "bodies": [
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "I",
+      "distance_from_parent": 1380293750,
+      "diameter": 4592.16,
+      "gravity": 2.156,
+      "length_of_day": 20.5,
+      "mass": 0,
+      "orbital_period": 0
+    }
+  ]
+}

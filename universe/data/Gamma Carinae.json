@@ -1,0 +1,49 @@
+{
+  "name": "Gamma Carinae",
+  "mass": 3e+24,
+  "position": {
+    "x": 358.3,
+    "y": 547.9
+  },
+  "bodies": [
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "I",
+      "distance_from_parent": 527982812.5,
+      "diameter": 139295.52,
+      "gravity": 21.364000000000004,
+      "length_of_day": 10.6,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "I-a",
+      "distance_from_parent": 527982812.5,
+      "diameter": 3699.24,
+      "gravity": 1.6660000000000001,
+      "length_of_day": 27.2,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "I-b",
+      "distance_from_parent": 527982812.5,
+      "diameter": 4719.72,
+      "gravity": 1.078,
+      "length_of_day": 19.9,
+      "mass": 0,
+      "orbital_period": 0
+    }
+  ]
+}

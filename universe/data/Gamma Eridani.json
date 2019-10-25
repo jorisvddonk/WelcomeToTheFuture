@@ -1,0 +1,62 @@
+{
+  "name": "Gamma Eridani",
+  "mass": 3e+24,
+  "position": {
+    "x": 579.1,
+    "y": 758.3
+  },
+  "bodies": [
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "I",
+      "distance_from_parent": 681381250,
+      "diameter": 13266.24,
+      "gravity": 6.174,
+      "length_of_day": 29.3,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "II",
+      "distance_from_parent": 1188326562.5,
+      "diameter": 110722.08,
+      "gravity": 17.836000000000002,
+      "length_of_day": 8.5,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "II-a",
+      "distance_from_parent": 1188326562.5,
+      "diameter": 3699.24,
+      "gravity": 4.018,
+      "length_of_day": 22.7,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "II-b",
+      "distance_from_parent": 1188326562.5,
+      "diameter": 4081.92,
+      "gravity": 6.272,
+      "length_of_day": 17,
+      "mass": 0,
+      "orbital_period": 0
+    }
+  ]
+}

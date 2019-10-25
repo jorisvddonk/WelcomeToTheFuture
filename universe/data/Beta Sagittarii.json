@@ -1,0 +1,62 @@
+{
+  "name": "Beta Sagittarii",
+  "mass": 3e+24,
+  "position": {
+    "x": 702,
+    "y": 239.5
+  },
+  "bodies": [
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "I",
+      "distance_from_parent": 120381250,
+      "diameter": 3699.24,
+      "gravity": 5.782,
+      "length_of_day": 27.2,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "II",
+      "distance_from_parent": 435651562.5,
+      "diameter": 3316.56,
+      "gravity": 1.47,
+      "length_of_day": 22.4,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "III",
+      "distance_from_parent": 655668750,
+      "diameter": 3444.1200000000003,
+      "gravity": 2.7440000000000007,
+      "length_of_day": 2651.1,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "IV",
+      "distance_from_parent": 949901562.5,
+      "diameter": 3444.1200000000003,
+      "gravity": 2.5480000000000005,
+      "length_of_day": 18.1,
+      "mass": 0,
+      "orbital_period": 0
+    }
+  ]
+}

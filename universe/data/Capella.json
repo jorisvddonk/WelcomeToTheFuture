@@ -1,0 +1,36 @@
+{
+  "name": "Capella",
+  "mass": 3e+24,
+  "position": {
+    "x": 424.4,
+    "y": 9.1
+  },
+  "bodies": [
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "I",
+      "distance_from_parent": 344489062.5,
+      "diameter": 4209.4800000000005,
+      "gravity": 4.998,
+      "length_of_day": 28.9,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "II",
+      "distance_from_parent": 1465904687.5,
+      "diameter": 3444.1200000000003,
+      "gravity": 0.882,
+      "length_of_day": 18.4,
+      "mass": 0,
+      "orbital_period": 0
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "name": "Beta Illuminati",
+  "mass": 3e+24,
+  "position": {
+    "x": 252,
+    "y": 343.7
+  },
+  "bodies": [
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "I",
+      "distance_from_parent": 475681250,
+      "diameter": 4719.72,
+      "gravity": 3.6260000000000003,
+      "length_of_day": 22.7,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "II",
+      "distance_from_parent": 1118493750,
+      "diameter": 39798.72,
+      "gravity": 6.0760000000000005,
+      "length_of_day": 14.5,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "II-a",
+      "distance_from_parent": 1118493750,
+      "diameter": 3316.56,
+      "gravity": 2.6460000000000004,
+      "length_of_day": 23,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "II-b",
+      "distance_from_parent": 1118493750,
+      "diameter": 3316.56,
+      "gravity": 1.47,
+      "length_of_day": 26.6,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "II-c",
+      "distance_from_parent": 1118493750,
+      "diameter": 4081.92,
+      "gravity": 3.136,
+      "length_of_day": 23.4,
+      "mass": 0,
+      "orbital_period": 0
+    }
+  ]
+}

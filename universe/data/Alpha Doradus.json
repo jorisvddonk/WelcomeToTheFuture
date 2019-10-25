@@ -1,0 +1,23 @@
+{
+  "name": "Alpha Doradus",
+  "mass": 3e+24,
+  "position": {
+    "x": 420.8,
+    "y": 685.4
+  },
+  "bodies": [
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "I",
+      "distance_from_parent": 659175000,
+      "diameter": 3444.1200000000003,
+      "gravity": 2.7440000000000007,
+      "length_of_day": 15,
+      "mass": 0,
+      "orbital_period": 0
+    }
+  ]
+}

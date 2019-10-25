@@ -1,0 +1,62 @@
+{
+  "name": "Alpha Klystron",
+  "mass": 3e+24,
+  "position": {
+    "x": 193.7,
+    "y": 997.9
+  },
+  "bodies": [
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "I",
+      "distance_from_parent": 421334375,
+      "diameter": 88781.76,
+      "gravity": 14.308,
+      "length_of_day": 13.3,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "II",
+      "distance_from_parent": 601906250,
+      "diameter": 13648.92,
+      "gravity": 10.976000000000003,
+      "length_of_day": 3751.4,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "III",
+      "distance_from_parent": 1016520312.5,
+      "diameter": 4081.92,
+      "gravity": 1.862,
+      "length_of_day": 29.1,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "IV",
+      "distance_from_parent": 1839904687.5,
+      "diameter": 4081.92,
+      "gravity": 3.0380000000000003,
+      "length_of_day": 28.6,
+      "mass": 0,
+      "orbital_period": 0
+    }
+  ]
+}

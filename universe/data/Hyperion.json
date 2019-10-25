@@ -1,0 +1,75 @@
+{
+  "name": "Hyperion",
+  "mass": 3e+24,
+  "position": {
+    "x": 656.2,
+    "y": 127
+  },
+  "bodies": [
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "I",
+      "distance_from_parent": 463993750,
+      "diameter": 3699.24,
+      "gravity": 4.1160000000000005,
+      "length_of_day": 24.7,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "II",
+      "distance_from_parent": 1498921875,
+      "diameter": 186747.84,
+      "gravity": 28.616,
+      "length_of_day": 11.5,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "II-a",
+      "distance_from_parent": 1498921875,
+      "diameter": 3826.7999999999997,
+      "gravity": 2.842,
+      "length_of_day": 23.7,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "II-b",
+      "distance_from_parent": 1498921875,
+      "diameter": 3316.56,
+      "gravity": 1.568,
+      "length_of_day": 15.4,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "III",
+      "distance_from_parent": 2269712500,
+      "diameter": 11480.4,
+      "gravity": 13.524,
+      "length_of_day": 28.5,
+      "mass": 0,
+      "orbital_period": 0
+    }
+  ]
+}

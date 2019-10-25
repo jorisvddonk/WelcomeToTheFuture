@@ -1,0 +1,101 @@
+{
+  "name": "Beta Reticuli",
+  "mass": 3e+24,
+  "position": {
+    "x": 702,
+    "y": 529.1
+  },
+  "bodies": [
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "I",
+      "distance_from_parent": 86487500,
+      "diameter": 3571.6800000000003,
+      "gravity": 5.390000000000001,
+      "length_of_day": 18.8,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "II",
+      "distance_from_parent": 194596875,
+      "diameter": 3826.7999999999997,
+      "gravity": 2.94,
+      "length_of_day": 18,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "III",
+      "distance_from_parent": 842960937.5,
+      "diameter": 4337.04,
+      "gravity": 1.862,
+      "length_of_day": 4179.6,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "IV",
+      "distance_from_parent": 1199429687.5,
+      "diameter": 4592.16,
+      "gravity": 7.056,
+      "length_of_day": 27,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "V",
+      "distance_from_parent": 1652028125,
+      "diameter": 4337.04,
+      "gravity": 4.8020000000000005,
+      "length_of_day": 21.6,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "VI",
+      "distance_from_parent": 1954734375,
+      "diameter": 3316.56,
+      "gravity": 3.6260000000000003,
+      "length_of_day": 27.3,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "VII",
+      "distance_from_parent": 2148162500,
+      "diameter": 3316.56,
+      "gravity": 3.6260000000000003,
+      "length_of_day": 24.9,
+      "mass": 0,
+      "orbital_period": 0
+    }
+  ]
+}

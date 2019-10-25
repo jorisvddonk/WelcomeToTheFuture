@@ -1,0 +1,36 @@
+{
+  "name": "Gamma Tucanae",
+  "mass": 3e+24,
+  "position": {
+    "x": 408.3,
+    "y": 551.3
+  },
+  "bodies": [
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "I",
+      "distance_from_parent": 461071875,
+      "diameter": 4464.599999999999,
+      "gravity": 1.078,
+      "length_of_day": 21.8,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "II",
+      "distance_from_parent": 2090893750,
+      "diameter": 3699.24,
+      "gravity": 1.6660000000000001,
+      "length_of_day": 19.8,
+      "mass": 0,
+      "orbital_period": 0
+    }
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "name": "Regulus",
+  "mass": 3e+24,
+  "position": {
+    "x": 373.2,
+    "y": 106.7
+  },
+  "bodies": [
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "I",
+      "distance_from_parent": 216218750,
+      "diameter": 3826.7999999999997,
+      "gravity": 2.94,
+      "length_of_day": 18.4,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "II",
+      "distance_from_parent": 418704687.5,
+      "diameter": 4337.04,
+      "gravity": 6.86,
+      "length_of_day": 21.9,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "III",
+      "distance_from_parent": 685764062.5,
+      "diameter": 3316.56,
+      "gravity": 0.784,
+      "length_of_day": 15.4,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "IV",
+      "distance_from_parent": 1001326562.5,
+      "diameter": 4337.04,
+      "gravity": 1.862,
+      "length_of_day": 24.1,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "V",
+      "distance_from_parent": 1175470312.5,
+      "diameter": 4209.4800000000005,
+      "gravity": 3.136,
+      "length_of_day": 26.6,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "VI",
+      "distance_from_parent": 1374450000,
+      "diameter": 13266.24,
+      "gravity": 9.702,
+      "length_of_day": 23.4,
+      "mass": 0,
+      "orbital_period": 0
+    }
+  ]
+}

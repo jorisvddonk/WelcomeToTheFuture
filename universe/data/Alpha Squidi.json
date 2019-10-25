@@ -1,0 +1,36 @@
+{
+  "name": "Alpha Squidi",
+  "mass": 3e+24,
+  "position": {
+    "x": 214.5,
+    "y": 391.6
+  },
+  "bodies": [
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "I",
+      "distance_from_parent": 275240625,
+      "diameter": 4719.72,
+      "gravity": 6.958,
+      "length_of_day": 28.2,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "II",
+      "distance_from_parent": 2040345312.5,
+      "diameter": 12500.88,
+      "gravity": 9.8,
+      "length_of_day": 18.9,
+      "mass": 0,
+      "orbital_period": 0
+    }
+  ]
+}

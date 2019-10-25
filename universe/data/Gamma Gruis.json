@@ -1,0 +1,75 @@
+{
+  "name": "Gamma Gruis",
+  "mass": 3e+24,
+  "position": {
+    "x": 225,
+    "y": 370.8
+  },
+  "bodies": [
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "I",
+      "distance_from_parent": 442664062.5,
+      "diameter": 10204.800000000001,
+      "gravity": 4.704,
+      "length_of_day": 23.7,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "II",
+      "distance_from_parent": 635215625,
+      "diameter": 12118.199999999999,
+      "gravity": 9.702,
+      "length_of_day": 22.1,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "III",
+      "distance_from_parent": 1673065625,
+      "diameter": 72326.52,
+      "gravity": 11.662,
+      "length_of_day": 14.9,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "III-a",
+      "distance_from_parent": 1673065625,
+      "diameter": 3699.24,
+      "gravity": 5.586,
+      "length_of_day": 15.2,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "III-b",
+      "distance_from_parent": 1673065625,
+      "diameter": 4081.92,
+      "gravity": 3.2340000000000004,
+      "length_of_day": 21.6,
+      "mass": 0,
+      "orbital_period": 0
+    }
+  ]
+}

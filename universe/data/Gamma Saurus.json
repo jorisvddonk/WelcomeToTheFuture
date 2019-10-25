@@ -1,0 +1,23 @@
+{
+  "name": "Gamma Saurus",
+  "mass": 3e+24,
+  "position": {
+    "x": 229.8,
+    "y": 238.5
+  },
+  "bodies": [
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "I",
+      "distance_from_parent": 82104687.5,
+      "diameter": 4592.16,
+      "gravity": 2.156,
+      "length_of_day": 25,
+      "mass": 0,
+      "orbital_period": 0
+    }
+  ]
+}

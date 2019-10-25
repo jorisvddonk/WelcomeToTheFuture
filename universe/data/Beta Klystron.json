@@ -1,0 +1,114 @@
+{
+  "name": "Beta Klystron",
+  "mass": 3e+24,
+  "position": {
+    "x": 291.6,
+    "y": 954.1
+  },
+  "bodies": [
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "I",
+      "distance_from_parent": 1070575000,
+      "diameter": 11607.960000000001,
+      "gravity": 9.31,
+      "length_of_day": 21.6,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "II",
+      "distance_from_parent": 1397532812.5,
+      "diameter": 3826.7999999999997,
+      "gravity": 1.764,
+      "length_of_day": 15.7,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "III",
+      "distance_from_parent": 1566417187.5,
+      "diameter": 4081.92,
+      "gravity": 3.136,
+      "length_of_day": 15.4,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "IV",
+      "distance_from_parent": 1775915625,
+      "diameter": 3316.56,
+      "gravity": 1.568,
+      "length_of_day": 24.9,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "V",
+      "distance_from_parent": 2143779687.5,
+      "diameter": 149883,
+      "gravity": 23.03,
+      "length_of_day": 11.5,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "V-a",
+      "distance_from_parent": 2143779687.5,
+      "diameter": 4592.16,
+      "gravity": 1.078,
+      "length_of_day": 4775.7,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "V-b",
+      "distance_from_parent": 2143779687.5,
+      "diameter": 3826.7999999999997,
+      "gravity": 1.6660000000000001,
+      "length_of_day": 24.5,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "V-c",
+      "distance_from_parent": 2143779687.5,
+      "diameter": 3571.6800000000003,
+      "gravity": 3.9200000000000004,
+      "length_of_day": 5692.1,
+      "mass": 0,
+      "orbital_period": 0
+    }
+  ]
+}

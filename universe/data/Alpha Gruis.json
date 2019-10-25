@@ -1,0 +1,23 @@
+{
+  "name": "Alpha Gruis",
+  "mass": 3e+24,
+  "position": {
+    "x": 227.4,
+    "y": 366.3
+  },
+  "bodies": [
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "I",
+      "distance_from_parent": 2036254687.5,
+      "diameter": 11097.72,
+      "gravity": 8.918000000000001,
+      "length_of_day": 25.6,
+      "mass": 0,
+      "orbital_period": 0
+    }
+  ]
+}

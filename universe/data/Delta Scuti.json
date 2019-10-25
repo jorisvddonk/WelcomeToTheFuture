@@ -1,0 +1,62 @@
+{
+  "name": "Delta Scuti",
+  "mass": 3e+24,
+  "position": {
+    "x": 516,
+    "y": 28
+  },
+  "bodies": [
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "I",
+      "distance_from_parent": 957790625,
+      "diameter": 13393.800000000001,
+      "gravity": 6.272,
+      "length_of_day": 15.8,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "I-a",
+      "distance_from_parent": 957790625,
+      "diameter": 3826.7999999999997,
+      "gravity": 2.94,
+      "length_of_day": 17.6,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "II",
+      "distance_from_parent": 1450418750,
+      "diameter": 11990.64,
+      "gravity": 9.31,
+      "length_of_day": 27.8,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "III",
+      "distance_from_parent": 2035962500,
+      "diameter": 3826.7999999999997,
+      "gravity": 6.0760000000000005,
+      "length_of_day": 26.7,
+      "mass": 0,
+      "orbital_period": 0
+    }
+  ]
+}

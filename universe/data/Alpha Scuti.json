@@ -1,0 +1,49 @@
+{
+  "name": "Alpha Scuti",
+  "mass": 3e+24,
+  "position": {
+    "x": 503.9,
+    "y": 37.3
+  },
+  "bodies": [
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "I",
+      "distance_from_parent": 1519959375,
+      "diameter": 11352.84,
+      "gravity": 13.328000000000001,
+      "length_of_day": 28.5,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "I-a",
+      "distance_from_parent": 1519959375,
+      "diameter": 4081.92,
+      "gravity": 3.0380000000000003,
+      "length_of_day": 21.6,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "I-b",
+      "distance_from_parent": 1519959375,
+      "diameter": 3571.6800000000003,
+      "gravity": 2.842,
+      "length_of_day": 23,
+      "mass": 0,
+      "orbital_period": 0
+    }
+  ]
+}

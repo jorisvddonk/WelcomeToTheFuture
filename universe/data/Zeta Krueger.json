@@ -1,0 +1,49 @@
+{
+  "name": "Zeta Krueger",
+  "mass": 3e+24,
+  "position": {
+    "x": 13.4,
+    "y": 56.5
+  },
+  "bodies": [
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "I",
+      "distance_from_parent": 776342187.5,
+      "diameter": 14031.6,
+      "gravity": 16.562,
+      "length_of_day": 19.6,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "II",
+      "distance_from_parent": 1058010937.5,
+      "diameter": 14159.160000000002,
+      "gravity": 16.17,
+      "length_of_day": 28.6,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "III",
+      "distance_from_parent": 1742898437.5,
+      "diameter": 11607.960000000001,
+      "gravity": 13.818,
+      "length_of_day": 17.4,
+      "mass": 0,
+      "orbital_period": 0
+    }
+  ]
+}

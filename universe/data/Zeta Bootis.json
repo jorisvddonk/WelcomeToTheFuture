@@ -1,0 +1,49 @@
+{
+  "name": "Zeta Bootis",
+  "mass": 3e+24,
+  "position": {
+    "x": 16.7,
+    "y": 287.5
+  },
+  "bodies": [
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "I",
+      "distance_from_parent": 939967187.5,
+      "diameter": 85975.44,
+      "gravity": 13.132000000000001,
+      "length_of_day": 8.6,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "I-a",
+      "distance_from_parent": 939967187.5,
+      "diameter": 3189,
+      "gravity": 1.47,
+      "length_of_day": 29.5,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "II",
+      "distance_from_parent": 1334128125,
+      "diameter": 4592.16,
+      "gravity": 3.6260000000000003,
+      "length_of_day": 23.1,
+      "mass": 0,
+      "orbital_period": 0
+    }
+  ]
+}

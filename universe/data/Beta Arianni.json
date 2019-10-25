@@ -1,0 +1,62 @@
+{
+  "name": "Beta Arianni",
+  "mass": 3e+24,
+  "position": {
+    "x": 718.7,
+    "y": 183.3
+  },
+  "bodies": [
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "I",
+      "distance_from_parent": 871303125,
+      "diameter": 38650.68,
+      "gravity": 6.174,
+      "length_of_day": 9.9,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "I-a",
+      "distance_from_parent": 871303125,
+      "diameter": 4081.92,
+      "gravity": 1.764,
+      "length_of_day": 29.3,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "I-b",
+      "distance_from_parent": 871303125,
+      "diameter": 3189,
+      "gravity": 0.784,
+      "length_of_day": 28.7,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "II",
+      "distance_from_parent": 2239617187.5,
+      "diameter": 4081.92,
+      "gravity": 5.978000000000001,
+      "length_of_day": 23,
+      "mass": 0,
+      "orbital_period": 0
+    }
+  ]
+}

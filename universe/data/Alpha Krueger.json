@@ -1,0 +1,88 @@
+{
+  "name": "Alpha Krueger",
+  "mass": 3e+24,
+  "position": {
+    "x": 30.4,
+    "y": 47.7
+  },
+  "bodies": [
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "I",
+      "distance_from_parent": 306796875,
+      "diameter": 75515.52,
+      "gravity": 11.564,
+      "length_of_day": 10.1,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "I-a",
+      "distance_from_parent": 306796875,
+      "diameter": 3699.24,
+      "gravity": 1.764,
+      "length_of_day": 16.5,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "I-b",
+      "distance_from_parent": 306796875,
+      "diameter": 3316.56,
+      "gravity": 2.5480000000000005,
+      "length_of_day": 23.8,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "II",
+      "distance_from_parent": 506068750,
+      "diameter": 13521.36,
+      "gravity": 10.682000000000002,
+      "length_of_day": 15.6,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "II-a",
+      "distance_from_parent": 506068750,
+      "diameter": 3189,
+      "gravity": 1.47,
+      "length_of_day": 29.5,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "III",
+      "distance_from_parent": 1366268750,
+      "diameter": 4592.16,
+      "gravity": 7.056,
+      "length_of_day": 20.2,
+      "mass": 0,
+      "orbital_period": 0
+    }
+  ]
+}

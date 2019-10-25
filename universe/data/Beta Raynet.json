@@ -1,0 +1,23 @@
+{
+  "name": "Beta Raynet",
+  "mass": 3e+24,
+  "position": {
+    "x": 288.1,
+    "y": 161.4
+  },
+  "bodies": [
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "I",
+      "distance_from_parent": 1787603125,
+      "diameter": 14286.720000000001,
+      "gravity": 11.27,
+      "length_of_day": 23.6,
+      "mass": 0,
+      "orbital_period": 0
+    }
+  ]
+}

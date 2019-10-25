@@ -1,0 +1,101 @@
+{
+  "name": "Alpha Hyginus",
+  "mass": 3e+24,
+  "position": {
+    "x": 852,
+    "y": 416.6
+  },
+  "bodies": [
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "I",
+      "distance_from_parent": 314685937.5,
+      "diameter": 4337.04,
+      "gravity": 1.078,
+      "length_of_day": 15.1,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "II",
+      "distance_from_parent": 653331250,
+      "diameter": 13648.92,
+      "gravity": 15.190000000000001,
+      "length_of_day": 19.4,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "III",
+      "distance_from_parent": 942889062.5,
+      "diameter": 3316.56,
+      "gravity": 2.45,
+      "length_of_day": 18.9,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "IV",
+      "distance_from_parent": 1439607812.5,
+      "diameter": 124371,
+      "gravity": 19.992,
+      "length_of_day": 10.2,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "IV-a",
+      "distance_from_parent": 1439607812.5,
+      "diameter": 3826.7999999999997,
+      "gravity": 1.764,
+      "length_of_day": 22.7,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "IV-b",
+      "distance_from_parent": 1439607812.5,
+      "diameter": 3316.56,
+      "gravity": 2.5480000000000005,
+      "length_of_day": 17.6,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "V",
+      "distance_from_parent": 2081543750,
+      "diameter": 3826.7999999999997,
+      "gravity": 2.94,
+      "length_of_day": 28.1,
+      "mass": 0,
+      "orbital_period": 0
+    }
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "name": "Beta Mira",
+  "mass": 3e+24,
+  "position": {
+    "x": 367.8,
+    "y": 192.6
+  },
+  "bodies": [
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "I",
+      "distance_from_parent": 987885937.5,
+      "diameter": 47197.200000000004,
+      "gravity": 7.546000000000001,
+      "length_of_day": 15.1,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "I-a",
+      "distance_from_parent": 987885937.5,
+      "diameter": 4081.92,
+      "gravity": 1.9600000000000002,
+      "length_of_day": 24.2,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "I-b",
+      "distance_from_parent": 987885937.5,
+      "diameter": 3826.7999999999997,
+      "gravity": 4.508000000000001,
+      "length_of_day": 25,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "I-c",
+      "distance_from_parent": 987885937.5,
+      "diameter": 3444.1200000000003,
+      "gravity": 4.1160000000000005,
+      "length_of_day": 23.8,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "I-d",
+      "distance_from_parent": 987885937.5,
+      "diameter": 4464.599999999999,
+      "gravity": 3.528,
+      "length_of_day": 21.2,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "II",
+      "distance_from_parent": 1244718750,
+      "diameter": 11225.28,
+      "gravity": 8.428,
+      "length_of_day": 18.7,
+      "mass": 0,
+      "orbital_period": 0
+    }
+  ]
+}

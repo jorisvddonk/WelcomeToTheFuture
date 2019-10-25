@@ -1,0 +1,101 @@
+{
+  "name": "Gamma Scorpii",
+  "mass": 3e+24,
+  "position": {
+    "x": 647.9,
+    "y": 206.2
+  },
+  "bodies": [
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "I",
+      "distance_from_parent": 119504687.5,
+      "diameter": 14031.6,
+      "gravity": 10.976000000000003,
+      "length_of_day": 24.2,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "I-a",
+      "distance_from_parent": 119504687.5,
+      "diameter": 3954.36,
+      "gravity": 4.41,
+      "length_of_day": 21.2,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "II",
+      "distance_from_parent": 452598437.5,
+      "diameter": 3571.6800000000003,
+      "gravity": 4.1160000000000005,
+      "length_of_day": 16.7,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "III",
+      "distance_from_parent": 1676864062.5,
+      "diameter": 4719.72,
+      "gravity": 6.958,
+      "length_of_day": 27.1,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "IV",
+      "distance_from_parent": 1811854687.5,
+      "diameter": 140826.24,
+      "gravity": 22.638,
+      "length_of_day": 8,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "IV-a",
+      "distance_from_parent": 1811854687.5,
+      "diameter": 4209.4800000000005,
+      "gravity": 3.3320000000000003,
+      "length_of_day": 29.8,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "V",
+      "distance_from_parent": 2137059375,
+      "diameter": 3316.56,
+      "gravity": 2.45,
+      "length_of_day": 15.4,
+      "mass": 0,
+      "orbital_period": 0
+    }
+  ]
+}

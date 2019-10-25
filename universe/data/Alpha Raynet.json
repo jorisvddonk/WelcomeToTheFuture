@@ -1,0 +1,23 @@
+{
+  "name": "Alpha Raynet",
+  "mass": 3e+24,
+  "position": {
+    "x": 284,
+    "y": 167.6
+  },
+  "bodies": [
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "I",
+      "distance_from_parent": 1541873437.5,
+      "diameter": 3189,
+      "gravity": 1.3720000000000003,
+      "length_of_day": 23.3,
+      "mass": 0,
+      "orbital_period": 0
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "name": "Alpha Sagittae",
+  "mass": 3e+24,
+  "position": {
+    "x": 25,
+    "y": 568.7
+  },
+  "bodies": [
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "I",
+      "distance_from_parent": 1299650000,
+      "diameter": 188406.12,
+      "gravity": 30.380000000000003,
+      "length_of_day": 15.2,
+      "mass": 0,
+      "orbital_period": 0
+    }
+  ]
+}

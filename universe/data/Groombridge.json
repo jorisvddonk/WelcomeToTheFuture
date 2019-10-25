@@ -1,0 +1,23 @@
+{
+  "name": "Groombridge",
+  "mass": 6e+24,
+  "position": {
+    "x": 996,
+    "y": 904.2
+  },
+  "bodies": [
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "I",
+      "distance_from_parent": 74800000,
+      "diameter": 13648.92,
+      "gravity": 6.272,
+      "length_of_day": 21.1,
+      "mass": 0,
+      "orbital_period": 0
+    }
+  ]
+}

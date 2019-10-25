@@ -1,0 +1,75 @@
+{
+  "name": "Delta Muscae",
+  "mass": 3e+24,
+  "position": {
+    "x": 139.5,
+    "y": 804.1
+  },
+  "bodies": [
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "I",
+      "distance_from_parent": 637845312.5,
+      "diameter": 4592.16,
+      "gravity": 1.078,
+      "length_of_day": 15.4,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "II",
+      "distance_from_parent": 1012429687.5,
+      "diameter": 4719.72,
+      "gravity": 2.0580000000000003,
+      "length_of_day": 19.3,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "III",
+      "distance_from_parent": 2251596875,
+      "diameter": 44263.32,
+      "gravity": 7.056,
+      "length_of_day": 8.4,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "III-a",
+      "distance_from_parent": 2251596875,
+      "diameter": 4337.04,
+      "gravity": 1.078,
+      "length_of_day": 23.6,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "III-b",
+      "distance_from_parent": 2251596875,
+      "diameter": 4464.599999999999,
+      "gravity": 1.9600000000000002,
+      "length_of_day": 22.1,
+      "mass": 0,
+      "orbital_period": 0
+    }
+  ]
+}

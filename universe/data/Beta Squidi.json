@@ -1,0 +1,75 @@
+{
+  "name": "Beta Squidi",
+  "mass": 3e+24,
+  "position": {
+    "x": 206.2,
+    "y": 399.1
+  },
+  "bodies": [
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "I",
+      "distance_from_parent": 1387890625,
+      "diameter": 10077.24,
+      "gravity": 11.368,
+      "length_of_day": 23.9,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "II",
+      "distance_from_parent": 1752248437.5,
+      "diameter": 12756,
+      "gravity": 10.094000000000001,
+      "length_of_day": 22.7,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "III",
+      "distance_from_parent": 1904478125,
+      "diameter": 84699.84,
+      "gravity": 13.622,
+      "length_of_day": 8.3,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "III-a",
+      "distance_from_parent": 1904478125,
+      "diameter": 4464.599999999999,
+      "gravity": 7.056,
+      "length_of_day": 17.8,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "III-b",
+      "distance_from_parent": 1904478125,
+      "diameter": 3571.6800000000003,
+      "gravity": 2.6460000000000004,
+      "length_of_day": 26.5,
+      "mass": 0,
+      "orbital_period": 0
+    }
+  ]
+}

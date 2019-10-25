@@ -1,0 +1,101 @@
+{
+  "name": "Menkar",
+  "mass": 3e+24,
+  "position": {
+    "x": 481.2,
+    "y": 927
+  },
+  "bodies": [
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "I",
+      "distance_from_parent": 101681250,
+      "diameter": 3826.7999999999997,
+      "gravity": 2.842,
+      "length_of_day": 16,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "II",
+      "distance_from_parent": 365818750,
+      "diameter": 3189,
+      "gravity": 2.45,
+      "length_of_day": 17.4,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "III",
+      "distance_from_parent": 676414062.5,
+      "diameter": 12118.199999999999,
+      "gravity": 9.604000000000001,
+      "length_of_day": 23.9,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "IV",
+      "distance_from_parent": 1152679687.5,
+      "diameter": 3571.6800000000003,
+      "gravity": 1.6660000000000001,
+      "length_of_day": 26.6,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "V",
+      "distance_from_parent": 1540996875,
+      "diameter": 14159.160000000002,
+      "gravity": 11.074,
+      "length_of_day": 23.6,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "VI",
+      "distance_from_parent": 1759260937.5,
+      "diameter": 3189,
+      "gravity": 1.47,
+      "length_of_day": 24.8,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "VII",
+      "distance_from_parent": 2289873437.5,
+      "diameter": 3699.24,
+      "gravity": 1.6660000000000001,
+      "length_of_day": 22.8,
+      "mass": 0,
+      "orbital_period": 0
+    }
+  ]
+}

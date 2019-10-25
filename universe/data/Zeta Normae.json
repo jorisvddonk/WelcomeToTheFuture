@@ -1,0 +1,23 @@
+{
+  "name": "Zeta Normae",
+  "mass": 3e+24,
+  "position": {
+    "x": 215.9,
+    "y": 561.4
+  },
+  "bodies": [
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "I",
+      "distance_from_parent": 1747865625,
+      "diameter": 3444.1200000000003,
+      "gravity": 2.5480000000000005,
+      "length_of_day": 4557.4,
+      "mass": 0,
+      "orbital_period": 0
+    }
+  ]
+}

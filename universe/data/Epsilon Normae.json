@@ -1,0 +1,192 @@
+{
+  "name": "Epsilon Normae",
+  "mass": 3e+24,
+  "position": {
+    "x": 185.4,
+    "y": 541.6
+  },
+  "bodies": [
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "I",
+      "distance_from_parent": 114537500,
+      "diameter": 4337.04,
+      "gravity": 4.9,
+      "length_of_day": 19.4,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "II",
+      "distance_from_parent": 366110937.5,
+      "diameter": 12373.32,
+      "gravity": 13.818,
+      "length_of_day": 15,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "III",
+      "distance_from_parent": 528859375,
+      "diameter": 173354.04,
+      "gravity": 26.558,
+      "length_of_day": 14.1,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "III-a",
+      "distance_from_parent": 528859375,
+      "diameter": 3444.1200000000003,
+      "gravity": 4.018,
+      "length_of_day": 27.9,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "III-b",
+      "distance_from_parent": 528859375,
+      "diameter": 4464.599999999999,
+      "gravity": 5.292000000000001,
+      "length_of_day": 18.3,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "III-c",
+      "distance_from_parent": 528859375,
+      "diameter": 4337.04,
+      "gravity": 1.9600000000000002,
+      "length_of_day": 24.2,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "IV",
+      "distance_from_parent": 676998437.5,
+      "diameter": 3571.6800000000003,
+      "gravity": 4.1160000000000005,
+      "length_of_day": 2798.6,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "V",
+      "distance_from_parent": 975321875,
+      "diameter": 48472.799999999996,
+      "gravity": 7.742000000000001,
+      "length_of_day": 15.1,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "V-a",
+      "distance_from_parent": 975321875,
+      "diameter": 3954.36,
+      "gravity": 3.0380000000000003,
+      "length_of_day": 18.1,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "V-b",
+      "distance_from_parent": 975321875,
+      "diameter": 4209.4800000000005,
+      "gravity": 4.9,
+      "length_of_day": 15.7,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "VI",
+      "distance_from_parent": 1318934375,
+      "diameter": 3444.1200000000003,
+      "gravity": 4.1160000000000005,
+      "length_of_day": 27.9,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "VII",
+      "distance_from_parent": 1662839062.5,
+      "diameter": 3826.7999999999997,
+      "gravity": 0.882,
+      "length_of_day": 27.2,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "VIII",
+      "distance_from_parent": 1923762500,
+      "diameter": 4719.72,
+      "gravity": 3.6260000000000003,
+      "length_of_day": 27.2,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "IX",
+      "distance_from_parent": 2173582812.5,
+      "diameter": 4719.72,
+      "gravity": 7.546000000000001,
+      "length_of_day": 29.5,
+      "mass": 0,
+      "orbital_period": 0
+    }
+  ]
+}

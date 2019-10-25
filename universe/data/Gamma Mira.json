@@ -1,0 +1,36 @@
+{
+  "name": "Gamma Mira",
+  "mass": 3e+24,
+  "position": {
+    "x": 388.4,
+    "y": 226.2
+  },
+  "bodies": [
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "I",
+      "distance_from_parent": 1497168750,
+      "diameter": 3444.1200000000003,
+      "gravity": 2.7440000000000007,
+      "length_of_day": 26.3,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "II",
+      "distance_from_parent": 2281692187.5,
+      "diameter": 9694.56,
+      "gravity": 7.546000000000001,
+      "length_of_day": 27.5,
+      "mass": 0,
+      "orbital_period": 0
+    }
+  ]
+}

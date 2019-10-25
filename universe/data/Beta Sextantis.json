@@ -1,0 +1,36 @@
+{
+  "name": "Beta Sextantis",
+  "mass": 3e+24,
+  "position": {
+    "x": 460.4,
+    "y": 118.7
+  },
+  "bodies": [
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "I",
+      "distance_from_parent": 1909153125,
+      "diameter": 3571.6800000000003,
+      "gravity": 2.5480000000000005,
+      "length_of_day": 29.6,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "II",
+      "distance_from_parent": 2193451562.5,
+      "diameter": 4209.4800000000005,
+      "gravity": 3.2340000000000004,
+      "length_of_day": 20.1,
+      "mass": 0,
+      "orbital_period": 0
+    }
+  ]
+}

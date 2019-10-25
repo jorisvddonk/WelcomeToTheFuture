@@ -1,0 +1,49 @@
+{
+  "name": "Beta Hydrae",
+  "mass": 3e+24,
+  "position": {
+    "x": 781.2,
+    "y": 656.2
+  },
+  "bodies": [
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "I",
+      "distance_from_parent": 1424998437.5,
+      "diameter": 145928.63999999998,
+      "gravity": 23.52,
+      "length_of_day": 13.5,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "I-a",
+      "distance_from_parent": 1424998437.5,
+      "diameter": 3954.36,
+      "gravity": 3.0380000000000003,
+      "length_of_day": 29.3,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "I-b",
+      "distance_from_parent": 1424998437.5,
+      "diameter": 3444.1200000000003,
+      "gravity": 2.5480000000000005,
+      "length_of_day": 20.2,
+      "mass": 0,
+      "orbital_period": 0
+    }
+  ]
+}

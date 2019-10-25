@@ -1,0 +1,88 @@
+{
+  "name": "Gamma Lipi",
+  "mass": 3e+24,
+  "position": {
+    "x": 547.5,
+    "y": 882.3
+  },
+  "bodies": [
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "I",
+      "distance_from_parent": 792704687.5,
+      "diameter": 9694.56,
+      "gravity": 7.742000000000001,
+      "length_of_day": 25.7,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "I-a",
+      "distance_from_parent": 792704687.5,
+      "diameter": 4464.599999999999,
+      "gravity": 5.292000000000001,
+      "length_of_day": 23,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "II",
+      "distance_from_parent": 945810937.5,
+      "diameter": 46814.52,
+      "gravity": 7.154,
+      "length_of_day": 13.9,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "II-a",
+      "distance_from_parent": 945810937.5,
+      "diameter": 4464.599999999999,
+      "gravity": 4.9,
+      "length_of_day": 17.8,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "II-b",
+      "distance_from_parent": 945810937.5,
+      "diameter": 3699.24,
+      "gravity": 5.390000000000001,
+      "length_of_day": 28.8,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "II-c",
+      "distance_from_parent": 945810937.5,
+      "diameter": 4464.599999999999,
+      "gravity": 6.762,
+      "length_of_day": 21.2,
+      "mass": 0,
+      "orbital_period": 0
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "name": "Alpha Cassiopeiae",
+  "mass": 3e+24,
+  "position": {
+    "x": 354.1,
+    "y": 518.7
+  },
+  "bodies": [
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "I",
+      "distance_from_parent": 1717185937.5,
+      "diameter": 109318.92,
+      "gravity": 16.758,
+      "length_of_day": 10.1,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "I-a",
+      "distance_from_parent": 1717185937.5,
+      "diameter": 4081.92,
+      "gravity": 4.704,
+      "length_of_day": 18.7,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "I-b",
+      "distance_from_parent": 1717185937.5,
+      "diameter": 3699.24,
+      "gravity": 0.882,
+      "length_of_day": 26.7,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "I-c",
+      "distance_from_parent": 1717185937.5,
+      "diameter": 3316.56,
+      "gravity": 2.6460000000000004,
+      "length_of_day": 3082.5,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "I-d",
+      "distance_from_parent": 1717185937.5,
+      "diameter": 4209.4800000000005,
+      "gravity": 0.9800000000000001,
+      "length_of_day": 28.1,
+      "mass": 0,
+      "orbital_period": 0
+    }
+  ]
+}

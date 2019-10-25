@@ -1,0 +1,75 @@
+{
+  "name": "Nu Draconis",
+  "mass": 3e+24,
+  "position": {
+    "x": 230,
+    "y": 886.1
+  },
+  "bodies": [
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "I",
+      "distance_from_parent": 2055539062.5,
+      "diameter": 11097.72,
+      "gravity": 8.428,
+      "length_of_day": 23.3,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "II",
+      "distance_from_parent": 2297470312.5,
+      "diameter": 167613.84,
+      "gravity": 26.950000000000003,
+      "length_of_day": 11,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "II-a",
+      "distance_from_parent": 2297470312.5,
+      "diameter": 4464.599999999999,
+      "gravity": 3.2340000000000004,
+      "length_of_day": 2168.7,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "II-b",
+      "distance_from_parent": 2297470312.5,
+      "diameter": 3316.56,
+      "gravity": 1.47,
+      "length_of_day": 20.9,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "II-c",
+      "distance_from_parent": 2297470312.5,
+      "diameter": 3954.36,
+      "gravity": 4.606,
+      "length_of_day": 15.6,
+      "mass": 0,
+      "orbital_period": 0
+    }
+  ]
+}

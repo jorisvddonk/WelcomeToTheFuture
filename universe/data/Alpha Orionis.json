@@ -1,0 +1,23 @@
+{
+  "name": "Alpha Orionis",
+  "mass": 3e+24,
+  "position": {
+    "x": 190.2,
+    "y": 606.5
+  },
+  "bodies": [
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "I",
+      "distance_from_parent": 2019015625,
+      "diameter": 4719.72,
+      "gravity": 2.156,
+      "length_of_day": 29.2,
+      "mass": 0,
+      "orbital_period": 0
+    }
+  ]
+}

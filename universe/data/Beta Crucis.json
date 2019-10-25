@@ -1,0 +1,101 @@
+{
+  "name": "Beta Crucis",
+  "mass": 3e+24,
+  "position": {
+    "x": 547.9,
+    "y": 668.7
+  },
+  "bodies": [
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "I",
+      "distance_from_parent": 236087500,
+      "diameter": 14159.160000000002,
+      "gravity": 10.486,
+      "length_of_day": 22.2,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "II",
+      "distance_from_parent": 451137500,
+      "diameter": 13521.36,
+      "gravity": 10.878000000000002,
+      "length_of_day": 15,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "II-a",
+      "distance_from_parent": 451137500,
+      "diameter": 3571.6800000000003,
+      "gravity": 5.390000000000001,
+      "length_of_day": 29.3,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "II-b",
+      "distance_from_parent": 451137500,
+      "diameter": 3189,
+      "gravity": 0.784,
+      "length_of_day": 27.6,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "III",
+      "distance_from_parent": 643396875,
+      "diameter": 12628.44,
+      "gravity": 14.798000000000002,
+      "length_of_day": 16.5,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "III-a",
+      "distance_from_parent": 643396875,
+      "diameter": 4719.72,
+      "gravity": 2.2540000000000004,
+      "length_of_day": 24.6,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "IV",
+      "distance_from_parent": 1152679687.5,
+      "diameter": 4719.72,
+      "gravity": 3.724,
+      "length_of_day": 28,
+      "mass": 0,
+      "orbital_period": 0
+    }
+  ]
+}

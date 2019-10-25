@@ -1,0 +1,101 @@
+{
+  "name": "Zeta Persei",
+  "mass": 3e+24,
+  "position": {
+    "x": 946.9,
+    "y": 280.6
+  },
+  "bodies": [
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "I",
+      "distance_from_parent": 74800000,
+      "diameter": 4719.72,
+      "gravity": 2.2540000000000004,
+      "length_of_day": 27.1,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "II",
+      "distance_from_parent": 540254687.5,
+      "diameter": 3954.36,
+      "gravity": 3.0380000000000003,
+      "length_of_day": 24.4,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "III",
+      "distance_from_parent": 972107812.5,
+      "diameter": 3571.6800000000003,
+      "gravity": 1.568,
+      "length_of_day": 21.9,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "IV",
+      "distance_from_parent": 1798706250,
+      "diameter": 3699.24,
+      "gravity": 5.488000000000001,
+      "length_of_day": 28.7,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "V",
+      "distance_from_parent": 1972557812.5,
+      "diameter": 138785.28,
+      "gravity": 22.344,
+      "length_of_day": 10.2,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "V-a",
+      "distance_from_parent": 1972557812.5,
+      "diameter": 4209.4800000000005,
+      "gravity": 1.9600000000000002,
+      "length_of_day": 26.9,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "V-b",
+      "distance_from_parent": 1972557812.5,
+      "diameter": 3189,
+      "gravity": 1.3720000000000003,
+      "length_of_day": 27.6,
+      "mass": 0,
+      "orbital_period": 0
+    }
+  ]
+}

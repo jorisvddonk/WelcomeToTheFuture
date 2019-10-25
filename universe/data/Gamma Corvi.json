@@ -1,0 +1,75 @@
+{
+  "name": "Gamma Corvi",
+  "mass": 3e+24,
+  "position": {
+    "x": 6.2,
+    "y": 947.9
+  },
+  "bodies": [
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "I",
+      "distance_from_parent": 174728125,
+      "diameter": 4464.599999999999,
+      "gravity": 3.2340000000000004,
+      "length_of_day": 29.6,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "II",
+      "distance_from_parent": 501101562.5,
+      "diameter": 3444.1200000000003,
+      "gravity": 3.724,
+      "length_of_day": 15,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "III",
+      "distance_from_parent": 893509375,
+      "diameter": 4719.72,
+      "gravity": 1.176,
+      "length_of_day": 16,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "IV",
+      "distance_from_parent": 1265464062.5,
+      "diameter": 4719.72,
+      "gravity": 3.43,
+      "length_of_day": 28.9,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "V",
+      "distance_from_parent": 2130339062.5,
+      "diameter": 9949.68,
+      "gravity": 11.466,
+      "length_of_day": 17.5,
+      "mass": 0,
+      "orbital_period": 0
+    }
+  ]
+}

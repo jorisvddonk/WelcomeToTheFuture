@@ -1,0 +1,36 @@
+{
+  "name": "Achernar",
+  "mass": 3e+24,
+  "position": {
+    "x": 537.5,
+    "y": 272.9
+  },
+  "bodies": [
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "I",
+      "distance_from_parent": 1618718750,
+      "diameter": 3444.1200000000003,
+      "gravity": 1.47,
+      "length_of_day": 25.2,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "II",
+      "distance_from_parent": 1829093750,
+      "diameter": 4464.599999999999,
+      "gravity": 4.998,
+      "length_of_day": 25,
+      "mass": 0,
+      "orbital_period": 0
+    }
+  ]
+}

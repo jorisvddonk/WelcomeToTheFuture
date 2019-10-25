@@ -1,0 +1,49 @@
+{
+  "name": "Gamma Olber",
+  "mass": 3e+24,
+  "position": {
+    "x": 31.2,
+    "y": 225
+  },
+  "bodies": [
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "I",
+      "distance_from_parent": 756181250,
+      "diameter": 4592.16,
+      "gravity": 5.488000000000001,
+      "length_of_day": 21.5,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "II",
+      "distance_from_parent": 1625439062.5,
+      "diameter": 13138.68,
+      "gravity": 10.486,
+      "length_of_day": 16.8,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "III",
+      "distance_from_parent": 2155175000,
+      "diameter": 9949.68,
+      "gravity": 7.9380000000000015,
+      "length_of_day": 22.9,
+      "mass": 0,
+      "orbital_period": 0
+    }
+  ]
+}

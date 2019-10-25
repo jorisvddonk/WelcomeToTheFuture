@@ -1,0 +1,23 @@
+{
+  "name": "Gamma Cygnus",
+  "mass": 3e+24,
+  "position": {
+    "x": 56.2,
+    "y": 470.8
+  },
+  "bodies": [
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "I",
+      "distance_from_parent": 700373437.5,
+      "diameter": 10459.92,
+      "gravity": 8.036,
+      "length_of_day": 4799,
+      "mass": 0,
+      "orbital_period": 0
+    }
+  ]
+}

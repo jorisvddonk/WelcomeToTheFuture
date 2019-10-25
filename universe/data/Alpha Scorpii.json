@@ -1,0 +1,36 @@
+{
+  "name": "Alpha Scorpii",
+  "mass": 3e+24,
+  "position": {
+    "x": 646.7,
+    "y": 187.8
+  },
+  "bodies": [
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "I",
+      "distance_from_parent": 319068750,
+      "diameter": 3699.24,
+      "gravity": 5.586,
+      "length_of_day": 23.2,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "II",
+      "distance_from_parent": 1786434375,
+      "diameter": 4464.599999999999,
+      "gravity": 1.078,
+      "length_of_day": 26.1,
+      "mass": 0,
+      "orbital_period": 0
+    }
+  ]
+}

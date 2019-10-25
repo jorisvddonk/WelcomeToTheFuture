@@ -1,0 +1,23 @@
+{
+  "name": "Gamma Capricorni",
+  "mass": 3e+24,
+  "position": {
+    "x": 299.3,
+    "y": 531.8
+  },
+  "bodies": [
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "I",
+      "distance_from_parent": 874225000,
+      "diameter": 4592.16,
+      "gravity": 2.0580000000000003,
+      "length_of_day": 17.2,
+      "mass": 0,
+      "orbital_period": 0
+    }
+  ]
+}

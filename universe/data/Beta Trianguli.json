@@ -1,0 +1,23 @@
+{
+  "name": "Beta Trianguli",
+  "mass": 3e+24,
+  "position": {
+    "x": 795.8,
+    "y": 27
+  },
+  "bodies": [
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "I",
+      "distance_from_parent": 505776562.5,
+      "diameter": 4209.4800000000005,
+      "gravity": 4.8020000000000005,
+      "length_of_day": 29.9,
+      "mass": 0,
+      "orbital_period": 0
+    }
+  ]
+}

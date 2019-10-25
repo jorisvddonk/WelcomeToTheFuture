@@ -1,0 +1,23 @@
+{
+  "name": "Alpha Capricorni",
+  "mass": 6e+24,
+  "position": {
+    "x": 297.9,
+    "y": 516.6
+  },
+  "bodies": [
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "I",
+      "distance_from_parent": 1125214062.5,
+      "diameter": 14159.160000000002,
+      "gravity": 6.370000000000001,
+      "length_of_day": 27.1,
+      "mass": 0,
+      "orbital_period": 0
+    }
+  ]
+}

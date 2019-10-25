@@ -1,0 +1,88 @@
+{
+  "name": "Microscopii",
+  "mass": 3e+24,
+  "position": {
+    "x": 439.5,
+    "y": 997.9
+  },
+  "bodies": [
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "I",
+      "distance_from_parent": 251281250,
+      "diameter": 144397.92,
+      "gravity": 22.148,
+      "length_of_day": 8,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "I-a",
+      "distance_from_parent": 251281250,
+      "diameter": 4719.72,
+      "gravity": 2.156,
+      "length_of_day": 4397.7,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "I-b",
+      "distance_from_parent": 251281250,
+      "diameter": 4464.599999999999,
+      "gravity": 2.0580000000000003,
+      "length_of_day": 26.6,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "II",
+      "distance_from_parent": 1400454687.5,
+      "diameter": 45156.24,
+      "gravity": 6.86,
+      "length_of_day": 12,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "III",
+      "distance_from_parent": 1687675000,
+      "diameter": 180752.52,
+      "gravity": 27.734,
+      "length_of_day": 10.1,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "IV",
+      "distance_from_parent": 1899510937.5,
+      "diameter": 4592.16,
+      "gravity": 1.176,
+      "length_of_day": 18.4,
+      "mass": 0,
+      "orbital_period": 0
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "name": "Beta Serpentis",
+  "mass": 3e+24,
+  "position": {
+    "x": 486.1,
+    "y": 26.2
+  },
+  "bodies": [
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "I",
+      "distance_from_parent": 1559112500,
+      "diameter": 13648.92,
+      "gravity": 15.876000000000003,
+      "length_of_day": 28.5,
+      "mass": 0,
+      "orbital_period": 0
+    }
+  ]
+}

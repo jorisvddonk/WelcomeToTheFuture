@@ -1,0 +1,75 @@
+{
+  "name": "Zeta Crateris",
+  "mass": 3e+24,
+  "position": {
+    "x": 649.6,
+    "y": 603.2
+  },
+  "bodies": [
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "I",
+      "distance_from_parent": 1514700000,
+      "diameter": 109318.92,
+      "gravity": 16.758,
+      "length_of_day": 9.1,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "I-a",
+      "distance_from_parent": 1514700000,
+      "diameter": 3571.6800000000003,
+      "gravity": 3.9200000000000004,
+      "length_of_day": 18.7,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "II",
+      "distance_from_parent": 2014925000,
+      "diameter": 91843.2,
+      "gravity": 14.112,
+      "length_of_day": 15.9,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "II-a",
+      "distance_from_parent": 2014925000,
+      "diameter": 4081.92,
+      "gravity": 3.2340000000000004,
+      "length_of_day": 19.1,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "II-b",
+      "distance_from_parent": 2014925000,
+      "diameter": 4209.4800000000005,
+      "gravity": 3.3320000000000003,
+      "length_of_day": 20.3,
+      "mass": 0,
+      "orbital_period": 0
+    }
+  ]
+}

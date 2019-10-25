@@ -1,0 +1,75 @@
+{
+  "name": "Zeta Brahe",
+  "mass": 3e+24,
+  "position": {
+    "x": 650,
+    "y": 245.8
+  },
+  "bodies": [
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "I",
+      "distance_from_parent": 577946875,
+      "diameter": 3571.6800000000003,
+      "gravity": 0.784,
+      "length_of_day": 16.5,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "II",
+      "distance_from_parent": 2041806250,
+      "diameter": 74112.36,
+      "gravity": 11.956000000000001,
+      "length_of_day": 10.2,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "II-a",
+      "distance_from_parent": 2041806250,
+      "diameter": 4464.599999999999,
+      "gravity": 1.078,
+      "length_of_day": 2933.2,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "II-b",
+      "distance_from_parent": 2041806250,
+      "diameter": 3826.7999999999997,
+      "gravity": 1.6660000000000001,
+      "length_of_day": 24.5,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "II-c",
+      "distance_from_parent": 2041806250,
+      "diameter": 3571.6800000000003,
+      "gravity": 2.6460000000000004,
+      "length_of_day": 23.2,
+      "mass": 0,
+      "orbital_period": 0
+    }
+  ]
+}

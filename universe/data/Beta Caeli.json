@@ -1,0 +1,62 @@
+{
+  "name": "Beta Caeli",
+  "mass": 3e+24,
+  "position": {
+    "x": 258.9,
+    "y": 74.1
+  },
+  "bodies": [
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "I",
+      "distance_from_parent": 307965625,
+      "diameter": 12883.56,
+      "gravity": 14.798000000000002,
+      "length_of_day": 2506.7,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "II",
+      "distance_from_parent": 771667187.5,
+      "diameter": 4081.92,
+      "gravity": 2.94,
+      "length_of_day": 17.2,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "III",
+      "distance_from_parent": 1278320312.5,
+      "diameter": 12118.199999999999,
+      "gravity": 8.918000000000001,
+      "length_of_day": 25.4,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "IV",
+      "distance_from_parent": 1532523437.5,
+      "diameter": 4081.92,
+      "gravity": 0.9800000000000001,
+      "length_of_day": 18.1,
+      "mass": 0,
+      "orbital_period": 0
+    }
+  ]
+}

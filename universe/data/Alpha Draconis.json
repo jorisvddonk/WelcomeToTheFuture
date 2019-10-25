@@ -1,0 +1,62 @@
+{
+  "name": "Alpha Draconis",
+  "mass": 3e+24,
+  "position": {
+    "x": 277.1,
+    "y": 835.1
+  },
+  "bodies": [
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "I",
+      "distance_from_parent": 1085768750,
+      "diameter": 3444.1200000000003,
+      "gravity": 1.6660000000000001,
+      "length_of_day": 2907.9,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "II",
+      "distance_from_parent": 1324485937.5,
+      "diameter": 186365.16,
+      "gravity": 29.988000000000003,
+      "length_of_day": 8.7,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "II-a",
+      "distance_from_parent": 1324485937.5,
+      "diameter": 3826.7999999999997,
+      "gravity": 3.0380000000000003,
+      "length_of_day": 20.3,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "II-b",
+      "distance_from_parent": 1324485937.5,
+      "diameter": 3316.56,
+      "gravity": 0.784,
+      "length_of_day": 26.6,
+      "mass": 0,
+      "orbital_period": 0
+    }
+  ]
+}

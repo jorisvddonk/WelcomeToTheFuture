@@ -1,0 +1,36 @@
+{
+  "name": "Gamma Brahe",
+  "mass": 3e+24,
+  "position": {
+    "x": 635.4,
+    "y": 272.9
+  },
+  "bodies": [
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "I",
+      "distance_from_parent": 119504687.5,
+      "diameter": 11990.64,
+      "gravity": 9.212,
+      "length_of_day": 28.2,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "II",
+      "distance_from_parent": 2198418750,
+      "diameter": 13904.04,
+      "gravity": 16.66,
+      "length_of_day": 1405.7,
+      "mass": 0,
+      "orbital_period": 0
+    }
+  ]
+}

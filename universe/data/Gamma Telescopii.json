@@ -1,0 +1,49 @@
+{
+  "name": "Gamma Telescopii",
+  "mass": 3e+24,
+  "position": {
+    "x": 50,
+    "y": 418.7
+  },
+  "bodies": [
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "I",
+      "distance_from_parent": 340106250,
+      "diameter": 3954.36,
+      "gravity": 0.9800000000000001,
+      "length_of_day": 18,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "II",
+      "distance_from_parent": 1195339062.5,
+      "diameter": 3571.6800000000003,
+      "gravity": 4.018,
+      "length_of_day": 2346.7,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "III",
+      "distance_from_parent": 1815653125,
+      "diameter": 13648.92,
+      "gravity": 16.268,
+      "length_of_day": 27.8,
+      "mass": 0,
+      "orbital_period": 0
+    }
+  ]
+}

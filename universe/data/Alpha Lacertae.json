@@ -1,0 +1,62 @@
+{
+  "name": "Alpha Lacertae",
+  "mass": 3e+24,
+  "position": {
+    "x": 841.6,
+    "y": 808.3
+  },
+  "bodies": [
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "I",
+      "distance_from_parent": 525353125,
+      "diameter": 3316.56,
+      "gravity": 3.9200000000000004,
+      "length_of_day": 26.2,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "II",
+      "distance_from_parent": 1309876562.5,
+      "diameter": 10204.800000000001,
+      "gravity": 7.644000000000001,
+      "length_of_day": 27.4,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "II-a",
+      "distance_from_parent": 1309876562.5,
+      "diameter": 4719.72,
+      "gravity": 5.292000000000001,
+      "length_of_day": 24.4,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "III",
+      "distance_from_parent": 2071609375,
+      "diameter": 4337.04,
+      "gravity": 1.9600000000000002,
+      "length_of_day": 2780.7,
+      "mass": 0,
+      "orbital_period": 0
+    }
+  ]
+}

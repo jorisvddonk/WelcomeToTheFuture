@@ -1,0 +1,23 @@
+{
+  "name": "Beta Columbae",
+  "mass": 3e+24,
+  "position": {
+    "x": 77,
+    "y": 660.2
+  },
+  "bodies": [
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "I",
+      "distance_from_parent": 358806250,
+      "diameter": 10332.36,
+      "gravity": 4.9,
+      "length_of_day": 28.3,
+      "mass": 0,
+      "orbital_period": 0
+    }
+  ]
+}

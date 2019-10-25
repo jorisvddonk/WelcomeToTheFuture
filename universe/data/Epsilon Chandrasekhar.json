@@ -1,0 +1,23 @@
+{
+  "name": "Epsilon Chandrasekhar",
+  "mass": 3e+24,
+  "position": {
+    "x": 31.2,
+    "y": 672.8
+  },
+  "bodies": [
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "I",
+      "distance_from_parent": 2193451562.5,
+      "diameter": 13521.36,
+      "gravity": 10.682000000000002,
+      "length_of_day": 17.9,
+      "mass": 0,
+      "orbital_period": 0
+    }
+  ]
+}

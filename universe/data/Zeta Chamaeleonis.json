@@ -1,0 +1,36 @@
+{
+  "name": "Zeta Chamaeleonis",
+  "mass": 3e+24,
+  "position": {
+    "x": 495.8,
+    "y": 722.9
+  },
+  "bodies": [
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "I",
+      "distance_from_parent": 1963207812.5,
+      "diameter": 136871.88,
+      "gravity": 20.972,
+      "length_of_day": 10.6,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "I-a",
+      "distance_from_parent": 1963207812.5,
+      "diameter": 4081.92,
+      "gravity": 6.468000000000001,
+      "length_of_day": 27.9,
+      "mass": 0,
+      "orbital_period": 0
+    }
+  ]
+}

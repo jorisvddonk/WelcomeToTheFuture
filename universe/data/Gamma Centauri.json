@@ -1,0 +1,49 @@
+{
+  "name": "Gamma Centauri",
+  "mass": 3e+24,
+  "position": {
+    "x": 157.9,
+    "y": 111.5
+  },
+  "bodies": [
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "I",
+      "distance_from_parent": 896431250,
+      "diameter": 11097.72,
+      "gravity": 13.034000000000002,
+      "length_of_day": 28,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "I-a",
+      "distance_from_parent": 896431250,
+      "diameter": 3826.7999999999997,
+      "gravity": 0.882,
+      "length_of_day": 28.3,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "II",
+      "distance_from_parent": 1643846875,
+      "diameter": 13648.92,
+      "gravity": 6.370000000000001,
+      "length_of_day": 17.7,
+      "mass": 0,
+      "orbital_period": 0
+    }
+  ]
+}

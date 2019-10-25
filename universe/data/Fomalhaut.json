@@ -1,0 +1,127 @@
+{
+  "name": "Fomalhaut",
+  "mass": 3e+24,
+  "position": {
+    "x": 437.5,
+    "y": 856.2
+  },
+  "bodies": [
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "I",
+      "distance_from_parent": 499348437.5,
+      "diameter": 10587.48,
+      "gravity": 4.704,
+      "length_of_day": 19.2,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "II",
+      "distance_from_parent": 752090625,
+      "diameter": 3316.56,
+      "gravity": 1.47,
+      "length_of_day": 27.7,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "III",
+      "distance_from_parent": 1121415625,
+      "diameter": 4081.92,
+      "gravity": 1.764,
+      "length_of_day": 18.2,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "IV",
+      "distance_from_parent": 1353704687.5,
+      "diameter": 3571.6800000000003,
+      "gravity": 5.390000000000001,
+      "length_of_day": 16.2,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "V",
+      "distance_from_parent": 2168031250,
+      "diameter": 117482.76000000001,
+      "gravity": 18.914,
+      "length_of_day": 8.6,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "V-a",
+      "distance_from_parent": 2168031250,
+      "diameter": 3316.56,
+      "gravity": 2.45,
+      "length_of_day": 24.5,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "V-b",
+      "distance_from_parent": 2168031250,
+      "diameter": 3699.24,
+      "gravity": 1.764,
+      "length_of_day": 16.5,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "V-c",
+      "distance_from_parent": 2168031250,
+      "diameter": 3444.1200000000003,
+      "gravity": 2.45,
+      "length_of_day": 16,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "V-d",
+      "distance_from_parent": 2168031250,
+      "diameter": 3444.1200000000003,
+      "gravity": 1.6660000000000001,
+      "length_of_day": 19.9,
+      "mass": 0,
+      "orbital_period": 0
+    }
+  ]
+}

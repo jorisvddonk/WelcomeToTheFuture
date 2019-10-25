@@ -1,0 +1,75 @@
+{
+  "name": "Delta Fornacis",
+  "mass": 3e+24,
+  "position": {
+    "x": 597.9,
+    "y": 797.9
+  },
+  "bodies": [
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "I",
+      "distance_from_parent": 179987500,
+      "diameter": 4719.72,
+      "gravity": 3.6260000000000003,
+      "length_of_day": 21.1,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "II",
+      "distance_from_parent": 523307812.5,
+      "diameter": 4209.4800000000005,
+      "gravity": 3.136,
+      "length_of_day": 25.2,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "III",
+      "distance_from_parent": 665310937.5,
+      "diameter": 3444.1200000000003,
+      "gravity": 4.018,
+      "length_of_day": 23.9,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "IV",
+      "distance_from_parent": 1745820312.5,
+      "diameter": 10204.800000000001,
+      "gravity": 7.448,
+      "length_of_day": 25.6,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "V",
+      "distance_from_parent": 1895420312.5,
+      "diameter": 3316.56,
+      "gravity": 0.784,
+      "length_of_day": 20.2,
+      "mass": 0,
+      "orbital_period": 0
+    }
+  ]
+}

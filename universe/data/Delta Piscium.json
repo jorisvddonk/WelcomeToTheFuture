@@ -1,0 +1,23 @@
+{
+  "name": "Delta Piscium",
+  "mass": 3e+24,
+  "position": {
+    "x": 877,
+    "y": 345.8
+  },
+  "bodies": [
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "I",
+      "distance_from_parent": 840915625,
+      "diameter": 4464.599999999999,
+      "gravity": 2.0580000000000003,
+      "length_of_day": 1361.8,
+      "mass": 0,
+      "orbital_period": 0
+    }
+  ]
+}

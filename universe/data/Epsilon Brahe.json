@@ -1,0 +1,88 @@
+{
+  "name": "Epsilon Brahe",
+  "mass": 3e+24,
+  "position": {
+    "x": 641.6,
+    "y": 262.5
+  },
+  "bodies": [
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "I",
+      "distance_from_parent": 328710937.5,
+      "diameter": 4592.16,
+      "gravity": 2.0580000000000003,
+      "length_of_day": 19.2,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "II",
+      "distance_from_parent": 632001562.5,
+      "diameter": 185854.92,
+      "gravity": 28.518000000000004,
+      "length_of_day": 9.5,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "III",
+      "distance_from_parent": 898184375,
+      "diameter": 4464.599999999999,
+      "gravity": 2.156,
+      "length_of_day": 23.9,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "IV",
+      "distance_from_parent": 2142318750,
+      "diameter": 162001.19999999998,
+      "gravity": 26.068000000000005,
+      "length_of_day": 9.3,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "IV-a",
+      "distance_from_parent": 2142318750,
+      "diameter": 3189,
+      "gravity": 1.3720000000000003,
+      "length_of_day": 19.4,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "IV-b",
+      "distance_from_parent": 2142318750,
+      "diameter": 4209.4800000000005,
+      "gravity": 1.862,
+      "length_of_day": 2667.8,
+      "mass": 0,
+      "orbital_period": 0
+    }
+  ]
+}

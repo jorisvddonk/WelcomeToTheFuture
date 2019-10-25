@@ -1,0 +1,49 @@
+{
+  "name": "Delta Aquarii",
+  "mass": 3e+24,
+  "position": {
+    "x": 858.8,
+    "y": 881.2
+  },
+  "bodies": [
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "I",
+      "distance_from_parent": 998112500,
+      "diameter": 3444.1200000000003,
+      "gravity": 0.882,
+      "length_of_day": 17.2,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "II",
+      "distance_from_parent": 1146835937.5,
+      "diameter": 3699.24,
+      "gravity": 4.312,
+      "length_of_day": 29.7,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "III",
+      "distance_from_parent": 1869707812.5,
+      "diameter": 4081.92,
+      "gravity": 1.9600000000000002,
+      "length_of_day": 24.3,
+      "mass": 0,
+      "orbital_period": 0
+    }
+  ]
+}

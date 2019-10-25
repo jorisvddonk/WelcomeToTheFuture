@@ -1,0 +1,36 @@
+{
+  "name": "Alpha Vulpeculae",
+  "mass": 8.999999999999999e+24,
+  "position": {
+    "x": 365.4,
+    "y": 258.7
+  },
+  "bodies": [
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "I",
+      "distance_from_parent": 1419154687.5,
+      "diameter": 13648.92,
+      "gravity": 6.272,
+      "length_of_day": 21.6,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "I-a",
+      "distance_from_parent": 1419154687.5,
+      "diameter": 3699.24,
+      "gravity": 1.764,
+      "length_of_day": 5202.1,
+      "mass": 0,
+      "orbital_period": 0
+    }
+  ]
+}

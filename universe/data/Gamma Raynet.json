@@ -1,0 +1,36 @@
+{
+  "name": "Gamma Raynet",
+  "mass": 3e+24,
+  "position": {
+    "x": 279.1,
+    "y": 189.5
+  },
+  "bodies": [
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "I",
+      "distance_from_parent": 983795312.5,
+      "diameter": 4592.16,
+      "gravity": 2.0580000000000003,
+      "length_of_day": 25.2,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "II",
+      "distance_from_parent": 1304909375,
+      "diameter": 4337.04,
+      "gravity": 2.0580000000000003,
+      "length_of_day": 29.6,
+      "mass": 0,
+      "orbital_period": 0
+    }
+  ]
+}

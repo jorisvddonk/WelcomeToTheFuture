@@ -1,0 +1,49 @@
+{
+  "name": "Beta Krueger",
+  "mass": 3e+24,
+  "position": {
+    "x": 53,
+    "y": 44.2
+  },
+  "bodies": [
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "I",
+      "distance_from_parent": 1157646875,
+      "diameter": 3826.7999999999997,
+      "gravity": 0.882,
+      "length_of_day": 27.3,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "II",
+      "distance_from_parent": 1533984375,
+      "diameter": 4337.04,
+      "gravity": 3.136,
+      "length_of_day": 21.6,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "III",
+      "distance_from_parent": 1801335937.5,
+      "diameter": 10715.039999999999,
+      "gravity": 8.232000000000001,
+      "length_of_day": 15.7,
+      "mass": 0,
+      "orbital_period": 0
+    }
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "name": "Epsilon Aquarii",
+  "mass": 3e+24,
+  "position": {
+    "x": 875,
+    "y": 864.5
+  },
+  "bodies": [
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "I",
+      "distance_from_parent": 146093750,
+      "diameter": 4592.16,
+      "gravity": 2.0580000000000003,
+      "length_of_day": 4457.9,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "II",
+      "distance_from_parent": 641935937.5,
+      "diameter": 3444.1200000000003,
+      "gravity": 1.47,
+      "length_of_day": 25.1,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "III",
+      "distance_from_parent": 1116448437.5,
+      "diameter": 3954.36,
+      "gravity": 3.0380000000000003,
+      "length_of_day": 27.5,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "IV",
+      "distance_from_parent": 1445451562.5,
+      "diameter": 50386.200000000004,
+      "gravity": 7.742000000000001,
+      "length_of_day": 9.7,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "IV-a",
+      "distance_from_parent": 1445451562.5,
+      "diameter": 3571.6800000000003,
+      "gravity": 3.9200000000000004,
+      "length_of_day": 18.7,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "IV-b",
+      "distance_from_parent": 1445451562.5,
+      "diameter": 3954.36,
+      "gravity": 0.882,
+      "length_of_day": 21.6,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "V",
+      "distance_from_parent": 1675110937.5,
+      "diameter": 13521.36,
+      "gravity": 10.388000000000002,
+      "length_of_day": 28.7,
+      "mass": 0,
+      "orbital_period": 0
+    }
+  ]
+}

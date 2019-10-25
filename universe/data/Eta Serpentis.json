@@ -1,0 +1,23 @@
+{
+  "name": "Eta Serpentis",
+  "mass": 3e+24,
+  "position": {
+    "x": 471.4,
+    "y": 7.8
+  },
+  "bodies": [
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "I",
+      "distance_from_parent": 369032812.5,
+      "diameter": 4464.599999999999,
+      "gravity": 2.156,
+      "length_of_day": 26.6,
+      "mass": 0,
+      "orbital_period": 0
+    }
+  ]
+}

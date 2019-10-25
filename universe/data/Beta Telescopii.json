@@ -1,0 +1,23 @@
+{
+  "name": "Beta Telescopii",
+  "mass": 3e+24,
+  "position": {
+    "x": 29.1,
+    "y": 410.4
+  },
+  "bodies": [
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "I",
+      "distance_from_parent": 1373865625,
+      "diameter": 3826.7999999999997,
+      "gravity": 3.0380000000000003,
+      "length_of_day": 23,
+      "mass": 0,
+      "orbital_period": 0
+    }
+  ]
+}

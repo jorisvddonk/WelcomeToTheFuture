@@ -1,0 +1,23 @@
+{
+  "name": "Beta Piscium",
+  "mass": 3e+24,
+  "position": {
+    "x": 879.1,
+    "y": 354.1
+  },
+  "bodies": [
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "I",
+      "distance_from_parent": 712937500,
+      "diameter": 3954.36,
+      "gravity": 6.272,
+      "length_of_day": 26.2,
+      "mass": 0,
+      "orbital_period": 0
+    }
+  ]
+}

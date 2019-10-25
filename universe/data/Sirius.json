@@ -1,0 +1,23 @@
+{
+  "name": "Sirius",
+  "mass": 6e+24,
+  "position": {
+    "x": 180.6,
+    "y": 150.7
+  },
+  "bodies": [
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "I",
+      "distance_from_parent": 763193750,
+      "diameter": 4592.16,
+      "gravity": 5.096000000000001,
+      "length_of_day": 17.3,
+      "mass": 0,
+      "orbital_period": 0
+    }
+  ]
+}

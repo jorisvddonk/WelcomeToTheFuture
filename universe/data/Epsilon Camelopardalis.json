@@ -1,0 +1,49 @@
+{
+  "name": "Epsilon Camelopardalis",
+  "mass": 3e+24,
+  "position": {
+    "x": 593.7,
+    "y": 393.7
+  },
+  "bodies": [
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "I",
+      "distance_from_parent": 180864062.5,
+      "diameter": 11225.28,
+      "gravity": 8.526,
+      "length_of_day": 25.4,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "I-a",
+      "distance_from_parent": 180864062.5,
+      "diameter": 4719.72,
+      "gravity": 3.724,
+      "length_of_day": 18,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "II",
+      "distance_from_parent": 381304687.5,
+      "diameter": 3954.36,
+      "gravity": 3.136,
+      "length_of_day": 26.3,
+      "mass": 0,
+      "orbital_period": 0
+    }
+  ]
+}

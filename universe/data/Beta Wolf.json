@@ -1,0 +1,23 @@
+{
+  "name": "Beta Wolf",
+  "mass": 3e+24,
+  "position": {
+    "x": 166.6,
+    "y": 181.2
+  },
+  "bodies": [
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "I",
+      "distance_from_parent": 319068750,
+      "diameter": 4464.599999999999,
+      "gravity": 1.078,
+      "length_of_day": 26.1,
+      "mass": 0,
+      "orbital_period": 0
+    }
+  ]
+}

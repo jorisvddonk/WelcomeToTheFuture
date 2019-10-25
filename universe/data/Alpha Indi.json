@@ -1,0 +1,88 @@
+{
+  "name": "Alpha Indi",
+  "mass": 3e+24,
+  "position": {
+    "x": 400,
+    "y": 136.3
+  },
+  "bodies": [
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "I",
+      "distance_from_parent": 243100000,
+      "diameter": 11607.960000000001,
+      "gravity": 8.918000000000001,
+      "length_of_day": 28.2,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "I-a",
+      "distance_from_parent": 243100000,
+      "diameter": 3316.56,
+      "gravity": 0.784,
+      "length_of_day": 23.8,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "II",
+      "distance_from_parent": 470421875,
+      "diameter": 48217.68,
+      "gravity": 7.3500000000000005,
+      "length_of_day": 12.8,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "II-a",
+      "distance_from_parent": 470421875,
+      "diameter": 3699.24,
+      "gravity": 2.842,
+      "length_of_day": 23.3,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "II-b",
+      "distance_from_parent": 470421875,
+      "diameter": 3444.1200000000003,
+      "gravity": 2.7440000000000007,
+      "length_of_day": 19.9,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "III",
+      "distance_from_parent": 1340264062.5,
+      "diameter": 169017,
+      "gravity": 27.244,
+      "length_of_day": 15,
+      "mass": 0,
+      "orbital_period": 0
+    }
+  ]
+}

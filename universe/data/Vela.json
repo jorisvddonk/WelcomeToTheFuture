@@ -1,0 +1,88 @@
+{
+  "name": "Vela",
+  "mass": 3e+24,
+  "position": {
+    "x": 334.5,
+    "y": 193.1
+  },
+  "bodies": [
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "Unzervalt",
+      "distance_from_parent": 171806250,
+      "diameter": 10715.039999999999,
+      "gravity": 8.526,
+      "length_of_day": 21.2,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "II",
+      "distance_from_parent": 374292187.5,
+      "diameter": 3954.36,
+      "gravity": 0.882,
+      "length_of_day": 18.1,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "III",
+      "distance_from_parent": 785984375,
+      "diameter": 12883.56,
+      "gravity": 9.408,
+      "length_of_day": 28.3,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "IV",
+      "distance_from_parent": 1274521875,
+      "diameter": 62759.52,
+      "gravity": 9.604000000000001,
+      "length_of_day": 14.2,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "V",
+      "distance_from_parent": 1867954687.5,
+      "diameter": 3316.56,
+      "gravity": 1.47,
+      "length_of_day": 28.9,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "VI",
+      "distance_from_parent": 2142318750,
+      "diameter": 13904.04,
+      "gravity": 10.290000000000001,
+      "length_of_day": 28.5,
+      "mass": 0,
+      "orbital_period": 0
+    }
+  ]
+}

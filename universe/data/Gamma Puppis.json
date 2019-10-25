@@ -1,0 +1,23 @@
+{
+  "name": "Gamma Puppis",
+  "mass": 3e+24,
+  "position": {
+    "x": 827,
+    "y": 295.8
+  },
+  "bodies": [
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "I",
+      "distance_from_parent": 2281984375,
+      "diameter": 4337.04,
+      "gravity": 3.43,
+      "length_of_day": 25.8,
+      "mass": 0,
+      "orbital_period": 0
+    }
+  ]
+}

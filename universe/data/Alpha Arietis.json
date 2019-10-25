@@ -1,0 +1,23 @@
+{
+  "name": "Alpha Arietis",
+  "mass": 3e+24,
+  "position": {
+    "x": 937.5,
+    "y": 158.3
+  },
+  "bodies": [
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "I",
+      "distance_from_parent": 82981250,
+      "diameter": 4209.4800000000005,
+      "gravity": 1.9600000000000002,
+      "length_of_day": 15.8,
+      "mass": 0,
+      "orbital_period": 0
+    }
+  ]
+}

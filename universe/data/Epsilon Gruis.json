@@ -1,0 +1,36 @@
+{
+  "name": "Epsilon Gruis",
+  "mass": 6e+24,
+  "position": {
+    "x": 241.6,
+    "y": 368.7
+  },
+  "bodies": [
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "Spathiwa",
+      "distance_from_parent": 1720400000,
+      "diameter": 15307.199999999999,
+      "gravity": 12.348,
+      "length_of_day": 19.8,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "I-a",
+      "distance_from_parent": 1720400000,
+      "diameter": 3826.7999999999997,
+      "gravity": 1.6660000000000001,
+      "length_of_day": 28.3,
+      "mass": 0,
+      "orbital_period": 0
+    }
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "name": "Gamma Sagittarii",
+  "mass": 3e+24,
+  "position": {
+    "x": 708.3,
+    "y": 277
+  },
+  "bodies": [
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "I",
+      "distance_from_parent": 961881250,
+      "diameter": 4464.599999999999,
+      "gravity": 2.156,
+      "length_of_day": 22,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "II",
+      "distance_from_parent": 1475254687.5,
+      "diameter": 181773,
+      "gravity": 27.930000000000003,
+      "length_of_day": 9.1,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "II-a",
+      "distance_from_parent": 1475254687.5,
+      "diameter": 3699.24,
+      "gravity": 2.7440000000000007,
+      "length_of_day": 5617.7,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "II-b",
+      "distance_from_parent": 1475254687.5,
+      "diameter": 3699.24,
+      "gravity": 5.684,
+      "length_of_day": 24.1,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "III",
+      "distance_from_parent": 1633912500,
+      "diameter": 3189,
+      "gravity": 3.528,
+      "length_of_day": 21.1,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "IV",
+      "distance_from_parent": 2070732812.5,
+      "diameter": 13904.04,
+      "gravity": 6.566000000000001,
+      "length_of_day": 5174.2,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "IV-a",
+      "distance_from_parent": 2070732812.5,
+      "diameter": 4464.599999999999,
+      "gravity": 5.194000000000001,
+      "length_of_day": 23.2,
+      "mass": 0,
+      "orbital_period": 0
+    }
+  ]
+}

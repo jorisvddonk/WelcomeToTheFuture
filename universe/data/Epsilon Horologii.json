@@ -1,0 +1,36 @@
+{
+  "name": "Epsilon Horologii",
+  "mass": 3e+24,
+  "position": {
+    "x": 753.2,
+    "y": 725.8
+  },
+  "bodies": [
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "I",
+      "distance_from_parent": 162456250,
+      "diameter": 3444.1200000000003,
+      "gravity": 1.568,
+      "length_of_day": 18,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "II",
+      "distance_from_parent": 1396071875,
+      "diameter": 10077.24,
+      "gravity": 4.704,
+      "length_of_day": 23.9,
+      "mass": 0,
+      "orbital_period": 0
+    }
+  ]
+}

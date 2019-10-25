@@ -1,0 +1,23 @@
+{
+  "name": "Epsilon Giclas",
+  "mass": 3e+24,
+  "position": {
+    "x": 95.8,
+    "y": 46.8
+  },
+  "bodies": [
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "I",
+      "distance_from_parent": 1184820312.5,
+      "diameter": 3444.1200000000003,
+      "gravity": 3.8220000000000005,
+      "length_of_day": 28.4,
+      "mass": 0,
+      "orbital_period": 0
+    }
+  ]
+}

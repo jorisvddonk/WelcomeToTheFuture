@@ -1,0 +1,23 @@
+{
+  "name": "Theta Chamaeleonis",
+  "mass": 3e+24,
+  "position": {
+    "x": 514.5,
+    "y": 695.8
+  },
+  "bodies": [
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "I",
+      "distance_from_parent": 1791401562.5,
+      "diameter": 11352.84,
+      "gravity": 12.446000000000002,
+      "length_of_day": 20.7,
+      "mass": 0,
+      "orbital_period": 0
+    }
+  ]
+}

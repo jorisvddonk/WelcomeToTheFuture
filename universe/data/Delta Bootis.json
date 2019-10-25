@@ -1,0 +1,49 @@
+{
+  "name": "Delta Bootis",
+  "mass": 3e+24,
+  "position": {
+    "x": 21.7,
+    "y": 250.9
+  },
+  "bodies": [
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "I",
+      "distance_from_parent": 1331498437.5,
+      "diameter": 3954.36,
+      "gravity": 4.312,
+      "length_of_day": 28.2,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "II",
+      "distance_from_parent": 1741729687.5,
+      "diameter": 10587.48,
+      "gravity": 8.036,
+      "length_of_day": 18.8,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "II-a",
+      "distance_from_parent": 1741729687.5,
+      "diameter": 4337.04,
+      "gravity": 3.43,
+      "length_of_day": 28.9,
+      "mass": 0,
+      "orbital_period": 0
+    }
+  ]
+}

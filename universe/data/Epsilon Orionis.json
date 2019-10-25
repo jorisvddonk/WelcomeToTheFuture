@@ -1,0 +1,23 @@
+{
+  "name": "Epsilon Orionis",
+  "mass": 3e+24,
+  "position": {
+    "x": 154.5,
+    "y": 581.8
+  },
+  "bodies": [
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "I",
+      "distance_from_parent": 629664062.5,
+      "diameter": 4209.4800000000005,
+      "gravity": 3.2340000000000004,
+      "length_of_day": 20.3,
+      "mass": 0,
+      "orbital_period": 0
+    }
+  ]
+}

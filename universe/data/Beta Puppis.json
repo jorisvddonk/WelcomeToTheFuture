@@ -1,0 +1,23 @@
+{
+  "name": "Beta Puppis",
+  "mass": 3e+24,
+  "position": {
+    "x": 829.1,
+    "y": 297.9
+  },
+  "bodies": [
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "I",
+      "distance_from_parent": 943181250,
+      "diameter": 4719.72,
+      "gravity": 5.194000000000001,
+      "length_of_day": 20.7,
+      "mass": 0,
+      "orbital_period": 0
+    }
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "name": "Alpha Ophiuchi",
+  "mass": 3e+24,
+  "position": {
+    "x": 43.7,
+    "y": 877
+  },
+  "bodies": [
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "I",
+      "distance_from_parent": 343904687.5,
+      "diameter": 4081.92,
+      "gravity": 1.862,
+      "length_of_day": 23.5,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "II",
+      "distance_from_parent": 779848437.5,
+      "diameter": 12118.199999999999,
+      "gravity": 9.016000000000002,
+      "length_of_day": 19.3,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "II-a",
+      "distance_from_parent": 779848437.5,
+      "diameter": 4464.599999999999,
+      "gravity": 1.9600000000000002,
+      "length_of_day": 29,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "III",
+      "distance_from_parent": 1222804687.5,
+      "diameter": 142101.84,
+      "gravity": 21.756000000000004,
+      "length_of_day": 12.7,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "III-a",
+      "distance_from_parent": 1222804687.5,
+      "diameter": 4592.16,
+      "gravity": 3.3320000000000003,
+      "length_of_day": 22.9,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "III-b",
+      "distance_from_parent": 1222804687.5,
+      "diameter": 4464.599999999999,
+      "gravity": 3.528,
+      "length_of_day": 20.4,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "IV",
+      "distance_from_parent": 2267959375,
+      "diameter": 4209.4800000000005,
+      "gravity": 1.9600000000000002,
+      "length_of_day": 23.5,
+      "mass": 0,
+      "orbital_period": 0
+    }
+  ]
+}

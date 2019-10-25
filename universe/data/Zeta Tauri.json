@@ -1,0 +1,75 @@
+{
+  "name": "Zeta Tauri",
+  "mass": 3e+24,
+  "position": {
+    "x": 9,
+    "y": 361.4
+  },
+  "bodies": [
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "I",
+      "distance_from_parent": 221185937.5,
+      "diameter": 4081.92,
+      "gravity": 4.8020000000000005,
+      "length_of_day": 24.8,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "II",
+      "distance_from_parent": 656837500,
+      "diameter": 13138.68,
+      "gravity": 14.406,
+      "length_of_day": 24.8,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "II-a",
+      "distance_from_parent": 656837500,
+      "diameter": 3699.24,
+      "gravity": 0.882,
+      "length_of_day": 26.4,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "III",
+      "distance_from_parent": 1032006250,
+      "diameter": 3954.36,
+      "gravity": 5.88,
+      "length_of_day": 2777.2,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "IV",
+      "distance_from_parent": 2289873437.5,
+      "diameter": 10204.800000000001,
+      "gravity": 7.644000000000001,
+      "length_of_day": 17.7,
+      "mass": 0,
+      "orbital_period": 0
+    }
+  ]
+}

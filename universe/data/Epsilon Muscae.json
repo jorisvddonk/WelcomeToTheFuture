@@ -1,0 +1,23 @@
+{
+  "name": "Epsilon Muscae",
+  "mass": 3e+24,
+  "position": {
+    "x": 152,
+    "y": 833.3
+  },
+  "bodies": [
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "I",
+      "distance_from_parent": 1015351562.5,
+      "diameter": 3444.1200000000003,
+      "gravity": 0.784,
+      "length_of_day": 4633.3,
+      "mass": 0,
+      "orbital_period": 0
+    }
+  ]
+}

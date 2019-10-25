@@ -1,0 +1,49 @@
+{
+  "name": "Alpha Volantis",
+  "mass": 3e+24,
+  "position": {
+    "x": 95.1,
+    "y": 177
+  },
+  "bodies": [
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "I",
+      "distance_from_parent": 170053125,
+      "diameter": 4337.04,
+      "gravity": 2.0580000000000003,
+      "length_of_day": 17.5,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "II",
+      "distance_from_parent": 1611121875,
+      "diameter": 12245.76,
+      "gravity": 9.8,
+      "length_of_day": 24.4,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "III",
+      "distance_from_parent": 1827925000,
+      "diameter": 4209.4800000000005,
+      "gravity": 0.9800000000000001,
+      "length_of_day": 24.4,
+      "mass": 0,
+      "orbital_period": 0
+    }
+  ]
+}

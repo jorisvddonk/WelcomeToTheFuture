@@ -1,0 +1,23 @@
+{
+  "name": "Beta Sagittae",
+  "mass": 3e+24,
+  "position": {
+    "x": 37.1,
+    "y": 577.2
+  },
+  "bodies": [
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "I",
+      "distance_from_parent": 496718750,
+      "diameter": 10715.039999999999,
+      "gravity": 12.25,
+      "length_of_day": 22.1,
+      "mass": 0,
+      "orbital_period": 0
+    }
+  ]
+}

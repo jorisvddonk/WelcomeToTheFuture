@@ -1,0 +1,23 @@
+{
+  "name": "Beta Delphini",
+  "mass": 3e+24,
+  "position": {
+    "x": 377,
+    "y": 650
+  },
+  "bodies": [
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "I",
+      "distance_from_parent": 754428125,
+      "diameter": 4592.16,
+      "gravity": 5.292000000000001,
+      "length_of_day": 19.3,
+      "mass": 0,
+      "orbital_period": 0
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "name": "Delta Cancri",
+  "mass": 3e+24,
+  "position": {
+    "x": 509.4,
+    "y": 493.1
+  },
+  "bodies": [
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "I",
+      "distance_from_parent": 1919379687.5,
+      "diameter": 131131.68,
+      "gravity": 21.07,
+      "length_of_day": 12.4,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "I-a",
+      "distance_from_parent": 1919379687.5,
+      "diameter": 3444.1200000000003,
+      "gravity": 0.784,
+      "length_of_day": 1984.4,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "I-b",
+      "distance_from_parent": 1919379687.5,
+      "diameter": 3826.7999999999997,
+      "gravity": 4.214,
+      "length_of_day": 26.4,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "I-c",
+      "distance_from_parent": 1919379687.5,
+      "diameter": 3189,
+      "gravity": 1.3720000000000003,
+      "length_of_day": 21.7,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "I-d",
+      "distance_from_parent": 1919379687.5,
+      "diameter": 3954.36,
+      "gravity": 3.0380000000000003,
+      "length_of_day": 21.6,
+      "mass": 0,
+      "orbital_period": 0
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "name": "Gamma Chamaeleonis",
+  "mass": 3e+24,
+  "position": {
+    "x": 489.5,
+    "y": 704.1
+  },
+  "bodies": [
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "I",
+      "distance_from_parent": 725501562.5,
+      "diameter": 144397.92,
+      "gravity": 22.148,
+      "length_of_day": 12.9,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "I-a",
+      "distance_from_parent": 725501562.5,
+      "diameter": 3699.24,
+      "gravity": 1.568,
+      "length_of_day": 22.8,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "I-b",
+      "distance_from_parent": 725501562.5,
+      "diameter": 4337.04,
+      "gravity": 4.998,
+      "length_of_day": 23.3,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "II",
+      "distance_from_parent": 888834375,
+      "diameter": 4337.04,
+      "gravity": 2.0580000000000003,
+      "length_of_day": 20.2,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "III",
+      "distance_from_parent": 2078329687.5,
+      "diameter": 3444.1200000000003,
+      "gravity": 2.5480000000000005,
+      "length_of_day": 18.9,
+      "mass": 0,
+      "orbital_period": 0
+    }
+  ]
+}

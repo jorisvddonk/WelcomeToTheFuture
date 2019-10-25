@@ -1,0 +1,114 @@
+{
+  "name": "Eta Camelopardalis",
+  "mass": 3e+24,
+  "position": {
+    "x": 620.8,
+    "y": 422.9
+  },
+  "bodies": [
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "I",
+      "distance_from_parent": 369032812.5,
+      "diameter": 3316.56,
+      "gravity": 1.47,
+      "length_of_day": 23.9,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "II",
+      "distance_from_parent": 1029960937.5,
+      "diameter": 147714.48,
+      "gravity": 22.638,
+      "length_of_day": 11.9,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "II-a",
+      "distance_from_parent": 1029960937.5,
+      "diameter": 3571.6800000000003,
+      "gravity": 2.6460000000000004,
+      "length_of_day": 24.7,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "II-b",
+      "distance_from_parent": 1029960937.5,
+      "diameter": 3826.7999999999997,
+      "gravity": 2.7440000000000007,
+      "length_of_day": 28.9,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "III",
+      "distance_from_parent": 1365976562.5,
+      "diameter": 3699.24,
+      "gravity": 5.586,
+      "length_of_day": 1946.3,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "IV",
+      "distance_from_parent": 1604693750,
+      "diameter": 10077.24,
+      "gravity": 7.742000000000001,
+      "length_of_day": 19.6,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "V",
+      "distance_from_parent": 1935450000,
+      "diameter": 88399.08,
+      "gravity": 14.21,
+      "length_of_day": 10.2,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "V-a",
+      "distance_from_parent": 1935450000,
+      "diameter": 4719.72,
+      "gravity": 2.0580000000000003,
+      "length_of_day": 21.1,
+      "mass": 0,
+      "orbital_period": 0
+    }
+  ]
+}

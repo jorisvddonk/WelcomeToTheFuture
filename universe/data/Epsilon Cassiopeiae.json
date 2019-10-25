@@ -1,0 +1,36 @@
+{
+  "name": "Epsilon Cassiopeiae",
+  "mass": 3e+24,
+  "position": {
+    "x": 399.4,
+    "y": 518.5
+  },
+  "bodies": [
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "I",
+      "distance_from_parent": 958375000,
+      "diameter": 11735.52,
+      "gravity": 5.390000000000001,
+      "length_of_day": 4996.9,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "II",
+      "distance_from_parent": 1739684375,
+      "diameter": 3444.1200000000003,
+      "gravity": 1.568,
+      "length_of_day": 26,
+      "mass": 0,
+      "orbital_period": 0
+    }
+  ]
+}

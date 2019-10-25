@@ -1,0 +1,101 @@
+{
+  "name": "Alpha Hydrae",
+  "mass": 3e+24,
+  "position": {
+    "x": 733.3,
+    "y": 650
+  },
+  "bodies": [
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "I",
+      "distance_from_parent": 434190625,
+      "diameter": 11863.08,
+      "gravity": 9.212,
+      "length_of_day": 15.3,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "II",
+      "distance_from_parent": 794457812.5,
+      "diameter": 4464.599999999999,
+      "gravity": 3.3320000000000003,
+      "length_of_day": 20,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "III",
+      "distance_from_parent": 1273645312.5,
+      "diameter": 171440.63999999998,
+      "gravity": 27.636,
+      "length_of_day": 15.5,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "III-a",
+      "distance_from_parent": 1273645312.5,
+      "diameter": 3699.24,
+      "gravity": 5.782,
+      "length_of_day": 3413.1,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "IV",
+      "distance_from_parent": 1601479687.5,
+      "diameter": 3699.24,
+      "gravity": 4.312,
+      "length_of_day": 16.5,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "V",
+      "distance_from_parent": 1810101562.5,
+      "diameter": 3571.6800000000003,
+      "gravity": 3.9200000000000004,
+      "length_of_day": 20,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "VI",
+      "distance_from_parent": 2209229687.5,
+      "diameter": 4337.04,
+      "gravity": 4.998,
+      "length_of_day": 17.1,
+      "mass": 0,
+      "orbital_period": 0
+    }
+  ]
+}

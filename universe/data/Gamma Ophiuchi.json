@@ -1,0 +1,49 @@
+{
+  "name": "Gamma Ophiuchi",
+  "mass": 3e+24,
+  "position": {
+    "x": 33.3,
+    "y": 891.6
+  },
+  "bodies": [
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "I",
+      "distance_from_parent": 814034375,
+      "diameter": 9949.68,
+      "gravity": 7.3500000000000005,
+      "length_of_day": 21.2,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "I-a",
+      "distance_from_parent": 814034375,
+      "diameter": 3444.1200000000003,
+      "gravity": 0.882,
+      "length_of_day": 19.9,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "II",
+      "distance_from_parent": 1143037500,
+      "diameter": 3826.7999999999997,
+      "gravity": 5.586,
+      "length_of_day": 1355,
+      "mass": 0,
+      "orbital_period": 0
+    }
+  ]
+}

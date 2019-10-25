@@ -1,0 +1,62 @@
+{
+  "name": "Alpha Tucanae",
+  "mass": 3e+24,
+  "position": {
+    "x": 400,
+    "y": 543.7
+  },
+  "bodies": [
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "I",
+      "distance_from_parent": 206284375,
+      "diameter": 11097.72,
+      "gravity": 8.526,
+      "length_of_day": 21,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "I-a",
+      "distance_from_parent": 206284375,
+      "diameter": 3954.36,
+      "gravity": 4.312,
+      "length_of_day": 4343,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "II",
+      "distance_from_parent": 1031714062.5,
+      "diameter": 11097.72,
+      "gravity": 8.624,
+      "length_of_day": 25.6,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "III",
+      "distance_from_parent": 1398117187.5,
+      "diameter": 4719.72,
+      "gravity": 7.546000000000001,
+      "length_of_day": 27.7,
+      "mass": 0,
+      "orbital_period": 0
+    }
+  ]
+}

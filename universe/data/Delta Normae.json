@@ -1,0 +1,62 @@
+{
+  "name": "Delta Normae",
+  "mass": 3e+24,
+  "position": {
+    "x": 161.3,
+    "y": 527.9
+  },
+  "bodies": [
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "I",
+      "distance_from_parent": 168007812.5,
+      "diameter": 10332.36,
+      "gravity": 7.644000000000001,
+      "length_of_day": 20.9,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "II",
+      "distance_from_parent": 664726562.5,
+      "diameter": 13521.36,
+      "gravity": 5.978000000000001,
+      "length_of_day": 17.6,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "III",
+      "distance_from_parent": 1559989062.5,
+      "diameter": 4464.599999999999,
+      "gravity": 4.9,
+      "length_of_day": 19.3,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "IV",
+      "distance_from_parent": 2299807812.5,
+      "diameter": 12245.76,
+      "gravity": 9.702,
+      "length_of_day": 18.7,
+      "mass": 0,
+      "orbital_period": 0
+    }
+  ]
+}

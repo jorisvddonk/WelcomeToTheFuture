@@ -1,0 +1,101 @@
+{
+  "name": "Delta Persei",
+  "mass": 3e+24,
+  "position": {
+    "x": 925,
+    "y": 285.4
+  },
+  "bodies": [
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "I",
+      "distance_from_parent": 302414062.5,
+      "diameter": 4081.92,
+      "gravity": 4.8020000000000005,
+      "length_of_day": 26.1,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "II",
+      "distance_from_parent": 602782812.5,
+      "diameter": 3699.24,
+      "gravity": 2.7440000000000007,
+      "length_of_day": 29.8,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "III",
+      "distance_from_parent": 1708712500,
+      "diameter": 47579.88,
+      "gravity": 7.252000000000001,
+      "length_of_day": 9.4,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "III-a",
+      "distance_from_parent": 1708712500,
+      "diameter": 3699.24,
+      "gravity": 1.568,
+      "length_of_day": 22.8,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "III-b",
+      "distance_from_parent": 1708712500,
+      "diameter": 3826.7999999999997,
+      "gravity": 1.764,
+      "length_of_day": 22.7,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "III-c",
+      "distance_from_parent": 1708712500,
+      "diameter": 3444.1200000000003,
+      "gravity": 4.018,
+      "length_of_day": 20.5,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "III-d",
+      "distance_from_parent": 1708712500,
+      "diameter": 3316.56,
+      "gravity": 4.998,
+      "length_of_day": 2929.2,
+      "mass": 0,
+      "orbital_period": 0
+    }
+  ]
+}

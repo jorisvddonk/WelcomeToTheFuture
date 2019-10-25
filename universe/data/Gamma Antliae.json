@@ -1,0 +1,49 @@
+{
+  "name": "Gamma Antliae",
+  "mass": 3e+24,
+  "position": {
+    "x": 283.1,
+    "y": 885.4
+  },
+  "bodies": [
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "I",
+      "distance_from_parent": 1235368750,
+      "diameter": 12883.56,
+      "gravity": 10.094000000000001,
+      "length_of_day": 23.7,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "II",
+      "distance_from_parent": 1490448437.5,
+      "diameter": 10077.24,
+      "gravity": 4.508000000000001,
+      "length_of_day": 2121.7,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "II-a",
+      "distance_from_parent": 1490448437.5,
+      "diameter": 3189,
+      "gravity": 1.47,
+      "length_of_day": 17.8,
+      "mass": 0,
+      "orbital_period": 0
+    }
+  ]
+}

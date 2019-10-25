@@ -1,0 +1,75 @@
+{
+  "name": "Beta Gorno",
+  "mass": 3e+24,
+  "position": {
+    "x": 281.4,
+    "y": 8.9
+  },
+  "bodies": [
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "I",
+      "distance_from_parent": 179987500,
+      "diameter": 4081.92,
+      "gravity": 1.862,
+      "length_of_day": 23,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "II",
+      "distance_from_parent": 1199137500,
+      "diameter": 4464.599999999999,
+      "gravity": 3.43,
+      "length_of_day": 15.8,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "III",
+      "distance_from_parent": 2075992187.5,
+      "diameter": 177053.28,
+      "gravity": 28.518000000000004,
+      "length_of_day": 13.7,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "III-a",
+      "distance_from_parent": 2075992187.5,
+      "diameter": 3189,
+      "gravity": 1.47,
+      "length_of_day": 26.4,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "III-b",
+      "distance_from_parent": 2075992187.5,
+      "diameter": 3699.24,
+      "gravity": 1.6660000000000001,
+      "length_of_day": 23.3,
+      "mass": 0,
+      "orbital_period": 0
+    }
+  ]
+}

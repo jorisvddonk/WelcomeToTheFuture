@@ -1,0 +1,49 @@
+{
+  "name": "Delta Librae",
+  "mass": 3e+24,
+  "position": {
+    "x": 779.1,
+    "y": 918.7
+  },
+  "bodies": [
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "I",
+      "distance_from_parent": 523600000,
+      "diameter": 58932.72,
+      "gravity": 9.506,
+      "length_of_day": 8.8,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "II",
+      "distance_from_parent": 2211859375,
+      "diameter": 129856.08,
+      "gravity": 19.894,
+      "length_of_day": 10.6,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "II-a",
+      "distance_from_parent": 2211859375,
+      "diameter": 4464.599999999999,
+      "gravity": 1.9600000000000002,
+      "length_of_day": 28.3,
+      "mass": 0,
+      "orbital_period": 0
+    }
+  ]
+}

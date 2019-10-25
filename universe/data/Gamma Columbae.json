@@ -1,0 +1,23 @@
+{
+  "name": "Gamma Columbae",
+  "mass": 3e+24,
+  "position": {
+    "x": 72.9,
+    "y": 620.8
+  },
+  "bodies": [
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "I",
+      "distance_from_parent": 202778125,
+      "diameter": 4081.92,
+      "gravity": 6.272,
+      "length_of_day": 22.6,
+      "mass": 0,
+      "orbital_period": 0
+    }
+  ]
+}

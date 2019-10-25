@@ -1,0 +1,23 @@
+{
+  "name": "Epsilon Ptolemae",
+  "mass": 3e+24,
+  "position": {
+    "x": 185.5,
+    "y": 27
+  },
+  "bodies": [
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "I",
+      "distance_from_parent": 1088690625,
+      "diameter": 3699.24,
+      "gravity": 2.842,
+      "length_of_day": 16.4,
+      "mass": 0,
+      "orbital_period": 0
+    }
+  ]
+}

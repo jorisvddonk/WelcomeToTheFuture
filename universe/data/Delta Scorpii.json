@@ -1,0 +1,62 @@
+{
+  "name": "Delta Scorpii",
+  "mass": 3e+24,
+  "position": {
+    "x": 603.6,
+    "y": 203.5
+  },
+  "bodies": [
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "I",
+      "distance_from_parent": 549312500,
+      "diameter": 3826.7999999999997,
+      "gravity": 2.842,
+      "length_of_day": 15.5,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "II",
+      "distance_from_parent": 1680370312.5,
+      "diameter": 11097.72,
+      "gravity": 8.918000000000001,
+      "length_of_day": 28.7,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "II-a",
+      "distance_from_parent": 1680370312.5,
+      "diameter": 4592.16,
+      "gravity": 5.194000000000001,
+      "length_of_day": 16.6,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "III",
+      "distance_from_parent": 2134721875,
+      "diameter": 4081.92,
+      "gravity": 1.862,
+      "length_of_day": 18.1,
+      "mass": 0,
+      "orbital_period": 0
+    }
+  ]
+}

@@ -1,0 +1,114 @@
+{
+  "name": "Zeta Lyncis",
+  "mass": 3e+24,
+  "position": {
+    "x": 522.9,
+    "y": 972.9
+  },
+  "bodies": [
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "I",
+      "distance_from_parent": 675245312.5,
+      "diameter": 4081.92,
+      "gravity": 1.9600000000000002,
+      "length_of_day": 23.6,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "II",
+      "distance_from_parent": 1019734375,
+      "diameter": 11097.72,
+      "gravity": 8.232000000000001,
+      "length_of_day": 17.8,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "III",
+      "distance_from_parent": 1462398437.5,
+      "diameter": 3316.56,
+      "gravity": 3.9200000000000004,
+      "length_of_day": 23.9,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "IV",
+      "distance_from_parent": 1700531250,
+      "diameter": 139423.08,
+      "gravity": 21.364000000000004,
+      "length_of_day": 13.5,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "IV-a",
+      "distance_from_parent": 1700531250,
+      "diameter": 3826.7999999999997,
+      "gravity": 1.764,
+      "length_of_day": 25,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "IV-b",
+      "distance_from_parent": 1700531250,
+      "diameter": 3189,
+      "gravity": 3.6260000000000003,
+      "length_of_day": 21.2,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "V",
+      "distance_from_parent": 1880226562.5,
+      "diameter": 10459.92,
+      "gravity": 8.036,
+      "length_of_day": 22.6,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "VI",
+      "distance_from_parent": 2145240625,
+      "diameter": 3954.36,
+      "gravity": 1.6660000000000001,
+      "length_of_day": 19.5,
+      "mass": 0,
+      "orbital_period": 0
+    }
+  ]
+}

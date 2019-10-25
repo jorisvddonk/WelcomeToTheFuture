@@ -1,0 +1,88 @@
+{
+  "name": "Beta Hyades",
+  "mass": 3e+24,
+  "position": {
+    "x": 837.5,
+    "y": 895.8
+  },
+  "bodies": [
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "I",
+      "distance_from_parent": 188753125,
+      "diameter": 3316.56,
+      "gravity": 1.47,
+      "length_of_day": 22.8,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "II",
+      "distance_from_parent": 775757812.5,
+      "diameter": 4592.16,
+      "gravity": 5.194000000000001,
+      "length_of_day": 29.6,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "III",
+      "distance_from_parent": 995482812.5,
+      "diameter": 4209.4800000000005,
+      "gravity": 1.9600000000000002,
+      "length_of_day": 19.3,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "IV",
+      "distance_from_parent": 1489571875,
+      "diameter": 13011.12,
+      "gravity": 9.8,
+      "length_of_day": 22.2,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "V",
+      "distance_from_parent": 2056415625,
+      "diameter": 13393.800000000001,
+      "gravity": 6.272,
+      "length_of_day": 20.9,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "V-a",
+      "distance_from_parent": 2056415625,
+      "diameter": 3189,
+      "gravity": 2.5480000000000005,
+      "length_of_day": 17.9,
+      "mass": 0,
+      "orbital_period": 0
+    }
+  ]
+}

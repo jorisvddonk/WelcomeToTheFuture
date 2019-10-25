@@ -1,0 +1,75 @@
+{
+  "name": "Gamma Krueger",
+  "mass": 3e+24,
+  "position": {
+    "x": 52.2,
+    "y": 52.5
+  },
+  "bodies": [
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "I",
+      "distance_from_parent": 155443750,
+      "diameter": 9567,
+      "gravity": 7.644000000000001,
+      "length_of_day": 16.5,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "I-a",
+      "distance_from_parent": 155443750,
+      "diameter": 3189,
+      "gravity": 1.3720000000000003,
+      "length_of_day": 27.6,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "II",
+      "distance_from_parent": 622943750,
+      "diameter": 3571.6800000000003,
+      "gravity": 0.882,
+      "length_of_day": 18.8,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "III",
+      "distance_from_parent": 1638295312.5,
+      "diameter": 3699.24,
+      "gravity": 5.782,
+      "length_of_day": 23.9,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "IV",
+      "distance_from_parent": 2136182812.5,
+      "diameter": 4719.72,
+      "gravity": 6.958,
+      "length_of_day": 19.3,
+      "mass": 0,
+      "orbital_period": 0
+    }
+  ]
+}

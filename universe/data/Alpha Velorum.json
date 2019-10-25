@@ -1,0 +1,75 @@
+{
+  "name": "Alpha Velorum",
+  "mass": 3e+24,
+  "position": {
+    "x": 86,
+    "y": 406.5
+  },
+  "bodies": [
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "I",
+      "distance_from_parent": 293356250,
+      "diameter": 159832.68,
+      "gravity": 24.5,
+      "length_of_day": 11.9,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "I-a",
+      "distance_from_parent": 293356250,
+      "diameter": 3826.7999999999997,
+      "gravity": 5.586,
+      "length_of_day": 23.1,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "II",
+      "distance_from_parent": 837117187.5,
+      "diameter": 4592.16,
+      "gravity": 5.292000000000001,
+      "length_of_day": 23.6,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "III",
+      "distance_from_parent": 1369482812.5,
+      "diameter": 13266.24,
+      "gravity": 5.978000000000001,
+      "length_of_day": 25.8,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "IV",
+      "distance_from_parent": 2172414062.5,
+      "diameter": 3826.7999999999997,
+      "gravity": 4.214,
+      "length_of_day": 27.7,
+      "mass": 0,
+      "orbital_period": 0
+    }
+  ]
+}

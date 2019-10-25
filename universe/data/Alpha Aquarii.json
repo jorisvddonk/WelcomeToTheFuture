@@ -1,0 +1,23 @@
+{
+  "name": "Alpha Aquarii",
+  "mass": 3e+24,
+  "position": {
+    "x": 856,
+    "y": 863.8
+  },
+  "bodies": [
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "I",
+      "distance_from_parent": 642520312.5,
+      "diameter": 12118.199999999999,
+      "gravity": 9.31,
+      "length_of_day": 27.3,
+      "mass": 0,
+      "orbital_period": 0
+    }
+  ]
+}

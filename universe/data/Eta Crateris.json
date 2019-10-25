@@ -1,0 +1,75 @@
+{
+  "name": "Eta Crateris",
+  "mass": 3e+24,
+  "position": {
+    "x": 642.9,
+    "y": 595.8
+  },
+  "bodies": [
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "I",
+      "distance_from_parent": 1216668750,
+      "diameter": 12756,
+      "gravity": 14.700000000000001,
+      "length_of_day": 29.7,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "II",
+      "distance_from_parent": 2179134375,
+      "diameter": 174629.63999999998,
+      "gravity": 26.754,
+      "length_of_day": 14.7,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "II-a",
+      "distance_from_parent": 2179134375,
+      "diameter": 4592.16,
+      "gravity": 2.156,
+      "length_of_day": 15,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "II-b",
+      "distance_from_parent": 2179134375,
+      "diameter": 3189,
+      "gravity": 1.47,
+      "length_of_day": 17.8,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "II-c",
+      "distance_from_parent": 2179134375,
+      "diameter": 4337.04,
+      "gravity": 1.862,
+      "length_of_day": 24.7,
+      "mass": 0,
+      "orbital_period": 0
+    }
+  ]
+}

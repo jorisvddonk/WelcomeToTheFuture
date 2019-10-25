@@ -1,0 +1,49 @@
+{
+  "name": "Delta Reticuli",
+  "mass": 3e+24,
+  "position": {
+    "x": 725,
+    "y": 458.3
+  },
+  "bodies": [
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "I",
+      "distance_from_parent": 1110604687.5,
+      "diameter": 4209.4800000000005,
+      "gravity": 0.9800000000000001,
+      "length_of_day": 18.5,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "II",
+      "distance_from_parent": 1330621875,
+      "diameter": 9694.56,
+      "gravity": 11.074,
+      "length_of_day": 23.3,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "II-a",
+      "distance_from_parent": 1330621875,
+      "diameter": 4464.599999999999,
+      "gravity": 3.528,
+      "length_of_day": 18.3,
+      "mass": 0,
+      "orbital_period": 0
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "name": "Beta Librae",
+  "mass": 3e+24,
+  "position": {
+    "x": 741.4,
+    "y": 912.4
+  },
+  "bodies": [
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "Vlik",
+      "distance_from_parent": 227321875,
+      "diameter": 11480.4,
+      "gravity": 8.428,
+      "length_of_day": 20,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "I-a",
+      "distance_from_parent": 227321875,
+      "diameter": 4464.599999999999,
+      "gravity": 7.056,
+      "length_of_day": 17.8,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "I-b",
+      "distance_from_parent": 227321875,
+      "diameter": 4337.04,
+      "gravity": 5.096000000000001,
+      "length_of_day": 22.7,
+      "mass": 0,
+      "orbital_period": 0
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "name": "Theta Persei",
+  "mass": 3e+24,
+  "position": {
+    "x": 937.5,
+    "y": 241.6
+  },
+  "bodies": [
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "I",
+      "distance_from_parent": 308550000,
+      "diameter": 3571.6800000000003,
+      "gravity": 4.018,
+      "length_of_day": 2260.7,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "II",
+      "distance_from_parent": 542592187.5,
+      "diameter": 3699.24,
+      "gravity": 2.7440000000000007,
+      "length_of_day": 25.1,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "III",
+      "distance_from_parent": 834195312.5,
+      "diameter": 3444.1200000000003,
+      "gravity": 2.6460000000000004,
+      "length_of_day": 29.4,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "IV",
+      "distance_from_parent": 1180729687.5,
+      "diameter": 3699.24,
+      "gravity": 2.842,
+      "length_of_day": 22.9,
+      "mass": 0,
+      "orbital_period": 0
+    }
+  ]
+}

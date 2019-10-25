@@ -1,0 +1,49 @@
+{
+  "name": "Alpha Aquilae",
+  "mass": 8.999999999999999e+24,
+  "position": {
+    "x": 915.9,
+    "y": 974.5
+  },
+  "bodies": [
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "I",
+      "distance_from_parent": 1023532812.5,
+      "diameter": 66841.44,
+      "gravity": 10.780000000000001,
+      "length_of_day": 12,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "II",
+      "distance_from_parent": 1624562500,
+      "diameter": 4209.4800000000005,
+      "gravity": 1.862,
+      "length_of_day": 2824.1,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "III",
+      "distance_from_parent": 1864448437.5,
+      "diameter": 11607.960000000001,
+      "gravity": 8.82,
+      "length_of_day": 28.8,
+      "mass": 0,
+      "orbital_period": 0
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "name": "Beta Indi",
+  "mass": 3e+24,
+  "position": {
+    "x": 395.8,
+    "y": 135.4
+  },
+  "bodies": [
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "I",
+      "distance_from_parent": 1651735937.5,
+      "diameter": 3826.7999999999997,
+      "gravity": 1.764,
+      "length_of_day": 20,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "II",
+      "distance_from_parent": 2138812500,
+      "diameter": 3699.24,
+      "gravity": 2.7440000000000007,
+      "length_of_day": 19,
+      "mass": 0,
+      "orbital_period": 0
+    }
+  ]
+}

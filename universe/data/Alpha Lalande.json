@@ -1,0 +1,36 @@
+{
+  "name": "Alpha Lalande",
+  "mass": 3e+24,
+  "position": {
+    "x": 349.9,
+    "y": 264.8
+  },
+  "bodies": [
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "I",
+      "distance_from_parent": 1639464062.5,
+      "diameter": 4592.16,
+      "gravity": 5.096000000000001,
+      "length_of_day": 19.1,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "II",
+      "distance_from_parent": 2198418750,
+      "diameter": 3699.24,
+      "gravity": 2.7440000000000007,
+      "length_of_day": 25.3,
+      "mass": 0,
+      "orbital_period": 0
+    }
+  ]
+}

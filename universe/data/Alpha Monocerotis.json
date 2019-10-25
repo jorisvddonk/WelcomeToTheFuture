@@ -1,0 +1,36 @@
+{
+  "name": "Alpha Monocerotis",
+  "mass": 3e+24,
+  "position": {
+    "x": 387.5,
+    "y": 718.7
+  },
+  "bodies": [
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "I",
+      "distance_from_parent": 1386137500,
+      "diameter": 4464.599999999999,
+      "gravity": 3.2340000000000004,
+      "length_of_day": 25.9,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "II",
+      "distance_from_parent": 1792278125,
+      "diameter": 4464.599999999999,
+      "gravity": 3.43,
+      "length_of_day": 24.7,
+      "mass": 0,
+      "orbital_period": 0
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "name": "Gamma Scuti",
+  "mass": 3e+24,
+  "position": {
+    "x": 525.6,
+    "y": 60.8
+  },
+  "bodies": [
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "I",
+      "distance_from_parent": 153690625,
+      "diameter": 3571.6800000000003,
+      "gravity": 2.7440000000000007,
+      "length_of_day": 18.4,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "II",
+      "distance_from_parent": 382473437.5,
+      "diameter": 3444.1200000000003,
+      "gravity": 2.5480000000000005,
+      "length_of_day": 18.7,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "III",
+      "distance_from_parent": 1099793750,
+      "diameter": 3444.1200000000003,
+      "gravity": 5.488000000000001,
+      "length_of_day": 15.7,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "IV",
+      "distance_from_parent": 1450710937.5,
+      "diameter": 3826.7999999999997,
+      "gravity": 4.312,
+      "length_of_day": 29.8,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "V",
+      "distance_from_parent": 1658748437.5,
+      "diameter": 10587.48,
+      "gravity": 4.8020000000000005,
+      "length_of_day": 4220.6,
+      "mass": 0,
+      "orbital_period": 0
+    }
+  ]
+}

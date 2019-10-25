@@ -1,0 +1,62 @@
+{
+  "name": "Delta Lipi",
+  "mass": 3e+24,
+  "position": {
+    "x": 564.5,
+    "y": 897.9
+  },
+  "bodies": [
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "I",
+      "distance_from_parent": 407309375,
+      "diameter": 3571.6800000000003,
+      "gravity": 1.6660000000000001,
+      "length_of_day": 18.6,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "II",
+      "distance_from_parent": 1600895312.5,
+      "diameter": 100772.40000000001,
+      "gravity": 15.484000000000002,
+      "length_of_day": 13.5,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "II-a",
+      "distance_from_parent": 1600895312.5,
+      "diameter": 4464.599999999999,
+      "gravity": 1.9600000000000002,
+      "length_of_day": 22.1,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "II-b",
+      "distance_from_parent": 1600895312.5,
+      "diameter": 4081.92,
+      "gravity": 6.370000000000001,
+      "length_of_day": 21.3,
+      "mass": 0,
+      "orbital_period": 0
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "name": "Beta Chandrasekhar",
+  "mass": 3e+24,
+  "position": {
+    "x": 37.5,
+    "y": 671.6
+  },
+  "bodies": [
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "I",
+      "distance_from_parent": 1577812500,
+      "diameter": 3316.56,
+      "gravity": 3.6260000000000003,
+      "length_of_day": 23.6,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "II",
+      "distance_from_parent": 2283737500,
+      "diameter": 12245.76,
+      "gravity": 5.684,
+      "length_of_day": 24.8,
+      "mass": 0,
+      "orbital_period": 0
+    }
+  ]
+}

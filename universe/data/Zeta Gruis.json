@@ -1,0 +1,49 @@
+{
+  "name": "Zeta Gruis",
+  "mass": 3e+24,
+  "position": {
+    "x": 258.3,
+    "y": 375
+  },
+  "bodies": [
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "I",
+      "distance_from_parent": 718196875,
+      "diameter": 157791.72,
+      "gravity": 24.206000000000003,
+      "length_of_day": 8.7,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "I-a",
+      "distance_from_parent": 718196875,
+      "diameter": 3954.36,
+      "gravity": 4.704,
+      "length_of_day": 20.5,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "I-b",
+      "distance_from_parent": 718196875,
+      "diameter": 4337.04,
+      "gravity": 4.9,
+      "length_of_day": 19,
+      "mass": 0,
+      "orbital_period": 0
+    }
+  ]
+}

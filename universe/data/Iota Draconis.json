@@ -1,0 +1,75 @@
+{
+  "name": "Iota Draconis",
+  "mass": 3e+24,
+  "position": {
+    "x": 356.2,
+    "y": 825
+  },
+  "bodies": [
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "I",
+      "distance_from_parent": 84150000,
+      "diameter": 4337.04,
+      "gravity": 4.704,
+      "length_of_day": 15.6,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "II",
+      "distance_from_parent": 512204687.5,
+      "diameter": 4337.04,
+      "gravity": 2.0580000000000003,
+      "length_of_day": 28.3,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "III",
+      "distance_from_parent": 698620312.5,
+      "diameter": 147586.92,
+      "gravity": 22.638,
+      "length_of_day": 13.9,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "IV",
+      "distance_from_parent": 1445159375,
+      "diameter": 3189,
+      "gravity": 3.724,
+      "length_of_day": 28.2,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "V",
+      "distance_from_parent": 2152837500,
+      "diameter": 12245.76,
+      "gravity": 9.702,
+      "length_of_day": 26.2,
+      "mass": 0,
+      "orbital_period": 0
+    }
+  ]
+}

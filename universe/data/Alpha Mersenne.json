@@ -1,0 +1,36 @@
+{
+  "name": "Alpha Mersenne",
+  "mass": 3e+24,
+  "position": {
+    "x": 260.4,
+    "y": 664.5
+  },
+  "bodies": [
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "I",
+      "distance_from_parent": 1155893750,
+      "diameter": 13776.480000000001,
+      "gravity": 6.468000000000001,
+      "length_of_day": 19.3,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "II",
+      "distance_from_parent": 2279062500,
+      "diameter": 3826.7999999999997,
+      "gravity": 1.764,
+      "length_of_day": 1445.7,
+      "mass": 0,
+      "orbital_period": 0
+    }
+  ]
+}

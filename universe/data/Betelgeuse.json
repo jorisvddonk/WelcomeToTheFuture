@@ -1,0 +1,75 @@
+{
+  "name": "Betelgeuse",
+  "mass": 3e+24,
+  "position": {
+    "x": 412.5,
+    "y": 377
+  },
+  "bodies": [
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "Gaia",
+      "distance_from_parent": 271150000,
+      "diameter": 10842.6,
+      "gravity": 8.036,
+      "length_of_day": 24.4,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "II",
+      "distance_from_parent": 420750000,
+      "diameter": 4081.92,
+      "gravity": 3.136,
+      "length_of_day": 25.2,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "III",
+      "distance_from_parent": 592556250,
+      "diameter": 14159.160000000002,
+      "gravity": 10.584000000000001,
+      "length_of_day": 4161.9,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "III-a",
+      "distance_from_parent": 592556250,
+      "diameter": 3954.36,
+      "gravity": 6.272,
+      "length_of_day": 4343,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "III-b",
+      "distance_from_parent": 592556250,
+      "diameter": 3826.7999999999997,
+      "gravity": 5.586,
+      "length_of_day": 17.9,
+      "mass": 0,
+      "orbital_period": 0
+    }
+  ]
+}

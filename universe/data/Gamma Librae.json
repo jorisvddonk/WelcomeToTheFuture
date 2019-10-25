@@ -1,0 +1,49 @@
+{
+  "name": "Gamma Librae",
+  "mass": 3e+24,
+  "position": {
+    "x": 754.5,
+    "y": 910.7
+  },
+  "bodies": [
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "I",
+      "distance_from_parent": 1168165625,
+      "diameter": 180114.72,
+      "gravity": 29.008000000000003,
+      "length_of_day": 13.9,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "I-a",
+      "distance_from_parent": 1168165625,
+      "diameter": 3699.24,
+      "gravity": 2.842,
+      "length_of_day": 26.1,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "I-b",
+      "distance_from_parent": 1168165625,
+      "diameter": 3826.7999999999997,
+      "gravity": 1.764,
+      "length_of_day": 16.8,
+      "mass": 0,
+      "orbital_period": 0
+    }
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "name": "Alpha Mensae",
+  "mass": 3e+24,
+  "position": {
+    "x": 383.3,
+    "y": 318.7
+  },
+  "bodies": [
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "I",
+      "distance_from_parent": 1066192187.5,
+      "diameter": 73474.56,
+      "gravity": 11.76,
+      "length_of_day": 13.8,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "I-a",
+      "distance_from_parent": 1066192187.5,
+      "diameter": 4719.72,
+      "gravity": 2.156,
+      "length_of_day": 23.2,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "I-b",
+      "distance_from_parent": 1066192187.5,
+      "diameter": 4081.92,
+      "gravity": 5.978000000000001,
+      "length_of_day": 21.4,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "I-c",
+      "distance_from_parent": 1066192187.5,
+      "diameter": 3444.1200000000003,
+      "gravity": 1.568,
+      "length_of_day": 20.5,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "I-d",
+      "distance_from_parent": 1066192187.5,
+      "diameter": 4081.92,
+      "gravity": 1.862,
+      "length_of_day": 23.4,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "II",
+      "distance_from_parent": 1817114062.5,
+      "diameter": 11097.72,
+      "gravity": 8.624,
+      "length_of_day": 16.8,
+      "mass": 0,
+      "orbital_period": 0
+    }
+  ]
+}

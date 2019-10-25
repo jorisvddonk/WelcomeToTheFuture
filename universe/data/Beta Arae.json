@@ -1,0 +1,62 @@
+{
+  "name": "Beta Arae",
+  "mass": 8.999999999999999e+24,
+  "position": {
+    "x": 933.3,
+    "y": 93.7
+  },
+  "bodies": [
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "I",
+      "distance_from_parent": 457565625,
+      "diameter": 3571.6800000000003,
+      "gravity": 1.568,
+      "length_of_day": 23.6,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "II",
+      "distance_from_parent": 994606250,
+      "diameter": 3189,
+      "gravity": 0.784,
+      "length_of_day": 18.6,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "III",
+      "distance_from_parent": 1738223437.5,
+      "diameter": 13266.24,
+      "gravity": 14.602,
+      "length_of_day": 18.2,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "IV",
+      "distance_from_parent": 2238448437.5,
+      "diameter": 10715.039999999999,
+      "gravity": 8.232000000000001,
+      "length_of_day": 26.1,
+      "mass": 0,
+      "orbital_period": 0
+    }
+  ]
+}

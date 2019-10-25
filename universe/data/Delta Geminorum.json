@@ -1,0 +1,23 @@
+{
+  "name": "Delta Geminorum",
+  "mass": 3e+24,
+  "position": {
+    "x": 464.5,
+    "y": 747.9
+  },
+  "bodies": [
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "I",
+      "distance_from_parent": 702710937.5,
+      "diameter": 4464.599999999999,
+      "gravity": 1.078,
+      "length_of_day": 5153.6,
+      "mass": 0,
+      "orbital_period": 0
+    }
+  ]
+}

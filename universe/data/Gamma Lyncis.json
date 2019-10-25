@@ -1,0 +1,75 @@
+{
+  "name": "Gamma Lyncis",
+  "mass": 3e+24,
+  "position": {
+    "x": 578.1,
+    "y": 971.1
+  },
+  "bodies": [
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "I",
+      "distance_from_parent": 875978125,
+      "diameter": 3444.1200000000003,
+      "gravity": 2.6460000000000004,
+      "length_of_day": 15.1,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "II",
+      "distance_from_parent": 1076710937.5,
+      "diameter": 4081.92,
+      "gravity": 4.606,
+      "length_of_day": 25.4,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "III",
+      "distance_from_parent": 1613459375,
+      "diameter": 61739.04,
+      "gravity": 9.898000000000001,
+      "length_of_day": 12.5,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "III-a",
+      "distance_from_parent": 1613459375,
+      "diameter": 3189,
+      "gravity": 1.47,
+      "length_of_day": 16.1,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "III-b",
+      "distance_from_parent": 1613459375,
+      "diameter": 3316.56,
+      "gravity": 0.784,
+      "length_of_day": 15.4,
+      "mass": 0,
+      "orbital_period": 0
+    }
+  ]
+}

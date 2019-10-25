@@ -1,0 +1,62 @@
+{
+  "name": "Epsilon Illuminati",
+  "mass": 3e+24,
+  "position": {
+    "x": 272.7,
+    "y": 295.1
+  },
+  "bodies": [
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "I",
+      "distance_from_parent": 339814062.5,
+      "diameter": 3316.56,
+      "gravity": 1.47,
+      "length_of_day": 23.8,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "II",
+      "distance_from_parent": 489414062.5,
+      "diameter": 101410.2,
+      "gravity": 15.582000000000003,
+      "length_of_day": 12.2,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "III",
+      "distance_from_parent": 1159692187.5,
+      "diameter": 4592.16,
+      "gravity": 1.176,
+      "length_of_day": 25.4,
+      "mass": 0,
+      "orbital_period": 0
+    },
+    {
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "name": "IV",
+      "distance_from_parent": 1441945312.5,
+      "diameter": 4081.92,
+      "gravity": 4.8020000000000005,
+      "length_of_day": 22,
+      "mass": 0,
+      "orbital_period": 0
+    }
+  ]
+}
