@@ -19,7 +19,7 @@ export default class Starship extends React.Component<IStarshipProps, any> {
           top: `${CANVAS_HEIGHT_PX * 0.5 - this.spriteHeight * 0.5}px`,
           width: `${this.spriteWidth}px`,
           height: `${this.spriteHeight}px`,
-          transform: `rotate(${this.props.angle}rad)`
+          transform: `rotate(${this.props.angle}deg)`
         }}
       >
         {this.props.thrusting && <div className="thrust"></div>}

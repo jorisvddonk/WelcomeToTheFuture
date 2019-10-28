@@ -5,6 +5,7 @@ import { IBody } from "./IBody";
 import { GQLStarship } from "../starship/GQLStarship";
 import { Vector } from "../starship/Vector";
 import glob from "glob";
+import Sylvester from "../starship/sylvester-withmods";
 
 export class UniverseDAO {
   private stars: IStar[] = [];
@@ -22,7 +23,7 @@ export class UniverseDAO {
       this.currentStarname = sol.name;
       const earth = sol.bodies.find(body => body.name === "Earth");
       if (earth !== undefined) {
-        this.starship.position = new Vector(earth.position.x, earth.position.y);
+        this.starship.positionVec = new Sylvester.Vector([earth.position.x, earth.position.y]);
       }
     }
   }

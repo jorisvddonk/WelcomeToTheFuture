@@ -9,6 +9,10 @@ import {
 import { GQLStarship } from "./GQLStarship";
 import { Universe } from "../universe/UniverseDAO";
 import { ManualControl } from "./ManualControl";
+import { GQLStar } from "../universe/GQLStar";
+import { createTask, TaskType } from "./targets";
+import Sylvester from "./sylvester-withmods";
+import { PositionControl } from "./PositionControl";
 
 @Resolver(GQLStarship)
 export class GQLStarshipResolver {
@@ -30,12 +34,22 @@ export class GQLStarshipResolver {
 
   @Mutation()
   manualControl(@Arg("data") controlDirective: ManualControl): GQLStarship {
-    if (controlDirective.thrusting !== undefined) {
-      Universe.starship.thrusting = controlDirective.thrusting;
-    }
-    if (controlDirective.desiredAngle !== undefined) {
-      Universe.starship.desiredAngle = controlDirective.desiredAngle;
-    }
+    Universe.starship.setTask(createTask(TaskType.MANUAL, null, {
+      desiredAngle: controlDirective.desiredAngle,
+      thrusting: controlDirective.thrusting
+    }))
+    return Universe.starship;
+  }
+
+  @Mutation()
+  moveTo(@Arg("position") position: PositionControl): GQLStarship {
+    Universe.starship.setTask(createTask(TaskType.MOVE, new Sylvester.Vector([position.x, position.y])));
+    return Universe.starship;
+  }
+
+  @Mutation()
+  halt(): GQLStarship {
+    Universe.starship.setTask(createTask(TaskType.HALT, null));
     return Universe.starship;
   }
 }

@@ -36,11 +36,10 @@ type GQLStar {
 
 type GQLStarship {
   name: String!
+  thrusting: Boolean!
   position: Vector!
   velocity: Vector!
   angle: Float!
-  thrusting: Boolean!
-  desiredAngle: Float!
 }
 
 input InboxFilter {
@@ -62,8 +61,16 @@ type Message {
 
 type Mutation {
   manualControl(data: ManualControl!): GQLStarship!
+  moveTo(position: PositionControl!): GQLStarship!
+  halt: GQLStarship!
   hyperspaceJump(star: String!): GQLStar!
   markAsRead(id: String!): Message!
+}
+
+"""Target position input"""
+input PositionControl {
+  x: Float!
+  y: Float!
 }
 
 type Query {
