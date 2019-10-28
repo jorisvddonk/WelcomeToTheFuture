@@ -95,8 +95,8 @@ export class Autopilot {
       if (
         task.type === TaskType.MOVE &&
         targetpos.subtract(this.ship.positionVec).modulus() < 50 &&
-        this.ship.movementVec.modulus() < 0.75
-      ) {
+        this.ship.movementVec.modulus() < ThrustVector.modulus()) {
+        this.ship.movementVec = new Sylvester.Vector([0, 0]);
         dispatchCompleteEvent()
       }
     }
