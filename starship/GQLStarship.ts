@@ -117,4 +117,4 @@ export class GQLStarship implements IPosRot {
   }
 }
 
-const ThrustVector = new Sylvester.Vector([0.04, 0]);
+export const ThrustVector = new Sylvester.Vector([0.04, 0]);

@@ -1,6 +1,6 @@
 import { TargetType, TaskType } from './targets'
 import Sylvester from './sylvester-withmods'
-import { GQLStarship } from './GQLStarship';
+import { GQLStarship, ThrustVector } from './GQLStarship';
 import PIDController from './pidcontroller';
 import Mymath from './mymath';
 
@@ -172,7 +172,8 @@ export class Autopilot {
     }
 
     // Check if we need to call callback
-    if (this.ship.movementVec.modulus() < 0.05) {
+    if (this.ship.movementVec.modulus() < ThrustVector.modulus()) {
+      this.ship.movementVec = new Sylvester.Vector([0, 0]);
       onComplete()
     }
   }
