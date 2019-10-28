@@ -2,13 +2,12 @@ import { InputType, Field } from "type-graphql";
 
 @InputType({ description: "Target position input" })
 export class PositionControl {
-    constructor(x, y) {
-        this.x = x;
-        this.y = y;
-    }
-    @Field({ nullable: false })
+    @Field({ nullable: true })
     x: number;
 
-    @Field({ nullable: false })
+    @Field({ nullable: true })
     y: number;
+
+    @Field({ nullable: true })
+    planet: string;
 }

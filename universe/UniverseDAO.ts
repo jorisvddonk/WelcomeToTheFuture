@@ -73,6 +73,10 @@ export class UniverseDAO {
     );
   }
 
+  getPlanet(planetname: string, starname: string) {
+    return this.bodies.find(body => body.name === planetname && body.star === starname);
+  }
+
   getPlanetMoons(planetname: string, starname: string) {
     return this.bodies.filter(body => body.parent === planetname && body.star === starname);
   }
