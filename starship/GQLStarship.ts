@@ -92,7 +92,15 @@ export class GQLStarship implements IPosRot {
   tick(msec: number) {
     this.autopilot.tick();
     this.positionVec = this.positionVec.add(this.movementVec.multiply(1000 / msec));
-    // todo: clamp speed
+    this.capMovement();
+  }
+
+  private capMovement() {
+    if (this.movementVec.modulus() > MaxSpeedVector.modulus()) {
+      this.movementVec = this.movementVec
+        .toUnitVector()
+        .multiply(MaxSpeedVector.modulus())
+    }
   }
 
   @Field()
@@ -117,4 +125,5 @@ export class GQLStarship implements IPosRot {
   }
 }
 
-export const ThrustVector = new Sylvester.Vector([0.04, 0]);
+export const ThrustVector = new Sylvester.Vector([0.004, 0]);
+export const MaxSpeedVector = new Sylvester.Vector([0.5, 0]);
