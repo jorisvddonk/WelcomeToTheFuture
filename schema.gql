@@ -68,10 +68,12 @@ type Mutation {
 }
 
 type Query {
-  starship: GQLStarship!
-  star(name: String!): GQLStar
+  moons: [GQLMoon!]!
+  planets: [GQLPlanet!]!
   currentStar: GQLStar
   stars: [GQLStar!]
+  starship: GQLStarship!
+  star(name: String!): GQLStar
   inbox(filter: InboxFilter): [Message!]
 }
 

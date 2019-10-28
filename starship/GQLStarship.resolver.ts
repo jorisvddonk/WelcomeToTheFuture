@@ -18,11 +18,6 @@ import { PositionControl } from "./PositionControl";
 export class GQLStarshipResolver {
   constructor() { }
 
-  @Query(returns => GQLStarship)
-  async starship() {
-    return Universe.starship;
-  }
-
   @Subscription({
     topics: ["starshipUpdate"]
   })

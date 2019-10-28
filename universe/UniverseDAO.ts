@@ -3,7 +3,7 @@ import { GQLStar } from "./GQLStar";
 import { IStar, IStarJSON } from "./IStar";
 import { IBody } from "./IBody";
 import { GQLStarship } from "../starship/GQLStarship";
-import { Vector } from "../starship/Vector";
+import { flatten } from "lodash";
 import glob from "glob";
 import Sylvester from "../starship/sylvester-withmods";
 
@@ -46,6 +46,18 @@ export class UniverseDAO {
 
   getStars() {
     return this.stars;
+  }
+
+  getBodies() {
+    return flatten(this.stars.map(x => x.bodies));
+  }
+
+  getPlanets() {
+    return this.getBodies().filter(x => x.parent === undefined);
+  }
+
+  getMoons() {
+    return this.getBodies().filter(x => x.parent !== undefined);
   }
 
   findStar(name: string): GQLStar | undefined {

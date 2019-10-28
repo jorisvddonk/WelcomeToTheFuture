@@ -17,17 +17,6 @@ import { filter as _filter } from 'lodash'
 export class MessageResolver /* implements ResolverInterface<Message>*/ {
     constructor() { }
 
-    @Query(returns => [Message], { nullable: true })
-    async inbox(@Arg("filter", { nullable: true }) filter?: InboxFilter): Promise<Message[] | undefined> {
-        if (filter === undefined) {
-            return Messages.messages;
-        }
-        else {
-            return _filter(Messages.messages, filter);
-        }
-    }
-
-
     @Subscription({
         topics: ["inbox"]
     })
