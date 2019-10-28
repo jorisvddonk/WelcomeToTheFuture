@@ -36,10 +36,10 @@ type GQLStar {
 
 type GQLStarship {
   name: String!
-  thrusting: Boolean!
   position: Vector!
   velocity: Vector!
   angle: Float!
+  thrusting: Boolean!
 }
 
 input InboxFilter {
