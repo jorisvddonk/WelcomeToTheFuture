@@ -10,6 +10,7 @@ import Star from "./Star";
 import GQLPlayground from "./GQLPlayground";
 import { Vector } from "../starship/Vector";
 import Messages from "./Messages";
+import Noty from "noty";
 
 export default class App extends React.Component<any, any> {
   private lastTimestamp: number;
@@ -123,6 +124,26 @@ export default class App extends React.Component<any, any> {
             thrusting: x.data.starshipUpdate.thrusting
           }
         });
+      });
+
+    client
+      .subscribe({
+        query: gql`
+          subscription {
+            onAchievementUnlocked {
+              title
+              body
+            }
+          }
+        `
+      })
+      .forEach(x => {
+        new Noty({
+          type: "success",
+          layout: "topRight",
+          theme: "metroui",
+          text: `<b>Achievement unlocked!</b><br/><i>${x.data.onAchievementUnlocked.title}</i><br/><span>${x.data.onAchievementUnlocked.body}</span>`
+        }).show();
       });
 
     window.requestAnimationFrame(this.step);

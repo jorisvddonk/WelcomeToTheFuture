@@ -4,7 +4,8 @@ import {
   Root,
   Subscription,
   Mutation,
-  Arg
+  Arg,
+  FieldResolver
 } from "type-graphql";
 import { GQLStarship } from "./GQLStarship";
 import { Universe } from "../universe/UniverseDAO";
@@ -13,6 +14,7 @@ import { GQLStar } from "../universe/GQLStar";
 import { createTask, TaskType } from "./targets";
 import Sylvester from "./sylvester-withmods";
 import { PositionControl } from "./PositionControl";
+import { Achievements } from "../Achievements/AchievementsDAO";
 
 @Resolver(GQLStarship)
 export class GQLStarshipResolver {
@@ -55,5 +57,12 @@ export class GQLStarshipResolver {
   halt(): GQLStarship {
     Universe.starship.setTask(createTask(TaskType.HALT, null));
     return Universe.starship;
+  }
+
+  @FieldResolver()
+  name(
+    @Root() starship: GQLStarship): string {
+    Achievements.unlock('name');
+    return starship.name;
   }
 }

@@ -36,6 +36,7 @@
     "graphql-playground-react": "^1.7.20",
     "graphql-tag": "^2.10.1",
     "lodash": "^4.17.15",
+    "noty": "^3.2.0-beta",
     "react": "^16.10.2",
     "react-dom": "^16.10.2",
     "subscriptions-transport-ws": "^0.9.16"

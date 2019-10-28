@@ -3,6 +3,13 @@
 # !!!   DO NOT MODIFY THIS FILE BY YOURSELF   !!!
 # -----------------------------------------------
 
+type Achievement {
+  title: String!
+  body: String!
+  id: String!
+  isUnlocked: Boolean!
+}
+
 type GQLMoon {
   name: String!
   planet: GQLPlanet!
@@ -80,6 +87,7 @@ type Subscription {
   starshipUpdate: GQLStarship!
   starUpdate: GQLStar!
   inboxSub: Message!
+  onAchievementUnlocked: Achievement!
 }
 
 type Vector {

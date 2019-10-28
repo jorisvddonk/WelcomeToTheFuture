@@ -9,6 +9,9 @@ import { PubSub } from "graphql-subscriptions";
 import { Universe } from "./universe/UniverseDAO";
 import { MessageResolver } from "./messages/Message.resolver";
 import { RootResolver } from "./universe/Root.resolver";
+import { AchievementResolver } from "./Achievements/Achievement.resolver";
+import { Achievements } from "./Achievements/AchievementsDAO";
+import { Achievement } from "./Achievements/Achievement";
 
 const UPDATE_INTERVAL = (1000 / 60) * 3; // 3 frames @ 60fps
 const STARSHIP_THRUST = 10;
@@ -18,7 +21,7 @@ const STARSHIP_MAX_SPEED_SQUARED = 3000;
 async function boot() {
   const pubsub = new PubSub();
   const schema = await buildSchema({
-    resolvers: [RootResolver, GQLStarshipResolver, GQLStarResolver, GQLPlanetResolver, MessageResolver],
+    resolvers: [RootResolver, GQLStarshipResolver, GQLStarResolver, GQLPlanetResolver, MessageResolver, AchievementResolver],
     emitSchemaFile: true,
     pubSub: pubsub
   });
@@ -49,6 +52,10 @@ async function boot() {
       Universe.getCurrentStar()
     );
   });
+
+  Achievements.addAchievementUnlockedListener((achievement: Achievement) => {
+    pubsub.publish("achievementUnlocked", achievement);
+  })
 }
 
 boot();
