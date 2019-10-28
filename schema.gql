@@ -61,17 +61,10 @@ type Message {
 
 type Mutation {
   manualControl(data: ManualControl!): GQLStarship!
-  moveTo(position: PositionControl!): GQLStarship!
+  moveTo(planet: String, y: Float, x: Float): GQLStarship!
   halt: GQLStarship!
   hyperspaceJump(star: String!): GQLStar!
   markAsRead(id: String!): Message!
-}
-
-"""Target position input"""
-input PositionControl {
-  x: Float
-  y: Float
-  planet: String
 }
 
 type Query {

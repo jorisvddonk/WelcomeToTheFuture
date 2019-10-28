@@ -42,13 +42,13 @@ export class GQLStarshipResolver {
   }
 
   @Mutation()
-  moveTo(@Arg("position") position: PositionControl): GQLStarship {
-    if (position.x !== undefined && position.y !== undefined) {
-      Universe.starship.setTask(createTask(TaskType.MOVE, new Sylvester.Vector([position.x, position.y])));
-    } else if (position.planet !== undefined) {
-      const planet = Universe.getPlanet(position.planet, Universe.getCurrentStar().name);
-      if (planet) {
-        Universe.starship.setTask(createTask(TaskType.MOVE, new Sylvester.Vector([planet.position.x, planet.position.y])));
+  moveTo(@Arg("x", { nullable: true }) x: number, @Arg("y", { nullable: true }) y: number, @Arg("planet", { nullable: true }) planet: string): GQLStarship {
+    if (x !== undefined && y !== undefined) {
+      Universe.starship.setTask(createTask(TaskType.MOVE, new Sylvester.Vector([x, y])));
+    } else if (planet !== undefined) {
+      const foundPlanet = Universe.getPlanet(planet, Universe.getCurrentStar().name);
+      if (foundPlanet) {
+        Universe.starship.setTask(createTask(TaskType.MOVE, new Sylvester.Vector([foundPlanet.position.x, foundPlanet.position.y])));
       } else {
         throw new Error("Planet not found in current solar system");
       }
