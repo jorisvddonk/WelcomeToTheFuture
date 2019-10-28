@@ -9,9 +9,6 @@ export class GQLPlanet {
 
   star!: string;
 
-  @Field(type => [GQLMoon])
-  satellites!: GQLMoon[];
-
   @Field()
   mass!: number;
 

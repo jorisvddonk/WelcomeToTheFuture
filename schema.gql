@@ -16,7 +16,6 @@ type GQLMoon {
 
 type GQLPlanet {
   name: String!
-  satellites: [GQLMoon!]!
   mass: Float!
   diameter: Float!
   gravity: Float!
