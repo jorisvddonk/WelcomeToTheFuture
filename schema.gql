@@ -77,7 +77,7 @@ type Mutation {
 }
 
 type MutationResult {
-  status: String!
+  status: Status!
   timestamp: Float!
 }
 
@@ -89,6 +89,11 @@ type Query {
   starship: GQLStarship!
   star(name: String!): GQLStar
   inbox(filter: InboxFilter): [Message!]
+}
+
+enum Status {
+  OK
+  ERROR
 }
 
 type Subscription {
