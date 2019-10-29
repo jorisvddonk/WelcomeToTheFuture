@@ -52,7 +52,10 @@ async function boot() {
       Universe.getCurrentStar()
     );
     if (Universe.getCurrentStar().name === "Beta Giclas") {
-      Messages.addMessage(new Message("ᐊᑎᖅᐳᖅ", "ᐊᑎᖅᐳᖅ ᐊᖏᔪᖅ ᑭᑉᐸᓕᕗᖅ ᑲᔪᖅ ᐆᒪᔪᖅ. ᐃᓅᔪᖅ ᓱᑦᖃᐃᐳᖅ ᓇᐹᖅᑐᖃᕐᓂᖅ. ᓇᐃᑦᑐᖅ ᐸᒥᐅᓕᒑᕐᔪᒃ ᐊᓂᑦᑖ ᓇᑯᓪᓚᖅᐳᖅ ᐳᔭᓂᖅ ᓱᕐᖁᐃᑐᖅᐹ. ᐊᑎᖅᐳᖅ ᐱᔪᖕᓇᖅᑐᖅ ᓱᑦᖃᐃᐳᖅ ᓇᒧᑐᐃᓐᓇᖅ ᐃᓗᐊᓂ ᓯᓚ. ᐊᑎᖅᐳᖅ ᓂᕿᑐᐃᓐᓇᖅ ᒪᒫᖅ ᐱᓯᕚ. ᐹᖅᑎᓯᔪᖅ ᐊᓂᑦᑖ ᐊᐅᑦᓯᑐᖅᐳᖅ ᐊᐅᑦᓯᓇᖅᑐᖅ.", "Test message"));
+      Messages.addMessage(new Message("ᐊᑎᖅᐳᖅ ᓇᐃᑦᑐᖅ !!!", "ᐊᑎᖅᐳᖅ ᐊᖏᔪᖅ ᑭᑉᐸᓕᕗᖅ ᑲᔪᖅ ᐆᒪᔪᖅ. ᐃᓅᔪᖅ ᓱᑦᖃᐃᐳᖅ ᓇᐹᖅᑐᖃᕐᓂᖅ. ᓇᐃᑦᑐᖅ ᐸᒥᐅᓕᒑᕐᔪᒃ ᐊᓂᑦᑖ ᓇᑯᓪᓚᖅᐳᖅ ᐳᔭᓂᖅ ᓱᕐᖁᐃᑐᖅᐹ. ᐊᑎᖅᐳᖅ ᐱᔪᖕᓇᖅᑐᖅ ᓱᑦᖃᐃᐳᖅ ᓇᒧᑐᐃᓐᓇᖅ ᐃᓗᐊᓂ ᓯᓚ. ᐊᑎᖅᐳᖅ ᓂᕿᑐᐃᓐᓇᖅ ᒪᒫᖅ ᐱᓯᕚ. ᐹᖅᑎᓯᔪᖅ ᐊᓂᑦᑖ ᐊᐅᑦᓯᑐᖅᐳᖅ ᐊᐅᑦᓯᓇᖅᑐᖅ.", "HALT! You have intruded upon the battlegrounds of the Burvix! Our homeworld may not be approached for ANY reason! However, unlike our tone may suggest, we're actually good folks, so we'll give you some fuel to allow you to LEAVE OUR HOME SYSTEM IMMEDIATELY! Disobedience will be punished."));
+      setTimeout(() => {
+        Messages.addMessage(new Message("Alien contact established!", "It seems that we have established contact with an alien race! Our scientists have been able to create a translator for their unique grammar. Use GraphQL to translate the message body!"));
+      }, 10000)
     }
   });
 
