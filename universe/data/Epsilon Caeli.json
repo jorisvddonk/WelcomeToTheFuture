@@ -1,6 +1,6 @@
 {
   "name": "Epsilon Caeli",
-  "mass": 3e+24,
+  "mass": 1.989e+30,
   "position": {
     "x": 333.3,
     "y": 80.1
@@ -17,7 +17,8 @@
       "gravity": 12.054,
       "length_of_day": 11.9,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Gas Giant",
+      "orbital_period": 1335.9086303987995
     },
     {
       "position": {
@@ -30,7 +31,8 @@
       "gravity": 30.380000000000003,
       "length_of_day": 8.5,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Gas Giant",
+      "orbital_period": 3531.919763962171
     },
     {
       "position": {
@@ -44,7 +46,8 @@
       "length_of_day": 23.3,
       "parent": "I",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Noble",
+      "orbital_period": 1.3359086303987993
     },
     {
       "position": {
@@ -58,7 +61,8 @@
       "length_of_day": 25,
       "parent": "I",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Metal",
+      "orbital_period": 1.3359086303987993
     },
     {
       "position": {
@@ -72,7 +76,8 @@
       "length_of_day": 26,
       "parent": "I",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Ultramarine",
+      "orbital_period": 1.3359086303987993
     },
     {
       "position": {
@@ -86,7 +91,8 @@
       "length_of_day": 24.9,
       "parent": "I",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Chondrite",
+      "orbital_period": 1.3359086303987993
     },
     {
       "position": {
@@ -100,7 +106,8 @@
       "length_of_day": 23.7,
       "parent": "II",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Selenic",
+      "orbital_period": 3.5319197639621707
     },
     {
       "position": {
@@ -114,7 +121,8 @@
       "length_of_day": 21.6,
       "parent": "II",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Infrared",
+      "orbital_period": 3.5319197639621707
     },
     {
       "position": {
@@ -128,7 +136,8 @@
       "length_of_day": 1457.9,
       "parent": "II",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Chondrite",
+      "orbital_period": 3.5319197639621707
     }
   ]
 }

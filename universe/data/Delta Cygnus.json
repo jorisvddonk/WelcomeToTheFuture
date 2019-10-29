@@ -1,6 +1,6 @@
 {
   "name": "Delta Cygnus",
-  "mass": 3e+24,
+  "mass": 1.989e+30,
   "position": {
     "x": 41.6,
     "y": 471.7
@@ -17,7 +17,8 @@
       "gravity": 5.782,
       "length_of_day": 21,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Maroon",
+      "orbital_period": 179.49915882863368
     },
     {
       "position": {
@@ -30,7 +31,8 @@
       "gravity": 4.41,
       "length_of_day": 26.1,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Metal",
+      "orbital_period": 1129.0695870216477
     },
     {
       "position": {
@@ -43,7 +45,8 @@
       "gravity": 25.676000000000002,
       "length_of_day": 12.9,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Gas Giant",
+      "orbital_period": 7281.097835305527
     },
     {
       "position": {
@@ -56,7 +59,8 @@
       "gravity": 1.6660000000000001,
       "length_of_day": 20.4,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Azure",
+      "orbital_period": 18995.465390485795
     },
     {
       "position": {
@@ -70,7 +74,8 @@
       "length_of_day": 16.6,
       "parent": "III",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Azure",
+      "orbital_period": 7.281097835305526
     },
     {
       "position": {
@@ -84,7 +89,8 @@
       "length_of_day": 18.8,
       "parent": "III",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Chondrite",
+      "orbital_period": 7.281097835305526
     },
     {
       "position": {
@@ -98,7 +104,8 @@
       "length_of_day": 21.2,
       "parent": "III",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Azure",
+      "orbital_period": 7.281097835305526
     },
     {
       "position": {
@@ -112,7 +119,8 @@
       "length_of_day": 16.7,
       "parent": "III",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Cimmerian",
+      "orbital_period": 7.281097835305526
     }
   ]
 }

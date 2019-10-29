@@ -1,6 +1,6 @@
 {
   "name": "Delta Vitalis",
-  "mass": 3e+24,
+  "mass": 1.989e+30,
   "position": {
     "x": 277,
     "y": 362.5
@@ -17,7 +17,8 @@
       "gravity": 1.9600000000000002,
       "length_of_day": 20.9,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Selenic",
+      "orbital_period": 743.8342059716055
     },
     {
       "position": {
@@ -30,7 +31,8 @@
       "gravity": 7.840000000000001,
       "length_of_day": 19.3,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Hydrocarbon",
+      "orbital_period": 1567.91706893969
     },
     {
       "position": {
@@ -43,7 +45,8 @@
       "gravity": 15.484000000000002,
       "length_of_day": 11.2,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Gas Giant",
+      "orbital_period": 2679.545264194006
     },
     {
       "position": {
@@ -56,7 +59,8 @@
       "gravity": 0.882,
       "length_of_day": 23.6,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Ultramarine",
+      "orbital_period": 6182.626116443251
     },
     {
       "position": {
@@ -69,7 +73,8 @@
       "gravity": 3.8220000000000005,
       "length_of_day": 24.2,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Metal",
+      "orbital_period": 8012.027760004435
     },
     {
       "position": {
@@ -82,7 +87,8 @@
       "gravity": 22.932,
       "length_of_day": 15.8,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Gas Giant",
+      "orbital_period": 10109.247362964079
     },
     {
       "position": {
@@ -95,7 +101,8 @@
       "gravity": 27.244,
       "length_of_day": 15,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Gas Giant",
+      "orbital_period": 13019.103264556918
     },
     {
       "position": {
@@ -108,7 +115,8 @@
       "gravity": 1.47,
       "length_of_day": 15.6,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Azure",
+      "orbital_period": 14939.59754485807
     },
     {
       "position": {
@@ -121,7 +129,8 @@
       "gravity": 1.9600000000000002,
       "length_of_day": 20.7,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Pellucid",
+      "orbital_period": 20360.722676213507
     },
     {
       "position": {
@@ -135,7 +144,8 @@
       "length_of_day": 5692.1,
       "parent": "III",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Super-Dense",
+      "orbital_period": 2.6795452641940063
     },
     {
       "position": {
@@ -149,7 +159,8 @@
       "length_of_day": 27.2,
       "parent": "VI",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Dust",
+      "orbital_period": 10.10924736296408
     },
     {
       "position": {
@@ -163,7 +174,8 @@
       "length_of_day": 26.6,
       "parent": "VI",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Crimson",
+      "orbital_period": 10.10924736296408
     },
     {
       "position": {
@@ -177,7 +189,8 @@
       "length_of_day": 29.1,
       "parent": "VI",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Crimson",
+      "orbital_period": 10.10924736296408
     },
     {
       "position": {
@@ -191,7 +204,8 @@
       "length_of_day": 22.7,
       "parent": "VII",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Noble",
+      "orbital_period": 13.019103264556918
     },
     {
       "position": {
@@ -205,7 +219,8 @@
       "length_of_day": 22.2,
       "parent": "VII",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Metal",
+      "orbital_period": 13.019103264556918
     },
     {
       "position": {
@@ -219,7 +234,8 @@
       "length_of_day": 24.9,
       "parent": "VII",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Metal",
+      "orbital_period": 13.019103264556918
     }
   ]
 }

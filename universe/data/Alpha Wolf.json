@@ -1,6 +1,6 @@
 {
   "name": "Alpha Wolf",
-  "mass": 3e+24,
+  "mass": 1.989e+30,
   "position": {
     "x": 160.1,
     "y": 174.6
@@ -17,7 +17,8 @@
       "gravity": 12.544,
       "length_of_day": 12.6,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Gas Giant",
+      "orbital_period": 776.6073717001412
     },
     {
       "position": {
@@ -30,7 +31,8 @@
       "gravity": 5.684,
       "length_of_day": 16.9,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Super-Dense",
+      "orbital_period": 8029.9986592103205
     },
     {
       "position": {
@@ -43,7 +45,8 @@
       "gravity": 5.88,
       "length_of_day": 22.1,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Iodine",
+      "orbital_period": 11272.550713417755
     },
     {
       "position": {
@@ -56,7 +59,8 @@
       "gravity": 28.714000000000002,
       "length_of_day": 9.9,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Gas Giant",
+      "orbital_period": 13883.7485825523
     },
     {
       "position": {
@@ -69,7 +73,8 @@
       "gravity": 22.834000000000003,
       "length_of_day": 11,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Gas Giant",
+      "orbital_period": 19641.84057292649
     },
     {
       "position": {
@@ -83,7 +88,8 @@
       "length_of_day": 15.2,
       "parent": "I",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Noble",
+      "orbital_period": 0.7766073717001412
     },
     {
       "position": {
@@ -97,7 +103,8 @@
       "length_of_day": 17.9,
       "parent": "I",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Purple",
+      "orbital_period": 0.7766073717001412
     },
     {
       "position": {
@@ -111,7 +118,8 @@
       "length_of_day": 29.3,
       "parent": "IV",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Azure",
+      "orbital_period": 13.8837485825523
     },
     {
       "position": {
@@ -125,7 +133,8 @@
       "length_of_day": 22.4,
       "parent": "IV",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Super-Dense",
+      "orbital_period": 13.8837485825523
     },
     {
       "position": {
@@ -139,7 +148,8 @@
       "length_of_day": 26.5,
       "parent": "IV",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Super-Dense",
+      "orbital_period": 13.8837485825523
     },
     {
       "position": {
@@ -153,7 +163,8 @@
       "length_of_day": 5175.7,
       "parent": "IV",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Urea",
+      "orbital_period": 13.8837485825523
     }
   ]
 }

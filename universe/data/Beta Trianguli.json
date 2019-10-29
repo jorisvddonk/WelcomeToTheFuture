@@ -1,6 +1,6 @@
 {
   "name": "Beta Trianguli",
-  "mass": 3e+24,
+  "mass": 1.989e+30,
   "position": {
     "x": 795.8,
     "y": 27
@@ -17,7 +17,8 @@
       "gravity": 4.8020000000000005,
       "length_of_day": 29.9,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Yttric",
+      "orbital_period": 2268.934688984586
     }
   ]
 }

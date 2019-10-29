@@ -1,6 +1,6 @@
 {
   "name": "Alpha Centauri",
-  "mass": 8.999999999999999e+24,
+  "mass": 5.967e+30,
   "position": {
     "x": 155.9,
     "y": 99.3
@@ -17,7 +17,8 @@
       "gravity": 12.446000000000002,
       "length_of_day": 22.5,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Magnetic",
+      "orbital_period": 741.981866039168
     },
     {
       "position": {
@@ -30,7 +31,8 @@
       "gravity": 27.832,
       "length_of_day": 13.3,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Gas Giant",
+      "orbital_period": 1920.6158958241442
     },
     {
       "position": {
@@ -43,7 +45,8 @@
       "gravity": 4.8020000000000005,
       "length_of_day": 18.4,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Ruby",
+      "orbital_period": 2540.5535246504005
     },
     {
       "position": {
@@ -56,7 +59,8 @@
       "gravity": 21.756000000000004,
       "length_of_day": 14.5,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Gas Giant",
+      "orbital_period": 4130.287842379521
     },
     {
       "position": {
@@ -69,7 +73,8 @@
       "gravity": 1.078,
       "length_of_day": 24.2,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Noble",
+      "orbital_period": 5984.76115365355
     },
     {
       "position": {
@@ -82,7 +87,8 @@
       "gravity": 2.842,
       "length_of_day": 22.2,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Crimson",
+      "orbital_period": 7918.399565351469
     },
     {
       "position": {
@@ -95,7 +101,8 @@
       "gravity": 7.840000000000001,
       "length_of_day": 15.7,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Gas Giant",
+      "orbital_period": 8691.420941802102
     },
     {
       "position": {
@@ -108,7 +115,8 @@
       "gravity": 5.684,
       "length_of_day": 16.3,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Ruby",
+      "orbital_period": 10502.471743466022
     },
     {
       "position": {
@@ -121,7 +129,8 @@
       "gravity": 3.528,
       "length_of_day": 27.9,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Cimmerian",
+      "orbital_period": 11994.322304519626
     },
     {
       "position": {
@@ -135,7 +144,8 @@
       "length_of_day": 18.3,
       "parent": "II",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Purple",
+      "orbital_period": 1.920615895824144
     },
     {
       "position": {
@@ -149,7 +159,8 @@
       "length_of_day": 15.8,
       "parent": "II",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Ultramarine",
+      "orbital_period": 1.920615895824144
     },
     {
       "position": {
@@ -163,7 +174,8 @@
       "length_of_day": 27.8,
       "parent": "VII",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Dust",
+      "orbital_period": 8.691420941802104
     },
     {
       "position": {
@@ -177,7 +189,8 @@
       "length_of_day": 25.3,
       "parent": "VII",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Super-Dense",
+      "orbital_period": 8.691420941802104
     }
   ]
 }

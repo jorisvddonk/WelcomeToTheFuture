@@ -1,6 +1,6 @@
 {
   "name": "Gamma Olber",
-  "mass": 3e+24,
+  "mass": 1.989e+30,
   "position": {
     "x": 31.2,
     "y": 225
@@ -17,7 +17,8 @@
       "gravity": 5.488000000000001,
       "length_of_day": 21.5,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Copper",
+      "orbital_period": 4147.84769499911
     },
     {
       "position": {
@@ -30,7 +31,8 @@
       "gravity": 10.486,
       "length_of_day": 16.8,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Organic",
+      "orbital_period": 13071.938111570176
     },
     {
       "position": {
@@ -43,7 +45,8 @@
       "gravity": 7.9380000000000015,
       "length_of_day": 22.9,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Primordial",
+      "orbital_period": 19957.574319539766
     }
   ]
 }

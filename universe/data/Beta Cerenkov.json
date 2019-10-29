@@ -1,6 +1,6 @@
 {
   "name": "Beta Cerenkov",
-  "mass": 3e+24,
+  "mass": 1.989e+30,
   "position": {
     "x": 450,
     "y": 200
@@ -17,7 +17,8 @@
       "gravity": 12.740000000000002,
       "length_of_day": 5347.3,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Magnetic",
+      "orbital_period": 604.8603642190725
     },
     {
       "position": {
@@ -30,7 +31,8 @@
       "gravity": 2.0580000000000003,
       "length_of_day": 27.2,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Pellucid",
+      "orbital_period": 2615.3786584765658
     },
     {
       "position": {
@@ -43,7 +45,8 @@
       "gravity": 14.21,
       "length_of_day": 27,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Magma",
+      "orbital_period": 8596.767099764236
     },
     {
       "position": {
@@ -56,7 +59,8 @@
       "gravity": 2.5480000000000005,
       "length_of_day": 5772.3,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Chondrite",
+      "orbital_period": 10829.302372156153
     },
     {
       "position": {
@@ -69,7 +73,8 @@
       "gravity": 6.958,
       "length_of_day": 11.9,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Gas Giant",
+      "orbital_period": 12889.082682796832
     },
     {
       "position": {
@@ -82,7 +87,8 @@
       "gravity": 15.190000000000001,
       "length_of_day": 16.4,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Magnetic",
+      "orbital_period": 15127.933697115044
     },
     {
       "position": {
@@ -95,7 +101,8 @@
       "gravity": 6.174,
       "length_of_day": 21.1,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Iodine",
+      "orbital_period": 17537.620088201304
     },
     {
       "position": {
@@ -108,7 +115,8 @@
       "gravity": 1.078,
       "length_of_day": 29.9,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Ultramarine",
+      "orbital_period": 20754.212657746768
     },
     {
       "position": {
@@ -122,7 +130,8 @@
       "length_of_day": 23.2,
       "parent": "V",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Carbide",
+      "orbital_period": 12.88908268279683
     },
     {
       "position": {
@@ -136,7 +145,8 @@
       "length_of_day": 28.1,
       "parent": "VI",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Acid",
+      "orbital_period": 15.127933697115045
     },
     {
       "position": {
@@ -150,7 +160,8 @@
       "length_of_day": 18.2,
       "parent": "VII",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Copper",
+      "orbital_period": 17.537620088201304
     }
   ]
 }

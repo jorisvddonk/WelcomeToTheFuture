@@ -1,6 +1,6 @@
 {
   "name": "Beta Ceti",
-  "mass": 3e+24,
+  "mass": 1.989e+30,
   "position": {
     "x": 287.5,
     "y": 404.1
@@ -17,7 +17,8 @@
       "gravity": 1.6660000000000001,
       "length_of_day": 20.1,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Selenic",
+      "orbital_period": 2617.440446874877
     },
     {
       "position": {
@@ -30,7 +31,8 @@
       "gravity": 16.562,
       "length_of_day": 8.6,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Gas Giant",
+      "orbital_period": 3369.1331953419144
     },
     {
       "position": {
@@ -43,7 +45,8 @@
       "gravity": 5.684,
       "length_of_day": 20.9,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Lanthanide",
+      "orbital_period": 5226.019942602109
     },
     {
       "position": {
@@ -56,7 +59,8 @@
       "gravity": 3.136,
       "length_of_day": 28.3,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Acid",
+      "orbital_period": 7928.341249853189
     },
     {
       "position": {
@@ -69,7 +73,8 @@
       "gravity": 19.992,
       "length_of_day": 9.8,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Gas Giant",
+      "orbital_period": 15257.638319281708
     },
     {
       "position": {
@@ -82,7 +87,8 @@
       "gravity": 7.154,
       "length_of_day": 15,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Radioactive",
+      "orbital_period": 18585.74349605388
     },
     {
       "position": {
@@ -95,7 +101,8 @@
       "gravity": 1.568,
       "length_of_day": 26,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Opalescent",
+      "orbital_period": 21448.832767764907
     },
     {
       "position": {
@@ -109,7 +116,8 @@
       "length_of_day": 20.5,
       "parent": "II",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Green",
+      "orbital_period": 3.3691331953419152
     },
     {
       "position": {
@@ -123,7 +131,8 @@
       "length_of_day": 18.5,
       "parent": "II",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Radioactive",
+      "orbital_period": 3.3691331953419152
     },
     {
       "position": {
@@ -137,7 +146,8 @@
       "length_of_day": 21.1,
       "parent": "II",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Acid",
+      "orbital_period": 3.3691331953419152
     },
     {
       "position": {
@@ -151,7 +161,8 @@
       "length_of_day": 28.4,
       "parent": "II",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Green",
+      "orbital_period": 3.3691331953419152
     },
     {
       "position": {
@@ -165,7 +176,8 @@
       "length_of_day": 27.2,
       "parent": "V",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Alkali",
+      "orbital_period": 15.257638319281705
     },
     {
       "position": {
@@ -179,7 +191,8 @@
       "length_of_day": 17.4,
       "parent": "V",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Selenic",
+      "orbital_period": 15.257638319281705
     }
   ]
 }

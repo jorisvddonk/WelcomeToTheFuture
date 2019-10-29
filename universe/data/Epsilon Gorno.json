@@ -1,6 +1,6 @@
 {
   "name": "Epsilon Gorno",
-  "mass": 3e+24,
+  "mass": 1.989e+30,
   "position": {
     "x": 282,
     "y": 30.1
@@ -17,7 +17,8 @@
       "gravity": 2.156,
       "length_of_day": 20.5,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Opalescent",
+      "orbital_period": 10229.189556045818
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "name": "Alpha Ceti",
-  "mass": 6e+24,
+  "mass": 3.978e+30,
   "position": {
     "x": 287.5,
     "y": 447.9
@@ -17,7 +17,8 @@
       "gravity": 7.546000000000001,
       "length_of_day": 15.4,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Gas Giant",
+      "orbital_period": 1685.6868781332187
     },
     {
       "position": {
@@ -30,7 +31,8 @@
       "gravity": 4.41,
       "length_of_day": 20.6,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Sapphire",
+      "orbital_period": 2622.5326266155676
     },
     {
       "position": {
@@ -43,7 +45,8 @@
       "gravity": 12.642000000000001,
       "length_of_day": 25.9,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Fluorescent",
+      "orbital_period": 4004.2902558471696
     },
     {
       "position": {
@@ -56,7 +59,8 @@
       "gravity": 4.41,
       "length_of_day": 25.5,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Oolite",
+      "orbital_period": 5646.315946064248
     },
     {
       "position": {
@@ -69,7 +73,8 @@
       "gravity": 6.0760000000000005,
       "length_of_day": 9.3,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Gas Giant",
+      "orbital_period": 7406.065014467127
     },
     {
       "position": {
@@ -82,7 +87,8 @@
       "gravity": 10.780000000000001,
       "length_of_day": 14.9,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Gas Giant",
+      "orbital_period": 8884.23210838741
     },
     {
       "position": {
@@ -95,7 +101,8 @@
       "gravity": 9.016000000000002,
       "length_of_day": 15.6,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Organic",
+      "orbital_period": 10080.372771237375
     },
     {
       "position": {
@@ -108,7 +115,8 @@
       "gravity": 1.862,
       "length_of_day": 18.6,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Urea",
+      "orbital_period": 12045.341624394665
     },
     {
       "position": {
@@ -121,7 +129,8 @@
       "gravity": 2.156,
       "length_of_day": 2206.4,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Selenic",
+      "orbital_period": 14146.58865066825
     },
     {
       "position": {
@@ -135,7 +144,8 @@
       "length_of_day": 5623.7,
       "parent": "I",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Lanthanide",
+      "orbital_period": 1.6856868781332184
     },
     {
       "position": {
@@ -149,7 +159,8 @@
       "length_of_day": 2745.2,
       "parent": "I",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Cyanic",
+      "orbital_period": 1.6856868781332184
     },
     {
       "position": {
@@ -163,7 +174,8 @@
       "length_of_day": 29.5,
       "parent": "I",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Auric",
+      "orbital_period": 1.6856868781332184
     },
     {
       "position": {
@@ -177,7 +189,8 @@
       "length_of_day": 25,
       "parent": "I",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Selenic",
+      "orbital_period": 1.6856868781332184
     },
     {
       "position": {
@@ -191,7 +204,8 @@
       "length_of_day": 2184.8,
       "parent": "V",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Oolite",
+      "orbital_period": 7.406065014467127
     },
     {
       "position": {
@@ -205,7 +219,8 @@
       "length_of_day": 23.1,
       "parent": "V",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Metal",
+      "orbital_period": 7.406065014467127
     },
     {
       "position": {
@@ -219,7 +234,8 @@
       "length_of_day": 23.1,
       "parent": "V",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Acid",
+      "orbital_period": 7.406065014467127
     },
     {
       "position": {
@@ -233,7 +249,8 @@
       "length_of_day": 2761.4,
       "parent": "VI",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Quasi-Degenerate",
+      "orbital_period": 8.88423210838741
     },
     {
       "position": {
@@ -247,7 +264,8 @@
       "length_of_day": 16.7,
       "parent": "VI",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Quasi-Degenerate",
+      "orbital_period": 8.88423210838741
     }
   ]
 }

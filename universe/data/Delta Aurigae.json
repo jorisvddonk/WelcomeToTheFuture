@@ -1,6 +1,6 @@
 {
   "name": "Delta Aurigae",
-  "mass": 3e+24,
+  "mass": 1.989e+30,
   "position": {
     "x": 818.7,
     "y": 193.7
@@ -17,7 +17,8 @@
       "gravity": 18.424,
       "length_of_day": 11,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Gas Giant",
+      "orbital_period": 913.7647167045301
     },
     {
       "position": {
@@ -30,7 +31,8 @@
       "gravity": 5.586,
       "length_of_day": 18.8,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Ruby",
+      "orbital_period": 2909.2359331902317
     },
     {
       "position": {
@@ -43,7 +45,8 @@
       "gravity": 21.854000000000003,
       "length_of_day": 12,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Gas Giant",
+      "orbital_period": 5775.303889861553
     },
     {
       "position": {
@@ -56,7 +59,8 @@
       "gravity": 11.172,
       "length_of_day": 22,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Redux",
+      "orbital_period": 8000.054618887091
     },
     {
       "position": {
@@ -69,7 +73,8 @@
       "gravity": 3.724,
       "length_of_day": 21.2,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Yttric",
+      "orbital_period": 10726.843353185308
     },
     {
       "position": {
@@ -82,7 +87,8 @@
       "gravity": 20.482,
       "length_of_day": 13.8,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Gas Giant",
+      "orbital_period": 13301.71156329994
     },
     {
       "position": {
@@ -95,7 +101,8 @@
       "gravity": 5.782,
       "length_of_day": 21,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Ruby",
+      "orbital_period": 19520.85210281989
     },
     {
       "position": {
@@ -109,7 +116,8 @@
       "length_of_day": 29,
       "parent": "I",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Lanthanide",
+      "orbital_period": 0.9137647167045301
     },
     {
       "position": {
@@ -123,7 +131,8 @@
       "length_of_day": 24.8,
       "parent": "I",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Metal",
+      "orbital_period": 0.9137647167045301
     },
     {
       "position": {
@@ -137,7 +146,8 @@
       "length_of_day": 27.6,
       "parent": "I",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Yttric",
+      "orbital_period": 0.9137647167045301
     },
     {
       "position": {
@@ -151,7 +161,8 @@
       "length_of_day": 24.3,
       "parent": "I",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Quasi-Degenerate",
+      "orbital_period": 0.9137647167045301
     },
     {
       "position": {
@@ -165,7 +176,8 @@
       "length_of_day": 17,
       "parent": "II",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Radioactive",
+      "orbital_period": 2.9092359331902315
     },
     {
       "position": {
@@ -179,7 +191,8 @@
       "length_of_day": 5147,
       "parent": "III",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Urea",
+      "orbital_period": 5.7753038898615525
     },
     {
       "position": {
@@ -193,7 +206,8 @@
       "length_of_day": 29.5,
       "parent": "III",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Opalescent",
+      "orbital_period": 5.7753038898615525
     },
     {
       "position": {
@@ -207,7 +221,8 @@
       "length_of_day": 27,
       "parent": "IV",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Lanthanide",
+      "orbital_period": 8.000054618887091
     },
     {
       "position": {
@@ -221,7 +236,8 @@
       "length_of_day": 26.7,
       "parent": "VI",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Alkali",
+      "orbital_period": 13.301711563299937
     },
     {
       "position": {
@@ -235,7 +251,8 @@
       "length_of_day": 20.6,
       "parent": "VII",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Oolite",
+      "orbital_period": 19.520852102819894
     },
     {
       "position": {
@@ -249,7 +266,8 @@
       "length_of_day": 25.3,
       "parent": "VII",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Lanthanide",
+      "orbital_period": 19.520852102819894
     }
   ]
 }

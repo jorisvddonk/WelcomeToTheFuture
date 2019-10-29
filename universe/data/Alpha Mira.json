@@ -1,6 +1,6 @@
 {
   "name": "Alpha Mira",
-  "mass": 3e+24,
+  "mass": 1.989e+30,
   "position": {
     "x": 355.1,
     "y": 232
@@ -17,7 +17,8 @@
       "gravity": 9.212,
       "length_of_day": 18,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Telluric",
+      "orbital_period": 221.50089710899968
     },
     {
       "position": {
@@ -30,7 +31,8 @@
       "gravity": 5.488000000000001,
       "length_of_day": 22.5,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Super-Dense",
+      "orbital_period": 1898.3976796534864
     }
   ]
 }

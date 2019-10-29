@@ -1,6 +1,6 @@
 {
   "name": "Gamma Telescopii",
-  "mass": 3e+24,
+  "mass": 1.989e+30,
   "position": {
     "x": 50,
     "y": 418.7
@@ -17,7 +17,8 @@
       "gravity": 0.9800000000000001,
       "length_of_day": 18,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Noble",
+      "orbital_period": 1251.1398690165101
     },
     {
       "position": {
@@ -30,7 +31,8 @@
       "gravity": 4.018,
       "length_of_day": 2346.7,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Yttric",
+      "orbital_period": 8243.670266646843
     },
     {
       "position": {
@@ -43,7 +45,8 @@
       "gravity": 16.268,
       "length_of_day": 27.8,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Fluorescent",
+      "orbital_period": 15432.392716874792
     }
   ]
 }

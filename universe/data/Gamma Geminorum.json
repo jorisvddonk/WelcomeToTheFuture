@@ -1,6 +1,6 @@
 {
   "name": "Gamma Geminorum",
-  "mass": 3e+24,
+  "mass": 1.989e+30,
   "position": {
     "x": 489.5,
     "y": 745.8
@@ -17,7 +17,8 @@
       "gravity": 11.074,
       "length_of_day": 29,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Water",
+      "orbital_period": 285.83162514403534
     },
     {
       "position": {
@@ -30,7 +31,8 @@
       "gravity": 1.9600000000000002,
       "length_of_day": 29.6,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Dust",
+      "orbital_period": 1865.1469479534494
     },
     {
       "position": {
@@ -43,7 +45,8 @@
       "gravity": 1.568,
       "length_of_day": 18,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Azure",
+      "orbital_period": 4553.258395303193
     },
     {
       "position": {
@@ -56,7 +59,8 @@
       "gravity": 19.894,
       "length_of_day": 14.2,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Gas Giant",
+      "orbital_period": 5885.7182011055975
     },
     {
       "position": {
@@ -69,7 +73,8 @@
       "gravity": 13.622,
       "length_of_day": 21.7,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Magma",
+      "orbital_period": 14085.622141170665
     },
     {
       "position": {
@@ -83,7 +88,8 @@
       "length_of_day": 16.9,
       "parent": "I",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Selenic",
+      "orbital_period": 0.2858316251440354
     },
     {
       "position": {
@@ -97,7 +103,8 @@
       "length_of_day": 29.8,
       "parent": "IV",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Radioactive",
+      "orbital_period": 5.885718201105597
     },
     {
       "position": {
@@ -111,7 +118,8 @@
       "length_of_day": 21.8,
       "parent": "IV",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Copper",
+      "orbital_period": 5.885718201105597
     },
     {
       "position": {
@@ -125,7 +133,8 @@
       "length_of_day": 24.4,
       "parent": "IV",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Green",
+      "orbital_period": 5.885718201105597
     }
   ]
 }

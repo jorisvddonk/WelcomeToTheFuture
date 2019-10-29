@@ -1,6 +1,6 @@
 {
   "name": "Beta Giclas",
-  "mass": 3e+24,
+  "mass": 1.989e+30,
   "position": {
     "x": 84.3,
     "y": 43.1
@@ -17,7 +17,8 @@
       "gravity": 0.882,
       "length_of_day": 22.4,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Ultramarine",
+      "orbital_period": 601.0681431530464
     },
     {
       "position": {
@@ -30,7 +31,8 @@
       "gravity": 9.408,
       "length_of_day": 25.5,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Water",
+      "orbital_period": 1773.8181192237953
     },
     {
       "position": {
@@ -43,7 +45,8 @@
       "gravity": 10.192000000000002,
       "length_of_day": 17.4,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Xenolithic",
+      "orbital_period": 4622.874266675646
     },
     {
       "position": {
@@ -56,7 +59,8 @@
       "gravity": 7.546000000000001,
       "length_of_day": 21.1,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Water",
+      "orbital_period": 6386.954643736703
     },
     {
       "position": {
@@ -69,7 +73,8 @@
       "gravity": 1.47,
       "length_of_day": 18.8,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Opalescent",
+      "orbital_period": 9051.259789270136
     },
     {
       "position": {
@@ -82,7 +87,8 @@
       "gravity": 1.6660000000000001,
       "length_of_day": 18.5,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Opalescent",
+      "orbital_period": 19147.375363710555
     },
     {
       "position": {
@@ -96,7 +102,8 @@
       "length_of_day": 19.1,
       "parent": "IV",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Copper",
+      "orbital_period": 6.386954643736702
     }
   ]
 }

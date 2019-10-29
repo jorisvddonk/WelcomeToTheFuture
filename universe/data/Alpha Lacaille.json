@@ -1,6 +1,6 @@
 {
   "name": "Alpha Lacaille",
-  "mass": 3e+24,
+  "mass": 1.989e+30,
   "position": {
     "x": 14.6,
     "y": 95.5
@@ -17,7 +17,8 @@
       "gravity": 8.232000000000001,
       "length_of_day": 29.7,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Vinylogous",
+      "orbital_period": 1030.8366329098753
     },
     {
       "position": {
@@ -30,7 +31,8 @@
       "gravity": 5.488000000000001,
       "length_of_day": 5824.2,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Maroon",
+      "orbital_period": 2926.340673754447
     },
     {
       "position": {
@@ -43,7 +45,8 @@
       "gravity": 13.622,
       "length_of_day": 22.5,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Magma",
+      "orbital_period": 5150.900677109897
     },
     {
       "position": {
@@ -56,7 +59,8 @@
       "gravity": 23.618000000000002,
       "length_of_day": 12.9,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Gas Giant",
+      "orbital_period": 9336.498700466693
     },
     {
       "position": {
@@ -69,7 +73,8 @@
       "gravity": 15.582000000000003,
       "length_of_day": 15.8,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Gas Giant",
+      "orbital_period": 10598.405314805086
     },
     {
       "position": {
@@ -82,7 +87,8 @@
       "gravity": 13.034000000000002,
       "length_of_day": 11.7,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Gas Giant",
+      "orbital_period": 12889.082682796832
     },
     {
       "position": {
@@ -95,7 +101,8 @@
       "gravity": 28.616,
       "length_of_day": 11.7,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Gas Giant",
+      "orbital_period": 16289.48949225648
     },
     {
       "position": {
@@ -108,7 +115,8 @@
       "gravity": 5.586,
       "length_of_day": 19.5,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Iodine",
+      "orbital_period": 18907.702039144177
     },
     {
       "position": {
@@ -122,7 +130,8 @@
       "length_of_day": 21.4,
       "parent": "IV",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Dust",
+      "orbital_period": 9.336498700466692
     },
     {
       "position": {
@@ -136,7 +145,8 @@
       "length_of_day": 19.1,
       "parent": "IV",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Azure",
+      "orbital_period": 9.336498700466692
     },
     {
       "position": {
@@ -150,7 +160,8 @@
       "length_of_day": 28.6,
       "parent": "IV",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Pellucid",
+      "orbital_period": 9.336498700466692
     },
     {
       "position": {
@@ -164,7 +175,8 @@
       "length_of_day": 18.5,
       "parent": "V",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Azure",
+      "orbital_period": 10.598405314805083
     },
     {
       "position": {
@@ -178,7 +190,8 @@
       "length_of_day": 15,
       "parent": "VI",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Selenic",
+      "orbital_period": 12.88908268279683
     },
     {
       "position": {
@@ -192,7 +205,8 @@
       "length_of_day": 23.1,
       "parent": "VI",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Noble",
+      "orbital_period": 12.88908268279683
     },
     {
       "position": {
@@ -206,7 +220,8 @@
       "length_of_day": 17.9,
       "parent": "VII",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Azure",
+      "orbital_period": 16.28948949225648
     },
     {
       "position": {
@@ -220,7 +235,8 @@
       "length_of_day": 18.6,
       "parent": "VII",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Crimson",
+      "orbital_period": 16.28948949225648
     },
     {
       "position": {
@@ -234,7 +250,8 @@
       "length_of_day": 26.7,
       "parent": "VII",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Cimmerian",
+      "orbital_period": 16.28948949225648
     },
     {
       "position": {
@@ -248,7 +265,8 @@
       "length_of_day": 24.7,
       "parent": "VII",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Metal",
+      "orbital_period": 16.28948949225648
     }
   ]
 }

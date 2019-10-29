@@ -1,6 +1,6 @@
 {
   "name": "Beta Volantis",
-  "mass": 3e+24,
+  "mass": 1.989e+30,
   "position": {
     "x": 114,
     "y": 184.7
@@ -17,7 +17,8 @@
       "gravity": 22.05,
       "length_of_day": 14,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Gas Giant",
+      "orbital_period": 3783.182168080809
     },
     {
       "position": {
@@ -31,7 +32,8 @@
       "length_of_day": 29.8,
       "parent": "I",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Urea",
+      "orbital_period": 3.7831821680808093
     },
     {
       "position": {
@@ -45,7 +47,8 @@
       "length_of_day": 24.5,
       "parent": "I",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Oolite",
+      "orbital_period": 3.7831821680808093
     },
     {
       "position": {
@@ -59,7 +62,8 @@
       "length_of_day": 15.4,
       "parent": "I",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Radioactive",
+      "orbital_period": 3.7831821680808093
     },
     {
       "position": {
@@ -73,7 +77,8 @@
       "length_of_day": 28.6,
       "parent": "I",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Cyanic",
+      "orbital_period": 3.7831821680808093
     }
   ]
 }

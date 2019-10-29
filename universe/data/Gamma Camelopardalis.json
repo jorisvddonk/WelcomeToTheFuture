@@ -1,6 +1,6 @@
 {
   "name": "Gamma Camelopardalis",
-  "mass": 3e+24,
+  "mass": 1.989e+30,
   "position": {
     "x": 612.5,
     "y": 393.7
@@ -17,7 +17,8 @@
       "gravity": 6.468000000000001,
       "length_of_day": 16.1,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Treasure",
+      "orbital_period": 3715.7716269519756
     },
     {
       "position": {
@@ -30,7 +31,8 @@
       "gravity": 16.464000000000002,
       "length_of_day": 16.7,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Fluorescent",
+      "orbital_period": 6078.5643927379115
     },
     {
       "position": {
@@ -43,7 +45,8 @@
       "gravity": 9.996,
       "length_of_day": 22.4,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Hydrocarbon",
+      "orbital_period": 12847.007352067116
     },
     {
       "position": {
@@ -56,7 +59,8 @@
       "gravity": 1.764,
       "length_of_day": 15.5,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Urea",
+      "orbital_period": 18301.109585991835
     },
     {
       "position": {
@@ -69,7 +73,8 @@
       "gravity": 25.480000000000004,
       "length_of_day": 9.2,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Gas Giant",
+      "orbital_period": 21677.889356223808
     },
     {
       "position": {
@@ -83,7 +88,8 @@
       "length_of_day": 22.8,
       "parent": "V",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Cyanic",
+      "orbital_period": 21.677889356223805
     },
     {
       "position": {
@@ -97,7 +103,8 @@
       "length_of_day": 24.8,
       "parent": "V",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Treasure",
+      "orbital_period": 21.677889356223805
     },
     {
       "position": {
@@ -111,7 +118,8 @@
       "length_of_day": 25.3,
       "parent": "V",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Copper",
+      "orbital_period": 21.677889356223805
     },
     {
       "position": {
@@ -125,7 +133,8 @@
       "length_of_day": 2586.4,
       "parent": "V",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Opalescent",
+      "orbital_period": 21.677889356223805
     }
   ]
 }

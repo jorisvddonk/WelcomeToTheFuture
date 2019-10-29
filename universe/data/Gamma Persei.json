@@ -1,6 +1,6 @@
 {
   "name": "Gamma Persei",
-  "mass": 3e+24,
+  "mass": 1.989e+30,
   "position": {
     "x": 933.3,
     "y": 279.1
@@ -17,7 +17,8 @@
       "gravity": 2.842,
       "length_of_day": 16.6,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Crimson",
+      "orbital_period": 416.3840690658063
     },
     {
       "position": {
@@ -30,7 +31,8 @@
       "gravity": 1.078,
       "length_of_day": 27.7,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Ultramarine",
+      "orbital_period": 1390.6570784486207
     },
     {
       "position": {
@@ -43,7 +45,8 @@
       "gravity": 1.6660000000000001,
       "length_of_day": 29.2,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Dust",
+      "orbital_period": 4049.6716389767357
     },
     {
       "position": {
@@ -56,7 +59,8 @@
       "gravity": 14.896,
       "length_of_day": 22.2,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Magma",
+      "orbital_period": 6185.372526183375
     },
     {
       "position": {
@@ -69,7 +73,8 @@
       "gravity": 13.426000000000002,
       "length_of_day": 24.9,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Magnetic",
+      "orbital_period": 8960.981089741557
     },
     {
       "position": {
@@ -82,7 +87,8 @@
       "gravity": 11.564,
       "length_of_day": 11.7,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Gas Giant",
+      "orbital_period": 11299.400767620462
     },
     {
       "position": {
@@ -95,7 +101,8 @@
       "gravity": 10.290000000000001,
       "length_of_day": 15.5,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Hydrocarbon",
+      "orbital_period": 14686.044878228397
     },
     {
       "position": {
@@ -108,7 +115,8 @@
       "gravity": 11.76,
       "length_of_day": 15.6,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Magma",
+      "orbital_period": 18466.968111421935
     },
     {
       "position": {
@@ -121,7 +129,8 @@
       "gravity": 25.578,
       "length_of_day": 11,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Gas Giant",
+      "orbital_period": 20947.772353184788
     },
     {
       "position": {
@@ -135,7 +144,8 @@
       "length_of_day": 22.7,
       "parent": "VI",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Pellucid",
+      "orbital_period": 11.29940076762046
     },
     {
       "position": {
@@ -149,7 +159,8 @@
       "length_of_day": 2432.3,
       "parent": "IX",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Cimmerian",
+      "orbital_period": 20.947772353184796
     },
     {
       "position": {
@@ -163,7 +174,8 @@
       "length_of_day": 19.9,
       "parent": "IX",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Purple",
+      "orbital_period": 20.947772353184796
     }
   ]
 }

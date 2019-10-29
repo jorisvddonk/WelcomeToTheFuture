@@ -1,6 +1,6 @@
 {
   "name": "Zeta Bootis",
-  "mass": 3e+24,
+  "mass": 1.989e+30,
   "position": {
     "x": 16.7,
     "y": 287.5
@@ -17,7 +17,8 @@
       "gravity": 13.132000000000001,
       "length_of_day": 8.6,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Gas Giant",
+      "orbital_period": 5748.479467621257
     },
     {
       "position": {
@@ -30,7 +31,8 @@
       "gravity": 3.6260000000000003,
       "length_of_day": 23.1,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Crimson",
+      "orbital_period": 9720.313093325974
     },
     {
       "position": {
@@ -44,7 +46,8 @@
       "length_of_day": 29.5,
       "parent": "I",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Purple",
+      "orbital_period": 5.748479467621257
     }
   ]
 }

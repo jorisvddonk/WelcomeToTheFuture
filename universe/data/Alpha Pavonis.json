@@ -1,6 +1,6 @@
 {
   "name": "Alpha Pavonis",
-  "mass": 6e+24,
+  "mass": 3.978e+30,
   "position": {
     "x": 56.2,
     "y": 800
@@ -17,7 +17,8 @@
       "gravity": 1.47,
       "length_of_day": 29.5,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Azure",
+      "orbital_period": 400.26495641344616
     },
     {
       "position": {
@@ -30,7 +31,8 @@
       "gravity": 3.136,
       "length_of_day": 25.7,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Acid",
+      "orbital_period": 2563.7962368523067
     },
     {
       "position": {
@@ -43,7 +45,8 @@
       "gravity": 3.2340000000000004,
       "length_of_day": 21.4,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Alkali",
+      "orbital_period": 3634.930406591016
     },
     {
       "position": {
@@ -56,7 +59,8 @@
       "gravity": 4.214,
       "length_of_day": 26.6,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Metal",
+      "orbital_period": 5498.933913624617
     },
     {
       "position": {
@@ -69,7 +73,8 @@
       "gravity": 5.096000000000001,
       "length_of_day": 27.5,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Copper",
+      "orbital_period": 7859.659729072699
     },
     {
       "position": {
@@ -82,7 +87,8 @@
       "gravity": 2.7440000000000007,
       "length_of_day": 22.5,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Chondrite",
+      "orbital_period": 9708.151263667427
     },
     {
       "position": {
@@ -95,7 +101,8 @@
       "gravity": 0.9800000000000001,
       "length_of_day": 5605.2,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Noble",
+      "orbital_period": 10875.492407891834
     },
     {
       "position": {
@@ -108,7 +115,8 @@
       "gravity": 1.47,
       "length_of_day": 20.3,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Azure",
+      "orbital_period": 13860.341832486829
     },
     {
       "position": {
@@ -121,7 +129,8 @@
       "gravity": 3.6260000000000003,
       "length_of_day": 15.7,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Acid",
+      "orbital_period": 15547.405371269386
     }
   ]
 }

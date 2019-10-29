@@ -1,6 +1,6 @@
 {
   "name": "Gamma Sextantis",
-  "mass": 3e+24,
+  "mass": 1.989e+30,
   "position": {
     "x": 487.5,
     "y": 114.5
@@ -17,7 +17,8 @@
       "gravity": 1.078,
       "length_of_day": 21.8,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Ultramarine",
+      "orbital_period": 691.5928380108319
     },
     {
       "position": {
@@ -30,7 +31,8 @@
       "gravity": 1.9600000000000002,
       "length_of_day": 23.6,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Halide",
+      "orbital_period": 4640.333181452473
     },
     {
       "position": {
@@ -43,7 +45,8 @@
       "gravity": 19.404,
       "length_of_day": 12.1,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Gas Giant",
+      "orbital_period": 7797.427098672433
     },
     {
       "position": {
@@ -56,7 +59,8 @@
       "gravity": 9.408,
       "length_of_day": 19.9,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Chlorine",
+      "orbital_period": 11793.13611314682
     },
     {
       "position": {
@@ -69,7 +73,8 @@
       "gravity": 9.31,
       "length_of_day": 16.1,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Vinylogous",
+      "orbital_period": 15242.796259310364
     },
     {
       "position": {
@@ -83,7 +88,8 @@
       "length_of_day": 24.9,
       "parent": "III",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Copper",
+      "orbital_period": 7.797427098672434
     },
     {
       "position": {
@@ -97,7 +103,8 @@
       "length_of_day": 26.3,
       "parent": "III",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Green",
+      "orbital_period": 7.797427098672434
     },
     {
       "position": {
@@ -111,7 +118,8 @@
       "length_of_day": 28.7,
       "parent": "III",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Acid",
+      "orbital_period": 7.797427098672434
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "name": "Epsilon Vulpeculae",
-  "mass": 3e+24,
+  "mass": 1.989e+30,
   "position": {
     "x": 366.8,
     "y": 266.6
@@ -17,7 +17,8 @@
       "gravity": 0.9800000000000001,
       "length_of_day": 25.4,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Noble",
+      "orbital_period": 11742.086075754964
     },
     {
       "position": {
@@ -30,7 +31,8 @@
       "gravity": 1.6660000000000001,
       "length_of_day": 24,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Urea",
+      "orbital_period": 19436.308562297163
     }
   ]
 }

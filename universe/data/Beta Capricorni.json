@@ -1,6 +1,6 @@
 {
   "name": "Beta Capricorni",
-  "mass": 3e+24,
+  "mass": 1.989e+30,
   "position": {
     "x": 303.5,
     "y": 517.8
@@ -17,7 +17,8 @@
       "gravity": 3.6260000000000003,
       "length_of_day": 25.5,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Copper",
+      "orbital_period": 451.49652348200357
     },
     {
       "position": {
@@ -30,7 +31,8 @@
       "gravity": 7.252000000000001,
       "length_of_day": 8.4,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Gas Giant",
+      "orbital_period": 5432.4847177648435
     },
     {
       "position": {
@@ -43,7 +45,8 @@
       "gravity": 3.0380000000000003,
       "length_of_day": 27.7,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Alkali",
+      "orbital_period": 6717.322742925169
     },
     {
       "position": {
@@ -56,7 +59,8 @@
       "gravity": 1.764,
       "length_of_day": 24.8,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Azure",
+      "orbital_period": 12574.638366700361
     },
     {
       "position": {
@@ -70,7 +74,8 @@
       "length_of_day": 18.4,
       "parent": "II",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Ultramarine",
+      "orbital_period": 5.432484717764843
     },
     {
       "position": {
@@ -84,7 +89,8 @@
       "length_of_day": 16.2,
       "parent": "II",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Radioactive",
+      "orbital_period": 5.432484717764843
     },
     {
       "position": {
@@ -98,7 +104,8 @@
       "length_of_day": 26.5,
       "parent": "II",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Pellucid",
+      "orbital_period": 5.432484717764843
     },
     {
       "position": {
@@ -112,7 +119,8 @@
       "length_of_day": 23.4,
       "parent": "II",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Copper",
+      "orbital_period": 5.432484717764843
     }
   ]
 }

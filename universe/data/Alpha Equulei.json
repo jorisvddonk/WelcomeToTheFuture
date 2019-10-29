@@ -1,6 +1,6 @@
 {
   "name": "Alpha Equulei",
-  "mass": 3e+24,
+  "mass": 1.989e+30,
   "position": {
     "x": 591,
     "y": 662.4
@@ -17,7 +17,8 @@
       "gravity": 5.292000000000001,
       "length_of_day": 28.3,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Auric",
+      "orbital_period": 438.9289627437711
     },
     {
       "position": {
@@ -30,7 +31,8 @@
       "gravity": 9.212,
       "length_of_day": 19.4,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Chlorine",
+      "orbital_period": 3525.0859958527444
     },
     {
       "position": {
@@ -43,7 +45,8 @@
       "gravity": 7.644000000000001,
       "length_of_day": 9.7,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Gas Giant",
+      "orbital_period": 9742.674546467677
     },
     {
       "position": {
@@ -56,7 +59,8 @@
       "gravity": 0.784,
       "length_of_day": 21.2,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Cyanic",
+      "orbital_period": 12700.105358129476
     },
     {
       "position": {
@@ -69,7 +73,8 @@
       "gravity": 0.784,
       "length_of_day": 4663.9,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Cyanic",
+      "orbital_period": 20980.778293228017
     },
     {
       "position": {
@@ -83,7 +88,8 @@
       "length_of_day": 15.2,
       "parent": "III",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Auric",
+      "orbital_period": 9.742674546467674
     },
     {
       "position": {
@@ -97,7 +103,8 @@
       "length_of_day": 22.4,
       "parent": "III",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Treasure",
+      "orbital_period": 9.742674546467674
     },
     {
       "position": {
@@ -111,7 +118,8 @@
       "length_of_day": 26,
       "parent": "III",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Urea",
+      "orbital_period": 9.742674546467674
     },
     {
       "position": {
@@ -125,7 +133,8 @@
       "length_of_day": 28.6,
       "parent": "III",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Halide",
+      "orbital_period": 9.742674546467674
     }
   ]
 }

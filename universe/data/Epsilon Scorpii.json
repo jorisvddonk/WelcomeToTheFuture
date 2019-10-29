@@ -1,6 +1,6 @@
 {
   "name": "Epsilon Scorpii",
-  "mass": 3e+24,
+  "mass": 1.989e+30,
   "position": {
     "x": 629.1,
     "y": 220.8
@@ -17,7 +17,8 @@
       "gravity": 7.644000000000001,
       "length_of_day": 19.1,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Shattered",
+      "orbital_period": 260.59216567965876
     },
     {
       "position": {
@@ -30,7 +31,8 @@
       "gravity": 1.764,
       "length_of_day": 23.3,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Azure",
+      "orbital_period": 3018.849129207224
     },
     {
       "position": {
@@ -43,7 +45,8 @@
       "gravity": 9.212,
       "length_of_day": 25.8,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Telluric",
+      "orbital_period": 4119.032144591013
     },
     {
       "position": {
@@ -56,7 +59,8 @@
       "gravity": 3.43,
       "length_of_day": 18.6,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Alkali",
+      "orbital_period": 12825.986889958936
     },
     {
       "position": {
@@ -69,7 +73,8 @@
       "gravity": 8.722000000000001,
       "length_of_day": 26.2,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Xenolithic",
+      "orbital_period": 20647.39467048899
     },
     {
       "position": {
@@ -83,7 +88,8 @@
       "length_of_day": 27,
       "parent": "I",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Azure",
+      "orbital_period": 0.26059216567965876
     },
     {
       "position": {
@@ -97,7 +103,8 @@
       "length_of_day": 3465.2,
       "parent": "I",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Quasi-Degenerate",
+      "orbital_period": 0.26059216567965876
     }
   ]
 }

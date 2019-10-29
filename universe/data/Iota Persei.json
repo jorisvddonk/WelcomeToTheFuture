@@ -1,6 +1,6 @@
 {
   "name": "Iota Persei",
-  "mass": 3e+24,
+  "mass": 1.989e+30,
   "position": {
     "x": 887.5,
     "y": 231.2
@@ -17,7 +17,8 @@
       "gravity": 1.568,
       "length_of_day": 27.5,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Pellucid",
+      "orbital_period": 486.36680625658016
     },
     {
       "position": {
@@ -30,7 +31,8 @@
       "gravity": 1.862,
       "length_of_day": 28.2,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Selenic",
+      "orbital_period": 6135.999410559997
     },
     {
       "position": {
@@ -43,7 +45,8 @@
       "gravity": 10.584000000000001,
       "length_of_day": 20.9,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Redux",
+      "orbital_period": 13550.64789285249
     },
     {
       "position": {
@@ -56,7 +59,8 @@
       "gravity": 0.9800000000000001,
       "length_of_day": 4689.5,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Cyanic",
+      "orbital_period": 15960.618812799616
     },
     {
       "position": {
@@ -69,7 +73,8 @@
       "gravity": 4.998,
       "length_of_day": 27.6,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Copper",
+      "orbital_period": 21001.415800051735
     },
     {
       "position": {
@@ -83,7 +88,8 @@
       "length_of_day": 20.9,
       "parent": "III",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Alkali",
+      "orbital_period": 13.550647892852487
     }
   ]
 }

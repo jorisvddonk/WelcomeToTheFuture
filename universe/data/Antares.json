@@ -1,6 +1,6 @@
 {
   "name": "Antares",
-  "mass": 3e+24,
+  "mass": 1.989e+30,
   "position": {
     "x": 647.9,
     "y": 754.1
@@ -17,7 +17,8 @@
       "gravity": 4.998,
       "length_of_day": 4401.8,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Cimmerian",
+      "orbital_period": 129.80041414332757
     },
     {
       "position": {
@@ -30,7 +31,8 @@
       "gravity": 7.546000000000001,
       "length_of_day": 12.8,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Gas Giant",
+      "orbital_period": 2159.7257692492685
     },
     {
       "position": {
@@ -43,7 +45,8 @@
       "gravity": 1.6660000000000001,
       "length_of_day": 25.2,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Urea",
+      "orbital_period": 4826.234448000828
     },
     {
       "position": {
@@ -56,7 +59,8 @@
       "gravity": 2.6460000000000004,
       "length_of_day": 24.5,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Crimson",
+      "orbital_period": 6714.499745367704
     },
     {
       "position": {
@@ -69,7 +73,8 @@
       "gravity": 2.6460000000000004,
       "length_of_day": 24.8,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Green",
+      "orbital_period": 10086.608691113572
     },
     {
       "position": {
@@ -82,7 +87,8 @@
       "gravity": 22.932,
       "length_of_day": 14,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Gas Giant",
+      "orbital_period": 15971.921922213083
     },
     {
       "position": {
@@ -95,7 +101,8 @@
       "gravity": 9.212,
       "length_of_day": 21.6,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Water",
+      "orbital_period": 21005.544112949377
     },
     {
       "position": {
@@ -109,7 +116,8 @@
       "length_of_day": 18.5,
       "parent": "II",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Super-Dense",
+      "orbital_period": 2.1597257692492686
     },
     {
       "position": {
@@ -123,7 +131,8 @@
       "length_of_day": 4220.9,
       "parent": "II",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Cimmerian",
+      "orbital_period": 2.1597257692492686
     },
     {
       "position": {
@@ -137,7 +146,8 @@
       "length_of_day": 22.8,
       "parent": "VI",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Azure",
+      "orbital_period": 15.971921922213085
     },
     {
       "position": {
@@ -151,7 +161,8 @@
       "length_of_day": 2745.2,
       "parent": "VI",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Ultramarine",
+      "orbital_period": 15.971921922213085
     },
     {
       "position": {
@@ -165,7 +176,8 @@
       "length_of_day": 18.1,
       "parent": "VI",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Alkali",
+      "orbital_period": 15.971921922213085
     },
     {
       "position": {
@@ -179,7 +191,8 @@
       "length_of_day": 16.2,
       "parent": "VI",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Selenic",
+      "orbital_period": 15.971921922213085
     }
   ]
 }

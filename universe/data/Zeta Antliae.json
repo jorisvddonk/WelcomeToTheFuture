@@ -1,6 +1,6 @@
 {
   "name": "Zeta Antliae",
-  "mass": 3e+24,
+  "mass": 1.989e+30,
   "position": {
     "x": 258.1,
     "y": 910.5
@@ -17,7 +17,8 @@
       "gravity": 27.930000000000003,
       "length_of_day": 10.2,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Gas Giant",
+      "orbital_period": 2153.9261197116643
     },
     {
       "position": {
@@ -30,7 +31,8 @@
       "gravity": 4.704,
       "length_of_day": 26.3,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Maroon",
+      "orbital_period": 8416.557886475757
     },
     {
       "position": {
@@ -43,7 +45,8 @@
       "gravity": 17.150000000000002,
       "length_of_day": 14.6,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Gas Giant",
+      "orbital_period": 11748.88848140913
     },
     {
       "position": {
@@ -56,7 +59,8 @@
       "gravity": 6.468000000000001,
       "length_of_day": 18.7,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Ruby",
+      "orbital_period": 16009.618211587926
     },
     {
       "position": {
@@ -69,7 +73,8 @@
       "gravity": 6.174,
       "length_of_day": 23.6,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Super-Dense",
+      "orbital_period": 19573.249843857553
     },
     {
       "position": {
@@ -83,7 +88,8 @@
       "length_of_day": 17.9,
       "parent": "I",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Noble",
+      "orbital_period": 2.153926119711665
     },
     {
       "position": {
@@ -97,7 +103,8 @@
       "length_of_day": 26.3,
       "parent": "I",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Infrared",
+      "orbital_period": 2.153926119711665
     },
     {
       "position": {
@@ -111,7 +118,8 @@
       "length_of_day": 26.4,
       "parent": "III",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Purple",
+      "orbital_period": 11.748888481409129
     },
     {
       "position": {
@@ -125,7 +133,8 @@
       "length_of_day": 2745.2,
       "parent": "III",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Selenic",
+      "orbital_period": 11.748888481409129
     },
     {
       "position": {
@@ -139,7 +148,8 @@
       "length_of_day": 19.7,
       "parent": "III",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Dust",
+      "orbital_period": 11.748888481409129
     }
   ]
 }

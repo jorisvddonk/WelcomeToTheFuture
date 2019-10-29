@@ -1,6 +1,6 @@
 {
   "name": "Alpha Librae",
-  "mass": 3e+24,
+  "mass": 1.989e+30,
   "position": {
     "x": 735.4,
     "y": 906.2
@@ -17,7 +17,8 @@
       "gravity": 19.698,
       "length_of_day": 13.2,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Gas Giant",
+      "orbital_period": 724.9351794021313
     },
     {
       "position": {
@@ -30,7 +31,8 @@
       "gravity": 0.9800000000000001,
       "length_of_day": 23.7,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Ultramarine",
+      "orbital_period": 1743.1161139967035
     },
     {
       "position": {
@@ -43,7 +45,8 @@
       "gravity": 0.882,
       "length_of_day": 29.1,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Ultramarine",
+      "orbital_period": 3353.443711828761
     },
     {
       "position": {
@@ -56,7 +59,8 @@
       "gravity": 4.8020000000000005,
       "length_of_day": 29,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Quasi-Degenerate",
+      "orbital_period": 10093.075156654279
     },
     {
       "position": {
@@ -69,7 +73,8 @@
       "gravity": 4.704,
       "length_of_day": 20.9,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Metal",
+      "orbital_period": 11871.55607474626
     },
     {
       "position": {
@@ -82,7 +87,8 @@
       "gravity": 7.9380000000000015,
       "length_of_day": 27.3,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Xenolithic",
+      "orbital_period": 15009.670056256437
     },
     {
       "position": {
@@ -96,7 +102,8 @@
       "length_of_day": 23,
       "parent": "I",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Quasi-Degenerate",
+      "orbital_period": 0.7249351794021315
     },
     {
       "position": {
@@ -110,7 +117,8 @@
       "length_of_day": 16.9,
       "parent": "I",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Treasure",
+      "orbital_period": 0.7249351794021315
     },
     {
       "position": {
@@ -124,7 +132,8 @@
       "length_of_day": 25.2,
       "parent": "I",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Oolite",
+      "orbital_period": 0.7249351794021315
     },
     {
       "position": {
@@ -138,7 +147,8 @@
       "length_of_day": 15,
       "parent": "I",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Quasi-Degenerate",
+      "orbital_period": 0.7249351794021315
     }
   ]
 }

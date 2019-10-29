@@ -1,6 +1,6 @@
 {
   "name": "Beta Telescopii",
-  "mass": 3e+24,
+  "mass": 1.989e+30,
   "position": {
     "x": 29.1,
     "y": 410.4
@@ -17,7 +17,8 @@
       "gravity": 3.0380000000000003,
       "length_of_day": 23,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Chondrite",
+      "orbital_period": 10157.81573390026
     }
   ]
 }

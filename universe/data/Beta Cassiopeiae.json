@@ -1,6 +1,6 @@
 {
   "name": "Beta Cassiopeiae",
-  "mass": 3e+24,
+  "mass": 1.989e+30,
   "position": {
     "x": 377,
     "y": 525
@@ -17,7 +17,8 @@
       "gravity": 1.078,
       "length_of_day": 22.9,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Ultramarine",
+      "orbital_period": 331.3128262281769
     },
     {
       "position": {
@@ -30,7 +31,8 @@
       "gravity": 2.94,
       "length_of_day": 17.3,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Chondrite",
+      "orbital_period": 3178.0795233151243
     },
     {
       "position": {
@@ -43,7 +45,8 @@
       "gravity": 4.1160000000000005,
       "length_of_day": 15.7,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Copper",
+      "orbital_period": 4469.199579048362
     },
     {
       "position": {
@@ -56,7 +59,8 @@
       "gravity": 2.0580000000000003,
       "length_of_day": 28.5,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Purple",
+      "orbital_period": 16111.546028395183
     },
     {
       "position": {
@@ -69,7 +73,8 @@
       "gravity": 14.406,
       "length_of_day": 1841.3,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Plutonic",
+      "orbital_period": 20910.661381019767
     },
     {
       "position": {
@@ -83,7 +88,8 @@
       "length_of_day": 22.5,
       "parent": "V",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Alkali",
+      "orbital_period": 20.910661381019768
     },
     {
       "position": {
@@ -97,7 +103,8 @@
       "length_of_day": 18,
       "parent": "V",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Carbide",
+      "orbital_period": 20.910661381019768
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "name": "Beta Mersenne",
-  "mass": 3e+24,
+  "mass": 1.989e+30,
   "position": {
     "x": 241.6,
     "y": 729.1
@@ -17,7 +17,8 @@
       "gravity": 1.6660000000000001,
       "length_of_day": 15.9,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Dust",
+      "orbital_period": 152.37911356751607
     },
     {
       "position": {
@@ -30,7 +31,8 @@
       "gravity": 7.252000000000001,
       "length_of_day": 16.3,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Water",
+      "orbital_period": 1166.6685253999412
     },
     {
       "position": {
@@ -43,7 +45,8 @@
       "gravity": 8.82,
       "length_of_day": 29.5,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Hydrocarbon",
+      "orbital_period": 2259.11105188426
     },
     {
       "position": {
@@ -56,7 +59,8 @@
       "gravity": 1.862,
       "length_of_day": 23.3,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Purple",
+      "orbital_period": 3531.919763962171
     },
     {
       "position": {
@@ -69,7 +73,8 @@
       "gravity": 1.9600000000000002,
       "length_of_day": 19.3,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Dust",
+      "orbital_period": 5780.673767740507
     },
     {
       "position": {
@@ -82,7 +87,8 @@
       "gravity": 5.292000000000001,
       "length_of_day": 22.2,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Super-Dense",
+      "orbital_period": 8234.604093463844
     },
     {
       "position": {
@@ -95,7 +101,8 @@
       "gravity": 1.6660000000000001,
       "length_of_day": 25.9,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Azure",
+      "orbital_period": 9685.208290257673
     },
     {
       "position": {
@@ -108,7 +115,8 @@
       "gravity": 14.504000000000001,
       "length_of_day": 19.7,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Magnetic",
+      "orbital_period": 11663.952870406278
     },
     {
       "position": {
@@ -121,7 +129,8 @@
       "gravity": 12.936000000000002,
       "length_of_day": 22.9,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Magma",
+      "orbital_period": 15678.909695202336
     }
   ]
 }

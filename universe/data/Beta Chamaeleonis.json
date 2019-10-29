@@ -1,6 +1,6 @@
 {
   "name": "Beta Chamaeleonis",
-  "mass": 3e+24,
+  "mass": 1.989e+30,
   "position": {
     "x": 495.5,
     "y": 703.4
@@ -17,7 +17,8 @@
       "gravity": 4.508000000000001,
       "length_of_day": 22.8,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Copper",
+      "orbital_period": 157.19932261973435
     },
     {
       "position": {
@@ -30,7 +31,8 @@
       "gravity": 1.862,
       "length_of_day": 25.4,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Azure",
+      "orbital_period": 571.0183032869869
     },
     {
       "position": {
@@ -43,7 +45,8 @@
       "gravity": 3.6260000000000003,
       "length_of_day": 25.1,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Cimmerian",
+      "orbital_period": 1952.3785595672275
     },
     {
       "position": {
@@ -56,7 +59,8 @@
       "gravity": 1.568,
       "length_of_day": 2981.9,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Azure",
+      "orbital_period": 4040.1355229685496
     },
     {
       "position": {
@@ -69,7 +73,8 @@
       "gravity": 0.9800000000000001,
       "length_of_day": 20.7,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Ultramarine",
+      "orbital_period": 6160.669481343972
     },
     {
       "position": {
@@ -82,7 +87,8 @@
       "gravity": 1.3720000000000003,
       "length_of_day": 17.4,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Dust",
+      "orbital_period": 9405.899234737244
     },
     {
       "position": {
@@ -95,7 +101,8 @@
       "gravity": 7.644000000000001,
       "length_of_day": 20.7,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Water",
+      "orbital_period": 12868.039285097379
     },
     {
       "position": {
@@ -108,7 +115,8 @@
       "gravity": 5.88,
       "length_of_day": 17,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Iodine",
+      "orbital_period": 16658.78791530164
     },
     {
       "position": {
@@ -121,7 +129,8 @@
       "gravity": 2.7440000000000007,
       "length_of_day": 25.9,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Infrared",
+      "orbital_period": 22041.867347843512
     }
   ]
 }

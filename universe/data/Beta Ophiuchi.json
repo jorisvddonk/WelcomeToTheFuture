@@ -1,6 +1,6 @@
 {
   "name": "Beta Ophiuchi",
-  "mass": 3e+24,
+  "mass": 1.989e+30,
   "position": {
     "x": 47.9,
     "y": 887.5
@@ -17,7 +17,8 @@
       "gravity": 9.996,
       "length_of_day": 27.8,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Telluric",
+      "orbital_period": 2677.4672919648006
     },
     {
       "position": {
@@ -30,7 +31,8 @@
       "gravity": 6.762,
       "length_of_day": 29,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Ruby",
+      "orbital_period": 6431.4242023725465
     },
     {
       "position": {
@@ -43,7 +45,8 @@
       "gravity": 2.156,
       "length_of_day": 15.1,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Urea",
+      "orbital_period": 8083.991813614572
     },
     {
       "position": {
@@ -56,7 +59,8 @@
       "gravity": 20.384000000000004,
       "length_of_day": 12.9,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Gas Giant",
+      "orbital_period": 9602.401792497616
     },
     {
       "position": {
@@ -69,7 +73,8 @@
       "gravity": 4.606,
       "length_of_day": 16.9,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Cimmerian",
+      "orbital_period": 12293.860439464419
     },
     {
       "position": {
@@ -82,7 +87,8 @@
       "gravity": 11.956000000000001,
       "length_of_day": 18.2,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Magnetic",
+      "orbital_period": 15753.868546884907
     },
     {
       "position": {
@@ -95,7 +101,8 @@
       "gravity": 5.194000000000001,
       "length_of_day": 22.3,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Maroon",
+      "orbital_period": 18186.879672211537
     },
     {
       "position": {
@@ -108,7 +115,8 @@
       "gravity": 9.016000000000002,
       "length_of_day": 25.9,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Water",
+      "orbital_period": 21644.521649230646
     },
     {
       "position": {
@@ -122,7 +130,8 @@
       "length_of_day": 25.3,
       "parent": "IV",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Pellucid",
+      "orbital_period": 9.602401792497616
     },
     {
       "position": {
@@ -136,7 +145,8 @@
       "length_of_day": 17.6,
       "parent": "IV",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Chondrite",
+      "orbital_period": 9.602401792497616
     }
   ]
 }

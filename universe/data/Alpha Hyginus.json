@@ -1,6 +1,6 @@
 {
   "name": "Alpha Hyginus",
-  "mass": 3e+24,
+  "mass": 1.989e+30,
   "position": {
     "x": 852,
     "y": 416.6
@@ -17,7 +17,8 @@
       "gravity": 1.078,
       "length_of_day": 15.1,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Ultramarine",
+      "orbital_period": 1113.5249388775503
     },
     {
       "position": {
@@ -30,7 +31,8 @@
       "gravity": 15.190000000000001,
       "length_of_day": 19.4,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Magnetic",
+      "orbital_period": 3331.07255252645
     },
     {
       "position": {
@@ -43,7 +45,8 @@
       "gravity": 2.45,
       "length_of_day": 18.9,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Chondrite",
+      "orbital_period": 5775.303889861553
     },
     {
       "position": {
@@ -56,7 +59,8 @@
       "gravity": 19.992,
       "length_of_day": 10.2,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Gas Giant",
+      "orbital_period": 10895.5770579074
     },
     {
       "position": {
@@ -69,7 +73,8 @@
       "gravity": 2.94,
       "length_of_day": 28.1,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Infrared",
+      "orbital_period": 18943.58885296416
     },
     {
       "position": {
@@ -83,7 +88,8 @@
       "length_of_day": 22.7,
       "parent": "IV",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Purple",
+      "orbital_period": 10.8955770579074
     },
     {
       "position": {
@@ -97,7 +103,8 @@
       "length_of_day": 17.6,
       "parent": "IV",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Chondrite",
+      "orbital_period": 10.8955770579074
     }
   ]
 }

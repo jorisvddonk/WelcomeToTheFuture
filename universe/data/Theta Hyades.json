@@ -1,6 +1,6 @@
 {
   "name": "Theta Hyades",
-  "mass": 3e+24,
+  "mass": 1.989e+30,
   "position": {
     "x": 829.6,
     "y": 954.8
@@ -17,7 +17,8 @@
       "gravity": 12.25,
       "length_of_day": 16.6,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Plutonic",
+      "orbital_period": 169.4665375809456
     },
     {
       "position": {
@@ -30,7 +31,8 @@
       "gravity": 6.272,
       "length_of_day": 11.4,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Gas Giant",
+      "orbital_period": 2988.6247973669833
     },
     {
       "position": {
@@ -43,7 +45,8 @@
       "gravity": 2.45,
       "length_of_day": 23.8,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Green",
+      "orbital_period": 7107.788814094202
     },
     {
       "position": {
@@ -56,7 +59,8 @@
       "gravity": 1.176,
       "length_of_day": 26.6,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Cyanic",
+      "orbital_period": 15113.133827857127
     },
     {
       "position": {
@@ -69,7 +73,8 @@
       "gravity": 1.176,
       "length_of_day": 26.8,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Noble",
+      "orbital_period": 17966.973599234367
     },
     {
       "position": {
@@ -83,7 +88,8 @@
       "length_of_day": 23.7,
       "parent": "II",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Selenic",
+      "orbital_period": 2.988624797366984
     },
     {
       "position": {
@@ -97,7 +103,8 @@
       "length_of_day": 25.5,
       "parent": "II",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Pellucid",
+      "orbital_period": 2.988624797366984
     },
     {
       "position": {
@@ -111,7 +118,8 @@
       "length_of_day": 24.5,
       "parent": "II",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Copper",
+      "orbital_period": 2.988624797366984
     }
   ]
 }

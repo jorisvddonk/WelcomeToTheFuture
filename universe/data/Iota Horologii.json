@@ -1,6 +1,6 @@
 {
   "name": "Iota Horologii",
-  "mass": 3e+24,
+  "mass": 1.989e+30,
   "position": {
     "x": 708.3,
     "y": 799.3
@@ -17,7 +17,8 @@
       "gravity": 0.9800000000000001,
       "length_of_day": 22.7,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Noble",
+      "orbital_period": 184.58713733083715
     },
     {
       "position": {
@@ -30,7 +31,8 @@
       "gravity": 2.842,
       "length_of_day": 21.5,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Crimson",
+      "orbital_period": 1154.0899570684112
     },
     {
       "position": {
@@ -43,7 +45,8 @@
       "gravity": 1.568,
       "length_of_day": 18.6,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Pellucid",
+      "orbital_period": 4612.907597748291
     },
     {
       "position": {
@@ -56,7 +59,8 @@
       "gravity": 0.882,
       "length_of_day": 18.7,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Ultramarine",
+      "orbital_period": 5831.7704907195875
     },
     {
       "position": {
@@ -69,7 +73,8 @@
       "gravity": 10.976000000000003,
       "length_of_day": 22.2,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Vinylogous",
+      "orbital_period": 8343.617341030309
     },
     {
       "position": {
@@ -82,7 +87,8 @@
       "gravity": 2.352,
       "length_of_day": 29,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Crimson",
+      "orbital_period": 16494.73784124568
     },
     {
       "position": {
@@ -95,7 +101,8 @@
       "gravity": 5.096000000000001,
       "length_of_day": 2758.3,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Metal",
+      "orbital_period": 19107.359958301884
     },
     {
       "position": {
@@ -109,7 +116,8 @@
       "length_of_day": 20.3,
       "parent": "V",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Dust",
+      "orbital_period": 8.34361734103031
     },
     {
       "position": {
@@ -123,7 +131,8 @@
       "length_of_day": 16.9,
       "parent": "V",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Pellucid",
+      "orbital_period": 8.34361734103031
     }
   ]
 }

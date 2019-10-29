@@ -1,6 +1,6 @@
 {
   "name": "Theta Horologii",
-  "mass": 3e+24,
+  "mass": 1.989e+30,
   "position": {
     "x": 720,
     "y": 784.9
@@ -17,7 +17,8 @@
       "gravity": 9.604000000000001,
       "length_of_day": 15.7,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Telluric",
+      "orbital_period": 20193.436277620018
     }
   ]
 }

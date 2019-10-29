@@ -1,6 +1,6 @@
 {
   "name": "Eta Aquarii",
-  "mass": 3e+24,
+  "mass": 1.989e+30,
   "position": {
     "x": 849.2,
     "y": 857.8
@@ -17,7 +17,8 @@
       "gravity": 4.606,
       "length_of_day": 24,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Quasi-Degenerate",
+      "orbital_period": 508.89441002890374
     },
     {
       "position": {
@@ -30,7 +31,8 @@
       "gravity": 8.624,
       "length_of_day": 15.7,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Vinylogous",
+      "orbital_period": 942.9571197765823
     },
     {
       "position": {
@@ -43,7 +45,8 @@
       "gravity": 5.194000000000001,
       "length_of_day": 24.4,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Auric",
+      "orbital_period": 4770.712483460373
     },
     {
       "position": {
@@ -56,7 +59,8 @@
       "gravity": 4.8020000000000005,
       "length_of_day": 26.4,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Yttric",
+      "orbital_period": 6666.569354678522
     },
     {
       "position": {
@@ -69,7 +73,8 @@
       "gravity": 10.780000000000001,
       "length_of_day": 16.8,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Ultraviolet",
+      "orbital_period": 13436.65753902415
     },
     {
       "position": {
@@ -82,7 +87,8 @@
       "gravity": 15.484000000000002,
       "length_of_day": 9.2,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Gas Giant",
+      "orbital_period": 19123.36277181785
     },
     {
       "position": {
@@ -95,7 +101,8 @@
       "gravity": 6.0760000000000005,
       "length_of_day": 15.6,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Radioactive",
+      "orbital_period": 21819.89310267488
     },
     {
       "position": {
@@ -109,7 +116,8 @@
       "length_of_day": 21.4,
       "parent": "VI",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Urea",
+      "orbital_period": 19.123362771817845
     },
     {
       "position": {
@@ -123,7 +131,8 @@
       "length_of_day": 20.5,
       "parent": "VI",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Selenic",
+      "orbital_period": 19.123362771817845
     }
   ]
 }

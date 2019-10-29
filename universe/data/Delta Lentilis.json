@@ -1,6 +1,6 @@
 {
   "name": "Delta Lentilis",
-  "mass": 3e+24,
+  "mass": 1.989e+30,
   "position": {
     "x": 472.9,
     "y": 595.8
@@ -17,7 +17,8 @@
       "gravity": 8.134,
       "length_of_day": 9.7,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Gas Giant",
+      "orbital_period": 7139.457863681775
     },
     {
       "position": {
@@ -30,7 +31,8 @@
       "gravity": 2.6460000000000004,
       "length_of_day": 21.6,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Alkali",
+      "orbital_period": 8781.33119896502
     },
     {
       "position": {
@@ -43,7 +45,8 @@
       "gravity": 2.842,
       "length_of_day": 21.8,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Green",
+      "orbital_period": 16666.431314133013
     },
     {
       "position": {
@@ -56,7 +59,8 @@
       "gravity": 2.0580000000000003,
       "length_of_day": 28.6,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Dust",
+      "orbital_period": 21125.382769423257
     },
     {
       "position": {
@@ -70,7 +74,8 @@
       "length_of_day": 1207.6,
       "parent": "I",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Noble",
+      "orbital_period": 7.139457863681775
     },
     {
       "position": {
@@ -84,7 +89,8 @@
       "length_of_day": 24.5,
       "parent": "I",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Pellucid",
+      "orbital_period": 7.139457863681775
     },
     {
       "position": {
@@ -98,7 +104,8 @@
       "length_of_day": 19.1,
       "parent": "I",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Ultramarine",
+      "orbital_period": 7.139457863681775
     }
   ]
 }

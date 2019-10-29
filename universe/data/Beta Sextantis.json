@@ -1,6 +1,6 @@
 {
   "name": "Beta Sextantis",
-  "mass": 3e+24,
+  "mass": 1.989e+30,
   "position": {
     "x": 460.4,
     "y": 118.7
@@ -17,7 +17,8 @@
       "gravity": 2.5480000000000005,
       "length_of_day": 29.6,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Green",
+      "orbital_period": 16639.684532135263
     },
     {
       "position": {
@@ -30,7 +31,8 @@
       "gravity": 3.2340000000000004,
       "length_of_day": 20.1,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Infrared",
+      "orbital_period": 20491.606943624203
     }
   ]
 }

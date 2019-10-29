@@ -1,6 +1,6 @@
 {
   "name": "Eta Ptolemae",
-  "mass": 3e+24,
+  "mass": 1.989e+30,
   "position": {
     "x": 174,
     "y": 42.3
@@ -17,7 +17,8 @@
       "gravity": 14.406,
       "length_of_day": 14.7,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Gas Giant",
+      "orbital_period": 999.2587858687191
     },
     {
       "position": {
@@ -30,7 +31,8 @@
       "gravity": 2.0580000000000003,
       "length_of_day": 26.8,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Urea",
+      "orbital_period": 2424.0090862655707
     },
     {
       "position": {
@@ -43,7 +45,8 @@
       "gravity": 9.212,
       "length_of_day": 5263.1,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Organic",
+      "orbital_period": 4635.342681793562
     },
     {
       "position": {
@@ -56,7 +59,8 @@
       "gravity": 11.27,
       "length_of_day": 18.1,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Water",
+      "orbital_period": 7806.329964470726
     },
     {
       "position": {
@@ -69,7 +73,8 @@
       "gravity": 3.8220000000000005,
       "length_of_day": 22.5,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Yttric",
+      "orbital_period": 11356.527782136487
     },
     {
       "position": {
@@ -82,7 +87,8 @@
       "gravity": 3.2340000000000004,
       "length_of_day": 19.8,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Alkali",
+      "orbital_period": 18167.208966634116
     },
     {
       "position": {
@@ -95,7 +101,8 @@
       "gravity": 3.8220000000000005,
       "length_of_day": 22.4,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Yttric",
+      "orbital_period": 21088.167145976888
     },
     {
       "position": {
@@ -109,7 +116,8 @@
       "length_of_day": 15.2,
       "parent": "I",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Oolite",
+      "orbital_period": 0.9992587858687192
     },
     {
       "position": {
@@ -123,7 +131,8 @@
       "length_of_day": 1297.8,
       "parent": "I",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Quasi-Degenerate",
+      "orbital_period": 0.9992587858687192
     },
     {
       "position": {
@@ -137,7 +146,8 @@
       "length_of_day": 22.5,
       "parent": "I",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Metal",
+      "orbital_period": 0.9992587858687192
     }
   ]
 }

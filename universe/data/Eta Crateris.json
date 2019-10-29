@@ -1,6 +1,6 @@
 {
   "name": "Eta Crateris",
-  "mass": 3e+24,
+  "mass": 1.989e+30,
   "position": {
     "x": 642.9,
     "y": 595.8
@@ -17,7 +17,8 @@
       "gravity": 14.700000000000001,
       "length_of_day": 29.7,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Magnetic",
+      "orbital_period": 8465.302354745545
     },
     {
       "position": {
@@ -30,7 +31,8 @@
       "gravity": 26.754,
       "length_of_day": 14.7,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Gas Giant",
+      "orbital_period": 20291.304198644877
     },
     {
       "position": {
@@ -44,7 +46,8 @@
       "length_of_day": 15,
       "parent": "II",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Dust",
+      "orbital_period": 20.291304198644877
     },
     {
       "position": {
@@ -58,7 +61,8 @@
       "length_of_day": 17.8,
       "parent": "II",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Urea",
+      "orbital_period": 20.291304198644877
     },
     {
       "position": {
@@ -72,7 +76,8 @@
       "length_of_day": 24.7,
       "parent": "II",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Purple",
+      "orbital_period": 20.291304198644877
     }
   ]
 }

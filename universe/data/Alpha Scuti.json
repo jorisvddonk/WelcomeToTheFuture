@@ -1,6 +1,6 @@
 {
   "name": "Alpha Scuti",
-  "mass": 3e+24,
+  "mass": 1.989e+30,
   "position": {
     "x": 503.9,
     "y": 37.3
@@ -17,7 +17,8 @@
       "gravity": 13.328000000000001,
       "length_of_day": 28.5,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Magnetic",
+      "orbital_period": 11820.3929695412
     },
     {
       "position": {
@@ -31,7 +32,8 @@
       "length_of_day": 21.6,
       "parent": "I",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Green",
+      "orbital_period": 11.8203929695412
     },
     {
       "position": {
@@ -45,7 +47,8 @@
       "length_of_day": 23,
       "parent": "I",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Carbide",
+      "orbital_period": 11.8203929695412
     }
   ]
 }

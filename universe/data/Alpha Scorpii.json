@@ -1,6 +1,6 @@
 {
   "name": "Alpha Scorpii",
-  "mass": 3e+24,
+  "mass": 1.989e+30,
   "position": {
     "x": 646.7,
     "y": 187.8
@@ -17,7 +17,8 @@
       "gravity": 5.586,
       "length_of_day": 23.2,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Treasure",
+      "orbital_period": 1136.868807155787
     },
     {
       "position": {
@@ -30,7 +31,8 @@
       "gravity": 1.078,
       "length_of_day": 26.1,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Noble",
+      "orbital_period": 15061.372327778208
     }
   ]
 }

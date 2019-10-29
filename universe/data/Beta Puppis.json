@@ -1,6 +1,6 @@
 {
   "name": "Beta Puppis",
-  "mass": 3e+24,
+  "mass": 1.989e+30,
   "position": {
     "x": 829.1,
     "y": 297.9
@@ -17,7 +17,8 @@
       "gravity": 5.194000000000001,
       "length_of_day": 20.7,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Cimmerian",
+      "orbital_period": 5777.98862085966
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "name": "Beta Tauri",
-  "mass": 3e+24,
+  "mass": 1.989e+30,
   "position": {
     "x": 28.8,
     "y": 373.5
@@ -17,7 +17,8 @@
       "gravity": 1.9600000000000002,
       "length_of_day": 27.2,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Halide",
+      "orbital_period": 1369.002052524943
     },
     {
       "position": {
@@ -30,7 +31,8 @@
       "gravity": 8.526,
       "length_of_day": 29.9,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Primordial",
+      "orbital_period": 3916.850399998737
     },
     {
       "position": {
@@ -43,7 +45,8 @@
       "gravity": 8.722000000000001,
       "length_of_day": 22.3,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Vinylogous",
+      "orbital_period": 5148.316829295957
     },
     {
       "position": {
@@ -56,7 +59,8 @@
       "gravity": 1.47,
       "length_of_day": 24.4,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Urea",
+      "orbital_period": 8437.87204543934
     },
     {
       "position": {
@@ -69,7 +73,8 @@
       "gravity": 19.894,
       "length_of_day": 12.9,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Gas Giant",
+      "orbital_period": 9656.517685458595
     },
     {
       "position": {
@@ -82,7 +87,8 @@
       "gravity": 15.582000000000003,
       "length_of_day": 24.6,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Ultraviolet",
+      "orbital_period": 14642.096632501507
     },
     {
       "position": {
@@ -95,7 +101,8 @@
       "gravity": 11.466,
       "length_of_day": 24.9,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Fluorescent",
+      "orbital_period": 17736.253543239836
     },
     {
       "position": {
@@ -109,7 +116,8 @@
       "length_of_day": 20.1,
       "parent": "III",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Selenic",
+      "orbital_period": 5.148316829295958
     },
     {
       "position": {
@@ -123,7 +131,8 @@
       "length_of_day": 24,
       "parent": "V",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Oolite",
+      "orbital_period": 9.656517685458597
     },
     {
       "position": {
@@ -137,7 +146,8 @@
       "length_of_day": 23.3,
       "parent": "V",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Oolite",
+      "orbital_period": 9.656517685458597
     },
     {
       "position": {
@@ -151,7 +161,8 @@
       "length_of_day": 18.6,
       "parent": "V",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Radioactive",
+      "orbital_period": 9.656517685458597
     },
     {
       "position": {
@@ -165,7 +176,8 @@
       "length_of_day": 23.2,
       "parent": "VII",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Acid",
+      "orbital_period": 17.736253543239837
     }
   ]
 }

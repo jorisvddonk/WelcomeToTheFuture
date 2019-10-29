@@ -1,6 +1,6 @@
 {
   "name": "Deneb",
-  "mass": 3e+24,
+  "mass": 1.989e+30,
   "position": {
     "x": 218.7,
     "y": 8.3
@@ -17,7 +17,8 @@
       "gravity": 7.3500000000000005,
       "length_of_day": 27.5,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Chlorine",
+      "orbital_period": 158.00754437158093
     },
     {
       "position": {
@@ -30,7 +31,8 @@
       "gravity": 3.2340000000000004,
       "length_of_day": 26.6,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Carbide",
+      "orbital_period": 3407.337703587621
     },
     {
       "position": {
@@ -43,7 +45,8 @@
       "gravity": 5.096000000000001,
       "length_of_day": 19.5,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Super-Dense",
+      "orbital_period": 15615.288437003543
     },
     {
       "position": {
@@ -56,7 +59,8 @@
       "gravity": 17.052,
       "length_of_day": 8.6,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Gas Giant",
+      "orbital_period": 21507.061109132188
     }
   ]
 }

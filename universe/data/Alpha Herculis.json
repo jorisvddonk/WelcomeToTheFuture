@@ -1,6 +1,6 @@
 {
   "name": "Alpha Herculis",
-  "mass": 3e+24,
+  "mass": 1.989e+30,
   "position": {
     "x": 160.4,
     "y": 364.5
@@ -17,7 +17,8 @@
       "gravity": 13.426000000000002,
       "length_of_day": 9.6,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Gas Giant",
+      "orbital_period": 1290.0336953391302
     },
     {
       "position": {
@@ -30,7 +31,8 @@
       "gravity": 13.328000000000001,
       "length_of_day": 20.9,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Fluorescent",
+      "orbital_period": 2478.479941230348
     },
     {
       "position": {
@@ -43,7 +45,8 @@
       "gravity": 3.8220000000000005,
       "length_of_day": 22,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Oolite",
+      "orbital_period": 3621.159057989444
     },
     {
       "position": {
@@ -56,7 +59,8 @@
       "gravity": 1.47,
       "length_of_day": 24.2,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Halide",
+      "orbital_period": 5301.500871527352
     },
     {
       "position": {
@@ -69,7 +73,8 @@
       "gravity": 24.892000000000003,
       "length_of_day": 14,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Gas Giant",
+      "orbital_period": 7452.870110679318
     },
     {
       "position": {
@@ -82,7 +87,8 @@
       "gravity": 1.862,
       "length_of_day": 19.3,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Halide",
+      "orbital_period": 12052.92116475957
     },
     {
       "position": {
@@ -95,7 +101,8 @@
       "gravity": 6.0760000000000005,
       "length_of_day": 15.8,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Radioactive",
+      "orbital_period": 16130.445201418821
     },
     {
       "position": {
@@ -109,7 +116,8 @@
       "length_of_day": 17.3,
       "parent": "I",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Alkali",
+      "orbital_period": 1.29003369533913
     },
     {
       "position": {
@@ -123,7 +131,8 @@
       "length_of_day": 3082.5,
       "parent": "I",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Selenic",
+      "orbital_period": 1.29003369533913
     },
     {
       "position": {
@@ -137,7 +146,8 @@
       "length_of_day": 24,
       "parent": "I",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Halide",
+      "orbital_period": 1.29003369533913
     },
     {
       "position": {
@@ -151,7 +161,8 @@
       "length_of_day": 23.1,
       "parent": "II",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Lanthanide",
+      "orbital_period": 2.4784799412303475
     },
     {
       "position": {
@@ -165,7 +176,8 @@
       "length_of_day": 22.5,
       "parent": "V",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Metal",
+      "orbital_period": 7.452870110679318
     },
     {
       "position": {
@@ -179,7 +191,8 @@
       "length_of_day": 23.3,
       "parent": "V",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Radioactive",
+      "orbital_period": 7.452870110679318
     },
     {
       "position": {
@@ -193,7 +206,8 @@
       "length_of_day": 25,
       "parent": "V",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Alkali",
+      "orbital_period": 7.452870110679318
     }
   ]
 }

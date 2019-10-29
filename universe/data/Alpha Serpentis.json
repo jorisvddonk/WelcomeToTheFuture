@@ -1,6 +1,6 @@
 {
   "name": "Alpha Serpentis",
-  "mass": 6e+24,
+  "mass": 3.978e+30,
   "position": {
     "x": 491.1,
     "y": 18
@@ -17,7 +17,8 @@
       "gravity": 26.362000000000002,
       "length_of_day": 11.2,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Gas Giant",
+      "orbital_period": 8154.259359194439
     },
     {
       "position": {
@@ -30,7 +31,8 @@
       "gravity": 9.898000000000001,
       "length_of_day": 15,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Gas Giant",
+      "orbital_period": 9644.88412125335
     },
     {
       "position": {
@@ -43,7 +45,8 @@
       "gravity": 21.952000000000005,
       "length_of_day": 10.5,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Gas Giant",
+      "orbital_period": 15387.62187253663
     },
     {
       "position": {
@@ -57,7 +60,8 @@
       "length_of_day": 2184.8,
       "parent": "I",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Radioactive",
+      "orbital_period": 8.15425935919444
     },
     {
       "position": {
@@ -71,7 +75,8 @@
       "length_of_day": 23.3,
       "parent": "I",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Green",
+      "orbital_period": 8.15425935919444
     },
     {
       "position": {
@@ -85,7 +90,8 @@
       "length_of_day": 22.5,
       "parent": "II",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Infrared",
+      "orbital_period": 9.64488412125335
     },
     {
       "position": {
@@ -99,7 +105,8 @@
       "length_of_day": 18.3,
       "parent": "II",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Noble",
+      "orbital_period": 9.64488412125335
     },
     {
       "position": {
@@ -113,7 +120,8 @@
       "length_of_day": 2934,
       "parent": "III",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Copper",
+      "orbital_period": 15.387621872536629
     },
     {
       "position": {
@@ -127,7 +135,8 @@
       "length_of_day": 21.6,
       "parent": "III",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Purple",
+      "orbital_period": 15.387621872536629
     },
     {
       "position": {
@@ -141,7 +150,8 @@
       "length_of_day": 17.7,
       "parent": "III",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Urea",
+      "orbital_period": 15.387621872536629
     }
   ]
 }

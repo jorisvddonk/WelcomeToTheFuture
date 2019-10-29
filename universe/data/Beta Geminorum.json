@@ -1,6 +1,6 @@
 {
   "name": "Beta Geminorum",
-  "mass": 3e+24,
+  "mass": 1.989e+30,
   "position": {
     "x": 497.9,
     "y": 779.1
@@ -17,7 +17,8 @@
       "gravity": 26.558,
       "length_of_day": 13.2,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Gas Giant",
+      "orbital_period": 1094.9664305666627
     },
     {
       "position": {
@@ -30,7 +31,8 @@
       "gravity": 1.078,
       "length_of_day": 17,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Cyanic",
+      "orbital_period": 2208.2578105716498
     },
     {
       "position": {
@@ -43,7 +45,8 @@
       "gravity": 14.798000000000002,
       "length_of_day": 15.9,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Gas Giant",
+      "orbital_period": 4368.531418921508
     },
     {
       "position": {
@@ -56,7 +59,8 @@
       "gravity": 0.784,
       "length_of_day": 15.9,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Cyanic",
+      "orbital_period": 11772.707240033465
     },
     {
       "position": {
@@ -69,7 +73,8 @@
       "gravity": 10.290000000000001,
       "length_of_day": 17.3,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Vinylogous",
+      "orbital_period": 14810.803068784471
     },
     {
       "position": {
@@ -82,7 +87,8 @@
       "gravity": 5.194000000000001,
       "length_of_day": 29.8,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Yttric",
+      "orbital_period": 16350.21448398601
     },
     {
       "position": {
@@ -95,7 +101,8 @@
       "gravity": 4.1160000000000005,
       "length_of_day": 16.7,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Yttric",
+      "orbital_period": 21694.579633725305
     },
     {
       "position": {
@@ -109,7 +116,8 @@
       "length_of_day": 25.1,
       "parent": "I",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Treasure",
+      "orbital_period": 1.0949664305666627
     },
     {
       "position": {
@@ -123,7 +131,8 @@
       "length_of_day": 27.9,
       "parent": "I",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Alkali",
+      "orbital_period": 1.0949664305666627
     },
     {
       "position": {
@@ -137,7 +146,8 @@
       "length_of_day": 23.2,
       "parent": "I",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Quasi-Degenerate",
+      "orbital_period": 1.0949664305666627
     },
     {
       "position": {
@@ -151,7 +161,8 @@
       "length_of_day": 28.3,
       "parent": "III",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Quasi-Degenerate",
+      "orbital_period": 4.368531418921507
     },
     {
       "position": {
@@ -165,7 +176,8 @@
       "length_of_day": 21.6,
       "parent": "III",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Radioactive",
+      "orbital_period": 4.368531418921507
     }
   ]
 }

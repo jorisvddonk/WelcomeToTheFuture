@@ -1,6 +1,6 @@
 {
   "name": "Alpha Olber",
-  "mass": 3e+24,
+  "mass": 1.989e+30,
   "position": {
     "x": 27,
     "y": 218.7
@@ -17,7 +17,8 @@
       "gravity": 6.468000000000001,
       "length_of_day": 18.6,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Radioactive",
+      "orbital_period": 452.6448822486805
     },
     {
       "position": {
@@ -30,7 +31,8 @@
       "gravity": 1.9600000000000002,
       "length_of_day": 21.1,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Urea",
+      "orbital_period": 985.8259952431488
     },
     {
       "position": {
@@ -43,7 +45,8 @@
       "gravity": 14.21,
       "length_of_day": 27.1,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Plutonic",
+      "orbital_period": 2456.2394159333485
     },
     {
       "position": {
@@ -56,7 +59,8 @@
       "gravity": 2.6460000000000004,
       "length_of_day": 15.9,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Carbide",
+      "orbital_period": 5678.931097613945
     },
     {
       "position": {
@@ -69,7 +73,8 @@
       "gravity": 5.194000000000001,
       "length_of_day": 20.4,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Copper",
+      "orbital_period": 7307.214012611324
     },
     {
       "position": {
@@ -82,7 +87,8 @@
       "gravity": 19.11,
       "length_of_day": 14.6,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Gas Giant",
+      "orbital_period": 9368.02315892787
     },
     {
       "position": {
@@ -95,7 +101,8 @@
       "gravity": 14.406,
       "length_of_day": 28.6,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Ultraviolet",
+      "orbital_period": 12546.8132466273
     },
     {
       "position": {
@@ -108,7 +115,8 @@
       "gravity": 7.840000000000001,
       "length_of_day": 15,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Primordial",
+      "orbital_period": 18057.184240316907
     },
     {
       "position": {
@@ -122,7 +130,8 @@
       "length_of_day": 21.7,
       "parent": "III",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Radioactive",
+      "orbital_period": 2.456239415933349
     },
     {
       "position": {
@@ -136,7 +145,8 @@
       "length_of_day": 20.3,
       "parent": "VI",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Copper",
+      "orbital_period": 9.36802315892787
     },
     {
       "position": {
@@ -150,7 +160,8 @@
       "length_of_day": 24.5,
       "parent": "VI",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Auric",
+      "orbital_period": 9.36802315892787
     },
     {
       "position": {
@@ -164,7 +175,8 @@
       "length_of_day": 20.1,
       "parent": "VI",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Copper",
+      "orbital_period": 9.36802315892787
     },
     {
       "position": {
@@ -178,7 +190,8 @@
       "length_of_day": 23.4,
       "parent": "VI",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Oolite",
+      "orbital_period": 9.36802315892787
     }
   ]
 }

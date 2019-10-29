@@ -1,6 +1,6 @@
 {
   "name": "Epsilon Brahe",
-  "mass": 3e+24,
+  "mass": 1.989e+30,
   "position": {
     "x": 641.6,
     "y": 262.5
@@ -17,7 +17,8 @@
       "gravity": 2.0580000000000003,
       "length_of_day": 19.2,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Azure",
+      "orbital_period": 1188.7900920387083
     },
     {
       "position": {
@@ -30,7 +31,8 @@
       "gravity": 28.518000000000004,
       "length_of_day": 9.5,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Gas Giant",
+      "orbital_period": 3169.2841034032353
     },
     {
       "position": {
@@ -43,7 +45,8 @@
       "gravity": 2.156,
       "length_of_day": 23.9,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Azure",
+      "orbital_period": 5369.479490687149
     },
     {
       "position": {
@@ -56,7 +59,8 @@
       "gravity": 26.068000000000005,
       "length_of_day": 9.3,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Gas Giant",
+      "orbital_period": 19779.26174132547
     },
     {
       "position": {
@@ -70,7 +74,8 @@
       "length_of_day": 19.4,
       "parent": "IV",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Dust",
+      "orbital_period": 19.779261741325467
     },
     {
       "position": {
@@ -84,7 +89,8 @@
       "length_of_day": 2667.8,
       "parent": "IV",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Pellucid",
+      "orbital_period": 19.779261741325467
     }
   ]
 }

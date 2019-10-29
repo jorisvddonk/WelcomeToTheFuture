@@ -1,6 +1,6 @@
 {
   "name": "Zeta Muscae",
-  "mass": 3e+24,
+  "mass": 1.989e+30,
   "position": {
     "x": 112.5,
     "y": 858.3
@@ -17,7 +17,8 @@
       "gravity": 9.8,
       "length_of_day": 20.7,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Hydrocarbon",
+      "orbital_period": 1193.5484211062458
     },
     {
       "position": {
@@ -30,7 +31,8 @@
       "gravity": 4.312,
       "length_of_day": 26.6,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Copper",
+      "orbital_period": 3678.7529024968658
     },
     {
       "position": {
@@ -43,7 +45,8 @@
       "gravity": 1.764,
       "length_of_day": 16.5,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Urea",
+      "orbital_period": 5419.338432591463
     },
     {
       "position": {
@@ -56,7 +59,8 @@
       "gravity": 5.292000000000001,
       "length_of_day": 19.2,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Copper",
+      "orbital_period": 9345.952318548236
     },
     {
       "position": {
@@ -69,7 +73,8 @@
       "gravity": 28.126000000000005,
       "length_of_day": 12.2,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Gas Giant",
+      "orbital_period": 11088.534118640195
     },
     {
       "position": {
@@ -82,7 +87,8 @@
       "gravity": 29.302000000000003,
       "length_of_day": 14.8,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Gas Giant",
+      "orbital_period": 16300.869690363896
     },
     {
       "position": {
@@ -95,7 +101,8 @@
       "gravity": 9.898000000000001,
       "length_of_day": 29.8,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Vinylogous",
+      "orbital_period": 19973.81098967528
     },
     {
       "position": {
@@ -109,7 +116,8 @@
       "length_of_day": 4775.7,
       "parent": "VI",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Carbide",
+      "orbital_period": 16.300869690363896
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "name": "Eta Chamaeleonis",
-  "mass": 3e+24,
+  "mass": 1.989e+30,
   "position": {
     "x": 508.3,
     "y": 714.5
@@ -17,7 +17,8 @@
       "gravity": 5.488000000000001,
       "length_of_day": 28.7,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Metal",
+      "orbital_period": 1425.8767073145511
     },
     {
       "position": {
@@ -30,7 +31,8 @@
       "gravity": 7.9380000000000015,
       "length_of_day": 21.5,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Organic",
+      "orbital_period": 3010.20326386727
     },
     {
       "position": {
@@ -43,7 +45,8 @@
       "gravity": 5.292000000000001,
       "length_of_day": 16.3,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Radioactive",
+      "orbital_period": 11457.57412626141
     },
     {
       "position": {
@@ -56,7 +59,8 @@
       "gravity": 4.41,
       "length_of_day": 29.7,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Yttric",
+      "orbital_period": 14847.563552403133
     },
     {
       "position": {
@@ -69,7 +73,8 @@
       "gravity": 5.88,
       "length_of_day": 10.1,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Gas Giant",
+      "orbital_period": 16590.049943506107
     },
     {
       "position": {
@@ -83,7 +88,8 @@
       "length_of_day": 22.9,
       "parent": "II",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Treasure",
+      "orbital_period": 3.01020326386727
     },
     {
       "position": {
@@ -97,7 +103,8 @@
       "length_of_day": 27.2,
       "parent": "V",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Urea",
+      "orbital_period": 16.590049943506106
     },
     {
       "position": {
@@ -111,7 +118,8 @@
       "length_of_day": 23.3,
       "parent": "V",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Auric",
+      "orbital_period": 16.590049943506106
     },
     {
       "position": {
@@ -125,7 +133,8 @@
       "length_of_day": 26.6,
       "parent": "V",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Cyanic",
+      "orbital_period": 16.590049943506106
     },
     {
       "position": {
@@ -139,7 +148,8 @@
       "length_of_day": 28.4,
       "parent": "V",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Yttric",
+      "orbital_period": 16.590049943506106
     }
   ]
 }

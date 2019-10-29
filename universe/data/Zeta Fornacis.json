@@ -1,6 +1,6 @@
 {
   "name": "Zeta Fornacis",
-  "mass": 3e+24,
+  "mass": 1.989e+30,
   "position": {
     "x": 610.4,
     "y": 800
@@ -17,7 +17,8 @@
       "gravity": 9.702,
       "length_of_day": 27.4,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Vinylogous",
+      "orbital_period": 931.2434509440443
     },
     {
       "position": {
@@ -30,7 +31,8 @@
       "gravity": 1.3720000000000003,
       "length_of_day": 23.7,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Halide",
+      "orbital_period": 5614.983549107521
     },
     {
       "position": {
@@ -43,7 +45,8 @@
       "gravity": 7.546000000000001,
       "length_of_day": 10.3,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Gas Giant",
+      "orbital_period": 7371.184621589704
     },
     {
       "position": {
@@ -56,7 +59,8 @@
       "gravity": 2.842,
       "length_of_day": 20,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Carbide",
+      "orbital_period": 16877.082120836003
     },
     {
       "position": {
@@ -69,7 +73,8 @@
       "gravity": 1.568,
       "length_of_day": 17.5,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Halide",
+      "orbital_period": 21941.257932680615
     },
     {
       "position": {
@@ -83,7 +88,8 @@
       "length_of_day": 21.7,
       "parent": "I",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Halide",
+      "orbital_period": 0.9312434509440441
     },
     {
       "position": {
@@ -97,7 +103,8 @@
       "length_of_day": 17.8,
       "parent": "III",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Infrared",
+      "orbital_period": 7.371184621589703
     },
     {
       "position": {
@@ -111,7 +118,8 @@
       "length_of_day": 16.7,
       "parent": "III",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Green",
+      "orbital_period": 7.371184621589703
     },
     {
       "position": {
@@ -125,7 +133,8 @@
       "length_of_day": 28.4,
       "parent": "III",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Green",
+      "orbital_period": 7.371184621589703
     }
   ]
 }

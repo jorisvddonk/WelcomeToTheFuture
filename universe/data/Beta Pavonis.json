@@ -1,6 +1,6 @@
 {
   "name": "Beta Pavonis",
-  "mass": 3e+24,
+  "mass": 1.989e+30,
   "position": {
     "x": 68.7,
     "y": 800
@@ -17,7 +17,8 @@
       "gravity": 2.6460000000000004,
       "length_of_day": 23.2,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Carbide",
+      "orbital_period": 747.9050473192599
     },
     {
       "position": {
@@ -30,7 +31,8 @@
       "gravity": 9.898000000000001,
       "length_of_day": 26.6,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Chlorine",
+      "orbital_period": 1709.014229492822
     },
     {
       "position": {
@@ -43,7 +45,8 @@
       "gravity": 5.488000000000001,
       "length_of_day": 5795.1,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Maroon",
+      "orbital_period": 7844.9481574714955
     },
     {
       "position": {
@@ -56,7 +59,8 @@
       "gravity": 29.400000000000002,
       "length_of_day": 12,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Gas Giant",
+      "orbital_period": 11131.937794504322
     },
     {
       "position": {
@@ -69,7 +73,8 @@
       "gravity": 24.304000000000002,
       "length_of_day": 8.2,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Gas Giant",
+      "orbital_period": 13340.72816762868
     },
     {
       "position": {
@@ -82,7 +87,8 @@
       "gravity": 1.6660000000000001,
       "length_of_day": 26.7,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Halide",
+      "orbital_period": 15802.655667300725
     },
     {
       "position": {
@@ -95,7 +101,8 @@
       "gravity": 1.568,
       "length_of_day": 23.4,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Purple",
+      "orbital_period": 20156.776489673914
     },
     {
       "position": {
@@ -109,7 +116,8 @@
       "length_of_day": 20.6,
       "parent": "IV",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Dust",
+      "orbital_period": 11.131937794504323
     },
     {
       "position": {
@@ -123,7 +131,8 @@
       "length_of_day": 29,
       "parent": "IV",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Purple",
+      "orbital_period": 11.131937794504323
     },
     {
       "position": {
@@ -137,7 +146,8 @@
       "length_of_day": 18.2,
       "parent": "V",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Dust",
+      "orbital_period": 13.340728167628681
     },
     {
       "position": {
@@ -151,7 +161,8 @@
       "length_of_day": 29.3,
       "parent": "V",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Alkali",
+      "orbital_period": 13.340728167628681
     },
     {
       "position": {
@@ -165,7 +176,8 @@
       "length_of_day": 29,
       "parent": "V",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Dust",
+      "orbital_period": 13.340728167628681
     },
     {
       "position": {
@@ -179,7 +191,8 @@
       "length_of_day": 2667.8,
       "parent": "V",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Green",
+      "orbital_period": 13.340728167628681
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "name": "Fomalhaut",
-  "mass": 3e+24,
+  "mass": 1.989e+30,
   "position": {
     "x": 437.5,
     "y": 856.2
@@ -17,7 +17,8 @@
       "gravity": 4.704,
       "length_of_day": 19.2,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Ruby",
+      "orbital_period": 2225.8171647295208
     },
     {
       "position": {
@@ -30,7 +31,8 @@
       "gravity": 1.47,
       "length_of_day": 27.7,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Purple",
+      "orbital_period": 4114.236066322933
     },
     {
       "position": {
@@ -43,7 +45,8 @@
       "gravity": 1.764,
       "length_of_day": 18.2,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Urea",
+      "orbital_period": 7490.897399863182
     },
     {
       "position": {
@@ -56,7 +59,8 @@
       "gravity": 5.390000000000001,
       "length_of_day": 16.2,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Super-Dense",
+      "orbital_period": 9935.04511183458
     },
     {
       "position": {
@@ -69,7 +73,8 @@
       "gravity": 18.914,
       "length_of_day": 8.6,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Gas Giant",
+      "orbital_period": 20136.419537439553
     },
     {
       "position": {
@@ -83,7 +88,8 @@
       "length_of_day": 24.5,
       "parent": "V",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Crimson",
+      "orbital_period": 20.136419537439558
     },
     {
       "position": {
@@ -97,7 +103,8 @@
       "length_of_day": 16.5,
       "parent": "V",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Urea",
+      "orbital_period": 20.136419537439558
     },
     {
       "position": {
@@ -111,7 +118,8 @@
       "length_of_day": 16,
       "parent": "V",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Chondrite",
+      "orbital_period": 20.136419537439558
     },
     {
       "position": {
@@ -125,7 +133,8 @@
       "length_of_day": 19.9,
       "parent": "V",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Dust",
+      "orbital_period": 20.136419537439558
     }
   ]
 }

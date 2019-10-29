@@ -1,6 +1,6 @@
 {
   "name": "Delta Lipi",
-  "mass": 3e+24,
+  "mass": 1.989e+30,
   "position": {
     "x": 564.5,
     "y": 897.9
@@ -17,7 +17,8 @@
       "gravity": 1.6660000000000001,
       "length_of_day": 18.6,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Azure",
+      "orbital_period": 1639.7232466401638
     },
     {
       "position": {
@@ -30,7 +31,8 @@
       "gravity": 15.484000000000002,
       "length_of_day": 13.5,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Gas Giant",
+      "orbital_period": 12776.98378938231
     },
     {
       "position": {
@@ -44,7 +46,8 @@
       "length_of_day": 22.1,
       "parent": "II",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Purple",
+      "orbital_period": 12.776983789382308
     },
     {
       "position": {
@@ -58,7 +61,8 @@
       "length_of_day": 21.3,
       "parent": "II",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Super-Dense",
+      "orbital_period": 12.776983789382308
     }
   ]
 }

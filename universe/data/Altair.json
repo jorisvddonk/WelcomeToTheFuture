@@ -1,6 +1,6 @@
 {
   "name": "Altair",
-  "mass": 3e+24,
+  "mass": 1.989e+30,
   "position": {
     "x": 450,
     "y": 650
@@ -17,7 +17,8 @@
       "gravity": 11.76,
       "length_of_day": 19.1,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Ultraviolet",
+      "orbital_period": 459.5554171307741
     },
     {
       "position": {
@@ -30,7 +31,8 @@
       "gravity": 4.41,
       "length_of_day": 19,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Copper",
+      "orbital_period": 1255.9798651629947
     },
     {
       "position": {
@@ -43,7 +45,8 @@
       "gravity": 12.348,
       "length_of_day": 15.2,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Ultraviolet",
+      "orbital_period": 3060.0296791643746
     },
     {
       "position": {
@@ -56,7 +59,8 @@
       "gravity": 4.214,
       "length_of_day": 17.4,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Lanthanide",
+      "orbital_period": 4943.015530853652
     },
     {
       "position": {
@@ -69,7 +73,8 @@
       "gravity": 4.9,
       "length_of_day": 29.8,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Lanthanide",
+      "orbital_period": 6703.21171140961
     },
     {
       "position": {
@@ -82,7 +87,8 @@
       "gravity": 1.078,
       "length_of_day": 26.4,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Noble",
+      "orbital_period": 13082.513637610953
     },
     {
       "position": {
@@ -95,7 +101,8 @@
       "gravity": 9.212,
       "length_of_day": 27.2,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Xenolithic",
+      "orbital_period": 15604.070109917235
     },
     {
       "position": {
@@ -108,7 +115,8 @@
       "gravity": 23.128,
       "length_of_day": 9.2,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Gas Giant",
+      "orbital_period": 18804.15652866639
     },
     {
       "position": {
@@ -121,7 +129,8 @@
       "gravity": 1.568,
       "length_of_day": 26.2,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Opalescent",
+      "orbital_period": 21540.35806496922
     },
     {
       "position": {
@@ -135,7 +144,8 @@
       "length_of_day": 28.2,
       "parent": "III",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Alkali",
+      "orbital_period": 3.060029679164374
     }
   ]
 }

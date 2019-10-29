@@ -1,6 +1,6 @@
 {
   "name": "Alpha Columbae",
-  "mass": 6e+24,
+  "mass": 3.978e+30,
   "position": {
     "x": 75,
     "y": 645.8
@@ -17,7 +17,8 @@
       "gravity": 8.526,
       "length_of_day": 23.4,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Xenolithic",
+      "orbital_period": 956.3064843646521
     },
     {
       "position": {
@@ -30,7 +31,8 @@
       "gravity": 2.0580000000000003,
       "length_of_day": 24.5,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Selenic",
+      "orbital_period": 1543.597331772619
     },
     {
       "position": {
@@ -43,7 +45,8 @@
       "gravity": 10.976000000000003,
       "length_of_day": 20.8,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Primordial",
+      "orbital_period": 3977.9173764545385
     },
     {
       "position": {
@@ -56,7 +59,8 @@
       "gravity": 21.756000000000004,
       "length_of_day": 14.4,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Gas Giant",
+      "orbital_period": 5046.321934817068
     },
     {
       "position": {
@@ -69,7 +73,8 @@
       "gravity": 5.096000000000001,
       "length_of_day": 25.1,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Sapphire",
+      "orbital_period": 7251.510818635272
     },
     {
       "position": {
@@ -83,7 +88,8 @@
       "length_of_day": 22.1,
       "parent": "I",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Quasi-Degenerate",
+      "orbital_period": 0.9563064843646518
     },
     {
       "position": {
@@ -97,7 +103,8 @@
       "length_of_day": 21.4,
       "parent": "I",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Radioactive",
+      "orbital_period": 0.9563064843646518
     },
     {
       "position": {
@@ -111,7 +118,8 @@
       "length_of_day": 24.7,
       "parent": "IV",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Radioactive",
+      "orbital_period": 5.046321934817068
     },
     {
       "position": {
@@ -125,7 +133,8 @@
       "length_of_day": 24.5,
       "parent": "IV",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Lanthanide",
+      "orbital_period": 5.046321934817068
     },
     {
       "position": {
@@ -139,7 +148,8 @@
       "length_of_day": 20.3,
       "parent": "IV",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Yttric",
+      "orbital_period": 5.046321934817068
     },
     {
       "position": {
@@ -153,7 +163,8 @@
       "length_of_day": 17,
       "parent": "IV",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Cyanic",
+      "orbital_period": 5.046321934817068
     }
   ]
 }

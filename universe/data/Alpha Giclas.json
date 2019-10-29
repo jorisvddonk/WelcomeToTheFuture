@@ -1,6 +1,6 @@
 {
   "name": "Alpha Giclas",
-  "mass": 6e+24,
+  "mass": 3.978e+30,
   "position": {
     "x": 84.3,
     "y": 38
@@ -17,7 +17,8 @@
       "gravity": 1.764,
       "length_of_day": 28.1,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Dust",
+      "orbital_period": 812.7377326589194
     },
     {
       "position": {
@@ -30,7 +31,8 @@
       "gravity": 2.45,
       "length_of_day": 15.4,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Infrared",
+      "orbital_period": 1719.7214231427579
     },
     {
       "position": {
@@ -43,7 +45,8 @@
       "gravity": 2.0580000000000003,
       "length_of_day": 15.5,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Pellucid",
+      "orbital_period": 2845.0196420727043
     },
     {
       "position": {
@@ -56,7 +59,8 @@
       "gravity": 5.978000000000001,
       "length_of_day": 24.4,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Iodine",
+      "orbital_period": 5396.542351408911
     },
     {
       "position": {
@@ -69,7 +73,8 @@
       "gravity": 11.76,
       "length_of_day": 11,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Gas Giant",
+      "orbital_period": 6785.4262888432595
     },
     {
       "position": {
@@ -82,7 +87,8 @@
       "gravity": 2.6460000000000004,
       "length_of_day": 24.3,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Acid",
+      "orbital_period": 8707.72744353913
     },
     {
       "position": {
@@ -95,7 +101,8 @@
       "gravity": 21.658,
       "length_of_day": 10.9,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Gas Giant",
+      "orbital_period": 10139.434854114237
     },
     {
       "position": {
@@ -108,7 +115,8 @@
       "gravity": 15.974,
       "length_of_day": 27.3,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Magma",
+      "orbital_period": 11969.197222030842
     },
     {
       "position": {
@@ -122,7 +130,8 @@
       "length_of_day": 29.9,
       "parent": "VII",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Alkali",
+      "orbital_period": 10.139434854114235
     },
     {
       "position": {
@@ -136,7 +145,8 @@
       "length_of_day": 28.4,
       "parent": "VII",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Radioactive",
+      "orbital_period": 10.139434854114235
     },
     {
       "position": {
@@ -150,7 +160,8 @@
       "length_of_day": 29.5,
       "parent": "VII",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Urea",
+      "orbital_period": 10.139434854114235
     }
   ]
 }

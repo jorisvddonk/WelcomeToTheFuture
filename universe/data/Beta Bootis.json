@@ -1,6 +1,6 @@
 {
   "name": "Beta Bootis",
-  "mass": 3e+24,
+  "mass": 1.989e+30,
   "position": {
     "x": 35.1,
     "y": 275.8
@@ -17,7 +17,8 @@
       "gravity": 2.7440000000000007,
       "length_of_day": 15.4,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Alkali",
+      "orbital_period": 239.85172192416448
     },
     {
       "position": {
@@ -30,7 +31,8 @@
       "gravity": 11.27,
       "length_of_day": 26.6,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Telluric",
+      "orbital_period": 1432.6184341942874
     },
     {
       "position": {
@@ -43,7 +45,8 @@
       "gravity": 1.764,
       "length_of_day": 28.4,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Opalescent",
+      "orbital_period": 6921.614563428851
     },
     {
       "position": {
@@ -56,7 +59,8 @@
       "gravity": 2.6460000000000004,
       "length_of_day": 29.4,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Chondrite",
+      "orbital_period": 10496.68206073546
     },
     {
       "position": {
@@ -69,7 +73,8 @@
       "gravity": 1.6660000000000001,
       "length_of_day": 16.4,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Azure",
+      "orbital_period": 13227.331177910888
     },
     {
       "position": {
@@ -82,7 +87,8 @@
       "gravity": 3.136,
       "length_of_day": 28.7,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Chondrite",
+      "orbital_period": 15750.11777465233
     },
     {
       "position": {
@@ -95,7 +101,8 @@
       "gravity": 24.5,
       "length_of_day": 11.6,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Gas Giant",
+      "orbital_period": 18253.813122164524
     }
   ]
 }

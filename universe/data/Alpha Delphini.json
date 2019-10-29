@@ -1,6 +1,6 @@
 {
   "name": "Alpha Delphini",
-  "mass": 3e+24,
+  "mass": 1.989e+30,
   "position": {
     "x": 371.6,
     "y": 645.8
@@ -17,7 +17,8 @@
       "gravity": 3.136,
       "length_of_day": 15.7,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Crimson",
+      "orbital_period": 1959.863711900292
     },
     {
       "position": {
@@ -30,7 +31,8 @@
       "gravity": 13.426000000000002,
       "length_of_day": 17.9,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Magma",
+      "orbital_period": 3384.8470711915743
     },
     {
       "position": {
@@ -43,7 +45,8 @@
       "gravity": 1.9600000000000002,
       "length_of_day": 28.3,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Purple",
+      "orbital_period": 6629.994009455057
     },
     {
       "position": {
@@ -56,7 +59,8 @@
       "gravity": 3.2340000000000004,
       "length_of_day": 24.3,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Chondrite",
+      "orbital_period": 9160.617811655038
     },
     {
       "position": {
@@ -69,7 +73,8 @@
       "gravity": 11.564,
       "length_of_day": 12.5,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Gas Giant",
+      "orbital_period": 11929.62990244602
     },
     {
       "position": {
@@ -82,7 +87,8 @@
       "gravity": 7.3500000000000005,
       "length_of_day": 14.7,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Gas Giant",
+      "orbital_period": 16020.932873378617
     },
     {
       "position": {
@@ -96,7 +102,8 @@
       "length_of_day": 20.6,
       "parent": "V",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Pellucid",
+      "orbital_period": 11.929629902446024
     },
     {
       "position": {
@@ -110,7 +117,8 @@
       "length_of_day": 19.9,
       "parent": "V",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Cimmerian",
+      "orbital_period": 11.929629902446024
     },
     {
       "position": {
@@ -124,7 +132,8 @@
       "length_of_day": 18.1,
       "parent": "V",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Selenic",
+      "orbital_period": 11.929629902446024
     },
     {
       "position": {
@@ -138,7 +147,8 @@
       "length_of_day": 24.5,
       "parent": "V",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Purple",
+      "orbital_period": 11.929629902446024
     },
     {
       "position": {
@@ -152,7 +162,8 @@
       "length_of_day": 24.1,
       "parent": "VI",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Cimmerian",
+      "orbital_period": 16.020932873378616
     }
   ]
 }

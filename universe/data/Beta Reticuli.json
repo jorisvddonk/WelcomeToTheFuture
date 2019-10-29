@@ -1,6 +1,6 @@
 {
   "name": "Beta Reticuli",
-  "mass": 3e+24,
+  "mass": 1.989e+30,
   "position": {
     "x": 702,
     "y": 529.1
@@ -17,7 +17,8 @@
       "gravity": 5.390000000000001,
       "length_of_day": 18.8,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Radioactive",
+      "orbital_period": 160.44048262556342
     },
     {
       "position": {
@@ -30,7 +31,8 @@
       "gravity": 2.94,
       "length_of_day": 18,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Green",
+      "orbital_period": 541.4866288612766
     },
     {
       "position": {
@@ -43,7 +45,8 @@
       "gravity": 1.862,
       "length_of_day": 4179.6,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Urea",
+      "orbital_period": 4881.970146705337
     },
     {
       "position": {
@@ -56,7 +59,8 @@
       "gravity": 7.056,
       "length_of_day": 27,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Treasure",
+      "orbital_period": 8286.023016394525
     },
     {
       "position": {
@@ -69,7 +73,8 @@
       "gravity": 4.8020000000000005,
       "length_of_day": 21.6,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Lanthanide",
+      "orbital_period": 13393.993978848377
     },
     {
       "position": {
@@ -82,7 +87,8 @@
       "gravity": 3.6260000000000003,
       "length_of_day": 27.3,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Copper",
+      "orbital_period": 17239.138935471496
     },
     {
       "position": {
@@ -95,7 +101,8 @@
       "gravity": 3.6260000000000003,
       "length_of_day": 24.9,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Copper",
+      "orbital_period": 19860.2467819479
     }
   ]
 }

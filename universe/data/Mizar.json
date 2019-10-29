@@ -1,6 +1,6 @@
 {
   "name": "Mizar",
-  "mass": 3e+24,
+  "mass": 1.989e+30,
   "position": {
     "x": 41.6,
     "y": 130.1
@@ -17,7 +17,8 @@
       "gravity": 2.5480000000000005,
       "length_of_day": 15,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Infrared",
+      "orbital_period": 4095.070389661656
     }
   ]
 }

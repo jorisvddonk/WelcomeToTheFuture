@@ -1,6 +1,6 @@
 {
   "name": "Gamma Lacaille",
-  "mass": 6e+24,
+  "mass": 3.978e+30,
   "position": {
     "x": 24.2,
     "y": 85.7
@@ -17,7 +17,8 @@
       "gravity": 3.9200000000000004,
       "length_of_day": 21.8,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Cimmerian",
+      "orbital_period": 555.9659592198235
     },
     {
       "position": {
@@ -30,7 +31,8 @@
       "gravity": 1.078,
       "length_of_day": 17,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Noble",
+      "orbital_period": 2020.997953403643
     },
     {
       "position": {
@@ -43,7 +45,8 @@
       "gravity": 23.814000000000004,
       "length_of_day": 13.6,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Gas Giant",
+      "orbital_period": 4119.876224851286
     },
     {
       "position": {
@@ -56,7 +59,8 @@
       "gravity": 24.598,
       "length_of_day": 9.2,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Gas Giant",
+      "orbital_period": 6263.988694892727
     },
     {
       "position": {
@@ -69,7 +73,8 @@
       "gravity": 19.698,
       "length_of_day": 15.7,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Gas Giant",
+      "orbital_period": 7501.177422238912
     },
     {
       "position": {
@@ -82,7 +87,8 @@
       "gravity": 7.154,
       "length_of_day": 4367.3,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Radioactive",
+      "orbital_period": 15222.502645454533
     },
     {
       "position": {
@@ -96,7 +102,8 @@
       "length_of_day": 23.6,
       "parent": "III",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Pellucid",
+      "orbital_period": 4.119876224851286
     },
     {
       "position": {
@@ -110,7 +117,8 @@
       "length_of_day": 19.6,
       "parent": "III",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Radioactive",
+      "orbital_period": 4.119876224851286
     },
     {
       "position": {
@@ -124,7 +132,8 @@
       "length_of_day": 20.5,
       "parent": "IV",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Crimson",
+      "orbital_period": 6.263988694892728
     },
     {
       "position": {
@@ -138,7 +147,8 @@
       "length_of_day": 24.7,
       "parent": "V",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Urea",
+      "orbital_period": 7.501177422238913
     },
     {
       "position": {
@@ -152,7 +162,8 @@
       "length_of_day": 18.6,
       "parent": "V",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Green",
+      "orbital_period": 7.501177422238913
     }
   ]
 }

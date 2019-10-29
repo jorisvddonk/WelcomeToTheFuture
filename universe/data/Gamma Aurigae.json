@@ -1,6 +1,6 @@
 {
   "name": "Gamma Aurigae",
-  "mass": 3e+24,
+  "mass": 1.989e+30,
   "position": {
     "x": 816.3,
     "y": 200.9
@@ -17,7 +17,8 @@
       "gravity": 5.488000000000001,
       "length_of_day": 25.2,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Treasure",
+      "orbital_period": 453.79421296551334
     },
     {
       "position": {
@@ -30,7 +31,8 @@
       "gravity": 16.072,
       "length_of_day": 9.9,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Gas Giant",
+      "orbital_period": 3389.3412249359308
     },
     {
       "position": {
@@ -43,7 +45,8 @@
       "gravity": 8.918000000000001,
       "length_of_day": 12.9,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Gas Giant",
+      "orbital_period": 5262.413964568975
     },
     {
       "position": {
@@ -56,7 +59,8 @@
       "gravity": 10.094000000000001,
       "length_of_day": 17.7,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Organic",
+      "orbital_period": 7652.494016855013
     },
     {
       "position": {
@@ -69,7 +73,8 @@
       "gravity": 1.9600000000000002,
       "length_of_day": 2332.7,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Selenic",
+      "orbital_period": 11292.686258013939
     },
     {
       "position": {
@@ -82,7 +87,8 @@
       "gravity": 2.0580000000000003,
       "length_of_day": 28.7,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Urea",
+      "orbital_period": 14932.227851175667
     },
     {
       "position": {
@@ -95,7 +101,8 @@
       "gravity": 3.8220000000000005,
       "length_of_day": 1684.1,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Auric",
+      "orbital_period": 19075.367731468355
     },
     {
       "position": {
@@ -109,7 +116,8 @@
       "length_of_day": 24.2,
       "parent": "II",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Lanthanide",
+      "orbital_period": 3.3893412249359303
     },
     {
       "position": {
@@ -123,7 +131,8 @@
       "length_of_day": 27.7,
       "parent": "II",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Treasure",
+      "orbital_period": 3.3893412249359303
     },
     {
       "position": {
@@ -137,7 +146,8 @@
       "length_of_day": 5692.1,
       "parent": "II",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Treasure",
+      "orbital_period": 3.3893412249359303
     },
     {
       "position": {
@@ -151,7 +161,8 @@
       "length_of_day": 27.5,
       "parent": "III",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Opalescent",
+      "orbital_period": 5.2624139645689745
     },
     {
       "position": {
@@ -165,7 +176,8 @@
       "length_of_day": 16.3,
       "parent": "III",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Radioactive",
+      "orbital_period": 5.2624139645689745
     },
     {
       "position": {
@@ -179,7 +191,8 @@
       "length_of_day": 20.5,
       "parent": "III",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Lanthanide",
+      "orbital_period": 5.2624139645689745
     },
     {
       "position": {
@@ -193,7 +206,8 @@
       "length_of_day": 20.2,
       "parent": "III",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Cyanic",
+      "orbital_period": 5.2624139645689745
     }
   ]
 }

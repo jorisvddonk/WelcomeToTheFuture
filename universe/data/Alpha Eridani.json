@@ -1,6 +1,6 @@
 {
   "name": "Alpha Eridani",
-  "mass": 8.999999999999999e+24,
+  "mass": 5.967e+30,
   "position": {
     "x": 587.5,
     "y": 772.9
@@ -17,7 +17,8 @@
       "gravity": 20.776000000000003,
       "length_of_day": 11.5,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Gas Giant",
+      "orbital_period": 7669.514821052449
     },
     {
       "position": {
@@ -30,7 +31,8 @@
       "gravity": 7.3500000000000005,
       "length_of_day": 25.2,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Telluric",
+      "orbital_period": 12580.827122721088
     },
     {
       "position": {
@@ -44,7 +46,8 @@
       "length_of_day": 15.2,
       "parent": "I",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Ultramarine",
+      "orbital_period": 7.66951482105245
     },
     {
       "position": {
@@ -58,7 +61,8 @@
       "length_of_day": 19.9,
       "parent": "I",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Ultramarine",
+      "orbital_period": 7.66951482105245
     },
     {
       "position": {
@@ -72,7 +76,8 @@
       "length_of_day": 17.2,
       "parent": "I",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Opalescent",
+      "orbital_period": 7.66951482105245
     }
   ]
 }

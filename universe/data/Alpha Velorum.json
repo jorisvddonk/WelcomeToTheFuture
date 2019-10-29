@@ -1,6 +1,6 @@
 {
   "name": "Alpha Velorum",
-  "mass": 3e+24,
+  "mass": 1.989e+30,
   "position": {
     "x": 86,
     "y": 406.5
@@ -17,7 +17,8 @@
       "gravity": 24.5,
       "length_of_day": 11.9,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Gas Giant",
+      "orbital_period": 1002.2520710550739
     },
     {
       "position": {
@@ -30,7 +31,8 @@
       "gravity": 5.292000000000001,
       "length_of_day": 23.6,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Metal",
+      "orbital_period": 4831.292510047337
     },
     {
       "position": {
@@ -43,7 +45,8 @@
       "gravity": 5.978000000000001,
       "length_of_day": 25.8,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Sapphire",
+      "orbital_period": 10109.247362964079
     },
     {
       "position": {
@@ -56,7 +59,8 @@
       "gravity": 4.214,
       "length_of_day": 27.7,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Yttric",
+      "orbital_period": 20197.510957876868
     },
     {
       "position": {
@@ -70,7 +74,8 @@
       "length_of_day": 23.1,
       "parent": "I",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Treasure",
+      "orbital_period": 1.0022520710550737
     }
   ]
 }

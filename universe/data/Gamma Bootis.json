@@ -1,6 +1,6 @@
 {
   "name": "Gamma Bootis",
-  "mass": 3e+24,
+  "mass": 1.989e+30,
   "position": {
     "x": 38.4,
     "y": 290
@@ -17,7 +17,8 @@
       "gravity": 5.194000000000001,
       "length_of_day": 15.7,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Super-Dense",
+      "orbital_period": 427.60698686458363
     },
     {
       "position": {
@@ -30,7 +31,8 @@
       "gravity": 2.0580000000000003,
       "length_of_day": 20.7,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Halide",
+      "orbital_period": 1885.4435724110274
     },
     {
       "position": {
@@ -43,7 +45,8 @@
       "gravity": 1.078,
       "length_of_day": 23.3,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Ultramarine",
+      "orbital_period": 4838.88291375258
     },
     {
       "position": {
@@ -56,7 +59,8 @@
       "gravity": 7.448,
       "length_of_day": 22.7,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Water",
+      "orbital_period": 9777.848559527367
     },
     {
       "position": {
@@ -69,7 +73,8 @@
       "gravity": 12.544,
       "length_of_day": 22.2,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Magnetic",
+      "orbital_period": 13672.113835942577
     },
     {
       "position": {
@@ -82,7 +87,8 @@
       "gravity": 1.568,
       "length_of_day": 17.4,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Azure",
+      "orbital_period": 17646.58143900496
     },
     {
       "position": {
@@ -95,7 +101,8 @@
       "gravity": 5.488000000000001,
       "length_of_day": 24.4,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Super-Dense",
+      "orbital_period": 21055.10495928602
     }
   ]
 }

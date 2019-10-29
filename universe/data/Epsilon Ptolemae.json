@@ -1,6 +1,6 @@
 {
   "name": "Epsilon Ptolemae",
-  "mass": 3e+24,
+  "mass": 1.989e+30,
   "position": {
     "x": 185.5,
     "y": 27
@@ -17,7 +17,8 @@
       "gravity": 2.842,
       "length_of_day": 16.4,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Alkali",
+      "orbital_period": 7165.403787992776
     }
   ]
 }

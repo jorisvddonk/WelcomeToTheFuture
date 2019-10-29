@@ -1,6 +1,6 @@
 {
   "name": "Delta Virginis",
-  "mass": 3e+24,
+  "mass": 1.989e+30,
   "position": {
     "x": 110.4,
     "y": 333.3
@@ -17,7 +17,8 @@
       "gravity": 10.682000000000002,
       "length_of_day": 21.6,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Xenolithic",
+      "orbital_period": 466.50076615784207
     },
     {
       "position": {
@@ -30,7 +31,8 @@
       "gravity": 12.838000000000001,
       "length_of_day": 18.1,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Plutonic",
+      "orbital_period": 7693.810936268315
     },
     {
       "position": {
@@ -43,7 +45,8 @@
       "gravity": 20.09,
       "length_of_day": 9.4,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Gas Giant",
+      "orbital_period": 10294.219247573095
     },
     {
       "position": {
@@ -56,7 +59,8 @@
       "gravity": 8.82,
       "length_of_day": 26.7,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Redux",
+      "orbital_period": 17603.748367146276
     },
     {
       "position": {
@@ -70,7 +74,8 @@
       "length_of_day": 21.1,
       "parent": "I",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Urea",
+      "orbital_period": 0.466500766157842
     },
     {
       "position": {
@@ -84,7 +89,8 @@
       "length_of_day": 19.9,
       "parent": "III",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Acid",
+      "orbital_period": 10.294219247573096
     }
   ]
 }

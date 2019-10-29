@@ -1,6 +1,6 @@
 {
   "name": "Gamma Pyxidis",
-  "mass": 3e+24,
+  "mass": 1.989e+30,
   "position": {
     "x": 906.2,
     "y": 508.3
@@ -17,7 +17,8 @@
       "gravity": 5.096000000000001,
       "length_of_day": 25.1,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Copper",
+      "orbital_period": 704.8669484646754
     },
     {
       "position": {
@@ -30,7 +31,8 @@
       "gravity": 2.0580000000000003,
       "length_of_day": 1443,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Halide",
+      "orbital_period": 1876.2087570320546
     },
     {
       "position": {
@@ -43,7 +45,8 @@
       "gravity": 2.6460000000000004,
       "length_of_day": 20.5,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Alkali",
+      "orbital_period": 3331.07255252645
     },
     {
       "position": {
@@ -56,7 +59,8 @@
       "gravity": 3.6260000000000003,
       "length_of_day": 3422.4,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Green",
+      "orbital_period": 4300.223069578066
     },
     {
       "position": {
@@ -69,7 +73,8 @@
       "gravity": 1.6660000000000001,
       "length_of_day": 4221.8,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Dust",
+      "orbital_period": 6364.758462793656
     },
     {
       "position": {
@@ -82,7 +87,8 @@
       "gravity": 30.772000000000002,
       "length_of_day": 9.5,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Gas Giant",
+      "orbital_period": 9516.6616545499
     },
     {
       "position": {
@@ -95,7 +101,8 @@
       "gravity": 18.130000000000003,
       "length_of_day": 11.5,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Gas Giant",
+      "orbital_period": 12825.986889958936
     },
     {
       "position": {
@@ -108,7 +115,8 @@
       "gravity": 3.0380000000000003,
       "length_of_day": 19.7,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Acid",
+      "orbital_period": 17347.47987748906
     },
     {
       "position": {
@@ -121,7 +129,8 @@
       "gravity": 3.43,
       "length_of_day": 17.4,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Green",
+      "orbital_period": 18879.805759045972
     },
     {
       "position": {
@@ -135,7 +144,8 @@
       "length_of_day": 18,
       "parent": "VI",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Acid",
+      "orbital_period": 9.516661654549901
     },
     {
       "position": {
@@ -149,7 +159,8 @@
       "length_of_day": 27.7,
       "parent": "VI",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Crimson",
+      "orbital_period": 9.516661654549901
     },
     {
       "position": {
@@ -163,7 +174,8 @@
       "length_of_day": 15.4,
       "parent": "VI",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Copper",
+      "orbital_period": 9.516661654549901
     },
     {
       "position": {
@@ -177,7 +189,8 @@
       "length_of_day": 19.1,
       "parent": "VI",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Carbide",
+      "orbital_period": 9.516661654549901
     },
     {
       "position": {
@@ -191,7 +204,8 @@
       "length_of_day": 27.2,
       "parent": "VII",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Urea",
+      "orbital_period": 12.825986889958937
     },
     {
       "position": {
@@ -205,7 +219,8 @@
       "length_of_day": 27.9,
       "parent": "VII",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Super-Dense",
+      "orbital_period": 12.825986889958937
     },
     {
       "position": {
@@ -219,7 +234,8 @@
       "length_of_day": 21.8,
       "parent": "VII",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Pellucid",
+      "orbital_period": 12.825986889958937
     },
     {
       "position": {
@@ -233,7 +249,8 @@
       "length_of_day": 28.6,
       "parent": "VII",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Selenic",
+      "orbital_period": 12.825986889958937
     }
   ]
 }

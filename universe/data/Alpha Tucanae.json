@@ -1,6 +1,6 @@
 {
   "name": "Alpha Tucanae",
-  "mass": 3e+24,
+  "mass": 1.989e+30,
   "position": {
     "x": 400,
     "y": 543.7
@@ -17,7 +17,8 @@
       "gravity": 8.526,
       "length_of_day": 21,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Redux",
+      "orbital_period": 590.9945074975185
     },
     {
       "position": {
@@ -30,7 +31,8 @@
       "gravity": 8.624,
       "length_of_day": 25.6,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Primordial",
+      "orbital_period": 6610.327392123681
     },
     {
       "position": {
@@ -43,7 +45,8 @@
       "gravity": 7.546000000000001,
       "length_of_day": 27.7,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Treasure",
+      "orbital_period": 10427.958792023075
     },
     {
       "position": {
@@ -57,7 +60,8 @@
       "length_of_day": 4343,
       "parent": "I",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Auric",
+      "orbital_period": 0.5909945074975185
     }
   ]
 }

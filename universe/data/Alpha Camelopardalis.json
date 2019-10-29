@@ -1,6 +1,6 @@
 {
   "name": "Alpha Camelopardalis",
-  "mass": 6e+24,
+  "mass": 3.978e+30,
   "position": {
     "x": 606.2,
     "y": 404.1
@@ -17,7 +17,8 @@
       "gravity": 5.096000000000001,
       "length_of_day": 25.5,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Maroon",
+      "orbital_period": 1062.3069542640008
     },
     {
       "position": {
@@ -30,7 +31,8 @@
       "gravity": 1.47,
       "length_of_day": 29.5,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Urea",
+      "orbital_period": 2364.9110346085704
     },
     {
       "position": {
@@ -43,7 +45,8 @@
       "gravity": 2.7440000000000007,
       "length_of_day": 17.7,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Alkali",
+      "orbital_period": 3979.7992264909262
     },
     {
       "position": {
@@ -56,7 +59,8 @@
       "gravity": 16.758,
       "length_of_day": 15.1,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Gas Giant",
+      "orbital_period": 6613.043992033873
     },
     {
       "position": {
@@ -70,7 +74,8 @@
       "length_of_day": 22.7,
       "parent": "IV",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Purple",
+      "orbital_period": 6.613043992033873
     },
     {
       "position": {
@@ -84,7 +89,8 @@
       "length_of_day": 20.9,
       "parent": "IV",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Opalescent",
+      "orbital_period": 6.613043992033873
     },
     {
       "position": {
@@ -98,7 +104,8 @@
       "length_of_day": 22.5,
       "parent": "IV",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Ultramarine",
+      "orbital_period": 6.613043992033873
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "name": "Alpha Mersenne",
-  "mass": 3e+24,
+  "mass": 1.989e+30,
   "position": {
     "x": 260.4,
     "y": 664.5
@@ -17,7 +17,8 @@
       "gravity": 6.468000000000001,
       "length_of_day": 19.3,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Ruby",
+      "orbital_period": 7839.002763042703
     },
     {
       "position": {
@@ -30,7 +31,8 @@
       "gravity": 1.764,
       "length_of_day": 1445.7,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Dust",
+      "orbital_period": 21702.926377996584
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "name": "Zeta Gruis",
-  "mass": 3e+24,
+  "mass": 1.989e+30,
   "position": {
     "x": 258.3,
     "y": 375
@@ -17,7 +17,8 @@
       "gravity": 24.206000000000003,
       "length_of_day": 8.7,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Gas Giant",
+      "orbital_period": 3839.274911944381
     },
     {
       "position": {
@@ -31,7 +32,8 @@
       "length_of_day": 20.5,
       "parent": "I",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Yttric",
+      "orbital_period": 3.839274911944381
     },
     {
       "position": {
@@ -45,7 +47,8 @@
       "length_of_day": 19,
       "parent": "I",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Quasi-Degenerate",
+      "orbital_period": 3.839274911944381
     }
   ]
 }

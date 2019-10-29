@@ -1,6 +1,6 @@
 {
   "name": "Alpha Gruis",
-  "mass": 3e+24,
+  "mass": 1.989e+30,
   "position": {
     "x": 227.4,
     "y": 366.3
@@ -17,7 +17,8 @@
       "gravity": 8.918000000000001,
       "length_of_day": 25.6,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Vinylogous",
+      "orbital_period": 18328.718023967773
     }
   ]
 }

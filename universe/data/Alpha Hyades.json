@@ -1,6 +1,6 @@
 {
   "name": "Alpha Hyades",
-  "mass": 3e+24,
+  "mass": 1.989e+30,
   "position": {
     "x": 832.2,
     "y": 893.4
@@ -17,7 +17,8 @@
       "gravity": 5.292000000000001,
       "length_of_day": 24.3,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Treasure",
+      "orbital_period": 286.8178176726839
     },
     {
       "position": {
@@ -30,7 +31,8 @@
       "gravity": 8.624,
       "length_of_day": 29.7,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Xenolithic",
+      "orbital_period": 1314.5431128113562
     },
     {
       "position": {
@@ -43,7 +45,8 @@
       "gravity": 15.190000000000001,
       "length_of_day": 11,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Gas Giant",
+      "orbital_period": 3191.2878783760034
     },
     {
       "position": {
@@ -56,7 +59,8 @@
       "gravity": 26.754,
       "length_of_day": 9.9,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Gas Giant",
+      "orbital_period": 8707.348779135527
     },
     {
       "position": {
@@ -69,7 +73,8 @@
       "gravity": 6.370000000000001,
       "length_of_day": 19.1,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Treasure",
+      "orbital_period": 11636.816887596848
     },
     {
       "position": {
@@ -82,7 +87,8 @@
       "gravity": 8.134,
       "length_of_day": 9.1,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Gas Giant",
+      "orbital_period": 13894.538594533675
     },
     {
       "position": {
@@ -95,7 +101,8 @@
       "gravity": 5.390000000000001,
       "length_of_day": 1357.6,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Radioactive",
+      "orbital_period": 16716.141883819757
     },
     {
       "position": {
@@ -108,7 +115,8 @@
       "gravity": 1.862,
       "length_of_day": 24.3,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Urea",
+      "orbital_period": 19239.51662584163
     },
     {
       "position": {
@@ -122,7 +130,8 @@
       "length_of_day": 25.6,
       "parent": "III",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Quasi-Degenerate",
+      "orbital_period": 3.191287878376003
     },
     {
       "position": {
@@ -136,7 +145,8 @@
       "length_of_day": 19.8,
       "parent": "III",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Treasure",
+      "orbital_period": 3.191287878376003
     },
     {
       "position": {
@@ -150,7 +160,8 @@
       "length_of_day": 2168.7,
       "parent": "VI",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Treasure",
+      "orbital_period": 13.894538594533673
     },
     {
       "position": {
@@ -164,7 +175,8 @@
       "length_of_day": 27.2,
       "parent": "VI",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Opalescent",
+      "orbital_period": 13.894538594533673
     },
     {
       "position": {
@@ -178,7 +190,8 @@
       "length_of_day": 4884,
       "parent": "VI",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Opalescent",
+      "orbital_period": 13.894538594533673
     },
     {
       "position": {
@@ -192,7 +205,8 @@
       "length_of_day": 22.4,
       "parent": "VI",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Quasi-Degenerate",
+      "orbital_period": 13.894538594533673
     }
   ]
 }

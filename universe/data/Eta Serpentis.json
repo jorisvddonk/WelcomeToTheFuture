@@ -1,6 +1,6 @@
 {
   "name": "Eta Serpentis",
-  "mass": 3e+24,
+  "mass": 1.989e+30,
   "position": {
     "x": 471.4,
     "y": 7.8
@@ -17,7 +17,8 @@
       "gravity": 2.156,
       "length_of_day": 26.6,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Selenic",
+      "orbital_period": 1414.1042221704192
     }
   ]
 }

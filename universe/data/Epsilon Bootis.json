@@ -1,6 +1,6 @@
 {
   "name": "Epsilon Bootis",
-  "mass": 3e+24,
+  "mass": 1.989e+30,
   "position": {
     "x": 13.8,
     "y": 269.6
@@ -17,7 +17,8 @@
       "gravity": 10.094000000000001,
       "length_of_day": 25,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Telluric",
+      "orbital_period": 1716.1748978309972
     },
     {
       "position": {
@@ -30,7 +31,8 @@
       "gravity": 1.9600000000000002,
       "length_of_day": 25.4,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Purple",
+      "orbital_period": 3211.1346177309592
     },
     {
       "position": {
@@ -43,7 +45,8 @@
       "gravity": 6.0760000000000005,
       "length_of_day": 20.5,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Iodine",
+      "orbital_period": 6226.617423954552
     },
     {
       "position": {
@@ -56,7 +59,8 @@
       "gravity": 4.9,
       "length_of_day": 21,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Cimmerian",
+      "orbital_period": 12380.294695879094
     },
     {
       "position": {
@@ -69,7 +73,8 @@
       "gravity": 23.128,
       "length_of_day": 10.3,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Gas Giant",
+      "orbital_period": 19710.511236394996
     },
     {
       "position": {
@@ -83,7 +88,8 @@
       "length_of_day": 16.5,
       "parent": "I",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Super-Dense",
+      "orbital_period": 1.7161748978309974
     },
     {
       "position": {
@@ -97,7 +103,8 @@
       "length_of_day": 18.5,
       "parent": "V",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Purple",
+      "orbital_period": 19.710511236395
     }
   ]
 }

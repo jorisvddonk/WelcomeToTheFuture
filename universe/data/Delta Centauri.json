@@ -1,6 +1,6 @@
 {
   "name": "Delta Centauri",
-  "mass": 3e+24,
+  "mass": 1.989e+30,
   "position": {
     "x": 131.2,
     "y": 126
@@ -17,7 +17,8 @@
       "gravity": 1.176,
       "length_of_day": 29.6,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Cyanic",
+      "orbital_period": 1133.7469717057193
     },
     {
       "position": {
@@ -30,7 +31,8 @@
       "gravity": 9.604000000000001,
       "length_of_day": 21.6,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Xenolithic",
+      "orbital_period": 3138.5641979045454
     },
     {
       "position": {
@@ -43,7 +45,8 @@
       "gravity": 9.604000000000001,
       "length_of_day": 5876.5,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Redux",
+      "orbital_period": 4836.352337868783
     },
     {
       "position": {
@@ -56,7 +59,8 @@
       "gravity": 1.47,
       "length_of_day": 21.9,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Halide",
+      "orbital_period": 6858.975756186624
     },
     {
       "position": {
@@ -69,7 +73,8 @@
       "gravity": 0.882,
       "length_of_day": 2481.9,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Noble",
+      "orbital_period": 9085.582268394513
     },
     {
       "position": {
@@ -82,7 +87,8 @@
       "gravity": 6.762,
       "length_of_day": 28.8,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Treasure",
+      "orbital_period": 11008.552899789294
     },
     {
       "position": {
@@ -95,7 +101,8 @@
       "gravity": 10.192000000000002,
       "length_of_day": 17.1,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Primordial",
+      "orbital_period": 13248.568528085732
     },
     {
       "position": {
@@ -108,7 +115,8 @@
       "gravity": 7.056,
       "length_of_day": 27.4,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Super-Dense",
+      "orbital_period": 20156.776489673914
     },
     {
       "position": {
@@ -122,7 +130,8 @@
       "length_of_day": 15.1,
       "parent": "II",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Radioactive",
+      "orbital_period": 3.138564197904545
     },
     {
       "position": {
@@ -136,7 +145,8 @@
       "length_of_day": 27.9,
       "parent": "VII",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Halide",
+      "orbital_period": 13.248568528085732
     },
     {
       "position": {
@@ -150,7 +160,8 @@
       "length_of_day": 17.2,
       "parent": "VII",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Chondrite",
+      "orbital_period": 13.248568528085732
     }
   ]
 }

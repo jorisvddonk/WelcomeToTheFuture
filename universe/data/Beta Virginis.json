@@ -1,6 +1,6 @@
 {
   "name": "Beta Virginis",
-  "mass": 3e+24,
+  "mass": 1.989e+30,
   "position": {
     "x": 50.1,
     "y": 325.9
@@ -17,7 +17,8 @@
       "gravity": 2.2540000000000004,
       "length_of_day": 21,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Pellucid",
+      "orbital_period": 10935.406518900707
     }
   ]
 }

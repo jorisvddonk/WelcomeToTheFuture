@@ -1,6 +1,6 @@
 {
   "name": "Alpha Aquilae",
-  "mass": 8.999999999999999e+24,
+  "mass": 5.967e+30,
   "position": {
     "x": 915.9,
     "y": 974.5
@@ -17,7 +17,8 @@
       "gravity": 10.780000000000001,
       "length_of_day": 12,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Gas Giant",
+      "orbital_period": 3771.1687965751876
     },
     {
       "position": {
@@ -30,7 +31,8 @@
       "gravity": 1.862,
       "length_of_day": 2824.1,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Halide",
+      "orbital_period": 7540.982850872065
     },
     {
       "position": {
@@ -43,7 +45,8 @@
       "gravity": 8.82,
       "length_of_day": 28.8,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Telluric",
+      "orbital_period": 9271.476091147037
     }
   ]
 }

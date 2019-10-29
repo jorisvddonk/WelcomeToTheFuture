@@ -1,6 +1,6 @@
 {
   "name": "Alpha Klystron",
-  "mass": 3e+24,
+  "mass": 1.989e+30,
   "position": {
     "x": 193.7,
     "y": 997.9
@@ -17,7 +17,8 @@
       "gravity": 14.308,
       "length_of_day": 13.3,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Gas Giant",
+      "orbital_period": 1725.139756278224
     },
     {
       "position": {
@@ -30,7 +31,8 @@
       "gravity": 10.976000000000003,
       "length_of_day": 3751.4,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Hydrocarbon",
+      "orbital_period": 2945.6234168627093
     },
     {
       "position": {
@@ -43,7 +45,8 @@
       "gravity": 1.862,
       "length_of_day": 29.1,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Pellucid",
+      "orbital_period": 6464.843801478296
     },
     {
       "position": {
@@ -56,7 +59,8 @@
       "gravity": 3.0380000000000003,
       "length_of_day": 28.6,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Chondrite",
+      "orbital_period": 15742.617123358143
     }
   ]
 }

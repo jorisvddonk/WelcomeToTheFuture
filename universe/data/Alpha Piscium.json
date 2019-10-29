@@ -1,6 +1,6 @@
 {
   "name": "Alpha Piscium",
-  "mass": 3e+24,
+  "mass": 1.989e+30,
   "position": {
     "x": 843.7,
     "y": 345.8
@@ -17,7 +17,8 @@
       "gravity": 3.43,
       "length_of_day": 29.9,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Quasi-Degenerate",
+      "orbital_period": 250.15028455606134
     },
     {
       "position": {
@@ -30,7 +31,8 @@
       "gravity": 1.078,
       "length_of_day": 27.9,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Ultramarine",
+      "orbital_period": 2609.1965437476542
     },
     {
       "position": {
@@ -43,7 +45,8 @@
       "gravity": 2.156,
       "length_of_day": 26.7,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Selenic",
+      "orbital_period": 4978.741938014463
     }
   ]
 }

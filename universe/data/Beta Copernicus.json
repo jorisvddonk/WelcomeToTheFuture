@@ -1,6 +1,6 @@
 {
   "name": "Beta Copernicus",
-  "mass": 3e+24,
+  "mass": 1.989e+30,
   "position": {
     "x": 600.8,
     "y": 263.1
@@ -17,7 +17,8 @@
       "gravity": 8.526,
       "length_of_day": 20.7,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Shattered",
+      "orbital_period": 260.59216567965876
     },
     {
       "position": {
@@ -30,7 +31,8 @@
       "gravity": 15.190000000000001,
       "length_of_day": 12.8,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Gas Giant",
+      "orbital_period": 3114.4971976735637
     },
     {
       "position": {
@@ -43,7 +45,8 @@
       "gravity": 6.958,
       "length_of_day": 26.4,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Treasure",
+      "orbital_period": 4183.961169713479
     },
     {
       "position": {
@@ -56,7 +59,8 @@
       "gravity": 5.194000000000001,
       "length_of_day": 3331.6,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Copper",
+      "orbital_period": 6155.184392231211
     },
     {
       "position": {
@@ -69,7 +73,8 @@
       "gravity": 8.036,
       "length_of_day": 19.7,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Xenolithic",
+      "orbital_period": 11386.810350830887
     },
     {
       "position": {
@@ -82,7 +87,8 @@
       "gravity": 3.0380000000000003,
       "length_of_day": 15.9,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Crimson",
+      "orbital_period": 13008.544857184834
     },
     {
       "position": {
@@ -95,7 +101,8 @@
       "gravity": 1.9600000000000002,
       "length_of_day": 18.6,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Pellucid",
+      "orbital_period": 15795.14668393077
     },
     {
       "position": {
@@ -108,7 +115,8 @@
       "gravity": 9.604000000000001,
       "length_of_day": 23.2,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Chlorine",
+      "orbital_period": 18415.57765883559
     },
     {
       "position": {
@@ -121,7 +129,8 @@
       "gravity": 10.878000000000002,
       "length_of_day": 9.2,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Gas Giant",
+      "orbital_period": 20890.053654164225
     },
     {
       "position": {
@@ -135,7 +144,8 @@
       "length_of_day": 16.1,
       "parent": "Syra",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Infrared",
+      "orbital_period": 0.26059216567965876
     },
     {
       "position": {
@@ -149,7 +159,8 @@
       "length_of_day": 16.2,
       "parent": "Syra",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Crimson",
+      "orbital_period": 0.26059216567965876
     },
     {
       "position": {
@@ -163,7 +174,8 @@
       "length_of_day": 18.1,
       "parent": "II",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Treasure",
+      "orbital_period": 3.114497197673564
     },
     {
       "position": {
@@ -177,7 +189,8 @@
       "length_of_day": 15,
       "parent": "V",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Noble",
+      "orbital_period": 11.386810350830887
     },
     {
       "position": {
@@ -191,7 +204,8 @@
       "length_of_day": 16.6,
       "parent": "IX",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Ultramarine",
+      "orbital_period": 20.890053654164223
     },
     {
       "position": {
@@ -205,7 +219,8 @@
       "length_of_day": 17.6,
       "parent": "IX",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Pellucid",
+      "orbital_period": 20.890053654164223
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "name": "Beta Tucanae",
-  "mass": 3e+24,
+  "mass": 1.989e+30,
   "position": {
     "x": 393.7,
     "y": 562.5
@@ -17,7 +17,8 @@
       "gravity": 1.3720000000000003,
       "length_of_day": 20.1,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Azure",
+      "orbital_period": 408.5874376148141
     },
     {
       "position": {
@@ -30,7 +31,8 @@
       "gravity": 28.812,
       "length_of_day": 8.1,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Gas Giant",
+      "orbital_period": 4080.7157207213577
     },
     {
       "position": {
@@ -43,7 +45,8 @@
       "gravity": 2.45,
       "length_of_day": 27.1,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Alkali",
+      "orbital_period": 8114.040085151121
     },
     {
       "position": {
@@ -56,7 +59,8 @@
       "gravity": 27.734,
       "length_of_day": 15.9,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Gas Giant",
+      "orbital_period": 14532.418292020076
     },
     {
       "position": {
@@ -69,7 +73,8 @@
       "gravity": 6.86,
       "length_of_day": 19.2,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Radioactive",
+      "orbital_period": 20861.214217685065
     },
     {
       "position": {
@@ -83,7 +88,8 @@
       "length_of_day": 24.5,
       "parent": "II",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Ultramarine",
+      "orbital_period": 4.080715720721358
     },
     {
       "position": {
@@ -97,7 +103,8 @@
       "length_of_day": 19.8,
       "parent": "II",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Purple",
+      "orbital_period": 4.080715720721358
     },
     {
       "position": {
@@ -111,7 +118,8 @@
       "length_of_day": 16.5,
       "parent": "II",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Halide",
+      "orbital_period": 4.080715720721358
     },
     {
       "position": {
@@ -125,7 +133,8 @@
       "length_of_day": 21.8,
       "parent": "IV",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Cimmerian",
+      "orbital_period": 14.532418292020079
     },
     {
       "position": {
@@ -139,7 +148,8 @@
       "length_of_day": 3298.9,
       "parent": "IV",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Chondrite",
+      "orbital_period": 14.532418292020079
     }
   ]
 }

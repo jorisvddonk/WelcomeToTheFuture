@@ -1,6 +1,6 @@
 {
   "name": "Epsilon Arietis",
-  "mass": 3e+24,
+  "mass": 1.989e+30,
   "position": {
     "x": 955.9,
     "y": 173.5
@@ -17,7 +17,8 @@
       "gravity": 16.072,
       "length_of_day": 22.1,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Magma",
+      "orbital_period": 3164.8894412986565
     },
     {
       "position": {
@@ -30,7 +31,8 @@
       "gravity": 11.76,
       "length_of_day": 15.3,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Magnetic",
+      "orbital_period": 4215.343814620169
     },
     {
       "position": {
@@ -43,7 +45,8 @@
       "gravity": 15.190000000000001,
       "length_of_day": 1897.6,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Magma",
+      "orbital_period": 6944.439332050692
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "name": "Theta Serpentis",
-  "mass": 3e+24,
+  "mass": 1.989e+30,
   "position": {
     "x": 452.9,
     "y": 16.9
@@ -17,7 +17,8 @@
       "gravity": 12.838000000000001,
       "length_of_day": 24.7,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Fluorescent",
+      "orbital_period": 8249.716229288159
     },
     {
       "position": {
@@ -30,7 +31,8 @@
       "gravity": 2.5480000000000005,
       "length_of_day": 23,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Carbide",
+      "orbital_period": 13340.72816762868
     },
     {
       "position": {
@@ -43,7 +45,8 @@
       "gravity": 2.842,
       "length_of_day": 16.3,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Green",
+      "orbital_period": 22218.302585776953
     }
   ]
 }

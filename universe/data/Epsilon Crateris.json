@@ -1,6 +1,6 @@
 {
   "name": "Epsilon Crateris",
-  "mass": 3e+24,
+  "mass": 1.989e+30,
   "position": {
     "x": 630.1,
     "y": 587.5
@@ -17,7 +17,8 @@
       "gravity": 0.784,
       "length_of_day": 28.6,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Cyanic",
+      "orbital_period": 403.048568148069
     },
     {
       "position": {
@@ -30,7 +31,8 @@
       "gravity": 9.604000000000001,
       "length_of_day": 29.2,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Xenolithic",
+      "orbital_period": 972.4539411901989
     },
     {
       "position": {
@@ -43,7 +45,8 @@
       "gravity": 1.6660000000000001,
       "length_of_day": 27.6,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Opalescent",
+      "orbital_period": 3486.444753476174
     },
     {
       "position": {
@@ -56,7 +59,8 @@
       "gravity": 7.546000000000001,
       "length_of_day": 25,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Primordial",
+      "orbital_period": 13672.113835942577
     },
     {
       "position": {
@@ -69,7 +73,8 @@
       "gravity": 3.9200000000000004,
       "length_of_day": 26.2,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Cimmerian",
+      "orbital_period": 18120.028233816545
     },
     {
       "position": {
@@ -83,7 +88,8 @@
       "length_of_day": 15.7,
       "parent": "IV",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Halide",
+      "orbital_period": 13.672113835942577
     }
   ]
 }

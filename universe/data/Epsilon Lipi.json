@@ -1,6 +1,6 @@
 {
   "name": "Epsilon Lipi",
-  "mass": 3e+24,
+  "mass": 1.989e+30,
   "position": {
     "x": 543.7,
     "y": 827
@@ -17,7 +17,8 @@
       "gravity": 4.998,
       "length_of_day": 15.5,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Rainbow",
+      "orbital_period": 129.04356161135055
     },
     {
       "position": {
@@ -30,7 +31,8 @@
       "gravity": 6.566000000000001,
       "length_of_day": 14,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Gas Giant",
+      "orbital_period": 9380.642856780252
     },
     {
       "position": {
@@ -44,7 +46,8 @@
       "length_of_day": 23.6,
       "parent": "II",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Crimson",
+      "orbital_period": 9.380642856780252
     },
     {
       "position": {
@@ -58,7 +61,8 @@
       "length_of_day": 21.4,
       "parent": "II",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Urea",
+      "orbital_period": 9.380642856780252
     },
     {
       "position": {
@@ -72,7 +76,8 @@
       "length_of_day": 26,
       "parent": "II",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Ultramarine",
+      "orbital_period": 9.380642856780252
     }
   ]
 }

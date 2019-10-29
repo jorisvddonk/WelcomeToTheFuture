@@ -1,6 +1,6 @@
 {
   "name": "Alpha Indi",
-  "mass": 3e+24,
+  "mass": 1.989e+30,
   "position": {
     "x": 400,
     "y": 136.3
@@ -17,7 +17,8 @@
       "gravity": 8.918000000000001,
       "length_of_day": 28.2,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Chlorine",
+      "orbital_period": 756.0689145071091
     },
     {
       "position": {
@@ -30,7 +31,8 @@
       "gravity": 7.3500000000000005,
       "length_of_day": 12.8,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Gas Giant",
+      "orbital_period": 2035.2380206805642
     },
     {
       "position": {
@@ -43,7 +45,8 @@
       "gravity": 27.244,
       "length_of_day": 15,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Gas Giant",
+      "orbital_period": 9787.44880314382
     },
     {
       "position": {
@@ -57,7 +60,8 @@
       "length_of_day": 23.8,
       "parent": "I",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Ultramarine",
+      "orbital_period": 0.7560689145071091
     },
     {
       "position": {
@@ -71,7 +75,8 @@
       "length_of_day": 23.3,
       "parent": "II",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Crimson",
+      "orbital_period": 2.035238020680564
     },
     {
       "position": {
@@ -85,7 +90,8 @@
       "length_of_day": 19.9,
       "parent": "II",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Carbide",
+      "orbital_period": 2.035238020680564
     }
   ]
 }

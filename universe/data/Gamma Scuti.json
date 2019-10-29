@@ -1,6 +1,6 @@
 {
   "name": "Gamma Scuti",
-  "mass": 3e+24,
+  "mass": 1.989e+30,
   "position": {
     "x": 525.6,
     "y": 60.8
@@ -17,7 +17,8 @@
       "gravity": 2.7440000000000007,
       "length_of_day": 18.4,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Chondrite",
+      "orbital_period": 380.0624900328105
     },
     {
       "position": {
@@ -30,7 +31,8 @@
       "gravity": 2.5480000000000005,
       "length_of_day": 18.7,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Chondrite",
+      "orbital_period": 1492.0585407378978
     },
     {
       "position": {
@@ -43,7 +45,8 @@
       "gravity": 5.488000000000001,
       "length_of_day": 15.7,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Treasure",
+      "orbital_period": 7275.298474396431
     },
     {
       "position": {
@@ -56,7 +59,8 @@
       "gravity": 4.312,
       "length_of_day": 29.8,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Quasi-Degenerate",
+      "orbital_period": 11021.869696750327
     },
     {
       "position": {
@@ -69,7 +73,8 @@
       "gravity": 4.8020000000000005,
       "length_of_day": 4220.6,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Iodine",
+      "orbital_period": 13475.8055127835
     }
   ]
 }

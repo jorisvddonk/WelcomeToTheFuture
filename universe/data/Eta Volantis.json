@@ -1,6 +1,6 @@
 {
   "name": "Eta Volantis",
-  "mass": 3e+24,
+  "mass": 1.989e+30,
   "position": {
     "x": 65,
     "y": 164.6
@@ -17,7 +17,8 @@
       "gravity": 3.6260000000000003,
       "length_of_day": 27.1,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Auric",
+      "orbital_period": 156.39248362706377
     },
     {
       "position": {
@@ -30,7 +31,8 @@
       "gravity": 8.232000000000001,
       "length_of_day": 27.2,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Xenolithic",
+      "orbital_period": 657.4764500606356
     },
     {
       "position": {
@@ -43,7 +45,8 @@
       "gravity": 21.658,
       "length_of_day": 10.4,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Gas Giant",
+      "orbital_period": 2403.937311275051
     },
     {
       "position": {
@@ -56,7 +59,8 @@
       "gravity": 22.05,
       "length_of_day": 11.1,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Gas Giant",
+      "orbital_period": 5689.612470971398
     },
     {
       "position": {
@@ -69,7 +73,8 @@
       "gravity": 4.9,
       "length_of_day": 28.7,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Lanthanide",
+      "orbital_period": 8267.862979734144
     },
     {
       "position": {
@@ -82,7 +87,8 @@
       "gravity": 6.370000000000001,
       "length_of_day": 20.5,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Iodine",
+      "orbital_period": 14024.23644613352
     },
     {
       "position": {
@@ -95,7 +101,8 @@
       "gravity": 28.812,
       "length_of_day": 10.3,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Gas Giant",
+      "orbital_period": 16662.6094686279
     },
     {
       "position": {
@@ -109,7 +116,8 @@
       "length_of_day": 2053.5,
       "parent": "II",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Chondrite",
+      "orbital_period": 0.6574764500606355
     },
     {
       "position": {
@@ -123,7 +131,8 @@
       "length_of_day": 20.9,
       "parent": "II",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Acid",
+      "orbital_period": 0.6574764500606355
     },
     {
       "position": {
@@ -137,7 +146,8 @@
       "length_of_day": 23.2,
       "parent": "VI",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Ultramarine",
+      "orbital_period": 14.024236446133521
     },
     {
       "position": {
@@ -151,7 +161,8 @@
       "length_of_day": 3155.2,
       "parent": "VII",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Chondrite",
+      "orbital_period": 16.6626094686279
     }
   ]
 }

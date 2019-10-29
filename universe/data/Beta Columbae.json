@@ -1,6 +1,6 @@
 {
   "name": "Beta Columbae",
-  "mass": 3e+24,
+  "mass": 1.989e+30,
   "position": {
     "x": 77,
     "y": 660.2
@@ -17,7 +17,8 @@
       "gravity": 4.9,
       "length_of_day": 28.3,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Iodine",
+      "orbital_period": 1355.732300647565
     }
   ]
 }

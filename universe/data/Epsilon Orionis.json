@@ -1,6 +1,6 @@
 {
   "name": "Epsilon Orionis",
-  "mass": 3e+24,
+  "mass": 1.989e+30,
   "position": {
     "x": 154.5,
     "y": 581.8
@@ -17,7 +17,8 @@
       "gravity": 3.2340000000000004,
       "length_of_day": 20.3,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Carbide",
+      "orbital_period": 3151.7176576765482
     }
   ]
 }

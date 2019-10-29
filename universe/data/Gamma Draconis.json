@@ -1,6 +1,6 @@
 {
   "name": "Gamma Draconis",
-  "mass": 3e+24,
+  "mass": 1.989e+30,
   "position": {
     "x": 251.8,
     "y": 805.6
@@ -17,7 +17,8 @@
       "gravity": 2.5480000000000005,
       "length_of_day": 25.7,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Alkali",
+      "orbital_period": 157.19932261973435
     },
     {
       "position": {
@@ -30,7 +31,8 @@
       "gravity": 1.568,
       "length_of_day": 2114.1,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Selenic",
+      "orbital_period": 519.6834686384896
     },
     {
       "position": {
@@ -43,7 +45,8 @@
       "gravity": 16.66,
       "length_of_day": 8.4,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Gas Giant",
+      "orbital_period": 1541.915461331105
     },
     {
       "position": {
@@ -56,7 +59,8 @@
       "gravity": 1.6660000000000001,
       "length_of_day": 24.2,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Urea",
+      "orbital_period": 3818.2078907625996
     },
     {
       "position": {
@@ -69,7 +73,8 @@
       "gravity": 2.45,
       "length_of_day": 21.8,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Acid",
+      "orbital_period": 5197.483760026323
     },
     {
       "position": {
@@ -82,7 +87,8 @@
       "gravity": 5.194000000000001,
       "length_of_day": 1510.4,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Quasi-Degenerate",
+      "orbital_period": 6884.577778193376
     },
     {
       "position": {
@@ -95,7 +101,8 @@
       "gravity": 4.606,
       "length_of_day": 19.5,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Lanthanide",
+      "orbital_period": 9954.351036565275
     },
     {
       "position": {
@@ -108,7 +115,8 @@
       "gravity": 8.918000000000001,
       "length_of_day": 23.5,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Redux",
+      "orbital_period": 12107.852769472196
     },
     {
       "position": {
@@ -122,7 +130,8 @@
       "length_of_day": 29,
       "parent": "III",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Auric",
+      "orbital_period": 1.541915461331105
     },
     {
       "position": {
@@ -136,7 +145,8 @@
       "length_of_day": 16.1,
       "parent": "III",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Auric",
+      "orbital_period": 1.541915461331105
     },
     {
       "position": {
@@ -150,7 +160,8 @@
       "length_of_day": 24.6,
       "parent": "III",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Auric",
+      "orbital_period": 1.541915461331105
     },
     {
       "position": {
@@ -164,7 +175,8 @@
       "length_of_day": 17.6,
       "parent": "III",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Alkali",
+      "orbital_period": 1.541915461331105
     }
   ]
 }

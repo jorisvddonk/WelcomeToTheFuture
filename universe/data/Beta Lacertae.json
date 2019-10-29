@@ -1,6 +1,6 @@
 {
   "name": "Beta Lacertae",
-  "mass": 3e+24,
+  "mass": 1.989e+30,
   "position": {
     "x": 822.9,
     "y": 804.1
@@ -17,7 +17,8 @@
       "gravity": 3.2340000000000004,
       "length_of_day": 20.9,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Chondrite",
+      "orbital_period": 3099.2140178491245
     },
     {
       "position": {
@@ -30,7 +31,8 @@
       "gravity": 4.312,
       "length_of_day": 24.2,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Metal",
+      "orbital_period": 10918.805022997883
     },
     {
       "position": {
@@ -43,7 +45,8 @@
       "gravity": 23.128,
       "length_of_day": 15.9,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Gas Giant",
+      "orbital_period": 14035.062720914515
     },
     {
       "position": {
@@ -56,7 +59,8 @@
       "gravity": 0.882,
       "length_of_day": 5614.4,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Noble",
+      "orbital_period": 22146.831843200904
     },
     {
       "position": {
@@ -70,7 +74,8 @@
       "length_of_day": 22.8,
       "parent": "III",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Ultramarine",
+      "orbital_period": 14.035062720914516
     },
     {
       "position": {
@@ -84,7 +89,8 @@
       "length_of_day": 15.8,
       "parent": "III",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Pellucid",
+      "orbital_period": 14.035062720914516
     },
     {
       "position": {
@@ -98,7 +104,8 @@
       "length_of_day": 19.9,
       "parent": "III",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Ultramarine",
+      "orbital_period": 14.035062720914516
     }
   ]
 }

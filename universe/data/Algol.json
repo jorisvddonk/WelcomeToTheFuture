@@ -1,6 +1,6 @@
 {
   "name": "Algol",
-  "mass": 3e+24,
+  "mass": 1.989e+30,
   "position": {
     "x": 900,
     "y": 325
@@ -17,7 +17,8 @@
       "gravity": 1.9600000000000002,
       "length_of_day": 23.9,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Pellucid",
+      "orbital_period": 1184.0381031878126
     },
     {
       "position": {
@@ -30,7 +31,8 @@
       "gravity": 4.508000000000001,
       "length_of_day": 28.1,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Cimmerian",
+      "orbital_period": 3792.5118378815873
     },
     {
       "position": {
@@ -43,7 +45,8 @@
       "gravity": 1.6660000000000001,
       "length_of_day": 21,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Urea",
+      "orbital_period": 5014.554005544669
     },
     {
       "position": {
@@ -56,7 +59,8 @@
       "gravity": 2.156,
       "length_of_day": 26.7,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Purple",
+      "orbital_period": 8228.561825721546
     },
     {
       "position": {
@@ -69,7 +73,8 @@
       "gravity": 10.780000000000001,
       "length_of_day": 28.3,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Hydrocarbon",
+      "orbital_period": 15495.76494726866
     },
     {
       "position": {
@@ -82,7 +87,8 @@
       "gravity": 10.486,
       "length_of_day": 27.5,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Magma",
+      "orbital_period": 17755.767518979534
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "name": "Beta Lipi",
-  "mass": 3e+24,
+  "mass": 1.989e+30,
   "position": {
     "x": 550,
     "y": 839.5
@@ -17,7 +17,8 @@
       "gravity": 3.528,
       "length_of_day": 27.6,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Copper",
+      "orbital_period": 678.4031162073874
     },
     {
       "position": {
@@ -30,7 +31,8 @@
       "gravity": 14.112,
       "length_of_day": 28.5,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Magma",
+      "orbital_period": 2646.3622781771473
     },
     {
       "position": {
@@ -43,7 +45,8 @@
       "gravity": 3.8220000000000005,
       "length_of_day": 23.1,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Cimmerian",
+      "orbital_period": 3577.590788938562
     },
     {
       "position": {
@@ -56,7 +59,8 @@
       "gravity": 17.150000000000002,
       "length_of_day": 12.8,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Gas Giant",
+      "orbital_period": 5942.541226818334
     },
     {
       "position": {
@@ -69,7 +73,8 @@
       "gravity": 6.566000000000001,
       "length_of_day": 18.7,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Radioactive",
+      "orbital_period": 7738.161280346884
     },
     {
       "position": {
@@ -82,7 +87,8 @@
       "gravity": 3.528,
       "length_of_day": 21.9,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Crimson",
+      "orbital_period": 9819.472286490722
     },
     {
       "position": {
@@ -95,7 +101,8 @@
       "gravity": 0.784,
       "length_of_day": 28.4,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Noble",
+      "orbital_period": 11674.134294404357
     },
     {
       "position": {
@@ -108,7 +115,8 @@
       "gravity": 12.348,
       "length_of_day": 15.1,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Gas Giant",
+      "orbital_period": 16487.120783901708
     },
     {
       "position": {
@@ -121,7 +129,8 @@
       "gravity": 21.854000000000003,
       "length_of_day": 15.3,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Gas Giant",
+      "orbital_period": 19864.29892873139
     },
     {
       "position": {
@@ -135,7 +144,8 @@
       "length_of_day": 29.9,
       "parent": "II",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Dust",
+      "orbital_period": 2.646362278177147
     },
     {
       "position": {
@@ -149,7 +159,8 @@
       "length_of_day": 20.3,
       "parent": "IV",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Copper",
+      "orbital_period": 5.942541226818333
     },
     {
       "position": {
@@ -163,7 +174,8 @@
       "length_of_day": 21.6,
       "parent": "IV",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Super-Dense",
+      "orbital_period": 5.942541226818333
     },
     {
       "position": {
@@ -177,7 +189,8 @@
       "length_of_day": 23.1,
       "parent": "IV",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Copper",
+      "orbital_period": 5.942541226818333
     },
     {
       "position": {
@@ -191,7 +204,8 @@
       "length_of_day": 28.1,
       "parent": "VIII",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Alkali",
+      "orbital_period": 16.487120783901712
     },
     {
       "position": {
@@ -205,7 +219,8 @@
       "length_of_day": 18.3,
       "parent": "IX",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Alkali",
+      "orbital_period": 19.864298928731387
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "name": "Gamma Arae",
-  "mass": 3e+24,
+  "mass": 1.989e+30,
   "position": {
     "x": 941.9,
     "y": 94.2
@@ -17,7 +17,8 @@
       "gravity": 3.6260000000000003,
       "length_of_day": 28.9,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Yttric",
+      "orbital_period": 12931.203847242801
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "name": "Theta Orionis",
-  "mass": 3e+24,
+  "mass": 1.989e+30,
   "position": {
     "x": 188.1,
     "y": 630.8
@@ -17,7 +17,8 @@
       "gravity": 6.272,
       "length_of_day": 17,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Radioactive",
+      "orbital_period": 243.57994564944406
     },
     {
       "position": {
@@ -30,7 +31,8 @@
       "gravity": 0.882,
       "length_of_day": 29.5,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Cyanic",
+      "orbital_period": 1281.8981184261534
     },
     {
       "position": {
@@ -43,7 +45,8 @@
       "gravity": 26.950000000000003,
       "length_of_day": 11.9,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Gas Giant",
+      "orbital_period": 3042.6678345931264
     },
     {
       "position": {
@@ -56,7 +59,8 @@
       "gravity": 3.6260000000000003,
       "length_of_day": 29.4,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Carbide",
+      "orbital_period": 4198.435753491561
     },
     {
       "position": {
@@ -69,7 +73,8 @@
       "gravity": 14.21,
       "length_of_day": 15.7,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Gas Giant",
+      "orbital_period": 7991.078680799272
     },
     {
       "position": {
@@ -82,7 +87,8 @@
       "gravity": 7.9380000000000015,
       "length_of_day": 3923.9,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Primordial",
+      "orbital_period": 12273.146271271864
     },
     {
       "position": {
@@ -95,7 +101,8 @@
       "gravity": 10.780000000000001,
       "length_of_day": 20,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Hydrocarbon",
+      "orbital_period": 14437.586334788251
     },
     {
       "position": {
@@ -108,7 +115,8 @@
       "gravity": 1.862,
       "length_of_day": 23.5,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Halide",
+      "orbital_period": 16236.416943819386
     },
     {
       "position": {
@@ -121,7 +129,8 @@
       "gravity": 3.43,
       "length_of_day": 21.3,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Carbide",
+      "orbital_period": 19291.661654756837
     },
     {
       "position": {
@@ -135,7 +144,8 @@
       "length_of_day": 27,
       "parent": "III",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Chondrite",
+      "orbital_period": 3.042667834593126
     },
     {
       "position": {
@@ -149,7 +159,8 @@
       "length_of_day": 18.3,
       "parent": "III",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Copper",
+      "orbital_period": 3.042667834593126
     },
     {
       "position": {
@@ -163,7 +174,8 @@
       "length_of_day": 26.6,
       "parent": "V",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Acid",
+      "orbital_period": 7.991078680799272
     }
   ]
 }

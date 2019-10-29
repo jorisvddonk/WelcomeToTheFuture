@@ -1,6 +1,6 @@
 {
   "name": "Beta Circini",
-  "mass": 3e+24,
+  "mass": 1.989e+30,
   "position": {
     "x": 36.5,
     "y": 609.3
@@ -17,7 +17,8 @@
       "gravity": 4.606,
       "length_of_day": 26.7,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Yttric",
+      "orbital_period": 1003.7498324012901
     },
     {
       "position": {
@@ -30,7 +31,8 @@
       "gravity": 24.402000000000005,
       "length_of_day": 13,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Gas Giant",
+      "orbital_period": 3883.8764222967143
     },
     {
       "position": {
@@ -43,7 +45,8 @@
       "gravity": 5.586,
       "length_of_day": 24,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Sapphire",
+      "orbital_period": 6895.966656450919
     },
     {
       "position": {
@@ -56,7 +59,8 @@
       "gravity": 2.45,
       "length_of_day": 26.2,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Green",
+      "orbital_period": 11198.822949190677
     },
     {
       "position": {
@@ -69,7 +73,8 @@
       "gravity": 15.974,
       "length_of_day": 23.6,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Ultraviolet",
+      "orbital_period": 13026.143788985039
     },
     {
       "position": {
@@ -82,7 +87,8 @@
       "gravity": 1.078,
       "length_of_day": 28.3,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Noble",
+      "orbital_period": 16430.03025081656
     },
     {
       "position": {
@@ -95,7 +101,8 @@
       "gravity": 4.508000000000001,
       "length_of_day": 4414,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Auric",
+      "orbital_period": 18684.91669726602
     },
     {
       "position": {
@@ -108,7 +115,8 @@
       "gravity": 6.0760000000000005,
       "length_of_day": 25.4,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Radioactive",
+      "orbital_period": 22180.455572171024
     },
     {
       "position": {
@@ -122,7 +130,8 @@
       "length_of_day": 22.9,
       "parent": "II",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Metal",
+      "orbital_period": 3.8838764222967144
     },
     {
       "position": {
@@ -136,7 +145,8 @@
       "length_of_day": 17.4,
       "parent": "II",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Noble",
+      "orbital_period": 3.8838764222967144
     },
     {
       "position": {
@@ -150,7 +160,8 @@
       "length_of_day": 26.8,
       "parent": "III",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Green",
+      "orbital_period": 6.895966656450919
     }
   ]
 }

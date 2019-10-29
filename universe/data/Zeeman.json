@@ -1,6 +1,6 @@
 {
   "name": "Zeeman",
-  "mass": 8.999999999999999e+24,
+  "mass": 5.967e+30,
   "position": {
     "x": 335.2,
     "y": 194
@@ -17,7 +17,8 @@
       "gravity": 26.166,
       "length_of_day": 8.5,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Gas Giant",
+      "orbital_period": 2391.9855216069022
     },
     {
       "position": {
@@ -30,7 +31,8 @@
       "gravity": 4.312,
       "length_of_day": 19.9,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Quasi-Degenerate",
+      "orbital_period": 3795.4171743792886
     },
     {
       "position": {
@@ -43,7 +45,8 @@
       "gravity": 3.43,
       "length_of_day": 18.5,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Acid",
+      "orbital_period": 5943.370253683353
     },
     {
       "position": {
@@ -56,7 +59,8 @@
       "gravity": 18.228,
       "length_of_day": 12.2,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Gas Giant",
+      "orbital_period": 7336.440627704234
     },
     {
       "position": {
@@ -69,7 +73,8 @@
       "gravity": 8.036,
       "length_of_day": 28.3,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Organic",
+      "orbital_period": 8727.707799570693
     },
     {
       "position": {
@@ -82,7 +87,8 @@
       "gravity": 9.506,
       "length_of_day": 14,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Gas Giant",
+      "orbital_period": 12182.419725320382
     },
     {
       "position": {
@@ -96,7 +102,8 @@
       "length_of_day": 24.2,
       "parent": "I",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Urea",
+      "orbital_period": 2.3919855216069026
     },
     {
       "position": {
@@ -110,7 +117,8 @@
       "length_of_day": 24.5,
       "parent": "I",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Selenic",
+      "orbital_period": 2.3919855216069026
     },
     {
       "position": {
@@ -124,7 +132,8 @@
       "length_of_day": 23.6,
       "parent": "IV",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Treasure",
+      "orbital_period": 7.336440627704234
     },
     {
       "position": {
@@ -138,7 +147,8 @@
       "length_of_day": 16.7,
       "parent": "IV",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Urea",
+      "orbital_period": 7.336440627704234
     },
     {
       "position": {
@@ -152,7 +162,8 @@
       "length_of_day": 16,
       "parent": "IV",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Opalescent",
+      "orbital_period": 7.336440627704234
     },
     {
       "position": {
@@ -166,7 +177,8 @@
       "length_of_day": 16.5,
       "parent": "IV",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Yttric",
+      "orbital_period": 7.336440627704234
     },
     {
       "position": {
@@ -180,7 +192,8 @@
       "length_of_day": 23,
       "parent": "V",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Lanthanide",
+      "orbital_period": 8.727707799570695
     },
     {
       "position": {
@@ -194,7 +207,8 @@
       "length_of_day": 17.2,
       "parent": "V",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Alkali",
+      "orbital_period": 8.727707799570695
     },
     {
       "position": {
@@ -208,7 +222,8 @@
       "length_of_day": 17.3,
       "parent": "VI",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Lanthanide",
+      "orbital_period": 12.182419725320383
     },
     {
       "position": {
@@ -222,7 +237,8 @@
       "length_of_day": 26,
       "parent": "VI",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Oolite",
+      "orbital_period": 12.182419725320383
     }
   ]
 }

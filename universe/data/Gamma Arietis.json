@@ -1,6 +1,6 @@
 {
   "name": "Gamma Arietis",
-  "mass": 3e+24,
+  "mass": 1.989e+30,
   "position": {
     "x": 947.7,
     "y": 167
@@ -17,7 +17,8 @@
       "gravity": 6.664000000000001,
       "length_of_day": 2481.4,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Treasure",
+      "orbital_period": 14143.478493708844
     },
     {
       "position": {
@@ -30,7 +31,8 @@
       "gravity": 7.546000000000001,
       "length_of_day": 15.5,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Vinylogous",
+      "orbital_period": 20647.39467048899
     },
     {
       "position": {
@@ -44,7 +46,8 @@
       "length_of_day": 22.9,
       "parent": "II",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Dust",
+      "orbital_period": 20.647394670488985
     },
     {
       "position": {
@@ -58,7 +61,8 @@
       "length_of_day": 24.6,
       "parent": "II",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Pellucid",
+      "orbital_period": 20.647394670488985
     }
   ]
 }

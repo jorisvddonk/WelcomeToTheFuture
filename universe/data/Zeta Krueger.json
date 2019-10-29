@@ -1,6 +1,6 @@
 {
   "name": "Zeta Krueger",
-  "mass": 3e+24,
+  "mass": 1.989e+30,
   "position": {
     "x": 13.4,
     "y": 56.5
@@ -17,7 +17,8 @@
       "gravity": 16.562,
       "length_of_day": 19.6,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Magnetic",
+      "orbital_period": 4314.830349059733
     },
     {
       "position": {
@@ -30,7 +31,8 @@
       "gravity": 16.17,
       "length_of_day": 28.6,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Plutonic",
+      "orbital_period": 6864.662346379805
     },
     {
       "position": {
@@ -43,7 +45,8 @@
       "gravity": 13.818,
       "length_of_day": 17.4,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Ultraviolet",
+      "orbital_period": 14514.16530826882
     }
   ]
 }

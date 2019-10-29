@@ -1,6 +1,6 @@
 {
   "name": "Zeta Persei",
-  "mass": 3e+24,
+  "mass": 1.989e+30,
   "position": {
     "x": 946.9,
     "y": 280.6
@@ -17,7 +17,8 @@
       "gravity": 2.2540000000000004,
       "length_of_day": 27.1,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Dust",
+      "orbital_period": 129.04356161135055
     },
     {
       "position": {
@@ -30,7 +31,8 @@
       "gravity": 3.0380000000000003,
       "length_of_day": 24.4,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Infrared",
+      "orbital_period": 2504.850208260168
     },
     {
       "position": {
@@ -43,7 +45,8 @@
       "gravity": 1.568,
       "length_of_day": 21.9,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Selenic",
+      "orbital_period": 6045.825310832281
     },
     {
       "position": {
@@ -56,7 +59,8 @@
       "gravity": 5.488000000000001,
       "length_of_day": 28.7,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Super-Dense",
+      "orbital_period": 15216.834243136322
     },
     {
       "position": {
@@ -69,7 +73,8 @@
       "gravity": 22.344,
       "length_of_day": 10.2,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Gas Giant",
+      "orbital_period": 17475.457536604295
     },
     {
       "position": {
@@ -83,7 +88,8 @@
       "length_of_day": 26.9,
       "parent": "V",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Pellucid",
+      "orbital_period": 17.4754575366043
     },
     {
       "position": {
@@ -97,7 +103,8 @@
       "length_of_day": 27.6,
       "parent": "V",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Azure",
+      "orbital_period": 17.4754575366043
     }
   ]
 }

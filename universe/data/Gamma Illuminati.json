@@ -1,6 +1,6 @@
 {
   "name": "Gamma Illuminati",
-  "mass": 3e+24,
+  "mass": 1.989e+30,
   "position": {
     "x": 268.7,
     "y": 333.3
@@ -17,7 +17,8 @@
       "gravity": 6.958,
       "length_of_day": 26.4,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Treasure",
+      "orbital_period": 398.63565224713545
     },
     {
       "position": {
@@ -30,7 +31,8 @@
       "gravity": 1.568,
       "length_of_day": 27.2,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Halide",
+      "orbital_period": 1709.014229492822
     },
     {
       "position": {
@@ -43,7 +45,8 @@
       "gravity": 3.2340000000000004,
       "length_of_day": 24.4,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Acid",
+      "orbital_period": 5340.68407561726
     },
     {
       "position": {
@@ -56,7 +59,8 @@
       "gravity": 20.09,
       "length_of_day": 10.7,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Gas Giant",
+      "orbital_period": 7464.563943203217
     },
     {
       "position": {
@@ -69,7 +73,8 @@
       "gravity": 4.704,
       "length_of_day": 15.5,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Lanthanide",
+      "orbital_period": 10756.556065962965
     },
     {
       "position": {
@@ -82,7 +87,8 @@
       "gravity": 14.602,
       "length_of_day": 25.3,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Fluorescent",
+      "orbital_period": 13383.335157302421
     },
     {
       "position": {
@@ -95,7 +101,8 @@
       "gravity": 9.898000000000001,
       "length_of_day": 21.7,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Organic",
+      "orbital_period": 15235.377035123416
     },
     {
       "position": {
@@ -108,7 +115,8 @@
       "gravity": 9.702,
       "length_of_day": 21.9,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Primordial",
+      "orbital_period": 18478.83422428574
     },
     {
       "position": {
@@ -121,7 +129,8 @@
       "gravity": 8.036,
       "length_of_day": 19.4,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Xenolithic",
+      "orbital_period": 21623.675534697966
     },
     {
       "position": {
@@ -135,7 +144,8 @@
       "length_of_day": 2745.2,
       "parent": "IV",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Yttric",
+      "orbital_period": 7.464563943203215
     },
     {
       "position": {
@@ -149,7 +159,8 @@
       "length_of_day": 25.3,
       "parent": "IX",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Lanthanide",
+      "orbital_period": 21.623675534697966
     }
   ]
 }

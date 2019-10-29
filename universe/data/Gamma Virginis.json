@@ -1,6 +1,6 @@
 {
   "name": "Gamma Virginis",
-  "mass": 3e+24,
+  "mass": 1.989e+30,
   "position": {
     "x": 79.1,
     "y": 327
@@ -17,7 +17,8 @@
       "gravity": 5.292000000000001,
       "length_of_day": 2053.2,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Maroon",
+      "orbital_period": 316.92410180803137
     },
     {
       "position": {
@@ -30,7 +31,8 @@
       "gravity": 14.308,
       "length_of_day": 8.1,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Gas Giant",
+      "orbital_period": 3992.567515426897
     },
     {
       "position": {
@@ -43,7 +45,8 @@
       "gravity": 1.764,
       "length_of_day": 5076.3,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Selenic",
+      "orbital_period": 5311.940320009317
     },
     {
       "position": {
@@ -56,7 +59,8 @@
       "gravity": 22.736,
       "length_of_day": 15.4,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Gas Giant",
+      "orbital_period": 7788.527619926198
     },
     {
       "position": {
@@ -69,7 +73,8 @@
       "gravity": 3.528,
       "length_of_day": 2805.7,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Chondrite",
+      "orbital_period": 13808.296785142513
     },
     {
       "position": {
@@ -82,7 +87,8 @@
       "gravity": 0.784,
       "length_of_day": 28.2,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Ultramarine",
+      "orbital_period": 17959.136315290667
     },
     {
       "position": {
@@ -96,7 +102,8 @@
       "length_of_day": 28.6,
       "parent": "II",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Ultramarine",
+      "orbital_period": 3.9925675154268965
     },
     {
       "position": {
@@ -110,7 +117,8 @@
       "length_of_day": 2298,
       "parent": "IV",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Infrared",
+      "orbital_period": 7.788527619926199
     },
     {
       "position": {
@@ -124,7 +132,8 @@
       "length_of_day": 21.1,
       "parent": "IV",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Dust",
+      "orbital_period": 7.788527619926199
     }
   ]
 }

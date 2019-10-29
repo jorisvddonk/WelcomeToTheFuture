@@ -1,6 +1,6 @@
 {
   "name": "Zeta Serpentis",
-  "mass": 3e+24,
+  "mass": 1.989e+30,
   "position": {
     "x": 500.7,
     "y": 3.5
@@ -17,7 +17,8 @@
       "gravity": 2.7440000000000007,
       "length_of_day": 23,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Acid",
+      "orbital_period": 390.9521246565095
     },
     {
       "position": {
@@ -30,7 +31,8 @@
       "gravity": 0.9800000000000001,
       "length_of_day": 23.8,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Cyanic",
+      "orbital_period": 2125.005976209564
     },
     {
       "position": {
@@ -43,7 +45,8 @@
       "gravity": 19.012,
       "length_of_day": 14.2,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Gas Giant",
+      "orbital_period": 4167.095228964695
     },
     {
       "position": {
@@ -56,7 +59,8 @@
       "gravity": 18.816,
       "length_of_day": 11,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Gas Giant",
+      "orbital_period": 7260.806812879907
     },
     {
       "position": {
@@ -69,7 +73,8 @@
       "gravity": 15.092000000000002,
       "length_of_day": 2154.7,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Magnetic",
+      "orbital_period": 8992.07759443499
     },
     {
       "position": {
@@ -83,7 +88,8 @@
       "length_of_day": 2933.2,
       "parent": "III",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Radioactive",
+      "orbital_period": 4.167095228964694
     },
     {
       "position": {
@@ -97,7 +103,8 @@
       "length_of_day": 26.9,
       "parent": "III",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Opalescent",
+      "orbital_period": 4.167095228964694
     },
     {
       "position": {
@@ -111,7 +118,8 @@
       "length_of_day": 18.3,
       "parent": "III",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Cyanic",
+      "orbital_period": 4.167095228964694
     },
     {
       "position": {
@@ -125,7 +133,8 @@
       "length_of_day": 29.1,
       "parent": "III",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Purple",
+      "orbital_period": 4.167095228964694
     },
     {
       "position": {
@@ -139,7 +148,8 @@
       "length_of_day": 26.1,
       "parent": "IV",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Halide",
+      "orbital_period": 7.260806812879908
     },
     {
       "position": {
@@ -153,7 +163,8 @@
       "length_of_day": 21.4,
       "parent": "IV",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Quasi-Degenerate",
+      "orbital_period": 7.260806812879908
     },
     {
       "position": {
@@ -167,7 +178,8 @@
       "length_of_day": 24.4,
       "parent": "IV",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Noble",
+      "orbital_period": 7.260806812879908
     }
   ]
 }

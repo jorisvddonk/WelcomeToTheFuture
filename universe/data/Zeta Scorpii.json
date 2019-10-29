@@ -1,6 +1,6 @@
 {
   "name": "Zeta Scorpii",
-  "mass": 3e+24,
+  "mass": 1.989e+30,
   "position": {
     "x": 650,
     "y": 220.8
@@ -17,7 +17,8 @@
       "gravity": 12.936000000000002,
       "length_of_day": 20.5,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Magnetic",
+      "orbital_period": 1079.5806270433475
     },
     {
       "position": {
@@ -30,7 +31,8 @@
       "gravity": 0.784,
       "length_of_day": 16.1,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Noble",
+      "orbital_period": 3118.8684214122904
     },
     {
       "position": {
@@ -43,7 +45,8 @@
       "gravity": 9.702,
       "length_of_day": 28.4,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Telluric",
+      "orbital_period": 5617.643208138451
     },
     {
       "position": {
@@ -56,7 +59,8 @@
       "gravity": 20.972,
       "length_of_day": 9,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Gas Giant",
+      "orbital_period": 6810.70321653617
     },
     {
       "position": {
@@ -69,7 +73,8 @@
       "gravity": 4.41,
       "length_of_day": 25.6,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Lanthanide",
+      "orbital_period": 10219.446955682173
     },
     {
       "position": {
@@ -82,7 +87,8 @@
       "gravity": 1.862,
       "length_of_day": 23.8,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Halide",
+      "orbital_period": 11731.884929851447
     },
     {
       "position": {
@@ -95,7 +101,8 @@
       "gravity": 0.882,
       "length_of_day": 29.4,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Cyanic",
+      "orbital_period": 16225.051767915951
     },
     {
       "position": {
@@ -108,7 +115,8 @@
       "gravity": 3.0380000000000003,
       "length_of_day": 21.7,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Green",
+      "orbital_period": 19091.361611102977
     },
     {
       "position": {
@@ -121,7 +129,8 @@
       "gravity": 16.268,
       "length_of_day": 25,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Fluorescent",
+      "orbital_period": 21632.013177029137
     },
     {
       "position": {
@@ -135,7 +144,8 @@
       "length_of_day": 20.5,
       "parent": "I",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Green",
+      "orbital_period": 1.079580627043348
     },
     {
       "position": {
@@ -149,7 +159,8 @@
       "length_of_day": 24.5,
       "parent": "IX",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Oolite",
+      "orbital_period": 21.632013177029133
     }
   ]
 }

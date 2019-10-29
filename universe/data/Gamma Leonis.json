@@ -1,6 +1,6 @@
 {
   "name": "Gamma Leonis",
-  "mass": 3e+24,
+  "mass": 1.989e+30,
   "position": {
     "x": 968.7,
     "y": 733.3
@@ -17,7 +17,8 @@
       "gravity": 15.974,
       "length_of_day": 28.1,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Fluorescent",
+      "orbital_period": 722.2485776074575
     },
     {
       "position": {
@@ -30,7 +31,8 @@
       "gravity": 4.704,
       "length_of_day": 15.2,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Ruby",
+      "orbital_period": 1961.7364912878593
     },
     {
       "position": {
@@ -43,7 +45,8 @@
       "gravity": 2.156,
       "length_of_day": 21.9,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Opalescent",
+      "orbital_period": 3468.309823047251
     },
     {
       "position": {
@@ -56,7 +59,8 @@
       "gravity": 6.762,
       "length_of_day": 25.2,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Treasure",
+      "orbital_period": 4912.4612308264805
     },
     {
       "position": {
@@ -69,7 +73,8 @@
       "gravity": 20.874,
       "length_of_day": 15.1,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Gas Giant",
+      "orbital_period": 7444.103747652827
     },
     {
       "position": {
@@ -82,7 +87,8 @@
       "gravity": 5.88,
       "length_of_day": 20.9,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Emerald",
+      "orbital_period": 8658.143207940626
     },
     {
       "position": {
@@ -95,7 +101,8 @@
       "gravity": 1.568,
       "length_of_day": 16,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Halide",
+      "orbital_period": 13923.325616293769
     },
     {
       "position": {
@@ -108,7 +115,8 @@
       "gravity": 4.018,
       "length_of_day": 16.2,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Yttric",
+      "orbital_period": 17200.500605426634
     },
     {
       "position": {
@@ -121,7 +129,8 @@
       "gravity": 8.428,
       "length_of_day": 10.6,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Gas Giant",
+      "orbital_period": 20454.76749197346
     },
     {
       "position": {
@@ -135,7 +144,8 @@
       "length_of_day": 25.1,
       "parent": "II",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Acid",
+      "orbital_period": 1.9617364912878592
     },
     {
       "position": {
@@ -149,7 +159,8 @@
       "length_of_day": 3177.4,
       "parent": "IX",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Auric",
+      "orbital_period": 20.454767491973456
     },
     {
       "position": {
@@ -163,7 +174,8 @@
       "length_of_day": 24.5,
       "parent": "IX",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Halide",
+      "orbital_period": 20.454767491973456
     }
   ]
 }

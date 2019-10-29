@@ -1,6 +1,6 @@
 {
   "name": "Beta Saurus",
-  "mass": 3e+24,
+  "mass": 1.989e+30,
   "position": {
     "x": 240.2,
     "y": 230.9
@@ -17,7 +17,8 @@
       "gravity": 9.016000000000002,
       "length_of_day": 23.4,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Hydrocarbon",
+      "orbital_period": 8735.067732965785
     }
   ]
 }

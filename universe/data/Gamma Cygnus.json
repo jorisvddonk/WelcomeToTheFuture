@@ -1,6 +1,6 @@
 {
   "name": "Gamma Cygnus",
-  "mass": 3e+24,
+  "mass": 1.989e+30,
   "position": {
     "x": 56.2,
     "y": 470.8
@@ -17,7 +17,8 @@
       "gravity": 8.036,
       "length_of_day": 4799,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Chlorine",
+      "orbital_period": 3697.246820933261
     }
   ]
 }

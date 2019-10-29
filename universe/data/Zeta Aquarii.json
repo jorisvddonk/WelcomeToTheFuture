@@ -1,6 +1,6 @@
 {
   "name": "Zeta Aquarii",
-  "mass": 3e+24,
+  "mass": 1.989e+30,
   "position": {
     "x": 862.5,
     "y": 856.2
@@ -17,7 +17,8 @@
       "gravity": 8.134,
       "length_of_day": 23.7,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Vinylogous",
+      "orbital_period": 10670.79414282581
     },
     {
       "position": {
@@ -30,7 +31,8 @@
       "gravity": 6.468000000000001,
       "length_of_day": 17.2,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Radioactive",
+      "orbital_period": 18269.574076971614
     }
   ]
 }

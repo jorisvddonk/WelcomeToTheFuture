@@ -1,6 +1,6 @@
 {
   "name": "Alpha Illuminati",
-  "mass": 8.999999999999999e+24,
+  "mass": 5.967e+30,
   "position": {
     "x": 235.4,
     "y": 329.1
@@ -17,7 +17,8 @@
       "gravity": 3.724,
       "length_of_day": 23.5,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Metal",
+      "orbital_period": 659.9812493073503
     },
     {
       "position": {
@@ -30,7 +31,8 @@
       "gravity": 10.290000000000001,
       "length_of_day": 17.8,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Hydrocarbon",
+      "orbital_period": 2235.570990339311
     },
     {
       "position": {
@@ -43,7 +45,8 @@
       "gravity": 2.7440000000000007,
       "length_of_day": 27.5,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Chondrite",
+      "orbital_period": 4908.587089469193
     },
     {
       "position": {
@@ -56,7 +59,8 @@
       "gravity": 4.214,
       "length_of_day": 17.2,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Metal",
+      "orbital_period": 6261.859269823538
     },
     {
       "position": {
@@ -69,7 +73,8 @@
       "gravity": 12.838000000000001,
       "length_of_day": 24.8,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Magma",
+      "orbital_period": 7669.514821052449
     },
     {
       "position": {
@@ -82,7 +87,8 @@
       "gravity": 11.956000000000001,
       "length_of_day": 2794.2,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Magma",
+      "orbital_period": 10557.045720277662
     },
     {
       "position": {
@@ -95,7 +101,8 @@
       "gravity": 1.9600000000000002,
       "length_of_day": 1861.3,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Pellucid",
+      "orbital_period": 12445.947247237904
     },
     {
       "position": {
@@ -109,7 +116,8 @@
       "length_of_day": 24.7,
       "parent": "II",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Infrared",
+      "orbital_period": 2.235570990339311
     }
   ]
 }

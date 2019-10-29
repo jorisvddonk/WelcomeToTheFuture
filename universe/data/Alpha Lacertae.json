@@ -1,6 +1,6 @@
 {
   "name": "Alpha Lacertae",
-  "mass": 3e+24,
+  "mass": 1.989e+30,
   "position": {
     "x": 841.6,
     "y": 808.3
@@ -17,7 +17,8 @@
       "gravity": 3.9200000000000004,
       "length_of_day": 26.2,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Metal",
+      "orbital_period": 2401.9331951984427
     },
     {
       "position": {
@@ -30,7 +31,8 @@
       "gravity": 7.644000000000001,
       "length_of_day": 27.4,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Telluric",
+      "orbital_period": 9456.479848723822
     },
     {
       "position": {
@@ -43,7 +45,8 @@
       "gravity": 1.9600000000000002,
       "length_of_day": 2780.7,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Urea",
+      "orbital_period": 18808.135542559467
     },
     {
       "position": {
@@ -57,7 +60,8 @@
       "length_of_day": 24.4,
       "parent": "II",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Quasi-Degenerate",
+      "orbital_period": 9.45647984872382
     }
   ]
 }

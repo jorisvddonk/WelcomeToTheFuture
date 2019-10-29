@@ -1,6 +1,6 @@
 {
   "name": "Delta Cassiopeiae",
-  "mass": 3e+24,
+  "mass": 1.989e+30,
   "position": {
     "x": 387.5,
     "y": 514.5
@@ -17,7 +17,8 @@
       "gravity": 5.292000000000001,
       "length_of_day": 24.8,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Copper",
+      "orbital_period": 2177.1558755527412
     },
     {
       "position": {
@@ -30,7 +31,8 @@
       "gravity": 5.390000000000001,
       "length_of_day": 25.7,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Iodine",
+      "orbital_period": 3706.505366214302
     },
     {
       "position": {
@@ -43,7 +45,8 @@
       "gravity": 30.674,
       "length_of_day": 9.6,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Gas Giant",
+      "orbital_period": 12453.05530246119
     },
     {
       "position": {
@@ -56,7 +59,8 @@
       "gravity": 3.9200000000000004,
       "length_of_day": 28.9,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Copper",
+      "orbital_period": 14183.300567787199
     },
     {
       "position": {
@@ -69,7 +73,8 @@
       "gravity": 15.288000000000002,
       "length_of_day": 19.6,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Magma",
+      "orbital_period": 21891.010789323518
     },
     {
       "position": {
@@ -83,7 +88,8 @@
       "length_of_day": 17.1,
       "parent": "III",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Noble",
+      "orbital_period": 12.453055302461193
     }
   ]
 }

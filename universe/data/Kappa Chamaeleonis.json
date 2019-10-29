@@ -1,6 +1,6 @@
 {
   "name": "Kappa Chamaeleonis",
-  "mass": 3e+24,
+  "mass": 1.989e+30,
   "position": {
     "x": 506.2,
     "y": 675
@@ -17,7 +17,8 @@
       "gravity": 15.484000000000002,
       "length_of_day": 8.6,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Gas Giant",
+      "orbital_period": 1533.2805170546728
     },
     {
       "position": {
@@ -30,7 +31,8 @@
       "gravity": 0.784,
       "length_of_day": 16.6,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Noble",
+      "orbital_period": 3545.600528256701
     },
     {
       "position": {
@@ -43,7 +45,8 @@
       "gravity": 14.406,
       "length_of_day": 9,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Gas Giant",
+      "orbital_period": 5275.432219229107
     },
     {
       "position": {
@@ -56,7 +59,8 @@
       "gravity": 3.528,
       "length_of_day": 20,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Carbide",
+      "orbital_period": 11111.898305534252
     },
     {
       "position": {
@@ -70,7 +74,8 @@
       "length_of_day": 5623.7,
       "parent": "I",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Treasure",
+      "orbital_period": 1.5332805170546726
     },
     {
       "position": {
@@ -84,7 +89,8 @@
       "length_of_day": 22.5,
       "parent": "I",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Lanthanide",
+      "orbital_period": 1.5332805170546726
     },
     {
       "position": {
@@ -98,7 +104,8 @@
       "length_of_day": 26.6,
       "parent": "I",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Radioactive",
+      "orbital_period": 1.5332805170546726
     },
     {
       "position": {
@@ -112,7 +119,8 @@
       "length_of_day": 19.3,
       "parent": "I",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Quasi-Degenerate",
+      "orbital_period": 1.5332805170546726
     },
     {
       "position": {
@@ -126,7 +134,8 @@
       "length_of_day": 23.6,
       "parent": "III",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Halide",
+      "orbital_period": 5.275432219229107
     },
     {
       "position": {
@@ -140,7 +149,8 @@
       "length_of_day": 29.1,
       "parent": "III",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Azure",
+      "orbital_period": 5.275432219229107
     },
     {
       "position": {
@@ -154,7 +164,8 @@
       "length_of_day": 22.1,
       "parent": "III",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Noble",
+      "orbital_period": 5.275432219229107
     }
   ]
 }

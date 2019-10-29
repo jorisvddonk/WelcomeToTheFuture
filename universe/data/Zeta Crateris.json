@@ -1,6 +1,6 @@
 {
   "name": "Zeta Crateris",
-  "mass": 3e+24,
+  "mass": 1.989e+30,
   "position": {
     "x": 649.6,
     "y": 603.2
@@ -17,7 +17,8 @@
       "gravity": 16.758,
       "length_of_day": 9.1,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Gas Giant",
+      "orbital_period": 11759.094551834321
     },
     {
       "position": {
@@ -30,7 +31,8 @@
       "gravity": 14.112,
       "length_of_day": 15.9,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Gas Giant",
+      "orbital_period": 18041.484616835
     },
     {
       "position": {
@@ -44,7 +46,8 @@
       "length_of_day": 18.7,
       "parent": "I",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Cimmerian",
+      "orbital_period": 11.759094551834322
     },
     {
       "position": {
@@ -58,7 +61,8 @@
       "length_of_day": 19.1,
       "parent": "II",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Alkali",
+      "orbital_period": 18.041484616835003
     },
     {
       "position": {
@@ -72,7 +76,8 @@
       "length_of_day": 20.3,
       "parent": "II",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Crimson",
+      "orbital_period": 18.041484616835003
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "name": "Delta Crateris",
-  "mass": 3e+24,
+  "mass": 1.989e+30,
   "position": {
     "x": 620,
     "y": 593.5
@@ -17,7 +17,8 @@
       "gravity": 0.9800000000000001,
       "length_of_day": 20.9,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Cyanic",
+      "orbital_period": 254.87894589672672
     },
     {
       "position": {
@@ -30,7 +31,8 @@
       "gravity": 9.506,
       "length_of_day": 29.5,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Organic",
+      "orbital_period": 1802.8768975272178
     },
     {
       "position": {
@@ -43,7 +45,8 @@
       "gravity": 2.352,
       "length_of_day": 19.9,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Chondrite",
+      "orbital_period": 4181.550359511587
     },
     {
       "position": {
@@ -56,7 +59,8 @@
       "gravity": 8.624,
       "length_of_day": 23.5,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Telluric",
+      "orbital_period": 6924.466289519236
     },
     {
       "position": {
@@ -69,7 +73,8 @@
       "gravity": 16.17,
       "length_of_day": 15.8,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Magma",
+      "orbital_period": 8523.308147728605
     },
     {
       "position": {
@@ -82,7 +87,8 @@
       "gravity": 23.912000000000003,
       "length_of_day": 9.4,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Gas Giant",
+      "orbital_period": 11823.80155115048
     },
     {
       "position": {
@@ -95,7 +101,8 @@
       "gravity": 7.3500000000000005,
       "length_of_day": 20.2,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Chlorine",
+      "orbital_period": 17158.03183436812
     },
     {
       "position": {
@@ -108,7 +115,8 @@
       "gravity": 3.43,
       "length_of_day": 22.3,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Crimson",
+      "orbital_period": 19609.55261986291
     },
     {
       "position": {
@@ -121,7 +129,8 @@
       "gravity": 7.3500000000000005,
       "length_of_day": 27.4,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Telluric",
+      "orbital_period": 22218.302585776953
     },
     {
       "position": {
@@ -135,7 +144,8 @@
       "length_of_day": 24.8,
       "parent": "IV",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Metal",
+      "orbital_period": 6.924466289519236
     },
     {
       "position": {
@@ -149,7 +159,8 @@
       "length_of_day": 5617.7,
       "parent": "VI",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Chondrite",
+      "orbital_period": 11.82380155115048
     },
     {
       "position": {
@@ -163,7 +174,8 @@
       "length_of_day": 23.4,
       "parent": "VI",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Treasure",
+      "orbital_period": 11.82380155115048
     },
     {
       "position": {
@@ -177,7 +189,8 @@
       "length_of_day": 28.6,
       "parent": "IX",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Treasure",
+      "orbital_period": 22.21830258577695
     },
     {
       "position": {
@@ -191,7 +204,8 @@
       "length_of_day": 5596.7,
       "parent": "IX",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Cimmerian",
+      "orbital_period": 22.21830258577695
     }
   ]
 }

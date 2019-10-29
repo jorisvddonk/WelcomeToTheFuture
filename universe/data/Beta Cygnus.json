@@ -1,6 +1,6 @@
 {
   "name": "Beta Cygnus",
-  "mass": 3e+24,
+  "mass": 1.989e+30,
   "position": {
     "x": 47.9,
     "y": 464.5
@@ -17,7 +17,8 @@
       "gravity": 1.47,
       "length_of_day": 4009.2,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Purple",
+      "orbital_period": 461.8666738633547
     },
     {
       "position": {
@@ -30,7 +31,8 @@
       "gravity": 24.010000000000005,
       "length_of_day": 11.9,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Gas Giant",
+      "orbital_period": 4667.812902780713
     },
     {
       "position": {
@@ -43,7 +45,8 @@
       "gravity": 6.272,
       "length_of_day": 23.6,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Iodine",
+      "orbital_period": 8459.204166138537
     },
     {
       "position": {
@@ -56,7 +59,8 @@
       "gravity": 15.778000000000002,
       "length_of_day": 3233.6,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Ultraviolet",
+      "orbital_period": 11558.918396802825
     },
     {
       "position": {
@@ -69,7 +73,8 @@
       "gravity": 25.970000000000002,
       "length_of_day": 12.8,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Gas Giant",
+      "orbital_period": 15637.733151928176
     },
     {
       "position": {
@@ -82,7 +87,8 @@
       "gravity": 2.352,
       "length_of_day": 28.8,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Chondrite",
+      "orbital_period": 22096.428141408724
     },
     {
       "position": {
@@ -96,7 +102,8 @@
       "length_of_day": 1207.6,
       "parent": "II",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Radioactive",
+      "orbital_period": 4.667812902780712
     },
     {
       "position": {
@@ -110,7 +117,8 @@
       "length_of_day": 24.5,
       "parent": "II",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Azure",
+      "orbital_period": 4.667812902780712
     },
     {
       "position": {
@@ -124,7 +132,8 @@
       "length_of_day": 16.9,
       "parent": "II",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Azure",
+      "orbital_period": 4.667812902780712
     },
     {
       "position": {
@@ -138,7 +147,8 @@
       "length_of_day": 21.1,
       "parent": "II",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Pellucid",
+      "orbital_period": 4.667812902780712
     },
     {
       "position": {
@@ -152,7 +162,8 @@
       "length_of_day": 25,
       "parent": "V",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Treasure",
+      "orbital_period": 15.637733151928177
     }
   ]
 }

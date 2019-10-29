@@ -1,6 +1,6 @@
 {
   "name": "Gamma Phoenicis",
-  "mass": 3e+24,
+  "mass": 1.989e+30,
   "position": {
     "x": 981.2,
     "y": 414.5
@@ -17,7 +17,8 @@
       "gravity": 4.998,
       "length_of_day": 2495.5,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Treasure",
+      "orbital_period": 370.349879581449
     },
     {
       "position": {
@@ -30,7 +31,8 @@
       "gravity": 5.194000000000001,
       "length_of_day": 25.3,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Metal",
+      "orbital_period": 6179.880113307579
     },
     {
       "position": {
@@ -43,7 +45,8 @@
       "gravity": 4.214,
       "length_of_day": 3743.3,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Quasi-Degenerate",
+      "orbital_period": 19876.457022325794
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "name": "Gamma Lipi",
-  "mass": 3e+24,
+  "mass": 1.989e+30,
   "position": {
     "x": 547.5,
     "y": 882.3
@@ -17,7 +17,8 @@
       "gravity": 7.742000000000001,
       "length_of_day": 25.7,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Vinylogous",
+      "orbital_period": 4451.958258874051
     },
     {
       "position": {
@@ -30,7 +31,8 @@
       "gravity": 7.154,
       "length_of_day": 13.9,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Gas Giant",
+      "orbital_period": 5802.169906843815
     },
     {
       "position": {
@@ -44,7 +46,8 @@
       "length_of_day": 23,
       "parent": "I",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Cimmerian",
+      "orbital_period": 4.4519582588740505
     },
     {
       "position": {
@@ -58,7 +61,8 @@
       "length_of_day": 17.8,
       "parent": "II",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Copper",
+      "orbital_period": 5.8021699068438135
     },
     {
       "position": {
@@ -72,7 +76,8 @@
       "length_of_day": 28.8,
       "parent": "II",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Super-Dense",
+      "orbital_period": 5.8021699068438135
     },
     {
       "position": {
@@ -86,7 +91,8 @@
       "length_of_day": 21.2,
       "parent": "II",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Super-Dense",
+      "orbital_period": 5.8021699068438135
     }
   ]
 }

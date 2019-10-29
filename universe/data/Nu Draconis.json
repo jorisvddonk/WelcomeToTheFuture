@@ -1,6 +1,6 @@
 {
   "name": "Nu Draconis",
-  "mass": 3e+24,
+  "mass": 1.989e+30,
   "position": {
     "x": 230,
     "y": 886.1
@@ -17,7 +17,8 @@
       "gravity": 8.428,
       "length_of_day": 23.3,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Telluric",
+      "orbital_period": 18589.707045396033
     },
     {
       "position": {
@@ -30,7 +31,8 @@
       "gravity": 26.950000000000003,
       "length_of_day": 11,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Gas Giant",
+      "orbital_period": 21966.39590090681
     },
     {
       "position": {
@@ -44,7 +46,8 @@
       "length_of_day": 2168.7,
       "parent": "II",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Crimson",
+      "orbital_period": 21.966395900906807
     },
     {
       "position": {
@@ -58,7 +61,8 @@
       "length_of_day": 20.9,
       "parent": "II",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Urea",
+      "orbital_period": 21.966395900906807
     },
     {
       "position": {
@@ -72,7 +76,8 @@
       "length_of_day": 15.6,
       "parent": "II",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Cimmerian",
+      "orbital_period": 21.966395900906807
     }
   ]
 }

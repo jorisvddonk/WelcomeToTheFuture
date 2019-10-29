@@ -1,6 +1,6 @@
 {
   "name": "Eta Fornacis",
-  "mass": 3e+24,
+  "mass": 1.989e+30,
   "position": {
     "x": 618.7,
     "y": 787.5
@@ -17,7 +17,8 @@
       "gravity": 0.9800000000000001,
       "length_of_day": 21.4,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Ultramarine",
+      "orbital_period": 3094.8519999273517
     },
     {
       "position": {
@@ -30,7 +31,8 @@
       "gravity": 27.244,
       "length_of_day": 9,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Gas Giant",
+      "orbital_period": 9415.376210850993
     },
     {
       "position": {
@@ -43,7 +45,8 @@
       "gravity": 1.9600000000000002,
       "length_of_day": 16.1,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Azure",
+      "orbital_period": 14452.16239299506
     },
     {
       "position": {
@@ -57,7 +60,8 @@
       "length_of_day": 26.1,
       "parent": "II",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Cimmerian",
+      "orbital_period": 9.41537621085099
     }
   ]
 }

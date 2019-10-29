@@ -1,6 +1,6 @@
 {
   "name": "Alpha Luyten",
-  "mass": 3e+24,
+  "mass": 1.989e+30,
   "position": {
     "x": 425,
     "y": 164.5
@@ -17,7 +17,8 @@
       "gravity": 6.272,
       "length_of_day": 2948.1,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Super-Dense",
+      "orbital_period": 158.00754437158093
     },
     {
       "position": {
@@ -30,7 +31,8 @@
       "gravity": 3.724,
       "length_of_day": 19.4,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Cimmerian",
+      "orbital_period": 17724.548591550047
     }
   ]
 }

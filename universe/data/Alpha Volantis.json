@@ -1,6 +1,6 @@
 {
   "name": "Alpha Volantis",
-  "mass": 3e+24,
+  "mass": 1.989e+30,
   "position": {
     "x": 95.1,
     "y": 177
@@ -17,7 +17,8 @@
       "gravity": 2.0580000000000003,
       "length_of_day": 17.5,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Azure",
+      "orbital_period": 442.34474279721155
     },
     {
       "position": {
@@ -30,7 +31,8 @@
       "gravity": 9.8,
       "length_of_day": 24.4,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Water",
+      "orbital_period": 12899.608678946268
     },
     {
       "position": {
@@ -43,7 +45,8 @@
       "gravity": 0.9800000000000001,
       "length_of_day": 24.4,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Noble",
+      "orbital_period": 15589.11652156442
     }
   ]
 }

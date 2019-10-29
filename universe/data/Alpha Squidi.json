@@ -1,6 +1,6 @@
 {
   "name": "Alpha Squidi",
-  "mass": 3e+24,
+  "mass": 1.989e+30,
   "position": {
     "x": 214.5,
     "y": 391.6
@@ -17,7 +17,8 @@
       "gravity": 6.958,
       "length_of_day": 28.2,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Treasure",
+      "orbital_period": 910.8623420431296
     },
     {
       "position": {
@@ -30,7 +31,8 @@
       "gravity": 9.8,
       "length_of_day": 18.9,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Organic",
+      "orbital_period": 18383.976500283654
     }
   ]
 }

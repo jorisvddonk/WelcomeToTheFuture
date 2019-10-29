@@ -1,6 +1,6 @@
 {
   "name": "Alpha Arianni",
-  "mass": 3e+24,
+  "mass": 1.989e+30,
   "position": {
     "x": 739.5,
     "y": 175
@@ -17,7 +17,8 @@
       "gravity": 8.624,
       "length_of_day": 18,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Water",
+      "orbital_period": 10477.031489086121
     }
   ]
 }

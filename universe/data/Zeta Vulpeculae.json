@@ -1,6 +1,6 @@
 {
   "name": "Zeta Vulpeculae",
-  "mass": 3e+24,
+  "mass": 1.989e+30,
   "position": {
     "x": 360.8,
     "y": 263.7
@@ -17,7 +17,8 @@
       "gravity": 4.704,
       "length_of_day": 16.6,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Lanthanide",
+      "orbital_period": 437.7923322052296
     },
     {
       "position": {
@@ -30,7 +31,8 @@
       "gravity": 2.842,
       "length_of_day": 15.6,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Alkali",
+      "orbital_period": 1182.4555173042852
     },
     {
       "position": {
@@ -43,7 +45,8 @@
       "gravity": 22.148,
       "length_of_day": 9,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Gas Giant",
+      "orbital_period": 2472.407717665684
     },
     {
       "position": {
@@ -56,7 +59,8 @@
       "gravity": 5.292000000000001,
       "length_of_day": 18.8,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Treasure",
+      "orbital_period": 4111.838725737346
     },
     {
       "position": {
@@ -69,7 +73,8 @@
       "gravity": 12.348,
       "length_of_day": 14,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Gas Giant",
+      "orbital_period": 9276.699901435548
     },
     {
       "position": {
@@ -82,7 +87,8 @@
       "gravity": 5.586,
       "length_of_day": 23.3,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Radioactive",
+      "orbital_period": 14082.00874459152
     },
     {
       "position": {
@@ -95,7 +101,8 @@
       "gravity": 6.958,
       "length_of_day": 27.9,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Treasure",
+      "orbital_period": 16647.32500861942
     },
     {
       "position": {
@@ -108,7 +115,8 @@
       "gravity": 4.606,
       "length_of_day": 22.1,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Lanthanide",
+      "orbital_period": 20438.401496332302
     },
     {
       "position": {
@@ -122,7 +130,8 @@
       "length_of_day": 26.6,
       "parent": "III",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Treasure",
+      "orbital_period": 2.4724077176656833
     },
     {
       "position": {
@@ -136,7 +145,8 @@
       "length_of_day": 22.7,
       "parent": "V",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Metal",
+      "orbital_period": 9.276699901435546
     },
     {
       "position": {
@@ -150,7 +160,8 @@
       "length_of_day": 23.3,
       "parent": "V",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Super-Dense",
+      "orbital_period": 9.276699901435546
     },
     {
       "position": {
@@ -164,7 +175,8 @@
       "length_of_day": 3082.5,
       "parent": "V",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Treasure",
+      "orbital_period": 9.276699901435546
     },
     {
       "position": {
@@ -178,7 +190,8 @@
       "length_of_day": 28.4,
       "parent": "V",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Auric",
+      "orbital_period": 9.276699901435546
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "name": "Metis",
-  "mass": 3e+24,
+  "mass": 1.989e+30,
   "position": {
     "x": 570.8,
     "y": 460.4
@@ -17,7 +17,8 @@
       "gravity": 21.364000000000004,
       "length_of_day": 11.5,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Gas Giant",
+      "orbital_period": 2519.088068840676
     },
     {
       "position": {
@@ -30,7 +31,8 @@
       "gravity": 3.724,
       "length_of_day": 16.3,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Infrared",
+      "orbital_period": 3391.5890470798076
     },
     {
       "position": {
@@ -43,7 +45,8 @@
       "gravity": 1.764,
       "length_of_day": 29.6,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Azure",
+      "orbital_period": 4983.852707932602
     },
     {
       "position": {
@@ -56,7 +59,8 @@
       "gravity": 7.9380000000000015,
       "length_of_day": 23.8,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Vinylogous",
+      "orbital_period": 9242.138128965273
     },
     {
       "position": {
@@ -69,7 +73,8 @@
       "gravity": 4.8020000000000005,
       "length_of_day": 17.5,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Metal",
+      "orbital_period": 12484.281900595519
     },
     {
       "position": {
@@ -82,7 +87,8 @@
       "gravity": 5.586,
       "length_of_day": 27.1,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Maroon",
+      "orbital_period": 14910.126044248653
     },
     {
       "position": {
@@ -95,7 +101,8 @@
       "gravity": 5.684,
       "length_of_day": 19.3,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Cimmerian",
+      "orbital_period": 16769.731504886673
     },
     {
       "position": {
@@ -108,7 +115,8 @@
       "gravity": 1.6660000000000001,
       "length_of_day": 24.1,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Selenic",
+      "orbital_period": 20980.778293228017
     },
     {
       "position": {
@@ -122,7 +130,8 @@
       "length_of_day": 16.6,
       "parent": "I",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Crimson",
+      "orbital_period": 2.519088068840676
     },
     {
       "position": {
@@ -136,7 +145,8 @@
       "length_of_day": 18.6,
       "parent": "I",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Infrared",
+      "orbital_period": 2.519088068840676
     },
     {
       "position": {
@@ -150,7 +160,8 @@
       "length_of_day": 28.7,
       "parent": "I",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Dust",
+      "orbital_period": 2.519088068840676
     },
     {
       "position": {
@@ -164,7 +175,8 @@
       "length_of_day": 18.6,
       "parent": "I",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Crimson",
+      "orbital_period": 2.519088068840676
     },
     {
       "position": {
@@ -178,7 +190,8 @@
       "length_of_day": 28.6,
       "parent": "VI",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Crimson",
+      "orbital_period": 14.910126044248653
     }
   ]
 }

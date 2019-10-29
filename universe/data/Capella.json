@@ -1,6 +1,6 @@
 {
   "name": "Capella",
-  "mass": 3e+24,
+  "mass": 1.989e+30,
   "position": {
     "x": 424.4,
     "y": 9.1
@@ -17,7 +17,8 @@
       "gravity": 4.998,
       "length_of_day": 28.9,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Oolite",
+      "orbital_period": 1275.402020839123
     },
     {
       "position": {
@@ -30,7 +31,8 @@
       "gravity": 0.882,
       "length_of_day": 18.4,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Noble",
+      "orbital_period": 11195.475520434777
     }
   ]
 }

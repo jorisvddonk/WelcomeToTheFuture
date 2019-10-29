@@ -1,6 +1,6 @@
 {
   "name": "Alpha Fornacis",
-  "mass": 3e+24,
+  "mass": 1.989e+30,
   "position": {
     "x": 537.5,
     "y": 787.5
@@ -17,7 +17,8 @@
       "gravity": 2.842,
       "length_of_day": 22.1,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Acid",
+      "orbital_period": 1971.1093265625645
     },
     {
       "position": {
@@ -30,7 +31,8 @@
       "gravity": 5.586,
       "length_of_day": 21.8,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Sapphire",
+      "orbital_period": 3566.1547023307853
     },
     {
       "position": {
@@ -43,7 +45,8 @@
       "gravity": 8.624,
       "length_of_day": 22.4,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Vinylogous",
+      "orbital_period": 7564.207874962417
     },
     {
       "position": {
@@ -56,7 +59,8 @@
       "gravity": 3.3320000000000003,
       "length_of_day": 18.7,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Acid",
+      "orbital_period": 11481.194507094693
     },
     {
       "position": {
@@ -69,7 +73,8 @@
       "gravity": 4.508000000000001,
       "length_of_day": 23.1,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Sapphire",
+      "orbital_period": 13497.174949045802
     },
     {
       "position": {
@@ -82,7 +87,8 @@
       "gravity": 7.154,
       "length_of_day": 4759.4,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Vinylogous",
+      "orbital_period": 17142.597323551367
     }
   ]
 }

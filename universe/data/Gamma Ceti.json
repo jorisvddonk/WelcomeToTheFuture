@@ -1,6 +1,6 @@
 {
   "name": "Gamma Ceti",
-  "mass": 3e+24,
+  "mass": 1.989e+30,
   "position": {
     "x": 303.8,
     "y": 408.3
@@ -17,7 +17,8 @@
       "gravity": 1.568,
       "length_of_day": 27.5,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Selenic",
+      "orbital_period": 409.698232262746
     },
     {
       "position": {
@@ -30,7 +31,8 @@
       "gravity": 9.898000000000001,
       "length_of_day": 15.5,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Telluric",
+      "orbital_period": 2904.964973107976
     },
     {
       "position": {
@@ -43,7 +45,8 @@
       "gravity": 10.388000000000002,
       "length_of_day": 19.3,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Chlorine",
+      "orbital_period": 5361.621077707139
     },
     {
       "position": {
@@ -56,7 +59,8 @@
       "gravity": 1.47,
       "length_of_day": 15.4,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Halide",
+      "orbital_period": 11474.44417236272
     },
     {
       "position": {
@@ -69,7 +73,8 @@
       "gravity": 5.292000000000001,
       "length_of_day": 28.2,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Oolite",
+      "orbital_period": 13082.513637610953
     },
     {
       "position": {
@@ -83,7 +88,8 @@
       "length_of_day": 20.3,
       "parent": "III",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Noble",
+      "orbital_period": 5.36162107770714
     }
   ]
 }

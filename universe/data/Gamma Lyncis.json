@@ -1,6 +1,6 @@
 {
   "name": "Gamma Lyncis",
-  "mass": 3e+24,
+  "mass": 1.989e+30,
   "position": {
     "x": 578.1,
     "y": 971.1
@@ -17,7 +17,8 @@
       "gravity": 2.6460000000000004,
       "length_of_day": 15.1,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Crimson",
+      "orbital_period": 5171.587009795157
     },
     {
       "position": {
@@ -30,7 +31,8 @@
       "gravity": 4.606,
       "length_of_day": 25.4,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Cimmerian",
+      "orbital_period": 7047.460192277094
     },
     {
       "position": {
@@ -43,7 +45,8 @@
       "gravity": 9.898000000000001,
       "length_of_day": 12.5,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Gas Giant",
+      "orbital_period": 12927.692000829074
     },
     {
       "position": {
@@ -57,7 +60,8 @@
       "length_of_day": 16.1,
       "parent": "III",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Halide",
+      "orbital_period": 12.927692000829072
     },
     {
       "position": {
@@ -71,7 +75,8 @@
       "length_of_day": 15.4,
       "parent": "III",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Cyanic",
+      "orbital_period": 12.927692000829072
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "name": "Alpha Cygnus",
-  "mass": 3e+24,
+  "mass": 1.989e+30,
   "position": {
     "x": 47.9,
     "y": 458.3
@@ -17,7 +17,8 @@
       "gravity": 10.878000000000002,
       "length_of_day": 4290.6,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Telluric",
+      "orbital_period": 588.4849787794446
     },
     {
       "position": {
@@ -30,7 +31,8 @@
       "gravity": 4.312,
       "length_of_day": 23,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Auric",
+      "orbital_period": 2510.948854464673
     },
     {
       "position": {
@@ -43,7 +45,8 @@
       "gravity": 0.784,
       "length_of_day": 24.7,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Ultramarine",
+      "orbital_period": 4285.632311062211
     },
     {
       "position": {
@@ -56,7 +59,8 @@
       "gravity": 1.47,
       "length_of_day": 22.1,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Azure",
+      "orbital_period": 6420.297172423835
     },
     {
       "position": {
@@ -69,7 +73,8 @@
       "gravity": 5.586,
       "length_of_day": 29.7,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Treasure",
+      "orbital_period": 9675.64160303021
     },
     {
       "position": {
@@ -82,7 +87,8 @@
       "gravity": 4.1160000000000005,
       "length_of_day": 29.8,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Metal",
+      "orbital_period": 13181.355898118682
     }
   ]
 }

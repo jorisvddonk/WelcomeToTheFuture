@@ -1,6 +1,6 @@
 {
   "name": "Theta Draconis",
-  "mass": 3e+24,
+  "mass": 1.989e+30,
   "position": {
     "x": 327,
     "y": 800
@@ -17,7 +17,8 @@
       "gravity": 4.8020000000000005,
       "length_of_day": 21.5,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Metal",
+      "orbital_period": 2590.6794871489055
     },
     {
       "position": {
@@ -30,7 +31,8 @@
       "gravity": 17.934,
       "length_of_day": 8.9,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Gas Giant",
+      "orbital_period": 3945.1876737012885
     },
     {
       "position": {
@@ -43,7 +45,8 @@
       "gravity": 5.782,
       "length_of_day": 17,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Radioactive",
+      "orbital_period": 5519.515973896753
     },
     {
       "position": {
@@ -56,7 +59,8 @@
       "gravity": 4.998,
       "length_of_day": 26.4,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Auric",
+      "orbital_period": 17192.776407936268
     },
     {
       "position": {
@@ -69,7 +73,8 @@
       "gravity": 2.0580000000000003,
       "length_of_day": 4139,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Urea",
+      "orbital_period": 19119.361649789797
     },
     {
       "position": {
@@ -83,7 +88,8 @@
       "length_of_day": 27.8,
       "parent": "II",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Cimmerian",
+      "orbital_period": 3.945187673701289
     },
     {
       "position": {
@@ -97,7 +103,8 @@
       "length_of_day": 18.5,
       "parent": "II",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Alkali",
+      "orbital_period": 3.945187673701289
     },
     {
       "position": {
@@ -111,7 +118,8 @@
       "length_of_day": 26,
       "parent": "II",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Urea",
+      "orbital_period": 3.945187673701289
     }
   ]
 }

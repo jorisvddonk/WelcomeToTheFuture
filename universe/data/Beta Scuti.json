@@ -1,6 +1,6 @@
 {
   "name": "Beta Scuti",
-  "mass": 3e+24,
+  "mass": 1.989e+30,
   "position": {
     "x": 501.4,
     "y": 58.4
@@ -17,7 +17,8 @@
       "gravity": 5.390000000000001,
       "length_of_day": 18.4,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Super-Dense",
+      "orbital_period": 181.18988182713028
     },
     {
       "position": {
@@ -30,7 +31,8 @@
       "gravity": 1.9600000000000002,
       "length_of_day": 23.9,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Urea",
+      "orbital_period": 1281.8981184261534
     },
     {
       "position": {
@@ -43,7 +45,8 @@
       "gravity": 1.764,
       "length_of_day": 20.1,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Urea",
+      "orbital_period": 4637.837707873926
     },
     {
       "position": {
@@ -56,7 +59,8 @@
       "gravity": 9.016000000000002,
       "length_of_day": 2835.9,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Telluric",
+      "orbital_period": 6201.859519948895
     },
     {
       "position": {
@@ -69,7 +73,8 @@
       "gravity": 14.798000000000002,
       "length_of_day": 18.4,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Magnetic",
+      "orbital_period": 9060.616170603116
     },
     {
       "position": {
@@ -82,7 +87,8 @@
       "gravity": 15.386000000000001,
       "length_of_day": 24.2,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Magnetic",
+      "orbital_period": 12822.484595275733
     },
     {
       "position": {
@@ -95,7 +101,8 @@
       "gravity": 9.31,
       "length_of_day": 17.1,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Water",
+      "orbital_period": 17771.38384869228
     },
     {
       "position": {
@@ -108,7 +115,8 @@
       "gravity": 12.838000000000001,
       "length_of_day": 10.9,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Gas Giant",
+      "orbital_period": 21324.23508335967
     },
     {
       "position": {
@@ -122,7 +130,8 @@
       "length_of_day": 18.5,
       "parent": "VIII",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Pellucid",
+      "orbital_period": 21.32423508335967
     },
     {
       "position": {
@@ -136,7 +145,8 @@
       "length_of_day": 24.1,
       "parent": "VIII",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Metal",
+      "orbital_period": 21.32423508335967
     }
   ]
 }

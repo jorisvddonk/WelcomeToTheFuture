@@ -1,6 +1,6 @@
 {
   "name": "Gamma Carinae",
-  "mass": 3e+24,
+  "mass": 1.989e+30,
   "position": {
     "x": 358.3,
     "y": 547.9
@@ -17,7 +17,8 @@
       "gravity": 21.364000000000004,
       "length_of_day": 10.6,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Gas Giant",
+      "orbital_period": 2419.9902819922163
     },
     {
       "position": {
@@ -31,7 +32,8 @@
       "length_of_day": 27.2,
       "parent": "I",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Purple",
+      "orbital_period": 2.4199902819922166
     },
     {
       "position": {
@@ -45,7 +47,8 @@
       "length_of_day": 19.9,
       "parent": "I",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Cyanic",
+      "orbital_period": 2.4199902819922166
     }
   ]
 }

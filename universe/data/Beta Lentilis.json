@@ -1,6 +1,6 @@
 {
   "name": "Beta Lentilis",
-  "mass": 3e+24,
+  "mass": 1.989e+30,
   "position": {
     "x": 462.5,
     "y": 589.5
@@ -17,7 +17,8 @@
       "gravity": 8.722000000000001,
       "length_of_day": 28.5,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Organic",
+      "orbital_period": 410.8100317003896
     },
     {
       "position": {
@@ -30,7 +31,8 @@
       "gravity": 6.566000000000001,
       "length_of_day": 17.1,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Iodine",
+      "orbital_period": 6356.441537692544
     },
     {
       "position": {
@@ -43,7 +45,8 @@
       "gravity": 18.522000000000002,
       "length_of_day": 10.7,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Gas Giant",
+      "orbital_period": 8059.979966564838
     },
     {
       "position": {
@@ -56,7 +59,8 @@
       "gravity": 5.096000000000001,
       "length_of_day": 19.6,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Super-Dense",
+      "orbital_period": 9986.555327153654
     },
     {
       "position": {
@@ -69,7 +73,8 @@
       "gravity": 13.230000000000002,
       "length_of_day": 23.7,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Ultraviolet",
+      "orbital_period": 12190.406134014098
     },
     {
       "position": {
@@ -82,7 +87,8 @@
       "gravity": 5.096000000000001,
       "length_of_day": 17.3,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Copper",
+      "orbital_period": 14917.492100671452
     },
     {
       "position": {
@@ -95,7 +101,8 @@
       "gravity": 9.8,
       "length_of_day": 1545,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Water",
+      "orbital_period": 18569.89211620749
     },
     {
       "position": {
@@ -109,7 +116,8 @@
       "length_of_day": 18.2,
       "parent": "III",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Radioactive",
+      "orbital_period": 8.059979966564837
     },
     {
       "position": {
@@ -123,7 +131,8 @@
       "length_of_day": 16.5,
       "parent": "III",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Lanthanide",
+      "orbital_period": 8.059979966564837
     },
     {
       "position": {
@@ -137,7 +146,8 @@
       "length_of_day": 17.1,
       "parent": "III",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Green",
+      "orbital_period": 8.059979966564837
     },
     {
       "position": {
@@ -151,7 +161,8 @@
       "length_of_day": 18,
       "parent": "III",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Ultramarine",
+      "orbital_period": 8.059979966564837
     }
   ]
 }

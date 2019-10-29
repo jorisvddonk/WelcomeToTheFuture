@@ -1,6 +1,6 @@
 {
   "name": "Delta Gruis",
-  "mass": 3e+24,
+  "mass": 1.989e+30,
   "position": {
     "x": 235.4,
     "y": 374.1
@@ -17,7 +17,8 @@
       "gravity": 9.996,
       "length_of_day": 10.1,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Gas Giant",
+      "orbital_period": 1454.602110949606
     },
     {
       "position": {
@@ -30,7 +31,8 @@
       "gravity": 2.5480000000000005,
       "length_of_day": 19.4,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Chondrite",
+      "orbital_period": 4568.146426295895
     },
     {
       "position": {
@@ -43,7 +45,8 @@
       "gravity": 22.932,
       "length_of_day": 9.9,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Gas Giant",
+      "orbital_period": 13625.628316240376
     },
     {
       "position": {
@@ -56,7 +59,8 @@
       "gravity": 15.190000000000001,
       "length_of_day": 11.8,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Gas Giant",
+      "orbital_period": 18855.90559177444
     },
     {
       "position": {
@@ -70,7 +74,8 @@
       "length_of_day": 26.3,
       "parent": "I",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Super-Dense",
+      "orbital_period": 1.4546021109496061
     },
     {
       "position": {
@@ -84,7 +89,8 @@
       "length_of_day": 4775.7,
       "parent": "III",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Noble",
+      "orbital_period": 13.625628316240375
     },
     {
       "position": {
@@ -98,7 +104,8 @@
       "length_of_day": 24.5,
       "parent": "III",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Dust",
+      "orbital_period": 13.625628316240375
     },
     {
       "position": {
@@ -112,7 +119,8 @@
       "length_of_day": 1984.4,
       "parent": "IV",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Super-Dense",
+      "orbital_period": 18.85590559177444
     },
     {
       "position": {
@@ -126,7 +134,8 @@
       "length_of_day": 2432.3,
       "parent": "IV",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Chondrite",
+      "orbital_period": 18.85590559177444
     },
     {
       "position": {
@@ -140,7 +149,8 @@
       "length_of_day": 16.4,
       "parent": "IV",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Cimmerian",
+      "orbital_period": 18.85590559177444
     },
     {
       "position": {
@@ -154,7 +164,8 @@
       "length_of_day": 28.4,
       "parent": "IV",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Crimson",
+      "orbital_period": 18.85590559177444
     }
   ]
 }

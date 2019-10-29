@@ -1,6 +1,6 @@
 {
   "name": "Delta Arae",
-  "mass": 3e+24,
+  "mass": 1.989e+30,
   "position": {
     "x": 929.2,
     "y": 75
@@ -17,7 +17,8 @@
       "gravity": 1.862,
       "length_of_day": 27,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Opalescent",
+      "orbital_period": 198.38460250034797
     },
     {
       "position": {
@@ -30,7 +31,8 @@
       "gravity": 3.0380000000000003,
       "length_of_day": 20.9,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Green",
+      "orbital_period": 1180.8736371447335
     },
     {
       "position": {
@@ -43,7 +45,8 @@
       "gravity": 1.6660000000000001,
       "length_of_day": 22.3,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Urea",
+      "orbital_period": 2298.4907069572732
     },
     {
       "position": {
@@ -56,7 +59,8 @@
       "gravity": 3.6260000000000003,
       "length_of_day": 17.6,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Acid",
+      "orbital_period": 7640.702810113745
     },
     {
       "position": {
@@ -69,7 +73,8 @@
       "gravity": 3.136,
       "length_of_day": 17.8,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Crimson",
+      "orbital_period": 11025.199734410884
     },
     {
       "position": {
@@ -82,7 +87,8 @@
       "gravity": 1.078,
       "length_of_day": 16.8,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Ultramarine",
+      "orbital_period": 13632.776499230322
     },
     {
       "position": {
@@ -95,7 +101,8 @@
       "gravity": 9.212,
       "length_of_day": 29.1,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Vinylogous",
+      "orbital_period": 18045.409095951265
     }
   ]
 }

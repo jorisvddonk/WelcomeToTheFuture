@@ -1,6 +1,6 @@
 {
   "name": "Theta Lyncis",
-  "mass": 3e+24,
+  "mass": 1.989e+30,
   "position": {
     "x": 612.5,
     "y": 960.4
@@ -17,7 +17,8 @@
       "gravity": 4.9,
       "length_of_day": 26.7,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Ruby",
+      "orbital_period": 151.58062141374927
     },
     {
       "position": {
@@ -30,7 +31,8 @@
       "gravity": 16.758,
       "length_of_day": 20.4,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Magma",
+      "orbital_period": 1476.6970986466972
     },
     {
       "position": {
@@ -43,7 +45,8 @@
       "gravity": 3.3320000000000003,
       "length_of_day": 28.3,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Infrared",
+      "orbital_period": 4466.735173470132
     },
     {
       "position": {
@@ -56,7 +59,8 @@
       "gravity": 1.9600000000000002,
       "length_of_day": 19.9,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Selenic",
+      "orbital_period": 7750.002382783186
     },
     {
       "position": {
@@ -69,7 +73,8 @@
       "gravity": 12.25,
       "length_of_day": 26.9,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Magma",
+      "orbital_period": 18863.871192888015
     },
     {
       "position": {
@@ -83,7 +88,8 @@
       "length_of_day": 23.2,
       "parent": "V",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Ultramarine",
+      "orbital_period": 18.863871192888013
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "name": "Delta Geminorum",
-  "mass": 3e+24,
+  "mass": 1.989e+30,
   "position": {
     "x": 464.5,
     "y": 747.9
@@ -17,7 +17,8 @@
       "gravity": 1.078,
       "length_of_day": 5153.6,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Ultramarine",
+      "orbital_period": 3715.7716269519756
     }
   ]
 }

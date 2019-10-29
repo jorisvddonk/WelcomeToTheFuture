@@ -1,6 +1,6 @@
 {
   "name": "Beta Scorpii",
-  "mass": 3e+24,
+  "mass": 1.989e+30,
   "position": {
     "x": 650,
     "y": 191.6
@@ -17,7 +17,8 @@
       "gravity": 1.862,
       "length_of_day": 15.9,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Halide",
+      "orbital_period": 376.81564541643047
     },
     {
       "position": {
@@ -30,7 +31,8 @@
       "gravity": 2.0580000000000003,
       "length_of_day": 19.9,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Opalescent",
+      "orbital_period": 987.3155332302446
     },
     {
       "position": {
@@ -43,7 +45,8 @@
       "gravity": 4.704,
       "length_of_day": 4118.1,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Auric",
+      "orbital_period": 3839.274911944381
     },
     {
       "position": {
@@ -56,7 +59,8 @@
       "gravity": 21.168000000000003,
       "length_of_day": 13,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Gas Giant",
+      "orbital_period": 7502.611077036786
     },
     {
       "position": {
@@ -69,7 +73,8 @@
       "gravity": 5.88,
       "length_of_day": 25.1,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Ruby",
+      "orbital_period": 10938.727826864928
     },
     {
       "position": {
@@ -82,7 +87,8 @@
       "gravity": 3.3320000000000003,
       "length_of_day": 22,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Alkali",
+      "orbital_period": 13564.91924324466
     },
     {
       "position": {
@@ -95,7 +101,8 @@
       "gravity": 4.508000000000001,
       "length_of_day": 24.6,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Sapphire",
+      "orbital_period": 15127.933697115044
     },
     {
       "position": {
@@ -108,7 +115,8 @@
       "gravity": 14.112,
       "length_of_day": 15,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Fluorescent",
+      "orbital_period": 17646.58143900496
     },
     {
       "position": {
@@ -121,7 +129,8 @@
       "gravity": 6.468000000000001,
       "length_of_day": 12.1,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Gas Giant",
+      "orbital_period": 20680.24217241629
     },
     {
       "position": {
@@ -135,7 +144,8 @@
       "length_of_day": 19.9,
       "parent": "IV",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Metal",
+      "orbital_period": 7.502611077036787
     },
     {
       "position": {
@@ -149,7 +159,8 @@
       "length_of_day": 16.9,
       "parent": "VII",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Yttric",
+      "orbital_period": 15.127933697115045
     },
     {
       "position": {
@@ -163,7 +174,8 @@
       "length_of_day": 26.6,
       "parent": "VII",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Yttric",
+      "orbital_period": 15.127933697115045
     },
     {
       "position": {
@@ -177,7 +189,8 @@
       "length_of_day": 15,
       "parent": "VIII",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Lanthanide",
+      "orbital_period": 17.646581439004958
     },
     {
       "position": {
@@ -191,7 +204,8 @@
       "length_of_day": 16.1,
       "parent": "VIII",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Urea",
+      "orbital_period": 17.646581439004958
     },
     {
       "position": {
@@ -205,7 +219,8 @@
       "length_of_day": 21.4,
       "parent": "IX",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Metal",
+      "orbital_period": 20.680242172416285
     },
     {
       "position": {
@@ -219,7 +234,8 @@
       "length_of_day": 23.1,
       "parent": "IX",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Metal",
+      "orbital_period": 20.680242172416285
     }
   ]
 }

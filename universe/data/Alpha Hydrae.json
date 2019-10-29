@@ -1,6 +1,6 @@
 {
   "name": "Alpha Hydrae",
-  "mass": 3e+24,
+  "mass": 1.989e+30,
   "position": {
     "x": 733.3,
     "y": 650
@@ -17,7 +17,8 @@
       "gravity": 9.212,
       "length_of_day": 15.3,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Redux",
+      "orbital_period": 1804.6982918485314
     },
     {
       "position": {
@@ -30,7 +31,8 @@
       "gravity": 3.3320000000000003,
       "length_of_day": 20,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Alkali",
+      "orbital_period": 4466.735173470132
     },
     {
       "position": {
@@ -43,7 +45,8 @@
       "gravity": 27.636,
       "length_of_day": 15.5,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Gas Giant",
+      "orbital_period": 9066.855548065592
     },
     {
       "position": {
@@ -56,7 +59,8 @@
       "gravity": 4.312,
       "length_of_day": 16.5,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Auric",
+      "orbital_period": 12783.980403571624
     },
     {
       "position": {
@@ -69,7 +73,8 @@
       "gravity": 3.9200000000000004,
       "length_of_day": 20,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Metal",
+      "orbital_period": 15361.667448327273
     },
     {
       "position": {
@@ -82,7 +87,8 @@
       "gravity": 4.998,
       "length_of_day": 17.1,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Lanthanide",
+      "orbital_period": 20713.107074690965
     },
     {
       "position": {
@@ -96,7 +102,8 @@
       "length_of_day": 3413.1,
       "parent": "III",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Treasure",
+      "orbital_period": 9.06685554806559
     }
   ]
 }

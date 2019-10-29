@@ -1,6 +1,6 @@
 {
   "name": "Delta Gorno",
-  "mass": 3e+24,
+  "mass": 1.989e+30,
   "position": {
     "x": 290.8,
     "y": 26.9
@@ -17,7 +17,8 @@
       "gravity": 1.764,
       "length_of_day": 16.2,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Selenic",
+      "orbital_period": 942.9571197765823
     },
     {
       "position": {
@@ -30,7 +31,8 @@
       "gravity": 1.862,
       "length_of_day": 27.2,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Selenic",
+      "orbital_period": 3237.6606577803936
     },
     {
       "position": {
@@ -43,7 +45,8 @@
       "gravity": 1.6660000000000001,
       "length_of_day": 1969.2,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Selenic",
+      "orbital_period": 4617.890035928743
     },
     {
       "position": {
@@ -56,7 +59,8 @@
       "gravity": 4.41,
       "length_of_day": 19,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Metal",
+      "orbital_period": 5713.670009117268
     },
     {
       "position": {
@@ -69,7 +73,8 @@
       "gravity": 4.508000000000001,
       "length_of_day": 29.7,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Metal",
+      "orbital_period": 10122.191340680032
     },
     {
       "position": {
@@ -82,7 +87,8 @@
       "gravity": 5.684,
       "length_of_day": 15.5,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Metal",
+      "orbital_period": 12896.099695321638
     }
   ]
 }

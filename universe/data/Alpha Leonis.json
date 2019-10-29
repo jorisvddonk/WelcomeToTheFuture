@@ -1,6 +1,6 @@
 {
   "name": "Alpha Leonis",
-  "mass": 3e+24,
+  "mass": 1.989e+30,
   "position": {
     "x": 900,
     "y": 822.9
@@ -17,7 +17,8 @@
       "gravity": 3.528,
       "length_of_day": 5943.1,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Copper",
+      "orbital_period": 873.4129032775195
     },
     {
       "position": {
@@ -30,7 +31,8 @@
       "gravity": 12.740000000000002,
       "length_of_day": 15,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Gas Giant",
+      "orbital_period": 1894.693489712586
     },
     {
       "position": {
@@ -43,7 +45,8 @@
       "gravity": 1.6660000000000001,
       "length_of_day": 16.7,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Selenic",
+      "orbital_period": 3832.2482787274616
     },
     {
       "position": {
@@ -56,7 +59,8 @@
       "gravity": 15.680000000000001,
       "length_of_day": 23.3,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Magnetic",
+      "orbital_period": 5769.9356757713185
     },
     {
       "position": {
@@ -69,7 +73,8 @@
       "gravity": 6.664000000000001,
       "length_of_day": 17.5,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Treasure",
+      "orbital_period": 7946.249407567703
     },
     {
       "position": {
@@ -82,7 +87,8 @@
       "gravity": 5.194000000000001,
       "length_of_day": 29.3,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Super-Dense",
+      "orbital_period": 11471.069501280008
     },
     {
       "position": {
@@ -95,7 +101,8 @@
       "gravity": 2.7440000000000007,
       "length_of_day": 27,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Chondrite",
+      "orbital_period": 13840.616486824276
     },
     {
       "position": {
@@ -108,7 +115,8 @@
       "gravity": 16.464000000000002,
       "length_of_day": 15,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Gas Giant",
+      "orbital_period": 17281.67446388196
     },
     {
       "position": {
@@ -121,7 +129,8 @@
       "gravity": 1.47,
       "length_of_day": 23.2,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Pellucid",
+      "orbital_period": 20943.647828724006
     },
     {
       "position": {
@@ -135,7 +144,8 @@
       "length_of_day": 1775.6,
       "parent": "II",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Ultramarine",
+      "orbital_period": 1.8946934897125858
     },
     {
       "position": {
@@ -149,7 +159,8 @@
       "length_of_day": 25.6,
       "parent": "II",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Super-Dense",
+      "orbital_period": 1.8946934897125858
     },
     {
       "position": {
@@ -163,7 +174,8 @@
       "length_of_day": 29.5,
       "parent": "II",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Pellucid",
+      "orbital_period": 1.8946934897125858
     },
     {
       "position": {
@@ -177,7 +189,8 @@
       "length_of_day": 17.3,
       "parent": "VIII",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Noble",
+      "orbital_period": 17.28167446388196
     },
     {
       "position": {
@@ -191,7 +204,8 @@
       "length_of_day": 26.4,
       "parent": "VIII",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Cyanic",
+      "orbital_period": 17.28167446388196
     },
     {
       "position": {
@@ -205,7 +219,8 @@
       "length_of_day": 17.4,
       "parent": "VIII",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Copper",
+      "orbital_period": 17.28167446388196
     },
     {
       "position": {
@@ -219,7 +234,8 @@
       "length_of_day": 18.6,
       "parent": "VIII",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Halide",
+      "orbital_period": 17.28167446388196
     }
   ]
 }

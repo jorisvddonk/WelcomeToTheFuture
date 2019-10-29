@@ -1,6 +1,6 @@
 {
   "name": "Hyperion",
-  "mass": 3e+24,
+  "mass": 1.989e+30,
   "position": {
     "x": 656.2,
     "y": 127
@@ -17,7 +17,8 @@
       "gravity": 4.1160000000000005,
       "length_of_day": 24.7,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Cimmerian",
+      "orbital_period": 1993.664796374563
     },
     {
       "position": {
@@ -30,7 +31,8 @@
       "gravity": 28.616,
       "length_of_day": 11.5,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Gas Giant",
+      "orbital_period": 11575.838012198356
     },
     {
       "position": {
@@ -43,7 +45,8 @@
       "gravity": 13.524,
       "length_of_day": 28.5,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Magma",
+      "orbital_period": 21569.50698277964
     },
     {
       "position": {
@@ -57,7 +60,8 @@
       "length_of_day": 23.7,
       "parent": "II",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Alkali",
+      "orbital_period": 11.575838012198354
     },
     {
       "position": {
@@ -71,7 +75,8 @@
       "length_of_day": 15.4,
       "parent": "II",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Selenic",
+      "orbital_period": 11.575838012198354
     }
   ]
 }

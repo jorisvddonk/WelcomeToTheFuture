@@ -1,6 +1,6 @@
 {
   "name": "Alpha Saurus",
-  "mass": 3e+24,
+  "mass": 1.989e+30,
   "position": {
     "x": 230.6,
     "y": 228.5
@@ -17,7 +17,8 @@
       "gravity": 2.45,
       "length_of_day": 26.6,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Infrared",
+      "orbital_period": 1636.195696489731
     },
     {
       "position": {
@@ -30,7 +31,8 @@
       "gravity": 5.292000000000001,
       "length_of_day": 17.5,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Super-Dense",
+      "orbital_period": 3493.2534758904817
     },
     {
       "position": {
@@ -43,7 +45,8 @@
       "gravity": 0.9800000000000001,
       "length_of_day": 20.5,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Noble",
+      "orbital_period": 15484.575323073412
     }
   ]
 }

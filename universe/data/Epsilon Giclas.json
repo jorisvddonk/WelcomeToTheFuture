@@ -1,6 +1,6 @@
 {
   "name": "Epsilon Giclas",
-  "mass": 3e+24,
+  "mass": 1.989e+30,
   "position": {
     "x": 95.8,
     "y": 46.8
@@ -17,7 +17,8 @@
       "gravity": 3.8220000000000005,
       "length_of_day": 28.4,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Oolite",
+      "orbital_period": 8135.095975016408
     }
   ]
 }

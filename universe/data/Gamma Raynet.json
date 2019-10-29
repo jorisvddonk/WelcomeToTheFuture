@@ -1,6 +1,6 @@
 {
   "name": "Gamma Raynet",
-  "mass": 3e+24,
+  "mass": 1.989e+30,
   "position": {
     "x": 279.1,
     "y": 189.5
@@ -17,7 +17,8 @@
       "gravity": 2.0580000000000003,
       "length_of_day": 25.2,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Pellucid",
+      "orbital_period": 6155.184392231211
     },
     {
       "position": {
@@ -30,7 +31,8 @@
       "gravity": 2.0580000000000003,
       "length_of_day": 29.6,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Urea",
+      "orbital_period": 9402.740949712126
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "name": "Beta Aquarii",
-  "mass": 3e+24,
+  "mass": 1.989e+30,
   "position": {
     "x": 863,
     "y": 869.3
@@ -17,7 +17,8 @@
       "gravity": 10.976000000000003,
       "length_of_day": 16.9,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Water",
+      "orbital_period": 836.4912512687774
     },
     {
       "position": {
@@ -30,7 +31,8 @@
       "gravity": 9.996,
       "length_of_day": 28.2,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Water",
+      "orbital_period": 3568.4409431478575
     },
     {
       "position": {
@@ -43,7 +45,8 @@
       "gravity": 9.408,
       "length_of_day": 28.7,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Primordial",
+      "orbital_period": 5353.766502155515
     },
     {
       "position": {
@@ -56,7 +59,8 @@
       "gravity": 1.764,
       "length_of_day": 21.8,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Azure",
+      "orbital_period": 7435.3408244393995
     },
     {
       "position": {
@@ -69,7 +73,8 @@
       "gravity": 8.722000000000001,
       "length_of_day": 15.9,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Gas Giant",
+      "orbital_period": 9848.323219178106
     },
     {
       "position": {
@@ -82,7 +87,8 @@
       "gravity": 30.478,
       "length_of_day": 15.4,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Gas Giant",
+      "orbital_period": 13202.568627465218
     },
     {
       "position": {
@@ -95,7 +101,8 @@
       "gravity": 18.62,
       "length_of_day": 12.1,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Gas Giant",
+      "orbital_period": 14994.908866893524
     },
     {
       "position": {
@@ -108,7 +115,8 @@
       "gravity": 6.370000000000001,
       "length_of_day": 27.2,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Treasure",
+      "orbital_period": 18760.405902251972
     },
     {
       "position": {
@@ -122,7 +130,8 @@
       "length_of_day": 24,
       "parent": "Fahz",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Carbide",
+      "orbital_period": 0.8364912512687775
     },
     {
       "position": {
@@ -136,7 +145,8 @@
       "length_of_day": 24.5,
       "parent": "V",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Acid",
+      "orbital_period": 9.848323219178106
     },
     {
       "position": {
@@ -150,7 +160,8 @@
       "length_of_day": 26,
       "parent": "V",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Copper",
+      "orbital_period": 9.848323219178106
     },
     {
       "position": {
@@ -164,7 +175,8 @@
       "length_of_day": 18,
       "parent": "V",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Treasure",
+      "orbital_period": 9.848323219178106
     },
     {
       "position": {
@@ -178,7 +190,8 @@
       "length_of_day": 18.3,
       "parent": "VI",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Copper",
+      "orbital_period": 13.20256862746522
     },
     {
       "position": {
@@ -192,7 +205,8 @@
       "length_of_day": 19.4,
       "parent": "VI",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Pellucid",
+      "orbital_period": 13.20256862746522
     },
     {
       "position": {
@@ -206,7 +220,8 @@
       "length_of_day": 15.3,
       "parent": "VI",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Carbide",
+      "orbital_period": 13.20256862746522
     },
     {
       "position": {
@@ -220,7 +235,8 @@
       "length_of_day": 29.1,
       "parent": "VI",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Treasure",
+      "orbital_period": 13.20256862746522
     },
     {
       "position": {
@@ -234,7 +250,8 @@
       "length_of_day": 24.2,
       "parent": "VII",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Opalescent",
+      "orbital_period": 14.994908866893526
     },
     {
       "position": {
@@ -248,7 +265,8 @@
       "length_of_day": 15.7,
       "parent": "VII",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Opalescent",
+      "orbital_period": 14.994908866893526
     },
     {
       "position": {
@@ -262,7 +280,8 @@
       "length_of_day": 28.9,
       "parent": "VII",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Lanthanide",
+      "orbital_period": 14.994908866893526
     },
     {
       "position": {
@@ -276,7 +295,8 @@
       "length_of_day": 29.8,
       "parent": "VII",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Opalescent",
+      "orbital_period": 14.994908866893526
     }
   ]
 }

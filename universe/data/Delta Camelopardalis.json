@@ -1,6 +1,6 @@
 {
   "name": "Delta Camelopardalis",
-  "mass": 3e+24,
+  "mass": 1.989e+30,
   "position": {
     "x": 627,
     "y": 383.3
@@ -17,7 +17,8 @@
       "gravity": 11.27,
       "length_of_day": 24.8,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Magnetic",
+      "orbital_period": 1978.6183094377814
     },
     {
       "position": {
@@ -30,7 +31,8 @@
       "gravity": 1.9600000000000002,
       "length_of_day": 20.9,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Opalescent",
+      "orbital_period": 4346.53604185316
     },
     {
       "position": {
@@ -43,7 +45,8 @@
       "gravity": 4.998,
       "length_of_day": 15.9,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Iodine",
+      "orbital_period": 6495.529112295747
     },
     {
       "position": {
@@ -56,7 +59,8 @@
       "gravity": 2.0580000000000003,
       "length_of_day": 22.9,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Opalescent",
+      "orbital_period": 8964.089124092621
     },
     {
       "position": {
@@ -69,7 +73,8 @@
       "gravity": 7.644000000000001,
       "length_of_day": 24.5,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Hydrocarbon",
+      "orbital_period": 10975.284394989838
     },
     {
       "position": {
@@ -82,7 +87,8 @@
       "gravity": 14.700000000000001,
       "length_of_day": 18.7,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Ultraviolet",
+      "orbital_period": 18431.385021093894
     },
     {
       "position": {
@@ -95,7 +101,8 @@
       "gravity": 2.842,
       "length_of_day": 24.8,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Alkali",
+      "orbital_period": 20356.637049116434
     },
     {
       "position": {
@@ -109,7 +116,8 @@
       "length_of_day": 16.8,
       "parent": "III",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Urea",
+      "orbital_period": 6.4955291122957455
     },
     {
       "position": {
@@ -123,7 +131,8 @@
       "length_of_day": 5502.5,
       "parent": "III",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Acid",
+      "orbital_period": 6.4955291122957455
     },
     {
       "position": {
@@ -137,7 +146,8 @@
       "length_of_day": 20.1,
       "parent": "VI",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Carbide",
+      "orbital_period": 18.4313850210939
     }
   ]
 }

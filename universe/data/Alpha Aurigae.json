@@ -1,6 +1,6 @@
 {
   "name": "Alpha Aurigae",
-  "mass": 3e+24,
+  "mass": 1.989e+30,
   "position": {
     "x": 806.2,
     "y": 208.3
@@ -17,7 +17,8 @@
       "gravity": 8.232000000000001,
       "length_of_day": 18.8,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Redux",
+      "orbital_period": 168.63919982604418
     },
     {
       "position": {
@@ -30,7 +31,8 @@
       "gravity": 12.348,
       "length_of_day": 4639.5,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Ultraviolet",
+      "orbital_period": 1978.6183094377814
     },
     {
       "position": {
@@ -43,7 +45,8 @@
       "gravity": 10.780000000000001,
       "length_of_day": 17.6,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Organic",
+      "orbital_period": 3129.805417258877
     },
     {
       "position": {
@@ -56,7 +59,8 @@
       "gravity": 5.390000000000001,
       "length_of_day": 20.4,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Lanthanide",
+      "orbital_period": 8156.170046744996
     },
     {
       "position": {
@@ -69,7 +73,8 @@
       "gravity": 11.27,
       "length_of_day": 28.1,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Ultraviolet",
+      "orbital_period": 9993.000344988215
     },
     {
       "position": {
@@ -82,7 +87,8 @@
       "gravity": 6.664000000000001,
       "length_of_day": 10.3,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Gas Giant",
+      "orbital_period": 15600.331264806788
     },
     {
       "position": {
@@ -95,7 +101,8 @@
       "gravity": 6.664000000000001,
       "length_of_day": 25.3,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Treasure",
+      "orbital_period": 20401.593975407315
     },
     {
       "position": {
@@ -109,7 +116,8 @@
       "length_of_day": 18.2,
       "parent": "II",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Cyanic",
+      "orbital_period": 1.9786183094377812
     },
     {
       "position": {
@@ -123,7 +131,8 @@
       "length_of_day": 28.2,
       "parent": "V",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Yttric",
+      "orbital_period": 9.993000344988213
     },
     {
       "position": {
@@ -137,7 +146,8 @@
       "length_of_day": 28.7,
       "parent": "VI",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Radioactive",
+      "orbital_period": 15.60033126480679
     },
     {
       "position": {
@@ -151,7 +161,8 @@
       "length_of_day": 17.2,
       "parent": "VI",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Treasure",
+      "orbital_period": 15.60033126480679
     }
   ]
 }

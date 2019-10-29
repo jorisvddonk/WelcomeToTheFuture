@@ -1,6 +1,6 @@
 {
   "name": "Beta Lyncis",
-  "mass": 3e+24,
+  "mass": 1.989e+30,
   "position": {
     "x": 571.1,
     "y": 947.5
@@ -17,7 +17,8 @@
       "gravity": 3.724,
       "length_of_day": 17.8,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Infrared",
+      "orbital_period": 1085.7262381172757
     },
     {
       "position": {
@@ -30,7 +31,8 @@
       "gravity": 27.832,
       "length_of_day": 8.1,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Gas Giant",
+      "orbital_period": 3902.707317839042
     },
     {
       "position": {
@@ -43,7 +45,8 @@
       "gravity": 8.428,
       "length_of_day": 17.2,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Vinylogous",
+      "orbital_period": 5673.592920394585
     },
     {
       "position": {
@@ -56,7 +59,8 @@
       "gravity": 1.078,
       "length_of_day": 15.3,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Noble",
+      "orbital_period": 7347.901079990503
     },
     {
       "position": {
@@ -69,7 +73,8 @@
       "gravity": 5.194000000000001,
       "length_of_day": 22.4,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Iodine",
+      "orbital_period": 14390.248019907529
     },
     {
       "position": {
@@ -82,7 +87,8 @@
       "gravity": 10.192000000000002,
       "length_of_day": 17.7,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Water",
+      "orbital_period": 16892.436554322958
     },
     {
       "position": {
@@ -95,7 +101,8 @@
       "gravity": 10.388000000000002,
       "length_of_day": 23.7,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Chlorine",
+      "orbital_period": 19091.361611102977
     },
     {
       "position": {
@@ -109,7 +116,8 @@
       "length_of_day": 23.6,
       "parent": "II",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Selenic",
+      "orbital_period": 3.902707317839043
     },
     {
       "position": {
@@ -123,7 +131,8 @@
       "length_of_day": 16.8,
       "parent": "II",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Infrared",
+      "orbital_period": 3.902707317839043
     },
     {
       "position": {
@@ -137,7 +146,8 @@
       "length_of_day": 22.2,
       "parent": "II",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Dust",
+      "orbital_period": 3.902707317839043
     },
     {
       "position": {
@@ -151,7 +161,8 @@
       "length_of_day": 17.9,
       "parent": "II",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Carbide",
+      "orbital_period": 3.902707317839043
     },
     {
       "position": {
@@ -165,7 +176,8 @@
       "length_of_day": 24.5,
       "parent": "VI",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Ultramarine",
+      "orbital_period": 16.89243655432296
     },
     {
       "position": {
@@ -179,7 +191,8 @@
       "length_of_day": 26.6,
       "parent": "VII",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Noble",
+      "orbital_period": 19.091361611102972
     }
   ]
 }

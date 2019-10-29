@@ -1,6 +1,6 @@
 {
   "name": "Epsilon Persei",
-  "mass": 3e+24,
+  "mass": 1.989e+30,
   "position": {
     "x": 903.8,
     "y": 240.7
@@ -17,7 +17,8 @@
       "gravity": 5.292000000000001,
       "length_of_day": 24.3,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Iodine",
+      "orbital_period": 1244.6962381393084
     },
     {
       "position": {
@@ -30,7 +31,8 @@
       "gravity": 10.780000000000001,
       "length_of_day": 15,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Magma",
+      "orbital_period": 3342.251893006782
     },
     {
       "position": {
@@ -43,7 +45,8 @@
       "gravity": 8.82,
       "length_of_day": 14.2,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Gas Giant",
+      "orbital_period": 5858.723647722242
     },
     {
       "position": {
@@ -56,7 +59,8 @@
       "gravity": 0.882,
       "length_of_day": 22.1,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Noble",
+      "orbital_period": 9035.672982751208
     },
     {
       "position": {
@@ -69,7 +73,8 @@
       "gravity": 1.6660000000000001,
       "length_of_day": 2585.1,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Purple",
+      "orbital_period": 11933.048950888464
     },
     {
       "position": {
@@ -82,7 +87,8 @@
       "gravity": 1.6660000000000001,
       "length_of_day": 20.8,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Pellucid",
+      "orbital_period": 16141.788249704976
     },
     {
       "position": {
@@ -95,7 +101,8 @@
       "gravity": 15.582000000000003,
       "length_of_day": 12.7,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Gas Giant",
+      "orbital_period": 20103.862678751597
     },
     {
       "position": {
@@ -109,7 +116,8 @@
       "length_of_day": 19.1,
       "parent": "II",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Dust",
+      "orbital_period": 3.3422518930067833
     },
     {
       "position": {
@@ -123,7 +131,8 @@
       "length_of_day": 15.9,
       "parent": "VII",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Noble",
+      "orbital_period": 20.103862678751593
     },
     {
       "position": {
@@ -137,7 +146,8 @@
       "length_of_day": 17.6,
       "parent": "VII",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Crimson",
+      "orbital_period": 20.103862678751593
     }
   ]
 }

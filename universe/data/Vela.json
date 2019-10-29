@@ -1,6 +1,6 @@
 {
   "name": "Vela",
-  "mass": 3e+24,
+  "mass": 1.989e+30,
   "position": {
     "x": 334.5,
     "y": 193.1
@@ -17,7 +17,8 @@
       "gravity": 8.526,
       "length_of_day": 21.2,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Water",
+      "orbital_period": 449.2027250945674
     },
     {
       "position": {
@@ -30,7 +31,8 @@
       "gravity": 0.882,
       "length_of_day": 18.1,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Noble",
+      "orbital_period": 1444.441932971251
     },
     {
       "position": {
@@ -43,7 +45,8 @@
       "gravity": 9.408,
       "length_of_day": 28.3,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Redux",
+      "orbital_period": 4395.464867573612
     },
     {
       "position": {
@@ -56,7 +59,8 @@
       "gravity": 9.604000000000001,
       "length_of_day": 14.2,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Gas Giant",
+      "orbital_period": 9076.21729829872
     },
     {
       "position": {
@@ -69,7 +73,8 @@
       "gravity": 1.47,
       "length_of_day": 28.9,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Halide",
+      "orbital_period": 16103.98842733308
     },
     {
       "position": {
@@ -82,7 +87,8 @@
       "gravity": 10.290000000000001,
       "length_of_day": 28.5,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Vinylogous",
+      "orbital_period": 19779.26174132547
     }
   ]
 }

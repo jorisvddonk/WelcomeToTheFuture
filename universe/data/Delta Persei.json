@@ -1,6 +1,6 @@
 {
   "name": "Delta Persei",
-  "mass": 3e+24,
+  "mass": 1.989e+30,
   "position": {
     "x": 925,
     "y": 285.4
@@ -17,7 +17,8 @@
       "gravity": 4.8020000000000005,
       "length_of_day": 26.1,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Auric",
+      "orbital_period": 1049.0276076321961
     },
     {
       "position": {
@@ -30,7 +31,8 @@
       "gravity": 2.7440000000000007,
       "length_of_day": 29.8,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Alkali",
+      "orbital_period": 2952.0603732539066
     },
     {
       "position": {
@@ -43,7 +45,8 @@
       "gravity": 7.252000000000001,
       "length_of_day": 9.4,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Gas Giant",
+      "orbital_period": 14089.235846758791
     },
     {
       "position": {
@@ -57,7 +60,8 @@
       "length_of_day": 22.8,
       "parent": "III",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Halide",
+      "orbital_period": 14.089235846758788
     },
     {
       "position": {
@@ -71,7 +75,8 @@
       "length_of_day": 22.7,
       "parent": "III",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Urea",
+      "orbital_period": 14.089235846758788
     },
     {
       "position": {
@@ -85,7 +90,8 @@
       "length_of_day": 20.5,
       "parent": "III",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Yttric",
+      "orbital_period": 14.089235846758788
     },
     {
       "position": {
@@ -99,7 +105,8 @@
       "length_of_day": 2929.2,
       "parent": "III",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Radioactive",
+      "orbital_period": 14.089235846758788
     }
   ]
 }

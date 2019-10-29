@@ -1,6 +1,6 @@
 {
   "name": "Beta Leporis",
-  "mass": 3e+24,
+  "mass": 1.989e+30,
   "position": {
     "x": 766.6,
     "y": 866.6
@@ -17,7 +17,8 @@
       "gravity": 4.606,
       "length_of_day": 1827.4,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Rainbow",
+      "orbital_period": 129.04356161135055
     },
     {
       "position": {
@@ -30,7 +31,8 @@
       "gravity": 6.86,
       "length_of_day": 21.9,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Super-Dense",
+      "orbital_period": 1709.014229492822
     },
     {
       "position": {
@@ -43,7 +45,8 @@
       "gravity": 21.658,
       "length_of_day": 11.2,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Gas Giant",
+      "orbital_period": 3140.755167626793
     },
     {
       "position": {
@@ -56,7 +59,8 @@
       "gravity": 12.740000000000002,
       "length_of_day": 13.4,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Gas Giant",
+      "orbital_period": 6015.866303716846
     },
     {
       "position": {
@@ -69,7 +73,8 @@
       "gravity": 6.664000000000001,
       "length_of_day": 21.3,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Super-Dense",
+      "orbital_period": 7892.56536425189
     },
     {
       "position": {
@@ -82,7 +87,8 @@
       "gravity": 3.6260000000000003,
       "length_of_day": 3484.4,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Acid",
+      "orbital_period": 11393.543460222765
     },
     {
       "position": {
@@ -95,7 +101,8 @@
       "gravity": 4.508000000000001,
       "length_of_day": 27.9,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Maroon",
+      "orbital_period": 13160.154541874761
     },
     {
       "position": {
@@ -108,7 +115,8 @@
       "gravity": 1.078,
       "length_of_day": 16.3,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Ultramarine",
+      "orbital_period": 21423.89387714791
     },
     {
       "position": {
@@ -122,7 +130,8 @@
       "length_of_day": 26.6,
       "parent": "III",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Crimson",
+      "orbital_period": 3.1407551676267933
     },
     {
       "position": {
@@ -136,7 +145,8 @@
       "length_of_day": 5623.7,
       "parent": "IV",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Super-Dense",
+      "orbital_period": 6.015866303716845
     },
     {
       "position": {
@@ -150,7 +160,8 @@
       "length_of_day": 27.9,
       "parent": "IV",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Cimmerian",
+      "orbital_period": 6.015866303716845
     },
     {
       "position": {
@@ -164,7 +175,8 @@
       "length_of_day": 26.6,
       "parent": "VII",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Copper",
+      "orbital_period": 13.160154541874759
     }
   ]
 }

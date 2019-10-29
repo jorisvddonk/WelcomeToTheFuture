@@ -1,6 +1,6 @@
 {
   "name": "Rigel",
-  "mass": 3e+24,
+  "mass": 1.989e+30,
   "position": {
     "x": 210.4,
     "y": 208.3
@@ -17,7 +17,8 @@
       "gravity": 1.6660000000000001,
       "length_of_day": 19.1,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Purple",
+      "orbital_period": 426.480223098507
     },
     {
       "position": {
@@ -30,7 +31,8 @@
       "gravity": 15.680000000000001,
       "length_of_day": 8,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Gas Giant",
+      "orbital_period": 1478.4013075418443
     },
     {
       "position": {
@@ -43,7 +45,8 @@
       "gravity": 10.584000000000001,
       "length_of_day": 12.4,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Gas Giant",
+      "orbital_period": 20274.981927356057
     },
     {
       "position": {
@@ -57,7 +60,8 @@
       "length_of_day": 19.1,
       "parent": "II",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Infrared",
+      "orbital_period": 1.478401307541844
     },
     {
       "position": {
@@ -71,7 +75,8 @@
       "length_of_day": 15.9,
       "parent": "II",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Dust",
+      "orbital_period": 1.478401307541844
     },
     {
       "position": {
@@ -85,7 +90,8 @@
       "length_of_day": 17.4,
       "parent": "II",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Dust",
+      "orbital_period": 1.478401307541844
     },
     {
       "position": {
@@ -99,7 +105,8 @@
       "length_of_day": 16.5,
       "parent": "II",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Noble",
+      "orbital_period": 1.478401307541844
     }
   ]
 }

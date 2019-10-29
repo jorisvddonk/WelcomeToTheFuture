@@ -1,6 +1,6 @@
 {
   "name": "Canopus",
-  "mass": 3e+24,
+  "mass": 1.989e+30,
   "position": {
     "x": 218.7,
     "y": 150
@@ -17,7 +17,8 @@
       "gravity": 0.9800000000000001,
       "length_of_day": 19.1,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Ultramarine",
+      "orbital_period": 14579.911821462256
     }
   ]
 }

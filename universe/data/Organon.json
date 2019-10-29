@@ -1,6 +1,6 @@
 {
   "name": "Organon",
-  "mass": 3e+24,
+  "mass": 1.989e+30,
   "position": {
     "x": 685.8,
     "y": 57.7
@@ -17,7 +17,8 @@
       "gravity": 9.604000000000001,
       "length_of_day": 22.3,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Telluric",
+      "orbital_period": 1055.1147989885342
     },
     {
       "position": {
@@ -30,7 +31,8 @@
       "gravity": 12.446000000000002,
       "length_of_day": 27,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Plutonic",
+      "orbital_period": 5466.714706582701
     },
     {
       "position": {
@@ -43,7 +45,8 @@
       "gravity": 2.352,
       "length_of_day": 16.6,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Chondrite",
+      "orbital_period": 7708.584941819326
     },
     {
       "position": {
@@ -56,7 +59,8 @@
       "gravity": 6.762,
       "length_of_day": 3308.9,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Radioactive",
+      "orbital_period": 13822.657987528377
     },
     {
       "position": {
@@ -69,7 +73,8 @@
       "gravity": 2.6460000000000004,
       "length_of_day": 22.1,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Chondrite",
+      "orbital_period": 16861.732342323754
     },
     {
       "position": {
@@ -83,7 +88,8 @@
       "length_of_day": 16.9,
       "parent": "I",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Azure",
+      "orbital_period": 1.055114798988534
     }
   ]
 }

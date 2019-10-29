@@ -1,6 +1,6 @@
 {
   "name": "Lambda Orionis",
-  "mass": 3e+24,
+  "mass": 1.989e+30,
   "position": {
     "x": 215.9,
     "y": 607.3
@@ -17,7 +17,8 @@
       "gravity": 1.862,
       "length_of_day": 22.1,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Purple",
+      "orbital_period": 6002.264981360003
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "name": "Beta Lacaille",
-  "mass": 3e+24,
+  "mass": 1.989e+30,
   "position": {
     "x": 23,
     "y": 95.2
@@ -17,7 +17,8 @@
       "gravity": 2.842,
       "length_of_day": 2023.1,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Infrared",
+      "orbital_period": 9890.046567943888
     }
   ]
 }

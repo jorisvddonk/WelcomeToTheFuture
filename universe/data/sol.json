@@ -1,6 +1,6 @@
 {
   "name": "Sol",
-  "mass": 3e+24,
+  "mass": 1.989e+30,
   "position": {
     "x": 175.2,
     "y": 145
@@ -17,7 +17,8 @@
       "gravity": 3.6260000000000003,
       "length_of_day": 1416,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Metal",
+      "orbital_period": 88.44148126266772
     },
     {
       "position": {
@@ -30,7 +31,8 @@
       "gravity": 8.82,
       "length_of_day": 5832,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Primordial",
+      "orbital_period": 222.40683054834423
     },
     {
       "position": {
@@ -43,7 +45,8 @@
       "gravity": 9.8,
       "length_of_day": 24,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Water",
+      "orbital_period": 364.99030993540015
     },
     {
       "position": {
@@ -56,7 +59,8 @@
       "gravity": 3.724,
       "length_of_day": 24.6,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Dust",
+      "orbital_period": 683.6688437464342
     },
     {
       "position": {
@@ -69,7 +73,8 @@
       "gravity": 26.264000000000003,
       "length_of_day": 9.8,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Gas Giant",
+      "orbital_period": 4327.015688676087
     },
     {
       "position": {
@@ -82,7 +87,8 @@
       "gravity": 11.956000000000001,
       "length_of_day": 10.2,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Gas Giant",
+      "orbital_period": 10720.24424942328
     },
     {
       "position": {
@@ -95,7 +101,8 @@
       "gravity": 8.428,
       "length_of_day": 17.2,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Gas Giant",
+      "orbital_period": 30606.487748574044
     },
     {
       "position": {
@@ -108,7 +115,8 @@
       "gravity": 10.780000000000001,
       "length_of_day": 18.2,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Gas Giant",
+      "orbital_period": 59938.89020677304
     },
     {
       "position": {
@@ -121,7 +129,8 @@
       "gravity": 0.49000000000000005,
       "length_of_day": 153.3,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Pellucid",
+      "orbital_period": 90160.2769013826
     },
     {
       "position": {
@@ -135,7 +144,8 @@
       "length_of_day": 696,
       "parent": "Earth",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Selenic",
+      "orbital_period": 0.36499030993540016
     },
     {
       "position": {
@@ -149,7 +159,8 @@
       "length_of_day": 39,
       "parent": "Jupiter",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Radioactive",
+      "orbital_period": 4.327015688676088
     },
     {
       "position": {
@@ -163,7 +174,8 @@
       "length_of_day": 84,
       "parent": "Jupiter",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Halide",
+      "orbital_period": 4.327015688676088
     },
     {
       "position": {
@@ -177,7 +189,8 @@
       "length_of_day": 172.8,
       "parent": "Jupiter",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Cyanic",
+      "orbital_period": 4.327015688676088
     },
     {
       "position": {
@@ -191,7 +204,8 @@
       "length_of_day": 400.8,
       "parent": "Jupiter",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Pellucid",
+      "orbital_period": 4.327015688676088
     },
     {
       "position": {
@@ -205,7 +219,8 @@
       "length_of_day": 381.6,
       "parent": "Saturn",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Alkali",
+      "orbital_period": 10.720244249423281
     },
     {
       "position": {
@@ -219,7 +234,8 @@
       "length_of_day": 430,
       "parent": "Neptune",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Vinylogous",
+      "orbital_period": 59.93889020677303
     }
   ]
 }

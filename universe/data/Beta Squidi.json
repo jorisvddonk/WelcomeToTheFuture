@@ -1,6 +1,6 @@
 {
   "name": "Beta Squidi",
-  "mass": 3e+24,
+  "mass": 1.989e+30,
   "position": {
     "x": 206.2,
     "y": 399.1
@@ -17,7 +17,8 @@
       "gravity": 11.368,
       "length_of_day": 23.9,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Magnetic",
+      "orbital_period": 10313.754926602196
     },
     {
       "position": {
@@ -30,7 +31,8 @@
       "gravity": 10.094000000000001,
       "length_of_day": 22.7,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Chlorine",
+      "orbital_period": 14631.116432838104
     },
     {
       "position": {
@@ -43,7 +45,8 @@
       "gravity": 13.622,
       "length_of_day": 8.3,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Gas Giant",
+      "orbital_period": 16578.602828376013
     },
     {
       "position": {
@@ -57,7 +60,8 @@
       "length_of_day": 17.8,
       "parent": "III",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Radioactive",
+      "orbital_period": 16.57860282837601
     },
     {
       "position": {
@@ -71,7 +75,8 @@
       "length_of_day": 26.5,
       "parent": "III",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Carbide",
+      "orbital_period": 16.57860282837601
     }
   ]
 }

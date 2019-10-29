@@ -1,6 +1,6 @@
 {
   "name": "Sirius",
-  "mass": 6e+24,
+  "mass": 3.978e+30,
   "position": {
     "x": 180.6,
     "y": 150.7
@@ -17,7 +17,8 @@
       "gravity": 5.096000000000001,
       "length_of_day": 17.3,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Lanthanide",
+      "orbital_period": 2973.8643465910827
     }
   ]
 }

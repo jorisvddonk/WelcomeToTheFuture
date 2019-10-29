@@ -1,6 +1,6 @@
 {
   "name": "Epsilon Corvi",
-  "mass": 3e+24,
+  "mass": 1.989e+30,
   "position": {
     "x": 10.4,
     "y": 912.5
@@ -17,7 +17,8 @@
       "gravity": 9.31,
       "length_of_day": 11.1,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Gas Giant",
+      "orbital_period": 1180.8736371447335
     },
     {
       "position": {
@@ -30,7 +31,8 @@
       "gravity": 3.136,
       "length_of_day": 15.7,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Infrared",
+      "orbital_period": 3127.616997252076
     },
     {
       "position": {
@@ -43,7 +45,8 @@
       "gravity": 3.136,
       "length_of_day": 3414.6,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Chondrite",
+      "orbital_period": 6554.2444854236055
     },
     {
       "position": {
@@ -56,7 +59,8 @@
       "gravity": 21.854000000000003,
       "length_of_day": 10,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Gas Giant",
+      "orbital_period": 7946.249407567703
     },
     {
       "position": {
@@ -69,7 +73,8 @@
       "gravity": 7.448,
       "length_of_day": 2356.6,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Water",
+      "orbital_period": 14477.68228927253
     },
     {
       "position": {
@@ -82,7 +87,8 @@
       "gravity": 2.7440000000000007,
       "length_of_day": 5447.7,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Infrared",
+      "orbital_period": 17026.986195832713
     },
     {
       "position": {
@@ -95,7 +101,8 @@
       "gravity": 2.94,
       "length_of_day": 21.2,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Infrared",
+      "orbital_period": 20026.610554315812
     },
     {
       "position": {
@@ -109,7 +116,8 @@
       "length_of_day": 24.2,
       "parent": "I",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Ultramarine",
+      "orbital_period": 1.180873637144733
     },
     {
       "position": {
@@ -123,7 +131,8 @@
       "length_of_day": 20.9,
       "parent": "I",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Super-Dense",
+      "orbital_period": 1.180873637144733
     },
     {
       "position": {
@@ -137,7 +146,8 @@
       "length_of_day": 20.2,
       "parent": "I",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Infrared",
+      "orbital_period": 1.180873637144733
     },
     {
       "position": {
@@ -151,7 +161,8 @@
       "length_of_day": 18.6,
       "parent": "I",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Pellucid",
+      "orbital_period": 1.180873637144733
     },
     {
       "position": {
@@ -165,7 +176,8 @@
       "length_of_day": 24.4,
       "parent": "IV",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Chondrite",
+      "orbital_period": 7.946249407567702
     }
   ]
 }

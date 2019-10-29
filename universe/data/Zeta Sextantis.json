@@ -1,6 +1,6 @@
 {
   "name": "Zeta Sextantis",
-  "mass": 3e+24,
+  "mass": 1.989e+30,
   "position": {
     "x": 468.1,
     "y": 91.6
@@ -17,7 +17,8 @@
       "gravity": 4.704,
       "length_of_day": 21.7,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Rainbow",
+      "orbital_period": 129.04356161135055
     },
     {
       "position": {
@@ -30,7 +31,8 @@
       "gravity": 10.976000000000003,
       "length_of_day": 14,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Gas Giant",
+      "orbital_period": 2142.342427419746
     },
     {
       "position": {
@@ -43,7 +45,8 @@
       "gravity": 2.7440000000000007,
       "length_of_day": 27.1,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Alkali",
+      "orbital_period": 3790.1787023716456
     },
     {
       "position": {
@@ -56,7 +59,8 @@
       "gravity": 6.468000000000001,
       "length_of_day": 27.3,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Maroon",
+      "orbital_period": 6089.4905104448935
     },
     {
       "position": {
@@ -69,7 +73,8 @@
       "gravity": 3.0380000000000003,
       "length_of_day": 29.8,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Infrared",
+      "orbital_period": 9503.981227005854
     },
     {
       "position": {
@@ -82,7 +87,8 @@
       "gravity": 1.6660000000000001,
       "length_of_day": 24.5,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Selenic",
+      "orbital_period": 13100.145848228894
     },
     {
       "position": {
@@ -95,7 +101,8 @@
       "gravity": 1.568,
       "length_of_day": 29.9,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Halide",
+      "orbital_period": 17927.79858003144
     },
     {
       "position": {
@@ -108,7 +115,8 @@
       "gravity": 2.94,
       "length_of_day": 22.9,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Alkali",
+      "orbital_period": 20136.419537439553
     },
     {
       "position": {
@@ -122,7 +130,8 @@
       "length_of_day": 26.6,
       "parent": "IV",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Crimson",
+      "orbital_period": 6.089490510444895
     }
   ]
 }

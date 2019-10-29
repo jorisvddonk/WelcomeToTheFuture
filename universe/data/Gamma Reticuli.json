@@ -1,6 +1,6 @@
 {
   "name": "Gamma Reticuli",
-  "mass": 3e+24,
+  "mass": 1.989e+30,
   "position": {
     "x": 741.6,
     "y": 508.3
@@ -17,7 +17,8 @@
       "gravity": 5.684,
       "length_of_day": 29.8,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Rainbow",
+      "orbital_period": 129.04356161135055
     },
     {
       "position": {
@@ -30,7 +31,8 @@
       "gravity": 2.6460000000000004,
       "length_of_day": 26.8,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Green",
+      "orbital_period": 4037.752665134351
     },
     {
       "position": {
@@ -43,7 +45,8 @@
       "gravity": 3.724,
       "length_of_day": 5972.2,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Quasi-Degenerate",
+      "orbital_period": 5729.727155504826
     },
     {
       "position": {
@@ -56,7 +59,8 @@
       "gravity": 1.862,
       "length_of_day": 19.4,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Azure",
+      "orbital_period": 21022.060069058916
     }
   ]
 }

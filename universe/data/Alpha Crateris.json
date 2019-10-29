@@ -1,6 +1,6 @@
 {
   "name": "Alpha Crateris",
-  "mass": 6e+24,
+  "mass": 3.978e+30,
   "position": {
     "x": 601.4,
     "y": 563.2
@@ -17,7 +17,8 @@
       "gravity": 9.8,
       "length_of_day": 15.7,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Organic",
+      "orbital_period": 411.69648485598134
     },
     {
       "position": {
@@ -30,7 +31,8 @@
       "gravity": 10.780000000000001,
       "length_of_day": 8.1,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Gas Giant",
+      "orbital_period": 3583.922830429365
     },
     {
       "position": {
@@ -43,7 +45,8 @@
       "gravity": 6.370000000000001,
       "length_of_day": 10,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Gas Giant",
+      "orbital_period": 6137.445884109529
     },
     {
       "position": {
@@ -56,7 +59,8 @@
       "gravity": 4.8020000000000005,
       "length_of_day": 29.9,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Quasi-Degenerate",
+      "orbital_period": 9360.643106247406
     },
     {
       "position": {
@@ -69,7 +73,8 @@
       "gravity": 28.518000000000004,
       "length_of_day": 13.7,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Gas Giant",
+      "orbital_period": 10833.420899735345
     },
     {
       "position": {
@@ -83,7 +88,8 @@
       "length_of_day": 24.2,
       "parent": "II",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Cyanic",
+      "orbital_period": 3.5839228304293647
     },
     {
       "position": {
@@ -97,7 +103,8 @@
       "length_of_day": 15,
       "parent": "V",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Treasure",
+      "orbital_period": 10.833420899735344
     },
     {
       "position": {
@@ -111,7 +118,8 @@
       "length_of_day": 27.8,
       "parent": "V",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Acid",
+      "orbital_period": 10.833420899735344
     },
     {
       "position": {
@@ -125,7 +133,8 @@
       "length_of_day": 26.6,
       "parent": "V",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Urea",
+      "orbital_period": 10.833420899735344
     },
     {
       "position": {
@@ -139,7 +148,8 @@
       "length_of_day": 28.2,
       "parent": "V",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Acid",
+      "orbital_period": 10.833420899735344
     }
   ]
 }

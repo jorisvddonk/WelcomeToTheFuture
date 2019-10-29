@@ -1,6 +1,6 @@
 {
   "name": "Menkar",
-  "mass": 3e+24,
+  "mass": 1.989e+30,
   "position": {
     "x": 481.2,
     "y": 927
@@ -17,7 +17,8 @@
       "gravity": 2.842,
       "length_of_day": 16,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Infrared",
+      "orbital_period": 204.52446206121638
     },
     {
       "position": {
@@ -30,7 +31,8 @@
       "gravity": 2.45,
       "length_of_day": 17.4,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Green",
+      "orbital_period": 1395.670459657902
     },
     {
       "position": {
@@ -43,7 +45,8 @@
       "gravity": 9.604000000000001,
       "length_of_day": 23.9,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Telluric",
+      "orbital_period": 3509.157704130147
     },
     {
       "position": {
@@ -56,7 +59,8 @@
       "gravity": 1.6660000000000001,
       "length_of_day": 26.6,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Urea",
+      "orbital_period": 7806.329964470726
     },
     {
       "position": {
@@ -69,7 +73,8 @@
       "gravity": 11.074,
       "length_of_day": 23.6,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Chlorine",
+      "orbital_period": 12066.646259208148
     },
     {
       "position": {
@@ -82,7 +87,8 @@
       "gravity": 1.47,
       "length_of_day": 24.8,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Purple",
+      "orbital_period": 14719.034862768713
     },
     {
       "position": {
@@ -95,7 +101,8 @@
       "gravity": 1.6660000000000001,
       "length_of_day": 22.8,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Halide",
+      "orbital_period": 21857.534033747004
     }
   ]
 }

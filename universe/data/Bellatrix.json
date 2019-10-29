@@ -1,6 +1,6 @@
 {
   "name": "Bellatrix",
-  "mass": 3e+24,
+  "mass": 1.989e+30,
   "position": {
     "x": 545.8,
     "y": 191.6
@@ -17,7 +17,8 @@
       "gravity": 6.272,
       "length_of_day": 5105.1,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Radioactive",
+      "orbital_period": 3131.9943474463635
     },
     {
       "position": {
@@ -30,7 +31,8 @@
       "gravity": 1.862,
       "length_of_day": 15.3,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Halide",
+      "orbital_period": 4256.500431902749
     },
     {
       "position": {
@@ -43,7 +45,8 @@
       "gravity": 1.764,
       "length_of_day": 27,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Purple",
+      "orbital_period": 16723.794042996542
     },
     {
       "position": {
@@ -56,7 +59,8 @@
       "gravity": 7.154,
       "length_of_day": 15.3,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Gas Giant",
+      "orbital_period": 18828.0348208896
     },
     {
       "position": {
@@ -70,7 +74,8 @@
       "length_of_day": 29.1,
       "parent": "IV",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Pellucid",
+      "orbital_period": 18.828034820889595
     },
     {
       "position": {
@@ -84,7 +89,8 @@
       "length_of_day": 16.3,
       "parent": "IV",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Dust",
+      "orbital_period": 18.828034820889595
     }
   ]
 }

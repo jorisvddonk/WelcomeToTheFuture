@@ -1,6 +1,6 @@
 {
   "name": "Arcturus",
-  "mass": 3e+24,
+  "mass": 1.989e+30,
   "position": {
     "x": 964.5,
     "y": 579.1
@@ -17,7 +17,8 @@
       "gravity": 9.604000000000001,
       "length_of_day": 17.2,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Redux",
+      "orbital_period": 88.44148126266772
     },
     {
       "position": {
@@ -30,7 +31,8 @@
       "gravity": 2.5480000000000005,
       "length_of_day": 24.4,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Chondrite",
+      "orbital_period": 1238.2637074151664
     },
     {
       "position": {
@@ -43,7 +45,8 @@
       "gravity": 1.078,
       "length_of_day": 22.4,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Noble",
+      "orbital_period": 2754.7090282985787
     },
     {
       "position": {
@@ -56,7 +59,8 @@
       "gravity": 7.546000000000001,
       "length_of_day": 16.5,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Water",
+      "orbital_period": 4795.923191573095
     },
     {
       "position": {
@@ -69,7 +73,8 @@
       "gravity": 0.882,
       "length_of_day": 22.7,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Noble",
+      "orbital_period": 6506.699410186946
     },
     {
       "position": {
@@ -82,7 +87,8 @@
       "gravity": 2.2540000000000004,
       "length_of_day": 19.6,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Pellucid",
+      "orbital_period": 11711.491506464656
     },
     {
       "position": {
@@ -95,7 +101,8 @@
       "gravity": 10.878000000000002,
       "length_of_day": 11.3,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Gas Giant",
+      "orbital_period": 14561.638966767987
     },
     {
       "position": {
@@ -108,7 +115,8 @@
       "gravity": 7.448,
       "length_of_day": 25.2,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Vinylogous",
+      "orbital_period": 17212.089069864767
     },
     {
       "position": {
@@ -122,7 +130,8 @@
       "length_of_day": 15.6,
       "parent": "I",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Selenic",
+      "orbital_period": 0.08844148126266772
     },
     {
       "position": {
@@ -136,7 +145,8 @@
       "length_of_day": 26.6,
       "parent": "VII",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Urea",
+      "orbital_period": 14.561638966767983
     }
   ]
 }

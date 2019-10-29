@@ -1,6 +1,6 @@
 {
   "name": "Beta Sagittarii",
-  "mass": 3e+24,
+  "mass": 1.989e+30,
   "position": {
     "x": 702,
     "y": 239.5
@@ -17,7 +17,8 @@
       "gravity": 5.782,
       "length_of_day": 27.2,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Radioactive",
+      "orbital_period": 263.46456784880866
     },
     {
       "position": {
@@ -30,7 +31,8 @@
       "gravity": 1.47,
       "length_of_day": 22.4,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Pellucid",
+      "orbital_period": 1813.8144536534915
     },
     {
       "position": {
@@ -43,7 +45,8 @@
       "gravity": 2.7440000000000007,
       "length_of_day": 2651.1,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Green",
+      "orbital_period": 3348.9654877894372
     },
     {
       "position": {
@@ -56,7 +59,8 @@
       "gravity": 2.5480000000000005,
       "length_of_day": 18.1,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Chondrite",
+      "orbital_period": 5839.8520874173
     }
   ]
 }

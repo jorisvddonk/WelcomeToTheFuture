@@ -1,6 +1,6 @@
 {
   "name": "Zeta Ptolemae",
-  "mass": 3e+24,
+  "mass": 1.989e+30,
   "position": {
     "x": 178.7,
     "y": 33.8
@@ -17,7 +17,8 @@
       "gravity": 2.45,
       "length_of_day": 29.7,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Green",
+      "orbital_period": 829.4520773785741
     },
     {
       "position": {
@@ -30,7 +31,8 @@
       "gravity": 21.952000000000005,
       "length_of_day": 11.1,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Gas Giant",
+      "orbital_period": 2803.091930666109
     },
     {
       "position": {
@@ -43,7 +45,8 @@
       "gravity": 1.078,
       "length_of_day": 22.4,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Noble",
+      "orbital_period": 4157.4677491079165
     },
     {
       "position": {
@@ -57,7 +60,8 @@
       "length_of_day": 15.4,
       "parent": "II",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Opalescent",
+      "orbital_period": 2.8030919306661093
     }
   ]
 }

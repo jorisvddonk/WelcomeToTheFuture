@@ -1,6 +1,6 @@
 {
   "name": "Delta Lyncis",
-  "mass": 3e+24,
+  "mass": 1.989e+30,
   "position": {
     "x": 570.4,
     "y": 979.5
@@ -17,7 +17,8 @@
       "gravity": 9.31,
       "length_of_day": 20.6,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Water",
+      "orbital_period": 420.86129328275143
     },
     {
       "position": {
@@ -30,7 +31,8 @@
       "gravity": 1.47,
       "length_of_day": 16.7,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Pellucid",
+      "orbital_period": 6711.6771433819595
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "name": "Beta Raynet",
-  "mass": 3e+24,
+  "mass": 1.989e+30,
   "position": {
     "x": 288.1,
     "y": 161.4
@@ -17,7 +17,8 @@
       "gravity": 11.27,
       "length_of_day": 23.6,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Hydrocarbon",
+      "orbital_period": 15076.15528703523
     }
   ]
 }

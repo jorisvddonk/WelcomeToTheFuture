@@ -1,6 +1,6 @@
 {
   "name": "Gamma Leporis",
-  "mass": 3e+24,
+  "mass": 1.989e+30,
   "position": {
     "x": 718.7,
     "y": 881.2
@@ -17,7 +17,8 @@
       "gravity": 4.508000000000001,
       "length_of_day": 24.2,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Yttric",
+      "orbital_period": 1101.141044230738
     },
     {
       "position": {
@@ -30,7 +31,8 @@
       "gravity": 3.9200000000000004,
       "length_of_day": 21.7,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Lanthanide",
+      "orbital_period": 2225.8171647295208
     },
     {
       "position": {
@@ -43,7 +45,8 @@
       "gravity": 2.7440000000000007,
       "length_of_day": 21.1,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Acid",
+      "orbital_period": 4002.066087521614
     },
     {
       "position": {
@@ -56,7 +59,8 @@
       "gravity": 11.76,
       "length_of_day": 19.2,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Plutonic",
+      "orbital_period": 5681.600813686746
     },
     {
       "position": {
@@ -69,7 +73,8 @@
       "gravity": 3.2340000000000004,
       "length_of_day": 22.5,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Acid",
+      "orbital_period": 7482.1161465506275
     },
     {
       "position": {
@@ -82,7 +87,8 @@
       "gravity": 4.606,
       "length_of_day": 16.1,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Copper",
+      "orbital_period": 11048.519384561409
     },
     {
       "position": {
@@ -95,7 +101,8 @@
       "gravity": 9.31,
       "length_of_day": 19.1,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Xenolithic",
+      "orbital_period": 14219.534825526342
     },
     {
       "position": {
@@ -108,7 +115,8 @@
       "gravity": 3.136,
       "length_of_day": 18.4,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Green",
+      "orbital_period": 20226.041391466562
     }
   ]
 }

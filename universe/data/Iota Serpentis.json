@@ -1,6 +1,6 @@
 {
   "name": "Iota Serpentis",
-  "mass": 3e+24,
+  "mass": 1.989e+30,
   "position": {
     "x": 459.6,
     "y": 42.9
@@ -17,7 +17,8 @@
       "gravity": 6.0760000000000005,
       "length_of_day": 21.3,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Sapphire",
+      "orbital_period": 7145.220913041439
     },
     {
       "position": {
@@ -30,7 +31,8 @@
       "gravity": 10.388000000000002,
       "length_of_day": 14.5,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Gas Giant",
+      "orbital_period": 16228.839865132253
     },
     {
       "position": {
@@ -44,7 +46,8 @@
       "length_of_day": 27.6,
       "parent": "II",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Yttric",
+      "orbital_period": 16.228839865132258
     },
     {
       "position": {
@@ -58,7 +61,8 @@
       "length_of_day": 17.7,
       "parent": "II",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Oolite",
+      "orbital_period": 16.228839865132258
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "name": "Gamma Cassiopeiae",
-  "mass": 3e+24,
+  "mass": 1.989e+30,
   "position": {
     "x": 367.9,
     "y": 506.8
@@ -17,7 +17,8 @@
       "gravity": 1.9600000000000002,
       "length_of_day": 17.1,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Azure",
+      "orbital_period": 301.7457806064463
     },
     {
       "position": {
@@ -30,7 +31,8 @@
       "gravity": 19.698,
       "length_of_day": 12,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Gas Giant",
+      "orbital_period": 1463.0870409100633
     },
     {
       "position": {
@@ -43,7 +45,8 @@
       "gravity": 3.8220000000000005,
       "length_of_day": 17.8,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Metal",
+      "orbital_period": 5880.315981765125
     },
     {
       "position": {
@@ -56,7 +59,8 @@
       "gravity": 12.936000000000002,
       "length_of_day": 8,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Gas Giant",
+      "orbital_period": 10264.938887769915
     },
     {
       "position": {
@@ -69,7 +73,8 @@
       "gravity": 0.784,
       "length_of_day": 22.3,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Noble",
+      "orbital_period": 16896.27588986914
     },
     {
       "position": {
@@ -83,7 +88,8 @@
       "length_of_day": 29,
       "parent": "II",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Cyanic",
+      "orbital_period": 1.4630870409100631
     },
     {
       "position": {
@@ -97,7 +103,8 @@
       "length_of_day": 21.2,
       "parent": "II",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Halide",
+      "orbital_period": 1.4630870409100631
     },
     {
       "position": {
@@ -111,7 +118,8 @@
       "length_of_day": 17.1,
       "parent": "II",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Purple",
+      "orbital_period": 1.4630870409100631
     },
     {
       "position": {
@@ -125,7 +133,8 @@
       "length_of_day": 17,
       "parent": "II",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Acid",
+      "orbital_period": 1.4630870409100631
     },
     {
       "position": {
@@ -139,7 +148,8 @@
       "length_of_day": 24.6,
       "parent": "IV",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Dust",
+      "orbital_period": 10.264938887769917
     },
     {
       "position": {
@@ -153,7 +163,8 @@
       "length_of_day": 29.1,
       "parent": "IV",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Radioactive",
+      "orbital_period": 10.264938887769917
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "name": "Theta Chamaeleonis",
-  "mass": 3e+24,
+  "mass": 1.989e+30,
   "position": {
     "x": 514.5,
     "y": 695.8
@@ -17,7 +17,8 @@
       "gravity": 12.446000000000002,
       "length_of_day": 20.7,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Magnetic",
+      "orbital_period": 15124.233277125186
     }
   ]
 }

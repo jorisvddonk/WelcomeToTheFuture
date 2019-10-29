@@ -1,6 +1,6 @@
 {
   "name": "Delta Krueger",
-  "mass": 3e+24,
+  "mass": 1.989e+30,
   "position": {
     "x": 57,
     "y": 28.9
@@ -17,7 +17,8 @@
       "gravity": 24.5,
       "length_of_day": 15.6,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Gas Giant",
+      "orbital_period": 1337.5568827569828
     },
     {
       "position": {
@@ -30,7 +31,8 @@
       "gravity": 10.388000000000002,
       "length_of_day": 14.9,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Gas Giant",
+      "orbital_period": 2241.464349896996
     },
     {
       "position": {
@@ -43,7 +45,8 @@
       "gravity": 1.078,
       "length_of_day": 20.6,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Cyanic",
+      "orbital_period": 6473.207718635996
     },
     {
       "position": {
@@ -56,7 +59,8 @@
       "gravity": 5.488000000000001,
       "length_of_day": 16.5,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Iodine",
+      "orbital_period": 17000.04780967651
     },
     {
       "position": {
@@ -70,7 +74,8 @@
       "length_of_day": 2184.8,
       "parent": "I",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Halide",
+      "orbital_period": 1.3375568827569826
     },
     {
       "position": {
@@ -84,7 +89,8 @@
       "length_of_day": 20.1,
       "parent": "I",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Noble",
+      "orbital_period": 1.3375568827569826
     },
     {
       "position": {
@@ -98,7 +104,8 @@
       "length_of_day": 23.4,
       "parent": "I",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Treasure",
+      "orbital_period": 1.3375568827569826
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "name": "Gamma Sagittarii",
-  "mass": 3e+24,
+  "mass": 1.989e+30,
   "position": {
     "x": 708.3,
     "y": 277
@@ -17,7 +17,8 @@
       "gravity": 2.156,
       "length_of_day": 22,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Purple",
+      "orbital_period": 5950.673647772844
     },
     {
       "position": {
@@ -30,7 +31,8 @@
       "gravity": 27.930000000000003,
       "length_of_day": 9.1,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Gas Giant",
+      "orbital_period": 11302.758521289352
     },
     {
       "position": {
@@ -43,7 +45,8 @@
       "gravity": 3.528,
       "length_of_day": 21.1,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Metal",
+      "orbital_period": 13174.287515391403
     },
     {
       "position": {
@@ -56,7 +59,8 @@
       "gravity": 6.566000000000001,
       "length_of_day": 5174.2,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Maroon",
+      "orbital_period": 18796.199342811495
     },
     {
       "position": {
@@ -70,7 +74,8 @@
       "length_of_day": 5617.7,
       "parent": "II",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Chondrite",
+      "orbital_period": 11.302758521289352
     },
     {
       "position": {
@@ -84,7 +89,8 @@
       "length_of_day": 24.1,
       "parent": "II",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Super-Dense",
+      "orbital_period": 11.302758521289352
     },
     {
       "position": {
@@ -98,7 +104,8 @@
       "length_of_day": 23.2,
       "parent": "IV",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Metal",
+      "orbital_period": 18.796199342811498
     }
   ]
 }

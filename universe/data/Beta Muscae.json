@@ -1,6 +1,6 @@
 {
   "name": "Beta Muscae",
-  "mass": 3e+24,
+  "mass": 1.989e+30,
   "position": {
     "x": 104.1,
     "y": 770.8
@@ -17,7 +17,8 @@
       "gravity": 16.268,
       "length_of_day": 15.6,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Magnetic",
+      "orbital_period": 1121.2882838121673
     },
     {
       "position": {
@@ -30,7 +31,8 @@
       "gravity": 1.9600000000000002,
       "length_of_day": 22.5,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Pellucid",
+      "orbital_period": 5437.746203945917
     },
     {
       "position": {
@@ -43,7 +45,8 @@
       "gravity": 3.528,
       "length_of_day": 25.6,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Alkali",
+      "orbital_period": 6876.040238325709
     },
     {
       "position": {
@@ -56,7 +59,8 @@
       "gravity": 2.5480000000000005,
       "length_of_day": 29.6,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Chondrite",
+      "orbital_period": 8645.856345499575
     },
     {
       "position": {
@@ -69,7 +73,8 @@
       "gravity": 14.994000000000002,
       "length_of_day": 11.7,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Gas Giant",
+      "orbital_period": 13664.958783000993
     },
     {
       "position": {
@@ -82,7 +87,8 @@
       "gravity": 1.862,
       "length_of_day": 29.6,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Pellucid",
+      "orbital_period": 15413.77030626072
     },
     {
       "position": {
@@ -95,7 +101,8 @@
       "gravity": 2.0580000000000003,
       "length_of_day": 2041.4,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Selenic",
+      "orbital_period": 18253.813122164524
     },
     {
       "position": {
@@ -109,7 +116,8 @@
       "length_of_day": 27.7,
       "parent": "I",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Cimmerian",
+      "orbital_period": 1.1212882838121674
     },
     {
       "position": {
@@ -123,7 +131,8 @@
       "length_of_day": 24.8,
       "parent": "V",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Pellucid",
+      "orbital_period": 13.664958783000994
     },
     {
       "position": {
@@ -137,7 +146,8 @@
       "length_of_day": 3082.5,
       "parent": "V",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Green",
+      "orbital_period": 13.664958783000994
     }
   ]
 }

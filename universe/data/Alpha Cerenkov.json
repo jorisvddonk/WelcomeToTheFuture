@@ -1,6 +1,6 @@
 {
   "name": "Alpha Cerenkov",
-  "mass": 3e+24,
+  "mass": 1.989e+30,
   "position": {
     "x": 422.1,
     "y": 198.6
@@ -17,7 +17,8 @@
       "gravity": 9.506,
       "length_of_day": 25.1,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Redux",
+      "orbital_period": 1125.9549133976893
     },
     {
       "position": {
@@ -30,7 +31,8 @@
       "gravity": 10.192000000000002,
       "length_of_day": 8.5,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Gas Giant",
+      "orbital_period": 2784.1260564203094
     },
     {
       "position": {
@@ -43,7 +45,8 @@
       "gravity": 11.956000000000001,
       "length_of_day": 15.8,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Magnetic",
+      "orbital_period": 4717.914385491903
     },
     {
       "position": {
@@ -56,7 +59,8 @@
       "gravity": 1.9600000000000002,
       "length_of_day": 17.1,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Urea",
+      "orbital_period": 7099.159948516617
     },
     {
       "position": {
@@ -69,7 +73,8 @@
       "gravity": 5.096000000000001,
       "length_of_day": 19,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Radioactive",
+      "orbital_period": 9176.276093075361
     },
     {
       "position": {
@@ -82,7 +87,8 @@
       "gravity": 7.546000000000001,
       "length_of_day": 29.7,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Treasure",
+      "orbital_period": 11745.487114431331
     },
     {
       "position": {
@@ -95,7 +101,8 @@
       "gravity": 26.754,
       "length_of_day": 15.4,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Gas Giant",
+      "orbital_period": 16062.442756055938
     },
     {
       "position": {
@@ -108,7 +115,8 @@
       "gravity": 19.698,
       "length_of_day": 12.1,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Gas Giant",
+      "orbital_period": 17611.5336173303
     },
     {
       "position": {
@@ -121,7 +129,8 @@
       "gravity": 8.232000000000001,
       "length_of_day": 17.8,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Water",
+      "orbital_period": 22121.625207142966
     },
     {
       "position": {
@@ -135,7 +144,8 @@
       "length_of_day": 2933.2,
       "parent": "II",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Carbide",
+      "orbital_period": 2.78412605642031
     },
     {
       "position": {
@@ -149,7 +159,8 @@
       "length_of_day": 29.1,
       "parent": "II",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Auric",
+      "orbital_period": 2.78412605642031
     },
     {
       "position": {
@@ -163,7 +174,8 @@
       "length_of_day": 23.3,
       "parent": "II",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Copper",
+      "orbital_period": 2.78412605642031
     },
     {
       "position": {
@@ -177,7 +189,8 @@
       "length_of_day": 29.8,
       "parent": "II",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Selenic",
+      "orbital_period": 2.78412605642031
     },
     {
       "position": {
@@ -191,7 +204,8 @@
       "length_of_day": 1207.6,
       "parent": "VII",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Halide",
+      "orbital_period": 16.06244275605594
     },
     {
       "position": {
@@ -205,7 +219,8 @@
       "length_of_day": 1297.8,
       "parent": "VII",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Quasi-Degenerate",
+      "orbital_period": 16.06244275605594
     },
     {
       "position": {
@@ -219,7 +234,8 @@
       "length_of_day": 20.1,
       "parent": "VII",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Ultramarine",
+      "orbital_period": 16.06244275605594
     },
     {
       "position": {
@@ -233,7 +249,8 @@
       "length_of_day": 19.9,
       "parent": "VII",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Halide",
+      "orbital_period": 16.06244275605594
     },
     {
       "position": {
@@ -247,7 +264,8 @@
       "length_of_day": 27,
       "parent": "VIII",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Carbide",
+      "orbital_period": 17.611533617330302
     },
     {
       "position": {
@@ -261,7 +279,8 @@
       "length_of_day": 20.9,
       "parent": "VIII",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Acid",
+      "orbital_period": 17.611533617330302
     },
     {
       "position": {
@@ -275,7 +294,8 @@
       "length_of_day": 16.5,
       "parent": "VIII",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Green",
+      "orbital_period": 17.611533617330302
     }
   ]
 }

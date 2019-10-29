@@ -1,6 +1,6 @@
 {
   "name": "Alpha Sagittae",
-  "mass": 3e+24,
+  "mass": 1.989e+30,
   "position": {
     "x": 25,
     "y": 568.7
@@ -17,7 +17,8 @@
       "gravity": 30.380000000000003,
       "length_of_day": 15.2,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Gas Giant",
+      "orbital_period": 9345.952318548236
     }
   ]
 }

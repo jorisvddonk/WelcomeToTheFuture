@@ -1,6 +1,6 @@
 {
   "name": "Alpha Lyrae",
-  "mass": 3e+24,
+  "mass": 1.989e+30,
   "position": {
     "x": 191.6,
     "y": 127
@@ -17,7 +17,8 @@
       "gravity": 0.882,
       "length_of_day": 20.5,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Ultramarine",
+      "orbital_period": 2452.202868507598
     },
     {
       "position": {
@@ -30,7 +31,8 @@
       "gravity": 1.078,
       "length_of_day": 17,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Noble",
+      "orbital_period": 10776.379755813528
     }
   ]
 }

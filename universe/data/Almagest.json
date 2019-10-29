@@ -1,6 +1,6 @@
 {
   "name": "Almagest",
-  "mass": 3e+24,
+  "mass": 1.989e+30,
   "position": {
     "x": 990.9,
     "y": 235.9
@@ -17,7 +17,8 @@
       "gravity": 1.47,
       "length_of_day": 18.4,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Opalescent",
+      "orbital_period": 374.6562467295335
     },
     {
       "position": {
@@ -30,7 +31,8 @@
       "gravity": 4.8020000000000005,
       "length_of_day": 17.3,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Yttric",
+      "orbital_period": 4768.193849537688
     },
     {
       "position": {
@@ -43,7 +45,8 @@
       "gravity": 3.724,
       "length_of_day": 5132.9,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Quasi-Degenerate",
+      "orbital_period": 12401.068936160696
     },
     {
       "position": {
@@ -56,7 +59,8 @@
       "gravity": 0.9800000000000001,
       "length_of_day": 18.7,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Cyanic",
+      "orbital_period": 18466.968111421935
     }
   ]
 }

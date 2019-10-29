@@ -1,6 +1,6 @@
 {
   "name": "Alpha Cassiopeiae",
-  "mass": 3e+24,
+  "mass": 1.989e+30,
   "position": {
     "x": 354.1,
     "y": 518.7
@@ -17,7 +17,8 @@
       "gravity": 16.758,
       "length_of_day": 10.1,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Gas Giant",
+      "orbital_period": 14194.167609173326
     },
     {
       "position": {
@@ -31,7 +32,8 @@
       "length_of_day": 18.7,
       "parent": "I",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Quasi-Degenerate",
+      "orbital_period": 14.194167609173325
     },
     {
       "position": {
@@ -45,7 +47,8 @@
       "length_of_day": 26.7,
       "parent": "I",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Cyanic",
+      "orbital_period": 14.194167609173325
     },
     {
       "position": {
@@ -59,7 +62,8 @@
       "length_of_day": 3082.5,
       "parent": "I",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Carbide",
+      "orbital_period": 14.194167609173325
     },
     {
       "position": {
@@ -73,7 +77,8 @@
       "length_of_day": 28.1,
       "parent": "I",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Noble",
+      "orbital_period": 14.194167609173325
     }
   ]
 }

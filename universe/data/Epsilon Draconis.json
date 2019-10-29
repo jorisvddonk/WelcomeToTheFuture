@@ -1,6 +1,6 @@
 {
   "name": "Epsilon Draconis",
-  "mass": 3e+24,
+  "mass": 1.989e+30,
   "position": {
     "x": 283.6,
     "y": 785.7
@@ -17,7 +17,8 @@
       "gravity": 4.41,
       "length_of_day": 17,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Rainbow",
+      "orbital_period": 129.04356161135055
     },
     {
       "position": {
@@ -30,7 +31,8 @@
       "gravity": 13.230000000000002,
       "length_of_day": 27.9,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Plutonic",
+      "orbital_period": 4314.830349059733
     },
     {
       "position": {
@@ -43,7 +45,8 @@
       "gravity": 10.682000000000002,
       "length_of_day": 17.3,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Xenolithic",
+      "orbital_period": 6010.4245433588885
     },
     {
       "position": {
@@ -56,7 +59,8 @@
       "gravity": 8.232000000000001,
       "length_of_day": 15,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Gas Giant",
+      "orbital_period": 8267.862979734144
     },
     {
       "position": {
@@ -69,7 +73,8 @@
       "gravity": 27.538000000000004,
       "length_of_day": 8.4,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Gas Giant",
+      "orbital_period": 9694.778128395052
     },
     {
       "position": {
@@ -82,7 +87,8 @@
       "gravity": 14.406,
       "length_of_day": 8.2,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Gas Giant",
+      "orbital_period": 11708.093752547295
     },
     {
       "position": {
@@ -95,7 +101,8 @@
       "gravity": 1.3720000000000003,
       "length_of_day": 22.4,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Urea",
+      "orbital_period": 14869.634418422069
     },
     {
       "position": {
@@ -108,7 +115,8 @@
       "gravity": 8.134,
       "length_of_day": 21.5,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Xenolithic",
+      "orbital_period": 17289.411949578636
     },
     {
       "position": {
@@ -121,7 +129,8 @@
       "gravity": 6.762,
       "length_of_day": 28.2,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Treasure",
+      "orbital_period": 20918.90636803319
     },
     {
       "position": {
@@ -135,7 +144,8 @@
       "length_of_day": 26.1,
       "parent": "II",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Auric",
+      "orbital_period": 4.314830349059733
     },
     {
       "position": {
@@ -149,7 +159,8 @@
       "length_of_day": 22.2,
       "parent": "IV",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Yttric",
+      "orbital_period": 8.267862979734145
     },
     {
       "position": {
@@ -163,7 +174,8 @@
       "length_of_day": 15.6,
       "parent": "IV",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Selenic",
+      "orbital_period": 8.267862979734145
     },
     {
       "position": {
@@ -177,7 +189,8 @@
       "length_of_day": 22.7,
       "parent": "V",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Selenic",
+      "orbital_period": 9.694778128395054
     },
     {
       "position": {
@@ -191,7 +204,8 @@
       "length_of_day": 1775.6,
       "parent": "VI",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Acid",
+      "orbital_period": 11.708093752547294
     },
     {
       "position": {
@@ -205,7 +219,8 @@
       "length_of_day": 23.1,
       "parent": "VI",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Auric",
+      "orbital_period": 11.708093752547294
     },
     {
       "position": {
@@ -219,7 +234,8 @@
       "length_of_day": 21.6,
       "parent": "VI",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Cyanic",
+      "orbital_period": 11.708093752547294
     },
     {
       "position": {
@@ -233,7 +249,8 @@
       "length_of_day": 15.1,
       "parent": "VIII",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Acid",
+      "orbital_period": 17.28941194957864
     }
   ]
 }

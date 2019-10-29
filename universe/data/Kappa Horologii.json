@@ -1,6 +1,6 @@
 {
   "name": "Kappa Horologii",
-  "mass": 3e+24,
+  "mass": 1.989e+30,
   "position": {
     "x": 688.9,
     "y": 780.3
@@ -17,7 +17,8 @@
       "gravity": 3.43,
       "length_of_day": 23.8,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Chondrite",
+      "orbital_period": 1815.6395226140928
     },
     {
       "position": {
@@ -30,7 +31,8 @@
       "gravity": 27.342000000000002,
       "length_of_day": 12,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Gas Giant",
+      "orbital_period": 3077.424421642814
     },
     {
       "position": {
@@ -43,7 +45,8 @@
       "gravity": 2.94,
       "length_of_day": 24.9,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Chondrite",
+      "orbital_period": 5153.484957041547
     },
     {
       "position": {
@@ -56,7 +59,8 @@
       "gravity": 5.978000000000001,
       "length_of_day": 16.9,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Ruby",
+      "orbital_period": 7079.039521578375
     },
     {
       "position": {
@@ -69,7 +73,8 @@
       "gravity": 27.146,
       "length_of_day": 15.6,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Gas Giant",
+      "orbital_period": 9484.971155846013
     },
     {
       "position": {
@@ -82,7 +87,8 @@
       "gravity": 29.89,
       "length_of_day": 14.1,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Gas Giant",
+      "orbital_period": 13245.02818109844
     },
     {
       "position": {
@@ -95,7 +101,8 @@
       "gravity": 4.9,
       "length_of_day": 28.2,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Maroon",
+      "orbital_period": 15648.95953848028
     },
     {
       "position": {
@@ -108,7 +115,8 @@
       "gravity": 6.566000000000001,
       "length_of_day": 3105.4,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Maroon",
+      "orbital_period": 21623.675534697966
     },
     {
       "position": {
@@ -122,7 +130,8 @@
       "length_of_day": 4343,
       "parent": "II",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Selenic",
+      "orbital_period": 3.077424421642814
     },
     {
       "position": {
@@ -136,7 +145,8 @@
       "length_of_day": 21.1,
       "parent": "II",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Pellucid",
+      "orbital_period": 3.077424421642814
     },
     {
       "position": {
@@ -150,7 +160,8 @@
       "length_of_day": 16.5,
       "parent": "II",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Crimson",
+      "orbital_period": 3.077424421642814
     },
     {
       "position": {
@@ -164,7 +175,8 @@
       "length_of_day": 18,
       "parent": "IV",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Selenic",
+      "orbital_period": 7.079039521578376
     },
     {
       "position": {
@@ -178,7 +190,8 @@
       "length_of_day": 16.5,
       "parent": "V",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Cimmerian",
+      "orbital_period": 9.484971155846011
     },
     {
       "position": {
@@ -192,7 +205,8 @@
       "length_of_day": 23.3,
       "parent": "V",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Infrared",
+      "orbital_period": 9.484971155846011
     },
     {
       "position": {
@@ -206,7 +220,8 @@
       "length_of_day": 23.9,
       "parent": "V",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Chondrite",
+      "orbital_period": 9.484971155846011
     },
     {
       "position": {
@@ -220,7 +235,8 @@
       "length_of_day": 25.1,
       "parent": "VI",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Crimson",
+      "orbital_period": 13.24502818109844
     },
     {
       "position": {
@@ -234,7 +250,8 @@
       "length_of_day": 21.2,
       "parent": "VI",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Selenic",
+      "orbital_period": 13.24502818109844
     },
     {
       "position": {
@@ -248,7 +265,8 @@
       "length_of_day": 22.9,
       "parent": "VI",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Chondrite",
+      "orbital_period": 13.24502818109844
     },
     {
       "position": {
@@ -262,7 +280,8 @@
       "length_of_day": 19.6,
       "parent": "VI",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Metal",
+      "orbital_period": 13.24502818109844
     },
     {
       "position": {
@@ -276,7 +295,8 @@
       "length_of_day": 23.8,
       "parent": "VII",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Urea",
+      "orbital_period": 15.64895953848028
     }
   ]
 }

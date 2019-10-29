@@ -1,6 +1,6 @@
 {
   "name": "Zeta Scuti",
-  "mass": 3e+24,
+  "mass": 1.989e+30,
   "position": {
     "x": 531.3,
     "y": 15
@@ -17,7 +17,8 @@
       "gravity": 10.388000000000002,
       "length_of_day": 18.1,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Redux",
+      "orbital_period": 288.79359624712714
     },
     {
       "position": {
@@ -30,7 +31,8 @@
       "gravity": 5.88,
       "length_of_day": 28.8,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Emerald",
+      "orbital_period": 1026.3054869371742
     },
     {
       "position": {
@@ -43,7 +45,8 @@
       "gravity": 5.684,
       "length_of_day": 27.6,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Ruby",
+      "orbital_period": 7841.975272444538
     },
     {
       "position": {
@@ -56,7 +59,8 @@
       "gravity": 13.132000000000001,
       "length_of_day": 18.5,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Plutonic",
+      "orbital_period": 10398.552057093853
     },
     {
       "position": {
@@ -69,7 +73,8 @@
       "gravity": 7.546000000000001,
       "length_of_day": 14.1,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Gas Giant",
+      "orbital_period": 11844.259918779764
     },
     {
       "position": {
@@ -82,7 +87,8 @@
       "gravity": 26.950000000000003,
       "length_of_day": 8.7,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Gas Giant",
+      "orbital_period": 14543.373752185782
     },
     {
       "position": {
@@ -96,7 +102,8 @@
       "length_of_day": 23.1,
       "parent": "I",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Cyanic",
+      "orbital_period": 0.28879359624712714
     },
     {
       "position": {
@@ -110,7 +117,8 @@
       "length_of_day": 18,
       "parent": "I",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Selenic",
+      "orbital_period": 0.28879359624712714
     },
     {
       "position": {
@@ -124,7 +132,8 @@
       "length_of_day": 25.5,
       "parent": "V",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Quasi-Degenerate",
+      "orbital_period": 11.844259918779766
     },
     {
       "position": {
@@ -138,7 +147,8 @@
       "length_of_day": 2667.8,
       "parent": "V",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Selenic",
+      "orbital_period": 11.844259918779766
     },
     {
       "position": {
@@ -152,7 +162,8 @@
       "length_of_day": 15.5,
       "parent": "VI",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Opalescent",
+      "orbital_period": 14.543373752185781
     },
     {
       "position": {
@@ -166,7 +177,8 @@
       "length_of_day": 22.2,
       "parent": "VI",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Oolite",
+      "orbital_period": 14.543373752185781
     },
     {
       "position": {
@@ -180,7 +192,8 @@
       "length_of_day": 17.2,
       "parent": "VI",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Halide",
+      "orbital_period": 14.543373752185781
     }
   ]
 }

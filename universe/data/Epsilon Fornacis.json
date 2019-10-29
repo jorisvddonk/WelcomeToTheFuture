@@ -1,6 +1,6 @@
 {
   "name": "Epsilon Fornacis",
-  "mass": 3e+24,
+  "mass": 1.989e+30,
   "position": {
     "x": 604.1,
     "y": 791.6
@@ -17,7 +17,8 @@
       "gravity": 2.6460000000000004,
       "length_of_day": 16.2,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Acid",
+      "orbital_period": 241.7134377495349
     },
     {
       "position": {
@@ -30,7 +31,8 @@
       "gravity": 10.192000000000002,
       "length_of_day": 11.5,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Gas Giant",
+      "orbital_period": 1122.8431091194016
     },
     {
       "position": {
@@ -43,7 +45,8 @@
       "gravity": 5.390000000000001,
       "length_of_day": 15.2,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Cimmerian",
+      "orbital_period": 2704.5227999941094
     },
     {
       "position": {
@@ -56,7 +59,8 @@
       "gravity": 3.9200000000000004,
       "length_of_day": 25,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Copper",
+      "orbital_period": 7139.457863681775
     },
     {
       "position": {
@@ -69,7 +73,8 @@
       "gravity": 0.9800000000000001,
       "length_of_day": 25.1,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Noble",
+      "orbital_period": 14179.678837219475
     },
     {
       "position": {
@@ -82,7 +87,8 @@
       "gravity": 9.702,
       "length_of_day": 27.9,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Vinylogous",
+      "orbital_period": 18360.287506687026
     },
     {
       "position": {
@@ -96,7 +102,8 @@
       "length_of_day": 26.7,
       "parent": "II",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Copper",
+      "orbital_period": 1.1228431091194016
     },
     {
       "position": {
@@ -110,7 +117,8 @@
       "length_of_day": 28.2,
       "parent": "II",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Halide",
+      "orbital_period": 1.1228431091194016
     }
   ]
 }

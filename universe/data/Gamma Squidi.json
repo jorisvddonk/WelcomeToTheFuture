@@ -1,6 +1,6 @@
 {
   "name": "Gamma Squidi",
-  "mass": 3e+24,
+  "mass": 1.989e+30,
   "position": {
     "x": 214.5,
     "y": 420.8
@@ -17,7 +17,8 @@
       "gravity": 1.764,
       "length_of_day": 26.9,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Azure",
+      "orbital_period": 1874.3636083616905
     },
     {
       "position": {
@@ -30,7 +31,8 @@
       "gravity": 6.174,
       "length_of_day": 22.7,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Maroon",
+      "orbital_period": 21941.257932680615
     },
     {
       "position": {
@@ -44,7 +46,8 @@
       "length_of_day": 22.2,
       "parent": "II",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Selenic",
+      "orbital_period": 21.94125793268062
     }
   ]
 }

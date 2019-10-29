@@ -1,6 +1,6 @@
 {
   "name": "Gamma Cancri",
-  "mass": 3e+24,
+  "mass": 1.989e+30,
   "position": {
     "x": 500.6,
     "y": 501.1
@@ -17,7 +17,8 @@
       "gravity": 5.782,
       "length_of_day": 19,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Maroon",
+      "orbital_period": 8153.158352488643
     },
     {
       "position": {
@@ -30,7 +31,8 @@
       "gravity": 3.43,
       "length_of_day": 15.1,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Carbide",
+      "orbital_period": 9545.213213831963
     },
     {
       "position": {
@@ -43,7 +45,8 @@
       "gravity": 5.586,
       "length_of_day": 26.9,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Maroon",
+      "orbital_period": 17096.321581562224
     },
     {
       "position": {
@@ -57,7 +60,8 @@
       "length_of_day": 17.8,
       "parent": "III",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Pellucid",
+      "orbital_period": 17.096321581562222
     }
   ]
 }

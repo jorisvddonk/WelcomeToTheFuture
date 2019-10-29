@@ -1,6 +1,6 @@
 {
   "name": "Procyon",
-  "mass": 3e+24,
+  "mass": 1.989e+30,
   "position": {
     "x": 74.2,
     "y": 226.8
@@ -17,7 +17,8 @@
       "gravity": 1.862,
       "length_of_day": 26.3,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Halide",
+      "orbital_period": 4622.874266675646
     },
     {
       "position": {
@@ -30,7 +31,8 @@
       "gravity": 6.174,
       "length_of_day": 26.7,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Sapphire",
+      "orbital_period": 6824.889223305584
     },
     {
       "position": {
@@ -43,7 +45,8 @@
       "gravity": 22.736,
       "length_of_day": 10.6,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Gas Giant",
+      "orbital_period": 12221.411820714373
     },
     {
       "position": {
@@ -56,7 +59,8 @@
       "gravity": 1.764,
       "length_of_day": 27.5,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Azure",
+      "orbital_period": 15335.638080231212
     },
     {
       "position": {
@@ -69,7 +73,8 @@
       "gravity": 3.8220000000000005,
       "length_of_day": 16,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Copper",
+      "orbital_period": 21727.97303124592
     },
     {
       "position": {
@@ -83,7 +88,8 @@
       "length_of_day": 26.8,
       "parent": "III",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Alkali",
+      "orbital_period": 12.221411820714374
     },
     {
       "position": {
@@ -97,7 +103,8 @@
       "length_of_day": 24.4,
       "parent": "III",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Dust",
+      "orbital_period": 12.221411820714374
     }
   ]
 }

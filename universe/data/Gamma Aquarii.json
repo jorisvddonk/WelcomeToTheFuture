@@ -1,6 +1,6 @@
 {
   "name": "Gamma Aquarii",
-  "mass": 3e+24,
+  "mass": 1.989e+30,
   "position": {
     "x": 853.4,
     "y": 879.7
@@ -17,7 +17,8 @@
       "gravity": 5.488000000000001,
       "length_of_day": 16.3,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Rainbow",
+      "orbital_period": 129.04356161135055
     },
     {
       "position": {
@@ -30,7 +31,8 @@
       "gravity": 9.506,
       "length_of_day": 5485.5,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Chlorine",
+      "orbital_period": 1696.5070995038081
     },
     {
       "position": {
@@ -43,7 +45,8 @@
       "gravity": 5.194000000000001,
       "length_of_day": 18.5,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Radioactive",
+      "orbital_period": 5379.96334075668
     },
     {
       "position": {
@@ -56,7 +59,8 @@
       "gravity": 1.9600000000000002,
       "length_of_day": 17.6,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Urea",
+      "orbital_period": 7292.70117710617
     },
     {
       "position": {
@@ -69,7 +73,8 @@
       "gravity": 2.6460000000000004,
       "length_of_day": 21.3,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Infrared",
+      "orbital_period": 10290.964501554254
     },
     {
       "position": {
@@ -82,7 +87,8 @@
       "gravity": 10.780000000000001,
       "length_of_day": 12.2,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Gas Giant",
+      "orbital_period": 16297.075996639956
     },
     {
       "position": {
@@ -95,7 +101,8 @@
       "gravity": 0.784,
       "length_of_day": 5126.2,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Ultramarine",
+      "orbital_period": 18911.688342668596
     },
     {
       "position": {
@@ -109,7 +116,8 @@
       "length_of_day": 2933.2,
       "parent": "VI",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Infrared",
+      "orbital_period": 16.297075996639954
     },
     {
       "position": {
@@ -123,7 +131,8 @@
       "length_of_day": 22.4,
       "parent": "VI",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Ultramarine",
+      "orbital_period": 16.297075996639954
     },
     {
       "position": {
@@ -137,7 +146,8 @@
       "length_of_day": 15.3,
       "parent": "VI",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Green",
+      "orbital_period": 16.297075996639954
     },
     {
       "position": {
@@ -151,7 +161,8 @@
       "length_of_day": 26.6,
       "parent": "VI",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Carbide",
+      "orbital_period": 16.297075996639954
     }
   ]
 }

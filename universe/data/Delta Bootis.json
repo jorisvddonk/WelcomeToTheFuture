@@ -1,6 +1,6 @@
 {
   "name": "Delta Bootis",
-  "mass": 3e+24,
+  "mass": 1.989e+30,
   "position": {
     "x": 21.7,
     "y": 250.9
@@ -17,7 +17,8 @@
       "gravity": 4.312,
       "length_of_day": 28.2,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Cimmerian",
+      "orbital_period": 9691.587832312198
     },
     {
       "position": {
@@ -30,7 +31,8 @@
       "gravity": 8.036,
       "length_of_day": 18.8,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Telluric",
+      "orbital_period": 14499.568427985587
     },
     {
       "position": {
@@ -44,7 +46,8 @@
       "length_of_day": 28.9,
       "parent": "II",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Alkali",
+      "orbital_period": 14.499568427985588
     }
   ]
 }

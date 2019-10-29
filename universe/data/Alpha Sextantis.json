@@ -1,6 +1,6 @@
 {
   "name": "Alpha Sextantis",
-  "mass": 3e+24,
+  "mass": 1.989e+30,
   "position": {
     "x": 433.7,
     "y": 106.6
@@ -17,7 +17,8 @@
       "gravity": 24.108,
       "length_of_day": 8.3,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Gas Giant",
+      "orbital_period": 1935.5719153841765
     },
     {
       "position": {
@@ -30,7 +31,8 @@
       "gravity": 15.876000000000003,
       "length_of_day": 17.7,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Fluorescent",
+      "orbital_period": 2971.399320780941
     },
     {
       "position": {
@@ -43,7 +45,8 @@
       "gravity": 7.742000000000001,
       "length_of_day": 19.6,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Primordial",
+      "orbital_period": 6163.412636560956
     },
     {
       "position": {
@@ -56,7 +59,8 @@
       "gravity": 0.9800000000000001,
       "length_of_day": 21.1,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Noble",
+      "orbital_period": 11535.244798602609
     },
     {
       "position": {
@@ -69,7 +73,8 @@
       "gravity": 10.094000000000001,
       "length_of_day": 24.1,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Telluric",
+      "orbital_period": 14237.66350737945
     },
     {
       "position": {
@@ -82,7 +87,8 @@
       "gravity": 2.6460000000000004,
       "length_of_day": 20.4,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Acid",
+      "orbital_period": 16262.94600149005
     },
     {
       "position": {
@@ -96,7 +102,8 @@
       "length_of_day": 26.1,
       "parent": "I",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Noble",
+      "orbital_period": 1.9355719153841768
     },
     {
       "position": {
@@ -110,7 +117,8 @@
       "length_of_day": 16.5,
       "parent": "I",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Urea",
+      "orbital_period": 1.9355719153841768
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "name": "Epsilon Muscae",
-  "mass": 3e+24,
+  "mass": 1.989e+30,
   "position": {
     "x": 152,
     "y": 833.3
@@ -17,7 +17,8 @@
       "gravity": 0.784,
       "length_of_day": 4633.3,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Noble",
+      "orbital_period": 6453.697520597259
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "name": "Epsilon Antliae",
-  "mass": 3e+24,
+  "mass": 1.989e+30,
   "position": {
     "x": 253.5,
     "y": 891.7
@@ -17,7 +17,8 @@
       "gravity": 3.3320000000000003,
       "length_of_day": 23.2,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Alkali",
+      "orbital_period": 420.86129328275143
     },
     {
       "position": {
@@ -30,7 +31,8 @@
       "gravity": 6.370000000000001,
       "length_of_day": 18.5,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Treasure",
+      "orbital_period": 3189.0852179770836
     },
     {
       "position": {
@@ -43,7 +45,8 @@
       "gravity": 1.47,
       "length_of_day": 17.6,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Urea",
+      "orbital_period": 5400.951479472441
     },
     {
       "position": {
@@ -56,7 +59,8 @@
       "gravity": 7.3500000000000005,
       "length_of_day": 12.6,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Gas Giant",
+      "orbital_period": 8267.862979734144
     },
     {
       "position": {
@@ -69,7 +73,8 @@
       "gravity": 1.862,
       "length_of_day": 19.1,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Opalescent",
+      "orbital_period": 9685.208290257673
     },
     {
       "position": {
@@ -82,7 +87,8 @@
       "gravity": 4.312,
       "length_of_day": 25.7,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Lanthanide",
+      "orbital_period": 12131.911515909944
     },
     {
       "position": {
@@ -95,7 +101,8 @@
       "gravity": 2.0580000000000003,
       "length_of_day": 29.7,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Halide",
+      "orbital_period": 13865.771439597236
     },
     {
       "position": {
@@ -108,7 +115,8 @@
       "gravity": 24.108,
       "length_of_day": 8.3,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Gas Giant",
+      "orbital_period": 20960.14755080423
     },
     {
       "position": {
@@ -122,7 +130,8 @@
       "length_of_day": 20.3,
       "parent": "IV",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Alkali",
+      "orbital_period": 8.267862979734145
     },
     {
       "position": {
@@ -136,7 +145,8 @@
       "length_of_day": 21.9,
       "parent": "IV",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Alkali",
+      "orbital_period": 8.267862979734145
     },
     {
       "position": {
@@ -150,7 +160,8 @@
       "length_of_day": 29,
       "parent": "IV",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Cyanic",
+      "orbital_period": 8.267862979734145
     },
     {
       "position": {
@@ -164,7 +175,8 @@
       "length_of_day": 23.2,
       "parent": "IV",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Yttric",
+      "orbital_period": 8.267862979734145
     },
     {
       "position": {
@@ -178,7 +190,8 @@
       "length_of_day": 16.9,
       "parent": "VIII",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Quasi-Degenerate",
+      "orbital_period": 20.960147550804233
     },
     {
       "position": {
@@ -192,7 +205,8 @@
       "length_of_day": 16.2,
       "parent": "VIII",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Metal",
+      "orbital_period": 20.960147550804233
     },
     {
       "position": {
@@ -206,7 +220,8 @@
       "length_of_day": 21.9,
       "parent": "VIII",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Halide",
+      "orbital_period": 20.960147550804233
     },
     {
       "position": {
@@ -220,7 +235,8 @@
       "length_of_day": 28.2,
       "parent": "VIII",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Selenic",
+      "orbital_period": 20.960147550804233
     }
   ]
 }

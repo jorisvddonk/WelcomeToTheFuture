@@ -1,6 +1,6 @@
 {
   "name": "Epsilon Krueger",
-  "mass": 3e+24,
+  "mass": 1.989e+30,
   "position": {
     "x": 26.5,
     "y": 15.6
@@ -17,7 +17,8 @@
       "gravity": 1.568,
       "length_of_day": 21.1,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Urea",
+      "orbital_period": 1115.0761692080375
     },
     {
       "position": {
@@ -30,7 +31,8 @@
       "gravity": 4.998,
       "length_of_day": 15.3,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Copper",
+      "orbital_period": 4171.911751759579
     },
     {
       "position": {
@@ -43,7 +45,8 @@
       "gravity": 1.47,
       "length_of_day": 24,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Azure",
+      "orbital_period": 5777.98862085966
     },
     {
       "position": {
@@ -56,7 +59,8 @@
       "gravity": 13.72,
       "length_of_day": 8.3,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Gas Giant",
+      "orbital_period": 7925.357866523793
     },
     {
       "position": {
@@ -69,7 +73,8 @@
       "gravity": 2.352,
       "length_of_day": 22.3,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Crimson",
+      "orbital_period": 17537.620088201304
     },
     {
       "position": {
@@ -83,7 +88,8 @@
       "length_of_day": 2745.2,
       "parent": "IV",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Acid",
+      "orbital_period": 7.925357866523793
     },
     {
       "position": {
@@ -97,7 +103,8 @@
       "length_of_day": 25.3,
       "parent": "IV",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Crimson",
+      "orbital_period": 7.925357866523793
     },
     {
       "position": {
@@ -111,7 +118,8 @@
       "length_of_day": 16.5,
       "parent": "IV",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Super-Dense",
+      "orbital_period": 7.925357866523793
     }
   ]
 }

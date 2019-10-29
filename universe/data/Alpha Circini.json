@@ -1,6 +1,6 @@
 {
   "name": "Alpha Circini",
-  "mass": 6e+24,
+  "mass": 3.978e+30,
   "position": {
     "x": 39.5,
     "y": 597.9
@@ -17,7 +17,8 @@
       "gravity": 10.290000000000001,
       "length_of_day": 10.1,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Gas Giant",
+      "orbital_period": 1642.062568984632
     },
     {
       "position": {
@@ -30,7 +31,8 @@
       "gravity": 7.546000000000001,
       "length_of_day": 13.4,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Gas Giant",
+      "orbital_period": 3144.5294877910883
     },
     {
       "position": {
@@ -43,7 +45,8 @@
       "gravity": 2.842,
       "length_of_day": 28.3,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Acid",
+      "orbital_period": 4244.242270798204
     },
     {
       "position": {
@@ -56,7 +59,8 @@
       "gravity": 30.184000000000005,
       "length_of_day": 13.4,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Gas Giant",
+      "orbital_period": 5342.473200824624
     },
     {
       "position": {
@@ -69,7 +73,8 @@
       "gravity": 7.840000000000001,
       "length_of_day": 18.4,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Telluric",
+      "orbital_period": 7921.130874114742
     },
     {
       "position": {
@@ -82,7 +87,8 @@
       "gravity": 16.366,
       "length_of_day": 8.9,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Gas Giant",
+      "orbital_period": 11144.972303868173
     },
     {
       "position": {
@@ -95,7 +101,8 @@
       "gravity": 18.522000000000002,
       "length_of_day": 8.6,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Gas Giant",
+      "orbital_period": 13715.10870821096
     },
     {
       "position": {
@@ -108,7 +115,8 @@
       "gravity": 3.43,
       "length_of_day": 20,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Acid",
+      "orbital_period": 15541.477657499308
     },
     {
       "position": {
@@ -122,7 +130,8 @@
       "length_of_day": 21.2,
       "parent": "I",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Carbide",
+      "orbital_period": 1.6420625689846318
     },
     {
       "position": {
@@ -136,7 +145,8 @@
       "length_of_day": 20.2,
       "parent": "I",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Azure",
+      "orbital_period": 1.6420625689846318
     },
     {
       "position": {
@@ -150,7 +160,8 @@
       "length_of_day": 23.4,
       "parent": "I",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Radioactive",
+      "orbital_period": 1.6420625689846318
     },
     {
       "position": {
@@ -164,7 +175,8 @@
       "length_of_day": 24.5,
       "parent": "II",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Azure",
+      "orbital_period": 3.1445294877910888
     },
     {
       "position": {
@@ -178,7 +190,8 @@
       "length_of_day": 18.8,
       "parent": "II",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Opalescent",
+      "orbital_period": 3.1445294877910888
     },
     {
       "position": {
@@ -192,7 +205,8 @@
       "length_of_day": 20.2,
       "parent": "II",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Cyanic",
+      "orbital_period": 3.1445294877910888
     },
     {
       "position": {
@@ -206,7 +220,8 @@
       "length_of_day": 28.4,
       "parent": "II",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Copper",
+      "orbital_period": 3.1445294877910888
     },
     {
       "position": {
@@ -220,7 +235,8 @@
       "length_of_day": 17.3,
       "parent": "IV",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Cyanic",
+      "orbital_period": 5.342473200824623
     },
     {
       "position": {
@@ -234,7 +250,8 @@
       "length_of_day": 22.7,
       "parent": "IV",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Carbide",
+      "orbital_period": 5.342473200824623
     },
     {
       "position": {
@@ -248,7 +265,8 @@
       "length_of_day": 15.1,
       "parent": "IV",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Selenic",
+      "orbital_period": 5.342473200824623
     },
     {
       "position": {
@@ -262,7 +280,8 @@
       "length_of_day": 26.6,
       "parent": "IV",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Lanthanide",
+      "orbital_period": 5.342473200824623
     },
     {
       "position": {
@@ -276,7 +295,8 @@
       "length_of_day": 16.1,
       "parent": "VI",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Green",
+      "orbital_period": 11.144972303868174
     },
     {
       "position": {
@@ -290,7 +310,8 @@
       "length_of_day": 22.1,
       "parent": "VI",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Ultramarine",
+      "orbital_period": 11.144972303868174
     },
     {
       "position": {
@@ -304,7 +325,8 @@
       "length_of_day": 17.7,
       "parent": "VI",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Green",
+      "orbital_period": 11.144972303868174
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "name": "Theta Camelopardalis",
-  "mass": 3e+24,
+  "mass": 1.989e+30,
   "position": {
     "x": 589.5,
     "y": 402
@@ -17,7 +17,8 @@
       "gravity": 2.45,
       "length_of_day": 27.8,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Infrared",
+      "orbital_period": 460.71056237469696
     },
     {
       "position": {
@@ -30,7 +31,8 @@
       "gravity": 27.244,
       "length_of_day": 9.5,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Gas Giant",
+      "orbital_period": 4864.212926618384
     },
     {
       "position": {
@@ -43,7 +45,8 @@
       "gravity": 2.156,
       "length_of_day": 18,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Purple",
+      "orbital_period": 7511.400337746922
     },
     {
       "position": {
@@ -56,7 +59,8 @@
       "gravity": 21.462,
       "length_of_day": 15.7,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Gas Giant",
+      "orbital_period": 13461.56549360516
     },
     {
       "position": {
@@ -69,7 +73,8 @@
       "gravity": 29.106000000000005,
       "length_of_day": 12.1,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Gas Giant",
+      "orbital_period": 15013.361109991649
     },
     {
       "position": {
@@ -83,7 +88,8 @@
       "length_of_day": 21.2,
       "parent": "IV",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Dust",
+      "orbital_period": 13.46156549360516
     },
     {
       "position": {
@@ -97,7 +103,8 @@
       "length_of_day": 28.6,
       "parent": "IV",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Cimmerian",
+      "orbital_period": 13.46156549360516
     },
     {
       "position": {
@@ -111,7 +118,8 @@
       "length_of_day": 5253.1,
       "parent": "V",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Cimmerian",
+      "orbital_period": 15.013361109991646
     },
     {
       "position": {
@@ -125,7 +133,8 @@
       "length_of_day": 23,
       "parent": "V",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Metal",
+      "orbital_period": 15.013361109991646
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "name": "Gamma Lentilis",
-  "mass": 3e+24,
+  "mass": 1.989e+30,
   "position": {
     "x": 458.3,
     "y": 604.1
@@ -17,7 +17,8 @@
       "gravity": 8.33,
       "length_of_day": 11.6,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Gas Giant",
+      "orbital_period": 690.2700594566054
     },
     {
       "position": {
@@ -30,7 +31,8 @@
       "gravity": 7.154,
       "length_of_day": 29.6,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Super-Dense",
+      "orbital_period": 2130.7795753819723
     },
     {
       "position": {
@@ -43,7 +45,8 @@
       "gravity": 2.352,
       "length_of_day": 29.2,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Acid",
+      "orbital_period": 3900.351795908452
     },
     {
       "position": {
@@ -56,7 +59,8 @@
       "gravity": 12.446000000000002,
       "length_of_day": 15.2,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Gas Giant",
+      "orbital_period": 6737.094797183106
     },
     {
       "position": {
@@ -69,7 +73,8 @@
       "gravity": 1.6660000000000001,
       "length_of_day": 26.3,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Purple",
+      "orbital_period": 10716.94520520035
     },
     {
       "position": {
@@ -82,7 +87,8 @@
       "gravity": 12.642000000000001,
       "length_of_day": 12.8,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Gas Giant",
+      "orbital_period": 14035.062720914515
     },
     {
       "position": {
@@ -95,7 +101,8 @@
       "gravity": 1.9600000000000002,
       "length_of_day": 21.3,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Pellucid",
+      "orbital_period": 20877.692269513915
     },
     {
       "position": {
@@ -109,7 +116,8 @@
       "length_of_day": 1889.5,
       "parent": "IV",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Cimmerian",
+      "orbital_period": 6.737094797183107
     },
     {
       "position": {
@@ -123,7 +131,8 @@
       "length_of_day": 15.4,
       "parent": "IV",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Super-Dense",
+      "orbital_period": 6.737094797183107
     },
     {
       "position": {
@@ -137,7 +146,8 @@
       "length_of_day": 19.1,
       "parent": "IV",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Pellucid",
+      "orbital_period": 6.737094797183107
     },
     {
       "position": {
@@ -151,7 +161,8 @@
       "length_of_day": 21.6,
       "parent": "VI",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Infrared",
+      "orbital_period": 14.035062720914516
     },
     {
       "position": {
@@ -165,7 +176,8 @@
       "length_of_day": 24,
       "parent": "VI",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Halide",
+      "orbital_period": 14.035062720914516
     }
   ]
 }

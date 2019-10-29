@@ -1,6 +1,6 @@
 {
   "name": "Delta Vulpeculae",
-  "mass": 3e+24,
+  "mass": 1.989e+30,
   "position": {
     "x": 372.1,
     "y": 261.9
@@ -17,7 +17,8 @@
       "gravity": 1.6660000000000001,
       "length_of_day": 29.4,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Halide",
+      "orbital_period": 158.8171465209226
     },
     {
       "position": {
@@ -30,7 +31,8 @@
       "gravity": 20.188000000000002,
       "length_of_day": 9.5,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Gas Giant",
+      "orbital_period": 2627.7575086323645
     },
     {
       "position": {
@@ -43,7 +45,8 @@
       "gravity": 5.390000000000001,
       "length_of_day": 24.4,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Auric",
+      "orbital_period": 4417.542332583124
     },
     {
       "position": {
@@ -56,7 +59,8 @@
       "gravity": 1.6660000000000001,
       "length_of_day": 4711.2,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Azure",
+      "orbital_period": 8050.981664076347
     },
     {
       "position": {
@@ -69,7 +73,8 @@
       "gravity": 9.996,
       "length_of_day": 19.4,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Hydrocarbon",
+      "orbital_period": 12070.078346303864
     },
     {
       "position": {
@@ -82,7 +87,8 @@
       "gravity": 3.528,
       "length_of_day": 21,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Chondrite",
+      "orbital_period": 15964.386219567381
     },
     {
       "position": {
@@ -95,7 +101,8 @@
       "gravity": 1.47,
       "length_of_day": 25.3,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Pellucid",
+      "orbital_period": 19476.552136129616
     },
     {
       "position": {
@@ -108,7 +115,8 @@
       "gravity": 4.998,
       "length_of_day": 28.6,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Metal",
+      "orbital_period": 22268.79871595573
     },
     {
       "position": {
@@ -122,7 +130,8 @@
       "length_of_day": 29.3,
       "parent": "II",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Ultramarine",
+      "orbital_period": 2.627757508632365
     },
     {
       "position": {
@@ -136,7 +145,8 @@
       "length_of_day": 16.9,
       "parent": "II",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Alkali",
+      "orbital_period": 2.627757508632365
     },
     {
       "position": {
@@ -150,7 +160,8 @@
       "length_of_day": 19.9,
       "parent": "II",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Treasure",
+      "orbital_period": 2.627757508632365
     },
     {
       "position": {
@@ -164,7 +175,8 @@
       "length_of_day": 23.6,
       "parent": "V",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Azure",
+      "orbital_period": 12.070078346303866
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "name": "Gamma Chandrasekhar",
-  "mass": 3e+24,
+  "mass": 1.989e+30,
   "position": {
     "x": 20.8,
     "y": 662.5
@@ -17,7 +17,8 @@
       "gravity": 2.6460000000000004,
       "length_of_day": 27.3,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Acid",
+      "orbital_period": 1225.4320232774753
     },
     {
       "position": {
@@ -30,7 +31,8 @@
       "gravity": 24.304000000000002,
       "length_of_day": 12.5,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Gas Giant",
+      "orbital_period": 4258.9255579313985
     },
     {
       "position": {
@@ -43,7 +45,8 @@
       "gravity": 22.246000000000002,
       "length_of_day": 10.4,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Gas Giant",
+      "orbital_period": 6013.145218343281
     },
     {
       "position": {
@@ -56,7 +59,8 @@
       "gravity": 5.782,
       "length_of_day": 18.8,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Iodine",
+      "orbital_period": 8056.980160132904
     },
     {
       "position": {
@@ -69,7 +73,8 @@
       "gravity": 8.33,
       "length_of_day": 5370.3,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Telluric",
+      "orbital_period": 14884.354399030022
     },
     {
       "position": {
@@ -82,7 +87,8 @@
       "gravity": 10.682000000000002,
       "length_of_day": 16.4,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Redux",
+      "orbital_period": 17436.64332129149
     },
     {
       "position": {
@@ -96,7 +102,8 @@
       "length_of_day": 26,
       "parent": "II",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Purple",
+      "orbital_period": 4.258925557931399
     },
     {
       "position": {
@@ -110,7 +117,8 @@
       "length_of_day": 20.3,
       "parent": "III",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Alkali",
+      "orbital_period": 6.013145218343282
     },
     {
       "position": {
@@ -124,7 +132,8 @@
       "length_of_day": 26.3,
       "parent": "III",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Carbide",
+      "orbital_period": 6.013145218343282
     },
     {
       "position": {
@@ -138,7 +147,8 @@
       "length_of_day": 22.7,
       "parent": "IV",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Copper",
+      "orbital_period": 8.056980160132904
     },
     {
       "position": {
@@ -152,7 +162,8 @@
       "length_of_day": 25.3,
       "parent": "V",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Carbide",
+      "orbital_period": 14.884354399030022
     }
   ]
 }

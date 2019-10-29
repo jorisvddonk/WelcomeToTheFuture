@@ -1,6 +1,6 @@
 {
   "name": "Beta Serpentis",
-  "mass": 3e+24,
+  "mass": 1.989e+30,
   "position": {
     "x": 486.1,
     "y": 26.2
@@ -17,7 +17,8 @@
       "gravity": 15.876000000000003,
       "length_of_day": 28.5,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Plutonic",
+      "orbital_period": 12280.049700216205
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "name": "Zeta Normae",
-  "mass": 3e+24,
+  "mass": 1.989e+30,
   "position": {
     "x": 215.9,
     "y": 561.4
@@ -17,7 +17,8 @@
       "gravity": 2.5480000000000005,
       "length_of_day": 4557.4,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Infrared",
+      "orbital_period": 14576.256639467761
     }
   ]
 }

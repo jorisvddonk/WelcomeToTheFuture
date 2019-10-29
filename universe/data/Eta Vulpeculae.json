@@ -1,6 +1,6 @@
 {
   "name": "Eta Vulpeculae",
-  "mass": 3e+24,
+  "mass": 1.989e+30,
   "position": {
     "x": 358.7,
     "y": 256.6
@@ -17,7 +17,8 @@
       "gravity": 3.136,
       "length_of_day": 1867.2,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Carbide",
+      "orbital_period": 479.32375163076614
     },
     {
       "position": {
@@ -30,7 +31,8 @@
       "gravity": 9.506,
       "length_of_day": 25.9,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Telluric",
+      "orbital_period": 1062.7402790421602
     },
     {
       "position": {
@@ -43,7 +45,8 @@
       "gravity": 16.562,
       "length_of_day": 18.3,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Ultraviolet",
+      "orbital_period": 4660.313070396508
     },
     {
       "position": {
@@ -56,7 +59,8 @@
       "gravity": 1.862,
       "length_of_day": 18.7,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Purple",
+      "orbital_period": 5815.618493258181
     },
     {
       "position": {
@@ -69,7 +73,8 @@
       "gravity": 13.818,
       "length_of_day": 23.1,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Magnetic",
+      "orbital_period": 10054.297092956358
     },
     {
       "position": {
@@ -82,7 +87,8 @@
       "gravity": 28.028000000000002,
       "length_of_day": 9.2,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Gas Giant",
+      "orbital_period": 11623.256798854609
     },
     {
       "position": {
@@ -95,7 +101,8 @@
       "gravity": 4.606,
       "length_of_day": 28,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Lanthanide",
+      "orbital_period": 16513.78561462822
     },
     {
       "position": {
@@ -108,7 +115,8 @@
       "gravity": 11.564,
       "length_of_day": 23.2,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Magnetic",
+      "orbital_period": 19787.355280814532
     },
     {
       "position": {
@@ -122,7 +130,8 @@
       "length_of_day": 2554.5,
       "parent": "II",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Lanthanide",
+      "orbital_period": 1.06274027904216
     }
   ]
 }

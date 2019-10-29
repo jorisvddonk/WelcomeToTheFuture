@@ -1,6 +1,6 @@
 {
   "name": "Gamma Tauri",
-  "mass": 3e+24,
+  "mass": 1.989e+30,
   "position": {
     "x": 26.7,
     "y": 364.5
@@ -17,7 +17,8 @@
       "gravity": 19.992,
       "length_of_day": 8.2,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Gas Giant",
+      "orbital_period": 772.4850141634474
     },
     {
       "position": {
@@ -30,7 +31,8 @@
       "gravity": 21.560000000000002,
       "length_of_day": 9.4,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Gas Giant",
+      "orbital_period": 2590.6794871489055
     },
     {
       "position": {
@@ -43,7 +45,8 @@
       "gravity": 16.268,
       "length_of_day": 13.3,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Gas Giant",
+      "orbital_period": 4637.837707873926
     },
     {
       "position": {
@@ -56,7 +59,8 @@
       "gravity": 10.584000000000001,
       "length_of_day": 8.1,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Gas Giant",
+      "orbital_period": 6492.737537599059
     },
     {
       "position": {
@@ -69,7 +73,8 @@
       "gravity": 15.974,
       "length_of_day": 10.2,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Gas Giant",
+      "orbital_period": 8156.170046744996
     },
     {
       "position": {
@@ -82,7 +87,8 @@
       "gravity": 2.7440000000000007,
       "length_of_day": 18,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Carbide",
+      "orbital_period": 19738.81060374128
     },
     {
       "position": {
@@ -96,7 +102,8 @@
       "length_of_day": 26.1,
       "parent": "I",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Azure",
+      "orbital_period": 0.7724850141634473
     },
     {
       "position": {
@@ -110,7 +117,8 @@
       "length_of_day": 16.2,
       "parent": "I",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Yttric",
+      "orbital_period": 0.7724850141634473
     },
     {
       "position": {
@@ -124,7 +132,8 @@
       "length_of_day": 21.7,
       "parent": "I",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Radioactive",
+      "orbital_period": 0.7724850141634473
     },
     {
       "position": {
@@ -138,7 +147,8 @@
       "length_of_day": 17.6,
       "parent": "I",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Green",
+      "orbital_period": 0.7724850141634473
     },
     {
       "position": {
@@ -152,7 +162,8 @@
       "length_of_day": 22.9,
       "parent": "II",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Carbide",
+      "orbital_period": 2.590679487148906
     },
     {
       "position": {
@@ -166,7 +177,8 @@
       "length_of_day": 26.8,
       "parent": "II",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Yttric",
+      "orbital_period": 2.590679487148906
     },
     {
       "position": {
@@ -180,7 +192,8 @@
       "length_of_day": 17.2,
       "parent": "II",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Alkali",
+      "orbital_period": 2.590679487148906
     },
     {
       "position": {
@@ -194,7 +207,8 @@
       "length_of_day": 19.8,
       "parent": "III",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Opalescent",
+      "orbital_period": 4.637837707873926
     },
     {
       "position": {
@@ -208,7 +222,8 @@
       "length_of_day": 16.7,
       "parent": "III",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Green",
+      "orbital_period": 4.637837707873926
     },
     {
       "position": {
@@ -222,7 +237,8 @@
       "length_of_day": 16.9,
       "parent": "III",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Quasi-Degenerate",
+      "orbital_period": 4.637837707873926
     },
     {
       "position": {
@@ -236,7 +252,8 @@
       "length_of_day": 24.7,
       "parent": "IV",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Halide",
+      "orbital_period": 6.49273753759906
     },
     {
       "position": {
@@ -250,7 +267,8 @@
       "length_of_day": 29.1,
       "parent": "IV",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Azure",
+      "orbital_period": 6.49273753759906
     },
     {
       "position": {
@@ -264,7 +282,8 @@
       "length_of_day": 25.3,
       "parent": "IV",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Halide",
+      "orbital_period": 6.49273753759906
     },
     {
       "position": {
@@ -278,7 +297,8 @@
       "length_of_day": 24,
       "parent": "IV",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Lanthanide",
+      "orbital_period": 6.49273753759906
     },
     {
       "position": {
@@ -292,7 +312,8 @@
       "length_of_day": 17.6,
       "parent": "V",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Lanthanide",
+      "orbital_period": 8.156170046744997
     },
     {
       "position": {
@@ -306,7 +327,8 @@
       "length_of_day": 18.5,
       "parent": "V",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Auric",
+      "orbital_period": 8.156170046744997
     },
     {
       "position": {
@@ -320,7 +342,8 @@
       "length_of_day": 18.1,
       "parent": "V",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Copper",
+      "orbital_period": 8.156170046744997
     },
     {
       "position": {
@@ -334,7 +357,8 @@
       "length_of_day": 21.1,
       "parent": "V",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Carbide",
+      "orbital_period": 8.156170046744997
     }
   ]
 }

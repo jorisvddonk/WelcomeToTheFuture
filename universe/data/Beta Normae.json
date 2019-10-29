@@ -1,6 +1,6 @@
 {
   "name": "Beta Normae",
-  "mass": 3e+24,
+  "mass": 1.989e+30,
   "position": {
     "x": 141.6,
     "y": 531.5
@@ -17,7 +17,8 @@
       "gravity": 3.6260000000000003,
       "length_of_day": 17,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Yttric",
+      "orbital_period": 779.3596702976039
     },
     {
       "position": {
@@ -30,7 +31,8 @@
       "gravity": 11.172,
       "length_of_day": 17,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Plutonic",
+      "orbital_period": 1692.9392619606715
     },
     {
       "position": {
@@ -43,7 +45,8 @@
       "gravity": 4.8020000000000005,
       "length_of_day": 18.4,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Sapphire",
+      "orbital_period": 4570.629339438662
     },
     {
       "position": {
@@ -56,7 +59,8 @@
       "gravity": 23.912000000000003,
       "length_of_day": 9.2,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Gas Giant",
+      "orbital_period": 5910.04864066271
     },
     {
       "position": {
@@ -69,7 +73,8 @@
       "gravity": 16.464000000000002,
       "length_of_day": 10.6,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Gas Giant",
+      "orbital_period": 11041.854951547397
     },
     {
       "position": {
@@ -82,7 +87,8 @@
       "gravity": 5.292000000000001,
       "length_of_day": 22.2,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Oolite",
+      "orbital_period": 13001.507505450516
     },
     {
       "position": {
@@ -95,7 +101,8 @@
       "gravity": 15.680000000000001,
       "length_of_day": 21.5,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Plutonic",
+      "orbital_period": 17572.618843156208
     },
     {
       "position": {
@@ -109,7 +116,8 @@
       "length_of_day": 23.8,
       "parent": "II",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Oolite",
+      "orbital_period": 1.6929392619606718
     },
     {
       "position": {
@@ -123,7 +131,8 @@
       "length_of_day": 2811.5,
       "parent": "II",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Quasi-Degenerate",
+      "orbital_period": 1.6929392619606718
     },
     {
       "position": {
@@ -137,7 +146,8 @@
       "length_of_day": 26.4,
       "parent": "V",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Opalescent",
+      "orbital_period": 11.041854951547398
     }
   ]
 }

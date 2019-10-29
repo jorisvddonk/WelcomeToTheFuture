@@ -1,6 +1,6 @@
 {
   "name": "Alpha Ophiuchi",
-  "mass": 3e+24,
+  "mass": 1.989e+30,
   "position": {
     "x": 43.7,
     "y": 877
@@ -17,7 +17,8 @@
       "gravity": 1.862,
       "length_of_day": 23.5,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Urea",
+      "orbital_period": 1272.158099758055
     },
     {
       "position": {
@@ -30,7 +31,8 @@
       "gravity": 9.016000000000002,
       "length_of_day": 19.3,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Water",
+      "orbital_period": 4344.094396326523
     },
     {
       "position": {
@@ -43,7 +45,8 @@
       "gravity": 21.756000000000004,
       "length_of_day": 12.7,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Gas Giant",
+      "orbital_period": 8529.421697957981
     },
     {
       "position": {
@@ -56,7 +59,8 @@
       "gravity": 1.9600000000000002,
       "length_of_day": 23.5,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Selenic",
+      "orbital_period": 21544.521391586055
     },
     {
       "position": {
@@ -70,7 +74,8 @@
       "length_of_day": 29,
       "parent": "II",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Azure",
+      "orbital_period": 4.344094396326522
     },
     {
       "position": {
@@ -84,7 +89,8 @@
       "length_of_day": 22.9,
       "parent": "III",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Infrared",
+      "orbital_period": 8.529421697957982
     },
     {
       "position": {
@@ -98,7 +104,8 @@
       "length_of_day": 20.4,
       "parent": "III",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Chondrite",
+      "orbital_period": 8.529421697957982
     }
   ]
 }

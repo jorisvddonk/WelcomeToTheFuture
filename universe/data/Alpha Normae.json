@@ -1,6 +1,6 @@
 {
   "name": "Alpha Normae",
-  "mass": 3e+24,
+  "mass": 1.989e+30,
   "position": {
     "x": 142.5,
     "y": 540.4
@@ -17,7 +17,8 @@
       "gravity": 26.264000000000003,
       "length_of_day": 13.8,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Gas Giant",
+      "orbital_period": 1746.7188334654345
     },
     {
       "position": {
@@ -30,7 +31,8 @@
       "gravity": 16.758,
       "length_of_day": 8.7,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Gas Giant",
+      "orbital_period": 7452.870110679318
     },
     {
       "position": {
@@ -44,7 +46,8 @@
       "length_of_day": 29.4,
       "parent": "I",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Auric",
+      "orbital_period": 1.7467188334654347
     },
     {
       "position": {
@@ -58,7 +61,8 @@
       "length_of_day": 26.6,
       "parent": "I",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Yttric",
+      "orbital_period": 1.7467188334654347
     },
     {
       "position": {
@@ -72,7 +76,8 @@
       "length_of_day": 24.6,
       "parent": "I",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Oolite",
+      "orbital_period": 1.7467188334654347
     },
     {
       "position": {
@@ -86,7 +91,8 @@
       "length_of_day": 28.4,
       "parent": "I",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Metal",
+      "orbital_period": 1.7467188334654347
     },
     {
       "position": {
@@ -100,7 +106,8 @@
       "length_of_day": 20.3,
       "parent": "II",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Auric",
+      "orbital_period": 7.452870110679318
     },
     {
       "position": {
@@ -114,7 +121,8 @@
       "length_of_day": 19.9,
       "parent": "II",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Oolite",
+      "orbital_period": 7.452870110679318
     },
     {
       "position": {
@@ -128,7 +136,8 @@
       "length_of_day": 27.6,
       "parent": "II",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Auric",
+      "orbital_period": 7.452870110679318
     },
     {
       "position": {
@@ -142,7 +151,8 @@
       "length_of_day": 23.4,
       "parent": "II",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Ultramarine",
+      "orbital_period": 7.452870110679318
     }
   ]
 }

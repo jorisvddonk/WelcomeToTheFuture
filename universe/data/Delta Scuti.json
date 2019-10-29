@@ -1,6 +1,6 @@
 {
   "name": "Delta Scuti",
-  "mass": 3e+24,
+  "mass": 1.989e+30,
   "position": {
     "x": 516,
     "y": 28
@@ -17,7 +17,8 @@
       "gravity": 6.272,
       "length_of_day": 15.8,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Iodine",
+      "orbital_period": 5912.754087485021
     },
     {
       "position": {
@@ -30,7 +31,8 @@
       "gravity": 9.31,
       "length_of_day": 27.8,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Organic",
+      "orbital_period": 11018.539994424107
     },
     {
       "position": {
@@ -43,7 +45,8 @@
       "gravity": 6.0760000000000005,
       "length_of_day": 26.7,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Super-Dense",
+      "orbital_period": 18324.77311210825
     },
     {
       "position": {
@@ -57,7 +60,8 @@
       "length_of_day": 17.6,
       "parent": "I",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Infrared",
+      "orbital_period": 5.912754087485021
     }
   ]
 }

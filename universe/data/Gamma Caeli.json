@@ -1,6 +1,6 @@
 {
   "name": "Gamma Caeli",
-  "mass": 3e+24,
+  "mass": 1.989e+30,
   "position": {
     "x": 285.4,
     "y": 78.7
@@ -17,7 +17,8 @@
       "gravity": 22.736,
       "length_of_day": 10.7,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Gas Giant",
+      "orbital_period": 6403.618674379267
     },
     {
       "position": {
@@ -30,7 +31,8 @@
       "gravity": 8.82,
       "length_of_day": 17.6,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Vinylogous",
+      "orbital_period": 10935.406518900707
     },
     {
       "position": {
@@ -43,7 +45,8 @@
       "gravity": 7.840000000000001,
       "length_of_day": 19,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Telluric",
+      "orbital_period": 19633.766924744297
     },
     {
       "position": {
@@ -57,7 +60,8 @@
       "length_of_day": 17.2,
       "parent": "I",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Cimmerian",
+      "orbital_period": 6.403618674379267
     },
     {
       "position": {
@@ -71,7 +75,8 @@
       "length_of_day": 23.3,
       "parent": "I",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Dust",
+      "orbital_period": 6.403618674379267
     },
     {
       "position": {
@@ -85,7 +90,8 @@
       "length_of_day": 15.8,
       "parent": "I",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Metal",
+      "orbital_period": 6.403618674379267
     },
     {
       "position": {
@@ -99,7 +105,8 @@
       "length_of_day": 24.2,
       "parent": "I",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Cimmerian",
+      "orbital_period": 6.403618674379267
     },
     {
       "position": {
@@ -113,7 +120,8 @@
       "length_of_day": 22.8,
       "parent": "II",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Metal",
+      "orbital_period": 10.935406518900706
     }
   ]
 }

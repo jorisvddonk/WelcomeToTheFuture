@@ -1,6 +1,6 @@
 {
   "name": "Delta Sagittarii",
-  "mass": 3e+24,
+  "mass": 1.989e+30,
   "position": {
     "x": 656.2,
     "y": 302
@@ -17,7 +17,8 @@
       "gravity": 15.876000000000003,
       "length_of_day": 1347.9,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Fluorescent",
+      "orbital_period": 3438.9078817044406
     },
     {
       "position": {
@@ -30,7 +31,8 @@
       "gravity": 4.1160000000000005,
       "length_of_day": 16.1,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Metal",
+      "orbital_period": 17131.02447933612
     },
     {
       "position": {
@@ -43,7 +45,8 @@
       "gravity": 1.47,
       "length_of_day": 25.2,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Azure",
+      "orbital_period": 19589.381642672313
     }
   ]
 }

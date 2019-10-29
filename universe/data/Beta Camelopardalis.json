@@ -1,6 +1,6 @@
 {
   "name": "Beta Camelopardalis",
-  "mass": 3e+24,
+  "mass": 1.989e+30,
   "position": {
     "x": 595.8,
     "y": 408.3
@@ -17,7 +17,8 @@
       "gravity": 25.970000000000002,
       "length_of_day": 14.3,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Gas Giant",
+      "orbital_period": 1233.4466053864753
     },
     {
       "position": {
@@ -30,7 +31,8 @@
       "gravity": 2.45,
       "length_of_day": 25.5,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Carbide",
+      "orbital_period": 6933.023816769745
     },
     {
       "position": {
@@ -43,7 +45,8 @@
       "gravity": 4.312,
       "length_of_day": 27.8,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Auric",
+      "orbital_period": 8796.770447532122
     },
     {
       "position": {
@@ -56,7 +59,8 @@
       "gravity": 0.784,
       "length_of_day": 18.7,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Noble",
+      "orbital_period": 11376.71317467195
     },
     {
       "position": {
@@ -69,7 +73,8 @@
       "gravity": 0.882,
       "length_of_day": 2679.4,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Cyanic",
+      "orbital_period": 14686.044878228397
     },
     {
       "position": {
@@ -82,7 +87,8 @@
       "gravity": 3.2340000000000004,
       "length_of_day": 17.9,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Acid",
+      "orbital_period": 19416.19718272446
     },
     {
       "position": {
@@ -95,7 +101,8 @@
       "gravity": 8.428,
       "length_of_day": 18.9,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Water",
+      "orbital_period": 21590.335681449025
     },
     {
       "position": {
@@ -109,7 +116,8 @@
       "length_of_day": 26.1,
       "parent": "I",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Ultramarine",
+      "orbital_period": 1.2334466053864754
     },
     {
       "position": {
@@ -123,7 +131,8 @@
       "length_of_day": 19.9,
       "parent": "I",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Treasure",
+      "orbital_period": 1.2334466053864754
     },
     {
       "position": {
@@ -137,7 +146,8 @@
       "length_of_day": 26.6,
       "parent": "I",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Opalescent",
+      "orbital_period": 1.2334466053864754
     },
     {
       "position": {
@@ -151,7 +161,8 @@
       "length_of_day": 15.7,
       "parent": "I",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Cyanic",
+      "orbital_period": 1.2334466053864754
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "name": "Regulus",
-  "mass": 3e+24,
+  "mass": 1.989e+30,
   "position": {
     "x": 373.2,
     "y": 106.7
@@ -17,7 +17,8 @@
       "gravity": 2.94,
       "length_of_day": 18.4,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Carbide",
+      "orbital_period": 634.1966924918152
     },
     {
       "position": {
@@ -30,7 +31,8 @@
       "gravity": 6.86,
       "length_of_day": 21.9,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Super-Dense",
+      "orbital_period": 1709.014229492822
     },
     {
       "position": {
@@ -43,7 +45,8 @@
       "gravity": 0.784,
       "length_of_day": 15.4,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Noble",
+      "orbital_period": 3582.168639889193
     },
     {
       "position": {
@@ -56,7 +59,8 @@
       "gravity": 1.862,
       "length_of_day": 24.1,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Purple",
+      "orbital_period": 6320.443447104787
     },
     {
       "position": {
@@ -69,7 +73,8 @@
       "gravity": 3.136,
       "length_of_day": 26.6,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Carbide",
+      "orbital_period": 8038.989140486821
     },
     {
       "position": {
@@ -82,7 +87,8 @@
       "gravity": 9.702,
       "length_of_day": 23.4,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Xenolithic",
+      "orbital_period": 10164.297377339046
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "name": "Gamma Vulpeculae",
-  "mass": 3e+24,
+  "mass": 1.989e+30,
   "position": {
     "x": 371.3,
     "y": 253.7
@@ -17,7 +17,8 @@
       "gravity": 8.428,
       "length_of_day": 18.9,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Water",
+      "orbital_period": 710.2001017108432
     },
     {
       "position": {
@@ -30,7 +31,8 @@
       "gravity": 3.724,
       "length_of_day": 28.3,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Copper",
+      "orbital_period": 6212.85897360113
     },
     {
       "position": {
@@ -43,7 +45,8 @@
       "gravity": 4.1160000000000005,
       "length_of_day": 23.4,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Copper",
+      "orbital_period": 7508.4702030541885
     },
     {
       "position": {
@@ -56,7 +59,8 @@
       "gravity": 5.292000000000001,
       "length_of_day": 20.3,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Emerald",
+      "orbital_period": 9899.683380069788
     },
     {
       "position": {
@@ -69,7 +73,8 @@
       "gravity": 9.212,
       "length_of_day": 10.2,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Gas Giant",
+      "orbital_period": 21204.02087860332
     },
     {
       "position": {
@@ -83,7 +88,8 @@
       "length_of_day": 23.1,
       "parent": "IV",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Pellucid",
+      "orbital_period": 9.899683380069789
     },
     {
       "position": {
@@ -97,7 +103,8 @@
       "length_of_day": 15,
       "parent": "V",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Selenic",
+      "orbital_period": 21.20402087860332
     },
     {
       "position": {
@@ -111,7 +118,8 @@
       "length_of_day": 26,
       "parent": "V",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Chondrite",
+      "orbital_period": 21.20402087860332
     },
     {
       "position": {
@@ -125,7 +133,8 @@
       "length_of_day": 21.2,
       "parent": "V",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Selenic",
+      "orbital_period": 21.20402087860332
     },
     {
       "position": {
@@ -139,7 +148,8 @@
       "length_of_day": 16.3,
       "parent": "V",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Urea",
+      "orbital_period": 21.20402087860332
     }
   ]
 }

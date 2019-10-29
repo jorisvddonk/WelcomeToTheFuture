@@ -1,6 +1,6 @@
 {
   "name": "Alpha Arae",
-  "mass": 3e+24,
+  "mass": 1.989e+30,
   "position": {
     "x": 933.9,
     "y": 84.3
@@ -17,7 +17,8 @@
       "gravity": 5.390000000000001,
       "length_of_day": 28.6,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Ruby",
+      "orbital_period": 19404.13368670979
     },
     {
       "position": {
@@ -31,7 +32,8 @@
       "length_of_day": 28.4,
       "parent": "I",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Metal",
+      "orbital_period": 19.404133686709788
     }
   ]
 }

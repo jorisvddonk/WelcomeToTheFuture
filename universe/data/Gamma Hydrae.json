@@ -1,6 +1,6 @@
 {
   "name": "Gamma Hydrae",
-  "mass": 3e+24,
+  "mass": 1.989e+30,
   "position": {
     "x": 816.6,
     "y": 625
@@ -17,7 +17,8 @@
       "gravity": 3.528,
       "length_of_day": 29.4,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Chondrite",
+      "orbital_period": 1439.3707529574608
     },
     {
       "position": {
@@ -30,7 +31,8 @@
       "gravity": 30.086000000000002,
       "length_of_day": 9.1,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Gas Giant",
+      "orbital_period": 6138.738899816913
     },
     {
       "position": {
@@ -43,7 +45,8 @@
       "gravity": 1.568,
       "length_of_day": 1704.4,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Azure",
+      "orbital_period": 8216.481726376187
     },
     {
       "position": {
@@ -56,7 +59,8 @@
       "gravity": 9.408,
       "length_of_day": 8.9,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Gas Giant",
+      "orbital_period": 16689.368521669243
     },
     {
       "position": {
@@ -70,7 +74,8 @@
       "length_of_day": 23.3,
       "parent": "II",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Cimmerian",
+      "orbital_period": 6.138738899816913
     },
     {
       "position": {
@@ -84,7 +89,8 @@
       "length_of_day": 16.9,
       "parent": "IV",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Chondrite",
+      "orbital_period": 16.68936852166924
     },
     {
       "position": {
@@ -98,7 +104,8 @@
       "length_of_day": 27.7,
       "parent": "IV",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Cimmerian",
+      "orbital_period": 16.68936852166924
     },
     {
       "position": {
@@ -112,7 +119,8 @@
       "length_of_day": 21.6,
       "parent": "IV",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Infrared",
+      "orbital_period": 16.68936852166924
     },
     {
       "position": {
@@ -126,7 +134,8 @@
       "length_of_day": 2929.2,
       "parent": "IV",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Azure",
+      "orbital_period": 16.68936852166924
     }
   ]
 }

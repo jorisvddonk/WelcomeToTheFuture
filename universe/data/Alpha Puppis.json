@@ -1,6 +1,6 @@
 {
   "name": "Alpha Puppis",
-  "mass": 3e+24,
+  "mass": 1.989e+30,
   "position": {
     "x": 812.5,
     "y": 308.3
@@ -17,7 +17,8 @@
       "gravity": 8.232000000000001,
       "length_of_day": 21.1,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Telluric",
+      "orbital_period": 870.5539426578384
     },
     {
       "position": {
@@ -30,7 +31,8 @@
       "gravity": 2.94,
       "length_of_day": 22.2,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Green",
+      "orbital_period": 2525.19823902039
     },
     {
       "position": {
@@ -43,7 +45,8 @@
       "gravity": 17.346,
       "length_of_day": 10.2,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Gas Giant",
+      "orbital_period": 8018.016568440591
     },
     {
       "position": {
@@ -56,7 +59,8 @@
       "gravity": 3.2340000000000004,
       "length_of_day": 16.8,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Carbide",
+      "orbital_period": 10131.902946477763
     },
     {
       "position": {
@@ -69,7 +73,8 @@
       "gravity": 13.132000000000001,
       "length_of_day": 22.2,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Magnetic",
+      "orbital_period": 11844.259918779764
     },
     {
       "position": {
@@ -82,7 +87,8 @@
       "gravity": 3.3320000000000003,
       "length_of_day": 26.6,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Alkali",
+      "orbital_period": 14212.285508853192
     },
     {
       "position": {
@@ -95,7 +101,8 @@
       "gravity": 3.6260000000000003,
       "length_of_day": 23.5,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Alkali",
+      "orbital_period": 16750.58579134363
     },
     {
       "position": {
@@ -109,7 +116,8 @@
       "length_of_day": 23.6,
       "parent": "III",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Dust",
+      "orbital_period": 8.01801656844059
     },
     {
       "position": {
@@ -123,7 +131,8 @@
       "length_of_day": 19.4,
       "parent": "III",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Ultramarine",
+      "orbital_period": 8.01801656844059
     },
     {
       "position": {
@@ -137,7 +146,8 @@
       "length_of_day": 23.2,
       "parent": "III",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Infrared",
+      "orbital_period": 8.01801656844059
     }
   ]
 }

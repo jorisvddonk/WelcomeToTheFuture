@@ -1,6 +1,6 @@
 {
   "name": "Delta Fornacis",
-  "mass": 3e+24,
+  "mass": 1.989e+30,
   "position": {
     "x": 597.9,
     "y": 797.9
@@ -17,7 +17,8 @@
       "gravity": 3.6260000000000003,
       "length_of_day": 21.1,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Carbide",
+      "orbital_period": 481.6676304684158
     },
     {
       "position": {
@@ -30,7 +31,8 @@
       "gravity": 3.136,
       "length_of_day": 25.2,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Carbide",
+      "orbital_period": 2387.9199940920284
     },
     {
       "position": {
@@ -43,7 +45,8 @@
       "gravity": 4.018,
       "length_of_day": 23.9,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Copper",
+      "orbital_period": 3423.1106609231297
     },
     {
       "position": {
@@ -56,7 +59,8 @@
       "gravity": 7.448,
       "length_of_day": 25.6,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Xenolithic",
+      "orbital_period": 14550.67892100069
     },
     {
       "position": {
@@ -69,7 +73,8 @@
       "gravity": 0.784,
       "length_of_day": 20.2,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Ultramarine",
+      "orbital_period": 16460.47032055677
     }
   ]
 }

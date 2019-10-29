@@ -1,6 +1,6 @@
 {
   "name": "Beta Vulpeculae",
-  "mass": 3e+24,
+  "mass": 1.989e+30,
   "position": {
     "x": 364.1,
     "y": 251.2
@@ -17,7 +17,8 @@
       "gravity": 8.232000000000001,
       "length_of_day": 23.2,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Xenolithic",
+      "orbital_period": 1417.4644689496947
     },
     {
       "position": {
@@ -30,7 +31,8 @@
       "gravity": 8.134,
       "length_of_day": 12.6,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Gas Giant",
+      "orbital_period": 3541.038314759415
     },
     {
       "position": {
@@ -43,7 +45,8 @@
       "gravity": 4.312,
       "length_of_day": 22.4,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Lanthanide",
+      "orbital_period": 5317.1626107670745
     },
     {
       "position": {
@@ -56,7 +59,8 @@
       "gravity": 4.8020000000000005,
       "length_of_day": 20.3,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Lanthanide",
+      "orbital_period": 7035.988473350788
     },
     {
       "position": {
@@ -69,7 +73,8 @@
       "gravity": 29.498,
       "length_of_day": 9.5,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Gas Giant",
+      "orbital_period": 9179.408818893935
     },
     {
       "position": {
@@ -82,7 +87,8 @@
       "gravity": 7.252000000000001,
       "length_of_day": 19.9,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Telluric",
+      "orbital_period": 13086.039446422063
     },
     {
       "position": {
@@ -96,7 +102,8 @@
       "length_of_day": 26.6,
       "parent": "II",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Alkali",
+      "orbital_period": 3.541038314759415
     },
     {
       "position": {
@@ -110,7 +117,8 @@
       "length_of_day": 19.4,
       "parent": "II",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Selenic",
+      "orbital_period": 3.541038314759415
     },
     {
       "position": {
@@ -124,7 +132,8 @@
       "length_of_day": 17.6,
       "parent": "II",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Selenic",
+      "orbital_period": 3.541038314759415
     },
     {
       "position": {
@@ -138,7 +147,8 @@
       "length_of_day": 19.7,
       "parent": "II",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Urea",
+      "orbital_period": 3.541038314759415
     },
     {
       "position": {
@@ -152,7 +162,8 @@
       "length_of_day": 29.8,
       "parent": "V",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Radioactive",
+      "orbital_period": 9.179408818893936
     },
     {
       "position": {
@@ -166,7 +177,8 @@
       "length_of_day": 15.4,
       "parent": "V",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Green",
+      "orbital_period": 9.179408818893936
     },
     {
       "position": {
@@ -180,7 +192,8 @@
       "length_of_day": 23.1,
       "parent": "V",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Purple",
+      "orbital_period": 9.179408818893936
     },
     {
       "position": {
@@ -194,7 +207,8 @@
       "length_of_day": 23.8,
       "parent": "V",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Treasure",
+      "orbital_period": 9.179408818893936
     }
   ]
 }

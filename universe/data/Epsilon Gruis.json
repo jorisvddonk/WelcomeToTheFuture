@@ -1,6 +1,6 @@
 {
   "name": "Epsilon Gruis",
-  "mass": 6e+24,
+  "mass": 3.978e+30,
   "position": {
     "x": 241.6,
     "y": 368.7
@@ -17,7 +17,8 @@
       "gravity": 12.348,
       "length_of_day": 19.8,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Water",
+      "orbital_period": 10064.984196028261
     },
     {
       "position": {
@@ -31,7 +32,8 @@
       "length_of_day": 28.3,
       "parent": "Spathiwa",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Pellucid",
+      "orbital_period": 10.064984196028261
     }
   ]
 }

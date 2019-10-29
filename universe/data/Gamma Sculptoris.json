@@ -1,6 +1,6 @@
 {
   "name": "Gamma Sculptoris",
-  "mass": 3e+24,
+  "mass": 1.989e+30,
   "position": {
     "x": 608.3,
     "y": 162.5
@@ -17,7 +17,8 @@
       "gravity": 1.3720000000000003,
       "length_of_day": 21.9,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Pellucid",
+      "orbital_period": 4292.92562403042
     }
   ]
 }

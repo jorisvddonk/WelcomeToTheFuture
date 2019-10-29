@@ -1,6 +1,6 @@
 {
   "name": "Alpha Pegasi",
-  "mass": 3e+24,
+  "mass": 1.989e+30,
   "position": {
     "x": 33.3,
     "y": 762.5
@@ -17,7 +17,8 @@
       "gravity": 9.31,
       "length_of_day": 22.9,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Organic",
+      "orbital_period": 1067.3243453207665
     },
     {
       "position": {
@@ -30,7 +31,8 @@
       "gravity": 4.606,
       "length_of_day": 17.9,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Lanthanide",
+      "orbital_period": 2253.223693243519
     },
     {
       "position": {
@@ -43,7 +45,8 @@
       "gravity": 2.5480000000000005,
       "length_of_day": 28.8,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Carbide",
+      "orbital_period": 5453.54084546522
     },
     {
       "position": {
@@ -56,7 +59,8 @@
       "gravity": 1.568,
       "length_of_day": 18.1,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Opalescent",
+      "orbital_period": 7602.423272255502
     },
     {
       "position": {
@@ -69,7 +73,8 @@
       "gravity": 6.0760000000000005,
       "length_of_day": 20.5,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Treasure",
+      "orbital_period": 10067.217585127815
     },
     {
       "position": {
@@ -82,7 +87,8 @@
       "gravity": 8.33,
       "length_of_day": 28.4,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Xenolithic",
+      "orbital_period": 11636.816887596848
     },
     {
       "position": {
@@ -95,7 +101,8 @@
       "gravity": 1.078,
       "length_of_day": 15.3,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Cyanic",
+      "orbital_period": 14568.947192011148
     },
     {
       "position": {
@@ -108,7 +115,8 @@
       "gravity": 0.784,
       "length_of_day": 5120.9,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Cyanic",
+      "orbital_period": 17181.192280336178
     },
     {
       "position": {
@@ -121,7 +129,8 @@
       "gravity": 8.722000000000001,
       "length_of_day": 9,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Gas Giant",
+      "orbital_period": 21328.384439943937
     },
     {
       "position": {
@@ -135,7 +144,8 @@
       "length_of_day": 17.6,
       "parent": "VI",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Noble",
+      "orbital_period": 11.636816887596849
     },
     {
       "position": {
@@ -149,7 +159,8 @@
       "length_of_day": 23.8,
       "parent": "IX",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Ultramarine",
+      "orbital_period": 21.32838443994394
     },
     {
       "position": {
@@ -163,7 +174,8 @@
       "length_of_day": 20.9,
       "parent": "IX",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Radioactive",
+      "orbital_period": 21.32838443994394
     },
     {
       "position": {
@@ -177,7 +189,8 @@
       "length_of_day": 27,
       "parent": "IX",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Cyanic",
+      "orbital_period": 21.32838443994394
     },
     {
       "position": {
@@ -191,7 +204,8 @@
       "length_of_day": 24.9,
       "parent": "IX",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Ultramarine",
+      "orbital_period": 21.32838443994394
     }
   ]
 }

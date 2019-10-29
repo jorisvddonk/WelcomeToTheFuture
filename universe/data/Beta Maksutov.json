@@ -1,6 +1,6 @@
 {
   "name": "Beta Maksutov",
-  "mass": 3e+24,
+  "mass": 1.989e+30,
   "position": {
     "x": 627,
     "y": 547.9
@@ -17,7 +17,8 @@
       "gravity": 5.88,
       "length_of_day": 23.6,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Maroon",
+      "orbital_period": 1335.9086303987995
     },
     {
       "position": {
@@ -30,7 +31,8 @@
       "gravity": 28.518000000000004,
       "length_of_day": 14.7,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Gas Giant",
+      "orbital_period": 5761.886475368312
     },
     {
       "position": {
@@ -43,7 +45,8 @@
       "gravity": 1.764,
       "length_of_day": 29,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Pellucid",
+      "orbital_period": 8716.585167247033
     },
     {
       "position": {
@@ -57,7 +60,8 @@
       "length_of_day": 24.4,
       "parent": "I",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Azure",
+      "orbital_period": 1.3359086303987993
     }
   ]
 }

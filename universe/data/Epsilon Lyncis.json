@@ -1,6 +1,6 @@
 {
   "name": "Epsilon Lyncis",
-  "mass": 3e+24,
+  "mass": 1.989e+30,
   "position": {
     "x": 532.9,
     "y": 953.8
@@ -17,7 +17,8 @@
       "gravity": 2.6460000000000004,
       "length_of_day": 16.3,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Acid",
+      "orbital_period": 228.78275988283605
     },
     {
       "position": {
@@ -30,7 +31,8 @@
       "gravity": 3.43,
       "length_of_day": 16.8,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Crimson",
+      "orbital_period": 1316.1825345759125
     },
     {
       "position": {
@@ -43,7 +45,8 @@
       "gravity": 7.840000000000001,
       "length_of_day": 14.1,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Gas Giant",
+      "orbital_period": 2278.7725241563744
     },
     {
       "position": {
@@ -56,7 +59,8 @@
       "gravity": 1.568,
       "length_of_day": 23.2,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Dust",
+      "orbital_period": 3900.351795908452
     },
     {
       "position": {
@@ -69,7 +73,8 @@
       "gravity": 9.408,
       "length_of_day": 18.8,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Vinylogous",
+      "orbital_period": 4871.820522653807
     },
     {
       "position": {
@@ -82,7 +87,8 @@
       "gravity": 5.292000000000001,
       "length_of_day": 23.3,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Treasure",
+      "orbital_period": 7508.4702030541885
     },
     {
       "position": {
@@ -95,7 +101,8 @@
       "gravity": 1.6660000000000001,
       "length_of_day": 29.5,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Dust",
+      "orbital_period": 13991.774335454873
     },
     {
       "position": {
@@ -108,7 +115,8 @@
       "gravity": 19.11,
       "length_of_day": 10.9,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Gas Giant",
+      "orbital_period": 19609.55261986291
     },
     {
       "position": {
@@ -122,7 +130,8 @@
       "length_of_day": 18.4,
       "parent": "III",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Azure",
+      "orbital_period": 2.2787725241563743
     },
     {
       "position": {
@@ -136,7 +145,8 @@
       "length_of_day": 20.3,
       "parent": "III",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Cimmerian",
+      "orbital_period": 2.2787725241563743
     },
     {
       "position": {
@@ -150,7 +160,8 @@
       "length_of_day": 22.9,
       "parent": "III",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Opalescent",
+      "orbital_period": 2.2787725241563743
     },
     {
       "position": {
@@ -164,7 +175,8 @@
       "length_of_day": 29.8,
       "parent": "III",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Urea",
+      "orbital_period": 2.2787725241563743
     },
     {
       "position": {
@@ -178,7 +190,8 @@
       "length_of_day": 23.2,
       "parent": "V",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Selenic",
+      "orbital_period": 4.871820522653807
     },
     {
       "position": {
@@ -192,7 +205,8 @@
       "length_of_day": 18.4,
       "parent": "VIII",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Alkali",
+      "orbital_period": 19.60955261986291
     },
     {
       "position": {
@@ -206,7 +220,8 @@
       "length_of_day": 22.5,
       "parent": "VIII",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Selenic",
+      "orbital_period": 19.60955261986291
     },
     {
       "position": {
@@ -220,7 +235,8 @@
       "length_of_day": 26.9,
       "parent": "VIII",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Halide",
+      "orbital_period": 19.60955261986291
     }
   ]
 }

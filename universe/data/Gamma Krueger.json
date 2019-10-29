@@ -1,6 +1,6 @@
 {
   "name": "Gamma Krueger",
-  "mass": 3e+24,
+  "mass": 1.989e+30,
   "position": {
     "x": 52.2,
     "y": 52.5
@@ -17,7 +17,8 @@
       "gravity": 7.644000000000001,
       "length_of_day": 16.5,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Water",
+      "orbital_period": 386.58396988095114
     },
     {
       "position": {
@@ -30,7 +31,8 @@
       "gravity": 0.882,
       "length_of_day": 18.8,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Ultramarine",
+      "orbital_period": 3101.3957946507903
     },
     {
       "position": {
@@ -43,7 +45,8 @@
       "gravity": 5.782,
       "length_of_day": 23.9,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Radioactive",
+      "orbital_period": 13227.331177910888
     },
     {
       "position": {
@@ -56,7 +59,8 @@
       "gravity": 6.958,
       "length_of_day": 19.3,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Super-Dense",
+      "orbital_period": 19694.346246819507
     },
     {
       "position": {
@@ -70,7 +74,8 @@
       "length_of_day": 27.6,
       "parent": "I",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Halide",
+      "orbital_period": 0.38658396988095106
     }
   ]
 }

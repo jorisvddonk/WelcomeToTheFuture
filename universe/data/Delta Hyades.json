@@ -1,6 +1,6 @@
 {
   "name": "Delta Hyades",
-  "mass": 3e+24,
+  "mass": 1.989e+30,
   "position": {
     "x": 824.9,
     "y": 895.8
@@ -17,7 +17,8 @@
       "gravity": 4.998,
       "length_of_day": 17.4,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Iodine",
+      "orbital_period": 255.82821510537673
     },
     {
       "position": {
@@ -30,7 +31,8 @@
       "gravity": 16.464000000000002,
       "length_of_day": 29,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Magma",
+      "orbital_period": 1721.5519446793228
     },
     {
       "position": {
@@ -43,7 +45,8 @@
       "gravity": 5.488000000000001,
       "length_of_day": 15.4,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Radioactive",
+      "orbital_period": 3215.550571437274
     },
     {
       "position": {
@@ -56,7 +59,8 @@
       "gravity": 3.136,
       "length_of_day": 21.3,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Chondrite",
+      "orbital_period": 6138.738899816913
     },
     {
       "position": {
@@ -69,7 +73,8 @@
       "gravity": 1.6660000000000001,
       "length_of_day": 25.1,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Halide",
+      "orbital_period": 8120.054197476401
     },
     {
       "position": {
@@ -82,7 +87,8 @@
       "gravity": 1.6660000000000001,
       "length_of_day": 19.2,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Halide",
+      "orbital_period": 11115.237384492257
     },
     {
       "position": {
@@ -95,7 +101,8 @@
       "gravity": 3.2340000000000004,
       "length_of_day": 2455.1,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Carbide",
+      "orbital_period": 15035.513784207631
     },
     {
       "position": {
@@ -108,7 +115,8 @@
       "gravity": 1.568,
       "length_of_day": 15.9,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Azure",
+      "orbital_period": 18999.45785176403
     },
     {
       "position": {
@@ -121,7 +129,8 @@
       "gravity": 13.622,
       "length_of_day": 11,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Gas Giant",
+      "orbital_period": 21811.53138857091
     },
     {
       "position": {
@@ -135,7 +144,8 @@
       "length_of_day": 17.6,
       "parent": "IX",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Halide",
+      "orbital_period": 21.81153138857091
     },
     {
       "position": {
@@ -149,7 +159,8 @@
       "length_of_day": 21.8,
       "parent": "IX",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Cimmerian",
+      "orbital_period": 21.81153138857091
     }
   ]
 }

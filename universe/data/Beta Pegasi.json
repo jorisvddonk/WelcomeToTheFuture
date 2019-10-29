@@ -1,6 +1,6 @@
 {
   "name": "Beta Pegasi",
-  "mass": 3e+24,
+  "mass": 1.989e+30,
   "position": {
     "x": 39.5,
     "y": 745.8
@@ -17,7 +17,8 @@
       "gravity": 4.8020000000000005,
       "length_of_day": 27.1,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Rainbow",
+      "orbital_period": 129.04356161135055
     },
     {
       "position": {
@@ -30,7 +31,8 @@
       "gravity": 4.018,
       "length_of_day": 24.8,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Yttric",
+      "orbital_period": 3694.9333909068378
     },
     {
       "position": {
@@ -43,7 +45,8 @@
       "gravity": 4.1160000000000005,
       "length_of_day": 17.1,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Auric",
+      "orbital_period": 5406.202768965109
     },
     {
       "position": {
@@ -56,7 +59,8 @@
       "gravity": 1.764,
       "length_of_day": 1485.3,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Selenic",
+      "orbital_period": 7602.423272255502
     },
     {
       "position": {
@@ -69,7 +73,8 @@
       "gravity": 2.842,
       "length_of_day": 15.4,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Acid",
+      "orbital_period": 20672.0286652919
     }
   ]
 }

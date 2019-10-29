@@ -1,6 +1,6 @@
 {
   "name": "Zeta Illuminati",
-  "mass": 3e+24,
+  "mass": 1.989e+30,
   "position": {
     "x": 245.8,
     "y": 275
@@ -17,7 +17,8 @@
       "gravity": 3.6260000000000003,
       "length_of_day": 29.3,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Quasi-Degenerate",
+      "orbital_period": 711.5354824421022
     },
     {
       "position": {
@@ -30,7 +31,8 @@
       "gravity": 8.33,
       "length_of_day": 24.1,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Organic",
+      "orbital_period": 1629.1481977613043
     },
     {
       "position": {
@@ -43,7 +45,8 @@
       "gravity": 0.882,
       "length_of_day": 29.8,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Ultramarine",
+      "orbital_period": 3591.3301937421397
     },
     {
       "position": {
@@ -56,7 +59,8 @@
       "gravity": 2.7440000000000007,
       "length_of_day": 15.9,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Chondrite",
+      "orbital_period": 5553.9274097251
     },
     {
       "position": {
@@ -69,7 +73,8 @@
       "gravity": 8.82,
       "length_of_day": 23.1,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Organic",
+      "orbital_period": 7148.10301893424
     },
     {
       "position": {
@@ -82,7 +87,8 @@
       "gravity": 11.368,
       "length_of_day": 20.6,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Redux",
+      "orbital_period": 8833.86150820271
     },
     {
       "position": {
@@ -95,7 +101,8 @@
       "gravity": 20.580000000000002,
       "length_of_day": 9.8,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Gas Giant",
+      "orbital_period": 14302.990474985878
     },
     {
       "position": {
@@ -108,7 +115,8 @@
       "gravity": 1.862,
       "length_of_day": 5189.7,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Pellucid",
+      "orbital_period": 17463.81025148608
     },
     {
       "position": {
@@ -121,7 +129,8 @@
       "gravity": 2.352,
       "length_of_day": 24.1,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Alkali",
+      "orbital_period": 20405.68260774723
     },
     {
       "position": {
@@ -135,7 +144,8 @@
       "length_of_day": 23.3,
       "parent": "VII",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Azure",
+      "orbital_period": 14.302990474985876
     }
   ]
 }

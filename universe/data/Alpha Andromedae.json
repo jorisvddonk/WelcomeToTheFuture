@@ -1,6 +1,6 @@
 {
   "name": "Alpha Andromedae",
-  "mass": 3e+24,
+  "mass": 1.989e+30,
   "position": {
     "x": 862.5,
     "y": 700
@@ -17,7 +17,8 @@
       "gravity": 5.978000000000001,
       "length_of_day": 21.3,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Rainbow",
+      "orbital_period": 129.04356161135055
     },
     {
       "position": {
@@ -30,7 +31,8 @@
       "gravity": 27.832,
       "length_of_day": 15.1,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Gas Giant",
+      "orbital_period": 4447.036248916279
     },
     {
       "position": {
@@ -43,7 +45,8 @@
       "gravity": 4.998,
       "length_of_day": 29.5,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Treasure",
+      "orbital_period": 7050.329095244005
     },
     {
       "position": {
@@ -56,7 +59,8 @@
       "gravity": 5.292000000000001,
       "length_of_day": 23.3,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Auric",
+      "orbital_period": 9986.555327153654
     },
     {
       "position": {
@@ -69,7 +73,8 @@
       "gravity": 13.916,
       "length_of_day": 10,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Gas Giant",
+      "orbital_period": 13973.750667723476
     },
     {
       "position": {
@@ -82,7 +87,8 @@
       "gravity": 1.6660000000000001,
       "length_of_day": 19,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Urea",
+      "orbital_period": 18625.3916641215
     },
     {
       "position": {
@@ -96,7 +102,8 @@
       "length_of_day": 25,
       "parent": "II",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Noble",
+      "orbital_period": 4.4470362489162785
     },
     {
       "position": {
@@ -110,7 +117,8 @@
       "length_of_day": 26.1,
       "parent": "V",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Metal",
+      "orbital_period": 13.973750667723477
     },
     {
       "position": {
@@ -124,7 +132,8 @@
       "length_of_day": 23,
       "parent": "V",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Chondrite",
+      "orbital_period": 13.973750667723477
     }
   ]
 }

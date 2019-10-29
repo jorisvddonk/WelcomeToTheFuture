@@ -1,6 +1,6 @@
 {
   "name": "Beta Piscium",
-  "mass": 3e+24,
+  "mass": 1.989e+30,
   "position": {
     "x": 879.1,
     "y": 354.1
@@ -17,7 +17,8 @@
       "gravity": 6.272,
       "length_of_day": 26.2,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Radioactive",
+      "orbital_period": 3797.1795444318386
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "name": "Alpha Cephei",
-  "mass": 6e+24,
+  "mass": 3.978e+30,
   "position": {
     "x": 375,
     "y": 583.3
@@ -17,7 +17,8 @@
       "gravity": 11.76,
       "length_of_day": 28.7,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Magnetic",
+      "orbital_period": 263.39797517515166
     },
     {
       "position": {
@@ -30,7 +31,8 @@
       "gravity": 1.078,
       "length_of_day": 17.7,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Cyanic",
+      "orbital_period": 1415.0637002026835
     },
     {
       "position": {
@@ -43,7 +45,8 @@
       "gravity": 14.406,
       "length_of_day": 20.1,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Fluorescent",
+      "orbital_period": 2020.997953403643
     },
     {
       "position": {
@@ -56,7 +59,8 @@
       "gravity": 2.352,
       "length_of_day": 24.5,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Carbide",
+      "orbital_period": 3231.9230002072686
     },
     {
       "position": {
@@ -69,7 +73,8 @@
       "gravity": 1.176,
       "length_of_day": 2991.5,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Noble",
+      "orbital_period": 4660.314703842085
     },
     {
       "position": {
@@ -82,7 +87,8 @@
       "gravity": 9.898000000000001,
       "length_of_day": 20.9,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Water",
+      "orbital_period": 6220.256035991383
     },
     {
       "position": {
@@ -95,7 +101,8 @@
       "gravity": 3.9200000000000004,
       "length_of_day": 15.8,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Copper",
+      "orbital_period": 9450.889948412218
     },
     {
       "position": {
@@ -108,7 +115,8 @@
       "gravity": 18.424,
       "length_of_day": 12.7,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Gas Giant",
+      "orbital_period": 11129.059756670338
     },
     {
       "position": {
@@ -121,7 +129,8 @@
       "gravity": 7.3500000000000005,
       "length_of_day": 28.2,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Redux",
+      "orbital_period": 13018.98596829919
     },
     {
       "position": {
@@ -135,7 +144,8 @@
       "length_of_day": 22.1,
       "parent": "III",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Chondrite",
+      "orbital_period": 2.020997953403643
     },
     {
       "position": {
@@ -149,7 +159,8 @@
       "length_of_day": 26.8,
       "parent": "III",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Ultramarine",
+      "orbital_period": 2.020997953403643
     }
   ]
 }

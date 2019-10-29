@@ -1,6 +1,6 @@
 {
   "name": "Beta Hyginus",
-  "mass": 3e+24,
+  "mass": 1.989e+30,
   "position": {
     "x": 864.5,
     "y": 406.2
@@ -17,7 +17,8 @@
       "gravity": 1.9600000000000002,
       "length_of_day": 23.8,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Pellucid",
+      "orbital_period": 1125.9549133976893
     },
     {
       "position": {
@@ -30,7 +31,8 @@
       "gravity": 10.388000000000002,
       "length_of_day": 25.4,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Vinylogous",
+      "orbital_period": 2790.4432450102922
     },
     {
       "position": {
@@ -43,7 +45,8 @@
       "gravity": 1.176,
       "length_of_day": 24,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Noble",
+      "orbital_period": 5112.188372802494
     },
     {
       "position": {
@@ -56,7 +59,8 @@
       "gravity": 6.370000000000001,
       "length_of_day": 21.6,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Maroon",
+      "orbital_period": 9421.695962063339
     },
     {
       "position": {
@@ -69,7 +73,8 @@
       "gravity": 6.174,
       "length_of_day": 24.2,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Iodine",
+      "orbital_period": 10513.066910432506
     },
     {
       "position": {
@@ -82,7 +87,8 @@
       "gravity": 1.47,
       "length_of_day": 29.3,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Purple",
+      "orbital_period": 14693.373853380495
     },
     {
       "position": {
@@ -95,7 +101,8 @@
       "gravity": 6.958,
       "length_of_day": 29.4,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Super-Dense",
+      "orbital_period": 17912.136555034675
     },
     {
       "position": {
@@ -108,7 +115,8 @@
       "gravity": 8.722000000000001,
       "length_of_day": 5516,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Hydrocarbon",
+      "orbital_period": 22037.67222638863
     },
     {
       "position": {
@@ -122,7 +130,8 @@
       "length_of_day": 21.4,
       "parent": "VIII",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Dust",
+      "orbital_period": 22.03767222638863
     },
     {
       "position": {
@@ -136,7 +145,8 @@
       "length_of_day": 18.3,
       "parent": "VIII",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Chondrite",
+      "orbital_period": 22.03767222638863
     }
   ]
 }

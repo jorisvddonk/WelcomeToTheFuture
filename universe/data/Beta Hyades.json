@@ -1,6 +1,6 @@
 {
   "name": "Beta Hyades",
-  "mass": 3e+24,
+  "mass": 1.989e+30,
   "position": {
     "x": 837.5,
     "y": 895.8
@@ -17,7 +17,8 @@
       "gravity": 1.47,
       "length_of_day": 22.8,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Opalescent",
+      "orbital_period": 517.2793840468328
     },
     {
       "position": {
@@ -30,7 +31,8 @@
       "gravity": 5.194000000000001,
       "length_of_day": 29.6,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Yttric",
+      "orbital_period": 4309.959421389726
     },
     {
       "position": {
@@ -43,7 +45,8 @@
       "gravity": 1.9600000000000002,
       "length_of_day": 19.3,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Selenic",
+      "orbital_period": 6265.195011872621
     },
     {
       "position": {
@@ -56,7 +59,8 @@
       "gravity": 9.8,
       "length_of_day": 22.2,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Water",
+      "orbital_period": 11467.695161096062
     },
     {
       "position": {
@@ -69,7 +73,8 @@
       "gravity": 6.272,
       "length_of_day": 20.9,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Sapphire",
+      "orbital_period": 18601.599383615438
     },
     {
       "position": {
@@ -83,7 +88,8 @@
       "length_of_day": 17.9,
       "parent": "V",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Acid",
+      "orbital_period": 18.60159938361544
     }
   ]
 }

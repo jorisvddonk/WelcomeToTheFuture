@@ -1,6 +1,6 @@
 {
   "name": "Delta Aquarii",
-  "mass": 3e+24,
+  "mass": 1.989e+30,
   "position": {
     "x": 858.8,
     "y": 881.2
@@ -17,7 +17,8 @@
       "gravity": 0.882,
       "length_of_day": 17.2,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Noble",
+      "orbital_period": 6290.036797971532
     },
     {
       "position": {
@@ -30,7 +31,8 @@
       "gravity": 4.312,
       "length_of_day": 29.7,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Oolite",
+      "orbital_period": 7747.041541396212
     },
     {
       "position": {
@@ -43,7 +45,8 @@
       "gravity": 1.9600000000000002,
       "length_of_day": 24.3,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Azure",
+      "orbital_period": 16126.664776007221
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "name": "Delta Orionis",
-  "mass": 3e+24,
+  "mass": 1.989e+30,
   "position": {
     "x": 171.4,
     "y": 592.6
@@ -17,7 +17,8 @@
       "gravity": 10.094000000000001,
       "length_of_day": 29.8,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Xenolithic",
+      "orbital_period": 1388.9872881917815
     },
     {
       "position": {
@@ -30,7 +31,8 @@
       "gravity": 4.508000000000001,
       "length_of_day": 22.6,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Iodine",
+      "orbital_period": 2298.4907069572732
     },
     {
       "position": {
@@ -43,7 +45,8 @@
       "gravity": 3.3320000000000003,
       "length_of_day": 22.7,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Chondrite",
+      "orbital_period": 3409.5894962749535
     },
     {
       "position": {
@@ -56,7 +59,8 @@
       "gravity": 7.644000000000001,
       "length_of_day": 9.8,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Gas Giant",
+      "orbital_period": 7260.806812879907
     },
     {
       "position": {
@@ -69,7 +73,8 @@
       "gravity": 0.882,
       "length_of_day": 22.8,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Ultramarine",
+      "orbital_period": 8871.004553583889
     },
     {
       "position": {
@@ -82,7 +87,8 @@
       "gravity": 5.88,
       "length_of_day": 16.4,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Treasure",
+      "orbital_period": 13188.425544523952
     },
     {
       "position": {
@@ -96,7 +102,8 @@
       "length_of_day": 23.3,
       "parent": "II",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Acid",
+      "orbital_period": 2.2984907069572733
     },
     {
       "position": {
@@ -110,7 +117,8 @@
       "length_of_day": 22.3,
       "parent": "IV",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Cimmerian",
+      "orbital_period": 7.260806812879908
     },
     {
       "position": {
@@ -124,7 +132,8 @@
       "length_of_day": 29.9,
       "parent": "IV",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Acid",
+      "orbital_period": 7.260806812879908
     }
   ]
 }

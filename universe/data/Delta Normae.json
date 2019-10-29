@@ -1,6 +1,6 @@
 {
   "name": "Delta Normae",
-  "mass": 3e+24,
+  "mass": 1.989e+30,
   "position": {
     "x": 161.3,
     "y": 527.9
@@ -17,7 +17,8 @@
       "gravity": 7.644000000000001,
       "length_of_day": 20.9,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Water",
+      "orbital_period": 434.38834091473484
     },
     {
       "position": {
@@ -30,7 +31,8 @@
       "gravity": 5.978000000000001,
       "length_of_day": 17.6,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Iodine",
+      "orbital_period": 3418.6016241910547
     },
     {
       "position": {
@@ -43,7 +45,8 @@
       "gravity": 4.9,
       "length_of_day": 19.3,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Copper",
+      "orbital_period": 12290.407269558174
     },
     {
       "position": {
@@ -56,7 +59,8 @@
       "gravity": 9.702,
       "length_of_day": 18.7,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Redux",
+      "orbital_period": 21999.928113398215
     }
   ]
 }

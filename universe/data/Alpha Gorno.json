@@ -1,6 +1,6 @@
 {
   "name": "Alpha Gorno",
-  "mass": 3e+24,
+  "mass": 1.989e+30,
   "position": {
     "x": 277.1,
     "y": 14.6
@@ -17,7 +17,8 @@
       "gravity": 4.9,
       "length_of_day": 20.1,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Copper",
+      "orbital_period": 1111.9744285426398
     },
     {
       "position": {
@@ -30,7 +31,8 @@
       "gravity": 4.998,
       "length_of_day": 18.1,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Oolite",
+      "orbital_period": 3541.038314759415
     },
     {
       "position": {
@@ -43,7 +45,8 @@
       "gravity": 16.856,
       "length_of_day": 24.9,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Fluorescent",
+      "orbital_period": 5283.248316875249
     },
     {
       "position": {
@@ -56,7 +59,8 @@
       "gravity": 10.094000000000001,
       "length_of_day": 18.9,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Xenolithic",
+      "orbital_period": 6913.06173488974
     },
     {
       "position": {
@@ -69,7 +73,8 @@
       "gravity": 3.0380000000000003,
       "length_of_day": 22.9,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Carbide",
+      "orbital_period": 9113.696486796847
     },
     {
       "position": {
@@ -82,7 +87,8 @@
       "gravity": 17.836000000000002,
       "length_of_day": 13.9,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Gas Giant",
+      "orbital_period": 12439.185184116817
     },
     {
       "position": {
@@ -95,7 +101,8 @@
       "gravity": 2.0580000000000003,
       "length_of_day": 28.3,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Halide",
+      "orbital_period": 18163.275677074587
     },
     {
       "position": {
@@ -108,7 +115,8 @@
       "gravity": 5.194000000000001,
       "length_of_day": 17.5,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Auric",
+      "orbital_period": 19957.574319539766
     },
     {
       "position": {
@@ -122,7 +130,8 @@
       "length_of_day": 18.4,
       "parent": "VI",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Oolite",
+      "orbital_period": 12.439185184116818
     },
     {
       "position": {
@@ -136,7 +145,8 @@
       "length_of_day": 2298,
       "parent": "VI",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Acid",
+      "orbital_period": 12.439185184116818
     }
   ]
 }

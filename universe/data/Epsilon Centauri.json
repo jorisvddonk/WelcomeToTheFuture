@@ -1,6 +1,6 @@
 {
   "name": "Epsilon Centauri",
-  "mass": 3e+24,
+  "mass": 1.989e+30,
   "position": {
     "x": 151.5,
     "y": 86.6
@@ -17,7 +17,8 @@
       "gravity": 1.3720000000000003,
       "length_of_day": 26.2,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Halide",
+      "orbital_period": 10829.302372156153
     }
   ]
 }

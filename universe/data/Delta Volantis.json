@@ -1,6 +1,6 @@
 {
   "name": "Delta Volantis",
-  "mass": 3e+24,
+  "mass": 1.989e+30,
   "position": {
     "x": 97.7,
     "y": 195.3
@@ -17,7 +17,8 @@
       "gravity": 7.644000000000001,
       "length_of_day": 19.5,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Vinylogous",
+      "orbital_period": 299.74082936529027
     },
     {
       "position": {
@@ -30,7 +31,8 @@
       "gravity": 10.878000000000002,
       "length_of_day": 22.4,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Hydrocarbon",
+      "orbital_period": 2255.185577104375
     },
     {
       "position": {
@@ -43,7 +45,8 @@
       "gravity": 30.478,
       "length_of_day": 10.1,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Gas Giant",
+      "orbital_period": 3829.907021291872
     },
     {
       "position": {
@@ -56,7 +59,8 @@
       "gravity": 5.292000000000001,
       "length_of_day": 25.9,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Radioactive",
+      "orbital_period": 5877.615492247634
     },
     {
       "position": {
@@ -70,7 +74,8 @@
       "length_of_day": 20.3,
       "parent": "III",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Auric",
+      "orbital_period": 3.8299070212918718
     }
   ]
 }

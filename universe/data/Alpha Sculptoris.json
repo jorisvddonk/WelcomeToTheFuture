@@ -1,6 +1,6 @@
 {
   "name": "Alpha Sculptoris",
-  "mass": 3e+24,
+  "mass": 1.989e+30,
   "position": {
     "x": 604.1,
     "y": 156.2
@@ -17,7 +17,8 @@
       "gravity": 0.784,
       "length_of_day": 25.9,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Noble",
+      "orbital_period": 608.6605271238185
     },
     {
       "position": {
@@ -30,7 +31,8 @@
       "gravity": 14.994000000000002,
       "length_of_day": 16.8,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Plutonic",
+      "orbital_period": 3068.7229420547646
     },
     {
       "position": {
@@ -43,7 +45,8 @@
       "gravity": 2.156,
       "length_of_day": 18.8,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Opalescent",
+      "orbital_period": 4208.09472908795
     },
     {
       "position": {
@@ -56,7 +59,8 @@
       "gravity": 14.896,
       "length_of_day": 12.8,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Gas Giant",
+      "orbital_period": 7552.46221187247
     },
     {
       "position": {
@@ -69,7 +73,8 @@
       "gravity": 3.528,
       "length_of_day": 19.9,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Green",
+      "orbital_period": 10303.985543822437
     },
     {
       "position": {
@@ -82,7 +87,8 @@
       "gravity": 28.616,
       "length_of_day": 8.3,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Gas Giant",
+      "orbital_period": 12525.957894376208
     },
     {
       "position": {
@@ -96,7 +102,8 @@
       "length_of_day": 27.6,
       "parent": "II",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Auric",
+      "orbital_period": 3.0687229420547633
     },
     {
       "position": {
@@ -110,7 +117,8 @@
       "length_of_day": 2929.2,
       "parent": "II",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Yttric",
+      "orbital_period": 3.0687229420547633
     },
     {
       "position": {
@@ -124,7 +132,8 @@
       "length_of_day": 29.8,
       "parent": "IV",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Green",
+      "orbital_period": 7.55246221187247
     },
     {
       "position": {
@@ -138,7 +147,8 @@
       "length_of_day": 16.9,
       "parent": "IV",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Green",
+      "orbital_period": 7.55246221187247
     },
     {
       "position": {
@@ -152,7 +162,8 @@
       "length_of_day": 19.9,
       "parent": "IV",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Noble",
+      "orbital_period": 7.55246221187247
     },
     {
       "position": {
@@ -166,7 +177,8 @@
       "length_of_day": 17.3,
       "parent": "VI",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Lanthanide",
+      "orbital_period": 12.525957894376207
     },
     {
       "position": {
@@ -180,7 +192,8 @@
       "length_of_day": 27.6,
       "parent": "VI",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Radioactive",
+      "orbital_period": 12.525957894376207
     }
   ]
 }

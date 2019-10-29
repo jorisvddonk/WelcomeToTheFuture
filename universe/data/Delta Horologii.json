@@ -1,6 +1,6 @@
 {
   "name": "Delta Horologii",
-  "mass": 3e+24,
+  "mass": 1.989e+30,
   "position": {
     "x": 736,
     "y": 718.4
@@ -17,7 +17,8 @@
       "gravity": 1.47,
       "length_of_day": 16.7,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Purple",
+      "orbital_period": 6765.374170261793
     },
     {
       "position": {
@@ -30,7 +31,8 @@
       "gravity": 5.978000000000001,
       "length_of_day": 22.4,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Super-Dense",
+      "orbital_period": 16632.045224903002
     }
   ]
 }

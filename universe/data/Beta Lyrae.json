@@ -1,6 +1,6 @@
 {
   "name": "Beta Lyrae",
-  "mass": 3e+24,
+  "mass": 1.989e+30,
   "position": {
     "x": 189.5,
     "y": 104.1
@@ -17,7 +17,8 @@
       "gravity": 5.684,
       "length_of_day": 25.7,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Iodine",
+      "orbital_period": 928.3226677987293
     },
     {
       "position": {
@@ -30,7 +31,8 @@
       "gravity": 18.718,
       "length_of_day": 10.3,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Gas Giant",
+      "orbital_period": 2253.223693243519
     },
     {
       "position": {
@@ -43,7 +45,8 @@
       "gravity": 21.168000000000003,
       "length_of_day": 15.1,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Gas Giant",
+      "orbital_period": 3750.588711119456
     },
     {
       "position": {
@@ -56,7 +59,8 @@
       "gravity": 6.468000000000001,
       "length_of_day": 17.3,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Super-Dense",
+      "orbital_period": 5176.762909815265
     },
     {
       "position": {
@@ -69,7 +73,8 @@
       "gravity": 5.390000000000001,
       "length_of_day": 22.1,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Ruby",
+      "orbital_period": 14013.412956485246
     },
     {
       "position": {
@@ -83,7 +88,8 @@
       "length_of_day": 27.2,
       "parent": "II",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Purple",
+      "orbital_period": 2.253223693243519
     },
     {
       "position": {
@@ -97,7 +103,8 @@
       "length_of_day": 20.9,
       "parent": "II",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Dust",
+      "orbital_period": 2.253223693243519
     },
     {
       "position": {
@@ -111,7 +118,8 @@
       "length_of_day": 22.4,
       "parent": "II",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Chondrite",
+      "orbital_period": 2.253223693243519
     },
     {
       "position": {
@@ -125,7 +133,8 @@
       "length_of_day": 21.3,
       "parent": "II",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Super-Dense",
+      "orbital_period": 2.253223693243519
     },
     {
       "position": {
@@ -139,7 +148,8 @@
       "length_of_day": 25.5,
       "parent": "III",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Purple",
+      "orbital_period": 3.7505887111194567
     },
     {
       "position": {
@@ -153,7 +163,8 @@
       "length_of_day": 26.6,
       "parent": "III",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Selenic",
+      "orbital_period": 3.7505887111194567
     },
     {
       "position": {
@@ -167,7 +178,8 @@
       "length_of_day": 26.5,
       "parent": "III",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Metal",
+      "orbital_period": 3.7505887111194567
     }
   ]
 }

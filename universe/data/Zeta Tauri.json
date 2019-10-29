@@ -1,6 +1,6 @@
 {
   "name": "Zeta Tauri",
-  "mass": 3e+24,
+  "mass": 1.989e+30,
   "position": {
     "x": 9,
     "y": 361.4
@@ -17,7 +17,8 @@
       "gravity": 4.8020000000000005,
       "length_of_day": 24.8,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Yttric",
+      "orbital_period": 656.1758045001549
     },
     {
       "position": {
@@ -30,7 +31,8 @@
       "gravity": 14.406,
       "length_of_day": 24.8,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Magnetic",
+      "orbital_period": 3357.9239301786647
     },
     {
       "position": {
@@ -43,7 +45,8 @@
       "gravity": 5.88,
       "length_of_day": 2777.2,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Treasure",
+      "orbital_period": 6613.135716418902
     },
     {
       "position": {
@@ -56,7 +59,8 @@
       "gravity": 7.644000000000001,
       "length_of_day": 17.7,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Redux",
+      "orbital_period": 21857.534033747004
     },
     {
       "position": {
@@ -70,7 +74,8 @@
       "length_of_day": 26.4,
       "parent": "II",
       "mass": 0,
-      "orbital_period": 0
+      "type": "Noble",
+      "orbital_period": 3.357923930178664
     }
   ]
 }

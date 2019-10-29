@@ -1,6 +1,6 @@
 {
   "name": "Beta Caeli",
-  "mass": 3e+24,
+  "mass": 1.989e+30,
   "position": {
     "x": 258.9,
     "y": 74.1
@@ -17,7 +17,8 @@
       "gravity": 14.798000000000002,
       "length_of_day": 2506.7,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Magnetic",
+      "orbital_period": 1078.0460420739337
     },
     {
       "position": {
@@ -30,7 +31,8 @@
       "gravity": 2.94,
       "length_of_day": 17.2,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Infrared",
+      "orbital_period": 4275.914326278294
     },
     {
       "position": {
@@ -43,7 +45,8 @@
       "gravity": 8.918000000000001,
       "length_of_day": 25.4,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Vinylogous",
+      "orbital_period": 9116.822075743581
     },
     {
       "position": {
@@ -56,7 +59,8 @@
       "gravity": 0.9800000000000001,
       "length_of_day": 18.1,
       "mass": 0,
-      "orbital_period": 0
+      "type": "Noble",
+      "orbital_period": 11967.257391645253
     }
   ]
 }
