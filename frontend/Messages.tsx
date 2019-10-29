@@ -50,12 +50,20 @@ export default class Messages extends React.Component<any, IMessagesState> {
       });
   }
 
+  private get numUnreadMessages() {
+    return this.state.messages.filter(message => message.isRead === false).length;
+  }
+
   render() {
     return (
       <div>
-        {this.state.messages.filter(message => message.isRead === false).map(message => (
-          <Message message={message} />
-        ))}
+        {this.numUnreadMessages > 0 && <>
+          <span>{this.numUnreadMessages}</span>{}<span>unread message(s):</span>
+          {this.state.messages.filter(message => message.isRead === false).map(message => (
+            <Message message={message} showBody={false} />
+          ))}
+          <span>(use GraphQL to read the message body!)</span>
+        </>}
       </div>
     );
   }

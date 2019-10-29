@@ -9,6 +9,7 @@ export interface IMessage {
 
 interface IMessageProps {
   message: IMessage;
+  showBody: boolean;
 }
 
 export default class Message extends React.Component<IMessageProps, any> {
@@ -19,10 +20,10 @@ export default class Message extends React.Component<IMessageProps, any> {
           this.props.message.isRead === false
             ? " message-unread"
             : " message-read"
-        }`}
+          }`}
       >
         <div className="title">{this.props.message.title}</div>
-        <div className="body">{this.props.message.body}</div>
+        {this.props.showBody && <div className="body">{this.props.message.body}</div>}
       </div>
     );
   }
