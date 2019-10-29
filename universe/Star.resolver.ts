@@ -31,10 +31,12 @@ export class StarResolver /* implements ResolverInterface<Star>*/ {
   }
 
   @FieldResolver(returns => [Star])
-  nearbyStars(@Arg("maxRange", { nullable: true, description: "Range to search for other stars" }) maxRange: number): Star[] {
+  nearbyStars(@Root() star: Star, @Arg("maxRange", { nullable: true, description: "Range to search for other stars" }) maxRange: number): Star[] {
     return Universe.getStars().filter((x: Star) => {
+      return x.name !== star.name
+    }).filter((x: Star) => {
       if (maxRange !== undefined) {
-        return getRangeBetweenStars(Universe.getCurrentStar(), x) < maxRange;
+        return getRangeBetweenStars(star, x) < maxRange;
       }
       return true;
     });
