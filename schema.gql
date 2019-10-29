@@ -40,9 +40,9 @@ input ManualControl {
 
 type Message {
   title: String!
-  body: String!
   id: String!
   isRead: Boolean!
+  body(translate: Translation): String!
 }
 
 type Moon {
@@ -128,7 +128,7 @@ enum Status {
 type Subscription {
   starshipUpdate: Starship!
   starUpdate: Star!
-  inboxSub: Message!
+  inboxSub: [Message!]!
   onAchievementUnlocked: Achievement!
 }
 
@@ -156,6 +156,11 @@ enum TaskType {
   IDLE
   HALT
   MANUAL
+}
+
+enum Translation {
+  ENGLISH
+  DO_NOT_TRANSLATE
 }
 
 type UnidentifiedObject {

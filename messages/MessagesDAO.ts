@@ -2,9 +2,8 @@ import { Message } from "./Message";
 
 export class MessagesDAO {
     public messages: Message[] = [];
-    constructor() {
-        this.messages.push(new Message("Test", "Test message"));
-    }
+    private messagesUpdateListeners = [];
+    constructor() { }
 
     public get(messageid: string) {
         const message = this.messages.find(message => message.id === messageid);
@@ -18,6 +17,18 @@ export class MessagesDAO {
         this.get(messageid).isRead = true;
     }
 
+    public addMessage(message: Message) {
+        this.messages.push(message);
+        this.messagesUpdateListeners.forEach(x => x(message));
+    }
+
+    public getMessages() {
+        return this.messages;
+    }
+
+    public addMessageUpdateListener(listener) {
+        this.messagesUpdateListeners.push(listener);
+    }
 
 }
 
