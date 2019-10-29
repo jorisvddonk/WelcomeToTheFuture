@@ -58,7 +58,7 @@ MapData.forEach(constellation => {
             const random = new MersenneTwister(seed);
             for (let i = 0; i < 10; i++) {
                 objects.push({
-                    position: new Vector((random.random() * 200) - 10, (random.random() * 200) - 10),
+                    position: new Vector((random.random() * 400) - 200, (random.random() * 400) - 200),
                     angle: random.random() * 360,
                     scannerData: Buffer.from('enemyShip').toString('base64')
                 })
