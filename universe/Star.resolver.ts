@@ -3,6 +3,7 @@ import {
   FieldResolver,
   Root,
   Subscription,
+  Arg,
 } from "type-graphql";
 import { Star } from "./Star";
 import { Universe } from "./UniverseDAO";
@@ -13,8 +14,13 @@ export class StarResolver /* implements ResolverInterface<Star>*/ {
   constructor() { }
 
   @FieldResolver(of => [Planet])
-  planets(@Root() star: Star) {
-    return Universe.getStarPlanets(star.name);
+  planets(@Root() star: Star, @Arg('type', { nullable: true }) type: string) {
+    return Universe.getStarPlanets(star.name).filter(x => {
+      if (type !== undefined) {
+        return x.type === type;
+      }
+      return true;
+    });
   }
 
   @FieldResolver()

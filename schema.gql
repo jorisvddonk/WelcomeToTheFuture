@@ -80,7 +80,7 @@ type Star {
   name: String!
   mass: Float!
   position: Vector!
-  planets: [Planet!]!
+  planets(type: String): [Planet!]!
   range: Float!
 }
 
