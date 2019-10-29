@@ -18,8 +18,8 @@ export class GQLStarship implements IPosRot {
   private lastTickActions: {
     thrusting: boolean;
   } = {
-    thrusting: false
-  };
+      thrusting: false
+    };
   eventEmitter: EventEmitter;
 
   constructor(name?: string) {
@@ -49,6 +49,7 @@ export class GQLStarship implements IPosRot {
   @Field()
   hyperjumping: boolean;
 
+  @Field(type => Task)
   task: Task;
 
   getTask() {

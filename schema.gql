@@ -45,6 +45,7 @@ type GQLStar {
 type GQLStarship {
   name: String!
   hyperjumping: Boolean!
+  task: Task!
   position: Vector!
   velocity: Vector!
   angle: Float!
@@ -101,6 +102,31 @@ type Subscription {
   starUpdate: GQLStar!
   inboxSub: Message!
   onAchievementUnlocked: Achievement!
+}
+
+type Target {
+  type: TargetType!
+}
+
+enum TargetType {
+  SHIP
+  GAMEOBJECT
+  POSITION
+  LOST
+}
+
+type Task {
+  target: Target!
+  type: TaskType!
+}
+
+enum TaskType {
+  FOLLOW
+  ATTACK
+  MOVE
+  IDLE
+  HALT
+  MANUAL
 }
 
 type Vector {

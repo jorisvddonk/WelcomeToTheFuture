@@ -2,6 +2,8 @@ import Sylvester from './sylvester-withmods'
 import objectRegistry, { ObjectID } from './objectRegistry'
 import { GQLStarship } from './GQLStarship';
 import { GQLPlanet } from '../universe/GQLPlanet';
+import { ObjectType, Field, registerEnumType } from 'type-graphql';
+import { Target } from './Target';
 
 export enum TaskType {
   FOLLOW = 'FOLLOW',
@@ -12,9 +14,18 @@ export enum TaskType {
   MANUAL = 'MANUAL'
 }
 
+registerEnumType(TaskType, {
+  name: "TaskType"
+})
+
+@ObjectType()
 export class Task {
-  public target: Target
-  public type: TaskType | null
+  @Field(type => Target)
+  target: Target
+
+  @Field(type => TaskType)
+  type: TaskType | null
+
   public arg: any
 
   constructor(type: TaskType, target: Target | null, arg?: any) {
@@ -34,46 +45,9 @@ export enum TargetType {
   LOST = 'LOST', // special
 }
 
-// tslint:disable-next-line: max-classes-per-file
-export class Target {
-  public type: TargetType
-  public tgt: ObjectID | Sylvester.Vector | TargetType.LOST
-
-  constructor(
-    type: TargetType,
-    target: ObjectID | Sylvester.Vector | TargetType.LOST
-  ) {
-    this.tgt = target
-    this.type = type
-  }
-
-  public getGameObject() {
-    if (this.type === TargetType.GAMEOBJECT || this.type === TargetType.SHIP) {
-      // ObjectID
-      return objectRegistry.get(this.tgt) || TargetType.LOST
-    } else {
-      return new Error('Not a gameobject target!')
-    }
-  }
-
-  public getTargetPosition() {
-    if (this.type === TargetType.GAMEOBJECT || this.type === TargetType.SHIP) {
-      // ObjectID
-      const obj = this.getGameObject()
-      if (obj !== TargetType.LOST) {
-        return this.getGameObject().positionVec
-      } else {
-        return obj
-      }
-    } else if (this.tgt instanceof Sylvester.Vector) {
-      return this.tgt
-    } else if (this.type === TargetType.LOST) {
-      return this.type
-    } else {
-      throw new Error('???')
-    }
-  }
-}
+registerEnumType(TargetType, {
+  name: "TargetType"
+})
 
 export function createTask(taskType: TaskType, target?: Target, arg?: any) {
   switch (taskType) {
