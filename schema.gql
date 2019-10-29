@@ -10,6 +10,24 @@ type Achievement {
   isUnlocked: Boolean!
 }
 
+enum Hazard {
+  NONE
+  MINIMUM
+  LOW
+  MODERATE
+  HIGH
+  SEVERE
+  EXTREME
+  INSTANT_DEATH
+}
+
+type Hazards {
+  bio: Hazard!
+  thermal: Hazard!
+  weather: Hazard!
+  tectonics: Hazard!
+}
+
 input InboxFilter {
   isRead: Boolean
 }
@@ -64,6 +82,7 @@ type Planet {
   position: Vector!
   star: Star
   moons: [Moon!]
+  hazards: Hazards
 }
 
 type Query {

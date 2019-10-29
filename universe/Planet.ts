@@ -1,6 +1,7 @@
 import { ObjectType, Field } from "type-graphql";
 import { Moon } from "./Moon";
 import { Vector } from "../starship/Vector";
+import { Hazard } from "./Hazard";
 
 @ObjectType()
 export class Planet {
@@ -29,4 +30,9 @@ export class Planet {
 
   @Field(type => Vector)
   position!: Vector;
+
+  bioHazard: Hazard;
+  tectonicsHazard: Hazard;
+  weatherHazard: Hazard;
+  thermalHazard: Hazard;
 }

@@ -10,6 +10,8 @@ import { Universe } from "./UniverseDAO";
 import { Planet } from "./Planet";
 import { Star } from "./Star";
 import { Moon } from "./Moon";
+import { Hazard } from "./Hazard";
+import { Hazards } from "./Hazards";
 
 @Resolver(of => Planet)
 export class PlanetResolver /* implements ResolverInterface<Planet>*/ {
@@ -23,5 +25,15 @@ export class PlanetResolver /* implements ResolverInterface<Planet>*/ {
   @FieldResolver(of => [Moon], { nullable: true })
   moons(@Root() planet: Planet) {
     return Universe.getPlanetMoons(planet.name, planet.star);
+  }
+
+  @FieldResolver(of => Hazards, { nullable: true })
+  hazards(@Root() planet: Planet) {
+    return {
+      bio: planet.bioHazard,
+      tectonics: planet.tectonicsHazard,
+      weather: planet.weatherHazard,
+      thermal: planet.thermalHazard
+    }
   }
 }

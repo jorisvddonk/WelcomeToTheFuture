@@ -1,4 +1,5 @@
 import { Vector } from "../starship/Vector";
+import { Hazard } from "./Hazard";
 
 export interface IBodyJSON {
   name: string;
@@ -11,6 +12,10 @@ export interface IBodyJSON {
   orbital_period: number;
   position: Vector;
   distance_from_parent: number;
+  bioHazard: Hazard;
+  weatherHazard: Hazard;
+  tectonicsHazard: Hazard;
+  thermalHazard: Hazard;
 }
 
 export interface IBody extends IBodyJSON {

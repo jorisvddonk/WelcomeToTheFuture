@@ -1,8 +1,11 @@
+import "reflect-metadata";
+
 import { MapData, UQMPlanet } from "./data/uqm/map_sc2";
 import { IStar } from "./IStar"
 import { writeFileSync } from "fs";
 import { entries } from 'lodash'
 import { IBodyJSON } from "./IBody";
+import { Hazard } from "./Hazard";
 
 function getStarPrefix(prefixShort) {
     switch (prefixShort) {
@@ -73,6 +76,10 @@ MapData.forEach(constellation => {
                     parent: parent,
                     mass: 0, // todo?,
                     type: planet.Type,
+                    bioHazard: getHazard(planet.BioHazard),
+                    weatherHazard: getHazard(planet.Weather),
+                    tectonicsHazard: getHazard(planet.Tectonics),
+                    thermalHazard: getHazard(planet.Thermal),
                     orbital_period: Math.PI * 2 * Math.sqrt(Math.pow(distance_from_parent, 3) / (starmass * 6.674e-11)) / 86400 * 31603 // todo: fix / improve; currently not accurate and uses a magic number `31603` to fix my math
                 }
                 return retPlanet;
@@ -81,3 +88,26 @@ MapData.forEach(constellation => {
         writeFileSync(`${__dirname}/data/${starName}.json`, JSON.stringify(exportStar, null, 2))
     })
 })
+
+function getHazard(i: string): Hazard {
+    switch (i) {
+        case "1":
+            return Hazard.NONE
+        case "2":
+            return Hazard.MINIMUM
+        case "3":
+            return Hazard.LOW
+        case "4":
+            return Hazard.MODERATE
+        case "5":
+            return Hazard.HIGH
+        case "6":
+            return Hazard.SEVERE
+        case "7":
+            return Hazard.EXTREME
+        case "8":
+            return Hazard.INSTANT_DEATH
+        default:
+            throw new Error("Unknown hazard level: " + i)
+    }
+}
