@@ -43,9 +43,10 @@ MapData.forEach(constellation => {
     constellation.stars.forEach(star => {
         const starPrefix = getStarPrefix(star.id)
         const starName = `${starPrefix}${starPrefix.length > 0 ? ' ' : ''}${constellation.name}`
+        const starmass = (star.size + 1) * 1.989e+30; // todo: figure out?
         const exportStar: IStar = {
             name: starName,
-            mass: (star.size + 1) * 3e+24, // todo: figure out?
+            mass: starmass,
             position: {
                 x: star.x,
                 y: star.y
@@ -71,7 +72,7 @@ MapData.forEach(constellation => {
                     length_of_day: parseInt(planet.Day) / 10,
                     parent: parent,
                     mass: 0, // todo?,
-                    orbital_period: 0 // todo?
+                    orbital_period: Math.PI * 2 * Math.sqrt(Math.pow(distance_from_parent, 3) / (starmass * 6.674e-11)) / 86400 * 31603 // todo: fix / improve; currently not accurate and uses a magic number `31603` to fix my math
                 }
                 return retPlanet;
             })
