@@ -25,7 +25,7 @@ export class Starship implements IPosRot {
   constructor(name?: string) {
     this.autopilot = new Autopilot(this, {});
     this.positionVec = new Sylvester.Vector([0, 0]);
-    this.task = createTask(TaskType.MOVE, new Sylvester.Vector([1000, 1000]));
+    this.task = createTask(TaskType.IDLE, null);
     this.rotationVec = new Sylvester.Vector([0, 1]);
     this.movementVec = new Sylvester.Vector([0, 0]);
     this.hyperjumping = false;
