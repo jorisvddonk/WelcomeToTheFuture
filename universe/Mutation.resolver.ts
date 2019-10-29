@@ -21,6 +21,12 @@ export class MutationResolver {
       ]);
       i += 0.25;
       if (i > 10) {
+        Achievements.unlock("hyperspace");
+
+        if (starname !== "Beta Giclas" && Universe.getCurrentStar().name === "Beta Giclas") {
+          Achievements.unlock("narrow_escape");
+        }
+
         clearInterval(interv);
         Universe.hyperspaceJump(starname);
         Universe.starship.movementVec = new Sylvester.Vector([0, 0]);
@@ -34,6 +40,7 @@ export class MutationResolver {
 
   @Mutation()
   markAsRead(@Arg("id") id: string): Message {
+    Achievements.unlock("read_inbox");
     Messages.markAsRead(id);
     return Messages.get(id);
   }
