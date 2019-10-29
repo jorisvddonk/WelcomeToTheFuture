@@ -28,7 +28,8 @@ export default class App extends React.Component<any, any> {
           y: 0.0
         },
         angle: 0,
-        thrusting: false
+        thrusting: false,
+        hyperjumping: false
       },
       planets: [],
       moons: [],
@@ -100,6 +101,7 @@ export default class App extends React.Component<any, any> {
               }
               angle
               thrusting
+              hyperjumping
               velocity {
                 x
                 y
@@ -121,7 +123,8 @@ export default class App extends React.Component<any, any> {
               y: x.data.starshipUpdate.velocity.y
             },
             angle: x.data.starshipUpdate.angle,
-            thrusting: x.data.starshipUpdate.thrusting
+            thrusting: x.data.starshipUpdate.thrusting,
+            hyperjumping: x.data.starshipUpdate.hyperjumping
           }
         });
       });
@@ -277,6 +280,7 @@ export default class App extends React.Component<any, any> {
               <Starship
                 angle={this.state.spaceship.angle}
                 thrusting={this.state.spaceship.thrusting}
+                hyperjumping={this.state.spaceship.hyperjumping}
               />
             </div>
           </div>

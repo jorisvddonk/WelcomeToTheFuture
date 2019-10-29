@@ -18,8 +18,8 @@ export class GQLStarship implements IPosRot {
   private lastTickActions: {
     thrusting: boolean;
   } = {
-      thrusting: false
-    }
+    thrusting: false
+  };
   eventEmitter: EventEmitter;
 
   constructor(name?: string) {
@@ -28,10 +28,11 @@ export class GQLStarship implements IPosRot {
     this.task = createTask(TaskType.MOVE, new Sylvester.Vector([1000, 1000]));
     this.rotationVec = new Sylvester.Vector([0, 1]);
     this.movementVec = new Sylvester.Vector([0, 0]);
+    this.hyperjumping = false;
     this.eventEmitter = new EventEmitter();
-    this.eventEmitter.on('autopilot_Complete', () => {
+    this.eventEmitter.on("autopilot_Complete", () => {
       this.setTask(createTask(TaskType.IDLE, null));
-    })
+    });
 
     if (name !== undefined) {
       this.name = name;
@@ -44,6 +45,9 @@ export class GQLStarship implements IPosRot {
 
   @Field()
   name!: string;
+
+  @Field()
+  hyperjumping: boolean;
 
   task: Task;
 
@@ -67,26 +71,20 @@ export class GQLStarship implements IPosRot {
     if (multiply > 0) {
       this.lastTickActions.thrusting = true;
     }
-    multiply = Mymath.clamp(
-      multiply,
-      -1,
-      1
-    );
+    multiply = Mymath.clamp(multiply, -1, 1);
     this.movementVec = this.movementVec.add(
-      ThrustVector
-        .rotate(
-          ThrustVector.angleTo(this.rotationVec),
-          new Sylvester.Vector([0, 0])
-        )
-        .multiply(multiply)
-    )
+      ThrustVector.rotate(
+        ThrustVector.angleTo(this.rotationVec),
+        new Sylvester.Vector([0, 0])
+      ).multiply(multiply)
+    );
   }
 
   public rotate(amount: number | Sylvester.Vector) {
     // amount is a local-vector pointing towards an angle to rate to
     // or a rotation to point to specified in radians
     if (amount instanceof Sylvester.Vector) {
-      amount = this.rotationVec.angleTo(amount)
+      amount = this.rotationVec.angleTo(amount);
     }
     this.rotationVec = this.rotationVec
       .rotate(Mymath.clampRot(amount), new Sylvester.Vector([0, 0]))
@@ -96,7 +94,9 @@ export class GQLStarship implements IPosRot {
   tick(msec: number) {
     this.lastTickActions.thrusting = false;
     this.autopilot.tick();
-    this.positionVec = this.positionVec.add(this.movementVec.multiply(1000 / msec));
+    this.positionVec = this.positionVec.add(
+      this.movementVec.multiply(1000 / msec)
+    );
     this.capMovement();
   }
 
@@ -104,7 +104,7 @@ export class GQLStarship implements IPosRot {
     if (this.movementVec.modulus() > MaxSpeedVector.modulus()) {
       this.movementVec = this.movementVec
         .toUnitVector()
-        .multiply(MaxSpeedVector.modulus())
+        .multiply(MaxSpeedVector.modulus());
     }
   }
 
@@ -113,7 +113,7 @@ export class GQLStarship implements IPosRot {
     return {
       x: this.positionVec.e(1),
       y: this.positionVec.e(2)
-    }
+    };
   }
 
   @Field()
@@ -121,12 +121,14 @@ export class GQLStarship implements IPosRot {
     return {
       x: this.movementVec.e(1),
       y: this.movementVec.e(2)
-    }
+    };
   }
 
   @Field()
   get angle(): number {
-    return new Sylvester.Vector([1, 0]).angleTo(this.rotationVec) * 57.2957795 + 90
+    return (
+      new Sylvester.Vector([1, 0]).angleTo(this.rotationVec) * 57.2957795 + 90
+    );
   }
 
   @Field()

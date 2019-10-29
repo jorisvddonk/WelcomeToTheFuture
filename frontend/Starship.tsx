@@ -4,6 +4,7 @@ import { CANVAS_HEIGHT_PX, CANVAS_WIDTH_PX } from "./consts";
 export interface IStarshipProps {
   angle: number;
   thrusting: boolean;
+  hyperjumping: boolean;
 }
 
 export default class Starship extends React.Component<IStarshipProps, any> {
@@ -19,10 +20,15 @@ export default class Starship extends React.Component<IStarshipProps, any> {
           top: `${CANVAS_HEIGHT_PX * 0.5 - this.spriteHeight * 0.5}px`,
           width: `${this.spriteWidth}px`,
           height: `${this.spriteHeight}px`,
-          transform: `rotate(${this.props.angle}deg)`
+          transform: `rotate(${this.props.angle}deg)`,
+          filter: this.props.hyperjumping
+            ? "drop-shadow(0px 0px 12px cyan)"
+            : ""
         }}
       >
-        {this.props.thrusting && <div className="thrust"></div>}
+        {(this.props.thrusting || this.props.hyperjumping) && (
+          <div className="thrust"></div>
+        )}
       </div>
     );
   }

@@ -42,6 +42,7 @@ type GQLStar {
 
 type GQLStarship {
   name: String!
+  hyperjumping: Boolean!
   position: Vector!
   velocity: Vector!
   angle: Float!
