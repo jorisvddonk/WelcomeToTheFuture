@@ -15,9 +15,6 @@ import { Achievement } from "./Achievements/Achievement";
 import { MutationResolver } from "./universe/Mutation.resolver";
 
 const UPDATE_INTERVAL = (1000 / 60) * 3; // 3 frames @ 60fps
-const STARSHIP_THRUST = 10;
-const STARSHIP_ROTATION = Math.PI / 5;
-const STARSHIP_MAX_SPEED_SQUARED = 3000;
 
 async function boot() {
   const pubsub = new PubSub();
