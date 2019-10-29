@@ -72,6 +72,7 @@ MapData.forEach(constellation => {
                     length_of_day: parseInt(planet.Day) / 10,
                     parent: parent,
                     mass: 0, // todo?,
+                    type: planet.Type,
                     orbital_period: Math.PI * 2 * Math.sqrt(Math.pow(distance_from_parent, 3) / (starmass * 6.674e-11)) / 86400 * 31603 // todo: fix / improve; currently not accurate and uses a magic number `31603` to fix my math
                 }
                 return retPlanet;

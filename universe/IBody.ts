@@ -5,6 +5,7 @@ export interface IBodyJSON {
   parent?: string;
   mass: number;
   diameter: number;
+  type: string;
   gravity: number;
   length_of_day: number;
   orbital_period: number;

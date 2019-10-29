@@ -7,6 +7,9 @@ export class GQLPlanet {
   @Field()
   name!: string;
 
+  @Field()
+  type!: string;
+
   star!: string;
 
   @Field()

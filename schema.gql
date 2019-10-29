@@ -12,6 +12,7 @@ type Achievement {
 
 type GQLMoon {
   name: String!
+  type: String!
   planet: GQLPlanet!
   mass: Float!
   diameter: Float!
@@ -23,6 +24,7 @@ type GQLMoon {
 
 type GQLPlanet {
   name: String!
+  type: String!
   mass: Float!
   diameter: Float!
   gravity: Float!

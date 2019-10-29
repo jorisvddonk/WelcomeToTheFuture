@@ -7,6 +7,9 @@ export class GQLMoon {
   @Field()
   name!: string;
 
+  @Field()
+  type!: string;
+
   @Field(type => GQLPlanet)
   planet!: GQLPlanet;
 
