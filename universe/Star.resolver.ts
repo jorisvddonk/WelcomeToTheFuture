@@ -13,6 +13,7 @@ import { Universe } from "./UniverseDAO";
 import { Planet } from "./Planet";
 import { createTask, TaskType } from "../starship/targets";
 import Sylvester from "../starship/sylvester-withmods";
+import { MutationResult, Status } from "../starship/MutationResult";
 
 @Resolver(of => Star)
 export class StarResolver /* implements ResolverInterface<Star>*/ {
@@ -31,7 +32,7 @@ export class StarResolver /* implements ResolverInterface<Star>*/ {
   }
 
   @Mutation()
-  hyperspaceJump(@Arg("star") starname: string): Star {
+  hyperspaceJump(@Arg("star") starname: string): MutationResult {
     Universe.starship.hyperjumping = true;
     let i = 0;
     const interv = setInterval(() => {
@@ -49,6 +50,6 @@ export class StarResolver /* implements ResolverInterface<Star>*/ {
       }
     }, 100);
     Universe.starship.setTask(createTask(TaskType.IDLE, null));
-    return Universe.getCurrentStar();
+    return new MutationResult(Status.OK);
   }
 }

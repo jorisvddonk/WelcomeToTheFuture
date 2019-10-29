@@ -44,7 +44,7 @@ type Mutation {
   moveTo(planet: String, y: Float, x: Float): MutationResult!
   halt: MutationResult!
   rename(name: String!): MutationResult!
-  hyperspaceJump(star: String!): Star!
+  hyperspaceJump(star: String!): MutationResult!
   markAsRead(id: String!): Message!
 }
 
