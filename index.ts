@@ -2,9 +2,9 @@ import "reflect-metadata";
 
 import { buildSchema } from "type-graphql";
 import { ApolloServer } from "apollo-server";
-import { GQLStarshipResolver } from "./starship/GQLStarship.resolver";
-import { GQLStarResolver } from "./universe/GQLStar.resolver";
-import { GQLPlanetResolver } from "./universe/GQLPlanet.resolver";
+import { StarshipResolver } from "./starship/Starship.resolver";
+import { StarResolver } from "./universe/Star.resolver";
+import { PlanetResolver } from "./universe/Planet.resolver";
 import { PubSub } from "graphql-subscriptions";
 import { Universe } from "./universe/UniverseDAO";
 import { MessageResolver } from "./messages/Message.resolver";
@@ -21,7 +21,7 @@ const STARSHIP_MAX_SPEED_SQUARED = 3000;
 async function boot() {
   const pubsub = new PubSub();
   const schema = await buildSchema({
-    resolvers: [RootResolver, GQLStarshipResolver, GQLStarResolver, GQLPlanetResolver, MessageResolver, AchievementResolver],
+    resolvers: [RootResolver, StarshipResolver, StarResolver, PlanetResolver, MessageResolver, AchievementResolver],
     emitSchemaFile: true,
     pubSub: pubsub
   });

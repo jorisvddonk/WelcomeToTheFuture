@@ -7,12 +7,12 @@ import {
   ResolverInterface
 } from "type-graphql";
 import { Universe } from "./UniverseDAO";
-import { Planet } from "./GQLPlanet";
-import { Star } from "./GQLStar";
-import { Moon } from "./GQLMoon";
+import { Planet } from "./Planet";
+import { Star } from "./Star";
+import { Moon } from "./Moon";
 
 @Resolver(of => Planet)
-export class GQLPlanetResolver /* implements ResolverInterface<GQLPlanet>*/ {
+export class PlanetResolver /* implements ResolverInterface<Planet>*/ {
   constructor() { }
 
   @FieldResolver(of => Star, { nullable: true })

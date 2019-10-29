@@ -9,14 +9,14 @@ import {
 
 import { filter as _filter } from 'lodash'
 
-import { Moon } from "./GQLMoon";
+import { Moon } from "./Moon";
 import { Universe } from "./UniverseDAO";
-import { Planet } from "./GQLPlanet";
-import { Star } from "./GQLStar";
+import { Planet } from "./Planet";
+import { Star } from "./Star";
 import { Message } from "../messages/Message";
 import { Messages } from "../messages/MessagesDAO";
 import { InboxFilter } from "../messages/InboxFilter";
-import { Starship } from "../starship/GQLStarship";
+import { Starship } from "../starship/Starship";
 
 export class RootResolver {
     @Query(of => [Moon])

@@ -1,7 +1,7 @@
 import Sylvester from './sylvester-withmods'
 import objectRegistry, { ObjectID } from './objectRegistry'
-import { Starship } from './GQLStarship';
-import { Planet } from '../universe/GQLPlanet';
+import { Starship } from './Starship';
+import { Planet } from '../universe/Planet';
 import { ObjectType, Field, registerEnumType } from 'type-graphql';
 import { Target } from './Target';
 

@@ -1,6 +1,6 @@
 import { TargetType, TaskType } from './targets'
 import Sylvester from './sylvester-withmods'
-import { Starship, ThrustVector } from './GQLStarship';
+import { Starship, ThrustVector } from './Starship';
 import PIDController from './pidcontroller';
 import Mymath from './mymath';
 

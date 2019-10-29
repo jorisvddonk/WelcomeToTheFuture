@@ -7,10 +7,10 @@ import {
   Arg,
   FieldResolver
 } from "type-graphql";
-import { Starship } from "./GQLStarship";
+import { Starship } from "./Starship";
 import { Universe } from "../universe/UniverseDAO";
 import { ManualControl } from "./ManualControl";
-import { Star } from "../universe/GQLStar";
+import { Star } from "../universe/Star";
 import { createTask, TaskType } from "./targets";
 import Sylvester from "./sylvester-withmods";
 import { PositionControl } from "./PositionControl";
@@ -18,7 +18,7 @@ import { Achievements } from "../Achievements/AchievementsDAO";
 import { MutationResult, Status } from "./MutationResult";
 
 @Resolver(Starship)
-export class GQLStarshipResolver {
+export class StarshipResolver {
   constructor() { }
 
   @Subscription({

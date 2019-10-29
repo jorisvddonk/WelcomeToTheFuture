@@ -1,5 +1,5 @@
 import { ObjectType, Field } from "type-graphql";
-import { Planet } from "./GQLPlanet";
+import { Planet } from "./Planet";
 import { Vector } from "../starship/Vector";
 
 @ObjectType()

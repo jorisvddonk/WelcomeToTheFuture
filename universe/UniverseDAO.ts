@@ -1,8 +1,8 @@
 import { readFileSync } from "fs";
-import { Star } from "./GQLStar";
+import { Star } from "./Star";
 import { IStar, IStarJSON } from "./IStar";
 import { IBody } from "./IBody";
-import { Starship } from "../starship/GQLStarship";
+import { Starship } from "../starship/Starship";
 import { flatten } from "lodash";
 import glob from "glob";
 import Sylvester from "../starship/sylvester-withmods";

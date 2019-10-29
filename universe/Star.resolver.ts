@@ -8,14 +8,14 @@ import {
   Subscription,
   Mutation
 } from "type-graphql";
-import { Star } from "./GQLStar";
+import { Star } from "./Star";
 import { Universe } from "./UniverseDAO";
-import { Planet } from "./GQLPlanet";
+import { Planet } from "./Planet";
 import { createTask, TaskType } from "../starship/targets";
 import Sylvester from "../starship/sylvester-withmods";
 
 @Resolver(of => Star)
-export class GQLStarResolver /* implements ResolverInterface<GQLStar>*/ {
+export class StarResolver /* implements ResolverInterface<Star>*/ {
   constructor() { }
 
   @FieldResolver(of => [Planet])
