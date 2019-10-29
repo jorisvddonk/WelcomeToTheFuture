@@ -69,11 +69,16 @@ type Message {
 }
 
 type Mutation {
-  manualControl(data: ManualControl!): GQLStarship!
-  moveTo(planet: String, y: Float, x: Float): GQLStarship!
-  halt: GQLStarship!
+  manualControl(data: ManualControl!): MutationResult!
+  moveTo(planet: String, y: Float, x: Float): MutationResult!
+  halt: MutationResult!
   hyperspaceJump(star: String!): GQLStar!
   markAsRead(id: String!): Message!
+}
+
+type MutationResult {
+  status: String!
+  timestamp: Float!
 }
 
 type Query {

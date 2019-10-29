@@ -15,6 +15,7 @@ import { createTask, TaskType } from "./targets";
 import Sylvester from "./sylvester-withmods";
 import { PositionControl } from "./PositionControl";
 import { Achievements } from "../Achievements/AchievementsDAO";
+import { MutationResult } from "./MutationResult";
 
 @Resolver(GQLStarship)
 export class GQLStarshipResolver {
@@ -30,16 +31,16 @@ export class GQLStarshipResolver {
   }
 
   @Mutation()
-  manualControl(@Arg("data") controlDirective: ManualControl): GQLStarship {
+  manualControl(@Arg("data") controlDirective: ManualControl): MutationResult {
     Universe.starship.setTask(createTask(TaskType.MANUAL, null, {
       desiredAngle: controlDirective.desiredAngle,
       thrusting: controlDirective.thrusting
     }))
-    return Universe.starship;
+    return new MutationResult("OK");
   }
 
   @Mutation()
-  moveTo(@Arg("x", { nullable: true }) x: number, @Arg("y", { nullable: true }) y: number, @Arg("planet", { nullable: true }) planet: string): GQLStarship {
+  moveTo(@Arg("x", { nullable: true }) x: number, @Arg("y", { nullable: true }) y: number, @Arg("planet", { nullable: true }) planet: string): MutationResult {
     if (x !== undefined && y !== undefined) {
       Universe.starship.setTask(createTask(TaskType.MOVE, new Sylvester.Vector([x, y])));
     } else if (planet !== undefined) {
@@ -50,13 +51,13 @@ export class GQLStarshipResolver {
         throw new Error("Planet not found in current solar system");
       }
     }
-    return Universe.starship;
+    return new MutationResult("OK");
   }
 
   @Mutation()
-  halt(): GQLStarship {
+  halt(): MutationResult {
     Universe.starship.setTask(createTask(TaskType.HALT, null));
-    return Universe.starship;
+    return new MutationResult("OK");
   }
 
   @FieldResolver()
