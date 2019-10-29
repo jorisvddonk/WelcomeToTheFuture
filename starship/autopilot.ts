@@ -67,7 +67,7 @@ export class Autopilot {
     if (task.type === TaskType.MANUAL) {
       if (task.arg.desiredAngle !== undefined) {
         const d = task.arg.desiredAngle * 0.0174533;
-        this.ship.rotate(this.ship.rotationVec.angleTo(new Sylvester.Vector([Math.sin(d), Math.cos(d)])));
+        this.ship.rotate(this.ship.rotationVec.angleTo(new Sylvester.Vector([Math.sin(d), -Math.cos(d)])));
       }
       if (task.arg.thrusting === true) {
         this.ship.thrust(1);
