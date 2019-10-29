@@ -6,6 +6,10 @@ import { writeFileSync } from "fs";
 import { entries } from 'lodash'
 import { IBodyJSON } from "./IBody";
 import { Hazard } from "./Hazard";
+import { IObject } from "./IObject";
+import { Vector } from "../starship/Vector";
+import murmurhash3 from "murmurhash3js";
+import MersenneTwister from "mersenne-twister";
 
 function getStarPrefix(prefixShort) {
     switch (prefixShort) {
@@ -47,6 +51,19 @@ MapData.forEach(constellation => {
         const starPrefix = getStarPrefix(star.id)
         const starName = `${starPrefix}${starPrefix.length > 0 ? ' ' : ''}${constellation.name}`
         const starmass = (star.size + 1) * 1.989e+30; // todo: figure out?
+        const objects: IObject[] = [];
+        if (starName === "Beta Giclas") {
+            // add lots of ENEMIES!
+            const seed = murmurhash3.x86.hash32(`${starName}_enemies`);
+            const random = new MersenneTwister(seed);
+            for (let i = 0; i < 10; i++) {
+                objects.push({
+                    position: new Vector((random.random() * 200) - 10, (random.random() * 200) - 10),
+                    angle: random.random() * 360,
+                    scannerData: Buffer.from('enemyShip').toString('base64')
+                })
+            }
+        }
         const exportStar: IStar = {
             name: starName,
             mass: starmass,
@@ -83,7 +100,8 @@ MapData.forEach(constellation => {
                     orbital_period: Math.PI * 2 * Math.sqrt(Math.pow(distance_from_parent, 3) / (starmass * 6.674e-11)) / 86400 * 31603 // todo: fix / improve; currently not accurate and uses a magic number `31603` to fix my math
                 }
                 return retPlanet;
-            })
+            }),
+            objects: objects
         };
         writeFileSync(`${__dirname}/data/${starName}.json`, JSON.stringify(exportStar, null, 2))
     })
