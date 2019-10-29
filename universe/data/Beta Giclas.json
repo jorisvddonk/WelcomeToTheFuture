@@ -133,5 +133,87 @@
       "thermalHazard": "NONE",
       "orbital_period": 6.386954643736702
     }
+  ],
+  "objects": [
+    {
+      "position": {
+        "x": 135.82925029098988,
+        "y": 127.44377493858337
+      },
+      "angle": 62.6604310143739,
+      "scannerData": "ZW5lbXlTaGlw"
+    },
+    {
+      "position": {
+        "x": 103.53325224481523,
+        "y": 64.10387783311307
+      },
+      "angle": 132.34094532206655,
+      "scannerData": "ZW5lbXlTaGlw"
+    },
+    {
+      "position": {
+        "x": 76.75745688378811,
+        "y": 18.79358734935522
+      },
+      "angle": 170.58040112257004,
+      "scannerData": "ZW5lbXlTaGlw"
+    },
+    {
+      "position": {
+        "x": 173.9554712176323,
+        "y": 136.39299022965133
+      },
+      "angle": 342.7500120084733,
+      "scannerData": "ZW5lbXlTaGlw"
+    },
+    {
+      "position": {
+        "x": 81.07729094102979,
+        "y": 105.05530728027225
+      },
+      "angle": 118.6763558909297,
+      "scannerData": "ZW5lbXlTaGlw"
+    },
+    {
+      "position": {
+        "x": 38.76826200634241,
+        "y": 10.74188799597323
+      },
+      "angle": 199.1788890492171,
+      "scannerData": "ZW5lbXlTaGlw"
+    },
+    {
+      "position": {
+        "x": 37.35012059099972,
+        "y": 153.65308947861195
+      },
+      "angle": 316.9852406065911,
+      "scannerData": "ZW5lbXlTaGlw"
+    },
+    {
+      "position": {
+        "x": 112.42276496253908,
+        "y": 17.731964085251093
+      },
+      "angle": 82.13210220448673,
+      "scannerData": "ZW5lbXlTaGlw"
+    },
+    {
+      "position": {
+        "x": 18.81870912387967,
+        "y": 123.25700210407376
+      },
+      "angle": 290.8542253822088,
+      "scannerData": "ZW5lbXlTaGlw"
+    },
+    {
+      "position": {
+        "x": -7.425522888079286,
+        "y": -9.600132182240486
+      },
+      "angle": 334.60914890281856,
+      "scannerData": "ZW5lbXlTaGlw"
+    }
   ]
 }
