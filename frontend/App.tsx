@@ -11,6 +11,7 @@ import GQLPlayground from "./GQLPlayground";
 import { Vector } from "../starship/Vector";
 import Messages from "./Messages";
 import Noty from "noty";
+import UnidentifiedObject from "./UnidentifiedObject";
 
 export default class App extends React.Component<any, any> {
   private lastTimestamp: number;
@@ -34,6 +35,7 @@ export default class App extends React.Component<any, any> {
       planets: [],
       moons: [],
       stars: [],
+      unidentifiedObjects: [],
       zoom: 1
     };
 
@@ -58,7 +60,16 @@ export default class App extends React.Component<any, any> {
         }
         diameter
       }
-    }`;
+    }
+    unidentifiedObjects {
+      scannerData
+      position {
+        x
+        y
+      }
+      angle
+    }
+    `;
 
     client
       .query({
@@ -180,10 +191,18 @@ export default class App extends React.Component<any, any> {
         diameter: moon.diameter / 12756 // earth: 1 diameter
       };
     });
+    const unidentifiedObjects = star.unidentifiedObjects.map(unidentifiedObject => {
+      return {
+        scannerData: unidentifiedObject.scannerData,
+        position: unidentifiedObject.position,
+        angle: unidentifiedObject.angle
+      }
+    });
     this.setState({
       planets,
       moons,
-      stars
+      stars,
+      unidentifiedObjects
     });
   };
 
@@ -274,6 +293,17 @@ export default class App extends React.Component<any, any> {
                       x={star.position.x}
                       y={star.position.y}
                     ></Star>
+                  );
+                })}
+                {this.state.unidentifiedObjects.map((unidentifiedObject, i) => {
+                  return (
+                    <UnidentifiedObject
+                      key={`unidentifiedObject_${i}`}
+                      x={unidentifiedObject.position.x}
+                      y={unidentifiedObject.position.y}
+                      scannerData={unidentifiedObject.scannerData}
+                      angle={unidentifiedObject.angle}
+                    ></UnidentifiedObject>
                   );
                 })}
               </div>

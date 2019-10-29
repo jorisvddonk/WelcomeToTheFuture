@@ -66,6 +66,14 @@ body {
   transform: scaleX(-1) scaleY(-1);
 }
 
+.unidentifiedObject {
+  background-size: 100%;
+  &.unidentifiedObject-enemyShip {
+    background: url("./assets/kenney/spaceShips_008.png");
+    background-size: 100%;
+  }
+}
+
 .star {
   background: url("./assets/salemf/sun_shiny.png");
   background-size: 100%;

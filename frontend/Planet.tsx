@@ -20,4 +20,8 @@ export default class Planet extends Sprite<IPlanetProps> {
   getSpriteHeight() {
     return 100 * this.props.diameter;
   }
+
+  getAngle() {
+    return 0;
+  }
 }

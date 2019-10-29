@@ -1,6 +1,6 @@
 import Sprite from "./Sprite";
 
-export interface IStarProps {}
+export interface IStarProps { }
 
 export default class Star extends Sprite<IStarProps> {
   constructor(props) {
@@ -17,5 +17,9 @@ export default class Star extends Sprite<IStarProps> {
 
   getSpriteHeight() {
     return 300;
+  }
+
+  getAngle() {
+    return 0;
   }
 }
