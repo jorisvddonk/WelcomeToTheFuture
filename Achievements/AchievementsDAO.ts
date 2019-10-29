@@ -4,7 +4,7 @@ export class AchievementsDAO {
     public achievements: Achievement[] = [];
     private listeners: ((achievement: Achievement) => void)[] = [];
     constructor() {
-        this.achievements.push(new Achievement("name", "Uncovered the label", "Figured out what the ship's name is"));
+        this.achievements.push(new Achievement("rename", "No Fun Allowed", "Renamed the ship according to your own personal tastes."));
     }
 
     public get(achievementid: string) {

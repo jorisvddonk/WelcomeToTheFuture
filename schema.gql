@@ -43,6 +43,7 @@ type Mutation {
   manualControl(data: ManualControl!): MutationResult!
   moveTo(planet: String, y: Float, x: Float): MutationResult!
   halt: MutationResult!
+  rename(name: String!): MutationResult!
   hyperspaceJump(star: String!): Star!
   markAsRead(id: String!): Message!
 }

@@ -63,7 +63,13 @@ export class StarshipResolver {
   @FieldResolver()
   name(
     @Root() starship: Starship): string {
-    Achievements.unlock('name');
     return starship.name;
+  }
+
+  @Mutation()
+  rename(@Arg("name") name: string): MutationResult {
+    Universe.starship.name = name;
+    Achievements.unlock('rename');
+    return new MutationResult(Status.OK);
   }
 }
