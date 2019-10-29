@@ -15,15 +15,18 @@ export default class Messages extends React.Component<any, IMessagesState> {
       messages: []
     };
 
+    const inboxQuery = `
+  title
+  body
+  id
+  isRead`;
+
     client
       .query({
         query: gql`
           query {
             inbox {
-              title
-              body
-              id
-              isRead
+              ${inboxQuery}
             }
           }
         `
@@ -31,12 +34,26 @@ export default class Messages extends React.Component<any, IMessagesState> {
       .then(result => {
         this.setState({ messages: result.data.inbox });
       });
+
+    client
+      .subscribe({
+        query: gql`
+          subscription {
+            inboxSub {
+              ${inboxQuery}
+            }
+          }
+        `
+      })
+      .forEach(x => {
+        this.setState({ messages: x.data.inboxSub });
+      });
   }
 
   render() {
     return (
       <div>
-        {this.state.messages.map(message => (
+        {this.state.messages.filter(message => message.isRead === false).map(message => (
           <Message message={message} />
         ))}
       </div>
