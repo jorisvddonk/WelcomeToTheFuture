@@ -51,6 +51,7 @@ export class UniverseDAO {
       retStar.name = x.name;
       retStar.mass = x.mass;
       retStar.position = new Vector(x.position.x, x.position.y);
+      retStar.unidentifiedObjects = x.objects;
       return retStar;
     });
   }

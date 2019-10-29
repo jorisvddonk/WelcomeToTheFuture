@@ -6,10 +6,10 @@ export interface IStarJSON {
   name: string;
   mass: number;
   bodies: IBodyJSON[];
+  objects: IObject[];
   position: Vector;
 }
 
 export interface IStar extends IStarJSON {
   bodies: IBody[];
-  objects: IObject[];
 }

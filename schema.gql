@@ -99,6 +99,7 @@ type Star {
   name: String!
   mass: Float!
   position: Vector!
+  unidentifiedObjects: [UnidentifiedObject!]!
   planets(type: String): [Planet!]!
 
   """Range between this star and the star our starship is currently in."""
@@ -155,6 +156,12 @@ enum TaskType {
   IDLE
   HALT
   MANUAL
+}
+
+type UnidentifiedObject {
+  position: Vector!
+  scannerData: String!
+  angle: Float!
 }
 
 type Vector {
