@@ -8,30 +8,30 @@ import {
   Subscription,
   Mutation
 } from "type-graphql";
-import { GQLStar } from "./GQLStar";
+import { Star } from "./GQLStar";
 import { Universe } from "./UniverseDAO";
-import { GQLPlanet } from "./GQLPlanet";
+import { Planet } from "./GQLPlanet";
 import { createTask, TaskType } from "../starship/targets";
 import Sylvester from "../starship/sylvester-withmods";
 
-@Resolver(of => GQLStar)
+@Resolver(of => Star)
 export class GQLStarResolver /* implements ResolverInterface<GQLStar>*/ {
-  constructor() {}
+  constructor() { }
 
-  @FieldResolver(of => [GQLPlanet])
-  planets(@Root() star: GQLStar) {
+  @FieldResolver(of => [Planet])
+  planets(@Root() star: Star) {
     return Universe.getStarPlanets(star.name);
   }
 
   @Subscription({
     topics: ["starUpdate"]
   })
-  starUpdate(@Root() payload: GQLStar): GQLStar {
+  starUpdate(@Root() payload: Star): Star {
     return payload;
   }
 
   @Mutation()
-  hyperspaceJump(@Arg("star") starname: string): GQLStar {
+  hyperspaceJump(@Arg("star") starname: string): Star {
     Universe.starship.hyperjumping = true;
     let i = 0;
     const interv = setInterval(() => {

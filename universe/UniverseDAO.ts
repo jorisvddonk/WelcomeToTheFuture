@@ -1,21 +1,21 @@
 import { readFileSync } from "fs";
-import { GQLStar } from "./GQLStar";
+import { Star } from "./GQLStar";
 import { IStar, IStarJSON } from "./IStar";
 import { IBody } from "./IBody";
-import { GQLStarship } from "../starship/GQLStarship";
+import { Starship } from "../starship/GQLStarship";
 import { flatten } from "lodash";
 import glob from "glob";
 import Sylvester from "../starship/sylvester-withmods";
 
 export class UniverseDAO {
   private stars: IStar[] = [];
-  public starship: GQLStarship;
+  public starship: Starship;
   private currentStarname: string;
   private starUpdateListeners = [];
 
   constructor() {
     this.reloadStars();
-    this.starship = new GQLStarship();
+    this.starship = new Starship();
     this.currentStarname = this.stars[0].name;
 
     const sol = this.stars.find(star => star.name === "Sol");
@@ -60,7 +60,7 @@ export class UniverseDAO {
     return this.getBodies().filter(x => x.parent !== undefined);
   }
 
-  findStar(name: string): GQLStar | undefined {
+  findStar(name: string): Star | undefined {
     const foundStar = this.stars.find(star => star.name === name);
     if (foundStar === undefined) {
       return undefined;

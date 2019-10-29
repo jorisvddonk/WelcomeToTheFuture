@@ -7,17 +7,17 @@ import {
   Arg,
   FieldResolver
 } from "type-graphql";
-import { GQLStarship } from "./GQLStarship";
+import { Starship } from "./GQLStarship";
 import { Universe } from "../universe/UniverseDAO";
 import { ManualControl } from "./ManualControl";
-import { GQLStar } from "../universe/GQLStar";
+import { Star } from "../universe/GQLStar";
 import { createTask, TaskType } from "./targets";
 import Sylvester from "./sylvester-withmods";
 import { PositionControl } from "./PositionControl";
 import { Achievements } from "../Achievements/AchievementsDAO";
 import { MutationResult, Status } from "./MutationResult";
 
-@Resolver(GQLStarship)
+@Resolver(Starship)
 export class GQLStarshipResolver {
   constructor() { }
 
@@ -25,8 +25,8 @@ export class GQLStarshipResolver {
     topics: ["starshipUpdate"]
   })
   starshipUpdate(
-    @Root() payload: GQLStarship
-  ): GQLStarship {
+    @Root() payload: Starship
+  ): Starship {
     return payload;
   }
 
@@ -62,7 +62,7 @@ export class GQLStarshipResolver {
 
   @FieldResolver()
   name(
-    @Root() starship: GQLStarship): string {
+    @Root() starship: Starship): string {
     Achievements.unlock('name');
     return starship.name;
   }

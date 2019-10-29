@@ -10,48 +10,6 @@ type Achievement {
   isUnlocked: Boolean!
 }
 
-type GQLMoon {
-  name: String!
-  type: String!
-  planet: GQLPlanet!
-  mass: Float!
-  diameter: Float!
-  gravity: Float!
-  length_of_day: Float!
-  orbital_period: Float!
-  position: Vector!
-}
-
-type GQLPlanet {
-  name: String!
-  type: String!
-  mass: Float!
-  diameter: Float!
-  gravity: Float!
-  length_of_day: Float!
-  orbital_period: Float!
-  position: Vector!
-  star: GQLStar
-  moons: [GQLMoon!]
-}
-
-type GQLStar {
-  name: String!
-  mass: Float!
-  position: Vector!
-  planets: [GQLPlanet!]!
-}
-
-type GQLStarship {
-  name: String!
-  hyperjumping: Boolean!
-  task: Task!
-  position: Vector!
-  velocity: Vector!
-  angle: Float!
-  thrusting: Boolean!
-}
-
 input InboxFilter {
   isRead: Boolean
 }
@@ -69,11 +27,23 @@ type Message {
   isRead: Boolean!
 }
 
+type Moon {
+  name: String!
+  type: String!
+  planet: Planet!
+  mass: Float!
+  diameter: Float!
+  gravity: Float!
+  length_of_day: Float!
+  orbital_period: Float!
+  position: Vector!
+}
+
 type Mutation {
   manualControl(data: ManualControl!): MutationResult!
   moveTo(planet: String, y: Float, x: Float): MutationResult!
   halt: MutationResult!
-  hyperspaceJump(star: String!): GQLStar!
+  hyperspaceJump(star: String!): Star!
   markAsRead(id: String!): Message!
 }
 
@@ -82,14 +52,44 @@ type MutationResult {
   timestamp: Float!
 }
 
+type Planet {
+  name: String!
+  type: String!
+  mass: Float!
+  diameter: Float!
+  gravity: Float!
+  length_of_day: Float!
+  orbital_period: Float!
+  position: Vector!
+  star: Star
+  moons: [Moon!]
+}
+
 type Query {
-  moons: [GQLMoon!]!
-  planets: [GQLPlanet!]!
-  currentStar: GQLStar
-  stars: [GQLStar!]
-  starship: GQLStarship!
-  star(name: String!): GQLStar
+  moons: [Moon!]!
+  planets: [Planet!]!
+  currentStar: Star
+  stars: [Star!]
+  starship: Starship!
+  star(name: String!): Star
   inbox(filter: InboxFilter): [Message!]
+}
+
+type Star {
+  name: String!
+  mass: Float!
+  position: Vector!
+  planets: [Planet!]!
+}
+
+type Starship {
+  name: String!
+  hyperjumping: Boolean!
+  task: Task!
+  position: Vector!
+  velocity: Vector!
+  angle: Float!
+  thrusting: Boolean!
 }
 
 enum Status {
@@ -98,8 +98,8 @@ enum Status {
 }
 
 type Subscription {
-  starshipUpdate: GQLStarship!
-  starUpdate: GQLStar!
+  starshipUpdate: Starship!
+  starUpdate: Star!
   inboxSub: Message!
   onAchievementUnlocked: Achievement!
 }

@@ -1,7 +1,7 @@
 import Sylvester from './sylvester-withmods'
 import objectRegistry, { ObjectID } from './objectRegistry'
-import { GQLStarship } from './GQLStarship';
-import { GQLPlanet } from '../universe/GQLPlanet';
+import { Starship } from './GQLStarship';
+import { Planet } from '../universe/GQLPlanet';
 import { ObjectType, Field, registerEnumType } from 'type-graphql';
 import { Target } from './Target';
 
@@ -66,7 +66,7 @@ export function createTask(taskType: TaskType, target?: Target, arg?: any) {
     case TaskType.ATTACK:
       if (
         target instanceof Target &&
-        !(target.getGameObject() instanceof GQLStarship)
+        !(target.getGameObject() instanceof Starship)
       ) {
         throw new Error(
           'Unsupported target gameobject type for TaskType ATTACK!'
@@ -79,11 +79,11 @@ export function createTask(taskType: TaskType, target?: Target, arg?: any) {
 }
 
 export function createTarget(
-  target: ObjectID | Sylvester.Vector | TargetType.LOST | GQLStarship | GQLPlanet
+  target: ObjectID | Sylvester.Vector | TargetType.LOST | Starship | Planet
 ): Target | null {
-  if (target instanceof GQLStarship) {
+  if (target instanceof Starship) {
     return new Target(TargetType.SHIP, target.name)
-  } else if (target instanceof GQLPlanet) {
+  } else if (target instanceof Planet) {
     return new Target(TargetType.GAMEOBJECT, target.name)
   } else if (target instanceof Sylvester.Vector) {
     return new Target(TargetType.POSITION, target)

@@ -9,43 +9,43 @@ import {
 
 import { filter as _filter } from 'lodash'
 
-import { GQLMoon } from "./GQLMoon";
+import { Moon } from "./GQLMoon";
 import { Universe } from "./UniverseDAO";
-import { GQLPlanet } from "./GQLPlanet";
-import { GQLStar } from "./GQLStar";
+import { Planet } from "./GQLPlanet";
+import { Star } from "./GQLStar";
 import { Message } from "../messages/Message";
 import { Messages } from "../messages/MessagesDAO";
 import { InboxFilter } from "../messages/InboxFilter";
-import { GQLStarship } from "../starship/GQLStarship";
+import { Starship } from "../starship/GQLStarship";
 
 export class RootResolver {
-    @Query(of => [GQLMoon])
+    @Query(of => [Moon])
     moons() {
         return Universe.getMoons();
     }
 
-    @Query(of => [GQLPlanet])
+    @Query(of => [Planet])
     planets() {
         return Universe.getPlanets();
     }
 
-    @Query(returns => GQLStar, { nullable: true })
-    async currentStar(): Promise<GQLStar | undefined> {
+    @Query(returns => Star, { nullable: true })
+    async currentStar(): Promise<Star | undefined> {
         return Universe.getCurrentStar();
     }
 
-    @Query(returns => [GQLStar], { nullable: true })
-    async stars(): Promise<GQLStar[] | undefined> {
+    @Query(returns => [Star], { nullable: true })
+    async stars(): Promise<Star[] | undefined> {
         return Universe.getStars();
     }
 
-    @Query(returns => GQLStarship)
+    @Query(returns => Starship)
     async starship() {
         return Universe.starship;
     }
 
-    @Query(returns => GQLStar, { nullable: true })
-    async star(@Arg("name") name: string): Promise<GQLStar | undefined> {
+    @Query(returns => Star, { nullable: true })
+    async star(@Arg("name") name: string): Promise<Star | undefined> {
         return Universe.findStar(name);
     }
 

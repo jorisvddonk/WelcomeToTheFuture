@@ -9,7 +9,7 @@ import Sylvester from "./sylvester-withmods";
 import Mymath from "./mymath";
 
 @ObjectType()
-export class GQLStarship implements IPosRot {
+export class Starship implements IPosRot {
   private autopilot: Autopilot;
   public _objid: ObjectID;
   public rotationVec: Sylvester.Vector;

@@ -1,9 +1,9 @@
 import { ObjectType, Field } from "type-graphql";
-import { GQLMoon } from "./GQLMoon";
+import { Moon } from "./GQLMoon";
 import { Vector } from "../starship/Vector";
 
 @ObjectType()
-export class GQLPlanet {
+export class Planet {
   @Field()
   name!: string;
 

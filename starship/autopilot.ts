@@ -1,6 +1,6 @@
 import { TargetType, TaskType } from './targets'
 import Sylvester from './sylvester-withmods'
-import { GQLStarship, ThrustVector } from './GQLStarship';
+import { Starship, ThrustVector } from './GQLStarship';
 import PIDController from './pidcontroller';
 import Mymath from './mymath';
 
@@ -9,7 +9,7 @@ const OFFSET_ALLOWED_BACKWARDS = 0.436332313 // 25 degrees
 export class Autopilot {
   public controllers: any
   public state: any
-  private ship: GQLStarship;
+  private ship: Starship;
   constructor(ship, options) {
     this.ship = ship;
     this.state = {};
