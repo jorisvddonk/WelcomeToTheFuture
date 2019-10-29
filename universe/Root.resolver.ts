@@ -33,15 +33,14 @@ export class RootResolver {
     }
 
     @Query(returns => [Star], { nullable: true })
-    async stars(@Arg("name", { nullable: true }) name: string, @Arg("maxRange", { nullable: true }) maxRange: number): Promise<Star[] | undefined> {
+    stars(@Arg("name", { nullable: true }) name: string, @Arg("nameSearch", { nullable: true }) nameSearch: string): Star[] | undefined {
         const filter: any = {};
         if (name !== undefined) {
             filter.name = name;
         }
-        return _filter(Universe.getStars(), filter).filter((x: IStar) => {
-            if (maxRange !== undefined) {
-                // TODO: use Star instead of IStar, and then use a getter function on Star?
-                return getRangeBetweenStars(Universe.getCurrentStar(), x) < maxRange;
+        return _filter(Universe.getStars(), filter).filter((star: Star) => {
+            if (nameSearch !== undefined) {
+                return star.name.toLowerCase().indexOf(nameSearch.toLowerCase()) > -1;
             }
             return true;
         });

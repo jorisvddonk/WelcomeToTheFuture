@@ -70,7 +70,7 @@ type Query {
   moons: [Moon!]!
   planets: [Planet!]!
   currentStar: Star
-  stars(maxRange: Float, name: String): [Star!]
+  stars(nameSearch: String, name: String): [Star!]
   starship: Starship!
   star(name: String!): Star
   inbox(filter: InboxFilter): [Message!]
