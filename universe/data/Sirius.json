@@ -18,6 +18,10 @@
       "length_of_day": 17.3,
       "mass": 0,
       "type": "Lanthanide",
+      "bioHazard": "NONE",
+      "weatherHazard": "LOW",
+      "tectonicsHazard": "SEVERE",
+      "thermalHazard": "INSTANT_DEATH",
       "orbital_period": 2973.8643465910827
     }
   ]

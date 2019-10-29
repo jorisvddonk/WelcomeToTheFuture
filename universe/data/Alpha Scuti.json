@@ -18,6 +18,10 @@
       "length_of_day": 28.5,
       "mass": 0,
       "type": "Magnetic",
+      "bioHazard": "NONE",
+      "weatherHazard": "NONE",
+      "tectonicsHazard": "SEVERE",
+      "thermalHazard": "NONE",
       "orbital_period": 11820.3929695412
     },
     {
@@ -33,6 +37,10 @@
       "parent": "I",
       "mass": 0,
       "type": "Green",
+      "bioHazard": "NONE",
+      "weatherHazard": "LOW",
+      "tectonicsHazard": "HIGH",
+      "thermalHazard": "NONE",
       "orbital_period": 11.8203929695412
     },
     {
@@ -48,6 +56,10 @@
       "parent": "I",
       "mass": 0,
       "type": "Carbide",
+      "bioHazard": "NONE",
+      "weatherHazard": "NONE",
+      "tectonicsHazard": "MODERATE",
+      "thermalHazard": "NONE",
       "orbital_period": 11.8203929695412
     }
   ]

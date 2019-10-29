@@ -18,6 +18,10 @@
       "length_of_day": 19.6,
       "mass": 0,
       "type": "Magnetic",
+      "bioHazard": "NONE",
+      "weatherHazard": "NONE",
+      "tectonicsHazard": "SEVERE",
+      "thermalHazard": "NONE",
       "orbital_period": 4314.830349059733
     },
     {
@@ -32,6 +36,10 @@
       "length_of_day": 28.6,
       "mass": 0,
       "type": "Plutonic",
+      "bioHazard": "NONE",
+      "weatherHazard": "LOW",
+      "tectonicsHazard": "HIGH",
+      "thermalHazard": "NONE",
       "orbital_period": 6864.662346379805
     },
     {
@@ -46,6 +54,10 @@
       "length_of_day": 17.4,
       "mass": 0,
       "type": "Ultraviolet",
+      "bioHazard": "NONE",
+      "weatherHazard": "MINIMUM",
+      "tectonicsHazard": "MODERATE",
+      "thermalHazard": "NONE",
       "orbital_period": 14514.16530826882
     }
   ]

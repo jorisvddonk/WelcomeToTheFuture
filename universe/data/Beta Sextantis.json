@@ -18,6 +18,10 @@
       "length_of_day": 29.6,
       "mass": 0,
       "type": "Green",
+      "bioHazard": "NONE",
+      "weatherHazard": "MINIMUM",
+      "tectonicsHazard": "MODERATE",
+      "thermalHazard": "NONE",
       "orbital_period": 16639.684532135263
     },
     {
@@ -32,6 +36,10 @@
       "length_of_day": 20.1,
       "mass": 0,
       "type": "Infrared",
+      "bioHazard": "NONE",
+      "weatherHazard": "MINIMUM",
+      "tectonicsHazard": "LOW",
+      "thermalHazard": "NONE",
       "orbital_period": 20491.606943624203
     }
   ]

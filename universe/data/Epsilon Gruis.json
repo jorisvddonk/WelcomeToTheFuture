@@ -18,6 +18,10 @@
       "length_of_day": 19.8,
       "mass": 0,
       "type": "Water",
+      "bioHazard": "NONE",
+      "weatherHazard": "NONE",
+      "tectonicsHazard": "NONE",
+      "thermalHazard": "NONE",
       "orbital_period": 10064.984196028261
     },
     {
@@ -33,6 +37,10 @@
       "parent": "Spathiwa",
       "mass": 0,
       "type": "Pellucid",
+      "bioHazard": "NONE",
+      "weatherHazard": "NONE",
+      "tectonicsHazard": "LOW",
+      "thermalHazard": "NONE",
       "orbital_period": 10.064984196028261
     }
   ]

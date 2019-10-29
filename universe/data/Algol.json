@@ -18,6 +18,10 @@
       "length_of_day": 23.9,
       "mass": 0,
       "type": "Pellucid",
+      "bioHazard": "NONE",
+      "weatherHazard": "NONE",
+      "tectonicsHazard": "MINIMUM",
+      "thermalHazard": "NONE",
       "orbital_period": 1184.0381031878126
     },
     {
@@ -32,6 +36,10 @@
       "length_of_day": 28.1,
       "mass": 0,
       "type": "Cimmerian",
+      "bioHazard": "NONE",
+      "weatherHazard": "NONE",
+      "tectonicsHazard": "MODERATE",
+      "thermalHazard": "NONE",
       "orbital_period": 3792.5118378815873
     },
     {
@@ -46,6 +54,10 @@
       "length_of_day": 21,
       "mass": 0,
       "type": "Urea",
+      "bioHazard": "NONE",
+      "weatherHazard": "LOW",
+      "tectonicsHazard": "SEVERE",
+      "thermalHazard": "NONE",
       "orbital_period": 5014.554005544669
     },
     {
@@ -60,6 +72,10 @@
       "length_of_day": 26.7,
       "mass": 0,
       "type": "Purple",
+      "bioHazard": "NONE",
+      "weatherHazard": "NONE",
+      "tectonicsHazard": "MINIMUM",
+      "thermalHazard": "NONE",
       "orbital_period": 8228.561825721546
     },
     {
@@ -74,6 +90,10 @@
       "length_of_day": 28.3,
       "mass": 0,
       "type": "Hydrocarbon",
+      "bioHazard": "NONE",
+      "weatherHazard": "NONE",
+      "tectonicsHazard": "MODERATE",
+      "thermalHazard": "NONE",
       "orbital_period": 15495.76494726866
     },
     {
@@ -88,6 +108,10 @@
       "length_of_day": 27.5,
       "mass": 0,
       "type": "Magma",
+      "bioHazard": "NONE",
+      "weatherHazard": "NONE",
+      "tectonicsHazard": "INSTANT_DEATH",
+      "thermalHazard": "NONE",
       "orbital_period": 17755.767518979534
     }
   ]

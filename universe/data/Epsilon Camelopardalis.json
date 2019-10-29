@@ -18,6 +18,10 @@
       "length_of_day": 25.4,
       "mass": 0,
       "type": "Chlorine",
+      "bioHazard": "NONE",
+      "weatherHazard": "NONE",
+      "tectonicsHazard": "SEVERE",
+      "thermalHazard": "NONE",
       "orbital_period": 485.19058697144067
     },
     {
@@ -32,6 +36,10 @@
       "length_of_day": 26.3,
       "mass": 0,
       "type": "Alkali",
+      "bioHazard": "NONE",
+      "weatherHazard": "MINIMUM",
+      "tectonicsHazard": "LOW",
+      "thermalHazard": "NONE",
       "orbital_period": 1485.224691478353
     },
     {
@@ -47,6 +55,10 @@
       "parent": "I",
       "mass": 0,
       "type": "Green",
+      "bioHazard": "NONE",
+      "weatherHazard": "MODERATE",
+      "tectonicsHazard": "HIGH",
+      "thermalHazard": "NONE",
       "orbital_period": 0.4851905869714405
     }
   ]

@@ -18,6 +18,10 @@
       "length_of_day": 15.6,
       "mass": 0,
       "type": "Auric",
+      "bioHazard": "EXTREME",
+      "weatherHazard": "SEVERE",
+      "tectonicsHazard": "NONE",
+      "thermalHazard": "LOW",
       "orbital_period": 153.98028700399692
     },
     {
@@ -32,6 +36,10 @@
       "length_of_day": 28.3,
       "mass": 0,
       "type": "Selenic",
+      "bioHazard": "NONE",
+      "weatherHazard": "NONE",
+      "tectonicsHazard": "NONE",
+      "thermalHazard": "NONE",
       "orbital_period": 2312.32709053496
     },
     {
@@ -46,6 +54,10 @@
       "length_of_day": 13.9,
       "mass": 0,
       "type": "Gas Giant",
+      "bioHazard": "NONE",
+      "weatherHazard": "INSTANT_DEATH",
+      "tectonicsHazard": "LOW",
+      "thermalHazard": "NONE",
       "orbital_period": 3683.3734835736705
     },
     {
@@ -60,6 +72,10 @@
       "length_of_day": 28.2,
       "mass": 0,
       "type": "Cimmerian",
+      "bioHazard": "NONE",
+      "weatherHazard": "NONE",
+      "tectonicsHazard": "MODERATE",
+      "thermalHazard": "NONE",
       "orbital_period": 10958.662733277444
     },
     {
@@ -74,6 +90,10 @@
       "length_of_day": 26.2,
       "mass": 0,
       "type": "Xenolithic",
+      "bioHazard": "NONE",
+      "weatherHazard": "NONE",
+      "tectonicsHazard": "LOW",
+      "thermalHazard": "NONE",
       "orbital_period": 19925.114186376304
     }
   ]

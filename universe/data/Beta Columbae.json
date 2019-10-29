@@ -18,6 +18,10 @@
       "length_of_day": 28.3,
       "mass": 0,
       "type": "Iodine",
+      "bioHazard": "NONE",
+      "weatherHazard": "MINIMUM",
+      "tectonicsHazard": "MODERATE",
+      "thermalHazard": "NONE",
       "orbital_period": 1355.732300647565
     }
   ]

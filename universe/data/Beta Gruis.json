@@ -18,6 +18,10 @@
       "length_of_day": 20.5,
       "mass": 0,
       "type": "Lanthanide",
+      "bioHazard": "EXTREME",
+      "weatherHazard": "MINIMUM",
+      "tectonicsHazard": "EXTREME",
+      "thermalHazard": "NONE",
       "orbital_period": 1876.2087570320546
     },
     {
@@ -32,6 +36,10 @@
       "length_of_day": 20.6,
       "mass": 0,
       "type": "Treasure",
+      "bioHazard": "NONE",
+      "weatherHazard": "NONE",
+      "tectonicsHazard": "MINIMUM",
+      "thermalHazard": "NONE",
       "orbital_period": 5301.500871527352
     },
     {
@@ -46,6 +54,10 @@
       "length_of_day": 15.3,
       "mass": 0,
       "type": "Gas Giant",
+      "bioHazard": "NONE",
+      "weatherHazard": "INSTANT_DEATH",
+      "tectonicsHazard": "MINIMUM",
+      "thermalHazard": "NONE",
       "orbital_period": 13732.982167069542
     }
   ]

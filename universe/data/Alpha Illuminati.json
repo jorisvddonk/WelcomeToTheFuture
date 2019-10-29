@@ -18,6 +18,10 @@
       "length_of_day": 23.5,
       "mass": 0,
       "type": "Metal",
+      "bioHazard": "NONE",
+      "weatherHazard": "EXTREME",
+      "tectonicsHazard": "LOW",
+      "thermalHazard": "INSTANT_DEATH",
       "orbital_period": 659.9812493073503
     },
     {
@@ -32,6 +36,10 @@
       "length_of_day": 17.8,
       "mass": 0,
       "type": "Hydrocarbon",
+      "bioHazard": "NONE",
+      "weatherHazard": "LOW",
+      "tectonicsHazard": "MINIMUM",
+      "thermalHazard": "EXTREME",
       "orbital_period": 2235.570990339311
     },
     {
@@ -46,6 +54,10 @@
       "length_of_day": 27.5,
       "mass": 0,
       "type": "Chondrite",
+      "bioHazard": "NONE",
+      "weatherHazard": "NONE",
+      "tectonicsHazard": "HIGH",
+      "thermalHazard": "HIGH",
       "orbital_period": 4908.587089469193
     },
     {
@@ -60,6 +72,10 @@
       "length_of_day": 17.2,
       "mass": 0,
       "type": "Metal",
+      "bioHazard": "NONE",
+      "weatherHazard": "EXTREME",
+      "tectonicsHazard": "MODERATE",
+      "thermalHazard": "INSTANT_DEATH",
       "orbital_period": 6261.859269823538
     },
     {
@@ -74,6 +90,10 @@
       "length_of_day": 24.8,
       "mass": 0,
       "type": "Magma",
+      "bioHazard": "NONE",
+      "weatherHazard": "LOW",
+      "tectonicsHazard": "INSTANT_DEATH",
+      "thermalHazard": "SEVERE",
       "orbital_period": 7669.514821052449
     },
     {
@@ -88,6 +108,10 @@
       "length_of_day": 2794.2,
       "mass": 0,
       "type": "Magma",
+      "bioHazard": "EXTREME",
+      "weatherHazard": "MINIMUM",
+      "tectonicsHazard": "INSTANT_DEATH",
+      "thermalHazard": "SEVERE",
       "orbital_period": 10557.045720277662
     },
     {
@@ -102,6 +126,10 @@
       "length_of_day": 1861.3,
       "mass": 0,
       "type": "Pellucid",
+      "bioHazard": "NONE",
+      "weatherHazard": "MINIMUM",
+      "tectonicsHazard": "NONE",
+      "thermalHazard": "SEVERE",
       "orbital_period": 12445.947247237904
     },
     {
@@ -117,6 +145,10 @@
       "parent": "II",
       "mass": 0,
       "type": "Infrared",
+      "bioHazard": "NONE",
+      "weatherHazard": "EXTREME",
+      "tectonicsHazard": "MODERATE",
+      "thermalHazard": "INSTANT_DEATH",
       "orbital_period": 2.235570990339311
     }
   ]

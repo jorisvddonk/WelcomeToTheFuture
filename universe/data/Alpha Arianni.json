@@ -18,6 +18,10 @@
       "length_of_day": 18,
       "mass": 0,
       "type": "Water",
+      "bioHazard": "NONE",
+      "weatherHazard": "MINIMUM",
+      "tectonicsHazard": "LOW",
+      "thermalHazard": "NONE",
       "orbital_period": 10477.031489086121
     }
   ]

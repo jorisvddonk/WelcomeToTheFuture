@@ -18,6 +18,10 @@
       "length_of_day": 4107.5,
       "mass": 0,
       "type": "Emerald",
+      "bioHazard": "NONE",
+      "weatherHazard": "NONE",
+      "tectonicsHazard": "MINIMUM",
+      "thermalHazard": "NONE",
       "orbital_period": 1492.0585407378978
     },
     {
@@ -32,6 +36,10 @@
       "length_of_day": 27.7,
       "mass": 0,
       "type": "Noble",
+      "bioHazard": "NONE",
+      "weatherHazard": "NONE",
+      "tectonicsHazard": "LOW",
+      "thermalHazard": "NONE",
       "orbital_period": 5086.4343055430845
     },
     {
@@ -46,6 +54,10 @@
       "length_of_day": 10.5,
       "mass": 0,
       "type": "Gas Giant",
+      "bioHazard": "NONE",
+      "weatherHazard": "INSTANT_DEATH",
+      "tectonicsHazard": "MINIMUM",
+      "thermalHazard": "NONE",
       "orbital_period": 9144.9684467449
     },
     {
@@ -60,6 +72,10 @@
       "length_of_day": 17.1,
       "mass": 0,
       "type": "Alkali",
+      "bioHazard": "NONE",
+      "weatherHazard": "MINIMUM",
+      "tectonicsHazard": "MINIMUM",
+      "thermalHazard": "NONE",
       "orbital_period": 11015.210627466002
     },
     {
@@ -74,6 +90,10 @@
       "length_of_day": 19.8,
       "mass": 0,
       "type": "Radioactive",
+      "bioHazard": "NONE",
+      "weatherHazard": "NONE",
+      "tectonicsHazard": "LOW",
+      "thermalHazard": "NONE",
       "orbital_period": 16884.758755795847
     },
     {
@@ -89,6 +109,10 @@
       "parent": "III",
       "mass": 0,
       "type": "Treasure",
+      "bioHazard": "NONE",
+      "weatherHazard": "NONE",
+      "tectonicsHazard": "MINIMUM",
+      "thermalHazard": "NONE",
       "orbital_period": 9.1449684467449
     },
     {
@@ -104,6 +128,10 @@
       "parent": "III",
       "mass": 0,
       "type": "Noble",
+      "bioHazard": "NONE",
+      "weatherHazard": "NONE",
+      "tectonicsHazard": "LOW",
+      "thermalHazard": "NONE",
       "orbital_period": 9.1449684467449
     }
   ]

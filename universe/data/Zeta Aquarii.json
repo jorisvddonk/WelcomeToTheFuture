@@ -18,6 +18,10 @@
       "length_of_day": 23.7,
       "mass": 0,
       "type": "Vinylogous",
+      "bioHazard": "NONE",
+      "weatherHazard": "NONE",
+      "tectonicsHazard": "MODERATE",
+      "thermalHazard": "NONE",
       "orbital_period": 10670.79414282581
     },
     {
@@ -32,6 +36,10 @@
       "length_of_day": 17.2,
       "mass": 0,
       "type": "Radioactive",
+      "bioHazard": "NONE",
+      "weatherHazard": "NONE",
+      "tectonicsHazard": "NONE",
+      "thermalHazard": "NONE",
       "orbital_period": 18269.574076971614
     }
   ]

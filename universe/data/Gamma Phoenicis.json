@@ -18,6 +18,10 @@
       "length_of_day": 2495.5,
       "mass": 0,
       "type": "Treasure",
+      "bioHazard": "NONE",
+      "weatherHazard": "MODERATE",
+      "tectonicsHazard": "LOW",
+      "thermalHazard": "SEVERE",
       "orbital_period": 370.349879581449
     },
     {
@@ -32,6 +36,10 @@
       "length_of_day": 25.3,
       "mass": 0,
       "type": "Metal",
+      "bioHazard": "HIGH",
+      "weatherHazard": "LOW",
+      "tectonicsHazard": "MODERATE",
+      "thermalHazard": "NONE",
       "orbital_period": 6179.880113307579
     },
     {
@@ -46,6 +54,10 @@
       "length_of_day": 3743.3,
       "mass": 0,
       "type": "Quasi-Degenerate",
+      "bioHazard": "NONE",
+      "weatherHazard": "NONE",
+      "tectonicsHazard": "SEVERE",
+      "thermalHazard": "NONE",
       "orbital_period": 19876.457022325794
     }
   ]

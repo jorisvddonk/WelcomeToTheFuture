@@ -18,6 +18,10 @@
       "length_of_day": 21.6,
       "mass": 0,
       "type": "Iodine",
+      "bioHazard": "NONE",
+      "weatherHazard": "HIGH",
+      "tectonicsHazard": "HIGH",
+      "thermalHazard": "INSTANT_DEATH",
       "orbital_period": 6156.982525362748
     },
     {
@@ -33,6 +37,10 @@
       "parent": "I",
       "mass": 0,
       "type": "Opalescent",
+      "bioHazard": "NONE",
+      "weatherHazard": "NONE",
+      "tectonicsHazard": "MODERATE",
+      "thermalHazard": "INSTANT_DEATH",
       "orbital_period": 6.156982525362746
     }
   ]

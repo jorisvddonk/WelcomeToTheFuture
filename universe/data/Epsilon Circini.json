@@ -18,6 +18,10 @@
       "length_of_day": 3527.9,
       "mass": 0,
       "type": "Ultramarine",
+      "bioHazard": "HIGH",
+      "weatherHazard": "MODERATE",
+      "tectonicsHazard": "LOW",
+      "thermalHazard": "NONE",
       "orbital_period": 309.8099926537935
     },
     {
@@ -32,6 +36,10 @@
       "length_of_day": 27.6,
       "mass": 0,
       "type": "Maroon",
+      "bioHazard": "NONE",
+      "weatherHazard": "MINIMUM",
+      "tectonicsHazard": "MINIMUM",
+      "thermalHazard": "NONE",
       "orbital_period": 1309.6289361357651
     },
     {
@@ -46,6 +54,10 @@
       "length_of_day": 16.3,
       "mass": 0,
       "type": "Selenic",
+      "bioHazard": "NONE",
+      "weatherHazard": "NONE",
+      "tectonicsHazard": "MINIMUM",
+      "thermalHazard": "NONE",
       "orbital_period": 3452.467640171632
     },
     {
@@ -60,6 +72,10 @@
       "length_of_day": 17.1,
       "mass": 0,
       "type": "Iodine",
+      "bioHazard": "NONE",
+      "weatherHazard": "MINIMUM",
+      "tectonicsHazard": "SEVERE",
+      "thermalHazard": "NONE",
       "orbital_period": 5684.270947980912
     },
     {
@@ -74,6 +90,10 @@
       "length_of_day": 15.9,
       "mass": 0,
       "type": "Acid",
+      "bioHazard": "NONE",
+      "weatherHazard": "NONE",
+      "tectonicsHazard": "MINIMUM",
+      "thermalHazard": "NONE",
       "orbital_period": 9443.826219288956
     },
     {
@@ -88,6 +108,10 @@
       "length_of_day": 5328.6,
       "mass": 0,
       "type": "Selenic",
+      "bioHazard": "NONE",
+      "weatherHazard": "NONE",
+      "tectonicsHazard": "LOW",
+      "thermalHazard": "NONE",
       "orbital_period": 14730.037006395602
     },
     {
@@ -102,6 +126,10 @@
       "length_of_day": 16.9,
       "mass": 0,
       "type": "Chlorine",
+      "bioHazard": "NONE",
+      "weatherHazard": "NONE",
+      "tectonicsHazard": "HIGH",
+      "thermalHazard": "NONE",
       "orbital_period": 17463.81025148608
     },
     {
@@ -116,6 +144,10 @@
       "length_of_day": 17.9,
       "mass": 0,
       "type": "Vinylogous",
+      "bioHazard": "NONE",
+      "weatherHazard": "NONE",
+      "tectonicsHazard": "HIGH",
+      "thermalHazard": "NONE",
       "orbital_period": 20242.350522591052
     },
     {
@@ -131,6 +163,10 @@
       "parent": "VIII",
       "mass": 0,
       "type": "Alkali",
+      "bioHazard": "NONE",
+      "weatherHazard": "NONE",
+      "tectonicsHazard": "MODERATE",
+      "thermalHazard": "NONE",
       "orbital_period": 20.24235052259105
     }
   ]

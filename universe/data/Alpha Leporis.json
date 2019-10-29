@@ -18,6 +18,10 @@
       "length_of_day": 20.5,
       "mass": 0,
       "type": "Iodine",
+      "bioHazard": "NONE",
+      "weatherHazard": "MINIMUM",
+      "tectonicsHazard": "MODERATE",
+      "thermalHazard": "NONE",
       "orbital_period": 1522.9399434332997
     },
     {
@@ -32,6 +36,10 @@
       "length_of_day": 8.9,
       "mass": 0,
       "type": "Gas Giant",
+      "bioHazard": "NONE",
+      "weatherHazard": "INSTANT_DEATH",
+      "tectonicsHazard": "LOW",
+      "thermalHazard": "NONE",
       "orbital_period": 3832.2482787274616
     },
     {
@@ -46,6 +54,10 @@
       "length_of_day": 18.7,
       "mass": 0,
       "type": "Magnetic",
+      "bioHazard": "NONE",
+      "weatherHazard": "NONE",
+      "tectonicsHazard": "EXTREME",
+      "thermalHazard": "NONE",
       "orbital_period": 5652.256953492218
     },
     {
@@ -60,6 +72,10 @@
       "length_of_day": 29.3,
       "mass": 0,
       "type": "Purple",
+      "bioHazard": "NONE",
+      "weatherHazard": "NONE",
+      "tectonicsHazard": "LOW",
+      "thermalHazard": "NONE",
       "orbital_period": 9902.896345937199
     },
     {
@@ -74,6 +90,10 @@
       "length_of_day": 18.3,
       "mass": 0,
       "type": "Maroon",
+      "bioHazard": "NONE",
+      "weatherHazard": "MINIMUM",
+      "tectonicsHazard": "MINIMUM",
+      "thermalHazard": "NONE",
       "orbital_period": 12155.986176475335
     },
     {
@@ -89,6 +109,10 @@
       "parent": "II",
       "mass": 0,
       "type": "Crimson",
+      "bioHazard": "NONE",
+      "weatherHazard": "LOW",
+      "tectonicsHazard": "MINIMUM",
+      "thermalHazard": "NONE",
       "orbital_period": 3.832248278727461
     },
     {
@@ -104,6 +128,10 @@
       "parent": "II",
       "mass": 0,
       "type": "Radioactive",
+      "bioHazard": "NONE",
+      "weatherHazard": "NONE",
+      "tectonicsHazard": "LOW",
+      "thermalHazard": "NONE",
       "orbital_period": 3.832248278727461
     },
     {
@@ -119,6 +147,10 @@
       "parent": "II",
       "mass": 0,
       "type": "Halide",
+      "bioHazard": "NONE",
+      "weatherHazard": "NONE",
+      "tectonicsHazard": "MINIMUM",
+      "thermalHazard": "NONE",
       "orbital_period": 3.832248278727461
     }
   ]

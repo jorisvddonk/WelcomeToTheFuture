@@ -18,6 +18,10 @@
       "length_of_day": 18.4,
       "mass": 0,
       "type": "Chondrite",
+      "bioHazard": "NONE",
+      "weatherHazard": "NONE",
+      "tectonicsHazard": "SEVERE",
+      "thermalHazard": "MINIMUM",
       "orbital_period": 380.0624900328105
     },
     {
@@ -32,6 +36,10 @@
       "length_of_day": 18.7,
       "mass": 0,
       "type": "Chondrite",
+      "bioHazard": "NONE",
+      "weatherHazard": "NONE",
+      "tectonicsHazard": "SEVERE",
+      "thermalHazard": "NONE",
       "orbital_period": 1492.0585407378978
     },
     {
@@ -46,6 +54,10 @@
       "length_of_day": 15.7,
       "mass": 0,
       "type": "Treasure",
+      "bioHazard": "NONE",
+      "weatherHazard": "NONE",
+      "tectonicsHazard": "MINIMUM",
+      "thermalHazard": "NONE",
       "orbital_period": 7275.298474396431
     },
     {
@@ -60,6 +72,10 @@
       "length_of_day": 29.8,
       "mass": 0,
       "type": "Quasi-Degenerate",
+      "bioHazard": "NONE",
+      "weatherHazard": "NONE",
+      "tectonicsHazard": "SEVERE",
+      "thermalHazard": "NONE",
       "orbital_period": 11021.869696750327
     },
     {
@@ -74,6 +90,10 @@
       "length_of_day": 4220.6,
       "mass": 0,
       "type": "Iodine",
+      "bioHazard": "HIGH",
+      "weatherHazard": "NONE",
+      "tectonicsHazard": "LOW",
+      "thermalHazard": "NONE",
       "orbital_period": 13475.8055127835
     }
   ]

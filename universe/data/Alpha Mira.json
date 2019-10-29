@@ -18,6 +18,10 @@
       "length_of_day": 18,
       "mass": 0,
       "type": "Telluric",
+      "bioHazard": "EXTREME",
+      "weatherHazard": "MODERATE",
+      "tectonicsHazard": "MODERATE",
+      "thermalHazard": "NONE",
       "orbital_period": 221.50089710899968
     },
     {
@@ -32,6 +36,10 @@
       "length_of_day": 22.5,
       "mass": 0,
       "type": "Super-Dense",
+      "bioHazard": "NONE",
+      "weatherHazard": "LOW",
+      "tectonicsHazard": "INSTANT_DEATH",
+      "thermalHazard": "NONE",
       "orbital_period": 1898.3976796534864
     }
   ]

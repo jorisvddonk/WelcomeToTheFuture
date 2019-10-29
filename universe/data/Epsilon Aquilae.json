@@ -18,6 +18,10 @@
       "length_of_day": 21.6,
       "mass": 0,
       "type": "Carbide",
+      "bioHazard": "EXTREME",
+      "weatherHazard": "NONE",
+      "tectonicsHazard": "MODERATE",
+      "thermalHazard": "NONE",
       "orbital_period": 465.3407977389626
     },
     {
@@ -32,6 +36,10 @@
       "length_of_day": 26,
       "mass": 0,
       "type": "Iodine",
+      "bioHazard": "NONE",
+      "weatherHazard": "MINIMUM",
+      "tectonicsHazard": "MODERATE",
+      "thermalHazard": "NONE",
       "orbital_period": 1329.3223997165164
     },
     {
@@ -46,6 +54,10 @@
       "length_of_day": 11.5,
       "mass": 0,
       "type": "Gas Giant",
+      "bioHazard": "NONE",
+      "weatherHazard": "INSTANT_DEATH",
+      "tectonicsHazard": "LOW",
+      "thermalHazard": "NONE",
       "orbital_period": 3125.4290875449274
     },
     {
@@ -60,6 +72,10 @@
       "length_of_day": 22.3,
       "mass": 0,
       "type": "Iodine",
+      "bioHazard": "NONE",
+      "weatherHazard": "MINIMUM",
+      "tectonicsHazard": "MODERATE",
+      "thermalHazard": "NONE",
       "orbital_period": 7776.666919241296
     },
     {
@@ -74,6 +90,10 @@
       "length_of_day": 15.5,
       "mass": 0,
       "type": "Dust",
+      "bioHazard": "NONE",
+      "weatherHazard": "MINIMUM",
+      "tectonicsHazard": "MINIMUM",
+      "thermalHazard": "NONE",
       "orbital_period": 13298.166488493502
     },
     {
@@ -88,6 +108,10 @@
       "length_of_day": 22.2,
       "mass": 0,
       "type": "Selenic",
+      "bioHazard": "NONE",
+      "weatherHazard": "NONE",
+      "tectonicsHazard": "NONE",
+      "thermalHazard": "NONE",
       "orbital_period": 16674.07588159047
     },
     {
@@ -103,6 +127,10 @@
       "parent": "III",
       "mass": 0,
       "type": "Alkali",
+      "bioHazard": "NONE",
+      "weatherHazard": "MINIMUM",
+      "tectonicsHazard": "MODERATE",
+      "thermalHazard": "NONE",
       "orbital_period": 3.1254290875449278
     },
     {
@@ -118,6 +146,10 @@
       "parent": "III",
       "mass": 0,
       "type": "Chondrite",
+      "bioHazard": "NONE",
+      "weatherHazard": "NONE",
+      "tectonicsHazard": "EXTREME",
+      "thermalHazard": "NONE",
       "orbital_period": 3.1254290875449278
     }
   ]

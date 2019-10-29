@@ -18,6 +18,10 @@
       "length_of_day": 18.9,
       "mass": 0,
       "type": "Halide",
+      "bioHazard": "NONE",
+      "weatherHazard": "NONE",
+      "tectonicsHazard": "LOW",
+      "thermalHazard": "NONE",
       "orbital_period": 2010.6374495829627
     },
     {
@@ -32,6 +36,10 @@
       "length_of_day": 17.8,
       "mass": 0,
       "type": "Green",
+      "bioHazard": "NONE",
+      "weatherHazard": "LOW",
+      "tectonicsHazard": "HIGH",
+      "thermalHazard": "NONE",
       "orbital_period": 3189.0852179770836
     },
     {
@@ -46,6 +54,10 @@
       "length_of_day": 27.4,
       "mass": 0,
       "type": "Primordial",
+      "bioHazard": "HIGH",
+      "weatherHazard": "LOW",
+      "tectonicsHazard": "INSTANT_DEATH",
+      "thermalHazard": "NONE",
       "orbital_period": 5166.412835938218
     },
     {
@@ -60,6 +72,10 @@
       "length_of_day": 9,
       "mass": 0,
       "type": "Gas Giant",
+      "bioHazard": "NONE",
+      "weatherHazard": "INSTANT_DEATH",
+      "tectonicsHazard": "MINIMUM",
+      "thermalHazard": "NONE",
       "orbital_period": 8725.82481890789
     },
     {
@@ -74,6 +90,10 @@
       "length_of_day": 26.3,
       "mass": 0,
       "type": "Redux",
+      "bioHazard": "NONE",
+      "weatherHazard": "NONE",
+      "tectonicsHazard": "MODERATE",
+      "thermalHazard": "NONE",
       "orbital_period": 12453.05530246119
     },
     {
@@ -88,6 +108,10 @@
       "length_of_day": 29.6,
       "mass": 0,
       "type": "Plutonic",
+      "bioHazard": "NONE",
+      "weatherHazard": "MINIMUM",
+      "tectonicsHazard": "MODERATE",
+      "thermalHazard": "NONE",
       "orbital_period": 20828.27112758266
     },
     {
@@ -103,6 +127,10 @@
       "parent": "IV",
       "mass": 0,
       "type": "Cyanic",
+      "bioHazard": "NONE",
+      "weatherHazard": "NONE",
+      "tectonicsHazard": "NONE",
+      "thermalHazard": "NONE",
       "orbital_period": 8.72582481890789
     },
     {
@@ -118,6 +146,10 @@
       "parent": "IV",
       "mass": 0,
       "type": "Cyanic",
+      "bioHazard": "NONE",
+      "weatherHazard": "NONE",
+      "tectonicsHazard": "MINIMUM",
+      "thermalHazard": "NONE",
       "orbital_period": 8.72582481890789
     },
     {
@@ -133,6 +165,10 @@
       "parent": "IV",
       "mass": 0,
       "type": "Selenic",
+      "bioHazard": "NONE",
+      "weatherHazard": "NONE",
+      "tectonicsHazard": "NONE",
+      "thermalHazard": "NONE",
       "orbital_period": 8.72582481890789
     },
     {
@@ -148,6 +184,10 @@
       "parent": "IV",
       "mass": 0,
       "type": "Azure",
+      "bioHazard": "NONE",
+      "weatherHazard": "MINIMUM",
+      "tectonicsHazard": "HIGH",
+      "thermalHazard": "NONE",
       "orbital_period": 8.72582481890789
     }
   ]

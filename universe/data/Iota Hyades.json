@@ -18,6 +18,10 @@
       "length_of_day": 22.5,
       "mass": 0,
       "type": "Treasure",
+      "bioHazard": "NONE",
+      "weatherHazard": "MINIMUM",
+      "tectonicsHazard": "NONE",
+      "thermalHazard": "MINIMUM",
       "orbital_period": 1111.9744285426398
     },
     {
@@ -32,6 +36,10 @@
       "length_of_day": 23,
       "mass": 0,
       "type": "Ruby",
+      "bioHazard": "SEVERE",
+      "weatherHazard": "MINIMUM",
+      "tectonicsHazard": "LOW",
+      "thermalHazard": "NONE",
       "orbital_period": 2424.0090862655707
     },
     {
@@ -46,6 +54,10 @@
       "length_of_day": 2089.6,
       "mass": 0,
       "type": "Redux",
+      "bioHazard": "NONE",
+      "weatherHazard": "NONE",
+      "tectonicsHazard": "LOW",
+      "thermalHazard": "NONE",
       "orbital_period": 3595.9138949840903
     },
     {
@@ -60,6 +72,10 @@
       "length_of_day": 17.4,
       "mass": 0,
       "type": "Acid",
+      "bioHazard": "NONE",
+      "weatherHazard": "NONE",
+      "tectonicsHazard": "LOW",
+      "thermalHazard": "NONE",
       "orbital_period": 5641.599022589238
     },
     {
@@ -74,6 +90,10 @@
       "length_of_day": 26.9,
       "mass": 0,
       "type": "Primordial",
+      "bioHazard": "NONE",
+      "weatherHazard": "LOW",
+      "tectonicsHazard": "INSTANT_DEATH",
+      "thermalHazard": "NONE",
       "orbital_period": 9873.99216824619
     },
     {
@@ -88,6 +108,10 @@
       "length_of_day": 23.5,
       "mass": 0,
       "type": "Opalescent",
+      "bioHazard": "NONE",
+      "weatherHazard": "NONE",
+      "tectonicsHazard": "MODERATE",
+      "thermalHazard": "NONE",
       "orbital_period": 14157.954929541062
     },
     {
@@ -102,6 +126,10 @@
       "length_of_day": 9,
       "mass": 0,
       "type": "Gas Giant",
+      "bioHazard": "NONE",
+      "weatherHazard": "INSTANT_DEATH",
+      "tectonicsHazard": "LOW",
+      "thermalHazard": "NONE",
       "orbital_period": 18399.774818134145
     },
     {
@@ -117,6 +145,10 @@
       "parent": "VII",
       "mass": 0,
       "type": "Oolite",
+      "bioHazard": "NONE",
+      "weatherHazard": "MINIMUM",
+      "tectonicsHazard": "LOW",
+      "thermalHazard": "NONE",
       "orbital_period": 18.399774818134144
     },
     {
@@ -132,6 +164,10 @@
       "parent": "VII",
       "mass": 0,
       "type": "Yttric",
+      "bioHazard": "NONE",
+      "weatherHazard": "NONE",
+      "tectonicsHazard": "MINIMUM",
+      "thermalHazard": "NONE",
       "orbital_period": 18.399774818134144
     }
   ]

@@ -18,6 +18,10 @@
       "length_of_day": 18.8,
       "mass": 0,
       "type": "Radioactive",
+      "bioHazard": "NONE",
+      "weatherHazard": "MODERATE",
+      "tectonicsHazard": "MINIMUM",
+      "thermalHazard": "SEVERE",
       "orbital_period": 160.44048262556342
     },
     {
@@ -32,6 +36,10 @@
       "length_of_day": 18,
       "mass": 0,
       "type": "Green",
+      "bioHazard": "NONE",
+      "weatherHazard": "INSTANT_DEATH",
+      "tectonicsHazard": "SEVERE",
+      "thermalHazard": "MODERATE",
       "orbital_period": 541.4866288612766
     },
     {
@@ -46,6 +54,10 @@
       "length_of_day": 4179.6,
       "mass": 0,
       "type": "Urea",
+      "bioHazard": "MINIMUM",
+      "weatherHazard": "LOW",
+      "tectonicsHazard": "EXTREME",
+      "thermalHazard": "NONE",
       "orbital_period": 4881.970146705337
     },
     {
@@ -60,6 +72,10 @@
       "length_of_day": 27,
       "mass": 0,
       "type": "Treasure",
+      "bioHazard": "NONE",
+      "weatherHazard": "NONE",
+      "tectonicsHazard": "LOW",
+      "thermalHazard": "NONE",
       "orbital_period": 8286.023016394525
     },
     {
@@ -74,6 +90,10 @@
       "length_of_day": 21.6,
       "mass": 0,
       "type": "Lanthanide",
+      "bioHazard": "NONE",
+      "weatherHazard": "NONE",
+      "tectonicsHazard": "SEVERE",
+      "thermalHazard": "NONE",
       "orbital_period": 13393.993978848377
     },
     {
@@ -88,6 +108,10 @@
       "length_of_day": 27.3,
       "mass": 0,
       "type": "Copper",
+      "bioHazard": "NONE",
+      "weatherHazard": "NONE",
+      "tectonicsHazard": "NONE",
+      "thermalHazard": "NONE",
       "orbital_period": 17239.138935471496
     },
     {
@@ -102,6 +126,10 @@
       "length_of_day": 24.9,
       "mass": 0,
       "type": "Copper",
+      "bioHazard": "NONE",
+      "weatherHazard": "NONE",
+      "tectonicsHazard": "MINIMUM",
+      "thermalHazard": "NONE",
       "orbital_period": 19860.2467819479
     }
   ]

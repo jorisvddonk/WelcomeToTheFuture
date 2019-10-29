@@ -18,6 +18,10 @@
       "length_of_day": 28.2,
       "mass": 0,
       "type": "Treasure",
+      "bioHazard": "SEVERE",
+      "weatherHazard": "LOW",
+      "tectonicsHazard": "NONE",
+      "thermalHazard": "NONE",
       "orbital_period": 910.8623420431296
     },
     {
@@ -32,6 +36,10 @@
       "length_of_day": 18.9,
       "mass": 0,
       "type": "Organic",
+      "bioHazard": "NONE",
+      "weatherHazard": "NONE",
+      "tectonicsHazard": "MODERATE",
+      "thermalHazard": "NONE",
       "orbital_period": 18383.976500283654
     }
   ]

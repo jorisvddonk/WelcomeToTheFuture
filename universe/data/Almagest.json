@@ -18,6 +18,10 @@
       "length_of_day": 18.4,
       "mass": 0,
       "type": "Opalescent",
+      "bioHazard": "NONE",
+      "weatherHazard": "NONE",
+      "tectonicsHazard": "MODERATE",
+      "thermalHazard": "LOW",
       "orbital_period": 374.6562467295335
     },
     {
@@ -32,6 +36,10 @@
       "length_of_day": 17.3,
       "mass": 0,
       "type": "Yttric",
+      "bioHazard": "MINIMUM",
+      "weatherHazard": "MINIMUM",
+      "tectonicsHazard": "LOW",
+      "thermalHazard": "NONE",
       "orbital_period": 4768.193849537688
     },
     {
@@ -46,6 +54,10 @@
       "length_of_day": 5132.9,
       "mass": 0,
       "type": "Quasi-Degenerate",
+      "bioHazard": "NONE",
+      "weatherHazard": "NONE",
+      "tectonicsHazard": "MODERATE",
+      "thermalHazard": "NONE",
       "orbital_period": 12401.068936160696
     },
     {
@@ -60,6 +72,10 @@
       "length_of_day": 18.7,
       "mass": 0,
       "type": "Cyanic",
+      "bioHazard": "NONE",
+      "weatherHazard": "NONE",
+      "tectonicsHazard": "NONE",
+      "thermalHazard": "NONE",
       "orbital_period": 18466.968111421935
     }
   ]

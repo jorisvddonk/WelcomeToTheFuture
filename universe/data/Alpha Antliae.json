@@ -18,6 +18,10 @@
       "length_of_day": 24.8,
       "mass": 0,
       "type": "Noble",
+      "bioHazard": "NONE",
+      "weatherHazard": "MODERATE",
+      "tectonicsHazard": "MINIMUM",
+      "thermalHazard": "SEVERE",
       "orbital_period": 224.22239093352107
     },
     {
@@ -32,6 +36,10 @@
       "length_of_day": 27,
       "mass": 0,
       "type": "Quasi-Degenerate",
+      "bioHazard": "NONE",
+      "weatherHazard": "NONE",
+      "tectonicsHazard": "HIGH",
+      "thermalHazard": "NONE",
       "orbital_period": 1005.2483390878903
     },
     {
@@ -46,6 +54,10 @@
       "length_of_day": 29.1,
       "mass": 0,
       "type": "Metal",
+      "bioHazard": "MINIMUM",
+      "weatherHazard": "HIGH",
+      "tectonicsHazard": "MINIMUM",
+      "thermalHazard": "NONE",
       "orbital_period": 2048.5257291727853
     },
     {
@@ -60,6 +72,10 @@
       "length_of_day": 9.6,
       "mass": 0,
       "type": "Gas Giant",
+      "bioHazard": "NONE",
+      "weatherHazard": "INSTANT_DEATH",
+      "tectonicsHazard": "LOW",
+      "thermalHazard": "NONE",
       "orbital_period": 3418.6016241910547
     },
     {
@@ -74,6 +90,10 @@
       "length_of_day": 18.4,
       "mass": 0,
       "type": "Treasure",
+      "bioHazard": "NONE",
+      "weatherHazard": "NONE",
+      "tectonicsHazard": "NONE",
+      "thermalHazard": "NONE",
       "orbital_period": 4922.638979974846
     },
     {
@@ -88,6 +108,10 @@
       "length_of_day": 25.5,
       "mass": 0,
       "type": "Noble",
+      "bioHazard": "NONE",
+      "weatherHazard": "NONE",
+      "tectonicsHazard": "LOW",
+      "thermalHazard": "NONE",
       "orbital_period": 9399.583018259362
     },
     {
@@ -102,6 +126,10 @@
       "length_of_day": 16,
       "mass": 0,
       "type": "Lanthanide",
+      "bioHazard": "NONE",
+      "weatherHazard": "NONE",
+      "tectonicsHazard": "SEVERE",
+      "thermalHazard": "NONE",
       "orbital_period": 12022.05874619635
     },
     {
@@ -116,6 +144,10 @@
       "length_of_day": 9.7,
       "mass": 0,
       "type": "Gas Giant",
+      "bioHazard": "NONE",
+      "weatherHazard": "INSTANT_DEATH",
+      "tectonicsHazard": "NONE",
+      "thermalHazard": "NONE",
       "orbital_period": 15198.298979994597
     },
     {
@@ -131,6 +163,10 @@
       "parent": "IV",
       "mass": 0,
       "type": "Opalescent",
+      "bioHazard": "NONE",
+      "weatherHazard": "NONE",
+      "tectonicsHazard": "MODERATE",
+      "thermalHazard": "NONE",
       "orbital_period": 3.4186016241910546
     },
     {
@@ -146,6 +182,10 @@
       "parent": "IV",
       "mass": 0,
       "type": "Cyanic",
+      "bioHazard": "NONE",
+      "weatherHazard": "NONE",
+      "tectonicsHazard": "LOW",
+      "thermalHazard": "NONE",
       "orbital_period": 3.4186016241910546
     },
     {
@@ -161,6 +201,10 @@
       "parent": "IV",
       "mass": 0,
       "type": "Treasure",
+      "bioHazard": "NONE",
+      "weatherHazard": "NONE",
+      "tectonicsHazard": "NONE",
+      "thermalHazard": "NONE",
       "orbital_period": 3.4186016241910546
     },
     {
@@ -176,6 +220,10 @@
       "parent": "IV",
       "mass": 0,
       "type": "Acid",
+      "bioHazard": "NONE",
+      "weatherHazard": "NONE",
+      "tectonicsHazard": "MINIMUM",
+      "thermalHazard": "NONE",
       "orbital_period": 3.4186016241910546
     },
     {
@@ -191,6 +239,10 @@
       "parent": "VIII",
       "mass": 0,
       "type": "Lanthanide",
+      "bioHazard": "NONE",
+      "weatherHazard": "NONE",
+      "tectonicsHazard": "INSTANT_DEATH",
+      "thermalHazard": "NONE",
       "orbital_period": 15.198298979994599
     },
     {
@@ -206,6 +258,10 @@
       "parent": "VIII",
       "mass": 0,
       "type": "Halide",
+      "bioHazard": "NONE",
+      "weatherHazard": "NONE",
+      "tectonicsHazard": "NONE",
+      "thermalHazard": "NONE",
       "orbital_period": 15.198298979994599
     },
     {
@@ -221,6 +277,10 @@
       "parent": "VIII",
       "mass": 0,
       "type": "Radioactive",
+      "bioHazard": "NONE",
+      "weatherHazard": "NONE",
+      "tectonicsHazard": "NONE",
+      "thermalHazard": "NONE",
       "orbital_period": 15.198298979994599
     }
   ]

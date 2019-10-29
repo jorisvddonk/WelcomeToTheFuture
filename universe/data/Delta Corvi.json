@@ -18,6 +18,10 @@
       "length_of_day": 29.6,
       "mass": 0,
       "type": "Purple",
+      "bioHazard": "NONE",
+      "weatherHazard": "NONE",
+      "tectonicsHazard": "HIGH",
+      "thermalHazard": "NONE",
       "orbital_period": 9880.41288482255
     }
   ]

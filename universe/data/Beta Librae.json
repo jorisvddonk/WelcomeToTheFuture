@@ -18,6 +18,10 @@
       "length_of_day": 20,
       "mass": 0,
       "type": "Water",
+      "bioHazard": "HIGH",
+      "weatherHazard": "MODERATE",
+      "tectonicsHazard": "MODERATE",
+      "thermalHazard": "NONE",
       "orbital_period": 683.6688437464342
     },
     {
@@ -33,6 +37,10 @@
       "parent": "Vlik",
       "mass": 0,
       "type": "Super-Dense",
+      "bioHazard": "NONE",
+      "weatherHazard": "INSTANT_DEATH",
+      "tectonicsHazard": "EXTREME",
+      "thermalHazard": "LOW",
       "orbital_period": 0.6836688437464342
     },
     {
@@ -48,6 +56,10 @@
       "parent": "Vlik",
       "mass": 0,
       "type": "Lanthanide",
+      "bioHazard": "HIGH",
+      "weatherHazard": "LOW",
+      "tectonicsHazard": "SEVERE",
+      "thermalHazard": "NONE",
       "orbital_period": 0.6836688437464342
     }
   ]

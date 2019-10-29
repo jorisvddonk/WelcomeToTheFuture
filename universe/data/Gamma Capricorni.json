@@ -18,6 +18,10 @@
       "length_of_day": 17.2,
       "mass": 0,
       "type": "Selenic",
+      "bioHazard": "NONE",
+      "weatherHazard": "NONE",
+      "tectonicsHazard": "LOW",
+      "thermalHazard": "NONE",
       "orbital_period": 5156.069669018661
     }
   ]

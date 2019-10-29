@@ -18,6 +18,10 @@
       "length_of_day": 17.4,
       "mass": 0,
       "type": "Copper",
+      "bioHazard": "HIGH",
+      "weatherHazard": "LOW",
+      "tectonicsHazard": "NONE",
+      "thermalHazard": "NONE",
       "orbital_period": 1437.6816811861247
     },
     {
@@ -32,6 +36,10 @@
       "length_of_day": 29,
       "mass": 0,
       "type": "Noble",
+      "bioHazard": "NONE",
+      "weatherHazard": "NONE",
+      "tectonicsHazard": "NONE",
+      "thermalHazard": "NONE",
       "orbital_period": 20602.257783786936
     }
   ]

@@ -18,6 +18,10 @@
       "length_of_day": 1522.7,
       "mass": 0,
       "type": "Plutonic",
+      "bioHazard": "HIGH",
+      "weatherHazard": "LOW",
+      "tectonicsHazard": "MINIMUM",
+      "thermalHazard": "NONE",
       "orbital_period": 6059.459432208607
     }
   ]

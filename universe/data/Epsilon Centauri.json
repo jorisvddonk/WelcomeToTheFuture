@@ -18,6 +18,10 @@
       "length_of_day": 26.2,
       "mass": 0,
       "type": "Halide",
+      "bioHazard": "NONE",
+      "weatherHazard": "NONE",
+      "tectonicsHazard": "MINIMUM",
+      "thermalHazard": "NONE",
       "orbital_period": 10829.302372156153
     }
   ]

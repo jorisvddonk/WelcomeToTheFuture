@@ -18,6 +18,10 @@
       "length_of_day": 20.6,
       "mass": 0,
       "type": "Water",
+      "bioHazard": "INSTANT_DEATH",
+      "weatherHazard": "LOW",
+      "tectonicsHazard": "NONE",
+      "thermalHazard": "NONE",
       "orbital_period": 420.86129328275143
     },
     {
@@ -32,6 +36,10 @@
       "length_of_day": 16.7,
       "mass": 0,
       "type": "Pellucid",
+      "bioHazard": "NONE",
+      "weatherHazard": "NONE",
+      "tectonicsHazard": "MINIMUM",
+      "thermalHazard": "NONE",
       "orbital_period": 6711.6771433819595
     }
   ]

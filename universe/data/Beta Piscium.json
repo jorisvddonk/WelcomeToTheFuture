@@ -18,6 +18,10 @@
       "length_of_day": 26.2,
       "mass": 0,
       "type": "Radioactive",
+      "bioHazard": "NONE",
+      "weatherHazard": "NONE",
+      "tectonicsHazard": "LOW",
+      "thermalHazard": "NONE",
       "orbital_period": 3797.1795444318386
     }
   ]

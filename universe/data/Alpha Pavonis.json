@@ -18,6 +18,10 @@
       "length_of_day": 29.5,
       "mass": 0,
       "type": "Azure",
+      "bioHazard": "NONE",
+      "weatherHazard": "SEVERE",
+      "tectonicsHazard": "HIGH",
+      "thermalHazard": "INSTANT_DEATH",
       "orbital_period": 400.26495641344616
     },
     {
@@ -32,6 +36,10 @@
       "length_of_day": 25.7,
       "mass": 0,
       "type": "Acid",
+      "bioHazard": "NONE",
+      "weatherHazard": "LOW",
+      "tectonicsHazard": "MINIMUM",
+      "thermalHazard": "EXTREME",
       "orbital_period": 2563.7962368523067
     },
     {
@@ -46,6 +54,10 @@
       "length_of_day": 21.4,
       "mass": 0,
       "type": "Alkali",
+      "bioHazard": "NONE",
+      "weatherHazard": "HIGH",
+      "tectonicsHazard": "MINIMUM",
+      "thermalHazard": "INSTANT_DEATH",
       "orbital_period": 3634.930406591016
     },
     {
@@ -60,6 +72,10 @@
       "length_of_day": 26.6,
       "mass": 0,
       "type": "Metal",
+      "bioHazard": "NONE",
+      "weatherHazard": "EXTREME",
+      "tectonicsHazard": "MODERATE",
+      "thermalHazard": "INSTANT_DEATH",
       "orbital_period": 5498.933913624617
     },
     {
@@ -74,6 +90,10 @@
       "length_of_day": 27.5,
       "mass": 0,
       "type": "Copper",
+      "bioHazard": "NONE",
+      "weatherHazard": "HIGH",
+      "tectonicsHazard": "LOW",
+      "thermalHazard": "INSTANT_DEATH",
       "orbital_period": 7859.659729072699
     },
     {
@@ -88,6 +108,10 @@
       "length_of_day": 22.5,
       "mass": 0,
       "type": "Chondrite",
+      "bioHazard": "NONE",
+      "weatherHazard": "NONE",
+      "tectonicsHazard": "HIGH",
+      "thermalHazard": "MODERATE",
       "orbital_period": 9708.151263667427
     },
     {
@@ -102,6 +126,10 @@
       "length_of_day": 5605.2,
       "mass": 0,
       "type": "Noble",
+      "bioHazard": "LOW",
+      "weatherHazard": "MINIMUM",
+      "tectonicsHazard": "MINIMUM",
+      "thermalHazard": "SEVERE",
       "orbital_period": 10875.492407891834
     },
     {
@@ -116,6 +144,10 @@
       "length_of_day": 20.3,
       "mass": 0,
       "type": "Azure",
+      "bioHazard": "NONE",
+      "weatherHazard": "MODERATE",
+      "tectonicsHazard": "MODERATE",
+      "thermalHazard": "EXTREME",
       "orbital_period": 13860.341832486829
     },
     {
@@ -130,6 +162,10 @@
       "length_of_day": 15.7,
       "mass": 0,
       "type": "Acid",
+      "bioHazard": "NONE",
+      "weatherHazard": "MINIMUM",
+      "tectonicsHazard": "MINIMUM",
+      "thermalHazard": "SEVERE",
       "orbital_period": 15547.405371269386
     }
   ]

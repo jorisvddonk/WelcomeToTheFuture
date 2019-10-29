@@ -18,6 +18,10 @@
       "length_of_day": 2023.1,
       "mass": 0,
       "type": "Infrared",
+      "bioHazard": "SEVERE",
+      "weatherHazard": "LOW",
+      "tectonicsHazard": "LOW",
+      "thermalHazard": "NONE",
       "orbital_period": 9890.046567943888
     }
   ]

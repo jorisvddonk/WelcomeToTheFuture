@@ -18,6 +18,10 @@
       "length_of_day": 28.4,
       "mass": 0,
       "type": "Oolite",
+      "bioHazard": "NONE",
+      "weatherHazard": "LOW",
+      "tectonicsHazard": "MODERATE",
+      "thermalHazard": "NONE",
       "orbital_period": 8135.095975016408
     }
   ]

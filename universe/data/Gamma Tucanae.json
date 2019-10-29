@@ -18,6 +18,10 @@
       "length_of_day": 21.8,
       "mass": 0,
       "type": "Ultramarine",
+      "bioHazard": "HIGH",
+      "weatherHazard": "LOW",
+      "tectonicsHazard": "MINIMUM",
+      "thermalHazard": "NONE",
       "orbital_period": 1974.8626283639035
     },
     {
@@ -32,6 +36,10 @@
       "length_of_day": 19.8,
       "mass": 0,
       "type": "Urea",
+      "bioHazard": "MODERATE",
+      "weatherHazard": "MINIMUM",
+      "tectonicsHazard": "SEVERE",
+      "thermalHazard": "NONE",
       "orbital_period": 19071.369959762884
     }
   ]

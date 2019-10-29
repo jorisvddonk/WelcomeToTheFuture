@@ -18,6 +18,10 @@
       "length_of_day": 16.6,
       "mass": 0,
       "type": "Oolite",
+      "bioHazard": "MODERATE",
+      "weatherHazard": "LOW",
+      "tectonicsHazard": "MINIMUM",
+      "thermalHazard": "NONE",
       "orbital_period": 3331.07255252645
     },
     {
@@ -32,6 +36,10 @@
       "length_of_day": 29,
       "mass": 0,
       "type": "Urea",
+      "bioHazard": "MINIMUM",
+      "weatherHazard": "LOW",
+      "tectonicsHazard": "EXTREME",
+      "thermalHazard": "NONE",
       "orbital_period": 7750.002382783186
     }
   ]

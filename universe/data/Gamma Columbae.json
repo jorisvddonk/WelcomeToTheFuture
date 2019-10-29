@@ -18,6 +18,10 @@
       "length_of_day": 22.6,
       "mass": 0,
       "type": "Treasure",
+      "bioHazard": "MINIMUM",
+      "weatherHazard": "LOW",
+      "tectonicsHazard": "NONE",
+      "thermalHazard": "NONE",
       "orbital_period": 575.9908690974305
     }
   ]

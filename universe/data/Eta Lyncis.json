@@ -18,6 +18,10 @@
       "length_of_day": 21.9,
       "mass": 0,
       "type": "Ultramarine",
+      "bioHazard": "NONE",
+      "weatherHazard": "LOW",
+      "tectonicsHazard": "LOW",
+      "thermalHazard": "NONE",
       "orbital_period": 1784.6967123135355
     },
     {
@@ -32,6 +36,10 @@
       "length_of_day": 23.2,
       "mass": 0,
       "type": "Purple",
+      "bioHazard": "NONE",
+      "weatherHazard": "NONE",
+      "tectonicsHazard": "LOW",
+      "thermalHazard": "NONE",
       "orbital_period": 3867.4243119650887
     },
     {
@@ -46,6 +54,10 @@
       "length_of_day": 21.4,
       "mass": 0,
       "type": "Crimson",
+      "bioHazard": "NONE",
+      "weatherHazard": "LOW",
+      "tectonicsHazard": "NONE",
+      "thermalHazard": "NONE",
       "orbital_period": 11752.290176656677
     }
   ]
