@@ -6,6 +6,7 @@ import { Starship } from "../starship/Starship";
 import { flatten } from "lodash";
 import glob from "glob";
 import Sylvester from "../starship/sylvester-withmods";
+import { Vector } from "../starship/Vector";
 
 export class UniverseDAO {
   private stars: IStar[] = [];
@@ -44,8 +45,14 @@ export class UniverseDAO {
     this.stars = stars;
   }
 
-  getStars() {
-    return this.stars;
+  getStars(): Star[] {
+    return this.stars.map(x => {
+      const retStar = new Star(); // todo: use class-transformer?
+      retStar.name = x.name;
+      retStar.mass = x.mass;
+      retStar.position = new Vector(x.position.x, x.position.y);
+      return retStar;
+    });
   }
 
   getBodies() {
@@ -61,11 +68,7 @@ export class UniverseDAO {
   }
 
   findStar(name: string): Star | undefined {
-    const foundStar = this.getStars().find(star => star.name === name);
-    if (foundStar === undefined) {
-      return undefined;
-    }
-    return foundStar;
+    return this.getStars().find(star => star.name === name);
   }
 
   getCurrentStar() {

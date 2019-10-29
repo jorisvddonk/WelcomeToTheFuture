@@ -81,7 +81,13 @@ type Star {
   mass: Float!
   position: Vector!
   planets(type: String): [Planet!]!
-  range: Float!
+
+  """Range between this star and the star our starship is currently in."""
+  hyperspaceRange: Float!
+  nearbyStars(
+    """Range to search for other stars"""
+    maxRange: Float
+  ): [Star!]!
 }
 
 type Starship {

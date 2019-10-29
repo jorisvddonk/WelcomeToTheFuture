@@ -14,6 +14,7 @@ import { Messages } from "../messages/MessagesDAO";
 import { InboxFilter } from "../messages/InboxFilter";
 import { Starship } from "../starship/Starship";
 import { IStar } from "./IStar";
+import { getRangeBetweenStars } from "./Utils";
 
 export class RootResolver {
     @Query(of => [Moon])
@@ -40,9 +41,7 @@ export class RootResolver {
         return _filter(Universe.getStars(), filter).filter((x: IStar) => {
             if (maxRange !== undefined) {
                 // TODO: use Star instead of IStar, and then use a getter function on Star?
-                const p1 = Universe.getCurrentStar().position;
-                const p2 = x.position;
-                return Math.sqrt(Math.pow(p1.x - p2.x, 2) + Math.pow(p1.y - p2.y, 2)) < maxRange;
+                return getRangeBetweenStars(Universe.getCurrentStar(), x) < maxRange;
             }
             return true;
         });

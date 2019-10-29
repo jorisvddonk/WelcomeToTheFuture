@@ -8,6 +8,8 @@ import {
 import { Star } from "./Star";
 import { Universe } from "./UniverseDAO";
 import { Planet } from "./Planet";
+import { getRangeBetweenStars } from "./Utils";
+import { filter as _filter } from 'lodash';
 
 @Resolver(of => Star)
 export class StarResolver /* implements ResolverInterface<Star>*/ {
@@ -23,11 +25,19 @@ export class StarResolver /* implements ResolverInterface<Star>*/ {
     });
   }
 
-  @FieldResolver()
-  range(@Root() star: Star): number {
-    const p1 = Universe.getCurrentStar().position;
-    const p2 = star.position;
-    return Math.sqrt(Math.pow(p1.x - p2.x, 2) + Math.pow(p1.y - p2.y, 2));
+  @FieldResolver({ description: "Range between this star and the star our starship is currently in." })
+  hyperspaceRange(@Root() star: Star): number {
+    return getRangeBetweenStars(Universe.getCurrentStar(), star);
+  }
+
+  @FieldResolver(returns => [Star])
+  nearbyStars(@Arg("maxRange", { nullable: true, description: "Range to search for other stars" }) maxRange: number): Star[] {
+    return Universe.getStars().filter((x: Star) => {
+      if (maxRange !== undefined) {
+        return getRangeBetweenStars(Universe.getCurrentStar(), x) < maxRange;
+      }
+      return true;
+    });
   }
 
   @Subscription({
