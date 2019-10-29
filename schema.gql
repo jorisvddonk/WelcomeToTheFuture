@@ -40,12 +40,12 @@ type Moon {
 }
 
 type Mutation {
+  hyperspaceJump(star: String!): MutationResult!
+  markAsRead(id: String!): Message!
+  rename(name: String!): MutationResult!
   manualControl(data: ManualControl!): MutationResult!
   moveTo(planet: String, y: Float, x: Float): MutationResult!
   halt: MutationResult!
-  rename(name: String!): MutationResult!
-  hyperspaceJump(star: String!): MutationResult!
-  markAsRead(id: String!): Message!
 }
 
 type MutationResult {

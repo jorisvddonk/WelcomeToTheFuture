@@ -30,46 +30,10 @@ export class StarshipResolver {
     return payload;
   }
 
-  @Mutation()
-  manualControl(@Arg("data") controlDirective: ManualControl): MutationResult {
-    Universe.starship.setTask(createTask(TaskType.MANUAL, null, {
-      desiredAngle: controlDirective.desiredAngle,
-      thrusting: controlDirective.thrusting
-    }))
-    return new MutationResult(Status.OK);
-  }
-
-  @Mutation()
-  moveTo(@Arg("x", { nullable: true }) x: number, @Arg("y", { nullable: true }) y: number, @Arg("planet", { nullable: true }) planet: string): MutationResult {
-    if (x !== undefined && y !== undefined) {
-      Universe.starship.setTask(createTask(TaskType.MOVE, new Sylvester.Vector([x, y])));
-    } else if (planet !== undefined) {
-      const foundPlanet = Universe.getPlanet(planet, Universe.getCurrentStar().name);
-      if (foundPlanet) {
-        Universe.starship.setTask(createTask(TaskType.MOVE, new Sylvester.Vector([foundPlanet.position.x, foundPlanet.position.y])));
-      } else {
-        throw new Error("Planet not found in current solar system");
-      }
-    }
-    return new MutationResult(Status.OK);
-  }
-
-  @Mutation()
-  halt(): MutationResult {
-    Universe.starship.setTask(createTask(TaskType.HALT, null));
-    return new MutationResult(Status.OK);
-  }
-
   @FieldResolver()
   name(
     @Root() starship: Starship): string {
     return starship.name;
   }
 
-  @Mutation()
-  rename(@Arg("name") name: string): MutationResult {
-    Universe.starship.name = name;
-    Achievements.unlock('rename');
-    return new MutationResult(Status.OK);
-  }
 }

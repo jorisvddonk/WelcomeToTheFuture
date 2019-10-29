@@ -30,26 +30,4 @@ export class StarResolver /* implements ResolverInterface<Star>*/ {
   starUpdate(@Root() payload: Star): Star {
     return payload;
   }
-
-  @Mutation()
-  hyperspaceJump(@Arg("star") starname: string): MutationResult {
-    Universe.starship.hyperjumping = true;
-    let i = 0;
-    const interv = setInterval(() => {
-      Universe.starship.movementVec = new Sylvester.Vector([
-        Universe.starship.rotationVec.e(1) * i,
-        Universe.starship.rotationVec.e(2) * i
-      ]);
-      i += 0.25;
-      if (i > 10) {
-        clearInterval(interv);
-        Universe.hyperspaceJump(starname);
-        Universe.starship.movementVec = new Sylvester.Vector([0, 0]);
-        Universe.starship.positionVec = new Sylvester.Vector([200, 0]).rotate(Math.PI * 2 * Math.random(), new Sylvester.Vector([0, 0]));
-        Universe.starship.hyperjumping = false;
-      }
-    }, 100);
-    Universe.starship.setTask(createTask(TaskType.IDLE, null));
-    return new MutationResult(Status.OK);
-  }
 }

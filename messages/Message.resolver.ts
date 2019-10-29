@@ -26,10 +26,4 @@ export class MessageResolver /* implements ResolverInterface<Message>*/ {
         return payload;
     }
 
-    @Mutation()
-    markAsRead(@Arg("id") id: string): Message {
-        Messages.markAsRead(id);
-        return Messages.get(id);
-    }
-
 }
