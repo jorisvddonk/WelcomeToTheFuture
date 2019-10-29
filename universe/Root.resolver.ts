@@ -1,10 +1,6 @@
 import {
     Query,
     Arg,
-    Resolver,
-    FieldResolver,
-    Root,
-    ResolverInterface
 } from "type-graphql";
 
 import { filter as _filter } from 'lodash'

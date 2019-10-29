@@ -9,8 +9,6 @@ import {
     Mutation
 } from "type-graphql";
 import { Message } from "./Message";
-import { Messages } from "./MessagesDAO";
-import { InboxFilter } from "./InboxFilter";
 import { filter as _filter } from 'lodash'
 
 @Resolver(of => Message)
