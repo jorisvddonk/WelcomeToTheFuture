@@ -2,6 +2,7 @@ import { ObjectType, Field } from "type-graphql"
 import { TargetType } from "./targets"
 import objectRegistry, { ObjectID } from "./objectRegistry"
 import Sylvester from "./sylvester-withmods"
+import { Vector } from "./Vector"
 
 @ObjectType()
 export class Target {
@@ -43,6 +44,19 @@ export class Target {
       return this.type
     } else {
       throw new Error('???')
+    }
+  }
+
+  @Field(type => Vector, { nullable: true })
+  public get position() {
+    const pos = this.getTargetPosition();
+    if (pos !== undefined && pos.e !== undefined) {
+      return {
+        x: pos.e(1),
+        y: pos.e(2)
+      }
+    } else {
+      return null;
     }
   }
 }

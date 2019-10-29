@@ -106,6 +106,7 @@ type Subscription {
 
 type Target {
   type: TargetType!
+  position: Vector
 }
 
 enum TargetType {
@@ -116,7 +117,7 @@ enum TargetType {
 }
 
 type Task {
-  target: Target!
+  target: Target
   type: TaskType!
 }
 

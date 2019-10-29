@@ -20,7 +20,7 @@ registerEnumType(TaskType, {
 
 @ObjectType()
 export class Task {
-  @Field(type => Target)
+  @Field(type => Target, { nullable: true })
   target: Target
 
   @Field(type => TaskType)
