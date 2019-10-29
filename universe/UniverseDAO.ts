@@ -61,15 +61,11 @@ export class UniverseDAO {
   }
 
   findStar(name: string): Star | undefined {
-    const foundStar = this.stars.find(star => star.name === name);
+    const foundStar = this.getStars().find(star => star.name === name);
     if (foundStar === undefined) {
       return undefined;
     }
-    return {
-      name: foundStar.name,
-      mass: foundStar.mass,
-      position: foundStar.position
-    };
+    return foundStar;
   }
 
   getCurrentStar() {
