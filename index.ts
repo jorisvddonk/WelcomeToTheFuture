@@ -13,6 +13,8 @@ import { AchievementResolver } from "./Achievements/Achievement.resolver";
 import { Achievements } from "./Achievements/AchievementsDAO";
 import { Achievement } from "./Achievements/Achievement";
 import { MutationResolver } from "./universe/Mutation.resolver";
+import { Message } from "./messages/Message";
+import { Messages } from "./messages/MessagesDAO";
 
 const UPDATE_INTERVAL = (1000 / 60) * 3; // 3 frames @ 60fps
 
@@ -48,6 +50,16 @@ async function boot() {
     pubsub.publish(
       "starUpdate",
       Universe.getCurrentStar()
+    );
+    if (Universe.getCurrentStar().name === "Beta Giclas") {
+      Messages.addMessage(new Message("ᐊᑎᖅᐳᖅ", "ᐊᑎᖅᐳᖅ ᐊᖏᔪᖅ ᑭᑉᐸᓕᕗᖅ ᑲᔪᖅ ᐆᒪᔪᖅ. ᐃᓅᔪᖅ ᓱᑦᖃᐃᐳᖅ ᓇᐹᖅᑐᖃᕐᓂᖅ. ᓇᐃᑦᑐᖅ ᐸᒥᐅᓕᒑᕐᔪᒃ ᐊᓂᑦᑖ ᓇᑯᓪᓚᖅᐳᖅ ᐳᔭᓂᖅ ᓱᕐᖁᐃᑐᖅᐹ. ᐊᑎᖅᐳᖅ ᐱᔪᖕᓇᖅᑐᖅ ᓱᑦᖃᐃᐳᖅ ᓇᒧᑐᐃᓐᓇᖅ ᐃᓗᐊᓂ ᓯᓚ. ᐊᑎᖅᐳᖅ ᓂᕿᑐᐃᓐᓇᖅ ᒪᒫᖅ ᐱᓯᕚ. ᐹᖅᑎᓯᔪᖅ ᐊᓂᑦᑖ ᐊᐅᑦᓯᑐᖅᐳᖅ ᐊᐅᑦᓯᓇᖅᑐᖅ.", "Test message"));
+    }
+  });
+
+  Messages.addMessageUpdateListener(() => {
+    pubsub.publish(
+      "inboxSub",
+      Messages.getMessages()
     );
   });
 
