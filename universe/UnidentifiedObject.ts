@@ -12,4 +12,12 @@ export class UnidentifiedObject implements IObject {
 
   @Field()
   angle: number
+
+  get __cls() {
+    return UnidentifiedObject.__cls;
+  }
+
+  static get __cls() {
+    return "UNIDENTIFIEDOBJECT";
+  }
 }

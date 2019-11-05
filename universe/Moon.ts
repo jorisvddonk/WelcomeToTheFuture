@@ -30,4 +30,12 @@ export class Moon {
 
   @Field(type => Vector)
   position!: Vector;
+
+  get __cls() {
+    return Moon.__cls;
+  }
+
+  static get __cls() {
+    return "MOON";
+  }
 }

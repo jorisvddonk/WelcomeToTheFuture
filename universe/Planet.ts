@@ -35,4 +35,12 @@ export class Planet {
   tectonicsHazard: Hazard;
   weatherHazard: Hazard;
   thermalHazard: Hazard;
+
+  get __cls() {
+    return Planet.__cls;
+  }
+
+  static get __cls() {
+    return "PLANET";
+  }
 }

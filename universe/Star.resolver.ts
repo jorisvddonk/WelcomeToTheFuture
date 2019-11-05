@@ -10,6 +10,7 @@ import { Universe } from "./UniverseDAO";
 import { Planet } from "./Planet";
 import { getRangeBetweenStars } from "./Utils";
 import { filter as _filter } from 'lodash';
+import { ObjectUnion } from "./UnionTypes";
 
 @Resolver(of => Star)
 export class StarResolver /* implements ResolverInterface<Star>*/ {
@@ -23,6 +24,11 @@ export class StarResolver /* implements ResolverInterface<Star>*/ {
       }
       return true;
     });
+  }
+
+  @FieldResolver(of => [ObjectUnion])
+  objects(@Root() star: Star) {
+    return [].concat(Universe.getStarBodies(star.name)).concat(star.unidentifiedObjects);
   }
 
   @FieldResolver({ description: "Range between this star and the star our starship is currently in." })

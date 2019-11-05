@@ -1,8 +1,8 @@
 import { ObjectType, Field } from "type-graphql";
-import { IStar } from "./IStar";
 import { Planet } from "./Planet";
 import { Vector } from "../starship/Vector";
 import { UnidentifiedObject } from "./UnidentifiedObject";
+import { Moon } from "./Moon";
 
 @ObjectType()
 export class Star {
@@ -17,4 +17,6 @@ export class Star {
 
   @Field(type => [UnidentifiedObject])
   unidentifiedObjects: UnidentifiedObject[];
+
+  bodies: (Planet | Moon)[]
 }

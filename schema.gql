@@ -71,6 +71,8 @@ type MutationResult {
   timestamp: Float!
 }
 
+union Object = Planet | Moon | UnidentifiedObject
+
 type Planet {
   name: String!
   type: String!
@@ -101,6 +103,7 @@ type Star {
   position: Vector!
   unidentifiedObjects: [UnidentifiedObject!]!
   planets(type: String): [Planet!]!
+  objects: [Object!]!
 
   """Range between this star and the star our starship is currently in."""
   hyperspaceRange: Float!
