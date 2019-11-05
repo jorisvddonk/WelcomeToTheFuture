@@ -6,10 +6,11 @@ import { Starship } from "../starship/Starship";
 import { flatten } from "lodash";
 import glob from "glob";
 import Sylvester from "../starship/sylvester-withmods";
-import { Vector } from "../starship/Vector";
 import { Planet } from "./Planet";
 import { Moon } from "./Moon";
 import { UnidentifiedObject } from "./UnidentifiedObject";
+import { plainToClass } from "class-transformer";
+
 
 export class UniverseDAO {
   private stars: Star[] = [];
@@ -47,46 +48,16 @@ export class UniverseDAO {
 
     const convertedStars: Star[] = [];
     stars.forEach(s => {
-      const star = new Star();
-      star.mass = s.mass;
-      star.name = s.name;
-      star.position = s.position;
-      star.unidentifiedObjects = s.objects.map(obj => {
-        const unidentifiedObject = new UnidentifiedObject();
-        unidentifiedObject.angle = obj.angle;
-        unidentifiedObject.position = obj.position;
-        unidentifiedObject.scannerData = obj.scannerData;
-        return unidentifiedObject;
-      });
+      const star = plainToClass(Star, s);
+      star.unidentifiedObjects = plainToClass(UnidentifiedObject, s.objects);
       const planets: Planet[] = [] as Planet[];
       const moons: Moon[] = [] as Moon[];
       s.bodies.forEach((body: IBodyJSON) => {
-        // TODO: use class-transformer?
         if (body.parent !== undefined) {
-          const moon = new Moon();
-          moon.diameter = body.diameter;
-          moon.gravity = body.gravity;
-          moon.length_of_day = body.length_of_day
-          moon.mass = body.mass;
-          moon.name = body.name;
-          moon.orbital_period = body.orbital_period;
-          moon.position = body.position;
-          moon.type = body.type;
+          const moon = plainToClass(Moon, body);
           moons.push(moon);
         } else {
-          const planet = new Planet();
-          planet.diameter = body.diameter;
-          planet.gravity = body.gravity;
-          planet.length_of_day = body.length_of_day
-          planet.mass = body.mass;
-          planet.name = body.name;
-          planet.orbital_period = body.orbital_period;
-          planet.position = body.position;
-          planet.type = body.type;
-          planet.bioHazard = body.bioHazard;
-          planet.thermalHazard = body.thermalHazard;
-          planet.weatherHazard = body.weatherHazard;
-          planet.tectonicsHazard = body.tectonicsHazard;
+          const planet = plainToClass(Planet, body);
           planets.push(planet);
         }
       });
