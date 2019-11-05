@@ -32,12 +32,6 @@ input InboxFilter {
   isRead: Boolean
 }
 
-"""Manual control input"""
-input ManualControl {
-  thrusting: Boolean
-  desiredAngle: Float
-}
-
 type Message {
   title: String!
   id: String!
@@ -61,7 +55,8 @@ type Mutation {
   hyperspaceJump(star: String!): MutationResult!
   markAsRead(id: String!): Message!
   rename(name: String!): MutationResult!
-  manualControl(data: ManualControl!): MutationResult!
+  setThrust(thrust: Float!): MutationResult!
+  setDesiredAngle(angle: Float!): MutationResult!
   moveTo(planet: String, y: Float, x: Float): MutationResult!
   halt: MutationResult!
 }

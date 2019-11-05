@@ -5,7 +5,6 @@ import Sylvester from "../starship/sylvester-withmods";
 import { createTask, TaskType } from "../starship/targets";
 import { Messages } from "../messages/MessagesDAO";
 import { Achievements } from "../Achievements/AchievementsDAO";
-import { ManualControl } from "../starship/ManualControl";
 import { Message } from "../messages/Message";
 
 export class MutationResolver {
@@ -53,10 +52,19 @@ export class MutationResolver {
   }
 
   @Mutation()
-  manualControl(@Arg("data") controlDirective: ManualControl): MutationResult {
+  setThrust(@Arg("thrust") thrust: number): MutationResult {
     Universe.starship.setTask(createTask(TaskType.MANUAL, null, {
-      desiredAngle: controlDirective.desiredAngle,
-      thrusting: controlDirective.thrusting
+      desiredAngle: Universe.starship.task.type === TaskType.MANUAL ? Universe.starship.task.arg.desiredAngle : undefined,
+      thrust: thrust
+    }))
+    return new MutationResult(Status.OK);
+  }
+
+  @Mutation()
+  setDesiredAngle(@Arg("angle") angle: number): MutationResult {
+    Universe.starship.setTask(createTask(TaskType.MANUAL, null, {
+      desiredAngle: angle,
+      thrust: Universe.starship.task.type === TaskType.MANUAL ? Universe.starship.task.arg.thrust : undefined
     }))
     return new MutationResult(Status.OK);
   }
