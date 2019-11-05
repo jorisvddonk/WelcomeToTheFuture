@@ -83,11 +83,11 @@ export class UniverseDAO {
   }
 
   getPlanets() {
-    return this.getBodies().filter(x => x.parent === undefined);
+    return this.getBodies().filter(x => x.__cls === Planet.__cls);
   }
 
   getMoons() {
-    return this.getBodies().filter(x => x.parent !== undefined);
+    return this.getBodies().filter(x => x.__cls === Moon.__cls);
   }
 
   findStar(name: string): Star | undefined {
@@ -99,47 +99,19 @@ export class UniverseDAO {
   }
 
   private get planets() {
-    return this.stars.reduce(
-      (memo, star) => {
-        return memo.concat(star.bodies.filter(x => x.__cls === Planet.__cls) as Planet[]);
-      },
-      [] as Planet[]
-    );
+    return this.getBodies().filter(x => x.__cls === Planet.__cls);
   }
 
   private get moons() {
-    return this.stars.reduce(
-      (memo, star) => {
-        return memo.concat(star.bodies.filter(x => x.__cls === Moon.__cls) as Moon[]);
-      },
-      [] as Moon[]
-    );
+    return this.getBodies().filter(x => x.__cls === Moon.__cls);
   }
 
   getPlanet(planetname: string, starname: string) {
     return this.planets.find(body => body.name === planetname && body.star === starname);
   }
 
-  getPlanetMoons(planetname: string, starname: string) {
-    return this.moons.filter(body => body.planet.name === planetname && body.planet.star === starname);
-  }
-
-  getStarPlanets(starname) {
-    return this.getStarBodies(starname)
-      .filter(body => body.__cls === Planet.__cls)
-  }
-
-  getStarMoons(starname) {
-    return this.getStarBodies(starname)
-      .filter(body => body.__cls !== Moon.__cls)
-  }
-
-  getStarBodies(starname) {
-    const foundStar = this.stars.find(s => s.name === starname);
-    if (foundStar === undefined) {
-      throw new Error("star not found");
-    }
-    return foundStar.bodies;
+  getPlanetMoons(planet: Planet) {
+    return this.moons.filter(body => body.planet === planet);
   }
 
   hyperspaceJump(starname) {

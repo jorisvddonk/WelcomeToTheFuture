@@ -19,4 +19,12 @@ export class Star {
   unidentifiedObjects: UnidentifiedObject[];
 
   bodies: (Planet | Moon)[]
+
+  get planets() {
+    return this.bodies.filter(x => x.__cls === Planet.__cls);
+  }
+
+  get moons() {
+    return this.bodies.filter(x => x.__cls === Moon.__cls);
+  }
 }

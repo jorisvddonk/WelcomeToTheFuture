@@ -18,7 +18,7 @@ export class StarResolver /* implements ResolverInterface<Star>*/ {
 
   @FieldResolver(of => [Planet])
   planets(@Root() star: Star, @Arg('type', { nullable: true }) type: string) {
-    return Universe.getStarPlanets(star.name).filter(x => {
+    return star.planets.filter(x => {
       if (type !== undefined) {
         return x.type === type;
       }
@@ -28,7 +28,7 @@ export class StarResolver /* implements ResolverInterface<Star>*/ {
 
   @FieldResolver(of => [ObjectUnion])
   objects(@Root() star: Star) {
-    return [].concat(Universe.getStarBodies(star.name)).concat(star.unidentifiedObjects);
+    return [].concat(star.bodies).concat(star.unidentifiedObjects);
   }
 
   @FieldResolver({ description: "Range between this star and the star our starship is currently in." })

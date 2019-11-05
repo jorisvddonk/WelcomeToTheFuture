@@ -24,7 +24,7 @@ export class PlanetResolver /* implements ResolverInterface<Planet>*/ {
 
   @FieldResolver(of => [Moon], { nullable: true })
   moons(@Root() planet: Planet) {
-    return Universe.getPlanetMoons(planet.name, planet.star);
+    return Universe.getPlanetMoons(planet);
   }
 
   @FieldResolver(of => Hazards, { nullable: true })
