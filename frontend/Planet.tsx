@@ -11,7 +11,7 @@ export default class Planet extends Sprite<IPlanetProps> {
   }
 
   getClassName() {
-    return ["planet", `planet-${this.props.name}`, `planetType-${this.props.type}`].join(" ");
+    return ["planet", `planet-${this.props.name}`, `planetType-${this.props.type.replace(/\s/g, '-')}`].join(" ");
   }
 
   getSpriteWidth() {
