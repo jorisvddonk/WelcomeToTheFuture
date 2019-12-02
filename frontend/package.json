@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "webpack-dev-server --open"
+    "dev": "webpack-dev-server --open",
+    "build": "webpack"
   },
   "author": "",
   "license": "ISC",
@@ -23,7 +24,8 @@
     "webpack": "^4.41.2",
     "webpack-cli": "^3.3.9",
     "webpack-dev-server": "^3.8.2",
-    "webpack-hot-middleware": "^2.25.0"
+    "webpack-hot-middleware": "^2.25.0",
+    "webpack-modules": "^1.0.0"
   },
   "dependencies": {
     "@types/react": "^16.9.9",
@@ -33,6 +35,7 @@
     "apollo-link-error": "^1.1.12",
     "apollo-link-http": "^1.5.16",
     "apollo-link-ws": "^1.0.19",
+    "graphql": "^14.5.8",
     "graphql-playground-react": "^1.7.20",
     "graphql-tag": "^2.10.1",
     "lodash": "^4.17.15",

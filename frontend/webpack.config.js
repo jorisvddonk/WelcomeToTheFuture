@@ -1,6 +1,7 @@
 const path = require("path"),
   webpack = require("webpack"),
-  HtmlWebpackPlugin = require("html-webpack-plugin");
+  HtmlWebpackPlugin = require("html-webpack-plugin"),
+  WebpackModules = require('webpack-modules');
 
 module.exports = {
   entry: {
@@ -56,6 +57,7 @@ module.exports = {
     new HtmlWebpackPlugin({
       template: path.resolve(__dirname, "index.html")
     }),
+    new WebpackModules(),
     new webpack.HotModuleReplacementPlugin()
   ],
   devServer: {
