@@ -52,6 +52,9 @@ body {
 .planet {
   background: url("./assets/kingcreator11/planet1.png");
   background-size: 100%;
+  &.planetType-Selenic {
+    filter: grayscale(1);
+  }
   &.planetType-Dust {
     filter: hue-rotate(180deg);
   }
@@ -75,7 +78,9 @@ body {
 .moon {
   background: url("./assets/kingcreator11/planet2.png");
   background-size: 100%;
-  filter: grayscale(1);
+  &.moonType-Selenic {
+    filter: grayscale(1);
+  }
   &.moonType-Dust {
     filter: hue-rotate(270deg);
   }
