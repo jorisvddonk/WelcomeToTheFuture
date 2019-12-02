@@ -8,7 +8,6 @@ COPY package-lock.json /app
 RUN npm ci
 COPY . /app
 RUN npm run build
-RUN ls -la
 
 FROM nginx:1.17.6-alpine
 COPY --from=builder /app/dist /usr/share/nginx/html
