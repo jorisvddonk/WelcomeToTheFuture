@@ -52,10 +52,23 @@ body {
 .planet {
   background: url("./assets/kingcreator11/planet1.png");
   background-size: 100%;
-  &.planet-mars {
-    background: url("./assets/kingcreator11/planet2.png");
-    filter: hue-rotate(270deg);
-    background-size: 100%;
+  &.planetType-Dust {
+    filter: hue-rotate(180deg);
+  }
+  &.planetType-Gas-Giant {
+    filter: grayscale(0.5) contrast(2) hue-rotate(215deg);
+  }
+  &.planetType-Water {
+    filter: hue-rotate(0deg);
+  }
+  &.planetType-Primordial {
+    filter: hue-rotate(220deg);
+  }
+  &.planetType-Metal {
+    filter: contrast(1.5) hue-rotate(175deg) grayscale(0.8) 
+  }
+  &.planetType-Pellucid {
+    filter: grayscale(0.9) hue-rotate(76deg) contrast(3);
   }
 }
 
