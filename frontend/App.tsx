@@ -8,7 +8,6 @@ import Moon from "./Moon";
 import { flatten } from "lodash";
 import Star from "./Star";
 import GQLPlayground from "./GQLPlayground";
-import { Vector } from "../starship/Vector";
 import Messages from "./Messages";
 import Noty from "noty";
 import UnidentifiedObject from "./UnidentifiedObject";
