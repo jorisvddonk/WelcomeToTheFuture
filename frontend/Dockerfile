@@ -4,8 +4,8 @@ RUN apk add python2 alpine-sdk libsass libsass-dev
 RUN mkdir /app
 WORKDIR /app
 COPY package.json /app
-COPY package-lock.json /app
-RUN npm ci
+COPY yarn.lock /app
+RUN yarn
 COPY . /app
 RUN npm run build
 

@@ -43,5 +43,8 @@
     "react": "^16.10.2",
     "react-dom": "^16.10.2",
     "subscriptions-transport-ws": "^0.9.16"
+  },
+  "resolutions": {
+    "graphql": "14.5.8"
   }
 }
