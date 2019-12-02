@@ -76,7 +76,24 @@ body {
   background: url("./assets/kingcreator11/planet2.png");
   background-size: 100%;
   filter: grayscale(1);
-  transform: scaleX(-1) scaleY(-1);
+  &.moonType-Dust {
+    filter: hue-rotate(270deg);
+  }
+  &.moonType-Gas-Giant {
+    filter: grayscale(0.5) contrast(2) hue-rotate(305deg);
+  }
+  &.moonType-Water {
+    filter: hue-rotate(90deg);
+  }
+  &.moonType-Primordial {
+    filter: hue-rotate(310deg);
+  }
+  &.moonType-Metal {
+    filter: contrast(1.5) hue-rotate(265deg) grayscale(0.8) 
+  }
+  &.moonType-Pellucid {
+    filter: grayscale(0.9) hue-rotate(166deg) contrast(3);
+  }
 }
 
 .unidentifiedObject {
