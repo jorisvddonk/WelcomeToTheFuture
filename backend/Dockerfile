@@ -1,4 +1,4 @@
-FROM node:13.2.0-alpine3.10 as builder
+FROM node:13.2.0-alpine3.10
 RUN apk update
 RUN apk add alpine-sdk
 RUN mkdir /app
