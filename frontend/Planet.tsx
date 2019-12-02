@@ -2,6 +2,7 @@ import Sprite from "./Sprite";
 
 export interface IPlanetProps {
   diameter: number;
+  type: string;
 }
 
 export default class Planet extends Sprite<IPlanetProps> {
@@ -10,7 +11,7 @@ export default class Planet extends Sprite<IPlanetProps> {
   }
 
   getClassName() {
-    return ["planet", `planet-${this.props.name}`].join(" ");
+    return ["planet", `planet-${this.props.name}`, `planetType-${this.props.type}`].join(" ");
   }
 
   getSpriteWidth() {

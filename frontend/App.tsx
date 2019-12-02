@@ -46,6 +46,7 @@ export default class App extends React.Component<any, any> {
     }
     planets {
       name
+      type
       position {
         x
         y
@@ -53,6 +54,7 @@ export default class App extends React.Component<any, any> {
       diameter
       moons {
         name
+        type
         position {
           x
           y
@@ -176,6 +178,7 @@ export default class App extends React.Component<any, any> {
       return {
         name: planet.name,
         position: planet.position,
+        type: planet.type,
         diameter: planet.diameter / 12756 // earth: 1 diameter
       };
     });
@@ -187,6 +190,7 @@ export default class App extends React.Component<any, any> {
       return {
         name: moon.name,
         position: moon.position,
+        type: moon.type,
         diameter: moon.diameter / 12756 // earth: 1 diameter
       };
     });
@@ -267,6 +271,7 @@ export default class App extends React.Component<any, any> {
                     <Planet
                       key={`planet_${i}`}
                       name={planet.name}
+                      type={planet.type}
                       x={planet.position.x}
                       y={planet.position.y}
                       diameter={planet.diameter}
@@ -278,6 +283,7 @@ export default class App extends React.Component<any, any> {
                     <Moon
                       key={`moon_${i}`}
                       name={moon.name}
+                      type={moon.type}
                       x={moon.position.x}
                       y={moon.position.y}
                       diameter={moon.diameter}
