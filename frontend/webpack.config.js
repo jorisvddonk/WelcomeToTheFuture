@@ -23,6 +23,10 @@ module.exports = {
         loader: "ts-loader"
       },
       {
+        test: /\.flow$/,
+        loader: "null-loader"
+      },
+      {
         test: /\.s[ac]ss$/i,
         use: [
           // Creates `style` nodes from JS strings
