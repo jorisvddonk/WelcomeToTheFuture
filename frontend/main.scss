@@ -52,11 +52,23 @@ body {
 .planet {
   background: url("./assets/kingcreator11/planet1.png");
   background-size: 100%;
-  &.planetType-Selenic {
+  &.planetType-Selenic, &.planetType-Magnetic {
     filter: grayscale(1);
   }
   &.planetType-Dust {
     filter: hue-rotate(180deg);
+  }
+  &.planetType-Ruby {
+    filter: hue-rotate(140deg) saturate(2.0);
+  }
+  &.planetType-Noble {
+    filter: hue-rotate(50deg) saturate(5) brightness(3.5);
+  }
+  &.planetType-Treasure {
+    filter: hue-rotate(-190deg) saturate(5) brightness(3.5);
+  }
+  &.planetType-Radioactive {
+    filter: grayscale(1) sepia(1) contrast(2) hue-rotate(90deg) saturate(4);
   }
   &.planetType-Gas-Giant {
     filter: grayscale(0.5) contrast(2) hue-rotate(215deg);
@@ -78,11 +90,23 @@ body {
 .moon {
   background: url("./assets/kingcreator11/planet2.png");
   background-size: 100%;
-  &.moonType-Selenic {
+  &.moonType-Selenic, &.moonType-Magnetic {
     filter: grayscale(1);
   }
   &.moonType-Dust {
     filter: hue-rotate(270deg);
+  }
+  &.planetType-Ruby {
+    filter: hue-rotate(calc(140deg + 90deg)) saturate(2.0);
+  }
+  &.planetType-Noble {
+    filter: hue-rotate(calc(50deg + 90deg)) saturate(5) brightness(3.5);
+  }
+  &.planetType-Treasure {
+    filter: hue-rotate(calc(-190deg + 90deg)) saturate(5) brightness(3.5);
+  }
+  &.planetType-Radioactive {
+    filter: grayscale(1) sepia(1) contrast(2) hue-rotate(calc(90deg + 90deg)) saturate(4);
   }
   &.moonType-Gas-Giant {
     filter: grayscale(0.5) contrast(2) hue-rotate(305deg);
