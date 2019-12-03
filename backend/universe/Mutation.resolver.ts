@@ -11,6 +11,9 @@ export class MutationResolver {
 
   @Mutation()
   hyperspaceJump(@Arg("star") starname: string): MutationResult {
+    if (Universe.findStar(starname) === undefined) {
+      return new MutationResult(Status.ERROR, "Star not found");
+    }
     Universe.starship.hyperjumping = true;
     let i = 0;
     const interv = setInterval(() => {
