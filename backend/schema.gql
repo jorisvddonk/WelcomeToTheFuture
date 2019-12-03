@@ -10,6 +10,17 @@ type Achievement {
   isUnlocked: Boolean!
 }
 
+interface Body {
+  name: String!
+  type: String!
+  mass: Float!
+  diameter: Float!
+  gravity: Float!
+  length_of_day: Float!
+  orbital_period: Float!
+  position: Vector!
+}
+
 type CollectionInfo {
   count: Float!
 }
@@ -43,16 +54,16 @@ type Message {
   body(translate: Translation): String!
 }
 
-type Moon {
+type Moon implements Body {
   name: String!
   type: String!
-  planet: Planet!
   mass: Float!
   diameter: Float!
   gravity: Float!
   length_of_day: Float!
   orbital_period: Float!
   position: Vector!
+  planet: Planet!
 }
 
 type Mutation {
@@ -80,7 +91,7 @@ type PageInfo {
   count: Float!
 }
 
-type Planet {
+type Planet implements Body {
   name: String!
   type: String!
   mass: Float!
