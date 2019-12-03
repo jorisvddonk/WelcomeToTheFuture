@@ -11,13 +11,17 @@ registerEnumType(Status, {
 
 @ObjectType()
 export class MutationResult {
-  constructor(status: Status) {
+  constructor(status: Status, message?: string) {
     this.status = status;
+    this.message = message;
     this.timestamp = new Date().getTime()
   }
 
   @Field(type => Status)
   status: Status
+
+  @Field(type => String, { nullable: true })
+  message?: string
 
   @Field()
   timestamp: number

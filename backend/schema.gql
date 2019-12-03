@@ -67,6 +67,7 @@ type Mutation {
 
 type MutationResult {
   status: Status!
+  message: String
   timestamp: Float!
 }
 
