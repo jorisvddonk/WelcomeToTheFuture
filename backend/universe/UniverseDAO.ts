@@ -78,16 +78,16 @@ export class UniverseDAO {
     return this.stars;
   }
 
-  getBodies() {
+  getBodies(): (Planet | Moon)[] {
     return flatten(this.stars.map(x => x.bodies));
   }
 
-  getPlanets() {
-    return this.getBodies().filter(x => x.__cls === Planet.__cls);
+  getPlanets(): Planet[] {
+    return this.getBodies().filter(x => x.__cls === Planet.__cls) as Planet[];
   }
 
-  getMoons() {
-    return this.getBodies().filter(x => x.__cls === Moon.__cls);
+  getMoons(): Moon[] {
+    return this.getBodies().filter(x => x.__cls === Moon.__cls) as Moon[];
   }
 
   findStar(name: string): Star | undefined {
@@ -98,20 +98,12 @@ export class UniverseDAO {
     return this.findStar(this.currentStarname);
   }
 
-  private get planets() {
-    return this.getBodies().filter(x => x.__cls === Planet.__cls);
-  }
-
-  private get moons() {
-    return this.getBodies().filter(x => x.__cls === Moon.__cls);
-  }
-
   getPlanet(planetname: string, starname: string) {
-    return this.planets.find(body => body.name === planetname && body.star === starname);
+    return this.getPlanets().find(body => body.name === planetname && body.star === starname);
   }
 
   getPlanetMoons(planet: Planet) {
-    return this.moons.filter(body => body.planet === planet);
+    return this.getMoons().filter(body => body.planet === planet);
   }
 
   hyperspaceJump(starname) {
