@@ -10,6 +10,10 @@ type Achievement {
   isUnlocked: Boolean!
 }
 
+type CollectionInfo {
+  count: Float!
+}
+
 enum Hazard {
   NONE
   MINIMUM
@@ -68,6 +72,13 @@ type MutationResult {
 
 union Object = Planet | Moon | UnidentifiedObject
 
+type PageInfo {
+  startCursor: String!
+  endCursor: String!
+  hasMore: Boolean!
+  count: Float!
+}
+
 type Planet {
   name: String!
   type: String!
@@ -82,10 +93,23 @@ type Planet {
   hazards: Hazards
 }
 
+type PlanetEntry {
+  node: Planet!
+  cursor: String!
+}
+
+type PlanetsPage {
+  entries: [PlanetEntry!]!
+  pageInfo: PageInfo!
+  collectionInfo: CollectionInfo!
+}
+
 type Query {
   moons: [Moon!]!
   planets: [Planet!]!
   currentStar: Star
+  pagedStars(cursor: String, take: Int): StarsPage!
+  pagedPlanets(cursor: String, take: Int): PlanetsPage!
   stars(nameSearch: String, name: String): [Star!]
   starship: Starship!
   star(name: String!): Star
@@ -108,6 +132,11 @@ type Star {
   ): [Star!]!
 }
 
+type StarEntry {
+  node: Star!
+  cursor: String!
+}
+
 type Starship {
   name: String!
   hyperjumping: Boolean!
@@ -116,6 +145,12 @@ type Starship {
   velocity: Vector!
   angle: Float!
   thrusting: Boolean!
+}
+
+type StarsPage {
+  entries: [StarEntry!]!
+  pageInfo: PageInfo!
+  collectionInfo: CollectionInfo!
 }
 
 enum Status {

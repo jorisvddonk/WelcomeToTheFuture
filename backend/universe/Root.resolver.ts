@@ -1,6 +1,7 @@
 import {
     Query,
     Arg,
+    Args,
 } from "type-graphql";
 
 import { filter as _filter } from 'lodash'
@@ -13,8 +14,9 @@ import { Message } from "../messages/Message";
 import { Messages } from "../messages/MessagesDAO";
 import { InboxFilter } from "../messages/InboxFilter";
 import { Starship } from "../starship/Starship";
-import { IStar } from "./IStar";
-import { getRangeBetweenStars } from "./Utils";
+import { StarsPage } from "./pages/StarsPage";
+import { PlanetsPage } from "./pages/PlanetsPage";
+import { PageFilter, GeneratePage } from "../lib/Page";
 
 export class RootResolver {
     @Query(of => [Moon])
@@ -30,6 +32,20 @@ export class RootResolver {
     @Query(returns => Star, { nullable: true })
     async currentStar(): Promise<Star | undefined> {
         return Universe.getCurrentStar();
+    }
+
+    @Query(returns => StarsPage)
+    async pagedStars(@Args() filter: PageFilter): Promise<StarsPage> {
+        const items = Universe.getStars();
+        const retval = await GeneratePage<Star>(items, filter, star => `${star.name}`);
+        return retval;
+    }
+
+    @Query(returns => PlanetsPage)
+    async pagedPlanets(@Args() filter: PageFilter): Promise<PlanetsPage> {
+        const items = Universe.getPlanets();
+        const retval = await GeneratePage<Planet>(items, filter, planet => `${planet.star}_${planet.name}`);
+        return retval;
     }
 
     @Query(returns => [Star], { nullable: true })
