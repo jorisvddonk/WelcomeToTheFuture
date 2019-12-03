@@ -47,6 +47,10 @@ input InboxFilter {
   isRead: Boolean
 }
 
+interface Locatable {
+  position: Vector!
+}
+
 type Message {
   title: String!
   id: String!
@@ -54,7 +58,7 @@ type Message {
   body(translate: Translation): String!
 }
 
-type Moon implements Body {
+type Moon implements Body & Locatable {
   name: String!
   type: String!
   mass: Float!
@@ -91,7 +95,7 @@ type PageInfo {
   count: Float!
 }
 
-type Planet implements Body {
+type Planet implements Body & Locatable {
   name: String!
   type: String!
   mass: Float!
@@ -208,7 +212,7 @@ enum Translation {
   DO_NOT_TRANSLATE
 }
 
-type UnidentifiedObject {
+type UnidentifiedObject implements Locatable {
   position: Vector!
   scannerData: String!
   angle: Float!

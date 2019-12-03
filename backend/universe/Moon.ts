@@ -2,8 +2,9 @@ import { ObjectType, Field } from "type-graphql";
 import { Planet } from "./Planet";
 import { Vector } from "../starship/Vector";
 import { Body } from "./Body";
+import { Locatable } from "./Locatable";
 
-@ObjectType({ implements: Body })
+@ObjectType({ implements: [Body, Locatable] })
 export class Moon implements Body {
   @Field()
   name!: string;

@@ -3,9 +3,10 @@ import { Moon } from "./Moon";
 import { Vector } from "../starship/Vector";
 import { Hazard } from "./Hazard";
 import { Body } from "./Body";
+import { Locatable } from "./Locatable";
 
-@ObjectType({ implements: Body })
-export class Planet implements Body {
+@ObjectType({ implements: [Body, Locatable] })
+export class Planet implements Body, Locatable {
   @Field()
   name!: string;
 

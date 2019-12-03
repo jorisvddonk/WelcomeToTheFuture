@@ -1,9 +1,10 @@
 import { ObjectType, Field } from "type-graphql";
 import { IObject } from "./IObject";
 import { Vector } from "../starship/Vector";
+import { Locatable } from "./Locatable";
 
-@ObjectType()
-export class UnidentifiedObject implements IObject {
+@ObjectType({ implements: [Locatable] })
+export class UnidentifiedObject implements IObject, Locatable {
   @Field(type => Vector)
   position: Vector
 
