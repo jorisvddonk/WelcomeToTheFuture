@@ -96,7 +96,7 @@ export class Starship implements IPosRot {
     this.lastTickActions.thrusting = false;
     this.autopilot.tick();
     this.positionVec = this.positionVec.add(
-      this.movementVec.multiply(1000 / msec)
+      this.movementVec.multiply(msec / 1000)
     );
     this.capMovement();
   }
@@ -138,5 +138,5 @@ export class Starship implements IPosRot {
   }
 }
 
-export const ThrustVector = new Sylvester.Vector([0.004, 0]);
-export const MaxSpeedVector = new Sylvester.Vector([0.5, 0]);
+export const ThrustVector = new Sylvester.Vector([20, 0]);
+export const MaxSpeedVector = new Sylvester.Vector([500, 0]);
