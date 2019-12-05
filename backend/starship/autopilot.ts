@@ -146,9 +146,6 @@ export class Autopilot {
         this.state.lthrust = actual_thrust
         this.ship.thrust(actual_thrust) // todo lower/max thrust?
       }
-    } else {
-      // If we have a small thrust vector, let's just point towards the enemy ship..
-      // this.ship.rotate(rot); // ?? todo re-add?
     }
 
     // store state/data for gfx stuff

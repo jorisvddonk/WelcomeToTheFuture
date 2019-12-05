@@ -145,5 +145,5 @@ export class Starship implements IPosRot {
 
 }
 
-export const ThrustVector = new Sylvester.Vector([20, 0]);
+export const ThrustVector = new Sylvester.Vector([2, 0]);
 export const MaxSpeedVector = new Sylvester.Vector([500, 0]);
