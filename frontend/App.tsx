@@ -11,6 +11,7 @@ import GQLPlayground from "./GQLPlayground";
 import Messages from "./Messages";
 import Noty from "noty";
 import UnidentifiedObject from "./UnidentifiedObject";
+import BatteryBar from "./BatteryBar";
 
 export default class App extends React.Component<any, any> {
   private lastTimestamp: number;
@@ -339,6 +340,7 @@ export default class App extends React.Component<any, any> {
             +
           </button>
           <Messages />
+          <BatteryBar />
         </div>
       </div>
     );

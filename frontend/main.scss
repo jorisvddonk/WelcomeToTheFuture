@@ -186,6 +186,7 @@ body {
 
 .info {
   background-color: #434;
+  position: relative;
   color: white;
   button {
     color: white;
@@ -195,5 +196,18 @@ body {
     border-radius: 10px;
     width: 20px;
     height: 20px;
+  }
+}
+
+.batteryBar {
+  height: 10px;
+  width: 100%;
+  background-color: #574;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  .batteryBarCurrent {
+    background-color: #9d6;
+    height: 100%;
   }
 }
