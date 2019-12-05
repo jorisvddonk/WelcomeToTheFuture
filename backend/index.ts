@@ -2,6 +2,10 @@ import "reflect-metadata";
 
 import { buildSchema } from "type-graphql";
 import { ApolloServer } from "apollo-server";
+import {
+  simpleEstimator, getComplexity, fieldConfigEstimator
+} from 'graphql-query-complexity';
+
 import { StarshipResolver } from "./starship/Starship.resolver";
 import { StarResolver } from "./universe/Star.resolver";
 import { PlanetResolver } from "./universe/Planet.resolver";
@@ -15,6 +19,7 @@ import { Achievement } from "./Achievements/Achievement";
 import { MutationResolver } from "./universe/Mutation.resolver";
 import { Message } from "./messages/Message";
 import { Messages } from "./messages/MessagesDAO";
+import { separateOperations } from "graphql";
 
 const UPDATE_INTERVAL = (1000 / 60) * 3; // 3 frames @ 60fps
 
@@ -30,7 +35,37 @@ async function boot() {
     schema,
     subscriptions: {
       path: "/graphql"
-    }
+    },
+    plugins: [
+      {
+        requestDidStart: () => ({
+          didResolveOperation({ request, document }) {
+            const complexity = getComplexity({
+              schema,
+              query: request.operationName
+                ? separateOperations(document)[request.operationName]
+                : document,
+              variables: request.variables,
+              estimators: [
+                (args) => {
+                  if (args.field.complexity !== undefined) {
+                    return args.field.complexity;
+                  }
+                },
+                simpleEstimator({ defaultComplexity: 1 }),
+              ],
+            });
+            if (Universe.starship.queryBattery.canActivate(complexity)) {
+              Universe.starship.queryBattery.activate(complexity);
+            } else {
+              throw new Error(
+                `Too complicated query! ${complexity} > the current maximum (${Universe.starship.queryBattery.maxPower})!`,
+              );
+            }
+          },
+        }),
+      },
+    ]
   });
 
   server.listen().then(({ url }) => {

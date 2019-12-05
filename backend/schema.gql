@@ -161,6 +161,8 @@ type Starship {
   velocity: Vector!
   angle: Float!
   thrusting: Boolean!
+  remainingQueryPower: Float!
+  maxQueryPower: Float!
 }
 
 type StarsPage {

@@ -7,6 +7,7 @@ import { EventEmitter } from "events";
 import { Task, createTask, TaskType } from "./targets";
 import Sylvester from "./sylvester-withmods";
 import Mymath from "./mymath";
+import { Battery } from "./Battery";
 
 @ObjectType()
 export class Starship implements IPosRot {
@@ -21,6 +22,7 @@ export class Starship implements IPosRot {
       thrusting: false
     };
   eventEmitter: EventEmitter;
+  public queryBattery: Battery;
 
   constructor(name?: string) {
     this.autopilot = new Autopilot(this, {});
@@ -33,6 +35,7 @@ export class Starship implements IPosRot {
     this.eventEmitter.on("autopilot_Complete", () => {
       this.setTask(createTask(TaskType.IDLE, null));
     });
+    this.queryBattery = new Battery(60, 10);
 
     if (name !== undefined) {
       this.name = name;
@@ -99,6 +102,7 @@ export class Starship implements IPosRot {
       this.movementVec.multiply(msec / 1000)
     );
     this.capMovement();
+    this.queryBattery.tick(msec);
   }
 
   private capMovement() {
@@ -136,6 +140,17 @@ export class Starship implements IPosRot {
   get thrusting(): boolean {
     return this.lastTickActions.thrusting;
   }
+
+  @Field()
+  get remainingQueryPower(): number {
+    return this.queryBattery.power;
+  }
+
+  @Field()
+  get maxQueryPower(): number {
+    return this.queryBattery.maxPower;
+  }
+
 }
 
 export const ThrustVector = new Sylvester.Vector([20, 0]);
