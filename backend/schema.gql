@@ -10,6 +10,11 @@ type Achievement {
   isUnlocked: Boolean!
 }
 
+type Battery {
+  current: Float!
+  max: Float!
+}
+
 interface Body {
   name: String!
   type: String!
@@ -156,13 +161,12 @@ type StarEntry {
 type Starship {
   name: String!
   hyperjumping: Boolean!
+  queryBattery: Battery!
   task: Task!
   position: Vector!
   velocity: Vector!
   angle: Float!
   thrusting: Boolean!
-  remainingQueryPower: Float!
-  maxQueryPower: Float!
 }
 
 type StarsPage {

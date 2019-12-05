@@ -22,7 +22,6 @@ export class Starship implements IPosRot {
       thrusting: false
     };
   eventEmitter: EventEmitter;
-  public queryBattery: Battery;
 
   constructor(name?: string) {
     this.autopilot = new Autopilot(this, {});
@@ -51,6 +50,9 @@ export class Starship implements IPosRot {
 
   @Field()
   hyperjumping: boolean;
+
+  @Field(type => Battery, { complexity: 0 })
+  public queryBattery: Battery;
 
   @Field(type => Task)
   task: Task;
@@ -139,16 +141,6 @@ export class Starship implements IPosRot {
   @Field()
   get thrusting(): boolean {
     return this.lastTickActions.thrusting;
-  }
-
-  @Field()
-  get remainingQueryPower(): number {
-    return this.queryBattery.power;
-  }
-
-  @Field()
-  get maxQueryPower(): number {
-    return this.queryBattery.maxPower;
   }
 
 }

@@ -1,3 +1,6 @@
+import { ObjectType, Field } from "type-graphql";
+
+@ObjectType()
 export class Battery {
   private currentPower: number;
   public maxPower: number;
@@ -31,7 +34,13 @@ export class Battery {
     }
   }
 
-  public get power() {
+  @Field({ complexity: 0 })
+  public get current(): number {
     return this.currentPower;
+  }
+
+  @Field({ complexity: 0 })
+  public get max(): number {
+    return this.maxPower;
   }
 }
