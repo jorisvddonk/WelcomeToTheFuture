@@ -1,5 +1,5 @@
 import { ObjectType, Field } from "type-graphql";
-import { IPosRot } from "../universe/IPosRot";
+import { IPosRot } from "../universe/interfaces/IPosRot";
 import { Vector } from "./Vector";
 import { Autopilot } from "./autopilot";
 import objectRegistry, { ObjectID } from "./objectRegistry";

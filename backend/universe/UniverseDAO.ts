@@ -1,7 +1,7 @@
 import { readFileSync } from "fs";
 import { Star } from "./Star";
-import { IStar, IStarJSON } from "./IStar";
-import { IBody, IBodyJSON } from "./IBody";
+import { IStar, IStarJSON } from "./interfaces/IStar";
+import { IBody, IBodyJSON } from "./interfaces/IBody";
 import { Starship } from "../starship/Starship";
 import { flatten } from "lodash";
 import glob from "glob";

@@ -1,5 +1,5 @@
-import { Vector } from "../starship/Vector";
-import { Hazard } from "./Hazard";
+import { Vector } from "../../starship/Vector";
+import { Hazard } from "../Hazard";
 
 export interface IBodyJSON {
   name: string;

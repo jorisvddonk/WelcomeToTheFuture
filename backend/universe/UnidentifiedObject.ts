@@ -1,5 +1,5 @@
 import { ObjectType, Field } from "type-graphql";
-import { IObject } from "./IObject";
+import { IObject } from "./interfaces/IObject";
 import { Vector } from "../starship/Vector";
 import { Locatable } from "./Locatable";
 

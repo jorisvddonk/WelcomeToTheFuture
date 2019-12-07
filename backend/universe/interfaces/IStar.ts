@@ -1,5 +1,5 @@
 import { IBody, IBodyJSON } from "./IBody";
-import { Vector } from "../starship/Vector";
+import { Vector } from "../../starship/Vector";
 import { IObject } from "./IObject";
 
 export interface IStarJSON {

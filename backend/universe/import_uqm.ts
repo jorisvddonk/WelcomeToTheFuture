@@ -1,12 +1,12 @@
 import "reflect-metadata";
 
 import { MapData, UQMPlanet } from "./data/uqm/map_sc2";
-import { IStar } from "./IStar"
+import { IStar } from "./interfaces/IStar"
 import { writeFileSync } from "fs";
 import { entries } from 'lodash'
-import { IBodyJSON } from "./IBody";
+import { IBodyJSON } from "./interfaces/IBody";
 import { Hazard } from "./Hazard";
-import { IObject } from "./IObject";
+import { IObject } from "./interfaces/IObject";
 import { Vector } from "../starship/Vector";
 import murmurhash3 from "murmurhash3js";
 import MersenneTwister from "mersenne-twister";

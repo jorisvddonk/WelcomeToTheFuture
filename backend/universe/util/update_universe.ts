@@ -1,9 +1,9 @@
 import "reflect-metadata";
 
 import { readFileSync, writeFileSync } from "fs";
-import { IStarJSON } from "../IStar";
+import { IStarJSON } from "../interfaces/IStar";
 import { sortBy } from "lodash";
-import { IBodyJSON } from "../IBody";
+import { IBodyJSON } from "../interfaces/IBody";
 import { Vector } from "../../starship/Vector";
 import murmurhash3 from "murmurhash3js";
 import MersenneTwister from "mersenne-twister";
