@@ -1,7 +1,7 @@
 import { ObjectType, Field } from "type-graphql";
 import { IObject } from "./interfaces/IObject";
 import { Vector } from "../starship/Vector";
-import { Locatable } from "./Locatable";
+import { Locatable } from "./interfaces/Locatable";
 
 @ObjectType({ implements: [Locatable] })
 export class UnidentifiedObject implements IObject, Locatable {
