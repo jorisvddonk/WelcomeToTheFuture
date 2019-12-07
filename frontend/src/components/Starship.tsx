@@ -1,5 +1,5 @@
 import React from "react";
-import { CANVAS_HEIGHT_PX, CANVAS_WIDTH_PX } from "./consts";
+import { CANVAS_HEIGHT_PX, CANVAS_WIDTH_PX } from "../lib/consts";
 
 export interface IStarshipProps {
   angle: number;

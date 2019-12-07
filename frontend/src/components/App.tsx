@@ -1,9 +1,9 @@
 import React from "react";
 import Starship from "./Starship";
 import Planet from "./Planet";
-import { client } from "./graphqlClient";
+import { client } from "../lib/graphqlClient";
 import gql from "graphql-tag";
-import { CANVAS_WIDTH_PX, CANVAS_HEIGHT_PX } from "./consts";
+import { CANVAS_WIDTH_PX, CANVAS_HEIGHT_PX } from "../lib/consts";
 import Moon from "./Moon";
 import { flatten } from "lodash";
 import Star from "./Star";

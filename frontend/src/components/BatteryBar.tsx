@@ -1,5 +1,5 @@
 import React from "react";
-import { client } from "./graphqlClient";
+import { client } from "../lib/graphqlClient";
 import gql from "graphql-tag";
 
 interface IBatteryBar {

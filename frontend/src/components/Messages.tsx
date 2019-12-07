@@ -1,6 +1,6 @@
 import React from "react";
 import Message, { IMessage } from "./Message";
-import { client } from "./graphqlClient";
+import { client } from "../lib/graphqlClient";
 import gql from "graphql-tag";
 
 interface IMessagesState {
