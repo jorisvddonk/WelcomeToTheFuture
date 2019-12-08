@@ -54,4 +54,8 @@ yarn dev
 
 Then visit http://localhost:1234 and get started saving the human race!
 
+## Acknowledgements
 
+This project uses assets from [Kenney](https://www.kenney.nl/assets), [kingcreator11](https://opengameart.org/content/planetary-platformer-pack) and [salemf](https://opengameart.org/content/shiny-sun). Furthermore, the universe data inside of the game is adapted from [Star Control II](http://sc2.sourceforge.net/).
+
+All other code or assets are licensed under the MIT license.
