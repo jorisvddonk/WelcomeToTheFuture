@@ -1,9 +1,9 @@
 import { ObjectType, Field } from "type-graphql";
 @ObjectType()
 export class PageInfo {
-  @Field()
+  @Field({ nullable: true })
   startCursor: string;
-  @Field()
+  @Field({ nullable: true })
   endCursor: string;
   @Field()
   hasMore: boolean;

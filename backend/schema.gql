@@ -95,8 +95,8 @@ type MutationResult {
 union Object = Planet | Moon | UnidentifiedObject
 
 type PageInfo {
-  startCursor: String!
-  endCursor: String!
+  startCursor: String
+  endCursor: String
   hasMore: Boolean!
   count: Float!
 }
