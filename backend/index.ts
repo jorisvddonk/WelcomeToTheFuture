@@ -120,7 +120,13 @@ async function boot() {
   });
 
   Achievements.addAchievementUnlockedListener((achievement: Achievement) => {
-    pubsub.publish("achievementUnlocked", achievement);
+    if (achievement.silent === false) {
+      pubsub.publish("achievementUnlocked", achievement);
+    }
+    if (!Achievements.isUnlocked('control_mastery') && Achievements.isUnlockedAll(['thrust', 'turn', 'autopilot', 'halt'])) {
+      Achievements.unlock('control_mastery');
+      Messages.addMessage(new Message('UFN High Command', { orig: 'Your next objective' }, { orig: 'Now that you know how to move the starship, you can jump to a nearby star using the `hyperspaceJump` GraphQL Mutation!' }))
+    }
   })
 }
 

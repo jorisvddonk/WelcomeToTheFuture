@@ -68,7 +68,8 @@ export class MutationResolver {
     Universe.starship.setTask(createTask(TaskType.MANUAL, null, {
       desiredAngle: Universe.starship.task.type === TaskType.MANUAL ? Universe.starship.task.arg.desiredAngle : undefined,
       thrust: thrust
-    }))
+    }));
+    Achievements.unlock('thrust');
     return new MutationResult(Status.OK);
   }
 
@@ -77,7 +78,8 @@ export class MutationResolver {
     Universe.starship.setTask(createTask(TaskType.MANUAL, null, {
       desiredAngle: angle,
       thrust: Universe.starship.task.type === TaskType.MANUAL ? Universe.starship.task.arg.thrust : undefined
-    }))
+    }));
+    Achievements.unlock('turn');
     return new MutationResult(Status.OK);
   }
 
@@ -93,12 +95,14 @@ export class MutationResolver {
         throw new Error("Planet not found in current solar system");
       }
     }
+    Achievements.unlock('autopilot');
     return new MutationResult(Status.OK);
   }
 
   @Mutation()
   halt(): MutationResult {
     Universe.starship.setTask(createTask(TaskType.HALT, null));
+    Achievements.unlock('halt');
     return new MutationResult(Status.OK);
   }
 
