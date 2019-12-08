@@ -2,9 +2,11 @@ version: '3'
 services:
   backend:
     build: backend
+    image: jorisd/welcome-to-the-future-backend
     ports:
     - "4000:4000"
   frontend:
     build: frontend
+    image: jorisd/welcome-to-the-future-frontend
     ports:
     - "4001:80"
