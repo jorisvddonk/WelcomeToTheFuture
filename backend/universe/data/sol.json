@@ -55,7 +55,7 @@
       "mass": 0,
       "type": "Water",
       "bioHazard": "NONE",
-      "weatherHazard": "MINIMUM",
+      "weatherHazard": "SEVERE",
       "tectonicsHazard": "MINIMUM",
       "thermalHazard": "SEVERE",
       "orbital_period": 364.99030993540015

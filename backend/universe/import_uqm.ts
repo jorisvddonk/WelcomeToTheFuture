@@ -107,7 +107,7 @@ MapData.forEach(constellation => {
                     mass: 0, // todo?,
                     type: planet.Type,
                     bioHazard: getHazard(planet.BioHazard),
-                    weatherHazard: getHazard(planet.Weather),
+                    weatherHazard: getHazard(entry[0] !== "Earth" ? planet.Weather : '6'),
                     tectonicsHazard: getHazard(planet.Tectonics),
                     thermalHazard: getHazard(entry[0] !== "Earth" ? planet.Thermal : '6'),
                     orbital_period: Math.PI * 2 * Math.sqrt(Math.pow(distance_from_parent, 3) / (starmass * 6.674e-11)) / 86400 * 31603 // todo: fix / improve; currently not accurate and uses a magic number `31603` to fix my math
