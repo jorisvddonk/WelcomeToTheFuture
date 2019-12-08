@@ -40,7 +40,7 @@ export class MutationResolver {
       }
     }, 100);
     Universe.starship.setTask(createTask(TaskType.IDLE, null));
-    return new MutationResult(Status.OK);
+    return new MutationResult(Status.OK, `Jumping to ${starname}`);
   }
 
   @Mutation()
@@ -60,7 +60,7 @@ export class MutationResolver {
   rename(@Arg("name") name: string): MutationResult {
     Universe.starship.name = name;
     Achievements.unlock('rename');
-    return new MutationResult(Status.OK);
+    return new MutationResult(Status.OK, `Ship renamed to '${name}'`);
   }
 
   @Mutation()
@@ -70,7 +70,7 @@ export class MutationResolver {
       thrust: thrust
     }));
     Achievements.unlock('thrust');
-    return new MutationResult(Status.OK);
+    return new MutationResult(Status.OK, `Thrust set to ${thrust.toFixed(2)}`);
   }
 
   @Mutation()
@@ -80,37 +80,40 @@ export class MutationResolver {
       thrust: Universe.starship.task.type === TaskType.MANUAL ? Universe.starship.task.arg.thrust : undefined
     }));
     Achievements.unlock('turn');
-    return new MutationResult(Status.OK);
+    return new MutationResult(Status.OK, `Angle set to ${angle.toFixed(2)}`);
   }
 
   @Mutation()
   moveTo(@Arg("x", { nullable: true }) x: number, @Arg("y", { nullable: true }) y: number, @Arg("planet", { nullable: true }) planet: string): MutationResult {
+    let msg = undefined;
     if (x !== undefined && y !== undefined) {
       Universe.starship.setTask(createTask(TaskType.MOVE, new Sylvester.Vector([x, y])));
+      msg = `Moving to x=${x}, y=${y}`;
     } else if (planet !== undefined) {
       const foundPlanet = Universe.getPlanet(planet, Universe.getCurrentStar().name);
       if (foundPlanet) {
         Universe.starship.setTask(createTask(TaskType.MOVE, new Sylvester.Vector([foundPlanet.position.x, foundPlanet.position.y])));
+        msg = `Moving to x=${foundPlanet.position.x.toFixed(2)}, y=${foundPlanet.position.y.toFixed(2)}`;
       } else {
         throw new Error("Planet not found in current solar system");
       }
     }
     Achievements.unlock('autopilot');
-    return new MutationResult(Status.OK);
+    return new MutationResult(Status.OK, msg);
   }
 
   @Mutation()
   halt(): MutationResult {
     Universe.starship.setTask(createTask(TaskType.HALT, null));
     Achievements.unlock('halt');
-    return new MutationResult(Status.OK);
+    return new MutationResult(Status.OK, 'Halting...');
   }
 
   @Mutation()
   land(): MutationResult {
     if (Universe.canLand) {
       Universe.land();
-      return new MutationResult(Status.OK);
+      return new MutationResult(Status.OK, 'Landing...');
     } else {
       return new MutationResult(Status.ERROR, "Not nearby a planet you can land on!");
     }
