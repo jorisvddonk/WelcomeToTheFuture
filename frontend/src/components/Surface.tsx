@@ -1,9 +1,5 @@
 import React from "react";
-
-export enum ESurfaceType {
-  GRASS = "grass",
-  DESERT = "desert"
-}
+import { ESurfaceType } from "../types/ESurfaceType";
 
 export interface ISurfaceProps {
   surfaceType: ESurfaceType;

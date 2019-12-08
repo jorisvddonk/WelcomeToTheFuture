@@ -19,10 +19,6 @@ body {
   font-family: "Open Sans";
 }
 
-.spaceCanvasParent {
-  position: relative;
-}
-
 .spaceCanvas, .sufaceCanvas {
   position: relative;
   z-index: 0;
@@ -166,7 +162,7 @@ body {
 .main {
   display: grid;
   grid-template-areas:
-    "map playground"
+    "screen playground"
     "info playground";
   grid-template-columns: 500px auto;
   grid-template-rows: 500px auto;
@@ -181,8 +177,9 @@ body {
     grid-area: playground;
   }
 
-  .spaceCanvasParent {
-    grid-area: map;
+  .screenCanvas {
+    grid-area: screen;
+    position: relative;
   }
 
   .info {
