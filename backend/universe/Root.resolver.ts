@@ -81,4 +81,9 @@ export class RootResolver {
             return _filter(Messages.messages, filter);
         }
     }
+
+    @Query(returns => String)
+    hello(): String {
+        return 'world';
+    }
 }

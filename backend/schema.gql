@@ -138,6 +138,7 @@ type Query {
   starship: Starship!
   star(name: String!): Star
   inbox(filter: InboxFilter): [Message!]
+  hello: String!
 }
 
 type Star {
