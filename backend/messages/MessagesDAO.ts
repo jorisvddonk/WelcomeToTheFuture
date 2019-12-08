@@ -20,6 +20,12 @@ export class MessagesDAO {
         this.messagesUpdateListeners.forEach(x => x());
     }
 
+    public markAllAsRead() {
+        this.messages.forEach(message => {
+            this.markAsRead(message.id);
+        });
+    }
+
     public addMessage(message: Message) {
         this.messages.push(message);
         this.messagesUpdateListeners.forEach(x => x());

@@ -50,6 +50,12 @@ export class MutationResolver {
     return Messages.get(id);
   }
 
+  @Mutation(type => Status)
+  markAllAsRead(): Status {
+    Messages.markAllAsRead();
+    return Status.OK;
+  }
+
   @Mutation()
   rename(@Arg("name") name: string): MutationResult {
     Universe.starship.name = name;
