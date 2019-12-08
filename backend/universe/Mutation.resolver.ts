@@ -23,7 +23,10 @@ export class MutationResolver {
       ]);
       i += 33;
       if (i > 2000) {
-        Achievements.unlock("hyperspace");
+        let firstHyperspace = Achievements.unlock("hyperspace");
+        if (firstHyperspace) {
+          Messages.addMessage(new Message("United Federation of Nations High Command", { orig: "Your next mission objective" }, { orig: "Congratulations on your successful hyperspace jump! You must now find a potentially habitable world around you, and go there! Our scientists say that there might be a suitable world around Beta Giclas." }));
+        }
 
         if (starname !== "Beta Giclas" && Universe.getCurrentStar().name === "Beta Giclas") {
           Achievements.unlock("narrow_escape");
