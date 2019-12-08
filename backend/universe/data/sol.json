@@ -57,7 +57,7 @@
       "bioHazard": "NONE",
       "weatherHazard": "MINIMUM",
       "tectonicsHazard": "MINIMUM",
-      "thermalHazard": "NONE",
+      "thermalHazard": "SEVERE",
       "orbital_period": 364.99030993540015
     },
     {
