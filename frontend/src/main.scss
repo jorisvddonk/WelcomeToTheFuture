@@ -138,6 +138,12 @@ body {
     background: url("../assets/kenney/spaceShips_008.png");
     background-size: 100%;
   }
+  &.unidentifiedObject-spaceStation {
+    background: url("../assets/kenney/spaceStation_026.png");
+    background-size: 100%;
+    width: 200px;
+    height: 200px;
+  }
 }
 
 .star {

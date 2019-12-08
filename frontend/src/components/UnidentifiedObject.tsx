@@ -18,6 +18,8 @@ export default class UnidentifiedObject extends Sprite<IUnidentifiedObjectProps>
     switch (atob(this.props.scannerData)) {
       case "enemyShip":
         return 106
+      case "spaceStation":
+        return 138;
       default:
         return 100;
     }
@@ -26,7 +28,9 @@ export default class UnidentifiedObject extends Sprite<IUnidentifiedObjectProps>
   getSpriteHeight() {
     switch (atob(this.props.scannerData)) {
       case "enemyShip":
-        return 80
+        return 80;
+      case "spaceStation":
+        return 200;
       default:
         return 100;
     }
