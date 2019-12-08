@@ -64,6 +64,19 @@ MapData.forEach(constellation => {
                 })
             }
         }
+        if (starName === "Sol") {
+            // add space station
+            // TODO: make this not an _unidentified_ object.
+            const seed = murmurhash3.x86.hash32(`${starName}_enemies`);
+            const random = new MersenneTwister(seed);
+            const arc = random.random();
+            const dist = 2100e5;
+            objects.push({
+                position: new Vector((Math.sin(arc) * dist) / 1.5e5, (Math.cos(arc) * dist) / 1.5e5),
+                angle: random.random() * 360,
+                scannerData: Buffer.from('spaceStation').toString('base64')
+            })
+        }
         const exportStar: IStar = {
             name: starName,
             mass: starmass,

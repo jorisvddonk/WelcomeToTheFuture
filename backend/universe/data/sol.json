@@ -302,5 +302,14 @@
       "orbital_period": 59.93889020677303
     }
   ],
-  "objects": []
+  "objects": [
+    {
+      "position": {
+        "x": 389.9815746665514,
+        "y": 1344.587063533112
+      },
+      "angle": 300.34260515123606,
+      "scannerData": "c3BhY2VTdGF0aW9u"
+    }
+  ]
 }
