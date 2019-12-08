@@ -19,14 +19,16 @@ export class AchievementsDAO {
         return achievement;
     }
 
-    public unlock(achievementid: string) {
+    public unlock(achievementid: string): boolean {
         const achievement = this.get(achievementid);
         if (achievement.isUnlocked === false) {
             achievement.isUnlocked = true;
             this.listeners.forEach((listener) => {
                 listener(achievement);
             });
+            return true;
         }
+        return false;
     }
 
     public addAchievementUnlockedListener(listener: (achievement: Achievement) => void) {
