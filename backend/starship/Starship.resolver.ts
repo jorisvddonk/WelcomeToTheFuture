@@ -5,6 +5,7 @@ import {
   FieldResolver
 } from "type-graphql";
 import { Starship } from "./Starship";
+import { Achievements } from "../Achievements/AchievementsDAO";
 
 @Resolver(Starship)
 export class StarshipResolver {
@@ -22,6 +23,7 @@ export class StarshipResolver {
   @FieldResolver()
   name(
     @Root() starship: Starship): string {
+    Achievements.unlock('get_name');
     return starship.name;
   }
 

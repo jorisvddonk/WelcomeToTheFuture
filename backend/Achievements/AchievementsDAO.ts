@@ -4,6 +4,8 @@ export class AchievementsDAO {
     public achievements: Achievement[] = [];
     private listeners: ((achievement: Achievement) => void)[] = [];
     constructor() {
+        this.achievements.push(new Achievement("get_name", "Read nametag", "Get the starship's name", true));
+
         this.achievements.push(new Achievement("thrust", "Ramming speed!", "Use the ship's thrusters", true));
         this.achievements.push(new Achievement("turn", "Twist and turn", "Turn around", true));
         this.achievements.push(new Achievement("autopilot", "Autopilot", "Use the ship's autopilot", true));

@@ -127,6 +127,11 @@ async function boot() {
       Achievements.unlock('control_mastery');
       Messages.addMessage(new Message('UFN High Command', { orig: 'Your next objective' }, { orig: 'Now that you know how to move the starship, you can jump to a nearby star using the `hyperspaceJump` GraphQL Mutation!' }))
     }
+    if (achievement.id === 'get_name') {
+      setTimeout(() => {
+        Messages.addMessage(new Message("United Federation of Nations High Command", { orig: "How to pilot the starship" }, { orig: "Use the `setThrust`, `setDesiredAngle`, `halt` and `moveTo` GraphQL Mutations to pilot the ship! Use `markAllAsRead` to mark this message as read." }));
+      }, 5000);
+    }
   })
 }
 
