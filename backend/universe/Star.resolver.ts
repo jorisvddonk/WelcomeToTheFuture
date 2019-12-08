@@ -4,6 +4,7 @@ import {
   Root,
   Subscription,
   Arg,
+  Args,
 } from "type-graphql";
 import { Star } from "./Star";
 import { Universe } from "./UniverseDAO";
@@ -11,6 +12,8 @@ import { Planet } from "./Planet";
 import { getRangeBetweenStars } from "./Utils";
 import { filter as _filter } from 'lodash';
 import { ObjectUnion } from "./UnionTypes";
+import { PageFilter, GeneratePage } from "../lib/Page";
+import { StarsPage } from "./pages/StarsPage";
 
 @Resolver(of => Star)
 export class StarResolver /* implements ResolverInterface<Star>*/ {
@@ -36,9 +39,16 @@ export class StarResolver /* implements ResolverInterface<Star>*/ {
     return getRangeBetweenStars(Universe.getCurrentStar(), star);
   }
 
-  @FieldResolver(returns => [Star])
-  nearbyStars(@Root() star: Star, @Arg("maxRange", { nullable: true, description: "Range to search for other stars" }) maxRange: number): Star[] {
-    return Universe.getStars().filter((x: Star) => {
+  @FieldResolver(returns => StarsPage, {
+    complexity: (v) => {
+      if (v.args.take === undefined) {
+        return 100 * v.childComplexity * 0.1; // estimate 100 stars
+      }
+      return v.args.take * v.childComplexity * 0.1;
+    }
+  })
+  async nearbyStars(@Root() star: Star, @Args() filter: PageFilter, @Arg("maxRange", { nullable: true, description: "Range to search for other stars" }) maxRange: number): Promise<StarsPage> {
+    const items = Universe.getStars().filter((x: Star) => {
       return x.name !== star.name
     }).filter((x: Star) => {
       if (maxRange !== undefined) {
@@ -46,6 +56,8 @@ export class StarResolver /* implements ResolverInterface<Star>*/ {
       }
       return true;
     });
+    const retval = await GeneratePage<Star>(items, filter, star => `${star.name}`);
+    return retval;
   }
 
   @Subscription({
