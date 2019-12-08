@@ -79,6 +79,7 @@ type Moon implements Body & Locatable {
 type Mutation {
   hyperspaceJump(star: String!): MutationResult!
   markAsRead(id: String!): Message!
+  markAllAsRead: Status!
   rename(name: String!): MutationResult!
   setThrust(thrust: Float!): MutationResult!
   setDesiredAngle(angle: Float!): MutationResult!
