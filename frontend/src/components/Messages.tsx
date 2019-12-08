@@ -3,11 +3,21 @@ import Message, { IMessage } from "./Message";
 import { client } from "../lib/graphqlClient";
 import gql from "graphql-tag";
 
+export enum MessageDisplay {
+  COUNTER = "COUNTER",
+  FROM = "FROM",
+  TITLE = "TITLE"
+}
+
 interface IMessagesState {
   messages: IMessage[];
 }
 
-export default class Messages extends React.Component<any, IMessagesState> {
+interface IMessagesProps {
+  show: MessageDisplay;
+}
+
+export default class Messages extends React.Component<IMessagesProps, IMessagesState> {
   constructor(props) {
     super(props);
 
@@ -19,7 +29,8 @@ export default class Messages extends React.Component<any, IMessagesState> {
   title
   body
   id
-  isRead`;
+  isRead
+  from`;
 
     client
       .query({
@@ -54,15 +65,31 @@ export default class Messages extends React.Component<any, IMessagesState> {
     return this.state.messages.filter(message => message.isRead === false).length;
   }
 
+  renderCounter() {
+    return <><b>{this.numUnreadMessages}</b>{" "}<span>unread message(s).</span></>
+  }
+
+  renderTitle() {
+    return <><b>{this.numUnreadMessages}</b>{" "}<span>unread message(s):</span>{this.state.messages.filter(message => message.isRead === false).map(message => (
+      <Message message={message} showBody={false} />
+    ))}</>
+  }
+
+  renderFrom() {
+    return <><b>{this.numUnreadMessages}</b>{" "}<span>unread message(s) from </span>{this.state.messages.filter(message => message.isRead === false).map((message, index, array) => (
+      <><em>{message.from}</em><span>{index === array.length - 1 ? '' : ', '}</span></>
+    ))}</>
+  }
+
   render() {
     return (
       <div>
         {this.numUnreadMessages > 0 && <>
-          <span>{this.numUnreadMessages}</span>{}<span>unread message(s):</span>
-          {this.state.messages.filter(message => message.isRead === false).map(message => (
-            <Message message={message} showBody={false} />
-          ))}
-          <span>(use GraphQL to read the message body!)</span>
+          {this.props.show === MessageDisplay.COUNTER && this.renderCounter()}
+          {this.props.show === MessageDisplay.FROM && this.renderFrom()}
+          {this.props.show === MessageDisplay.TITLE && this.renderTitle()}
+          <br />
+          <span>(use GraphQL <em>inbox</em> query to read the message body!)</span>
         </>}
       </div>
     );

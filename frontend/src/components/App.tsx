@@ -1,6 +1,6 @@
 import React from "react";
 import GQLPlayground from "./GQLPlayground";
-import Messages from "./Messages";
+import Messages, { MessageDisplay } from "./Messages";
 import BatteryBar from "./BatteryBar";
 import Space from "./Space";
 import Surface from "./Surface";
@@ -70,7 +70,7 @@ export default class App extends React.Component<any, IAppState> {
           >
             +
           </button>
-          <Messages />
+          <Messages show={MessageDisplay.COUNTER} />
           <BatteryBar />
         </div>
       </div>

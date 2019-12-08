@@ -5,6 +5,7 @@ export interface IMessage {
   body: string;
   id: string;
   isRead: boolean;
+  from: string;
 }
 
 interface IMessageProps {
