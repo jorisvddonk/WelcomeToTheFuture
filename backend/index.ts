@@ -34,6 +34,7 @@ async function boot() {
 
   const server = new ApolloServer({
     schema,
+    debug: false,
     subscriptions: {
       path: "/graphql"
     },
