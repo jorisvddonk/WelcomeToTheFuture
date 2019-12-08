@@ -28,12 +28,16 @@ export class MessageResolver /* implements ResolverInterface<Message>*/ {
     }
 
     @FieldResolver()
+    title(@Root() message: Message, @Arg("translate", type => Translation, { nullable: true }) translate: Translation): string {
+        return message.getTitle(translate);
+    }
+
+    @FieldResolver()
     body(@Root() message: Message, @Arg("translate", type => Translation, { nullable: true }) translate: Translation): string {
         if (translate === Translation.ENGLISH) {
             Achievements.unlock("translate");
-            return message._body_en;
         }
-        return message._body;
+        return message.getBody(translate);
     }
 
 }

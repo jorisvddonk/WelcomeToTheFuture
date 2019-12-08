@@ -1,4 +1,5 @@
 import { Field, ObjectType } from "type-graphql";
+import { Translation } from "./Translation";
 
 let lastMessageNum = 0;
 function generateMessageID() {
@@ -6,22 +7,25 @@ function generateMessageID() {
     return Buffer.from(`Message_${lastMessageNum}`).toString('base64');
 }
 
+export interface TranslatableString {
+    orig: string,
+    en?: string,
+}
+
 @ObjectType()
 export class Message {
+    private title: TranslatableString;
+    private body: TranslatableString;
+
     constructor(
-        title: string,
-        body_orig: string,
-        body_english?: string
+        title: TranslatableString,
+        body: TranslatableString
     ) {
         this.title = title;
-        this._body = body_orig;
-        this._body_en = body_english !== undefined ? body_english : body_orig;
+        this.body = body;
         this.id = generateMessageID();
         this.isRead = false;
     }
-
-    @Field()
-    title: string;
 
     @Field()
     id: string;
@@ -29,6 +33,21 @@ export class Message {
     @Field()
     isRead: boolean;
 
-    public _body: string;
-    public _body_en: string;
+    public getTitle(translation: Translation) {
+        if (translation === Translation.ENGLISH) {
+            if (this.title.en !== undefined) {
+                return this.title.en;
+            }
+        }
+        return this.title.orig;
+    }
+
+    public getBody(translation: Translation) {
+        if (translation === Translation.ENGLISH) {
+            if (this.body.en !== undefined) {
+                return this.body.en;
+            }
+        }
+        return this.body.orig;
+    }
 }
