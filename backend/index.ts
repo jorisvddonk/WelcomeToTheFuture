@@ -20,6 +20,7 @@ import { MutationResolver } from "./universe/Mutation.resolver";
 import { Message } from "./messages/Message";
 import { Messages } from "./messages/MessagesDAO";
 import { separateOperations } from "graphql";
+import { isFunction } from "util";
 
 const UPDATE_INTERVAL = (1000 / 60) * 3; // 3 frames @ 60fps
 
@@ -49,7 +50,11 @@ async function boot() {
               estimators: [
                 (args) => {
                   if (args.field.complexity !== undefined) {
-                    return args.field.complexity;
+                    if (isFunction(args.field.complexity)) {
+                      return args.field.complexity(args);
+                    } else {
+                      return args.field.complexity;
+                    }
                   }
                 },
                 simpleEstimator({ defaultComplexity: 1 }),
