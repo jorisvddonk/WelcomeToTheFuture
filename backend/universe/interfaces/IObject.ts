@@ -1,4 +1,4 @@
-import { Vector } from "../starship/Vector";
+import { Vector } from "../../starship/Vector";
 
 export interface IObject {
   scannerData: string;
