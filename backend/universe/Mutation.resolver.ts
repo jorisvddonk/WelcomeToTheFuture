@@ -21,8 +21,8 @@ export class MutationResolver {
         Universe.starship.rotationVec.e(1) * i,
         Universe.starship.rotationVec.e(2) * i
       ]);
-      i += 0.25;
-      if (i > 10) {
+      i += 33;
+      if (i > 2000) {
         Achievements.unlock("hyperspace");
 
         if (starname !== "Beta Giclas" && Universe.getCurrentStar().name === "Beta Giclas") {
