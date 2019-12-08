@@ -26,9 +26,9 @@ export class UniverseDAO {
     const sol = this.stars.find(star => star.name === "Sol");
     if (sol !== undefined) {
       this.currentStarname = sol.name;
-      const earth = sol.bodies.find(body => body.name === "Earth");
-      if (earth !== undefined) {
-        this.starship.positionVec = new Sylvester.Vector([earth.position.x, earth.position.y]);
+      const spacestation = sol.unidentifiedObjects.find(obj => Buffer.from(obj.scannerData, 'base64').toString('ascii') === "spaceStation");
+      if (spacestation !== undefined) {
+        this.starship.positionVec = new Sylvester.Vector([spacestation.position.x + 20, spacestation.position.y]);
       }
     }
   }
