@@ -34,7 +34,7 @@ export class Starship implements IPosRot {
     this.eventEmitter.on("autopilot_Complete", () => {
       this.setTask(createTask(TaskType.IDLE, null));
     });
-    this.queryBattery = new Battery(60, 10);
+    this.queryBattery = new Battery(150, 10);
 
     if (name !== undefined) {
       this.name = name;
