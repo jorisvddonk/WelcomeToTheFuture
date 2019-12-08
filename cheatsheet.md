@@ -76,6 +76,20 @@ query {
 }
 ```
 
+## Aliases
+
+```graphql
+query {
+  readMessages: inbox(filter: { isRead: true }) {
+    title
+  }
+
+  unreadMessages: inbox(filter: { isRead: false }) {
+    title
+  }
+}
+```
+
 ## Mutation
 
 ```graphql
@@ -124,6 +138,22 @@ variables:
 }
 ```
 
+## Query variables with default
+
+query:
+```graphql
+query ($take:Int = 5, $cursor:String, $search:String) {
+  stars(take:$take, cursor:$cursor, nameSearch:$search) {
+    ###
+  }
+}
+```
+
+variables:
+```json
+{}
+```
+
 ## Directives
 
 query:
@@ -157,7 +187,7 @@ variables:
 }
 ```
 
-## Discriminating on union types
+## Discriminating on union types using inline fragments
 
 ```graphql
 query {
