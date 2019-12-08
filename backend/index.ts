@@ -67,7 +67,7 @@ async function boot() {
               Universe.starship.queryBattery.activate(complexity);
             } else {
               throw new Error(
-                `Too complicated query! ${complexity} > the current maximum (${Universe.starship.queryBattery.maxPower})!`,
+                `Too complicated query! ${complexity} > the current maximum (${Universe.starship.queryBattery.maxPower})! Please submit a simpler query or wait a few seconds...`,
               );
             }
           },
