@@ -21,13 +21,15 @@ import { Message } from "./messages/Message";
 import { Messages } from "./messages/MessagesDAO";
 import { separateOperations } from "graphql";
 import { isFunction } from "util";
+import { UIStateResolver } from "./universe/UIState.resolver";
+import { UIStateUpdate } from "./ui/UIStateUpdate";
 
 const UPDATE_INTERVAL = (1000 / 60) * 3; // 3 frames @ 60fps
 
 async function boot() {
   const pubsub = new PubSub();
   const schema = await buildSchema({
-    resolvers: [RootResolver, MutationResolver, StarshipResolver, StarResolver, PlanetResolver, MessageResolver, AchievementResolver],
+    resolvers: [RootResolver, MutationResolver, StarshipResolver, StarResolver, PlanetResolver, MessageResolver, AchievementResolver, UIStateResolver],
     emitSchemaFile: true,
     pubSub: pubsub
   });
@@ -98,6 +100,16 @@ async function boot() {
         Messages.addMessage(new Message("Science Officer", { orig: "Alien contact established!" }, { orig: "We have established contact with an alien race! Our scientists have been able to create a translator for their language. Use GraphQL field arguments to translate the message!" }));
       }, 10000)
     }
+  });
+
+  Universe.addLandedListener(() => {
+    pubsub.publish(
+      "uiStateUpdate",
+      new UIStateUpdate("SURFACE")
+    );
+    setTimeout(() => {
+      Achievements.unlock("land");
+    }, 15000);
   });
 
   Messages.addMessageUpdateListener(() => {

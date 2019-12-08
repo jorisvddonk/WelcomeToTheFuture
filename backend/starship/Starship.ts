@@ -21,7 +21,7 @@ export class Starship implements IPosRot {
   } = {
       thrusting: false
     };
-  eventEmitter: EventEmitter;
+  public eventEmitter: EventEmitter;
 
   constructor(name?: string) {
     this.autopilot = new Autopilot(this, {});

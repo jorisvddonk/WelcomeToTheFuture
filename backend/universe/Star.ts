@@ -20,11 +20,11 @@ export class Star {
 
   bodies: (Planet | Moon)[]
 
-  get planets() {
-    return this.bodies.filter(x => x.__cls === Planet.__cls);
+  get planets(): Planet[] {
+    return this.bodies.filter(x => x.__cls === Planet.__cls) as Planet[];
   }
 
-  get moons() {
-    return this.bodies.filter(x => x.__cls === Moon.__cls);
+  get moons(): Moon[] {
+    return this.bodies.filter(x => x.__cls === Moon.__cls) as Moon[];
   }
 }

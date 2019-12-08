@@ -84,6 +84,7 @@ type Mutation {
   setDesiredAngle(angle: Float!): MutationResult!
   moveTo(planet: String, y: Float, x: Float): MutationResult!
   halt: MutationResult!
+  land: MutationResult!
 }
 
 type MutationResult {
@@ -188,6 +189,7 @@ type Subscription {
   starUpdate: Star!
   inboxSub: [Message!]!
   onAchievementUnlocked: Achievement!
+  uiStateUpdate: UIStateUpdate!
 }
 
 type Target {
@@ -219,6 +221,10 @@ enum TaskType {
 enum Translation {
   ENGLISH
   DO_NOT_TRANSLATE
+}
+
+type UIStateUpdate {
+  screen: String!
 }
 
 type UnidentifiedObject implements Locatable {

@@ -95,4 +95,14 @@ export class MutationResolver {
     Universe.starship.setTask(createTask(TaskType.HALT, null));
     return new MutationResult(Status.OK);
   }
+
+  @Mutation()
+  land(): MutationResult {
+    if (Universe.canLand) {
+      Universe.land();
+      return new MutationResult(Status.OK);
+    } else {
+      return new MutationResult(Status.ERROR, "Not nearby a planet you can land on!");
+    }
+  }
 }

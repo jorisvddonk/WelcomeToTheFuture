@@ -10,13 +10,17 @@ import { Planet } from "./Planet";
 import { Moon } from "./Moon";
 import { UnidentifiedObject } from "./UnidentifiedObject";
 import { plainToClass } from "class-transformer";
+import { getRangeBetweenPositions } from "./Utils";
+import { Achievements } from "../Achievements/AchievementsDAO";
 
 
 export class UniverseDAO {
   private stars: Star[] = [];
   public starship: Starship;
   private currentStarname: string;
-  private starUpdateListeners = [];
+  private starUpdateListeners = []; // todo: refactor to eventEmitter
+  private landedListeners = []; // todo: refactor to eventEmitter
+  public canLand: boolean = false;
 
   constructor() {
     this.reloadStars();
@@ -31,6 +35,20 @@ export class UniverseDAO {
         this.starship.positionVec = new Sylvester.Vector([spacestation.position.x + 20, spacestation.position.y]);
       }
     }
+
+    this.starship.eventEmitter.on("autopilot_Complete", () => {
+      // check if nearby a water planet
+      let landablePlanet = this.getCurrentStar().planets.find(planet => {
+        if (getRangeBetweenPositions(this.starship.position, planet.position) < 100) {
+          return planet.type === "Water" && planet.isSafe();
+        }
+        return false;
+      });
+      if (landablePlanet !== undefined) {
+        Achievements.unlock("can_land");
+        this.canLand = true;
+      }
+    });
   }
 
   reloadStars() {
@@ -115,8 +133,20 @@ export class UniverseDAO {
     this.starUpdateListeners.forEach(x => x());
   }
 
+  land() {
+    if (this.canLand) {
+      this.landedListeners.forEach(x => x());
+    } else {
+      throw new Error("Cannot land here!");
+    }
+  }
+
   addStarUpdateListener(listener) {
     this.starUpdateListeners.push(listener);
+  }
+
+  addLandedListener(listener) {
+    this.landedListeners.push(listener);
   }
 }
 

@@ -6,6 +6,8 @@ import Space from "./Space";
 import Surface from "./Surface";
 import { EScreenType } from "../types/EScreenType";
 import { ESurfaceType } from "../types/ESurfaceType";
+import { client } from "../lib/graphqlClient";
+import gql from "graphql-tag";
 
 interface IAppState {
   zoom: number,
@@ -19,6 +21,24 @@ export default class App extends React.Component<any, IAppState> {
       zoom: 1,
       screen: EScreenType.SPACE
     };
+
+    const uiUpdateQuery = `
+      screen
+    `;
+
+    client
+      .subscribe({
+        query: gql`
+          subscription {
+            uiStateUpdate {
+              ${uiUpdateQuery}
+            }
+          }
+        `
+      })
+      .forEach(x => {
+        this.setState({ screen: x.data.uiStateUpdate.screen });
+      });
   }
 
   render() {

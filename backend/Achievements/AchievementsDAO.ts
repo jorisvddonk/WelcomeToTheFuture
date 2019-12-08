@@ -9,6 +9,8 @@ export class AchievementsDAO {
         this.achievements.push(new Achievement("hyperspace", "Underway on Antimatter Power", "Made your first hyperspace jump!"));
         this.achievements.push(new Achievement("translate", "Babelfish", "Translated a message from an alien language!"));
         this.achievements.push(new Achievement("narrow_escape", "Exceptionally Handled", "Narrowly escaped imminent death and destruction!"));
+        this.achievements.push(new Achievement("can_land", "Orbit Established", "Orbiting around a habitable world!"));
+        this.achievements.push(new Achievement("land", "Touchdown", "Landed on a habitable world!"));
     }
 
     public get(achievementid: string) {

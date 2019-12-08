@@ -45,4 +45,12 @@ export class Planet implements Body, Locatable {
   static get __cls() {
     return "PLANET";
   }
+
+  private isHazardSafe(hazard: Hazard) {
+    return hazard === Hazard.NONE || hazard === Hazard.MINIMUM || hazard === Hazard.LOW || hazard === Hazard.MODERATE;
+  }
+
+  isSafe() {
+    return this.isHazardSafe(this.bioHazard) && this.isHazardSafe(this.tectonicsHazard) && this.isHazardSafe(this.weatherHazard) && this.isHazardSafe(this.thermalHazard);
+  }
 }
