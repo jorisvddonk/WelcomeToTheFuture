@@ -39,15 +39,12 @@ export class StarResolver /* implements ResolverInterface<Star>*/ {
     return getRangeBetweenStars(Universe.getCurrentStar(), star);
   }
 
-  @FieldResolver(returns => StarsPage, {
+  @FieldResolver(returns => [Star], {
     complexity: (v) => {
-      if (v.args.take === undefined) {
-        return 100 * v.childComplexity * 0.1; // estimate 100 stars
-      }
-      return v.args.take * v.childComplexity * 0.1;
+      return 5 * v.childComplexity;
     }
   })
-  async nearbyStars(@Root() star: Star, @Args() filter: PageFilter, @Arg("maxRange", { nullable: true, description: "Range to search for other stars" }) maxRange: number): Promise<StarsPage> {
+  nearbyStars(@Root() star: Star, @Arg("maxRange", { nullable: true, description: "Range to search for other stars" }) maxRange: number): Star[] {
     const items = Universe.getStars().filter((x: Star) => {
       return x.name !== star.name
     }).filter((x: Star) => {
@@ -56,8 +53,7 @@ export class StarResolver /* implements ResolverInterface<Star>*/ {
       }
       return true;
     });
-    const retval = await GeneratePage<Star>(items, filter, star => `${star.name}`);
-    return retval;
+    return items;
   }
 
   @Subscription({

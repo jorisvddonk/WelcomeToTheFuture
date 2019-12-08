@@ -132,9 +132,8 @@ type Query {
   moons: [Moon!]!
   planets: [Planet!]!
   currentStar: Star
-  pagedStars(cursor: String, take: Int): StarsPage!
+  stars(cursor: String, take: Int, nameSearch: String, name: String): StarsPage!
   pagedPlanets(cursor: String, take: Int): PlanetsPage!
-  stars(nameSearch: String, name: String): [Star!]
   starship: Starship!
   star(name: String!): Star
   inbox(filter: InboxFilter): [Message!]
@@ -154,9 +153,7 @@ type Star {
   nearbyStars(
     """Range to search for other stars"""
     maxRange: Float
-    cursor: String
-    take: Int
-  ): StarsPage!
+  ): [Star!]!
 }
 
 type StarEntry {

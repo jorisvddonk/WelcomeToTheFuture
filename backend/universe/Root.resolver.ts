@@ -34,9 +34,32 @@ export class RootResolver {
         return Universe.getCurrentStar();
     }
 
-    @Query(returns => StarsPage)
-    async pagedStars(@Args() filter: PageFilter): Promise<StarsPage> {
-        const items = Universe.getStars();
+    @Query(returns => StarsPage, {
+        complexity: (v) => {
+            let estimatedResults = 100;
+            if (v.args.take !== undefined) {
+                estimatedResults = v.args.take;
+            }
+            if (v.args.nameSearch !== undefined) {
+                estimatedResults = 4;
+            }
+            if (v.args.name !== undefined) {
+                estimatedResults = 1;
+            }
+            return estimatedResults * v.childComplexity * 0.1;
+        }
+    })
+    async stars(@Arg("name", { nullable: true }) name: string, @Arg("nameSearch", { nullable: true }) nameSearch: string, @Args() filter: PageFilter): Promise<StarsPage> {
+        const searchFilter: any = {};
+        if (name !== undefined) {
+            searchFilter.name = name;
+        }
+        const items = _filter(Universe.getStars(), searchFilter).filter((star: Star) => {
+            if (nameSearch !== undefined) {
+                return star.name.toLowerCase().indexOf(nameSearch.toLowerCase()) > -1;
+            }
+            return true;
+        });
         const retval = await GeneratePage<Star>(items, filter, star => `${star.name}`);
         return retval;
     }
@@ -46,20 +69,6 @@ export class RootResolver {
         const items = Universe.getPlanets();
         const retval = await GeneratePage<Planet>(items, filter, planet => `${planet.star}_${planet.name}`);
         return retval;
-    }
-
-    @Query(returns => [Star], { nullable: true })
-    stars(@Arg("name", { nullable: true }) name: string, @Arg("nameSearch", { nullable: true }) nameSearch: string): Star[] | undefined {
-        const filter: any = {};
-        if (name !== undefined) {
-            filter.name = name;
-        }
-        return _filter(Universe.getStars(), filter).filter((star: Star) => {
-            if (nameSearch !== undefined) {
-                return star.name.toLowerCase().indexOf(nameSearch.toLowerCase()) > -1;
-            }
-            return true;
-        });
     }
 
     @Query(returns => Starship)
