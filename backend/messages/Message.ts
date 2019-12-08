@@ -18,14 +18,19 @@ export class Message {
     private body: TranslatableString;
 
     constructor(
+        from: string,
         title: TranslatableString,
         body: TranslatableString
     ) {
         this.title = title;
         this.body = body;
+        this.from = from;
         this.id = generateMessageID();
         this.isRead = false;
     }
+
+    @Field()
+    from: string;
 
     @Field()
     id: string;

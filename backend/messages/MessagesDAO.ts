@@ -4,7 +4,7 @@ export class MessagesDAO {
     public messages: Message[] = [];
     private messagesUpdateListeners = [];
     constructor() {
-        this.messages.push(new Message({ orig: "Your mission objectives" }, { orig: "Your mission is simple: save the human race, by establishing a colony on another world! First, you must test out the starship control systems and its hyperdrive. Further intructions will follow." }));
+        this.messages.push(new Message("United Federation of Nations High Command", { orig: "Your mission objectives" }, { orig: "Your mission is simple: save the human race, by establishing a colony on another world! First, you must test out the starship control systems and its hyperdrive. Further intructions will follow." }));
     }
 
     public get(messageid: string) {

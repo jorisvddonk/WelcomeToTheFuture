@@ -57,6 +57,7 @@ interface Locatable {
 }
 
 type Message {
+  from: String!
   id: String!
   isRead: Boolean!
   title(translate: Translation): String!
