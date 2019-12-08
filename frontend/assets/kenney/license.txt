@@ -1,0 +1,4 @@
+cc0 1.0 Universal (https://creativecommons.org/publicdomain/zero/1.0/)
+https://www.kenney.nl/assets/space-shooter-redux
+https://www.kenney.nl/assets/space-shooter-extension
+https://www.kenney.nl/assets/background-elements
