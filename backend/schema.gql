@@ -185,7 +185,7 @@ enum Status {
 
 type Subscription {
   starshipUpdate: Starship!
-  starUpdate: Star!
+  currentStar: Star!
   inboxSub: [Message!]!
   onAchievementUnlocked: Achievement!
   uiStateUpdate: UIStateUpdate!

@@ -91,7 +91,7 @@ async function boot() {
 
   Universe.addStarUpdateListener(() => {
     pubsub.publish(
-      "starUpdate",
+      "currentStar",
       Universe.getCurrentStar()
     );
     if (Universe.getCurrentStar().name === "Beta Giclas") {

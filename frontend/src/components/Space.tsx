@@ -92,14 +92,14 @@ export default class Space extends React.Component<ISpaceProps, any> {
       .subscribe({
         query: gql`
           subscription {
-            starUpdate {
+            currentStar {
               ${starPropsQuery}
             }
           }
         `
       })
       .forEach(x => {
-        const star = x.data.starUpdate;
+        const star = x.data.currentStar;
         this.setStarData(star);
       });
 

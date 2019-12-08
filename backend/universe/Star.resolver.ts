@@ -57,9 +57,9 @@ export class StarResolver /* implements ResolverInterface<Star>*/ {
   }
 
   @Subscription({
-    topics: ["starUpdate"]
+    topics: ["currentStar"]
   })
-  starUpdate(@Root() payload: Star): Star {
+  currentStar(@Root() payload: Star): Star {
     return payload;
   }
 }
