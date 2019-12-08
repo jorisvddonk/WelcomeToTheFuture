@@ -1,5 +1,17 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700|Source+Code+Pro:400,700");
 
+@mixin animation {
+  $animation-number: 0 !default !global;
+  $animation-number: $animation-number + 1 !global;
+  $name: unquote("animation-#{$animation-number}");
+  animation-name: $name;
+  @at-root {
+    @keyframes #{$name} {
+      @content;
+    }
+  }
+}
+
 body {
   background: #434;
   padding: 0px;
@@ -275,5 +287,36 @@ body {
     background-repeat: repeat-x;
     background-position: bottom;
     filter: brightness(0.8) saturate(3) hue-rotate(280deg);
+  }
+
+  .starship {
+    width: 157px * 0.5;
+    height: 309px * 0.5;
+    animation: 13s ease-out;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    @include animation {
+      from {
+        transform: rotate(20deg) translate(280px, -300px);
+      }
+      to {
+        transform: rotate(0deg) translate(250px, 300px);
+      }
+    }
+
+    .thrust {
+      animation: 13s cubic-bezier(1, 0.01,1,-0.03);
+      animation-iteration-count: 1;
+      animation-fill-mode: forwards;
+      filter: brightness(4);
+      @include animation {
+        from {
+          opacity: 1;
+        }
+        to {
+          opacity: 0;
+        }
+      }
+    }
   }
 }

@@ -7,6 +7,7 @@ export enum ESurfaceType {
 
 export interface ISurfaceProps {
   surfaceType: ESurfaceType;
+  showShipLanding: boolean;
 }
 
 export default class Surface extends React.Component<ISurfaceProps, any> {
@@ -41,6 +42,7 @@ export default class Surface extends React.Component<ISurfaceProps, any> {
           <div className="clouds-background"></div>
           <div className="clouds"></div>
           <div className={["ground", `ground-${this.props.surfaceType}`].join(' ')}></div>
+          {this.props.showShipLanding ? <div className="starship"><div className="thrust"></div></div> : null}
         </div>
       </div>
     );
