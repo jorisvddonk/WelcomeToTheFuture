@@ -17,6 +17,8 @@ import { Starship } from "../starship/Starship";
 import { StarsPage } from "./pages/StarsPage";
 import { PlanetsPage } from "./pages/PlanetsPage";
 import { PageFilter, GeneratePage } from "../lib/Page";
+import { HazardsFilter } from "./HazardFilter";
+import { hazardToNumber } from "./HazardUtils";
 
 export class RootResolver {
     @Query(of => [Moon])
@@ -65,11 +67,37 @@ export class RootResolver {
     }
 
     @Query(returns => PlanetsPage)
-    async pagedPlanets(@Arg('type', { nullable: true }) type: string, @Args() filter: PageFilter): Promise<PlanetsPage> {
+    async pagedPlanets(@Arg('type', { nullable: true }) type: string, @Args(type => HazardsFilter) hazards: HazardsFilter,
+        @Args() filter: PageFilter): Promise<PlanetsPage> {
         let items = Universe.getPlanets();
         if (type !== undefined) {
             items = items.filter(planet => planet.type === type);
         }
+        if (hazards.maxBio !== undefined) {
+            items = items.filter(planet => hazardToNumber(planet.bioHazard) <= hazardToNumber(hazards.maxBio));
+        }
+        if (hazards.minBio !== undefined) {
+            items = items.filter(planet => hazardToNumber(planet.bioHazard) >= hazardToNumber(hazards.minBio));
+        }
+        if (hazards.maxTectonics !== undefined) {
+            items = items.filter(planet => hazardToNumber(planet.tectonicsHazard) <= hazardToNumber(hazards.maxTectonics));
+        }
+        if (hazards.minTectonics !== undefined) {
+            items = items.filter(planet => hazardToNumber(planet.tectonicsHazard) >= hazardToNumber(hazards.minTectonics));
+        }
+        if (hazards.maxWeather !== undefined) {
+            items = items.filter(planet => hazardToNumber(planet.weatherHazard) <= hazardToNumber(hazards.maxWeather));
+        }
+        if (hazards.minWeather !== undefined) {
+            items = items.filter(planet => hazardToNumber(planet.weatherHazard) >= hazardToNumber(hazards.minWeather));
+        }
+        if (hazards.maxThermal !== undefined) {
+            items = items.filter(planet => hazardToNumber(planet.thermalHazard) <= hazardToNumber(hazards.maxThermal));
+        }
+        if (hazards.minThermal !== undefined) {
+            items = items.filter(planet => hazardToNumber(planet.thermalHazard) >= hazardToNumber(hazards.minThermal));
+        }
+
         const retval = await GeneratePage<Planet>(items, filter, planet => `${planet.star}_${planet.name}`);
         return retval;
     }
