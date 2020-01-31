@@ -133,7 +133,7 @@ type Query {
   planets: [Planet!]!
   currentStar: Star
   stars(cursor: String, take: Int, nameSearch: String, name: String): StarsPage!
-  pagedPlanets(cursor: String, take: Int): PlanetsPage!
+  pagedPlanets(cursor: String, take: Int, type: String): PlanetsPage!
   starship: Starship!
   star(name: String!): Star
   inbox(filter: InboxFilter): [Message!]

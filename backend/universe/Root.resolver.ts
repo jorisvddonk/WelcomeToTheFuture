@@ -65,8 +65,11 @@ export class RootResolver {
     }
 
     @Query(returns => PlanetsPage)
-    async pagedPlanets(@Args() filter: PageFilter): Promise<PlanetsPage> {
-        const items = Universe.getPlanets();
+    async pagedPlanets(@Arg('type', { nullable: true }) type: string, @Args() filter: PageFilter): Promise<PlanetsPage> {
+        let items = Universe.getPlanets();
+        if (type !== undefined) {
+            items = items.filter(planet => planet.type === type);
+        }
         const retval = await GeneratePage<Planet>(items, filter, planet => `${planet.star}_${planet.name}`);
         return retval;
     }
