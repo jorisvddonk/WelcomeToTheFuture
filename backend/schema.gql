@@ -130,10 +130,9 @@ type PlanetsPage {
 
 type Query {
   moons: [Moon!]!
-  planets: [Planet!]!
   currentStar: Star
   stars(cursor: String, take: Int, nameSearch: String, name: String): StarsPage!
-  pagedPlanets(cursor: String, take: Int, minBio: Hazard, maxBio: Hazard, minThermal: Hazard, maxThermal: Hazard, minWeather: Hazard, maxWeather: Hazard, minTectonics: Hazard, maxTectonics: Hazard, type: String): PlanetsPage!
+  planets(cursor: String, take: Int, minBio: Hazard, maxBio: Hazard, minThermal: Hazard, maxThermal: Hazard, minWeather: Hazard, maxWeather: Hazard, minTectonics: Hazard, maxTectonics: Hazard, type: String): PlanetsPage!
   starship: Starship!
   star(name: String!): Star
   inbox(filter: InboxFilter): [Message!]

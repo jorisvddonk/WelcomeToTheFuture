@@ -26,11 +26,6 @@ export class RootResolver {
         return Universe.getMoons();
     }
 
-    @Query(of => [Planet])
-    planets() {
-        return Universe.getPlanets();
-    }
-
     @Query(returns => Star, { nullable: true })
     async currentStar(): Promise<Star | undefined> {
         return Universe.getCurrentStar();
@@ -67,7 +62,7 @@ export class RootResolver {
     }
 
     @Query(returns => PlanetsPage)
-    async pagedPlanets(@Arg('type', { nullable: true }) type: string, @Args(type => HazardsFilter) hazards: HazardsFilter,
+    async planets(@Arg('type', { nullable: true }) type: string, @Args(type => HazardsFilter) hazards: HazardsFilter,
         @Args() filter: PageFilter): Promise<PlanetsPage> {
         let items = Universe.getPlanets();
         if (type !== undefined) {
