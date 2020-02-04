@@ -14,7 +14,6 @@ query {
 }
 ```
 
-
 ```graphql
 query {
   inbox {
@@ -26,33 +25,29 @@ query {
 }
 ```
 
-
 ```graphql
 mutation {
   markAllAsRead
 }
 ```
 
-
 ```graphql
 mutation {
-  setDesiredAngle(angle:90) {
+  setDesiredAngle(angle: 90) {
     timestamp
     message
   }
 }
 ```
 
-
 ```graphql
 mutation {
-  setThrust(thrust:1) {
+  setThrust(thrust: 1) {
     timestamp
     message
   }
 }
 ```
-
 
 ```graphql
 mutation {
@@ -63,16 +58,14 @@ mutation {
 }
 ```
 
-
 ```graphql
 mutation {
-  moveTo(planet:"Earth") {
+  moveTo(planet: "Earth") {
     status
     message
   }
 }
 ```
-
 
 ```graphql
 query {
@@ -84,13 +77,11 @@ query {
 }
 ```
 
-
 ```graphql
 mutation {
   markAllAsRead
 }
 ```
-
 
 ```graphql
 query {
@@ -113,11 +104,10 @@ query {
 }
 ```
 
-
 ```graphql
 query {
   currentStar {
-    nearbyStars(maxRange:50) {
+    nearbyStars(maxRange: 50) {
       name
       hyperspaceRange
     }
@@ -125,17 +115,15 @@ query {
 }
 ```
 
-
 ```graphql
 mutation {
-  hyperspaceJump(star:"Sirius") {
+  hyperspaceJump(star: "Sirius") {
     status
     message
     timestamp
   }
 }
 ```
-
 
 ```graphql
 query {
@@ -147,13 +135,11 @@ query {
 }
 ```
 
-
 ```graphql
 mutation {
   markAllAsRead
 }
 ```
-
 
 ```graphql
 query {
@@ -174,15 +160,14 @@ query {
 }
 ```
 
-
 ```graphql
 query {
-  stars(nameSearch:"Beta Giclas") {
+  stars(nameSearch: "Beta Giclas") {
     entries {
       node {
         name
         hyperspaceRange
-        planets(type:"Water") {
+        planets(type: "Water") {
           name
           type
           length_of_day
@@ -206,17 +191,15 @@ query {
 }
 ```
 
-
 ```graphql
 mutation {
-  hyperspaceJump(star:"Beta Giclas") {
+  hyperspaceJump(star: "Beta Giclas") {
     status
     message
     timestamp
   }
 }
 ```
-
 
 ```graphql
 query {
@@ -229,18 +212,16 @@ query {
 }
 ```
 
-
 ```graphql
 query {
   inbox(filter: { isRead: false }) {
     from
     isRead
-    title(translate:ENGLISH)
-    body(translate:ENGLISH)
+    title(translate: ENGLISH)
+    body(translate: ENGLISH)
   }
 }
 ```
-
 
 ```graphql
 mutation {
@@ -249,6 +230,7 @@ mutation {
 ```
 
 THIS WILL NOT WORK:
+
 ```graphql
 query {
   stars {
@@ -256,7 +238,7 @@ query {
       node {
         name
         hyperspaceRange
-        planets(type:"Water") {
+        planets(type: "Water") {
           name
           type
           length_of_day
@@ -281,14 +263,15 @@ query {
 ```
 
 take only 10:
+
 ```graphql
 query {
-  stars(take:10) {
+  stars(take: 10) {
     entries {
       node {
         name
         hyperspaceRange
-        planets(type:"Water") {
+        planets(type: "Water") {
           name
           type
           length_of_day
@@ -314,14 +297,15 @@ query {
 ```
 
 cursor to keep paging:
+
 ```graphql
 query {
-  stars(take:10, cursor:"QWxwaGEgQXF1aWxhZQ==") {
+  stars(take: 10, cursor: "QWxwaGEgQXF1aWxhZQ==") {
     entries {
       node {
         name
         hyperspaceRange
-        planets(type:"Water") {
+        planets(type: "Water") {
           name
           type
           length_of_day
@@ -347,6 +331,7 @@ query {
 ```
 
 make it simple (add variables):
+
 ```graphql
 query($take: Int = 10, $cursor: String) {
   stars(take: $take, cursor: $cursor) {
@@ -378,15 +363,16 @@ query($take: Int = 10, $cursor: String) {
   }
 }
 ```
+
 variables:
+
 ```json
 {
   "take": 50
 }
 ```
 
-
-...keep paging until you get the following variables:
+...you can keep paging until you get the following variables:
 
 ```json
 {
@@ -395,22 +381,106 @@ variables:
 }
 ```
 
-"Beta Equulei" looks interesting..
+...but that is not really ideal. It'd be better if - instead of querying all stars and then getting a list of habitable planets there - we query all habitable planets and for each of those get the star it is orbiting around:
 
-Let's gather more info, and simplify the query using a Fragment
 ```graphql
-query($take: Int = 10, $cursor: String) {
-  stars(take: $take, cursor: $cursor, nameSearch: "Beta Equulei") {
+query {
+  planets(
+    type: "Water"
+    maxBio: LOW
+    maxThermal: LOW
+    maxWeather: LOW
+    maxTectonics: LOW
+  ) {
     entries {
       node {
         name
-        hyperspaceRange
-        planets(type: "Water") {
+        star {
           name
-          type
-          length_of_day
-          hazards {
-            ...hzd
+        }
+        length_of_day
+        hazards {
+          bio
+          thermal
+          weather
+          tectonics
+        }
+      }
+    }
+  }
+}
+```
+
+The planet orbiting "Beta Equulei" looks interesting..
+
+Let's gather more info, and simplify the query using a Fragment
+
+```graphql
+query {
+  planets(
+    type: "Water"
+    maxBio: LOW
+    maxThermal: LOW
+    maxWeather: LOW
+    maxTectonics: LOW
+  ) {
+    entries {
+      node {
+        name
+        type
+        length_of_day
+        hazards {
+          ...hzd
+        }
+        star {
+          name
+          hyperspaceRange
+        }
+      }
+    }
+    pageInfo {
+      count
+      endCursor
+      hasMore
+    }
+    collectionInfo {
+      count
+    }
+  }
+}
+
+fragment hzd on Hazards {
+  bio
+  thermal
+  weather
+  tectonics
+}
+```
+
+get all objects around the star (to prevent a similar alien incident from happening):
+
+```graphql
+query {
+  planets(
+    type: "Water"
+    maxBio: LOW
+    maxThermal: LOW
+    maxWeather: LOW
+    maxTectonics: LOW
+  ) {
+    entries {
+      node {
+        name
+        type
+        length_of_day
+        hazards {
+          ...hzd
+        }
+        star {
+          name
+          hyperspaceRange
+          objects {
+            __typename
           }
         }
       }
@@ -433,53 +503,39 @@ fragment hzd on Hazards {
   tectonics
 }
 ```
-note: use empty variables:
-```json
-{}
-```
-
-get all objects instead:
-```graphql
-query($take: Int = 10, $cursor: String) {
-  stars(take: $take, cursor: $cursor, nameSearch: "Beta Equulei") {
-    entries {
-      node {
-        name
-        hyperspaceRange
-        objects {
-          __typename
-        }
-      }
-    }
-    pageInfo {
-      count
-      endCursor
-      hasMore
-    }
-    collectionInfo {
-      count
-    }
-  }
-}
-```
 
 get more info on these objects:
+
 ```graphql
-query($take: Int = 10, $cursor: String) {
-  stars(take: $take, cursor: $cursor, nameSearch: "Beta Equulei") {
+query {
+  planets(
+    type: "Water"
+    maxBio: LOW
+    maxThermal: LOW
+    maxWeather: LOW
+    maxTectonics: LOW
+  ) {
     entries {
       node {
         name
-        hyperspaceRange
-        objects {
-          __typename
-          ... on Body {
-            ...bodyInfo
-            ...position
-          }
-          ... on UnidentifiedObject {
-            scannerData
-            ...position
+        type
+        length_of_day
+        hazards {
+          ...hzd
+        }
+        star {
+          name
+          hyperspaceRange
+          objects {
+            __typename
+            ... on Body {
+              ...bodyInfo
+              ...position
+            }
+            ... on UnidentifiedObject {
+              scannerData
+              ...position
+            }
           }
         }
       }
@@ -520,12 +576,9 @@ fragment position on Locatable {
   }
 }
 ```
-variables:
-```json
-{}
-```
 
 Looks good.. let's set up a subscription so we can track the star name where we are at.
+
 ```graphql
 subscription {
   currentStar {
@@ -536,7 +589,7 @@ subscription {
 
 ```graphql
 mutation {
-  hyperspaceJump(star:"Beta Equulei") {
+  hyperspaceJump(star: "Beta Equulei") {
     status
     message
     timestamp
@@ -545,7 +598,6 @@ mutation {
 ```
 
 (the subscription should now have triggered...)
-
 
 ```graphql
 mutation {
@@ -557,6 +609,7 @@ mutation {
 ```
 
 and finally, wrap it up!
+
 ```graphql
 mutation {
   land {
