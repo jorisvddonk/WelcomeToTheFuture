@@ -20,7 +20,7 @@
     "graphql": "^14.5.8",
     "graphql-query-complexity": "^0.4.1",
     "graphql-subscriptions": "^1.1.0",
-    "lodash": "^4.17.15",
+    "lodash": "^4.17.19",
     "mersenne-twister": "^1.1.0",
     "murmurhash3js": "^3.0.1",
     "reflect-metadata": "^0.1.13",
