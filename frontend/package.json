@@ -39,7 +39,7 @@
     "graphql": "^14.5.8",
     "graphql-playground-react": "^1.7.20",
     "graphql-tag": "^2.10.1",
-    "lodash": "^4.17.15",
+    "lodash": "^4.17.19",
     "noty": "^3.2.0-beta",
     "react": "^16.10.2",
     "react-dom": "^16.10.2",
