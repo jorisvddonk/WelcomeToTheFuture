@@ -26,7 +26,7 @@
     "reflect-metadata": "^0.1.13",
     "rxjs": "^6.5.3",
     "sylvester-es6": "0.0.2",
-    "type-graphql": "^0.17.5"
+    "type-graphql": "^0.17.6"
   },
   "devDependencies": {
     "@types/node": "^12.11.1",
