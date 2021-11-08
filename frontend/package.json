@@ -37,7 +37,7 @@
     "apollo-link-http": "^1.5.16",
     "apollo-link-ws": "^1.0.19",
     "graphql": "^14.5.8",
-    "graphql-playground-react": "^1.7.20",
+    "graphql-playground-react": "^1.7.28",
     "graphql-tag": "^2.10.1",
     "lodash": "^4.17.15",
     "noty": "^3.2.0-beta",
